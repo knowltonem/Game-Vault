@@ -28,17 +28,24 @@ SORT file.name ASC
 
 ## 🛒 Wishlist — Next Purchases
 
-```dataview
-TABLE notes AS "Notes"
-FROM "games/lotr-lcg/collection"
-WHERE file.name = "my-collection"
-```
-
 > [!tip] Top picks right now
 > - **Heirs of Númenor** — Noble Knight NM $55 — recent arrival, won't last
 > - **The Dark of Mirkwood** — ~$20, continues the core campaign
-> - **The Black Riders Saga** — Noble Knight Mint $34.95, hard to find anywhere else
+> - **The Black Riders Saga** — Noble Knight Mint $34.95
 > - 🔗 [Browse Noble Knight LOTR LCG](https://www.nobleknight.com/Products/Lord-of-the-Rings-LCG-The---Core-Starters-and-Assorted)
+
+---
+
+## ✅ Starter Collection — COMPLETE
+
+> [!success] All 4 starter decks owned!
+> - ✅ Revised Core Set (FFGMEC101)
+> - ✅ Dwarves of Durin (FFGMEC103)
+> - ✅ Riders of Rohan (FFGMEC106)
+> - ✅ Defenders of Gondor (FFGMEC105)
+> - ✅ Elves of Lórien (FFGMEC104)
+>
+> **641 total cards** — sleeve up with 7 × 100-pack Dragon Shield Matte
 
 ---
 
