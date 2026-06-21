@@ -42,8 +42,8 @@
 | Infected D | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | Jameson | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | R.J. MaCready | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
-| **Repair-Protocols → Repair Orders** | `Repair-Orders-Front-Face.png` | `Repair-Orders-Back-Face.png` | 🔴 BLOCKED | Rename "Protocols" → "Orders". Waiting on Claude data. |
-| **Station-Protocol-Suspicion → Station-Procedures** | `Station-Procedures-Front-Face.png` | `Station-Procedures-Back-Face.png` | 🔴 BLOCKED | Rename "Protocol-Suspicion" → "Procedures". Waiting on Claude data. |
+| Repair Protocols (#31) | — | — | 🟢 DONE | Kept "Protocols" (period-accurate). "Helicopter Pad" → "Ice Runway" ref fix + style. |
+| Station Protocol: Suspicion (#30) | — | — | 🟢 DONE | Kept name (period-accurate). Style: lowercase "suspicion". |
 | Wilford Brimley | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 
 ## Treachery & Enemy
@@ -102,10 +102,10 @@
 
 ## Summary
 
-| Category | Total | Skip | TBD | Queued | Blocked | Done |
-|---|---|---|---|---|---|---|---|
-| Locations | 9 | 6 | 1 | 2 | 0 | 0 |
-| Story Assets | 14 | 12 | 0 | 0 | 2 | 0 |
+| Category | Total | Skip | TBD | Queued | Done |
+|---|---|---|---|---|---|
+| Locations | 9 | 6 | 1 | 2 | 0 |
+| Story Assets | 14 | 10 | 0 | 0 | 2 (Repair-Protocols, Station-Protocol-Suspicion — data resolved, no rename needed) |
 | Treachery & Enemy | 37 | 37 | 0 | 0 | 0 | 0 |
 | Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 | 0 |
@@ -121,3 +121,4 @@
 | 2026-06-21 | Created mod log. 3 cards blocked waiting on Claude Desktop data (Helicopter-Pad, Station-Protocol-Suspicion, Repair-Protocols). All 3 involve name changes + text fixes for 1920s accuracy. |
 | 2026-06-21 | All 9 location cards extracted via Claude Desktop. Helicopter-Pad queued for Strange Eons. Vehicle-Storage flavor text flagged for decision ("snow machines"). All card data filed in `_card-data/`. |
 | 2026-06-21 | Supply Room typo confirmed: "evade and enemy" → "evade an enemy". Moved to QUEUED for Strange Eons batch. |
+| 2026-06-21 | Repair-Protocols + Station-Protocol: kept "Protocols" names (period-accurate). Applied Ice Runway ref fix + style fixes. Unblocked both. Created consolidated typo-fixes.md for Strange Eons render pass. |
