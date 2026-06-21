@@ -9,11 +9,11 @@
 
 | Path | Content |
 |------|---------|
-| `Edge of the Earth - Original/` | Original campaign files (once acquired) |
-| `edge-of-the-earth-mod/` | Modified versions (period accuracy, etc.) |
-| `outpost31/` | Suggested prologue — Outpost 31 fan scenario |
-| `betrayal-at-the-mountains-of-madness/` | Suggested interlude — fan scenario |
-| `the-svalbard-event/` | Suggested interlude — fan scenario |
+| `0 - At the Mountains of Madness/` | Lovecraft novella (literary pre-reading) |
+| `1 - Outpost 31/` | Prologue — Outpost 31 fan scenario |
+| `2 - Edge of the Earth/` | Main campaign |
+| `3 - Betrayal at the Mountains of Madness/` | Interlude — fan scenario |
+| `4 - The Svalbard Event/` | Interlude — fan scenario |
 
 ## Literary source
 - [[../notes/outpost31|Literary context — At the Mountains of Madness]]
@@ -22,10 +22,11 @@
 
 ## Recommended play order
 
+0. **At the Mountains of Madness** — literary pre-reading (optional)
 1. **Outpost 31** — prologue (rescue team dispatched to Outpost 31)
-2. *Betrayal at the Mountains of Madness* — interlude (if applicable)
-3. *The Svalbard Event* — interlude (if applicable)
-4. **Edge of the Earth** — main campaign (Ice and Death → ...)
+2. **Edge of the Earth** — main campaign (Ice and Death → ...)
+3. *Betrayal at the Mountains of Madness* — interlude (if applicable)
+4. *The Svalbard Event* — interlude (if applicable)
 
 ---
 
