@@ -9,10 +9,10 @@
 
 | Path | Content |
 |------|---------|
-| `0 - At the Mountains of Madness/` | Lovecraft novella (literary pre-reading) |
+| `0 - At The Mountains Of Madness/` | Lovecraft novella (literary pre-reading) |
 | `1 - Outpost 31/` | Prologue — Outpost 31 fan scenario |
-| `2 - Edge of the Earth/` | Main campaign |
-| `3 - Betrayal at the Mountains of Madness/` | Interlude — fan scenario |
+| `2 - Edge Of The Earth/` | Main campaign |
+| `3 - Betrayal At The Mountains Of Madness/` | Interlude — fan scenario |
 | `4 - The Svalbard Event/` | Interlude — fan scenario |
 
 ## Literary source
