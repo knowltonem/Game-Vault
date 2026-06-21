@@ -9,7 +9,7 @@
 
 | Path | Content |
 |------|---------|
-| `Edge of the Earth (Arkham Central)/` | Original campaign files (once acquired) |
+| `Edge of the Earth - Original/` | Original campaign files (once acquired) |
 | `edge-of-the-earth-mod/` | Modified versions (period accuracy, etc.) |
 | `outpost31/` | Suggested prologue — Outpost 31 fan scenario |
 | `betrayal-at-the-mountains-of-madness/` | Suggested interlude — fan scenario |
