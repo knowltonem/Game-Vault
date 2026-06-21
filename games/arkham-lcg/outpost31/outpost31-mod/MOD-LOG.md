@@ -27,7 +27,7 @@
 | Radio-room | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Period-accurate. Data filed. |
 | Rec-Room | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
 | Research-Lab | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
-| Supply-Room | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. Note: original likely says "evade and enemy" — typo for "evade an enemy". |
+| Supply-Room → (typo fix) | `Supply-Room-Front-Face.png` | `Supply-Room-Back-Face.png` | 🟡 QUEUED | Fix "evade and enemy" → "evade an enemy". Minor text fix only. Can batch with Ice Runway in Strange Eons. |
 | Vehicle-Storage | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | "Snow machines" is period-accurate (Scott 1910 motor sledges, Byrd 1928 tractors). No change needed. |
 
 ## Story Assets
@@ -104,7 +104,7 @@
 
 | Category | Total | Skip | TBD | Queued | Blocked | Done |
 |---|---|---|---|---|---|---|---|
-| Locations | 9 | 7 | 1 | 1 | 0 | 0 |
+| Locations | 9 | 6 | 1 | 2 | 0 | 0 |
 | Story Assets | 14 | 12 | 0 | 0 | 2 | 0 |
 | Treachery & Enemy | 37 | 37 | 0 | 0 | 0 | 0 |
 | Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
@@ -120,3 +120,4 @@
 |---|---|
 | 2026-06-21 | Created mod log. 3 cards blocked waiting on Claude Desktop data (Helicopter-Pad, Station-Protocol-Suspicion, Repair-Protocols). All 3 involve name changes + text fixes for 1920s accuracy. |
 | 2026-06-21 | All 9 location cards extracted via Claude Desktop. Helicopter-Pad queued for Strange Eons. Vehicle-Storage flavor text flagged for decision ("snow machines"). All card data filed in `_card-data/`. |
+| 2026-06-21 | Supply Room typo confirmed: "evade and enemy" → "evade an enemy". Moved to QUEUED for Strange Eons batch. |

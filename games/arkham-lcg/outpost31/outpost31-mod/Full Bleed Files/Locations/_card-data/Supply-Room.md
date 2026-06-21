@@ -34,7 +34,7 @@
 **Ability 2 (Reaction):**
 > [reaction] If you evade an enemy at this location: Draw 2 resources (from the token pool).
 
-Note: Original likely reads "evade and enemy" — assumed typo for "evade an enemy". Verify against card image.
+**Verified typo:** Card reads "evade and enemy" — should be **"evade an enemy"**. Fix when recreating.
 
 ### Back Face (Unrevealed)
 
