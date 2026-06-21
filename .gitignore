@@ -10,3 +10,6 @@ Thumbs.db
 
 # Temp / scratch
 *.tmp
+
+# Large binary archives (exceeds GitHub 100MB limit)
+*.zip
