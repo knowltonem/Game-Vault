@@ -1,12 +1,12 @@
-# Mess Hall
+﻿# Mess Hall
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Mess-Hall-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Mess-Hall-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-neutral, no changes needed
+**Mod status:** âšª SKIP â€” period-neutral, no changes needed
 
 **Illustrator:** Sebastian Rodriguez
 
-**Encounter set:** Snowflake (❄) | **Number:** 11 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 11 | **Set:** II
 
 ---
 
@@ -24,9 +24,9 @@
 | Per investigator | Yes |
 | Victory | 1 |
 | Own symbol | Yellow inverted-triangle |
-| Connection 1 | Green T/tee → Supply Room |
-| Connection 2 | Orange/red heart → Kennels |
-| Connection 3 | Blue upright triangle → Rec Room |
+| Connection 1 | Green T/tee â†’ Supply Room |
+| Connection 2 | Orange/red heart â†’ Kennels |
+| Connection 3 | Blue upright triangle â†’ Rec Room |
 
 **Ability 1 (Action):**
 > [action]: Spend 2 resources: Heal 2 horror. (Limit once per investigator per round.)

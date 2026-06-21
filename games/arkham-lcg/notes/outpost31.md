@@ -2,7 +2,7 @@
 
 > Antarctic research station horror — *The Thing* meets Arkham LCG. Fully self-contained PNP scenario by Gary Walker. May 2026. Rated 5/5.
 
-**Download:** [ArkhamCentral](https://arkhamcentral.com/outpost-31/) · **Files:** `games/arkham-lcg/outpost31/`
+**Download:** [ArkhamCentral](https://arkhamcentral.com/outpost-31/) · **Files:** `games/arkham-lcg/edge-of-the-earth/outpost31/`
 
 ---
 
@@ -61,6 +61,53 @@ Can also be played standalone (no campaign) whenever you want a short Antarctic 
 
 ---
 
+---
+
+## Literary Context — At the Mountains of Madness
+
+> *"The place was not of this world, nor of any world that could have been conceived by the sane mind."* — H.P. Lovecraft, *At the Mountains of Madness* (1936)
+
+This campaign chain (Outpost 31 → Edge of the Earth) is a direct heir to Lovecraft's novella. Understanding the source text deepens both scenarios.
+
+### Common lineage
+
+| Element | At the Mountains of Madness | Outpost 31 | Edge of the Earth |
+|---|---|---|---|
+| **Expedition** | Miskatonic University Antarctic Expedition | Miskatonic rescue team | Miskatonic expedition to find the lost party |
+| **Ancient race** | The Elder Things / Old Ones | Referenced via organism's origin | The Elder Things — city ruins reveal their history |
+| **Shoggoths** | Shape-shifting servant-creatures that rebelled | The organism is functionally a rogue shoggoth — mimics lifeforms, consumes, infiltrates | Shoggoth tokens, "Heart of Madness" |
+| **The City** | Cyclopean stone metropolis under the ice | Not directly seen — only the organism escaped | City of the Elder Things — central scenario |
+| **Blood tests** | Dyer examines cellular structure of Elder Thing tissue | Player crew must blood-test each other to find the infected | Not mechanical, but thematic echo |
+| **Frozen specimens** | Lake's team finds Elder Things frozen in ice | The organism may have been thawed by station activity | Elder Thing frozen specimens in ice caves |
+| **Paranoia & trust** | Dyer distrusts his own crew after discovering the truth | Central mechanic — Suspicion, Baseless Accusations | Campaign choices — who survives, who is sacrificed |
+| **Forbidden knowledge** | "The worst thing was not the cold, but what lived in it" | Radio operator's last words echo this directly | The entire campaign is learning the truth about the Elder Things |
+
+### Narrative timeline (in-world)
+
+```
+~1 billion years ago    Elder Things build the Antarctic city, create shoggoths as servants
+~50 million years ago   Shoggoths rebel; city partially destroyed, survivors sealed beneath ice
+1930                    Miskatonic University Expedition (Lake/Dyer) discovers the city
+                        Dyer's report is suppressed — the truth is too dangerous
+1936                    Lovecraft publishes a fictionalized account ("At the Mountains of Madness")
+                        Few believe it — but Miskatonic's files remain classified
+1939                    Outpost 31 established as a covert research station
+                        Mission: quietly re-examine Lake's discovery site
+1940                    Contact lost with Outpost 31 — rescue team dispatched
+                        → **This is where our campaign begins**
+1941                    Main Miskatonic expedition (Edge of the Earth) follows the trail
+                        Searching for both the lost rescue team and the truth
+```
+
+> The rescue team *is* the party that was lost between Outpost 31 and the main EotE expedition. Their fate is the mystery at the heart of the campaign.
+
+### Flavor ideas
+
+- Name the Miskatonic base camp after **Lake** or **Dyer** (Lake Camp / Dyer Station) to honor the original expedition
+- Sprinkle references in scenario narration: "the drill brings up ice cores laced with black oil that smells of alien stone"
+- The prelude to each scenario can mention haunting dreams — the Elder Things' psychic echo bleeding through time
+- The organism's "Hive Mind" keyword (if used) fits Lovecraft's shoggoth — a collective consciousness without individual identity
+
 ## Requirements
 
 | Component | Needed? | Source |
@@ -68,7 +115,7 @@ Can also be played standalone (no campaign) whenever you want a short Antarctic 
 | Player cards | Yes | Chapter Two core or any investigator collection |
 | Chaos bag + tokens | Yes | Any core set |
 | Damage/horror/clue/resource tokens | Yes | Any core set |
-| Encounter cards | Provided | PNP files in `outpost31/` |
+| Encounter cards | Provided | PNP files in `edge-of-the-earth/outpost31/` |
 | Scenario guide | Provided | `Outpost 31 Scenario Guide.pdf` |
 
 ---
@@ -95,7 +142,7 @@ Edge of the Earth is set in the **1920s** (ship from Boston through the Panama C
 
 ## Printing
 
-Files are in `games/arkham-lcg/outpost31/`:
+Files are in `games/arkham-lcg/edge-of-the-earth/outpost31/`:
 - `Full Bleed Files/` — individual cards for print-and-play
 - `PDF Files/` — print-ready sheets
 - `Outpost 31 Scenario Guide.pdf` — rules and setup

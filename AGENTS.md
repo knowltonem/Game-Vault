@@ -27,12 +27,22 @@ board-game-vault/
 │       │   ├── legacy-content.md       — Chapter 1 buying guide with campaign priorities
 │       │   ├── carcosa-guide.md        — DerBK substitution table (Carcosa)
 │       │   ├── edge-of-the-earth-guide.md — DerBK substitution table (EotE)
-│       │   ├── outpost31.md            — fan scenario guide + 1920s re-flavor notes
+│       │   ├── outpost31.md            — fan scenario guide + period re-flavor notes
+│       │   ├── betrayal-at-the-mountains-of-madness.md — literary companion notes
+│       │   ├── the-svalbard-event.md   — Arctic scenario notes
+│       │   ├── fan-content-catalog.md  — ArkhamCentral scenario rankings
 │       │   └── ...
 │       ├── decks/
 │       │   └── ...
-│       ├── outpost31/                  — ORIGINAL PNP files (keep intact)
-│       └── outpost31-mod/              — MODIFIED versions of Outpost 31 cards
+│       ├── edge-of-the-earth/          — CAMPAIGN HUB (single source of truth)
+│       │   ├── edge-of-the-earth.md
+│       │   ├── Book - At the Mountains of Madness/   — Lovecraft novella (6 chapters)
+│       │   ├── Edge of the Earth (Arkham Central)/   — original campaign (when acquired)
+│       │   ├── edge-of-the-earth-mod/                — EotE modifications
+│       │   ├── outpost31/ + outpost31-mod/           — prologue: Outpost 31
+│       │   ├── betrayal-at-the-mountains-of-madness/ + -mod/  — interlude
+│       │   └── the-svalbard-event/ + -mod/           — interlude
+│       └── ...
 ├── AGENTS.md                           — this file
 ├── Home.md                             — vault landing page
 ├── README.md

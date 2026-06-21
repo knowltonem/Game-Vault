@@ -1,12 +1,12 @@
-# Research Lab
+﻿# Research Lab
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Research-Lab-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Research-Lab-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-neutral, no changes needed
+**Mod status:** âšª SKIP â€” period-neutral, no changes needed
 
 **Illustrator:** Robert Laskey
 
-**Encounter set:** Snowflake (❄) | **Number:** 15 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 15 | **Set:** II
 
 ---
 
@@ -23,8 +23,8 @@
 | Clues | 2 |
 | Per investigator | Yes |
 | Victory | 1 |
-| Own symbol | Orange circle ● |
-| Connection | Blue upright triangle → Rec Room |
+| Own symbol | Orange circle â— |
+| Connection | Blue upright triangle â†’ Rec Room |
 
 **Ability 1 (Reaction):**
 > [reaction]: After the last clue is discovered from Research Lab: You may reveal a Blood Test on any Crew Member in play.

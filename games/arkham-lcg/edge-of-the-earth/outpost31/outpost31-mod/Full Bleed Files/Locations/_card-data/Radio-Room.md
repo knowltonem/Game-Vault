@@ -1,12 +1,12 @@
-# Radio Room
+﻿# Radio Room
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Radio-room-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Radio-room-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-accurate (radio existed in 1920s), no changes needed
+**Mod status:** âšª SKIP â€” period-accurate (radio existed in 1920s), no changes needed
 
 **Illustrator:** Novtilus
 
-**Encounter set:** Snowflake (❄) | **Number:** 13 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 13 | **Set:** II
 
 ---
 
@@ -24,7 +24,7 @@
 | Per investigator | Yes |
 | Victory | 1 |
 | Own symbol | Green double-slash // |
-| Connection | Blue upright triangle → Rec Room |
+| Connection | Blue upright triangle â†’ Rec Room |
 
 **Ability 1 (Action):**
 > [action]: Test [intellect] or [agility] (3). If you succeed, choose a Crew Member with no suspicion on them: Move them to Radio Room.

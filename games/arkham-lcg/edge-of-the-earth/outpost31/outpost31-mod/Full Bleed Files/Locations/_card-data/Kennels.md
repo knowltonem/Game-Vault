@@ -1,12 +1,12 @@
-# Kennels
+﻿# Kennels
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Kennels-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Kennels-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-accurate (dog sleds), no changes needed
+**Mod status:** âšª SKIP â€” period-accurate (dog sleds), no changes needed
 
 **Illustrator:** Unknown
 
-**Encounter set:** Snowflake (❄) | **Number:** 10 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 10 | **Set:** II
 
 ---
 
@@ -23,8 +23,8 @@
 | Clues | 1 |
 | Per investigator | Yes |
 | Victory | 1 |
-| Own symbol | Orange/red heart ♥ |
-| Connection | Yellow inverted-triangle → Mess Hall |
+| Own symbol | Orange/red heart â™¥ |
+| Connection | Yellow inverted-triangle â†’ Mess Hall |
 
 **Ability (Reaction):**
 > [reaction] After you defeat an enemy at this location: Draw 1 card and gain 1 resource.

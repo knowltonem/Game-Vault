@@ -1,12 +1,12 @@
-# Office
+﻿# Office
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Office-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Office-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-neutral, no changes needed
+**Mod status:** âšª SKIP â€” period-neutral, no changes needed
 
 **Illustrator:** Unknown
 
-**Encounter set:** Snowflake (❄) | **Number:** 12 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 12 | **Set:** II
 
 ---
 
@@ -24,7 +24,7 @@
 | Per investigator | Yes |
 | Victory | None |
 | Own symbol | Red plus/cross + |
-| Connection | Blue upright triangle → Rec Room |
+| Connection | Blue upright triangle â†’ Rec Room |
 
 **Ability 1 (Action):**
 > [action][action]: Search the top 6 cards of your deck for a card and add it to your hand. Shuffle the rest back into your deck. (Limit once per turn.)

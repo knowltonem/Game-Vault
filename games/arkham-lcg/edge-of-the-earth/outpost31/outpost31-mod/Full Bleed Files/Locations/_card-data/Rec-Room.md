@@ -1,12 +1,12 @@
-# Rec Room
+﻿# Rec Room
 
-**Source:** Original at `outpost31/Outpost 31 (Arkham Central)/Full Bleed Files/Locations/Rec-Room-Front-Face.png`
+**Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Rec-Room-Front-Face.png`
 
-**Mod status:** ⚪ SKIP — period-neutral, no changes needed
+**Mod status:** âšª SKIP â€” period-neutral, no changes needed
 
 **Illustrator:** Davide Corsi
 
-**Encounter set:** Snowflake (❄) | **Number:** 14 | **Set:** II
+**Encounter set:** Snowflake (â„) | **Number:** 14 | **Set:** II
 
 ---
 
@@ -23,11 +23,11 @@
 | Clues | 1 |
 | Per investigator | Yes |
 | Victory | None |
-| Own symbol | Blue upright triangle ▲ |
-| Connection 1 | Yellow inverted-triangle → Mess Hall |
-| Connection 2 | Dark-red plus/cross → Office |
-| Connection 3 | Orange circle → Research Lab |
-| Connection 4 | Green double-slash // → Radio Room |
+| Own symbol | Blue upright triangle â–² |
+| Connection 1 | Yellow inverted-triangle â†’ Mess Hall |
+| Connection 2 | Dark-red plus/cross â†’ Office |
+| Connection 3 | Orange circle â†’ Research Lab |
+| Connection 4 | Green double-slash // â†’ Radio Room |
 
 **Ability 1 (Reaction):**
 > [reaction] After you perform a Parley action in Rec Room: Gain 2 resources. While 2 or more investigators are here, increase the cost of Parley actions by 1 resource. (Limit once per round.)
