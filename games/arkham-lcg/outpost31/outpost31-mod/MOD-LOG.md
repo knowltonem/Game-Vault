@@ -73,22 +73,22 @@
 
 | Card | Status | Notes |
 |---|---|---|
-| Act 1a/1b | ❓ TBD | Verify text for anachronisms when Claude reads them |
-| Act 2a/2b | ❓ TBD | |
-| Act 3a/3b | ❓ TBD | |
-| Agenda 1a/1b | ❓ TBD | |
-| Agenda 2a/2b | ❓ TBD | |
-| Agenda 3a/3b | ❓ TBD | |
-| Agenda 4a/4b | ❓ TBD | |
-| Scenario Card A/B | ❓ TBD | |
+| Act 1a/1b | ❓ TBD | 4 clues/investigator. Provisional data filed. Needs Claude visual verify. |
+| Act 2a/2b | ❓ TBD | 3 clues/investigator. |
+| Act 3a/3b | ❓ TBD | 3 clues/investigator. |
+| Agenda 1a/1b | ❓ TBD | Doom 8. |
+| Agenda 2a/2b | ❓ TBD | Doom 8. |
+| Agenda 3a/3b | ❓ TBD | Doom 8. |
+| Agenda 4a/4b | ❓ TBD | Doom 10. |
+| Scenario Card A/B | ❓ TBD | Full setup listed (starts at Mess Hall, 5 cards/5 resources). |
 
 ## Blood Tests
 
 | Card | Status | Notes |
 |---|---|---|
-| Assimilated | ⚪ SKIP | Generic card, no text issues |
-| Clear | ⚪ SKIP | |
-| Card Back | ⚪ SKIP | |
+| Assimilated | ⚪ SKIP | Infected: 3 suspicion + spawn Organism. Provisional data filed. |
+| Clear | ⚪ SKIP | Cleared: no suspicion for remainder. |
+| Card Back | ⚪ SKIP | No text. |
 
 ## Scenario Guide PDF
 
@@ -103,14 +103,14 @@
 ## Summary
 
 | Category | Total | Skip | TBD | Queued | Done |
-|---|---|---|---|---|---|
-| Locations | 9 | 6 | 1 | 2 | 0 |
-| Story Assets | 9 (4 role cards moved to Treachery) | 2 (Kate Lloyd, Jameson, Flamethrower) | 0 | 5 (Ellie Rowe, Elliot Childs, MaCready, Brimley) | 2 (Repair-Protocols, Station-Protocol) |
-| Treachery & Enemy | 24 (incl. 4 role cards from Story Assets) | 9 | 0 | 22 (incl. 2 required Ice Runway ref fixes) | 0 |
-| Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
-| Blood Tests | 3 | 3 | 0 | 0 | 0 | 0 |
-| PDFs / Docs | 3 | 0 | 3 | 0 | 0 | 0 |
-| **Total** | **76** | **59** | **14** | **0** | **3** | **0** |
+|---|---|---|---|---|---|---|
+| Locations | 9 | 7 | 0 | 2 | 0 |
+| Story Assets | 9 | 3 | 0 | 4 | 2 |
+| Treachery & Enemy | 20 | 6 | 0 | 14 | 0 |
+| Act & Agenda | 8 | 0 | 8 | 0 | 0 |
+| Blood Tests | 3 | 3 | 0 | 0 | 0 |
+| PDFs / Docs | 3 | 0 | 3 | 0 | 0 |
+| **Total** | **52** | **19** | **11** | **20** | **2** |
 
 ---
 
@@ -124,3 +124,4 @@
 | 2026-06-21 | Repair-Protocols + Station-Protocol: kept "Protocols" names (period-accurate). Applied Ice Runway ref fix + style fixes. Unblocked both. Created consolidated typo-fixes.md for Strange Eons render pass. |
 | 2026-06-21 | Treachery & Enemy complete: 18 cards + boss The Thing (#18). 2 required Ice Runway ref fixes. Title typos: Losing Humnanity, Outside Interferance. 11 new items in typo-fixes.md. Open #46 number conflict. |
 | 2026-06-21 | Reorg: moved 4 role cards (Human A/B/C, Infected D) from Story Assets to Treachery. Removed empty The-Organism stub. Normalized filenames: Radio-room → Radio-Room, R.J.MaCready → R-J-MaCready. |
+| 2026-06-21 | Created _card-data-original/ (58 files) inside original Outpost 31 folder with verbatim transcriptions + manifest re-scoped to exclude them. Discovered Trapped (6/7, 7/7), full Act/Agenda structure (3 acts, 4 agendas, 1 scenario), and Blood Tests (Clear, Assimilated). Filed provisional data into mod _card-data/ for all. |

@@ -1,5 +1,7 @@
 # Act-1
-
-**Source:** *(awaiting Claude Desktop data)*
-
-**Mod status:** ? TBD
+**Type:** Act | **#1a/1b**
+**Front (#1a):** Clues 4 (per investigator). Forced – When the last clue is discovered: Advance.
+**Front flavor:** Something is wrong at Outpost 31. Investigate the station and find out what.
+**Back (#1b):** The first signs of trouble emerge. A torn piece of clothing, a strange noise in the night. The crew is on edge.
+**Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
+**Mod status:** ? TBD (likely SKIP)
