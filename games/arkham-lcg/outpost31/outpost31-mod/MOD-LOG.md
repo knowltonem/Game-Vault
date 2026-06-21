@@ -34,17 +34,15 @@
 
 | Card | Front | Back | Status | Notes |
 |---|---|---|---|---|
-| Doctor Kate Lloyd | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Character name — period-neutral |
-| Ellie Rowe | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
-| Elliot Childs | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
-| Flamethrower | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Period-accurate (since WWI) |
-| *(Human Role cards moved to Treachery & Enemy — see below)* | — | — | ❌ MOVED | Role cards belong in Treachery category, not Story Assets. |
-| *(Infected Role D moved to Treachery & Enemy)* | — | — | ❌ MOVED | Same — it's a role card, not a story asset. |
-| Jameson | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
-| R.J. MaCready | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
-| Repair Protocols (#31) | — | — | 🟢 DONE | Kept "Protocols" (period-accurate). "Helicopter Pad" → "Ice Runway" ref fix + style. |
-| Station Protocol: Suspicion (#30) | — | — | 🟢 DONE | Kept name (period-accurate). Style: lowercase "suspicion". |
-| Wilford Brimley | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
+| Doctor Kate Lloyd (#20a) | ⚪ SKIP | Physician. Period-neutral. |
+| Ellie Rowe (#21a) | 🟡 QUEUED | "Parley. Parley." → drop duplicate. |
+| Elliot Childs (#22a) | 🟡 QUEUED | "Resources" → lowercase. |
+| Flamethrower (#19) | ⚪ SKIP | Unique ★ body asset, 4 ammo. Period-accurate (since WWI). |
+| Jameson (#23a) | ⚪ SKIP | Dog handler. Period-neutral. |
+| R.J. MaCready (#24a) | 🟡 QUEUED | Spelling decision: MaCready vs MacReady. |
+| Repair Protocols (#31) | 🟢 DONE | Kept name. Ice Runway ref fix + style. |
+| Station Protocol: Suspicion (#30) | 🟢 DONE | Kept name. Lowercase "suspicion". |
+| Wilford Brimley (#25a) | 🟡 QUEUED | 3 typos: Wilfird, succceed, Anyone. |
 
 ## Treachery & Enemy
 
@@ -107,7 +105,7 @@
 | Category | Total | Skip | TBD | Queued | Done |
 |---|---|---|---|---|---|
 | Locations | 9 | 6 | 1 | 2 | 0 |
-| Story Assets | 9 (4 role cards moved to Treachery) | 7 | 0 | 0 | 2 |
+| Story Assets | 9 (4 role cards moved to Treachery) | 2 (Kate Lloyd, Jameson, Flamethrower) | 0 | 5 (Ellie Rowe, Elliot Childs, MaCready, Brimley) | 2 (Repair-Protocols, Station-Protocol) |
 | Treachery & Enemy | 24 (incl. 4 role cards from Story Assets) | 9 | 0 | 22 (incl. 2 required Ice Runway ref fixes) | 0 |
 | Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 | 0 |
