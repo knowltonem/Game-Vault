@@ -1,5 +1,10 @@
-# Human-Front-Face-C
+# Human (C)
+**Type:** Treachery | **Traits:** Role. Hidden.
+**Illustrator:** Unknown | **Encounter:** Snowflake | **Number:** 28 | **Set:** II | **Status:** ? SKIP (period-neutral)
 
-**Source:** *(awaiting Claude Desktop data)*
+> You are human for now.
+> Keep this card secret.
+> You win the scenario if Resolution 1 is reached.
+> **You are not required to reveal this card unless instructed.**
 
-**Mod status:** ?? BLOCKED
+Cross-refs: mirror of the Infected role card (Human wins on Resolution 1, Infected on Resolution 2). Three identical copies (A/B/C), #26/27/28. Resolution numbers must match the Scenario/Act resolutions when those are filled.

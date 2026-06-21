@@ -1,5 +1,12 @@
-# Infected-Front-Face-D
+# Infected (D)
+**Type:** Treachery | **Traits:** Role. Hidden.
+**Illustrator:** Matt Ryan Tobin | **Encounter:** Snowflake | **Number:** 29 | **Set:** II | **Status:** ?? QUEUED (caps fix)
 
-**Source:** *(awaiting Claude Desktop data)*
+> You are not what you appear to be.
+> Keep this card secret.
+> You win the scenario if Resolution 2 is reached.
+> If Resolution 1 is reached, you suffer 1 additional mental trauma.
+> **You are not required to reveal this card unless instructed.**
 
-**Mod status:** ?? BLOCKED
+Cross-refs: opposite of the Human role cards (win on Resolution 2 vs 1). Resolution numbers must match the Scenario/Act resolutions when those are filled.
+> [!fix] CAPITALIZATION: card art prints "not **Required** to reveal" -> lowercase "required" to match the Human cards.
