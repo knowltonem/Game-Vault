@@ -1,4 +1,4 @@
-﻿# Vehicle Storage
+﻿# Storage Hangar
 
 **Source:** Original at `edge-of-the-earth/outpost31/Full Bleed Files/Locations/Vehicle-Storage-Front-Face.png`
 
@@ -16,7 +16,7 @@
 
 | Field | Value |
 |---|---|
-| Card Name | Vehicle Storage |
+| Card Name | Storage Hangar |
 | Type | Location |
 | Trait | Facility. |
 | Shroud | 3 |
@@ -41,3 +41,5 @@
 
 "Snow machines" is period-accurate. Scott's 1910 expedition used Wolseley motorized sledges, and Byrd's 1928 expedition used tractors in Antarctica. The term fits the 1920s setting. No modification needed.
 
+
+> Name reconciled to official card list #16 "Storage Hanger" -> corrected to "Storage Hangar" (typo fix; also fits the 1920s aviation theme). Art still reads "Vehicle Storage" — flag for render pass.

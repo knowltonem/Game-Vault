@@ -1,4 +1,4 @@
-# Agenda-2
+# Agenda-2  —  "Hostile Takeover"  (card list #3)
 **Type:** Agenda | **#2a/2b**
 **Front (#2a):** Doom 8. Forced – When the last doom is placed: Advance.
 **Front flavor:** Tensions rise as small incidents fuel growing paranoia.

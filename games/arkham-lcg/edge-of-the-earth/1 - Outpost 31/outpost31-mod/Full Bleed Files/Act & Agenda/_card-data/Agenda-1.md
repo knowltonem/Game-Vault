@@ -1,4 +1,4 @@
-# Agenda-1
+# Agenda-1  —  "Icebound Isolation"  (card list #2)
 **Type:** Agenda | **#1a/1b**
 **Front (#1a):** Doom 8. Forced – When the last doom is placed: Advance.
 **Front flavor:** The winds howl outside, but inside something else is stirring.

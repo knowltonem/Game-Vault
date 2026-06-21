@@ -1,4 +1,4 @@
-# Act-2
+# Act-2  —  "The Enemy Within"  (card list #7)
 **Type:** Act | **#2a/2b**
 **Front (#2a):** Clues 3 (per investigator). Forced – When the last clue is discovered: Advance.
 **Front flavor:** The situation escalates. Trust no one.

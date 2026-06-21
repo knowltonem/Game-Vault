@@ -1,4 +1,4 @@
-# Act-3
+# Act-3  —  "The Last Stand"  (card list #8)
 **Type:** Act | **#3a/3b**
 **Front (#3a):** Clues 3 (per investigator). Forced – When the last clue is discovered: Advance.
 **Front flavor:** The truth is revealed. Confront the horror.

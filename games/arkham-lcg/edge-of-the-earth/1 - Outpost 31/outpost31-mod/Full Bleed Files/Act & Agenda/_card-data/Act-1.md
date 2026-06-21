@@ -1,4 +1,4 @@
-# Act-1
+# Act-1  —  "Paranoia Unleashed"  (card list #6)
 **Type:** Act | **#1a/1b**
 **Front (#1a):** Clues 4 (per investigator). Forced – When the last clue is discovered: Advance.
 **Front flavor:** Something is wrong at Outpost 31. Investigate the station and find out what.
