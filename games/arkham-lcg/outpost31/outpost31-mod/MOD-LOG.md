@@ -50,24 +50,24 @@
 
 | Card | Status | Notes |
 |---|---|---|
-| Ambush A/B | ⚪ SKIP | No anachronistic text likely |
-| Assimilation A/B/C | ⚪ SKIP | |
-| Assimilation Nightmare A/B | ⚪ SKIP | |
-| Baseless Accusations A/B | ⚪ SKIP | |
-| Cornered A/B | ⚪ SKIP | |
-| Crawling Chaos A/B | ⚪ SKIP | |
-| Dwindling Supplies A/B | ⚪ SKIP | |
-| Fractured Host A/B | ⚪ SKIP | |
-| Growing Distrust A/B | ⚪ SKIP | |
-| Hunted A/B | ⚪ SKIP | |
-| Losing Humnanity A/B | ⚪ SKIP | (Note: typo "Humnanity" in original filename — may want to correct) |
-| Outside Interferance A/B | ⚪ SKIP | (Note: typo "Interferance" in original filename) |
-| Paranoid Behaviour A/B | ⚪ SKIP | |
-| Paranoid Crew Member A/B/C | ⚪ SKIP | |
-| Short on Trust A/B | ⚪ SKIP | |
-| Terror from Within A/B | ⚪ SKIP | |
-| The Organism | ⚪ SKIP | |
-| Trapped A/B | ⚪ SKIP | |
+| Ambush A/B | ⚪ SKIP | Period-neutral |
+| Assimilation A/B/C | ⚪ SKIP | Period-neutral |
+| Assimilation Nightmare A/B | 🟡 QUEUED | Missing terminal period on Forced 2 |
+| Baseless Accusations A/B | ⚪ SKIP | Period-neutral |
+| Cornered A/B | 🟡 QUEUED | Caps fix: "You must" → "you". Punctuation. |
+| Crawling Chaos A/B | 🟡 QUEUED | #46 number conflict with Dwindling Supplies |
+| Dwindling Supplies A/B | 🟡 QUEUED | #46 number conflict with Crawling Chaos. Likely should be #48. |
+| Fractured Host A/B | ⚪ SKIP | Period-neutral |
+| Growing Distrust A/B | ⚪ SKIP | Period-neutral |
+| Hunted A/B | 🟡 QUEUED | Redundant phrasing fix |
+| Losing Humnanity A/B | 🟡 QUEUED | Title typo: "Humnanity" → "Humanity" (+ filename) |
+| Outside Interferance A/B | 🟡 QUEUED | Title typo: "Interferance" → "Interference" (+ filename) |
+| Paranoid Behaviour A/B | 🟡 QUEUED | Caps: "Suspicion" → "suspicion" |
+| Paranoid Crew Member A/B/C | 🟡 QUEUED | Ice Runway ref fix (A), "Radio room" → "Radio Room" (C), "blood test" → "Blood Test" |
+| Short on Trust A/B | 🟡 QUEUED | Caps: "crew Members" → "Crew Members" |
+| Terror from Within A/B | 🟡 QUEUED | Grammar: "stood" → "standing" (optional) |
+| The Thing (boss, #18) | 🟡 QUEUED | Ice Runway ref fix + "ELite" → "Elite" |
+| Trapped A/B | ⚪ SKIP | Period-neutral | |
 
 ## Act & Agenda
 
@@ -106,7 +106,7 @@
 |---|---|---|---|---|---|
 | Locations | 9 | 6 | 1 | 2 | 0 |
 | Story Assets | 14 | 10 | 0 | 0 | 2 (Repair-Protocols, Station-Protocol-Suspicion — data resolved, no rename needed) |
-| Treachery & Enemy | 37 | 37 | 0 | 0 | 0 | 0 |
+| Treachery & Enemy | 37 (+ boss) | 9 | 0 | 19 (incl. 2 required Ice Runway ref fixes) | 0 |
 | Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 | 0 |
 | PDFs / Docs | 3 | 0 | 3 | 0 | 0 | 0 |
@@ -122,3 +122,4 @@
 | 2026-06-21 | All 9 location cards extracted via Claude Desktop. Helicopter-Pad queued for Strange Eons. Vehicle-Storage flavor text flagged for decision ("snow machines"). All card data filed in `_card-data/`. |
 | 2026-06-21 | Supply Room typo confirmed: "evade and enemy" → "evade an enemy". Moved to QUEUED for Strange Eons batch. |
 | 2026-06-21 | Repair-Protocols + Station-Protocol: kept "Protocols" names (period-accurate). Applied Ice Runway ref fix + style fixes. Unblocked both. Created consolidated typo-fixes.md for Strange Eons render pass. |
+| 2026-06-21 | Treachery & Enemy complete: 18 cards + boss The Thing (#18). 2 required Ice Runway ref fixes. Title typos: Losing Humnanity, Outside Interferance. 11 new items in typo-fixes.md. Open #46 number conflict. |

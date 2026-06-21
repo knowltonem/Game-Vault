@@ -60,11 +60,39 @@ Legend: ☐ = to do on art · ✏️ grammar/spelling · 🔠 capitalization · 
 
 ---
 
+## Treachery & Enemy
+
+### REQUIRED — location rename cross-refs (Helicopter Pad → Ice Runway)
+- ☐ ✏️ **Paranoid Crew Member (A, #32)** — Spawn line: "Helicopter Pad" → "Ice Runway".
+- ☐ ✏️ **The Thing (#18)** — Forced 2: "Helicopter Pad or Radio Room" → "Ice Runway or Radio Room".
+
+### Title typos
+- ☐ ✏️ **Losing Humnanity** (#52/53) → **Losing Humanity** (+ filename).
+- ☐ ✏️ **Outside Interferance** (#54/55) → **Outside Interference** (+ filename).
+
+### Capitalization
+- ☐ 🔠 **Cornered** — "If you fail, You must" → "you".
+- ☐ 🔠 **Paranoid Behaviour** — "Add 1 Suspicion" → "suspicion".
+- ☐ 🔠 **Paranoid Crew Member (C)** — "Radio room" → "Radio Room".
+- ☐ 🔠 **Short on Trust** — "crew Members" → "Crew Members".
+
+### Grammar / punctuation / other
+- ☐ ✏️ **Hunted** — "You must choose either (choose one)" is redundant → trim.
+- ☐ ✏️ **Assimilation Nightmare** — Forced 2 missing terminal period.
+- ☐ ✏️ **Terror from Within** — "person stood next to you" → "standing" (optional).
+- ☐ ✏️ **The Thing** — trait "ELite" → "Elite".
+- ☐ ❓ **Paranoid Crew Member** — "blood test card" → capitalize "Blood Test".
+
+### Number conflicts
+- ☐ ❓ **Crawling Chaos (#46)** vs **Dwindling Supplies (#46)** — collision; Dwindling A likely should be #48. Verify master list.
+
+---
+
 ## Summary count
 
 | Type | Count |
 |---|---|
-| Spelling/grammar (✏️) | 5 |
-| Capitalization (🔠) | 5 |
-| Open decisions (❓) | 3 |
-| **Total open items** | **13** |
+| Spelling/grammar (✏️) | 9 (+4) |
+| Capitalization (🔠) | 10 (+5) |
+| Open decisions (❓) | 5 (+2) |
+| **Total open items** | **24 (+11)** |
