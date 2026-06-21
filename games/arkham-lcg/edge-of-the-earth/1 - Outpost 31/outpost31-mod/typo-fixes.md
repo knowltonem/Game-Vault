@@ -29,8 +29,8 @@ Legend: ☐ = to do on art · ✏️ grammar/spelling · 🔠 capitalization · 
 - ☐ ✏️ **"succceed"** (triple c) → **"succeed"**.
 - ☐ 🔠 Subtitle **"Doesn't trust Anyone"** → lowercase **"anyone"**.
 
-### R.J. MaCready (#24a)
-- ☐ ❓ **Spelling decision:** card/file use **"MaCready"**; the film character is **"MacReady"**. Pick one and apply consistently across **card art + filename + MOD-LOG**.
+### R.J. MacReady (#24a)
+- ☐ ❓ **Spelling decision:** card/file use **"MacReady"**; the film character is **"MacReady"**. Pick one and apply consistently across **card art + filename + MOD-LOG**.
 
 ---
 
@@ -54,7 +54,7 @@ Legend: ☐ = to do on art · ✏️ grammar/spelling · 🔠 capitalization · 
 ---
 
 ## Decisions still open
-- ❓ **R.J. MaCready vs MacReady** spelling (see above) — affects card, filename, and log.
+- ❓ **R.J. MacReady vs MacReady** spelling (see above) — affects card, filename, and log.
 - ❓ **Flamethrower** trait line "Item. Weapon. Firearm." — "Firearm" on a flamethrower is technically odd but was on the original; keep or change to "Item. Weapon."?
 - ❓ **Organism** collector numbers — three modes (Creeping Chaos, Crushing Tendrils, Monstrous Growth) showed paired numbers (20b/21b, 22b/23b, 24b/25b). Confirm which physical copy is which.
 

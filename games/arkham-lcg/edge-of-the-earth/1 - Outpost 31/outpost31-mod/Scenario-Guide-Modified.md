@@ -449,7 +449,7 @@ long johns, but the nametag was missing. They could
 be anybody's. Nobody... nobody trusts anybody now,
 and we're all very tired’.
 
-~ RJ. MaCready
+~ RJ. MacReady
 
 DO NOT READ
 until the end of the scenario

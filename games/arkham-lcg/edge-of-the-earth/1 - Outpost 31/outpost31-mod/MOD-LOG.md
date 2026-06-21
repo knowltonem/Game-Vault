@@ -39,7 +39,7 @@
 | Elliot Childs (#22a) | 🟡 QUEUED | "Resources" → lowercase. |
 | Flamethrower (#19) | ⚪ SKIP | Unique ★ body asset, 4 ammo. Period-accurate (since WWI). |
 | Jameson (#23a) | ⚪ SKIP | Dog handler. Period-neutral. |
-| R.J. MaCready (#24a) | 🟡 QUEUED | Spelling decision: MaCready vs MacReady. |
+| R.J. MacReady (#24a) | 🟡 QUEUED | Spelling decision: MacReady vs MacReady. |
 | Repair Protocols (#31) | 🟢 DONE | Kept name. Ice Runway ref fix + style. |
 | Station Protocol: Suspicion (#30) | 🟢 DONE | Kept name. Lowercase "suspicion". |
 | Wilford Brimley (#25a) | 🟡 QUEUED | 3 typos: Wilfird, succceed, Anyone. |
@@ -126,6 +126,6 @@
 | 2026-06-21 | Supply Room typo confirmed: "evade and enemy" → "evade an enemy". Moved to QUEUED for Strange Eons batch. |
 | 2026-06-21 | Repair-Protocols + Station-Protocol: kept "Protocols" names (period-accurate). Applied Ice Runway ref fix + style fixes. Unblocked both. Created consolidated typo-fixes.md for Strange Eons render pass. |
 | 2026-06-21 | Treachery & Enemy complete: 18 cards + boss The Thing (#18). 2 required Ice Runway ref fixes. Title typos: Losing Humnanity, Outside Interferance. 11 new items in typo-fixes.md. Open #46 number conflict. |
-| 2026-06-21 | Reorg: moved 4 role cards (Human A/B/C, Infected D) from Story Assets to Treachery. Removed empty The-Organism stub. Normalized filenames: Radio-room → Radio-Room, R.J.MaCready → R-J-MaCready. |
+| 2026-06-21 | Reorg: moved 4 role cards (Human A/B/C, Infected D) from Story Assets to Treachery. Removed empty The-Organism stub. Normalized filenames: Radio-room → Radio-Room, R.J.MacReady → R-J-MacReady. |
 | 2026-06-21 | Created _card-data-original/ (58 files) inside original Outpost 31 folder with verbatim transcriptions + manifest re-scoped to exclude them. Discovered Trapped (6/7, 7/7), full Act/Agenda structure (3 acts, 4 agendas, 1 scenario), and Blood Tests (Clear, Assimilated). Filed provisional data into mod _card-data/ for all. |
 | 2026-06-21 | Created 3 Organism mode enemy _card-data/ files in mod (Creeping Chaos, Crushing Tendrils, Monstrous Growth) — these were missing from mod despite being in original. All SKIP status. |
