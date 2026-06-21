@@ -20,8 +20,8 @@
 | **Total** | **357** |
 
 ## Wishlist / next purchases
-| Product | Priority | Notes |
-|---|---|---|
-| Children of Blood (small campaign expansion) | Medium | Upcoming Chapter Two small campaign |
-| Arkham Grimoire | Low | Accessory announced alongside Chapter Two |
-| Next Chapter Two Investigator decks | Medium | Announced upcoming; confirm names/prices |
+| Product                                      | Priority | Notes                                     |
+| -------------------------------------------- | -------- | ----------------------------------------- |
+| Children of Blood (small campaign expansion) | Medium   | Upcoming Chapter Two small campaign       |
+| Arkham Grimoire                              | Low      | Accessory announced alongside Chapter Two |
+| Next Chapter Two Investigator decks          | Medium   | Announced upcoming; confirm names/prices  |

@@ -55,6 +55,9 @@
 | Assimilation Nightmare A/B | 🟡 QUEUED | Missing terminal period on Forced 2 |
 | Baseless Accusations A/B | ⚪ SKIP | Period-neutral |
 | Cornered A/B | 🟡 QUEUED | Caps fix: "You must" → "you". Punctuation. |
+| Creeping Chaos (#20b/21b) | ⚪ SKIP | Organism mode enemy. Period-neutral. |
+| Crushing Tendrils (#22b/23b) | ⚪ SKIP | Organism mode enemy. Period-neutral. |
+| Monstrous Growth (#24b/25b) | ⚪ SKIP | Organism mode enemy. Period-neutral. |
 | Crawling Chaos A/B | 🟡 QUEUED | #46 number conflict with Dwindling Supplies |
 | Dwindling Supplies A/B | 🟡 QUEUED | #46 number conflict with Crawling Chaos. Likely should be #48. |
 | Fractured Host A/B | ⚪ SKIP | Period-neutral |
@@ -106,11 +109,11 @@
 |---|---|---|---|---|---|---|
 | Locations | 9 | 7 | 0 | 2 | 0 |
 | Story Assets | 9 | 3 | 0 | 4 | 2 |
-| Treachery & Enemy | 20 | 6 | 0 | 14 | 0 |
+| Treachery & Enemy | 23 | 9 | 0 | 14 | 0 |
 | Act & Agenda | 8 | 0 | 8 | 0 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 |
 | PDFs / Docs | 3 | 0 | 3 | 0 | 0 |
-| **Total** | **52** | **19** | **11** | **20** | **2** |
+| **Total** | **55** | **22** | **11** | **20** | **2** |
 
 ---
 
@@ -125,3 +128,4 @@
 | 2026-06-21 | Treachery & Enemy complete: 18 cards + boss The Thing (#18). 2 required Ice Runway ref fixes. Title typos: Losing Humnanity, Outside Interferance. 11 new items in typo-fixes.md. Open #46 number conflict. |
 | 2026-06-21 | Reorg: moved 4 role cards (Human A/B/C, Infected D) from Story Assets to Treachery. Removed empty The-Organism stub. Normalized filenames: Radio-room → Radio-Room, R.J.MaCready → R-J-MaCready. |
 | 2026-06-21 | Created _card-data-original/ (58 files) inside original Outpost 31 folder with verbatim transcriptions + manifest re-scoped to exclude them. Discovered Trapped (6/7, 7/7), full Act/Agenda structure (3 acts, 4 agendas, 1 scenario), and Blood Tests (Clear, Assimilated). Filed provisional data into mod _card-data/ for all. |
+| 2026-06-21 | Created 3 Organism mode enemy _card-data/ files in mod (Creeping Chaos, Crushing Tendrils, Monstrous Growth) — these were missing from mod despite being in original. All SKIP status. |
