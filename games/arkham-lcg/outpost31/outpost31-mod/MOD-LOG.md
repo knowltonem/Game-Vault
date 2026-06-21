@@ -38,8 +38,8 @@
 | Ellie Rowe | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | Elliot Childs | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | Flamethrower | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Period-accurate (since WWI) |
-| Human A/B/C | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Generic, no text to change |
-| Infected D | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
+| *(Human Role cards moved to Treachery & Enemy — see below)* | — | — | ❌ MOVED | Role cards belong in Treachery category, not Story Assets. |
+| *(Infected Role D moved to Treachery & Enemy)* | — | — | ❌ MOVED | Same — it's a role card, not a story asset. |
 | Jameson | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | R.J. MaCready | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | |
 | Repair Protocols (#31) | — | — | 🟢 DONE | Kept "Protocols" (period-accurate). "Helicopter Pad" → "Ice Runway" ref fix + style. |
@@ -50,6 +50,8 @@
 
 | Card | Status | Notes |
 |---|---|---|
+| Human Role A/B/C | 🟡 QUEUED | Moved from Story Assets. Caps: "not Required" → "required". See Infected Role D. |
+| Infected Role D | 🟡 QUEUED | Moved from Story Assets. Caps: "not Required" → "required". |
 | Ambush A/B | ⚪ SKIP | Period-neutral |
 | Assimilation A/B/C | ⚪ SKIP | Period-neutral |
 | Assimilation Nightmare A/B | 🟡 QUEUED | Missing terminal period on Forced 2 |
@@ -105,8 +107,8 @@
 | Category | Total | Skip | TBD | Queued | Done |
 |---|---|---|---|---|---|
 | Locations | 9 | 6 | 1 | 2 | 0 |
-| Story Assets | 14 | 10 | 0 | 0 | 2 (Repair-Protocols, Station-Protocol-Suspicion — data resolved, no rename needed) |
-| Treachery & Enemy | 37 (+ boss) | 9 | 0 | 19 (incl. 2 required Ice Runway ref fixes) | 0 |
+| Story Assets | 9 (4 role cards moved to Treachery) | 7 | 0 | 0 | 2 |
+| Treachery & Enemy | 24 (incl. 4 role cards from Story Assets) | 9 | 0 | 22 (incl. 2 required Ice Runway ref fixes) | 0 |
 | Act & Agenda | 10 | 0 | 10 | 0 | 0 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 | 0 |
 | PDFs / Docs | 3 | 0 | 3 | 0 | 0 | 0 |
@@ -123,3 +125,4 @@
 | 2026-06-21 | Supply Room typo confirmed: "evade and enemy" → "evade an enemy". Moved to QUEUED for Strange Eons batch. |
 | 2026-06-21 | Repair-Protocols + Station-Protocol: kept "Protocols" names (period-accurate). Applied Ice Runway ref fix + style fixes. Unblocked both. Created consolidated typo-fixes.md for Strange Eons render pass. |
 | 2026-06-21 | Treachery & Enemy complete: 18 cards + boss The Thing (#18). 2 required Ice Runway ref fixes. Title typos: Losing Humnanity, Outside Interferance. 11 new items in typo-fixes.md. Open #46 number conflict. |
+| 2026-06-21 | Reorg: moved 4 role cards (Human A/B/C, Infected D) from Story Assets to Treachery. Removed empty The-Organism stub. Normalized filenames: Radio-room → Radio-Room, R.J.MaCready → R-J-MaCready. |
