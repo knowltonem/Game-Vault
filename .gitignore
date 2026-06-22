@@ -8,6 +8,9 @@
 .DS_Store
 Thumbs.db
 
+# Ghost directory — old outpost31 root keeps being recreated by unknown process
+games/arkham-lcg/outpost31/
+
 # Temp / scratch
 *.tmp
 
