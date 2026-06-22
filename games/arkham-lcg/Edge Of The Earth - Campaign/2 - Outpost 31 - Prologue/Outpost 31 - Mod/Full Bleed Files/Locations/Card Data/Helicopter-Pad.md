@@ -1,12 +1,12 @@
-# Helicopter-Pad â†’ Ice Runway
+﻿# Helicopter-Pad Ã¢â€ â€™ Ice Runway
 
 **Source:** Original at `Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/Full Bleed Files/Locations/Helicopter-Pad-Front-Face.png`
 
-**Mod status:** ðŸŸ¡ QUEUED â€” data received, ready for Strange Eons
+**Mod status:** Ã°Å¸Å¸Â¡ QUEUED Ã¢â‚¬â€ data received, ready for Strange Eons
 
 **Illustrator:** FrogmanDev
 
-**Encounter set:** Snowflake (â„) | **Number:** 9 | **Set:** II
+**Encounter set:** Snowflake (Ã¢Ââ€ž) | **Number:** 9 | **Set:** II
 
 ---
 
@@ -18,32 +18,32 @@
 |---|---|---|
 | Card Name | Helicopter Pad | **Ice Runway** |
 | Ghost title | "Helicopter Bay" (distorted artifact) | Remove |
-| Type | Location | â€” |
-| Trait | Facility. | â€” |
-| Shroud | 3 | â€” |
-| Clues | 3 | â€” |
-| Per investigator | No | â€” |
-| Victory | None | â€” |
-| Own symbol | Red slash/lozenge â™¦ | â€” |
-| Connection 1 | Magenta spade â†’ Vehicle Storage | â€” |
-| Connection 2 | Green T/tee â†’ Supply Room | â€” |
+| Type | Location | Ã¢â‚¬â€ |
+| Trait | Facility. | Ã¢â‚¬â€ |
+| Shroud | 3 | Ã¢â‚¬â€ |
+| Clues | 3 | Ã¢â‚¬â€ |
+| Per investigator | No | Ã¢â‚¬â€ |
+| Victory | None | Ã¢â‚¬â€ |
+| Own symbol | Red slash/lozenge Ã¢â„¢Â¦ | Ã¢â‚¬â€ |
+| Connection 1 | Magenta spade Ã¢â€ â€™ Vehicle Storage | Ã¢â‚¬â€ |
+| Connection 2 | Green T/tee Ã¢â€ â€™ Supply Room | Ã¢â‚¬â€ |
 
 **Ability 1 (Forced):**
 > After you fail a skill test while investigating Helicopter Pad: Move 1 of your clues to the nearest Crew Member.
 
-â†’ Modified: replace "Helicopter Pad" with **"Ice Runway"**
+Ã¢â€ â€™ Modified: replace "Helicopter Pad" with **"Ice Runway"**
 
 **Ability 2 (granted action):**
 > While there are no enemies at Helicopter Pad (and it has no damage), it gains [action]: Resign. You flee to safety.
 
-â†’ Modified: replace "Helicopter Pad" with **"Ice Runway"**
+Ã¢â€ â€™ Modified: replace "Helicopter Pad" with **"Ice Runway"**
 
 ### Back Face (Unrevealed)
 
 **Flavor text:**
 > The station's primary link to the outside world for personnel and supply transfers. Weather permitting, flights arrive weekly with fresh provisions.
 
-â†’ No change needed.
+Ã¢â€ â€™ No change needed.
 
 ---
 
@@ -56,3 +56,4 @@ The art likely shows a helicopter landing pad. Options:
 
 notes: 
 ski-plane on icy runway,  ice runway with Lockheed Vega and the Fokker Super Universal. These rugged, single-engine aircraft could be fitted with skis to operate over the harsh icy terrain.
+
