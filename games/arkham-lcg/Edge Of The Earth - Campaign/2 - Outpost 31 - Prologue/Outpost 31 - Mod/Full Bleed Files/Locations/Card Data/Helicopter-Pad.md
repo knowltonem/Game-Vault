@@ -1,4 +1,4 @@
-# Helicopter-Pad → Ice Runway
+﻿# Helicopter-Pad → Ice Runway
 
 **Source:** Original at `Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/Full Bleed Files/Locations/Helicopter-Pad-Front-Face.png`
 
@@ -60,8 +60,9 @@ ski-plane on icy runway,  ice runway with Lockheed Vega and the Fokker Super Uni
 ---
 
 ## 🎨 Render Pass Note
-- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Status:** 🟢 DONE — art rendered + exported to mod (Ice-Runway-Front/Back-Face.png)
 - **Renames applied (data):** Helicopter Pad -> Ice Runway
 - **Art still shows:** "Helicopter Pad" (rename on art)
 - **Text fixes for art:** none
 - **Period / tech:** Renamed for 1920s theme (ski-plane runway)
+

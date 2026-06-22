@@ -18,17 +18,17 @@
 
 ## Locations
 
-| Card | Front | Back | Status | Notes |
-|---|---|---|---|---|
-| Helicopter-Pad → **Ice Runway** | `Ice-Runway-Front-Face.png` | `Ice-Runway-Back-Face.png` | 🟡 QUEUED | Data received. Rename + fix "Helicopter" refs in ability text. Ready for Strange Eons. |
-| Kennels | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Period-accurate (dog sleds). Data filed. |
-| Mess Hall | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
-| Office | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
-| Radio-room | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Period-accurate. Data filed. |
-| Rec-Room | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
-| Research-Lab | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | Data filed. |
-| Supply-Room → (typo fix) | `Supply-Room-Front-Face.png` | `Supply-Room-Back-Face.png` | 🟡 QUEUED | Fix "evade and enemy" → "evade an enemy". Minor text fix only. Can batch with Ice Runway in Strange Eons. |
-| Vehicle-Storage | ⚪ SKIP | ⚪ SKIP | ⚪ SKIP | "Snow machines" is period-accurate (Scott 1910 motor sledges, Byrd 1928 tractors). No change needed. |
+| Card                            | Front                        | Back                        | Status    | Notes                                                                                                     |
+| ------------------------------- | ---------------------------- | --------------------------- | --------- | --------------------------------------------------------------------------------------------------------- |
+| Helicopter-Pad → **Ice Runway** | `Ice-Runway-Front-Face.png`  | `Ice-Runway-Back-Face.png`  | 🟡 QUEUED | Data received. Rename + fix "Helicopter" refs in ability text. Ready for Strange Eons.                    |
+| Kennels                         | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Period-accurate (dog sleds). Data filed.                                                                  |
+| Mess Hall                       | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Data filed.                                                                                               |
+| Office                          | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Data filed.                                                                                               |
+| Radio-room                      | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Period-accurate. Data filed.                                                                              |
+| Rec-Room                        | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Data filed.                                                                                               |
+| Research-Lab                    | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | Data filed.                                                                                               |
+| Supply-Room → (typo fix)        | `Supply-Room-Front-Face.png` | `Supply-Room-Back-Face.png` | 🟡 QUEUED | Fix "evade and enemy" → "evade an enemy". Minor text fix only. Can batch with Ice Runway in Strange Eons. |
+| Vehicle-Storage                 | ⚪ SKIP                       | ⚪ SKIP                      | ⚪ SKIP    | "Snow machines" is period-accurate (Scott 1910 motor sledges, Byrd 1928 tractors). No change needed.      |
 
 ## Story Assets
 
