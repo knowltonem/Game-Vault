@@ -61,8 +61,43 @@ Hunter.
 
 ---
 
+## Organism (Monstrous Growth)
+
+### Card Identity
+- **Type:** Enemy (Organism mode)
+- **Card Numbers:** 24b, 25b (two copies — identical text)
+- **Set:** Outpost 31
+- **Set Numbers:** S4P (24b), S2P (25b)
+- **Illustrator:** Roland MacDonald
+
+### Stats
+- **Fight:** 4 / **Health:** 4 / **Evade:** 2
+
+### Traits
+*Monster. Infected.*
+
+### Keywords
+Hunter.
+
+### Game Text
+**Forced –** When you reveal an [skull] token while fighting or evading Organism: Take 1 damage and 1 horror.
+**Forced –** At the beginning of the enemy phase: Heal 1 damage from Organism.
+
+### Mod Status
+⚪ SKIP — Period-neutral.
+
+### Notes
+- Skull token trigger: 1 damage AND 1 horror — most punishing of the three Organisms
+- Self-heals 1 damage every enemy phase — must be killed in one burst
+- Toughest stats: 4/4/2 — hard to fight, easy evade but Hunter keyword negates it
+- Paired with R.J.MaCready (24b) and Wilford Brimley (25b)
+- PNG verified 2026-06-22
+
+---
+
 ## Notes (All Organism Modes)
 - Each Organism mode enemy is paired with a specific Crew Member (same card number, a/b)
 - When a Crew Member is revealed as Infected, their card flips to the Organism mode enemy
 - All share Monster. Infected. traits and Hunter keyword
 - Back face is the story asset card back (art only, no text)
+- Crushing Tendrils has a third copy (23b) paired with Jameson — same text confirmed

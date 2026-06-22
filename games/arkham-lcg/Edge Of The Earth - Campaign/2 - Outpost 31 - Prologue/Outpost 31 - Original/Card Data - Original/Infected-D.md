@@ -1,32 +1,37 @@
-# Infected Role D — Card Data (Original)
+# Infected Role D — Card Data (Original) — UPDATED
 
 ## Card Identity
 - **Type:** Treachery (Role / Hidden)
-- **Card Number:** TBD (not confirmed from PNG — front face not in this batch)
+- **Card Number:** 29
 - **Set:** Outpost 31
-- **Illustrator:** Unknown
+- **Set Number:** 3d (bottom right)
+- **Illustrator:** Matt Ryan Tobin
 - **Icon:** Snowflake (❄)
 - **Subtype:** Treachery
 
 ## Traits
 *Role. Hidden.*
 
-## Game Text (expected — verify against front face PNG)
-You are infected.
+## Game Text
+
+You are not what you appear to be.
 Keep this card secret.
 You win the scenario if Resolution 2 is reached.
-**You are not required to reveal this card unless instructed.**
+If Resolution 1 is reached, you suffer 1 additional mental trauma.
+**You are not Required to reveal this card unless instructed.**
 
 ## Back Face
-Encounter card back — art only (tentacle/cosmic imagery), no text.
-PNG uploaded as "Infected-Back-Face_D" — confirmed art-only back, no text visible.
+Encounter card back — art only (blood test / petri dish imagery). No text.
 
 ## Mod Status
-🟡 QUEUED — Previous data noted "not Required" caps fix. Front face PNG not yet verified — need to confirm actual text before making changes.
+🟡 QUEUED — "not Required" → "not required" (capitalisation fix on "Required")
+
+## Mod Changes
+- **Last line:** "You are not Required to reveal this card unless instructed." → "You are not required to reveal this card unless instructed."
 
 ## Notes
-- Single copy (D) — the infected role
-- Win condition: Resolution 2 (bad ending — organism escapes)
-- Counterpart to Human A/B/C
-- ⚠️ Front face PNG not uploaded in this batch — card number and exact text unconfirmed
-- PNG verified (back only) 2026-06-22
+- Card #29 confirmed from PNG
+- Illustrator: Matt Ryan Tobin
+- Infected card has additional penalty vs Human: suffer 1 mental trauma if Resolution 1 reached
+- "You are not Required" — capital R on "Required" is inconsistent with Human cards which have "not required" (lowercase) — wait, Human cards say "not required to reveal" in bold, confirm Human card capitalisation. ⚠️ Recheck Human A/B/C — they may also have capital R in bold text
+- PNG verified 2026-06-22
