@@ -1,9 +1,32 @@
-> VERBATIM TRANSCRIPTION of the original card art (typos preserved as printed).
-> This is a reconstruction by transcription, not a delivered file. Do not "correct" it — it is the original-of-record.
+# Infected Role D — Card Data (Original)
 
-**Treachery | Role. Hidden. | Illus: Matt Ryan Tobin | #29**
-You are not what you appear to be.
+## Card Identity
+- **Type:** Treachery (Role / Hidden)
+- **Card Number:** TBD (not confirmed from PNG — front face not in this batch)
+- **Set:** Outpost 31
+- **Illustrator:** Unknown
+- **Icon:** Snowflake (❄)
+- **Subtype:** Treachery
+
+## Traits
+*Role. Hidden.*
+
+## Game Text (expected — verify against front face PNG)
+You are infected.
 Keep this card secret.
 You win the scenario if Resolution 2 is reached.
-If Resolution 1 is reached, you suffer 1 additional mental trauma.
-You are not Required to reveal this card unless instructed.
+**You are not required to reveal this card unless instructed.**
+
+## Back Face
+Encounter card back — art only (tentacle/cosmic imagery), no text.
+PNG uploaded as "Infected-Back-Face_D" — confirmed art-only back, no text visible.
+
+## Mod Status
+🟡 QUEUED — Previous data noted "not Required" caps fix. Front face PNG not yet verified — need to confirm actual text before making changes.
+
+## Notes
+- Single copy (D) — the infected role
+- Win condition: Resolution 2 (bad ending — organism escapes)
+- Counterpart to Human A/B/C
+- ⚠️ Front face PNG not uploaded in this batch — card number and exact text unconfirmed
+- PNG verified (back only) 2026-06-22
