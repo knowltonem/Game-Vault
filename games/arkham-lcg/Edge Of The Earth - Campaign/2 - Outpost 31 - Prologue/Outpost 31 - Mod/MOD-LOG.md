@@ -41,7 +41,7 @@
 | Elliot Childs | 22a | 🟡 QUEUED | "Spend 2 Resources" → "Spend 2 resources". PNG verified. |
 | Flamethrower | 19 | ⚪ SKIP | Unique ★. 4 ammo. Period-accurate. PNG verified. |
 | Jameson | 23a | ⚪ SKIP | Dog Handler. Period-neutral. PNG verified. |
-| R.J.MaCready | 24a | ❓ TBD | Name spelling: card prints "MaCready" (capital C). Decision: keep as creator's variant or correct to "MacReady". PNG verified. |
+| R.J.MacReady | 24a | 🟡 QUEUED | Name corrected to "MacReady" (film-accurate). Card prints "MaCready" — fix capital C. PNG verified. |
 | Repair Protocols | 31 | 🟢 DONE | "Helicopter Pad" → "Ice Runway". Already applied. |
 | Station Protocol: Suspicion | 30 | 🟢 DONE | Lowercase "suspicion" consistency. Already applied. |
 | Wilford Brimley | 25a | 🟡 QUEUED | 4 fixes: (1) "Wilfird" → "Wilford" in ability, (2) "succceed" → "succeed", (3) subtitle "Anyone" → "anyone", (4) "**Parlay**. Parley." → remove duplicate. PNG verified. |
@@ -76,7 +76,7 @@
 | Paranoid Crew Member B | 33 | ⚪ SKIP | Spawns Research Lab. No changes. PNG verified. |
 | Paranoid Crew Member C | 34 | 🟡 QUEUED | Spawn: "Radio room" → "Radio Room". PNG verified. |
 | Short on Trust A/B | 58/59 | 🟡 QUEUED | "crew Members" → "Crew Members" (capital C, lowercase M). PNG verified. |
-| Terror from Within A/B | 60/61 | ❓ TBD | Flavor: "stood next to you" → "standing next to you" — optional stylistic fix. Decide before print. PNG verified. |
+| Terror from Within A/B | 60/61 | 🟡 QUEUED | Flavor: "stood next to you" → "standing next to you". Decision: apply fix. PNG verified. |
 | The Thing (boss) | 18 | 🟡 QUEUED | (1) Traits: "ELite" → "Elite". (2) Forced: "Helicopter Pad" → "Ice Runway". PNG verified. |
 | Trapped A/B | 66/67 | ⚪ SKIP | Organism encounter set (6/7, 7/7). Period-neutral. PNG verified. |
 
@@ -121,7 +121,7 @@
 |---|---|---|
 | `Outpost 31 Scenario Guide.pdf` | 🟡 QUEUED | "helicopter" → "ski-plane", "Helicopter Pad" → "Ice Runway" throughout. |
 | `Outpost 31 (Card List).doc` | 🟡 QUEUED | Card name updates: Helicopter-Pad → Ice Runway. |
-| `Scenario page Title Art.png` | ❓ TBD | Consider adding "A Prologue to Edge of the Earth" subtitle. |
+| `Scenario page Title Art.png` | 🟡 QUEUED | Add "A Prologue to Edge of the Earth" subtitle. |
 
 ---
 
@@ -130,12 +130,12 @@
 | Category | Total | Skip | TBD | Queued | Done |
 |---|---|---|---|---|---|
 | Locations | 9 | 7 | 0 | 2 | 0 |
-| Story Assets | 9 | 4 | 1 | 2 | 2 |
-| Treachery & Enemy | 27 | 13 | 1 | 13 | 0 |
+| Story Assets | 9 | 4 | 0 | 3 | 2 |
+| Treachery & Enemy | 27 | 13 | 0 | 14 | 0 |
 | Act & Agenda | 16 | 11 | 0 | 5 | 0 |
 | Blood Tests | 3 | 3 | 0 | 0 | 0 |
-| PDFs / Docs | 3 | 0 | 1 | 2 | 0 |
-| **Total** | **67** | **38** | **3** | **24** | **2** |
+| PDFs / Docs | 3 | 0 | 0 | 3 | 0 |
+| **Total** | **67** | **38** | **0** | **27** | **2** |
 
 ---
 
@@ -178,10 +178,13 @@ All cards with 🟡 QUEUED status, grouped by change type for efficient batching
 - Dwindling Supplies A: #46 → #48
 - Dwindling Supplies B: stays #49
 
-### Decisions still needed before render (3 items)
-- R.J.MaCready: keep "MaCready" or correct to "MacReady"?
-- Terror from Within: "stood" → "standing" — optional, decide before print
-- Scenario page Title Art: add subtitle?
+### Name corrections (1 card)
+- R.J.MacReady: "MaCready" → "MacReady" (film-accurate spelling)
+
+### Decisions resolved ✅
+- R.J.MacReady: "MacReady" ✅
+- Terror from Within: "standing" ✅
+- Scenario page title art: add subtitle ✅
 
 ---
 

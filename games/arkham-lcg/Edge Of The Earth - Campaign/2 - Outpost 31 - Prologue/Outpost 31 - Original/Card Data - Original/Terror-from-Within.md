@@ -19,11 +19,10 @@
 *A constant fear that the person stood next to you is not who you think they are.*
 
 ## Mod Status
-🟡 QUEUED — Grammar flag (optional).
+🟡 QUEUED — Flavor text grammar fix. Decision made 2026-06-22.
 
-## Mod Changes (optional)
-- **Flavor text:** "the person stood next to you" → "the person standing next to you" (grammar: "stood" is past tense, "standing" is present participle — more natural)
-- **Decision needed:** This is flavor text, not rules text. Change is stylistic, not a typo. Flag as optional.
+## Mod Changes
+- **Flavor text:** "the person stood next to you" → "the person standing next to you"
 
 ## Notes
 - Two copies: 60, 61

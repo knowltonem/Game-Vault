@@ -30,14 +30,11 @@ Uses (3 secrets).
 Story asset card back — art only. No text.
 
 ## Mod Status
-🟡 QUEUED — Name spelling decision required.
+🟡 QUEUED — Name correction: "MaCready" → "MacReady" (film-accurate). Decision made 2026-06-22.
 
-## Spelling Decision
-- **On card title:** "R.J.MaCready" (no space, capital C)
-- **In ability text:** "R.J. MaCready" (space after period, capital C)
-- **Film character:** "R.J. MacReady" (capital R in Mac, lowercase c)
-- **Decision needed:** Keep "MaCready" as printed (preserve original), or correct to "MacReady" (film accuracy)?
-- **Recommendation:** Keep "MaCready" — this is a fan creation, not official FFG. Changing the name alters the creator's intent. Flag as intentional variant.
+## Mod Changes
+- **Card title:** "R.J.MaCready" → "R.J. MacReady"
+- **All ability text:** "R.J. MaCready" → "R.J. MacReady"
 
 ## Notes
 - Expedition Leader subtype
