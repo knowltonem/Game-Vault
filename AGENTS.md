@@ -34,14 +34,13 @@ board-game-vault/
 │       │   └── ...
 │       ├── decks/
 │       │   └── ...
-│       ├── edge-of-the-earth/          — CAMPAIGN HUB (single source of truth)
+│       ├── Edge Of The Earth - Campaign/ — CAMPAIGN HUB (single source of truth)
 │       │   ├── edge-of-the-earth.md
-│       │   ├── Book - At the Mountains of Madness/   — Lovecraft novella (6 chapters)
-│       │   ├── Edge of the Earth (Arkham Central)/   — original campaign (when acquired)
-│       │   ├── edge-of-the-earth-mod/                — EotE modifications
-│       │   ├── outpost31/ + outpost31-mod/           — prologue: Outpost 31
-│       │   ├── betrayal-at-the-mountains-of-madness/ + -mod/  — interlude
-│       │   └── the-svalbard-event/ + -mod/           — interlude
+│       │   ├── 1 - Edge Of The Earth - Core Expansion/  — Main campaign
+│       │   ├── 2 - Outpost 31 - Prologue/               — Fan prologue
+│       │   ├── 3 - Betrayal At The Mountains Of Madness - Interlude/ — Fan interlude
+│       │   ├── 4 - The Svalbard Event - Epilogue/       — Fan epilogue
+│       │   └── 5 - At The Mountains Of Madness - Literary Source/ — Lovecraft novella
 │       └── ...
 ├── AGENTS.md                           — this file
 ├── Home.md                             — vault landing page
@@ -82,13 +81,13 @@ When modifying a fan scenario (e.g. Outpost 31) to fit into a campaign:
 4. **Create in Strange Eons** — use official AHLCG plugin templates
 5. **Generate art** (if needed) — Midjourney with consistent prompt template, or Krea AI for inpainting existing art
 6. **Export** PNG with bleed (3mm safe zone)
-7. **Place in `outpost31-mod/`** matching original folder structure
+7. **Place in `Outpost 31 - Mod/`** matching original folder structure
 8. **Print** via MPC (professional) or DIY (budget)
 
 ### Folder Convention for Modded Content
 
 - Keep **original files untouched** in their original folder
-- Place **all modified versions** in `[scenario-name]-mod/` mirroring the original structure
+- Place **all modified versions** in `{Scenario Name} - Mod/` mirroring the original structure
 - Document every change in the corresponding `.md` note file
 
 ---

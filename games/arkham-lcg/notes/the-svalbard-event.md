@@ -30,4 +30,4 @@ Arctic setting. May work as:
 
 ## Files
 - `The Svalbard Event (Arkham Central)/` — original files (once downloaded)
-- `the-svalbard-event-mod/` — modified versions (to be created)
+- `The Svalbard Event - Mod/` — modified versions (to be created)

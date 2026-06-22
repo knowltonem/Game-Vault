@@ -2,7 +2,7 @@
 
 > Antarctic research station horror — *The Thing* meets Arkham LCG. Fully self-contained PNP scenario by Gary Walker. May 2026. Rated 5/5.
 
-**Download:** [ArkhamCentral](https://arkhamcentral.com/outpost-31/) · **Files:** `games/arkham-lcg/edge-of-the-earth/outpost31/`
+**Download:** [ArkhamCentral](https://arkhamcentral.com/outpost-31/) · **Files:** `games/arkham-lcg/Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/`
 
 ---
 
@@ -115,7 +115,7 @@ This campaign chain (Outpost 31 → Edge of the Earth) is a direct heir to Lovec
 | Player cards | Yes | Chapter Two core or any investigator collection |
 | Chaos bag + tokens | Yes | Any core set |
 | Damage/horror/clue/resource tokens | Yes | Any core set |
-| Encounter cards | Provided | PNP files in `edge-of-the-earth/outpost31/` |
+| Encounter cards | Provided | PNP files in `Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/` |
 | Scenario guide | Provided | `Outpost 31 Scenario Guide.pdf` |
 
 ---
@@ -142,7 +142,7 @@ Edge of the Earth is set in the **1920s** (ship from Boston through the Panama C
 
 ## Printing
 
-Files are in `games/arkham-lcg/edge-of-the-earth/outpost31/`:
+Files are in `games/arkham-lcg/Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/`:
 - `Full Bleed Files/` — individual cards for print-and-play
 - `PDF Files/` — print-ready sheets
 - `Outpost 31 Scenario Guide.pdf` — rules and setup

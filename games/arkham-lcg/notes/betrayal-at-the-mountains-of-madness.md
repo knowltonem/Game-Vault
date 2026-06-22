@@ -30,4 +30,4 @@ Directly ties into the Elder Things / Antarctic theme. May work as:
 
 ## Files
 - `Betrayal at the Mountains of Madness (Arkham Central)/` — original files (once downloaded)
-- `betrayal-at-the-mountains-of-madness-mod/` — modified versions (to be created)
+- `Betrayal At The Mountains Of Madness - Mod/` — modified versions (to be created)

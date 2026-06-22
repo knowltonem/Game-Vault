@@ -19,15 +19,16 @@
 - [[games/arkham-lcg/collection/core-set-2026|Core Set (2026) — my starting point]]
 
 ## Total card count
-| Product | Cards |
-|---|---|
-| Core Set (2026) | 357 |
-| Tommy Muldoon Investigator Deck | 60 |
-| Carolyn Fern Investigator Deck | 60 |
-| André Patel Investigator Deck | 60 |
-| Marie Lambeau Investigator Deck | 60 |
-| Miguel de la Cruz Investigator Deck | 60 |
-| **Total** | **657** |
+| Product                             | Cards   |
+| ----------------------------------- | ------- |
+| Core Set (2026)                     | 357     |
+| Tommy Muldoon Investigator Deck     | 60      |
+| Carolyn Fern Investigator Deck      | 60      |
+| André Patel Investigator Deck       | 60      |
+| Marie Lambeau Investigator Deck     | 60      |
+| Miguel de la Cruz Investigator Deck | 60      |
+| **Total**                           | **657** |
+|                                     |         |
 
 ## Wishlist / next purchases
 | Product                                      | Priority | Notes                                     |
