@@ -21,7 +21,7 @@ SORT file.name ASC
 
 ## Quick links
 
-- [[templates/game-template|➕ Add a new game (template)]]
+- [[_templates/game-template|➕ Add a new game (template)]]
 - [[_assets/plugin-setup|⚙️ Plugin setup guide]]
 
 ---

@@ -13,40 +13,65 @@ Current core: **Chapter Two Core Set (2026)**. Legacy campaigns acquired for sto
 ```
 board-game-vault/
 ├── games/
-│   └── arkham-lcg/
-│       ├── index.md                    — AHLCG master index
+│   ├── arkham-lcg/
+│   │   ├── index.md                    — AHLCG master index
+│   │   ├── collection/
+│   │   │   ├── core-set-2026.md        — Chapter Two core details
+│   │   │   └── my-collection.md
+│   │   ├── buying/
+│   │   │   ├── guide.md                — purchase order recommendations
+│   │   │   ├── products.md             — price table, best deals
+│   │   │   ├── accessories.md          — sleeves, tokens, playmats, storage, apps
+│   │   │   └── sleeves.md
+│   │   ├── notes/
+│   │   │   ├── legacy-content.md       — Chapter 1 buying guide with campaign priorities
+│   │   │   ├── carcosa-guide.md        — DerBK substitution table (Carcosa)
+│   │   │   ├── edge-of-the-earth-guide.md — DerBK substitution table (EotE)
+│   │   │   ├── outpost31.md            — fan scenario guide + period re-flavor notes
+│   │   │   ├── betrayal-at-the-mountains-of-madness.md — literary companion notes
+│   │   │   ├── the-svalbard-event.md   — Arctic scenario notes
+│   │   │   ├── fan-content-catalog.md  — ArkhamCentral scenario rankings
+│   │   │   └── ...
+│   │   ├── decks/
+│   │   │   └── starter-investigators.md
+│   │   └── Edge Of The Earth - Campaign/  — CAMPAIGN HUB (Title Case intentional for Obsidian ordering)
+│   │       ├── edge-of-the-earth.md
+│   │       ├── 1 - Edge Of The Earth - Core Expansion/  — Main campaign
+│   │       ├── 2 - Outpost 31 - Prologue/               — Fan prologue
+│   │       ├── 3 - Betrayal At The Mountains Of Madness - Interlude/ — Fan interlude
+│   │       ├── 4 - The Svalbard Event - Epilogue/        — Fan epilogue
+│   │       └── 5 - At The Mountains Of Madness - Literary Source/   — Lovecraft novella
+│   └── lotr-lcg/
+│       ├── index.md                    — LotR LCG master index
 │       ├── collection/
-│       │   ├── core-set-2026.md        — Chapter Two core details
-│       │   └── ...
+│       │   └── my-collection.md
 │       ├── buying/
-│       │   ├── guide.md                — purchase order recommendations
-│       │   ├── products.md             — price table, best deals
-│       │   ├── accessories.md          — sleeves, tokens, playmats, storage, apps
-│       │   └── ...
+│       │   ├── guide.md
+│       │   └── products.md
 │       ├── notes/
-│       │   ├── legacy-content.md       — Chapter 1 buying guide with campaign priorities
-│       │   ├── carcosa-guide.md        — DerBK substitution table (Carcosa)
-│       │   ├── edge-of-the-earth-guide.md — DerBK substitution table (EotE)
-│       │   ├── outpost31.md            — fan scenario guide + period re-flavor notes
-│       │   ├── betrayal-at-the-mountains-of-madness.md — literary companion notes
-│       │   ├── the-svalbard-event.md   — Arctic scenario notes
-│       │   ├── fan-content-catalog.md  — ArkhamCentral scenario rankings
-│       │   └── ...
+│       │   ├── overview.md
+│       │   ├── rules.md
+│       │   ├── spheres.md
+│       │   ├── campaign.md
+│       │   └── tips.md
 │       ├── decks/
-│       │   └── ...
-│       ├── Edge Of The Earth - Campaign/ — CAMPAIGN HUB (single source of truth)
-│       │   ├── edge-of-the-earth.md
-│       │   ├── 1 - Edge Of The Earth - Core Expansion/  — Main campaign
-│       │   ├── 2 - Outpost 31 - Prologue/               — Fan prologue
-│       │   ├── 3 - Betrayal At The Mountains Of Madness - Interlude/ — Fan interlude
-│       │   ├── 4 - The Svalbard Event - Epilogue/       — Fan epilogue
-│       │   └── 5 - At The Mountains Of Madness - Literary Source/ — Lovecraft novella
-│       └── ...
+│       │   └── starter-decks.md
+│       └── campaigns/                  — placeholder, in progress
+├── _assets/
+│   └── plugin-setup.md                 — Obsidian Git + Dataview setup guide
+├── _templates/
+│   └── game-template.md                — template for new game hubs
 ├── AGENTS.md                           — this file
 ├── Home.md                             — vault landing page
-├── README.md
-└── templates/
+└── README.md
 ```
+
+### Naming conventions
+- Folders and files: lowercase, hyphenated (`arkham-lcg`, `buying`, `my-collection.md`)
+- System/meta folders: underscore-prefixed (`_assets`, `_templates`)
+- Game hub files: `index.md` per game folder
+- Dashboard: `Home.md` (PascalCase intentional — root entry point)
+- Campaign hubs: Title Case with spaces (intentional for Obsidian file tree readability and ordering)
 
 ---
 
@@ -153,6 +178,28 @@ All buying via `games/arkham-lcg/buying/`:
 | Circle Undone | Not yet researched | Low | |
 
 **Rule:** Buy Campaign Expansions only (story). Skip Investigator Expansions unless the player cards are uniquely valuable.
+
+---
+
+## Lord of the Rings: The Card Game
+
+A secondary game in the vault. Notes, buying guides, and deck lists live in `games/lotr-lcg/`. Less active than AHLCG but fully structured.
+
+### Overview
+- Cooperative LCG by Fantasy Flight Games
+- Living card game format — core set + adventure packs + deluxe expansions
+- Sphere system: Leadership, Lore, Spirit, Tactics (+ Neutral)
+- Campaign play supported via campaign mode in later expansions
+
+### Current Status
+- Core set acquired
+- Starter decks documented in `decks/starter-decks.md`
+- Buying guide and products table in `buying/`
+- `campaigns/` folder is a placeholder — no active campaign in progress
+
+### Key Decisions
+- Buying strategy: core set first, then adventure packs by cycle
+- No card modification work planned (unlike AHLCG)
 
 ---
 
