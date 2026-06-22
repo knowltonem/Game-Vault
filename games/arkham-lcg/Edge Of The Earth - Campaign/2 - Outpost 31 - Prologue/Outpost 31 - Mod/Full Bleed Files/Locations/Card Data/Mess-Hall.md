@@ -38,3 +38,12 @@
 
 **Flavor text:**
 > The heart of station life, where crew members gather for meals and conversation. Hot food and warm company provide comfort against the Antarctic isolation.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

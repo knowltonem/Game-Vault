@@ -4,3 +4,12 @@
 **Revelation:** Put Losing Humanity into play in your threat area. You get -1 [willpower], -1 [intellect], -1 [combat] and -1 [agility] until the end of the round.
 **Forced:** At the end of your turn: Discard Losing Humanity.
 > [!fix] TITLE TYPO: card title prints "Losing Humnanity" -> "Losing Humanity" (body text is correct). Also fix the filename.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** title "Humnanity" typo
+- **Text fixes for art:** "Humnanity"->"Humanity"
+- **Period / tech:** Period-neutral

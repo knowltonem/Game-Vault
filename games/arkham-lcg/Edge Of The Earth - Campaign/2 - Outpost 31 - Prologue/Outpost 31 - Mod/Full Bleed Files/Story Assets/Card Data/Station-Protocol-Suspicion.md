@@ -28,3 +28,12 @@
 ## Verdict
 
 "Protocol" is period-accurate. No rename needed. This card is the suspicion rules hub — many other cards reference it. Only capitalization fix applied.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** capitalized "Suspicion" final para
+- **Text fixes for art:** "Suspicion"->"suspicion"
+- **Period / tech:** "Protocol" period-accurate; suspicion rules hub

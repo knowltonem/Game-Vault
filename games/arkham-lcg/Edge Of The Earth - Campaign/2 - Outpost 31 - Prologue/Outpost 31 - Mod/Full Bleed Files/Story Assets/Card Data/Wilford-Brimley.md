@@ -8,3 +8,12 @@
 **Ability 2 ([action]):** [action]: Parley. Test [combat] (2). If you succeed, take control of any clue on Wilford Brimley.
 Cross-refs: Crew Member, Parley, ammo, Elite.
 > [!fix] TYPOS on card art: (1) ability prints "Wilfird Brimley" -> "Wilford". (2) "succceed" -> "succeed". (3) subtitle "Doesn't trust Anyone" -> lowercase "anyone".
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** "Wilfird","succceed","Anyone"
+- **Text fixes for art:** Wilfird->Wilford; succceed->succeed; Anyone->anyone
+- **Period / tech:** Period-neutral

@@ -36,3 +36,12 @@
 
 **Flavor text:**
 > The station administrator's work-space, filled with personnel files and supply inventories. Daily reports and duty assignments keep the operation running smoothly.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** computer / modern items
+- **Text fixes for art:** none
+- **Period / tech:** Re-theme art: typewriter + ledgers

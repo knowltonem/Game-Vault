@@ -5,3 +5,12 @@
 **Back (#2b):** Paranoia takes hold as the investigators uncover evidence of infection. Anyone could be compromised.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (The Enemy Within #7)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

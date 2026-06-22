@@ -13,3 +13,12 @@
 
 > [!fix] REQUIRED: Forced 2 art reads "either Helicopter Pad or Radio Room" -> "Ice Runway or Radio Room".
 > [!fix] TYPO: trait line prints "ELite" -> "Elite".
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** Helicopter Pad -> Ice Runway (Forced 2)
+- **Art still shows:** "Helicopter Pad";"ELite" typo
+- **Text fixes for art:** ELite->Elite
+- **Period / tech:** Period-neutral (boss)

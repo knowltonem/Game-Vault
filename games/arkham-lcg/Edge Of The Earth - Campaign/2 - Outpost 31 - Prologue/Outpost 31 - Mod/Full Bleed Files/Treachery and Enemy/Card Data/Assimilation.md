@@ -4,3 +4,12 @@
 **Forced:** If there are no facedown Blood Tests in play, Assimilation gains surge. Otherwise, flip a facedown Blood Test and resolve its text.
 **Flavor:** An ungodly scream can be heard from another room along with the sound of breaking furniture. An inhuman noise echoes through the building.
 Cross-refs: Blood Test mechanic (links Research Lab + Blood Test cards), surge.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

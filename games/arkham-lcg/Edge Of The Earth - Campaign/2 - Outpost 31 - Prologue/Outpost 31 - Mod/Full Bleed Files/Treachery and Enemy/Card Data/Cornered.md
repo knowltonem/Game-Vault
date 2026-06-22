@@ -7,3 +7,12 @@
 **Flavor:** "Say something. Anything. Because right now, it doesn't look good."
 > [!fix] CAPITALIZATION: art reads "If you fail, You must either" -> lowercase "you".
 > [!fix] PUNCTUATION: first bullet has no terminal period on art; make consistent.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** "You must" cap; bullet punctuation
+- **Text fixes for art:** "You"->"you"; periods
+- **Period / tech:** Period-neutral

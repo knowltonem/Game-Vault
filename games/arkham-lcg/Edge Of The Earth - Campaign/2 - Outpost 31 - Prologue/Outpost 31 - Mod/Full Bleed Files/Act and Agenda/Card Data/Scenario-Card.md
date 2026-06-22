@@ -1,4 +1,4 @@
-﻿# Scenario-Card
+# Scenario-Card
 **Type:** Scenario | **#66 Outpost 31**
 **Setup:**
 - Gather all locations and put them into play (Ice Runway, Kennels, Mess Hall, Office, Radio Room, Rec Room, Research Lab, Storage Hangar, Supply Room).
@@ -10,6 +10,14 @@
 
 **Resolution 1:** The investigators identify and destroy the infected crew member(s). The Thing is defeated.
 **Resolution 2:** The infected crew member(s) escape or achieve their objective.
-**Source:** _card-data-original (provisional â€” needs Claude Desktop visual verification)
+**Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
 
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** setup list -> Ice Runway / Storage Hangar / Radio Room
+- **Art still shows:** location names in setup list
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

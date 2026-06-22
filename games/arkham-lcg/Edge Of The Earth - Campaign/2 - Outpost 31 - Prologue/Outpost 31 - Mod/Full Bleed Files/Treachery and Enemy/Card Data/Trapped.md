@@ -6,3 +6,12 @@
 - ...an Organism enemy is at another location, it readies, moves (one location at a time) until it reaches your location, and engages you.
 - ...an Organism enemy is not in play, Trapped gains surge.
 Cross-refs: Organism enemy, suspicion, Crew Member, surge. Part of the "/7" peril set.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

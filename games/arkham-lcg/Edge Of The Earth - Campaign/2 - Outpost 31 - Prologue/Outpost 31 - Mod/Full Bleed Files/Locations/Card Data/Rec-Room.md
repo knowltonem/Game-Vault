@@ -39,3 +39,12 @@
 
 **Flavor text:**
 > A comfortable space where the crew unwinds after long shifts in the cold. Card games and books help pass the endless polar nights.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** neon / arcade elements
+- **Text fixes for art:** none
+- **Period / tech:** Re-theme art: gramophone + card tables

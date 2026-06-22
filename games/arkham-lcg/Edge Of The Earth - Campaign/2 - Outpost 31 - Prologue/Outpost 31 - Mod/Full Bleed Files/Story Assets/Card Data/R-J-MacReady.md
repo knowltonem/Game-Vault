@@ -10,3 +10,12 @@ Cross-refs: Crew Member, Parley, secrets.
 > [!fix] SPELLING: card/file use "MacReady"; the film character is "MacReady". Pick one and use consistently across card art + filename + MOD-LOG.
 
 > Spelling corrected MaCready -> MacReady to match the 1982 film "The Thing" (R.J. MacReady). Mod-only change; original art + transcription keep the as-printed "MaCready". Art still reads "MaCready" — flag for render pass.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** MaCready -> MacReady
+- **Art still shows:** "MaCready" (spelling fix on art)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

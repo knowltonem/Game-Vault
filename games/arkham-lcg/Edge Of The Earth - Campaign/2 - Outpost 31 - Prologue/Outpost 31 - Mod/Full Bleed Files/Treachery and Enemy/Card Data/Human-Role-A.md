@@ -8,3 +8,12 @@
 > **You are not required to reveal this card unless instructed.**
 
 Cross-refs: mirror of the Infected role card (Human wins on Resolution 1, Infected on Resolution 2). Three identical copies (A/B/C), #26/27/28. Resolution numbers must match the Scenario/Act resolutions when those are filled.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral (hidden role)

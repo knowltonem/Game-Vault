@@ -6,3 +6,12 @@
 - Place 2 suspicion on the scenario card and take 1 horror.
 **Flavor:** People are on edge and nerves are somewhat frayed.
 > [!fix] CAPITALIZATION: art reads "crew Members" -> "Crew Members".
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** "crew Members" cap
+- **Text fixes for art:** "crew Members"->"Crew Members"
+- **Period / tech:** Period-neutral

@@ -36,3 +36,12 @@
 
 **Flavor text:**
 > State-of-the-art equipment allows for comprehensive analysis of samples and specimens. The microscopes and testing apparatus represent years of scientific investment.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-fit (microscopes)

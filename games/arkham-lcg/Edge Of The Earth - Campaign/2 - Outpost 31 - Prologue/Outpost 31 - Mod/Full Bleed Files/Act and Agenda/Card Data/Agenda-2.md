@@ -5,3 +5,12 @@
 **Back (#2b):** Suspicion spreads like wildfire. Accusations are thrown, and the fragile trust between crew members begins to crack.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (Hostile Takeover #3)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

@@ -5,3 +5,12 @@
 **Back (#3b):** Violence erupts as the crew turns on each other. Friends become enemies in the blink of an eye.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (Awakenings #4)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

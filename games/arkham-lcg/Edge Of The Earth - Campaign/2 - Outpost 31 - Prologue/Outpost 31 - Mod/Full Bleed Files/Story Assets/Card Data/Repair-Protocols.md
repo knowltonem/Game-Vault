@@ -29,3 +29,12 @@
 ## Verdict
 
 "Protocols" is period-accurate (in use since the 1600s for procedures/rules). No rename needed. Only the Ice Runway reference and style fixes applied.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** Helicopter Pad -> Ice Runway
+- **Art still shows:** "Helicopter Pad" + capitalized "Remove"
+- **Text fixes for art:** lowercase "Remove" x2
+- **Period / tech:** "Protocols" period-accurate; name kept

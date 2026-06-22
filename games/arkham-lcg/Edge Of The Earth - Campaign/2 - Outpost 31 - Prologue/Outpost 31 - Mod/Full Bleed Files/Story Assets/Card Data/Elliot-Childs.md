@@ -8,3 +8,12 @@
 **Ability 2 ([action]):** [action]: Parley. Spend 2 resources. Take control of any clue on Elliot Childs.
 Cross-refs: Crew Member, Parley, repairs.
 > [!fix] STYLE: card art capitalizes "Resources" mid-sentence -> lowercase "resources".
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** "Spend 2 Resources"->lowercase
+- **Period / tech:** Period-neutral

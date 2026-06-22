@@ -43,3 +43,12 @@
 
 - Original filename uses lowercase `Radio-room` with hyphen. Preserve casing in mod folder if recreating.
 - Functionally unchanged; communication equipment is period-appropriate for 1920s Antarctic expeditions.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-accurate (radio existed in 1920s)

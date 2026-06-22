@@ -5,3 +5,12 @@
 **Back (#3b):** The Thing is exposed. The final battle for survival begins.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (The Last Stand #8)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

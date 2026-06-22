@@ -5,3 +5,12 @@
 **Back (#4b):** The final confrontation looms. Survivors must make their stand against the encroaching horror.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (Fight to Survive #5)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

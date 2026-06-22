@@ -4,3 +4,12 @@
 **Revelation:** Test [willpower] (4). If you fail, choose an Ally asset in play and place 1 suspicion token on it. If that Ally has no remaining uses, discard it instead. If there are no Ally assets in play, Terror from Within gains surge.
 **Flavor:** A constant fear that the person stood next to you is not who you think they are.
 > [!fix] GRAMMAR (minor): flavor "the person stood next to you" -> "standing next to you" (optional; "stood" is colloquial British).
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** optional: "stood"->"standing"
+- **Period / tech:** Period-neutral

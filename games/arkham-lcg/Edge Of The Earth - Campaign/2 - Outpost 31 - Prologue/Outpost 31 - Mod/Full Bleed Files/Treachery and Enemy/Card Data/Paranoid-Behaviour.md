@@ -7,3 +7,12 @@
 - Add 1 suspicion to the scenario card.
 > [!fix] CAPITALIZATION: third bullet on art reads "Add 1 Suspicion" -> lowercase "suspicion".
 > Note: "Behaviour" (British spelling) is fine/period-neutral.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** none
+- **Art still shows:** "Add 1 Suspicion" cap
+- **Text fixes for art:** "Suspicion"->"suspicion"
+- **Period / tech:** Period-neutral (British spelling OK)

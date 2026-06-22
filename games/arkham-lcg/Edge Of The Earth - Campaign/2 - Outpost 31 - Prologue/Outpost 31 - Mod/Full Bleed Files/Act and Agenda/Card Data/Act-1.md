@@ -5,3 +5,12 @@
 **Back (#1b):** The first signs of trouble emerge. A torn piece of clothing, a strange noise in the night. The crew is on edge.
 **Source:** _card-data-original (provisional — needs Claude Desktop visual verification)
 **Mod status:** ? TBD (likely SKIP)
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct (Paranoia Unleashed #6)
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral

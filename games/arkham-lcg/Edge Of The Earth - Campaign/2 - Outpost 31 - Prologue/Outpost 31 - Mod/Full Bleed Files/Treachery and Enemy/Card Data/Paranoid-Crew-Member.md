@@ -13,6 +13,15 @@
 | B (#33) | Research Lab | Investigators at this location cannot spend clues or gain clues from successful investigations. |
 | C (#34) | Radio Room | Investigators at this location get -1 to all skill tests. |
 
-> [!fix] REQUIRED: Variant A art reads "Spawn � Helicopter Pad" -> must become "Ice Runway" (location renamed).
+> [!fix] REQUIRED: Variant A art reads "Spawn � Helicopter Pad" -> must become "Ice Runway" (location renamed).
 > [!fix] CAPITALIZATION: Variant C art reads "Radio room" -> "Radio Room".
 > [!fix] TERM: art reads "blood test card" -> capitalize defined term "Blood Test".
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** 🟡 NEEDS ART — data done, apply on render
+- **Renames applied (data):** Helicopter Pad -> Ice Runway (variant A)
+- **Art still shows:** "Helicopter Pad";"Radio room";"blood test"
+- **Text fixes for art:** Radio room->Radio Room; cap Blood Test
+- **Period / tech:** Period-neutral

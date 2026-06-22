@@ -2,11 +2,11 @@
 
 **Source:** Original at `Edge Of The Earth - Campaign/2 - Outpost 31 - Prologue/Outpost 31 - Original/Full Bleed Files/Locations/Kennels-Front-Face.png`
 
-**Mod status:** âšª SKIP â€” period-accurate (dog sleds), no changes needed
+**Mod status:** ⚪ SKIP — period-accurate (dog sleds), no changes needed
 
 **Illustrator:** Unknown
 
-**Encounter set:** Snowflake (â„) | **Number:** 10 | **Set:** II
+**Encounter set:** Snowflake (❄) | **Number:** 10 | **Set:** II
 
 ---
 
@@ -23,8 +23,8 @@
 | Clues | 1 |
 | Per investigator | Yes |
 | Victory | 1 |
-| Own symbol | Orange/red heart â™¥ |
-| Connection | Yellow inverted-triangle â†’ Mess Hall |
+| Own symbol | Orange/red heart ♥ |
+| Connection | Yellow inverted-triangle → Mess Hall |
 
 **Ability (Reaction):**
 > [reaction] After you defeat an enemy at this location: Draw 1 card and gain 1 resource.
@@ -42,3 +42,12 @@
 ## Art Notes
 
 Period-accurate. Dog sleds were primary Antarctic transport in the 1920s. No changes needed.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-accurate (dog sleds)

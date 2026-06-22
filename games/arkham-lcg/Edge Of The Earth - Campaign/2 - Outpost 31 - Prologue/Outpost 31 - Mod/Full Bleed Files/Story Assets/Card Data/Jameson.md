@@ -7,3 +7,12 @@
 **Ability 1 ([reaction]):** During your turn, spend 1 secret and exhaust Jameson: Evade. Attempt to evade with a base [agility] skill of 6.
 **Ability 2 ([action]):** [action]: Parley. Test [combat] (2). If you succeed, take control of any clue on Jameson.
 Cross-refs: Crew Member, Parley, secrets. Rifle in art is period-fine.
+
+---
+
+## 🎨 Render Pass Note
+- **Status:** ⚪ SKIP — no change needed
+- **Renames applied (data):** none
+- **Art still shows:** correct
+- **Text fixes for art:** none
+- **Period / tech:** Period-neutral
