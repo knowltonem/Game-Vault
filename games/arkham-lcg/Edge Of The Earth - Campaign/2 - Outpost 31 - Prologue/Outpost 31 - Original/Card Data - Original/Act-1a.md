@@ -1,6 +1,24 @@
-> VERBATIM TRANSCRIPTION of the original card art (typos preserved as printed).
-> This is a reconstruction by transcription, not a delivered file. Do not "correct" it — it is the original-of-record.
+# Act 1a — Paranoia Unleashed
 
-**Act | #1a | Clues 4 (per investigator)**
-Forced – When the last clue is discovered on this act: Advance.
-(Flavor) Something is wrong at Outpost 31. Investigate the station and find out what.
+## Card Identity
+- **Type:** Act
+- **Side:** 1a
+- **Card Number:** 19 (visible at top of card as "Act 19" / "∀ct 19")
+- **Set:** Outpost 31
+- **Set Number:** (see Scenario Card)
+- **Icon:** Snowflake (❄)
+- **Clues required:** 4 per investigator (bottom right: snowflake icon × 6, Q icon)
+
+## Front Face Text
+
+**Flavor text (italic):**
+*Something is wrong at the research station. Shadows move where none should fall, and the crew exchanges suspicious glances. You must identify the source of these disturbances before paranoia consumes everyone.*
+
+**Game text:**
+[Investigate action icon] Spend 2 clues: Draw the top card of the Test Deck and attach it facedown to a Crew Member without a Blood Test attached. (Limit once per round.)
+
+**Objective –** If you have performed a Blood Test on 3 Crew Members, advance.
+
+## Notes
+- Clue threshold bottom right: 6 and Q (likely 4 clues per investigator — confirm against scenario card)
+- "Test Deck" = Blood Test deck
