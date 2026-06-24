@@ -81,6 +81,20 @@ Use the **Treachery** template in Strange Eons.
 
 ---
 
+## MINI INVESTIGATOR MARKER
+
+Use the **Mini Investigator Marker** card type found under the **Other** category in Strange Eons.
+> New Deck → Other → Mini Investigator Marker
+
+This is the small double-sided mini-card used to track the investigator's location on the board.
+
+| Face | Content |
+|---|---|
+| Front | Investigator portrait + name + class colour |
+| Back | Class icon + name |
+
+---
+
 ## CARDS TO BUILD — CHECKLIST
 
 | Card | Template | Status |
@@ -89,3 +103,4 @@ Use the **Treachery** template in Strange Eons.
 | Fuchs — Back | Investigator Back | 🟡 PENDING |
 | Blair's Notes | Asset | 🟡 PENDING |
 | Paranoia | Treachery (Weakness) | 🟡 PENDING |
+| Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |

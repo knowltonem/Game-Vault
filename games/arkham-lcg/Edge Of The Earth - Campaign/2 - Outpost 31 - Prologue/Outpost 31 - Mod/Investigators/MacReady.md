@@ -51,7 +51,7 @@
 
 ## SIGNATURE ASSET — "I Know What I Am"
 
-This is a separate card. Use the **Asset** template in Strange Eons.
+Use the **Asset** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
@@ -68,7 +68,7 @@ This is a separate card. Use the **Asset** template in Strange Eons.
 
 ## PERSONAL WEAKNESS — "Creeping Doubt"
 
-This is a separate card. Use the **Treachery** template in Strange Eons.
+Use the **Treachery** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
@@ -81,6 +81,20 @@ This is a separate card. Use the **Treachery** template in Strange Eons.
 
 ---
 
+## MINI INVESTIGATOR MARKER
+
+Use the **Mini Investigator Marker** card type found under the **Other** category in Strange Eons.
+> New Deck → Other → Mini Investigator Marker
+
+This is the small double-sided mini-card used to track the investigator's location on the board.
+
+| Face | Content |
+|---|---|
+| Front | Investigator portrait + name + class colour |
+| Back | Class icon + name |
+
+---
+
 ## CARDS TO BUILD — CHECKLIST
 
 | Card | Template | Status |
@@ -89,11 +103,13 @@ This is a separate card. Use the **Treachery** template in Strange Eons.
 | R.J. MacReady — Back | Investigator Back | 🟢 DONE |
 | I Know What I Am | Asset | 🟡 PENDING |
 | Creeping Doubt | Treachery (Weakness) | 🟡 PENDING |
+| Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |
 
 ---
 
 ## NOTES
 - Subtitle was truncated to "Pilot" in first print — fix to "Helicopter Pilot"
+- Name field shows "R.J MacReady" — fix to "R.J. MacReady" (add period after J)
 - `<act>` confirmed working in Strange Eons
 - `<com>` confirmed as correct combat symbol tag
-- Reprint after fixing subtitle and replacing [action] with `<act>`
+- Reprint after fixing name period and subtitle

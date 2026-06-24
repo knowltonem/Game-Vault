@@ -81,6 +81,20 @@ Use the **Treachery** template in Strange Eons.
 
 ---
 
+## MINI INVESTIGATOR MARKER
+
+Use the **Mini Investigator Marker** card type found under the **Other** category in Strange Eons.
+> New Deck → Other → Mini Investigator Marker
+
+This is the small double-sided mini-card used to track the investigator's location on the board.
+
+| Face | Content |
+|---|---|
+| Front | Investigator portrait + name + class colour |
+| Back | Class icon + name |
+
+---
+
 ## CARDS TO BUILD — CHECKLIST
 
 | Card | Template | Status |
@@ -89,8 +103,9 @@ Use the **Treachery** template in Strange Eons.
 | Norris — Back | Investigator Back | 🟡 PENDING |
 | Something Under the Ice | Asset | 🟡 PENDING |
 | Heart Condition | Treachery (Weakness) | 🟡 PENDING |
+| Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |
 
 ---
 
 ## NOTES
-- Weakness "Heart Condition" is a reference to Norris's death scene in the film
+- Heart Condition is a direct reference to Norris's death scene in the film
