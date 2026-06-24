@@ -47,7 +47,7 @@
 | Class | Guardian |
 | Deck Size | 30 |
 | Deckbuilding Options | Guardian cards (level 0–5). Rogue cards (level 0–2). |
-| Deckbuilding Requirements | "You Gotta Be Kidding Me" (× 1), Disbelief (× 1), 1 random Basic Weakness. |
+| Deckbuilding Requirements | "You Gotta Be Kidding Me" (× 1), I Got Lost in the Storm (× 1), 1 random Basic Weakness. |
 | Flavor text | "Nobody said it would be easy. Nobody said anything." |
 
 ---
@@ -77,16 +77,17 @@ Use the **Asset** template in Strange Eons.
 
 ---
 
-## PERSONAL WEAKNESS — "Disbelief"
+## PERSONAL WEAKNESS — "I Got Lost in the Storm"
 
 Use the **Treachery** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
-| Name | Disbelief |
+| Name | I Got Lost in the Storm |
 | Class | Neutral |
+| Subtype | Weakness |
 | Traits | Flaw. Madness. |
-| Ability text | **Revelation –** Attach to Childs. **Forced –** The first time each round you would take horror: Take 1 additional horror. Discard Disbelief after Childs takes 3 or more horror in a single round. |
+| Ability text | **Revelation –** Attach to Childs. **Forced –** The first time each round you would take horror: Take 1 additional horror. Discard I Got Lost in the Storm after Childs takes 3 or more horror in a single round. |
 | Flavor text | "He refused to accept what he was seeing. Until it was too late." |
 | Set | Outpost 31 |
 
