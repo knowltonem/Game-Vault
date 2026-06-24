@@ -12,7 +12,7 @@
 | Card | Card Number | Encounter Set |
 |---|---|---|
 | Childs Investigator | 5 | 1/1 |
-| You Gotta Be Kidding Me | 6 | 1/1 |
+| Cut Me Loose | 6 | 1/1 |
 | Disbelief | 7 | 1/1 |
 | Mini Investigator Marker | 8 | 1/1 |
 
@@ -32,7 +32,7 @@
 | Agility | 3 |
 | Health | 9 |
 | Sanity | 6 |
-| Ability title | "You Gotta Be Kidding Me" |
+| Ability title | "Cut Me Loose" |
 | Ability text | `<react>` After an enemy engages you: Make a free **Fight** action against that enemy. This attack deals +1 damage if the enemy has the Organism or Infected trait. |
 | Flavor text | "I just cannot believe any of this voodoo bullshit." |
 
@@ -47,7 +47,7 @@
 | Class | Guardian |
 | Deck Size | 30 |
 | Deckbuilding Options | Guardian cards (level 0–5). Rogue cards (level 0–2). |
-| Deckbuilding Requirements | "You Gotta Be Kidding Me" (× 1), I Got Lost in the Storm (× 1), 1 random Basic Weakness. |
+| Deckbuilding Requirements | "Cut Me Loose" (× 1), I Got Lost in the Storm (× 1), 1 random Basic Weakness. |
 | Flavor text | "Nobody said it would be easy. Nobody said anything." |
 
 ---
@@ -60,19 +60,20 @@
 
 ---
 
-## SIGNATURE ASSET — "You Gotta Be Kidding Me"
+## SIGNATURE ASSET — "Cut Me Loose"
 
 Use the **Asset** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
-| Name | You Gotta Be Kidding Me |
-| Unique | yes (`<unique>`) |
+| Name | `<unique>`Cut Me Loose |
 | Class | Guardian |
 | Cost | 2 |
+| Level | 0 |
+| Slot | None |
 | Traits | Talent. |
 | Ability text | `<react>` After an enemy engages you: Make a free **Fight** action against that enemy. (Limit once per round.) `<react>` After you defeat an enemy: You may move to a connecting location. |
-| Flavor text | There's no time to think. Just react. |
+| Flavor text | *Cut me loose.* |
 | Set | Outpost 31 |
 
 ---
