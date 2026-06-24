@@ -7,6 +7,17 @@
 
 ---
 
+## COLLECTION NUMBERING
+
+| Card | Card Number | Encounter Set |
+|---|---|---|
+| Childs Investigator | 5 | 1/1 |
+| You Gotta Be Kidding Me | 6 | 1/1 |
+| Disbelief | 7 | 1/1 |
+| Mini Investigator Marker | 8 | 1/1 |
+
+---
+
 ## INVESTIGATOR CARD — FRONT FACE
 
 | Field | Copy-paste value |
