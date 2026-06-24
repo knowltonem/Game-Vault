@@ -102,7 +102,7 @@ This is the small double-sided mini-card used to track the investigator's locati
 | R.J. MacReady — Front | Investigator Front | 🟢 DONE |
 | R.J. MacReady — Back | Investigator Back | 🟢 DONE |
 | I Know What I Am | Asset | 🟢 DONE |
-| Creeping Doubt | Treachery (Weakness) | 🟡 PENDING |
+| Creeping Doubt | Treachery (Weakness) | 🟢 DONE |
 | Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |
 
 ---
