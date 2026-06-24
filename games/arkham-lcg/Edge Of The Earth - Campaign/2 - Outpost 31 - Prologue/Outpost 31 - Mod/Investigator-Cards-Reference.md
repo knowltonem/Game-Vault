@@ -16,7 +16,7 @@
 | Reaction | `<react>` |
 | Willpower | `<will>` |
 | Intellect | `<inte>` |
-| Combat | `<combat>` |
+| Combat | `<com>` |
 | Agility | `<agi>` |
 | Wild | `<wild>` |
 | Skull | `<skull>` |
@@ -80,7 +80,7 @@
 | Agility | 2 |
 | Health | 9 |
 | Sanity | 6 |
-| Ability text | "I Know What I Am" `<act>` Exhaust R.J. MacReady: **Fight** using any weapon asset you control. If the attacked enemy is an Organism or Monster, you get +3 `<combat>` for this attack and deal +1 damage. (Limit once per round.) |
+| Ability text | "I Know What I Am" `<act>` Exhaust R.J. MacReady: **Fight** using any weapon asset you control. If the attacked enemy is an Organism or Monster, you get +3 `<com>` for this attack and deal +1 damage. (Limit once per round.) |
 | Flavor text | *"I know I'm human. And if you were all these things, then you'd just attack me right now."* |
 
 ### BACK FACE
@@ -95,7 +95,7 @@
 | Flavor text | *"Trust is a luxury none of us can afford."* |
 
 ### ELDER SIGN
-+2 `<combat>`. If fighting an Organism or Monster enemy, deal 1 additional damage.
++2 `<com>`. If fighting an Organism or Monster enemy, deal 1 additional damage.
 
 ### SIGNATURE ASSET — "I Know What I Am"
 | Field | Value |
@@ -105,7 +105,7 @@
 | Cost | 2 |
 | Traits | *Item. Weapon.* |
 | Unique | `<unique>` |
-| Text | Uses (3 ammo). `<act>` Spend 1 ammo: **Fight**. You get +2 `<combat>` for this attack. If the attacked enemy has the Organism, Monster, or Infected trait, deal +1 damage and you may use this ability an additional time this round. |
+| Text | Uses (3 ammo). `<act>` Spend 1 ammo: **Fight**. You get +2 `<com>` for this attack. If the attacked enemy has the Organism, Monster, or Infected trait, deal +1 damage and you may use this ability an additional time this round. |
 | Flavor | *An axe, a flamethrower, a revolver. Whatever it takes.* |
 
 ### PERSONAL WEAKNESS — "Creeping Doubt"
@@ -176,7 +176,7 @@
 | Flavor text | *"Nobody goes anywhere alone. Everybody stays together."* |
 
 ### ELDER SIGN
-+1 `<will>`, +1 `<inte>`, +1 `<combat>`, +1 `<agi>` until end of round.
++1 `<will>`, +1 `<inte>`, +1 `<com>`, +1 `<agi>` until end of round.
 
 ---
 
@@ -362,7 +362,7 @@
 | Flavor text | *"Nobody said it would be easy. Nobody said anything."* |
 
 ### ELDER SIGN
-+2 `<combat>`. After this attack, ready Childs if exhausted.
++2 `<com>`. After this attack, ready Childs if exhausted.
 
 ---
 
@@ -461,7 +461,7 @@
 
 ## Quick Reference — All Stats
 
-| Character | Class | `<will>` | `<inte>` | `<combat>` | `<agi>` | HP | SAN |
+| Character | Class | `<will>` | `<inte>` | `<com>` | `<agi>` | HP | SAN |
 |---|---|---|---|---|---|---|---|
 | MacReady | Guardian | 4 | 3 | 5 | 2 | 9 | 6 |
 | Blair | Seeker | 2 | 5 | 1 | 2 | 5 | 10 |
