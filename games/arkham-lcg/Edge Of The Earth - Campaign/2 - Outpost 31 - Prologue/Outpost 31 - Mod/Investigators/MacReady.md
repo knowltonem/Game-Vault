@@ -3,7 +3,7 @@
 **Character:** R.J. MacReady
 **Film role:** Helicopter Pilot
 **Class:** Guardian
-**Status:** Front and back built. Signature and weakness pending.
+**Status:** ALL 5 CARDS COMPLETE 🟢
 
 ---
 
@@ -103,7 +103,7 @@ This is the small double-sided mini-card used to track the investigator's locati
 | R.J. MacReady — Back | Investigator Back | 🟢 DONE |
 | I Know What I Am | Asset | 🟢 DONE |
 | Creeping Doubt | Treachery (Weakness) | 🟢 DONE |
-| Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |
+| Mini Investigator Marker | Other → Mini Investigator Marker | 🟢 DONE |
 
 ---
 
