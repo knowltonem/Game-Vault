@@ -1,0 +1,91 @@
+# Childs — Strange Eons Card Files
+
+**Character:** Childs
+**Film role:** Mechanic
+**Class:** Guardian
+**Status:** Pending build.
+
+---
+
+## INVESTIGATOR CARD — FRONT FACE
+
+| Field | Copy-paste value |
+|---|---|
+| Name | Childs |
+| Subtitle | Mechanic |
+| Class | Guardian |
+| Traits | Mechanic. Veteran. |
+| Willpower | 3 |
+| Intellect | 2 |
+| Combat | 4 |
+| Agility | 3 |
+| Health | 9 |
+| Sanity | 6 |
+| Ability title | "You Gotta Be Kidding Me" |
+| Ability text | `<react>` After an enemy engages you: Make a free **Fight** action against that enemy. This attack deals +1 damage if the enemy has the Organism or Infected trait. |
+| Flavor text | "I just cannot believe any of this voodoo bullshit." |
+
+---
+
+## INVESTIGATOR CARD — BACK FACE
+
+| Field | Copy-paste value |
+|---|---|
+| Name | Childs |
+| Subtitle | Mechanic |
+| Class | Guardian |
+| Deck Size | 30 |
+| Deckbuilding Options | Guardian cards (level 0–5). Rogue cards (level 0–2). |
+| Deckbuilding Requirements | "You Gotta Be Kidding Me" (× 1), Disbelief (× 1), 1 random Basic Weakness. |
+| Flavor text | "Nobody said it would be easy. Nobody said anything." |
+
+---
+
+## ELDER SIGN EFFECT
+
+| Field | Copy-paste value |
+|---|---|
+| Elder Sign | +2 `<com>`. After this attack, ready Childs if exhausted. |
+
+---
+
+## SIGNATURE ASSET — "You Gotta Be Kidding Me"
+
+Use the **Asset** template in Strange Eons.
+
+| Field | Copy-paste value |
+|---|---|
+| Name | You Gotta Be Kidding Me |
+| Unique | yes (`<unique>`) |
+| Class | Guardian |
+| Cost | 2 |
+| Traits | Talent. |
+| Ability text | `<react>` After an enemy engages you: Make a free **Fight** action against that enemy. (Limit once per round.) `<react>` After you defeat an enemy: You may move to a connecting location. |
+| Flavor text | There's no time to think. Just react. |
+| Set | Outpost 31 |
+
+---
+
+## PERSONAL WEAKNESS — "Disbelief"
+
+Use the **Treachery** template in Strange Eons.
+
+| Field | Copy-paste value |
+|---|---|
+| Name | Disbelief |
+| Class | Neutral |
+| Traits | Flaw. Madness. |
+| Ability text | **Revelation –** Attach to Childs. **Forced –** The first time each round you would take horror: Take 1 additional horror. Discard Disbelief after Childs takes 3 or more horror in a single round. |
+| Flavor text | "He refused to accept what he was seeing. Until it was too late." |
+| Set | Outpost 31 |
+
+---
+
+## CARDS TO BUILD — CHECKLIST
+
+| Card | Template | Status |
+|---|---|---|
+| Childs — Front | Investigator Front | 🟡 PENDING |
+| Childs — Back | Investigator Back | 🟡 PENDING |
+| You Gotta Be Kidding Me | Asset | 🟡 PENDING |
+| Disbelief | Treachery (Weakness) | 🟡 PENDING |
