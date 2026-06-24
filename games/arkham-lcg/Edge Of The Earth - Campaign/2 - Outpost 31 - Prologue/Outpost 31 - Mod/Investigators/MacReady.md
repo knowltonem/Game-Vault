@@ -110,6 +110,7 @@ This is the small double-sided mini-card used to track the investigator's locati
 ## NOTES
 - Subtitle was truncated to "Pilot" in first print — fix to "Helicopter Pilot"
 - Name field shows "R.J MacReady" — fix to "R.J. MacReady" (add period after J)
-- `<act>` confirmed working in Strange Eons
+- `<act>` confirmed working in Strange Eons — single arrow
 - `<com>` confirmed as correct combat symbol tag
-- Reprint after fixing name period and subtitle
+- Mini Investigator Marker exports with blank filename prefix — this is normal Strange Eons behaviour, no text fields on that card type
+- Reprint investigator front/back after fixing name period and subtitle
