@@ -114,6 +114,6 @@ This is the small double-sided mini-card used to track the investigator's locati
 |---|---|---|
 | Childs — Front | Investigator Front | 🟡 PENDING |
 | Childs — Back | Investigator Back | 🟡 PENDING |
-| You Gotta Be Kidding Me | Asset | 🟡 PENDING |
-| Disbelief | Treachery (Weakness) | 🟡 PENDING |
-| Mini Investigator Marker | Other → Mini Investigator Marker | 🟡 PENDING |
+| Cut Me Loose | Asset | 🟢 DONE |
+| I Got Lost in the Storm | Treachery (Weakness) | 🟡 PENDING |
+| Mini Investigator Marker | Other → Mini Investigator Marker | 🟢 DONE |
