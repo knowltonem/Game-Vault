@@ -13,7 +13,7 @@
 |---|---|---|
 | Palmer Investigator | 9 | 1/1 |
 | Chariots of the Gods | 10 | 1/1 |
-| Too Laid Back | 11 | 1/1 |
+| I'm Not Going with Windows | 11 | 1/1 |
 | Mini Investigator Marker | 12 | 1/1 |
 
 ---
@@ -47,7 +47,7 @@
 | Class | Rogue |
 | Deck Size | 30 |
 | Deckbuilding Options | Rogue cards (level 0–5). Guardian cards (level 0–2). |
-| Deckbuilding Requirements | "Chariots of the Gods" (× 1), Too Laid Back (× 1), 1 random Basic Weakness. |
+| Deckbuilding Requirements | "Chariots of the Gods" (× 1), I'm Not Going with Windows (× 1), 1 random Basic Weakness. |
 | Flavor text | "Laid back. Too laid back." |
 
 ---
@@ -78,16 +78,16 @@ Use the **Asset** template in Strange Eons.
 
 ---
 
-## PERSONAL WEAKNESS — "Too Laid Back"
+## PERSONAL WEAKNESS — "I'm Not Going with Windows"
 
 Use the **Treachery** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
-| Name | Too Laid Back |
+| Name | I'm Not Going with Windows |
 | Class | Neutral |
 | Traits | Flaw. |
-| Ability text | **Revelation –** Attach to Palmer. **Forced –** At the end of the round: If you did not move this round, take 1 horror. If you did not attack or evade an enemy this round, also take 1 damage. Discard Too Laid Back after 3 rounds. |
+| Ability text | **Revelation –** Attach to Palmer. **Forced –** At the end of the round: If you did not move this round, take 1 horror. If you did not attack or evade an enemy this round, also take 1 damage. Discard I'm Not Going with Windows after 3 rounds. |
 | Flavor text | "He had all the skills. He just couldn't be bothered." |
 | Set | Outpost 31 |
 
