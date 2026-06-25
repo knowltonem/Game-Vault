@@ -3,7 +3,7 @@
 **Character:** Childs
 **Film role:** Mechanic
 **Class:** Guardian
-**Status:** Pending build.
+**Status:** ALL 5 CARDS COMPLETE 🟢
 
 ---
 
@@ -13,7 +13,7 @@
 |---|---|---|
 | Childs Investigator | 5 | 1/1 |
 | Cut Me Loose | 6 | 1/1 |
-| Disbelief | 7 | 1/1 |
+| I Got Lost in the Storm | 7 | 1/1 |
 | Mini Investigator Marker | 8 | 1/1 |
 
 ---
@@ -112,8 +112,8 @@ This is the small double-sided mini-card used to track the investigator's locati
 
 | Card | Template | Status |
 |---|---|---|
-| Childs — Front | Investigator Front | 🟡 PENDING |
-| Childs — Back | Investigator Back | 🟡 PENDING |
+| Childs — Front | Investigator Front | 🟢 DONE |
+| Childs — Back | Investigator Back | 🟢 DONE |
 | Cut Me Loose | Asset | 🟢 DONE |
-| I Got Lost in the Storm | Treachery (Weakness) | 🟡 PENDING |
+| I Got Lost in the Storm | Treachery (Weakness) | 🟢 DONE |
 | Mini Investigator Marker | Other → Mini Investigator Marker | 🟢 DONE |
