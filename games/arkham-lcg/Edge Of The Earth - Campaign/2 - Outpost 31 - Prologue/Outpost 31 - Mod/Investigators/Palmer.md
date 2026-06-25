@@ -3,7 +3,18 @@
 **Character:** Palmer
 **Film role:** Helicopter Pilot
 **Class:** Rogue
-**Status:** .eon file exists in Strange Eons folder. Pending review.
+**Status:** Pending build.
+
+---
+
+## COLLECTION NUMBERING
+
+| Card | Card Number | Encounter Set |
+|---|---|---|
+| Palmer Investigator | 9 | 1/1 |
+| Chariots of the Gods | 10 | 1/1 |
+| Too Laid Back | 11 | 1/1 |
+| Mini Investigator Marker | 12 | 1/1 |
 
 ---
 
@@ -21,7 +32,7 @@
 | Agility | 4 |
 | Health | 7 |
 | Sanity | 8 |
-| Ability title | "Hey, Sweden" |
+| Ability title | "Chariots of the Gods" |
 | Ability text | `<free>` After another investigator at your location fails a skill test: You may spend 1 resource. If you do, they may re-draw the chaos token once. |
 | Flavor text | "You gotta be kidding." |
 
@@ -36,7 +47,7 @@
 | Class | Rogue |
 | Deck Size | 30 |
 | Deckbuilding Options | Rogue cards (level 0–5). Guardian cards (level 0–2). |
-| Deckbuilding Requirements | "Hey, Sweden" (× 1), Too Laid Back (× 1), 1 random Basic Weakness. |
+| Deckbuilding Requirements | "Chariots of the Gods" (× 1), Too Laid Back (× 1), 1 random Basic Weakness. |
 | Flavor text | "Laid back. Too laid back." |
 
 ---
@@ -49,19 +60,20 @@
 
 ---
 
-## SIGNATURE ASSET — "Hey, Sweden"
+## SIGNATURE ASSET — "Chariots of the Gods"
 
 Use the **Asset** template in Strange Eons.
 
 | Field | Copy-paste value |
 |---|---|
-| Name | Hey, Sweden |
-| Unique | yes (`<unique>`) |
+| Name | `<unique>`Chariots of the Gods |
 | Class | Rogue |
 | Cost | 0 |
+| Level | 0 |
+| Slot | None |
 | Traits | Talent. |
 | Ability text | `<free>` Once per round, after another investigator at your location fails a skill test by 1: You may spend 2 resources. If you do, that investigator does not fail the test. |
-| Flavor text | Sometimes all it takes is the right moment. |
+| Flavor text | *"Chariots of the Gods, man."* |
 | Set | Outpost 31 |
 
 ---
