@@ -1,7 +1,7 @@
 # Palmer — Strange Eons Card Files
 
 **Character:** Palmer
-**Film role:** Helicopter Pilot
+**Film role:** Ski-Plane Pilot
 **Class:** Rogue
 **Status:** Pending build.
 
@@ -23,7 +23,7 @@
 | Field | Copy-paste value |
 |---|---|
 | Name | Palmer |
-| Subtitle | Helicopter Pilot |
+| Subtitle | Ski-Plane Pilot |
 | Class | Rogue |
 | Traits | Drifter. Pilot. |
 | Willpower | 2 |
@@ -43,7 +43,7 @@
 | Field | Copy-paste value |
 |---|---|
 | Name | Palmer |
-| Subtitle | Helicopter Pilot |
+| Subtitle | Ski-Plane Pilot |
 | Class | Rogue |
 | Deck Size | 30 |
 | Deckbuilding Options | Rogue cards (level 0–5). Guardian cards (level 0–2). |
