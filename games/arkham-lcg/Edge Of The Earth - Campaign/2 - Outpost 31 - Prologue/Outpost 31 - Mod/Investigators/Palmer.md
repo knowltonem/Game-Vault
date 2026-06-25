@@ -26,7 +26,7 @@
 | Subtitle | Ski-Plane Pilot |
 | Class | Rogue |
 | Traits | Drifter. Pilot. |
-| Willpower | 2 |
+| Willpower | 3 |
 | Intellect | 2 |
 | Combat | 2 |
 | Agility | 4 |
