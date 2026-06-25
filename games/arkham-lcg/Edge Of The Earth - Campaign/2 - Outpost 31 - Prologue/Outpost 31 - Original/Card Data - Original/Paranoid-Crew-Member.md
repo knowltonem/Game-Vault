@@ -24,8 +24,11 @@ Investigators at Paranoid Crew Member's location cannot gain resources.
 **Forced –** When Paranoid Crew Member is defeated: You may reveal any Crew Member's unrevealed blood test card and resolve its text.
 
 ### Mod Status — Card A
-🟡 QUEUED — Ice Runway reference fix.
+🟡 QUEUED — Ice Runway reference fix + Blood Test capitalisation.
+
+### Mod Changes — Card A
 - **Spawn:** "Helicopter Pad" → "Ice Runway"
+- **Forced:** "blood test card" → "Blood Test card"
 
 ---
 
@@ -36,7 +39,10 @@ Investigators at Paranoid Crew Member's location cannot spend clues or gain clue
 **Forced –** When Paranoid Crew Member is defeated: You may reveal any Crew Member's unrevealed blood test card and resolve its text.
 
 ### Mod Status — Card B
-⚪ SKIP — No changes needed.
+🟡 QUEUED — Blood Test capitalisation.
+
+### Mod Changes — Card B
+- **Forced:** "blood test card" → "Blood Test card"
 
 ---
 
@@ -47,8 +53,11 @@ Investigators at Paranoid Crew Member's location get -1 to all skill tests.
 **Forced –** When Paranoid Crew Member is defeated: You may reveal any Crew Member's unrevealed blood test card and resolve its text.
 
 ### Mod Status — Card C
-🟡 QUEUED — Capitalisation fix.
+🟡 QUEUED — Capitalisation fixes.
+
+### Mod Changes — Card C
 - **Spawn:** "Radio room" → "Radio Room"
+- **Forced:** "blood test card" → "Blood Test card"
 
 ---
 

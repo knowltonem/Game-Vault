@@ -36,7 +36,10 @@ Any investigator with Suspicion on them may perform the following action:
 [Fast icon]: Test [willpower] (3). If you succeed, remove 1 suspicion from your investigator. (Limit once per round.)
 
 ## Mod Status
-🟢 DONE — Kept name. Lowercase "suspicion" fix already applied in mod version.
+🟡 QUEUED — Mid-sentence capital fix pending.
+
+## Mod Changes
+- **Final action paragraph:** "Any investigator with Suspicion on them" → "Any investigator with suspicion on them" (mid-sentence capital S)
 
 ## Notes
 - Central rules card — governs the entire suspicion mechanic

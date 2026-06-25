@@ -19,17 +19,19 @@ Listed below are the two skill tests players will be required to carry out in or
 [Reaction icon] After you succeed at either of these tests by 2 or more, remove 1 suspicion from the Scenario card or from any investigator. (Limit once per round.)
 
 ## Mod Status
-🟢 DONE — Kept name. Ice Runway ref fix already applied in mod version.
+🟡 QUEUED — Ice Runway ref done. Two mid-sentence caps still need fixing.
 
-## Mod Changes (already done)
-- "Helicopter Pad" → "Ice Runway" in first ability
+## Mod Changes
+- **First action:** "Helicopter Pad" → "Ice Runway"
+- **First action:** "Remove 1 damage" → "remove 1 damage" (mid-sentence capital R)
+- **Second action:** "Remove 1 damage" → "remove 1 damage" (mid-sentence capital R)
 
 ## Notes
 - Story card type — enters play by agenda deck (via Act 2b)
 - Two separate repair actions, each requiring skill test (3)
-- Helicopter Pad: willpower or agility (3)
+- Helicopter Pad → Ice Runway: willpower or agility (3)
 - Radio Room: combat or intellect (3)
 - Reaction: exceed by 2+ → remove suspicion (limit once per round)
-- "Remove" capitalised mid-sentence on both actions — original formatting
+- "Remove" capitalised mid-sentence on both actions — original formatting, needs lowercase
 - 'Repair' in single quotes in intro text — original formatting
 - PNG verified 2026-06-22

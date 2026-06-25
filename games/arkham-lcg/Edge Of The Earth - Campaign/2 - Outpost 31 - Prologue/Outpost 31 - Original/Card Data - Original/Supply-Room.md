@@ -5,3 +5,12 @@
 [action]: Spend 1-3 resources (between all investigators): Place that many clues (from the token pool) on any revealed location. (Limit once per round.)
 [reaction] If you evade and enemy at this location: Draw 2 resources (from the token pool).
 (Back) Shelves stocked with essential provisions and equipment for surviving the Antarctic winter. Everything from medical supplies to emergency rations is carefully catalogued and rationed.
+
+## Mod Status
+🟡 QUEUED — Typo in reaction ability.
+
+## Mod Changes
+- **Reaction ability:** "If you evade **and** enemy" → "If you evade **an** enemy" (typo — "and" should be "an")
+
+## Notes
+- PNG verified 2026-06-22
