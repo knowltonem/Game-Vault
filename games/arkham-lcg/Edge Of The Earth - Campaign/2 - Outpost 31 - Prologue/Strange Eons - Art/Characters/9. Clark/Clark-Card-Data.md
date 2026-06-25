@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 029 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 7 |
 | Ability text | "The Dogs Know" `<free>` Exhaust Clark: The nearest Organism enemy loses Hunter until the end of the round. If that enemy is at the Kennels, also place 1 suspicion on it. |
 | Flavor text | *"The dogs knew. They knew before any of us."* |
+| Collection | 031029 |
 
 ## Investigator (BACK)
 | Field | Value |

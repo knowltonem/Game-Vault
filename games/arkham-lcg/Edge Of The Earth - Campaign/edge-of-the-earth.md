@@ -7,13 +7,13 @@
 
 ## Structure
 
-| Path | Content |
-|------|---------|
-| `1 - Edge Of The Earth - Core Expansion/` | Main campaign |
-| `2 - Outpost 31 - Prologue/` | Fan prologue scenario |
-| `3 - Betrayal At The Mountains Of Madness - Interlude/` | Fan interlude scenario |
-| `4 - The Svalbard Event - Epilogue/` | Fan epilogue scenario |
-| `5 - At The Mountains Of Madness - Literary Source/` | Lovecraft novella (background reading) |
+| Path                                                    | Content                                |
+| ------------------------------------------------------- | -------------------------------------- |
+| `1 - Edge Of The Earth - Core Expansion/`               | Main campaign                          |
+| `2 - Outpost 31 - Prologue/`                            | Fan prologue scenario                  |
+| `3 - Betrayal At The Mountains Of Madness - Interlude/` | Fan interlude scenario                 |
+| `4 - The Svalbard Event - Epilogue/`                    | Fan epilogue scenario                  |
+| `5 - At The Mountains Of Madness - Literary Source/`    | Lovecraft novella (background reading) |
 
 ## Literary source
 - [[../notes/outpost31|Literary context — At the Mountains of Madness]]

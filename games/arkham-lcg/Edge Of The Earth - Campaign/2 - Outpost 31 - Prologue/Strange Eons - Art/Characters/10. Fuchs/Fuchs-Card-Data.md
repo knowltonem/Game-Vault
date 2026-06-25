@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 033 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 9 |
 | Ability text | "Blair's Notes" `<act>` Exhaust Fuchs and spend 1 secret: Reveal the top card of the encounter deck. If it is an Assimilation or Blood Test card, discard it. Otherwise, return it. |
 | Flavor text | *"Blair's been working on something. I don't like what I'm reading."* |
+| Collection | 031033 |
 
 ## Investigator (BACK)
 | Field | Value |

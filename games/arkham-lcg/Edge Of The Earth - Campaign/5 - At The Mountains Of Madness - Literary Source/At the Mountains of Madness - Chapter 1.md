@@ -1,4 +1,4 @@
-﻿# At the Mountains of Madness
+# At the Mountains of Madness
 ## Chapter I — The Miskatonic Expedition
 
 > *H.P. Lovecraft (1936)*

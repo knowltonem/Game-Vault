@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 017 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 8 |
 | Ability text | "I Found Something in the Trash" `<free>` Once per round, when you move: Search the top 3 cards of the encounter deck, put 1 into your hand, shuffle the rest back. |
 | Flavor text | *"I ain't going out there."* |
+| Collection | 031017 |
 
 ## Investigator (BACK)
 | Field | Value |

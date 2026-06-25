@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 037 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 9 |
 | Ability text | "The Storm's Closing In" **Forced –** At the start of each round: You may look at the top card of the encounter deck without revealing it. If it is a Treachery, place 1 clue on Bennings. |
 | Flavor text | *"That storm will cover us completely in another hour."* |
+| Collection | 031037 |
 
 ## Investigator (BACK)
 | Field | Value |

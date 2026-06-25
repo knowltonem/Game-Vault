@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 005 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -11,12 +17,13 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Traits | *Explorer. Scholar.* |
 | Willpower | 2 |
 | Intellect | 4 |
-| Combat | 2 |
+| Combat | 3 |
 | Agility | 2 |
 | Health | 6 |
 | Sanity | 9 |
 | Ability text | "Something Under the Ice" `<act>` Exhaust Norris: Discover 1 clue at your location without making an investigation check. If your location has 3 or more clues, discover 1 additional clue. |
 | Flavor text | *"This thing was buried in the ice for a hundred thousand years."* |
+| Collection | 031005 |
 
 ## Investigator (BACK)
 | Field | Value |

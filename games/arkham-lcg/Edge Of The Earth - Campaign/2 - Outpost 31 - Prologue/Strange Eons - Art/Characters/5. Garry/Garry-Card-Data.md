@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 013 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 7 |
 | Ability text | "I'm In Command Here" `<free>` Exhaust Garry: Cancel the effects of a Peril treachery just drawn by an investigator at your location. That investigator takes 1 horror instead. |
 | Flavor text | *"All right, we're going to do this my way."* |
+| Collection | 031013 |
 
 ## Investigator (BACK)
 | Field | Value |

@@ -1,4 +1,4 @@
-﻿# At the Mountains of Madness
+# At the Mountains of Madness
 ## Chapter II — Lake's Discovery
 
 > *H.P. Lovecraft (1936)*

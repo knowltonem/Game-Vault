@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 025 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 10 |
 | Ability text | "I'm Getting Something" `<act>` Exhaust Windows and spend 1 secret: Look at the top 5 cards of the encounter deck. You may rearrange them in any order. |
 | Flavor text | *"I'm trying, I'm trying!"* |
+| Collection | 031025 |
 
 ## Investigator (BACK)
 | Field | Value |

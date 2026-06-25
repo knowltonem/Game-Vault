@@ -2,6 +2,12 @@
 
 For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 
+## Collection
+| Field | Value |
+|---|---|
+| Set | Outpost 31 (031) |
+| Card Number | 021 |
+
 ## Investigator (FRONT)
 | Field | Value |
 |---|---|
@@ -17,6 +23,7 @@ For Strange Eons build. Use MacReady/Childs/Palmer as template patterns.
 | Sanity | 10 |
 | Ability text | "The Cell Cultures Don't Lie" `<react>` After you reveal a Blood Test: You may look at any one facedown Blood Test in play without revealing it. |
 | Flavor text | *"It has the capacity to absorb and imitate other life forms."* |
+| Collection | 031021 |
 
 ## Investigator (BACK)
 | Field | Value |
