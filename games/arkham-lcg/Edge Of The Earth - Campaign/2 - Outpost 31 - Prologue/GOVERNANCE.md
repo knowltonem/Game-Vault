@@ -12,7 +12,7 @@ Read this before touching anything in this folder.
 Only ever READ from the original. WRITE only to the mod.
 
 ## The One Exception
-`Outpost 31 - Original/_card-data-original/` holds verbatim transcriptions of the original
+`Outpost 31 - Original/Card Data - Original/` holds verbatim transcriptions of the original
 card text (typos preserved). It is a reconstruction, not a delivered artifact, and does NOT
 count toward the integrity manifest. Never fix it.
 
@@ -22,7 +22,7 @@ count toward the integrity manifest. Never fix it.
 - MaCready -> MacReady (matches 1982 film + designer scenario guide)
 
 ## Integrity
-- `.original-checksums.sha256` = manifest of delivered files only (excludes _card-data-original).
+- `.original-checksums.sha256` = manifest of delivered files only (excludes Card Data - Original).
 - Verify: `./protect-original.sh verify` (run after big sessions).
 - If the original folder is renamed/moved, REGENERATE the manifest.
 
