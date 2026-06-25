@@ -10,11 +10,6 @@
 | Product | SKU | Type | Acquired | Notes |
 |---|---|---|---|---|
 | Revised Core Set (2021) | AHC60 | Core | — | Night of the Zealot campaign; 5 investigators |
-| Nathaniel Cho Starter Deck | — | Starter Deck | — | Guardian |
-| Harvey Walters Starter Deck | — | Starter Deck | — | Seeker |
-| Winifred Habbamock Starter Deck | — | Starter Deck | — | Rogue |
-| Jacqueline Fine Starter Deck | — | Starter Deck | — | Mystic |
-| Stella Clark Starter Deck | — | Starter Deck | — | Survivor |
 
 ### Chapter 2
 | Product | SKU | Type | Acquired | Notes |

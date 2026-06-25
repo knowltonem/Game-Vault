@@ -23,6 +23,12 @@ Private eye. Straightforward card-draw engine — Joe's ability lets him find th
 - Seeker cards level 0–5
 - Guardian cards level 0–2
 
+## Signature
+- **Detective's Intuition** — Skill. Commit to a investigation test. If successful, draw 3 cards. If this test discovers at least 1 clue, you may look at the top card of any investigator's deck.
+
+## Weakness
+- **Dead Ends** — Treachery. Revelation: lose all remaining actions this turn. Then, for each action lost this way, take 1 damage or 1 horror (your choice).
+
 ## Notes
 - Strong intellect — natural clue-gatherer
 - Card draw ability makes him consistent

@@ -205,8 +205,32 @@ A secondary game in the vault. Notes, buying guides, and deck lists live in `gam
 
 ## Key Decisions (do not override)
 
-- Starting from Chapter Two Core Set (2026) — 357 cards, 5 investigators
+- Starting from Chapter Two Core Set (2026) — 357 cards, 5 investigators; plus 5 Investigator Decks (AHC101-105) = 10 Chapter 2 investigators total
 - Not buying legacy player cards unless needed for substitution
 - Outpost 31 is a prologue to Edge of the Earth (NOT standalone)
 - All modifications must preserve 1920s period accuracy
 - **Golden Rule:** Original files are sacred, used only for source/verification. All new/modified material goes in `-mod` folders. Originals are never touched.
+
+---
+
+## Chapter 2 Investigator Data (2026)
+
+All 10 investigator `.md` files updated with ArkhamDB-verified signature/weakness data (Jun 2026). Several Investigator Deck files had incorrect class/stats (pre-release guesses) — corrected.
+
+### Core Set (AHC100)
+| Investigator | Signature | Weakness |
+|---|---|---|
+| Isabelle Barnes | Isabelle's Twin .45s | Breaking Point |
+| Trish Scarborough | Covert Ops | Black Chamber Operative |
+| Joe Diamond | Detective's Intuition | Dead Ends |
+| Daniela Reyes | Daniela's Wrench | In Harm's Way |
+| Dexter Drake | "For my next trick..." | The Necronomicon (Drake Translation) |
+
+### Investigator Decks (AHC101–105)
+| Investigator | Signature(s) | Weakness |
+|---|---|---|
+| Tommy Muldoon (AHC101) | Becky | Loose Cannon |
+| Carolyn Fern (AHC102) | Experimental Psychology | Unbroken Web |
+| André Patel (AHC103) | Know the Exit, Know the Line, Know the Scene | Weight of the World |
+| Marie Lambeau (AHC104) | Grand-Mère's Charm | Called to Guinée |
+| Miguel de la Cruz (AHC105) | Miguel's Knapsack | Feline Hybrid |

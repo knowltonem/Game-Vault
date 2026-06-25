@@ -23,6 +23,12 @@ Combat-focused Guardian. One of the returning archetypes updated for Chapter Two
 - Guardian cards level 0–5
 - Survivor cards level 0–2
 
+## Signature
+- **Daniela's Wrench** — Asset (Hand. Item. Tool. Weapon. Melee). 2 resources. +1 combat, +1 damage. While Daniela's Wrench is in play, after an enemy attacks Daniela during the enemy phase, you may deal 1 damage to that enemy.
+
+## Weakness
+- **In Harm's Way** — Treachery. Revelation: attach to the current agenda. Forced — at the start of the enemy phase, take 1 direct damage. If there are no enemies at your location, take 1 additional direct damage.
+
 ## Notes
 - High health and combat — the frontline fighter
 - Low intellect — needs a partner to gather clues

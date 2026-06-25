@@ -23,6 +23,12 @@ Stage magician returning from the original Arkham core set. Willpower and spell-
 - Mystic cards level 0–5
 - Rogue cards level 0–2
 
+## Signature
+- **"For my next trick..."** — Event. Fast. Play only during your turn. Choose a non-Elite enemy at your location and a non-peril treachery in any discard pile. The enemy gains the traits of that treachery until the end of the round. Then, you may evade that enemy.
+
+## Weakness
+- **The Necronomicon (Drake Translation)** — Asset (Tome). 0 resources. Uses 3 secrets. Forced — when The Necronomicon enters play, place 1 doom on the current agenda. Action: spend 1 secret: choose a non-Elite enemy at your location and discard it. If you do, take 1 horror.
+
 ## Notes
 - High willpower — excels at spell-based skill tests
 - Returning character — familiar to veteran players

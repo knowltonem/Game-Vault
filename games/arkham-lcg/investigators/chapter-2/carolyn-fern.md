@@ -7,25 +7,30 @@
 ## Identity
 | Field | Value |
 |---|---|
-| **Class** | Survivor |
-| **Source** | Investigator Deck — AHC102 |
-| **Status** | Incoming |
+| **Class** | Seeker |
+| **Source** | Investigator Deck (2026) — AHC102 |
 | **Deck size** | 30 |
 
 ## Stats
 | Willpower | Intellect | Combat | Agility | Health | Sanity |
 |---|---|---|---|---|---|
-| 4 | 3 | 2 | 3 | 6 | 9 |
+| 3 | 5 | 1 | 3 | 6 | 9 |
 
 ## Background
-Psychologist and therapist. Carolyn specialises in healing horror — when she heals horror from others, she gains resources. Her ability makes her the premier support investigator for sanity-heavy campaigns.
+Psychologist and researcher. Carolyn heals horror from investigators and Ally assets to discover clues. Her high intellect and tome-based card pool make her a powerful clue-gatherer and support investigator.
 
 ## Deckbuilding
-- Survivor cards level 0–5
-- Mystic cards level 0–2
+- Seeker cards level 0–5
+- Neutral cards level 0–5
+
+## Signature
+- **Experimental Psychology** — Asset (Hand. Item. Tome. Science). 2 resources. Uses 3 secrets. Action: spend 1 secret: heal 2 horror from an investigator at your location and discover 1 clue at their location.
+
+## Weakness
+- **Unbroken Web** — Treachery. Revelation: attach to the current agenda. Forced — after an investigator at this location heals horror, they must either take 1 direct horror or discard 1 card at random.
 
 ## Notes
-- Signature mechanic: gains resources when healing horror
-- High sanity — resilient to mental trauma
+- Highest intellect in the Chapter Two set
+- Horror healing triggers clue discovery (Limit once per round)
+- Tome synergy — her deck includes Occult Records, Scroll of the Pharaohs
 - Support role — pairs well with fragile investigators
-- Mystic secondary gives access to spell-based healing

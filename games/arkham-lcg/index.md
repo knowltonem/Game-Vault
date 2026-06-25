@@ -25,12 +25,11 @@ tags: [game, lcg, cooperative, horror, lovecraft]
 
 ## My Investigators
 
-**20 investigators owned** across Chapter 1 and Chapter 2.
+**15 investigators owned** across Chapter 1 (core only) and Chapter 2.
 
 | Chapter | Source | Investigators |
 |---|---|---|
 | Chapter 1 | Revised Core Set (2021) | Roland Banks, Daisy Walker, Agnes Baker, Wendy Adams, "Skids" O'Toole |
-| Chapter 1 | Starter Decks (2020) | Nathaniel Cho, Harvey Walters, Winifred Habbamock, Jacqueline Fine, Stella Clark |
 | Chapter 2 | Core Set (2026) | Isabelle Barnes, Trish Scarborough, Joe Diamond, Daniela Reyes, Dexter Drake |
 | Chapter 2 | Investigator Decks (2026) | Tommy Muldoon, Carolyn Fern, André Patel, Marie Lambeau, Miguel de la Cruz |
 

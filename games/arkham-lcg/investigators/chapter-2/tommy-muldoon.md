@@ -8,8 +8,7 @@
 | Field | Value |
 |---|---|
 | **Class** | Guardian |
-| **Source** | Investigator Deck — AHC101 |
-| **Status** | Incoming |
+| **Source** | Investigator Deck (2026) — AHC101 |
 | **Deck size** | 30 |
 
 ## Stats
@@ -18,11 +17,17 @@
 | 3 | 2 | 4 | 3 | 9 | 6 |
 
 ## Background
-Former firefighter turned monster hunter. Tommy is built around his signature ally Becky — a shotgun with a soul. When assets he controls are defeated, he gains resources, making death work for him.
+Former firefighter turned monster hunter. Tommy is built around his signature shotgun Becky — an ally with a soul. When assets he controls are defeated, he gains resources, turning loss into fuel.
 
 ## Deckbuilding
 - Guardian cards level 0–5
 - Survivor cards level 0–2
+
+## Signature
+- **Becky** — Asset (Ally. Weapon. Firearm). 3 resources. +1 combat, +1 damage, uses 4 ammo. When an asset Tommy controls is defeated: gain 2 resources. If Becky is defeated, shuffle her back into your deck.
+
+## Weakness
+- **Loose Cannon** — Treachery. Revelation: attach to Tommy's threat area. While attached, Tommy cannot play cards that heal horror. If he defeats an enemy while Loose Cannon is attached, discard Loose Cannon and take 1 direct horror.
 
 ## Notes
 - Signature card: Becky (unique shotgun ally)

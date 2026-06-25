@@ -7,25 +7,32 @@
 ## Identity
 | Field | Value |
 |---|---|
-| **Class** | Seeker |
-| **Source** | Investigator Deck — AHC103 |
-| **Status** | Incoming |
+| **Class** | Rogue |
+| **Source** | Investigator Deck (2026) — AHC103 |
 | **Deck size** | 30 |
 
 ## Stats
 | Willpower | Intellect | Combat | Agility | Health | Sanity |
 |---|---|---|---|---|---|
-| 3 | 5 | 2 | 2 | 6 | 8 |
+| 3 | 4 | 2 | 3 | 7 | 7 |
 
 ## Background
-Academic and researcher. André has the highest intellect of the Chapter Two investigators — built for clue-gathering and card advantage. His ability rewards playing multiple cards per turn.
+Film star and charmer. André is a Rogue who gets an additional action when he oversucceeds on a skill test. His three signature skills reward committing to the right type of test, and his weakness punishes failure.
 
 ## Deckbuilding
-- Seeker cards level 0–5
-- Mystic cards level 0–2
+- Rogue cards level 0–5
+- Neutral cards level 0–5
+
+## Signature
+- **Know the Exit** — Skill. Wild icon. If committed to an investigation test, gets +2 wild icons instead.
+- **Know the Line** — Skill. Wild icon. If committed to a combat test, gets +2 wild icons instead.
+- **Know the Scene** — Skill. Wild icon. If committed to an agility test, gets +2 wild icons instead.
+
+## Weakness
+- **Weight of the World** — Treachery. Revelation: put into André's threat area. While attached, whenever André fails a skill test, take 1 horror and shuffle Weight of the World back into his deck.
 
 ## Notes
-- Highest intellect stat in the set
-- Ability triggers on playing multiple cards in a turn
-- Mystic secondary gives spell options
-- Fragile in combat — needs protection
+- Gets an extra action on oversuccess
+- Three signature skills — unique deckbuilding consideration
+- High intellect makes him a capable clue-gatherer
+- Failure is doubly punishing due to his weakness
