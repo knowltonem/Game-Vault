@@ -25,22 +25,16 @@ tags: [game, lcg, cooperative, horror, lovecraft]
 
 ## My Investigators
 
-**10 investigators owned** across the Core Set and 5 Investigator Decks.
+**20 investigators owned** across Chapter 1 and Chapter 2.
 
-| # | Investigator | Class | Source |
-|---|---|---|---|
-| 1 | Isabelle "Izzie" Barnes | Survivor | Core Set (2026) |
-| 2 | Trish Scarborough | Rogue | Core Set (2026) |
-| 3 | Joe Diamond | Seeker | Core Set (2026) |
-| 4 | Daniela Reyes | Guardian | Core Set (2026) |
-| 5 | Dexter Drake | Mystic | Core Set (2026) |
-| 6 | Tommy Muldoon | Guardian | Deck AHC101 |
-| 7 | Carolyn Fern | Survivor | Deck AHC102 |
-| 8 | André Patel | Seeker | Deck AHC103 |
-| 9 | Marie Lambeau | Mystic | Deck AHC104 |
-| 10 | Miguel de la Cruz | Rogue | Deck AHC105 |
+| Chapter | Source | Investigators |
+|---|---|---|
+| Chapter 1 | Revised Core Set (2021) | Roland Banks, Daisy Walker, Agnes Baker, Wendy Adams, "Skids" O'Toole |
+| Chapter 1 | Starter Decks (2020) | Nathaniel Cho, Harvey Walters, Winifred Habbamock, Jacqueline Fine, Stella Clark |
+| Chapter 2 | Core Set (2026) | Isabelle Barnes, Trish Scarborough, Joe Diamond, Daniela Reyes, Dexter Drake |
+| Chapter 2 | Investigator Decks (2026) | Tommy Muldoon, Carolyn Fern, André Patel, Marie Lambeau, Miguel de la Cruz |
 
-→ [[games/arkham-lcg/investigators/index|Full investigator index with individual files]]
+→ [[games/arkham-lcg/investigators/index|Full investigator index]]
 
 ---
 

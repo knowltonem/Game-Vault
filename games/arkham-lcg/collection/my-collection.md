@@ -6,14 +6,25 @@
 
 ## Owned products
 
-| Product | SKU | Type | Acquired | Condition | Notes |
-|---|---|---|---|---|---|
-| Core Set (2026) | AHC100 | Core | 2026-06 | New | "Chapter Two" base — 1–4 players, 3-scenario intro campaign, 5 investigators |
-| Tommy Muldoon Investigator Deck | AHC101 | Investigator Deck | 2026-06 (incoming) | New | Guardian — pre-built deck; Amazon |
-| Carolyn Fern Investigator Deck | AHC102 | Investigator Deck | 2026-06 (incoming) | New | Survivor — pre-built deck; Amazon |
-| André Patel Investigator Deck | AHC103 | Investigator Deck | 2026-06 (incoming) | New | Seeker — pre-built deck; Amazon |
-| Marie Lambeau Investigator Deck | AHC104 | Investigator Deck | 2026-06 (incoming) | New | Mystic — pre-built deck; Amazon |
-| Miguel de la Cruz Investigator Deck | AHC105 | Investigator Deck | 2026-06 (incoming) | New | Rogue — pre-built deck; Amazon |
+### Chapter 1
+| Product | SKU | Type | Acquired | Notes |
+|---|---|---|---|---|
+| Revised Core Set (2021) | AHC60 | Core | — | Night of the Zealot campaign; 5 investigators |
+| Nathaniel Cho Starter Deck | — | Starter Deck | — | Guardian |
+| Harvey Walters Starter Deck | — | Starter Deck | — | Seeker |
+| Winifred Habbamock Starter Deck | — | Starter Deck | — | Rogue |
+| Jacqueline Fine Starter Deck | — | Starter Deck | — | Mystic |
+| Stella Clark Starter Deck | — | Starter Deck | — | Survivor |
+
+### Chapter 2
+| Product | SKU | Type | Acquired | Notes |
+|---|---|---|---|---|
+| Core Set (2026) | AHC100 | Core | 2026-06 | Brethren of Ash campaign; 5 investigators |
+| Tommy Muldoon Investigator Deck | AHC101 | Investigator Deck | 2026-06 (incoming) | Guardian |
+| Carolyn Fern Investigator Deck | AHC102 | Investigator Deck | 2026-06 (incoming) | Survivor |
+| André Patel Investigator Deck | AHC103 | Investigator Deck | 2026-06 (incoming) | Seeker |
+| Marie Lambeau Investigator Deck | AHC104 | Investigator Deck | 2026-06 (incoming) | Mystic |
+| Miguel de la Cruz Investigator Deck | AHC105 | Investigator Deck | 2026-06 (incoming) | Rogue |
 
 ## Collection notes
 - [[games/arkham-lcg/collection/core-set-2026|Core Set (2026) — my starting point]]
