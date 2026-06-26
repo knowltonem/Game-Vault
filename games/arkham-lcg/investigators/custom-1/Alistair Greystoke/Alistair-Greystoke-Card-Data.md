@@ -81,7 +81,6 @@ Gain 2 resources and heal 1 damage or 1 horror.
 
 | Field | Value |
 |---|---|
-| **Name** | The Unbroken Codex |
 | **Type** | Asset – Arcane |
 | **Cost** | 1 |
 | **Traits** | Item. Tome. Relic. |
@@ -93,9 +92,9 @@ Alistair Greystoke deck only.
 
 You may use your Intellect instead of Agility when evading enemies.
 
-**[Reaction]** After Greystoke would take horror: Exhaust The Unbroken Codex — reduce that horror by 1 (to a minimum of 1).
+**[Reaction]** After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
 
-**[Reaction]** When you successfully investigate: You may exhaust The Unbroken Codex to cancel 1 horror you would take this phase.
+**[Reaction]** After you successfully investigate: Exhaust The Unbroken Codex — cancel the next horror you would be dealt until the end of this round.
 
 ---
 
@@ -123,8 +122,9 @@ You may use your Intellect instead of Agility when evading enemies.
 - **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
 - **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
 - **Escape condition:** Spend 3 clues from any location — expensive but achievable. Requires planning.
-- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), provides passive horror reduction, and active horror cancellation tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
-- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Horror reduction reaction represents 200 years of mental conditioning. Horror cancel on successful investigate ties the protection directly to his core loop — the act of working the case keeps the centuries at bay.
+- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), passive horror ignore, and proactive horror cancel tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
+- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Ignore reaction uses official Deny Existence language — horror occurs but doesn't apply. Cancel reaction uses Ward of Protection language — proactively banks full protection after a successful investigate. Two distinct official mechanics on one card, clearly differentiated.
+- **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
 - **Deckbuilding splash:** Guardian 0–2 and Mystic 0–2 gives access to low-level protection and spells to offset his 2 Agility fragility.
 - **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
-- **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover.
+- **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
