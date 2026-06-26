@@ -1,0 +1,62 @@
+# Roland Banks — Card Data Reference
+
+---
+
+## Collection
+| Field | Value |
+|---|---|
+| Set | Core Set (core) |
+| Card Number | 01001 |
+
+## Investigator (FRONT)
+| Field | Value |
+|---|---|
+| Name | Roland Banks |
+| Subtitle | The Fed |
+| Class | Guardian |
+| Traits | *Agency. Detective.* |
+| Willpower | 3 |
+| Intellect | 3 |
+| Combat | 4 |
+| Agility | 2 |
+| Health | 9 |
+| Sanity | 5 |
+| Ability text | <reaction> After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)
+<elder_sign> effect: +1 for each clue on your location. |
+| Flavor text | *Everything by the book: every "i" dotted, every "t" crossed. It had worked, until now.* |
+| Collection | 01001 |
+
+## Investigator (BACK)
+| Field | Value |
+|---|---|
+| Name | Roland Banks |
+| Subtitle | The Fed |
+| Class | Guardian |
+| Deck Size | 30 |
+| Deckbuilding Options |   • Guardian, Neutral (level 0–5)<br>  • Seeker (level 0–2) |
+| Deckbuilding Requirements | Roland's .38 Special (× 1), Cover Up (× 1), 1 random Basic Weakness |
+| Flavor text | *Roland had always taken comfort in procedure and rules. As an agent in the Bureau, he was relieved to have guidelines to follow in any given situation. But lately, his Federal Agent's Handbook had been entirely unhelpful given the cases he'd been assigned. Try as he might, Roland could find no mention of what to do when confronted with strange creatures, gates through time and space, or magic spells. If he hadn't seen it with his own eyes, he would never have believed it... and there's no way his superiors would understand. Roland knew he would have to handle this one himself.* |
+
+## Elder Sign
+effect: +1 for each clue on your location.
+
+## Signature Asset — Roland's .38 Special (01006)
+| Field | Value |
+|---|---|
+| Type | Asset |
+| Traits | *Item. Weapon. Firearm.* |
+| Cost | 3 |
+| Slot | Hand |
+| Text | Roland Banks deck only.
+Uses (4 ammo).
+<action> Spend 1 ammo: <b>Fight.</b> You get +1 <com> for this attack (if there are 1 or more clues on your location, you get +3 <com>, instead). This attack deals +1 damage. |
+| Skill Icons | <com> <agi> <wild> |
+
+## Personal Weakness (01007)
+| Field | Value |
+|---|---|
+| Type | Treachery (Weakness) |
+| Traits | *Task.* |
+| Text | <b>Revelation</b> - Put Cover Up into play in your threat area, with 3 clues on it.
+<reaction> When you would discover 1 or more clues at your location: Discard that many clues from Cover Up instead.
+<b>Forced</b> - When the game ends, if there are any clues on Cover Up: You suffer 1 mental trauma. |
