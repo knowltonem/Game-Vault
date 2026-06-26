@@ -51,6 +51,7 @@ Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
 ### Deckbuilding Requirements
 *(do not count toward deck size)*
 - "Wisdom of Antiquity" (× 1)
+- The Unbroken Codex (× 1)
 - My Glass is Nearly Run (× 1)
 - 1 random Basic Weakness
 
@@ -59,7 +60,7 @@ Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
 
 ---
 
-## Signature Asset — Wisdom of Antiquity
+## Signature Asset #1 — Wisdom of Antiquity
 
 | Field | Value |
 |---|---|
@@ -73,6 +74,28 @@ Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
 Gain 2 resources and heal 1 damage or 1 horror.
 
 **[Reaction]** After you draw Wisdom of Antiquity during your turn: Reveal it and draw 1 additional card.
+
+---
+
+## Signature Asset #2 — The Unbroken Codex
+
+| Field | Value |
+|---|---|
+| **Name** | The Unbroken Codex |
+| **Type** | Asset – Arcane |
+| **Cost** | 1 |
+| **Traits** | Item. Tome. Relic. |
+| **Subtitle** | Two Centuries of Notes |
+| **Flavor** | *"I have watched every predator on this earth hunt. I know exactly how they move."* |
+
+### Text
+Alistair Greystoke deck only.
+
+You may use your Intellect instead of Agility when evading enemies.
+
+**[Reaction]** After Greystoke would take horror: Exhaust The Unbroken Codex — reduce that horror by 1 (to a minimum of 1).
+
+**[Reaction]** When you successfully investigate: You may exhaust The Unbroken Codex to cancel 1 horror you would take this phase.
 
 ---
 
@@ -100,7 +123,8 @@ Gain 2 resources and heal 1 damage or 1 horror.
 - **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
 - **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
 - **Escape condition:** Spend 3 clues from any location — expensive but achievable. Requires planning.
-- **Signature asset:** Self-referential reaction trigger — draws itself and chains one more draw. Free economy and healing at cost 0.
+- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), provides passive horror reduction, and active horror cancellation tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
+- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Horror reduction reaction represents 200 years of mental conditioning. Horror cancel on successful investigate ties the protection directly to his core loop — the act of working the case keeps the centuries at bay.
 - **Deckbuilding splash:** Guardian 0–2 and Mystic 0–2 gives access to low-level protection and spells to offset his 2 Agility fragility.
 - **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
 - **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover.
