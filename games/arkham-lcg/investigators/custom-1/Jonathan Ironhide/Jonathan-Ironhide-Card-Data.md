@@ -38,7 +38,7 @@ They don't talk much. They don't need to. Greystoke finds the clues. Ironhide cl
 | **Combat** | 5 |
 | **Agility** | 3 |
 | **Health** | 9 |
-| **Sanity** | 6 |
+| **Sanity** | 7 |
 | **Subtitle** | The R'lyeh Survivor |
 | **Traits** | Hunter. Cursed. |
 | **Flavor** | *"I've seen the sunken city. The rest of you just read about it."* |
@@ -65,7 +65,7 @@ Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
 | Field | Value |
 |---|---|
 | **Type** | Asset – Hand |
-| **Cost** | 3 |
+| **Cost** | 0 |
 | **Traits** | Item. Weapon. Firearm. Relic. |
 | **Uses** | 3 ammo |
 | **Hands** | 1 |
@@ -73,7 +73,9 @@ Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
 | **Flavor** | *"It was forged in R'lyeh"* |
 
 ### Text
-**[Action]** Spend 1 ammo: **[Combat] Fight.** You get +2 Combat and deal +1 damage for this attack. If this attack defeats a non-***Elite*** enemy, draw 1 card.
+**[Action]** Spend 1 ammo: **[Combat] Fight.** You get +2 Combat and deal +1 damage for this attack. If this attack defeats an enemy, draw 1 card.
+
+**[Action]** Spend 2 resources: Add 2 ammo to The Hollow Warden.
 
 ---
 
@@ -83,31 +85,17 @@ Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
 |---|---|
 | **Type** | Asset – Body |
 | **Cost** | 2 |
-| **Traits** | Item. Armor. Relic. |
+| **Traits** | Item. Armor. Relic. Cursed. |
 | **Health/Sanity** | 3/3 |
-| **Subtitle** | As Tough as Dagon Teeth |
+| **Subtitle** | Hide of the Deep Mother |
 | **Flavor** | *"A gift from the Deep."* / *"I didn't leave R'lyeh empty handed"* |
 
 ### Text
 Reduce damage dealt to you by 1 (to a minimum of 1).
 
----
+When you would take horror, you may take 1 damage instead.
 
-## Guardian Ally — Hound of the Deep
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Cost** | 3 |
-| **Health** | 2 |
-| **Sanity** | 1 |
-| **Traits** | Creature. Monster. |
-| **Flavor** | *"It follows. It always follows."* |
-
-### Text
-After an enemy attacks Jonathan Ironhide: Exhaust Hound of the Deep — deal 1 damage to that enemy.
-
-*Note: Regular Guardian ally — include up to 2 copies in the 30-card deck alongside Beat Cop and Guard Dog.*
+*If Hydra Hyde would be discarded, you may spend 2 resources to prevent it.*
 
 ---
 
@@ -126,17 +114,52 @@ After an enemy attacks Jonathan Ironhide: Exhaust Hound of the Deep — deal 1 d
 
 **Forced** — After you defeat an enemy: Take 1 horror.
 
+**[Action]** Spend 3 resources: Discard Echoes of R'lyeh.
+
+---
+
+## Regular Deck Asset — King's Talon
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Hand |
+| **Cost** | 2 |
+| **Traits** | Item. Weapon. Relic. Cursed. |
+| **Subtitle** | Trophy of the Hunt |
+| **Flavor** | *"Hastur's servant fell screaming. Ironhide kept the claw."* |
+
+### Text
+**[Action]: [Combat] Fight.** You get +2 Combat and deal +1 damage for this attack.
+
+If a [Curse] token is revealed during this attack, deal +2 damage instead of +1.
+
+If this attack defeats an enemy, heal 1 horror.
+
+You get +1 additional Combat for each damage already on the attacked enemy (maximum +3).
+
+*Note: Regular deck card — not a signature. Include 1–2 copies in the 30-card deck. Infinite use melee weapon, covers gap rounds when Hollow Warden is empty. Hunter trophy from a Byakhee killed years after R'lyeh — earned through skill, not gifted by the Deep.*
+
+---
+
+## Deck Flavor Note — Hound of the Deep
+
+Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematically reskinned as the **Hound of the Deep** — a creature that followed him back from R'lyeh. This is purely a flavor rename for the existing official card. No custom card required. The Hound uses Guard Dog's standard cost, stats, and text as printed.
+
 ---
 
 ## Design Notes
 
 - **Core loop:** Defeat enemies → gain resources → fund expensive gear → defeat more enemies. Self-sustaining combat engine.
-- **Weakness tension:** Echoes of R'lyeh punishes his ability directly — every kill that generates a resource also costs 1 horror. His sanity of 6 means this pressure is real and accumulates fast.
-- **Two signature requirements:** Hollow Warden + Hydra Hyde are always available from setup. Consistent opener every game.
-- **Hollow Warden:** Strong gun with card draw on non-Elite kills. Keeps hand fueled while dealing damage. Subtitle "Unholy" and R'lyeh flavor tie directly to his origin story.
-- **Hydra Hyde:** Simple always-on damage reduction with 3/3 soak. Keeps Ironhide in the fight longer. The second flavor line — "I didn't leave R'lyeh empty handed" — ties both signature items to the same origin moment.
+- **Weakness tension:** Echoes of R'lyeh punishes his ability directly — every kill that generates a resource also costs 1 horror. Escape condition (spend 3 resources) mirrors Greystoke's escape (spend 3 clues) — both pay their primary resource to break free. Symmetrical and intentional.
+- **Two signature requirements:** Hollow Warden + Hydra Hyde always available from setup. Total setup cost 2 resources (Warden 0 + Hyde 2) — leaves 3 resources spare from starting pool of 5. Extremely comfortable opener, room for a Guard Dog or event turn 1.
+- **Hollow Warden:** Cost 0, 3 ammo, +2 Combat, +1 damage. Matches official signature weapon convention (Roland, Tony, Zoey all cost 0). Draw 1 card on any kill — gun rewards hand fuel, investigator ability rewards economy. Clean separation: gun keeps hand stocked, ability keeps wallet full. Self-reload at 3 resources ties the economy loop to the weapon: kill → earn → reload → kill.
+- **Hydra Hyde:** Three-ability body asset — protects (damage reduction), endures (discard prevention), and redirects R'lyeh's mental toll into physical damage (horror → damage swap). Cursed trait ties to investigator trait and R'lyeh origin.
+- **Hound of the Deep:** Flavor reskin of Guard Dog using official card rules and cost. No custom card — just thematic naming in the deck. Up to 2 copies.
 - **Deckbuilding splashes:**
   - Mystic 0–2: Ward of Protection (1), Read the Signs (1), Holy Water (1)
   - Survivor 0–1: Lucky! (0), A Test of Will (1), Take Heart (0), Drawing Thin (1)
-- **Stat profile:** 5 Combat is top tier for Guardians. 9 Health is very high — built to absorb punishment. 6 Sanity is the pressure valve — the weakness erodes it kill by kill.
-- **Pairing:** Designed to stand between threats and Greystoke. High health, damage reduction, and reactive ally damage make him extremely durable in the front line.
+- **Stat profile:** 5 Combat top tier for Guardians. 9 Health built to absorb punishment. 7 Sanity (bumped from 6) — gives genuine breathing room against Echoes of R'lyeh across a full scenario without eliminating the pressure. Hydra Hyde's horror redirect interlinks health and sanity pressure.
+- **King's Talon:** Regular deck card, 1–2 copies. Infinite use melee covering Warden gap rounds. Three interlocking abilities — Cursed token payoff (+2 damage), sanity recovery (heal 1 horror on kill), and Elite specialist (+1 Combat per damage on target, max +3). Earned through skill as a Hunter trophy, not gifted by R'lyeh. Thematically distinct from both signatures.
+- **Weapon system:** Warden and Talon create a natural tactical rhythm — Warden for economy and card draw on standard enemies, Talon for sanity recovery and Elite finishing. Switching between them is a genuine decision every round.
+- **Pairing:** Designed to stand between threats and Greystoke. High health, damage reduction, reactive ally damage, and horror redirect make him extremely durable in the front line.
+- **Open question:** Economic bridge to Greystoke still under consideration.
