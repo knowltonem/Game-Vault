@@ -202,3 +202,4 @@ All cards with 🟡 QUEUED status, grouped by change type for efficient batching
 | 2026-06-22 | PNG verify: all 16 Act/Agenda/Scenario cards. 5 new flags found. Doom thresholds confirmed. |
 | 2026-06-22 | PNG verify: all Story Assets. Human A/B/C flag retracted (text correct). Wilford Brimley: 4th fix found (duplicate Parley). Infected D confirmed #29, "Required" cap confirmed. |
 | 2026-06-22 | PNG verify: all Treachery & Enemy. All card numbers confirmed. Organism encounter set (7 cards, #18+62–67) fully mapped. New finds: Paranoid Crew Member A "Helicopter Pad", C "Radio room". Hunted redundancy confirmed. Full MOD-LOG rewrite with complete verified data. |
+| 2026-06-26 | Naming audit: Palmer-Weakness apostrophe removed from all 4 files (eon, Front/Back png, readme) — "I'm" → "Im" for filesystem consistency |
