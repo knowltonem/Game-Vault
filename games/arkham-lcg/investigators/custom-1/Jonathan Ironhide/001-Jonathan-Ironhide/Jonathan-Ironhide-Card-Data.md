@@ -179,7 +179,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 2 | Guard Dog *(Hound of the Deep)* | Asset – Ally | Guardian | 0 | ×2 | 007-008-Guard-Dog-Hound-of-the-Deep |
 | 3 | Enchanted Blade | Asset – Hand | Neutral | 0 | ×2 | 009-010-Enchanted-Blade |
 | 4 | Father Thomas *(Beat Cop)* | Asset – Ally | Guardian | 0 | ×2 | 011-012-Father-Thomas |
-| 5 | Vicious Blow | Skill | Guardian | 0 | ×2 | 013-014-Vicious-Blow |
+| 5 | R'lyeh's Fury *(Vicious Blow)* | Skill | Guardian | 0 | ×2 | 013-014-Rlyeh-Fury |
 | 6 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 015-016-Ill-See-You-In-Hell |
 | 7 | Dynamite Blast | Event | Guardian | 0 | ×1 | 017-Dynamite-Blast |
 | 8 | On the Hunt | Event | Guardian | 0 | ×1 | 018-On-the-Hunt |
