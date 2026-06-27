@@ -163,3 +163,40 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 - **Weapon system:** Warden and Talon create a natural tactical rhythm — Warden for economy and card draw on standard enemies, Talon for sanity recovery and Elite finishing. Switching between them is a genuine decision every round.
 - **Pairing:** Designed to stand between threats and Greystoke. High health, damage reduction, reactive ally damage, and horror redirect make him extremely durable in the front line.
 - **Open question:** Economic bridge to Greystoke still under consideration.
+
+---
+
+## Deck List (30 Cards)
+
+*Signatures not counted toward deck size: The Hollow Warden, Hydra Hyde, 1 random Basic Weakness*
+
+| # | Card Name | Type | Class | Level | Qty |
+|---|---|---|---|---|---|
+| 1 | King's Talon | Asset | Custom | 0 | ×2 |
+| 2 | Guard Dog *(Hound of the Deep)* | Asset – Ally | Guardian | 0 | ×2 |
+| 3 | Enchanted Blade | Asset – Hand | Neutral | 0 | ×2 |
+| 4 | Beat Cop | Asset – Ally | Guardian | 0 | ×2 |
+| 5 | Vicious Blow | Skill | Guardian | 0 | ×2 |
+| 6 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 |
+| 7 | Dynamite Blast | Event | Guardian | 0 | ×1 |
+| 8 | On the Hunt | Event | Guardian | 0 | ×1 |
+| 9 | Emergency Cache | Event | Neutral | 0 | ×2 |
+| 10 | Prepared for the Worst | Event | Guardian | 0 | ×2 |
+| 11 | Logical Reasoning | Event | Guardian | 0 | ×2 |
+| 12 | Take Heart | Skill | Survivor | 0 | ×1 |
+| 13 | Aquinnah | Asset – Ally | Survivor | 0 | ×1 |
+| 14 | Ward of Protection | Event | Mystic | 0 | ×2 |
+| 15 | Holy Water | Asset – Hand | Mystic | 0 | ×2 |
+| 16 | Overpower | Skill | Guardian | 0 | ×2 |
+| 17 | Guts | Skill | Guardian | 0 | ×2 |
+| | **TOTAL** | | | | **30** |
+
+---
+
+## Upgrade Path (First 10 XP)
+
+| Priority | Card | XP Cost | Why |
+|---|---|---|---|
+| 1 | Beat Cop (2) | 4 XP | Adds 2 damage on defeat instead of 1 |
+| 2 | Vicious Blow (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
+| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
