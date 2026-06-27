@@ -184,7 +184,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 7 | Cosmic Blast *(Dynamite Blast)* | Event | Guardian | 0 | ×1 | 017-Cosmic-Blast |
 | 8 | On the Hunt | Event | Guardian | 0 | ×1 | 018-On-the-Hunt |
 | 9 | Antique Dealings *(Emergency Cache)* | Event | Neutral | 0 | ×2 | 019-020-Antique-Dealings |
-| 10 | Prepared for the Worst | Event | Guardian | 0 | ×2 | 021-022-Prepared-for-the-Worst |
+| 10 | Premonitions *(Prepared for the Worst)* | Event | Guardian | 0 | ×2 | 021-022-Premonitions |
 | 11 | Logical Reasoning | Event | Guardian | 0 | ×2 | 023-024-Logical-Reasoning |
 | 12 | Take Heart | Skill | Survivor | 0 | ×1 | 025-Take-Heart |
 | 13 | Aquinnah | Asset – Ally | Survivor | 0 | ×1 | 026-Aquinnah |
