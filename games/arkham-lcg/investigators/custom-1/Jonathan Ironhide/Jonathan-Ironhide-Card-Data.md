@@ -186,7 +186,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 9 | Antique Dealings *(Emergency Cache)* | Event | Neutral | 0 | ×2 | 019-020-Antique-Dealings |
 | 10 | Premonitions *(Prepared for the Worst)* | Event | Guardian | 0 | ×2 | 021-022-Premonitions |
 | 11 | Knowledge From the Deep *(Logical Reasoning)* | Event | Guardian | 0 | ×2 | 023-024-Knowledge-From-the-Deep |
-| 12 | Take Heart | Skill | Survivor | 0 | ×1 | 025-Take-Heart |
+| 12 | I'll Manage *(Take Heart)* | Skill | Survivor | 0 | ×1 | 025-Ill-Manage |
 | 13 | Aquinnah | Asset – Ally | Survivor | 0 | ×1 | 026-Aquinnah |
 | 14 | Ward of Protection | Event | Mystic | 0 | ×2 | 027-028-Ward-of-Protection |
 | 15 | Holy Water | Asset – Hand | Mystic | 0 | ×2 | 029-030-Holy-Water |
