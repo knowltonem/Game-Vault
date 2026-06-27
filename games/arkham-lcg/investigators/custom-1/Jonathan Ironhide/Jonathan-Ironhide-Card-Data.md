@@ -181,7 +181,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 4 | Father Thomas *(Beat Cop)* | Asset – Ally | Guardian | 0 | ×2 | 011-012-Father-Thomas |
 | 5 | R'lyeh's Fury *(Vicious Blow)* | Skill | Guardian | 0 | ×2 | 013-014-Rlyeh-Fury |
 | 6 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 015-016-Ill-See-You-In-Hell |
-| 7 | Dynamite Blast | Event | Guardian | 0 | ×1 | 017-Dynamite-Blast |
+| 7 | Cosmic Blast *(Dynamite Blast)* | Event | Guardian | 0 | ×1 | 017-Cosmic-Blast |
 | 8 | On the Hunt | Event | Guardian | 0 | ×1 | 018-On-the-Hunt |
 | 9 | Emergency Cache | Event | Neutral | 0 | ×2 | 019-020-Emergency-Cache |
 | 10 | Prepared for the Worst | Event | Guardian | 0 | ×2 | 021-022-Prepared-for-the-Worst |
