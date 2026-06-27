@@ -128,3 +128,53 @@ You may use your Intellect instead of Agility when evading enemies.
 - **Deckbuilding splash:** Guardian 0–2 and Mystic 0–2 gives access to low-level protection and spells to offset his 2 Agility fragility.
 - **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
 - **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
+
+---
+
+## Pack Information
+
+| Field | Value |
+|---|---|
+| **Expansion** | The R'lyeh Expansion |
+| **Pack Name** | Alistair Greystoke Investigator Pack |
+| **Pack Code** | RYP-AG |
+| **Total Cards** | 004 |
+
+### Card List & Numbers
+
+| # | Card Name | Type |
+|---|---|---|
+| 001 | Alistair Greystoke | Investigator |
+| 002 | Wisdom of Antiquity | Asset – Signature |
+| 003 | The Unbroken Codex | Asset – Signature |
+| 004 | My Glass is Nearly Run | Treachery – Weakness |
+
+### Strange Eons Collection Fields
+*(Use these on every card in this pack)*
+
+**Set Name:**
+```
+Alistair Greystoke Investigator Pack
+```
+
+**Set Code:**
+```
+RYP-AG
+```
+
+**Total Cards:**
+```
+004
+```
+
+### File Naming Convention
+```
+RYP-AG-001-Alistair-Greystoke-Front.png
+RYP-AG-001-Alistair-Greystoke-Back.png
+RYP-AG-002-Wisdom-of-Antiquity-Front.png
+RYP-AG-002-Wisdom-of-Antiquity-Back.png
+RYP-AG-003-The-Unbroken-Codex-Front.png
+RYP-AG-003-The-Unbroken-Codex-Back.png
+RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
+RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
+```

@@ -200,3 +200,59 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 1 | Beat Cop (2) | 4 XP | Adds 2 damage on defeat instead of 1 |
 | 2 | Vicious Blow (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
+
+---
+
+## Pack Information
+
+| Field | Value |
+|---|---|
+| **Expansion** | The R'lyeh Expansion |
+| **Pack Name** | Jonathan Ironhide Investigator Pack |
+| **Pack Code** | RYP-JI |
+| **Total Cards** | 006 |
+
+### Card List & Numbers
+
+| # | Card Name | Type |
+|---|---|---|
+| 001 | Jonathan Ironhide | Investigator |
+| 002 | The Hollow Warden | Asset – Signature |
+| 003 | Hydra Hyde | Asset – Signature |
+| 004 | Echoes of R'lyeh | Treachery – Weakness |
+| 005 | King's Talon | Asset – Regular (copy 1) |
+| 006 | King's Talon | Asset – Regular (copy 2) |
+
+### Strange Eons Collection Fields
+*(Use these on every card in this pack)*
+
+**Set Name:**
+```
+Jonathan Ironhide Investigator Pack
+```
+
+**Set Code:**
+```
+RYP-JI
+```
+
+**Total Cards:**
+```
+006
+```
+
+### File Naming Convention
+```
+RYP-JI-001-Jonathan-Ironhide-Front.png
+RYP-JI-001-Jonathan-Ironhide-Back.png
+RYP-JI-002-The-Hollow-Warden-Front.png
+RYP-JI-002-The-Hollow-Warden-Back.png
+RYP-JI-003-Hydra-Hyde-Front.png
+RYP-JI-003-Hydra-Hyde-Back.png
+RYP-JI-004-Echoes-of-Rlyeh-Front.png
+RYP-JI-004-Echoes-of-Rlyeh-Back.png
+RYP-JI-005-Kings-Talon-Front.png
+RYP-JI-005-Kings-Talon-Back.png
+RYP-JI-006-Kings-Talon-Front.png
+RYP-JI-006-Kings-Talon-Back.png
+```
