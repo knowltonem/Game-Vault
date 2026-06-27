@@ -178,3 +178,72 @@ RYP-AG-003-The-Unbroken-Codex-Back.png
 RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
 RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
 ```
+
+---
+
+## Deck List (30 Cards)
+
+*Signatures not counted toward deck size: Wisdom of Antiquity, The Unbroken Codex, My Glass is Nearly Run, 1 random Basic Weakness*
+
+| # | Card Name | Type | Class | Level | Qty |
+|---|---|---|---|---|---|
+| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 |
+| 2 | Dr. Milan Christopher | Asset – Ally | Seeker | 0 | ×1 |
+| 3 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 |
+| 4 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 |
+| 5 | Deduction | Skill | Seeker | 0 | ×2 |
+| 6 | Perception | Skill | Seeker | 0 | ×2 |
+| 7 | Crack the Case | Event | Seeker | 0 | ×2 |
+| 8 | Working a Hunch | Event | Seeker | 0 | ×2 |
+| 9 | Cryptic Research | Event | Seeker | 0 | ×1 |
+| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 |
+| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 |
+| 12 | Emergency Cache | Event | Neutral | 0 | ×2 |
+| 13 | Ward of Protection | Event | Mystic | 0 | ×2 |
+| 14 | Fearless | Skill | Mystic | 0 | ×2 |
+| 15 | First Aid | Asset – Hand | Guardian | 0 | ×1 |
+| 16 | Evidence! | Event | Guardian | 0 | ×1 |
+| 17 | Guts | Skill | Guardian | 0 | ×2 |
+| 18 | Inquiring Mind | Skill | Neutral | 0 | ×2 |
+| | **TOTAL** | | | | **30** |
+
+---
+
+## Deck Role Breakdown
+
+| Category | Cards | Role |
+|---|---|---|
+| Clue Assets | Magnifying Glass | Boost investigate tests |
+| Ally Assets | Dr. Milan Christopher, Laboratory Assistant, Research Librarian | Economy, card draw, horror soak |
+| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame, Cryptic Research | Clue compression and acceleration |
+| Enemy Management | Mind Over Matter, Evidence! | Intellect-based enemy handling |
+| Economy | Emergency Cache | Resource backup |
+| Encounter Protection | Ward of Protection, Fearless | Cancel treacheries, horror resistance |
+| Support | First Aid | Healing for self and Ironhide |
+| Skills | Deduction, Perception, Guts, Inquiring Mind | Commit to investigate and Willpower tests |
+
+---
+
+## How It Plays
+
+**Turn 1:** Play Unbroken Codex (cost 1) — 4 resources spare. Drop Magnifying Glass (cost 1) if drawn — 3 resources spare. Investigate immediately at Intellect 6.
+
+**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play Dr. Milan Christopher if available — every clue discovery now generates 1 resource.
+
+**Mid game:** Deduction commits to investigations for double clues. Crack the Case generates resources passively as clues accumulate. Working a Hunch grabs testless clues. Drawn to the Flame takes 2 clues at once at the cost of drawing an encounter card — high risk, high reward.
+
+**Enemy engaged:** Mind Over Matter lets him use Intellect 5 to evade or fight. Evidence! grabs a clue when defeating an enemy — turns rare combat moments into clue opportunities. Unbroken Codex Intellect evade is always available.
+
+**Encounter deck:** Ward of Protection cancels the worst treacheries. Fearless commits to Willpower tests and heals horror. Guts protects against Willpower-based encounter cards. Unbroken Codex ignores or cancels horror most rounds.
+
+**Sanity pressure:** Laboratory Assistant provides 2/2 horror soak. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
+
+---
+
+## Upgrade Path (First 10 XP)
+
+| Priority | Card | XP Cost | Why |
+|---|---|---|---|
+| 1 | Dr. Milan Christopher (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
+| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 — doubles clue output per investigation |
+| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too — covers Ironhide from encounter cards |
