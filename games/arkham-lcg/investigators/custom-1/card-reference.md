@@ -174,6 +174,51 @@ Until the end of the round, you may use your <int> in place of your <com> and <a
 
 ---
 
+### Fearless (Level 0 — USE THIS ONE for starting decks)
+**Set:** Core Set #67
+**Class:** Mystic
+**Type:** Skill
+**Level:** 0
+**Traits:** Innate.
+**Icons:** 1 × `<wil>`
+**Rules:**
+```
+If this skill test is successful, heal 1 horror.
+```
+**Note:** This is the level 0 version. Core Set 2026 #69 is level 2 — do NOT use for starting decks.
+
+---
+
+### Inquiring Mind
+**Set:** Undimensioned and Unseen #227
+**Class:** Seeker
+**Type:** Skill
+**Traits:** Innate.
+**Icons:** 3 × `<wld>` (wild — conditional)
+**Rules:**
+```
+Commit to a skill test only if there is a clue at your location.
+```
+**Note:** 3 wild icons but completely dead if your location has no clues. Very powerful for Greystoke who constantly investigates clue-rich locations.
+
+---
+
+### Crack the Case
+**Set:** The Forgotten Age #110
+**Class:** Seeker
+**Type:** Event
+**Cost:** 0
+**Traits:** Insight.
+**Icons:** None
+**Rules:**
+```
+Fast. Play after an investigator discovers the last remaining clue at your location.
+Each investigator at your location gains 1 resource for each point of that location's shroud value.
+```
+**Note:** Rewards clearing high-shroud locations. Fast and free — pure economy. Zero icons so no commit value.
+
+---
+
 ### Drawn to the Flame
 **Set:** Core Set #64
 **Class:** Mystic
