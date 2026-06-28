@@ -140,11 +140,11 @@ You may use your Intellect instead of Agility when evading enemies.
 
 | # | Card Name | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 006-007-Magnifying-Glass |
+| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 007-008-Magnifying-Glass |
 | 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
-| 3 | Dr. Milan Christopher | Asset – Ally | Seeker | 0 | ×1 | 008-Dr-Milan-Christopher |
-| 4 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 | 009-010-Laboratory-Assistant |
-| 5 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 | 011-Research-Librarian |
+| 3 | The Relic Harvester *(Dr. Milan Christopher)* | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
+| 4 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 | 010-011-Laboratory-Assistant |
+| 5 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 | 012-Research-Librarian |
 | 5 | Deduction | Skill | Seeker | 0 | ×2 | 011-012-Deduction |
 | 6 | Perception | Skill | Seeker | 0 | ×2 | 013-014-Perception |
 | 7 | Crack the Case | Event | Seeker | 0 | ×2 | 015-016-Crack-the-Case |
@@ -246,7 +246,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | **Expansion** | The R'lyeh Expansion |
 | **Pack Name** | Alistair Greystoke Investigator Pack |
 | **Pack Code** | RYP-AG |
-| **Total Cards** | 005 |
+| **Total Cards** | 006 |
 
 ### Card List & Numbers
 
@@ -257,6 +257,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | 003 | The Unbroken Codex | Asset – Signature |
 | 004 | My Glass is Nearly Run | Treachery – Weakness |
 | 005 | The Ancient Binding | Asset – Regular |
+| 006 | The Relic Harvester | Asset – Regular |
 
 ### Strange Eons Collection Fields
 *(Use these on every card in this pack)*
@@ -273,7 +274,7 @@ RYP-AG
 
 **Total Cards:**
 ```
-005
+006
 ```
 
 ### File Naming Convention
@@ -288,4 +289,6 @@ RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
 RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
 RYP-AG-005-The-Ancient-Binding-Front.png
 RYP-AG-005-The-Ancient-Binding-Back.png
+RYP-AG-006-The-Relic-Harvester-Front.png
+RYP-AG-006-The-Relic-Harvester-Back.png
 ```
