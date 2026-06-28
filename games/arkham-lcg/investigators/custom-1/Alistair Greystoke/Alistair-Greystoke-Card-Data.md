@@ -236,16 +236,15 @@ You have 1 additional ally slot.
 | 7 | Perception | Skill | Seeker | 0 | ×2 | 017-018-Perception |
 | 8 | Crack the Case | Event | Seeker | 0 | ×2 | 019-020-Crack-the-Case |
 | 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
-| 10 | Cryptic Research | Event | Seeker | 0 | ×1 | 023-Cryptic-Research |
-| 11 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
-| 12 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
-| 13 | Emergency Cache | Event | Neutral | 0 | ×2 | 028-029-Emergency-Cache |
-| 14 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
-| 15 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
-| 16 | First Aid | Asset – Hand | Guardian | 0 | ×1 | 034-First-Aid |
-| 17 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
-| 18 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
-| 19 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
+| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
+| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
+| 12 | Emergency Cache | Event | Neutral | 0 | ×2 | 028-029-Emergency-Cache |
+| 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
+| 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
+| 15 | First Aid | Asset – Hand | Guardian | 0 | ×1 | 034-First-Aid |
+| 16 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
+| 17 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
+| 18 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
 | | **TOTAL** | | | | **30** | |
 
 ---
