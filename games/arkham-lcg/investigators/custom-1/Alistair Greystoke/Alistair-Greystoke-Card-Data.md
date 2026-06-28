@@ -140,26 +140,25 @@ You may use your Intellect instead of Agility when evading enemies.
 
 | # | Card Name | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 008-009-Magnifying-Glass |
+| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 009-010-Magnifying-Glass |
 | 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
-| 3 | The Relic Harvester *(Dr. Milan Christopher)* | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
+| 3 | The Relic Harvester | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
 | 4 | My Eyes and Ears | Asset – Ally | Seeker | 0 | ×1 | 007-My-Eyes-and-Ears |
-| 5 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 | 011-012-Laboratory-Assistant |
-| 6 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 | 013-Research-Librarian |
-| 5 | Deduction | Skill | Seeker | 0 | ×2 | 011-012-Deduction |
-| 6 | Perception | Skill | Seeker | 0 | ×2 | 013-014-Perception |
-| 7 | Crack the Case | Event | Seeker | 0 | ×2 | 015-016-Crack-the-Case |
-| 8 | Working a Hunch | Event | Seeker | 0 | ×2 | 017-018-Working-a-Hunch |
-| 9 | Cryptic Research | Event | Seeker | 0 | ×1 | 019-Cryptic-Research |
-| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 020-021-Drawn-to-the-Flame |
-| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 022-023-Mind-Over-Matter |
-| 12 | Emergency Cache | Event | Neutral | 0 | ×2 | 024-025-Emergency-Cache |
-| 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 026-027-Ward-of-Protection |
-| 14 | Fearless | Skill | Mystic | 0 | ×2 | 028-029-Fearless |
-| 15 | First Aid | Asset – Hand | Guardian | 0 | ×1 | 030-First-Aid |
-| 16 | Evidence! | Event | Guardian | 0 | ×1 | 031-Evidence |
-| 17 | Guts | Skill | Guardian | 0 | ×2 | 032-033-Guts |
-| 18 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 034-035-Inquiring-Mind |
+| 5 | The Summoner's Deck | Asset – Accessory | Seeker | 0 | ×1 | 008-The-Summoners-Deck |
+| 6 | Deduction | Skill | Seeker | 0 | ×2 | 015-016-Deduction |
+| 7 | Perception | Skill | Seeker | 0 | ×2 | 017-018-Perception |
+| 8 | Crack the Case | Event | Seeker | 0 | ×2 | 019-020-Crack-the-Case |
+| 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
+| 10 | Cryptic Research | Event | Seeker | 0 | ×1 | 023-Cryptic-Research |
+| 11 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
+| 12 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
+| 13 | Emergency Cache | Event | Neutral | 0 | ×2 | 028-029-Emergency-Cache |
+| 14 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
+| 15 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
+| 16 | First Aid | Asset – Hand | Guardian | 0 | ×1 | 034-First-Aid |
+| 17 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
+| 18 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
+| 19 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -247,7 +246,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | **Expansion** | The R'lyeh Expansion |
 | **Pack Name** | Alistair Greystoke Investigator Pack |
 | **Pack Code** | RYP-AG |
-| **Total Cards** | 007 |
+| **Total Cards** | 008 |
 
 ### Card List & Numbers
 
@@ -260,6 +259,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | 005 | The Ancient Binding | Asset – Regular |
 | 006 | The Relic Harvester | Asset – Regular |
 | 007 | My Eyes and Ears | Asset – Regular |
+| 008 | The Summoner's Deck | Asset – Regular |
 
 ### Strange Eons Collection Fields
 *(Use these on every card in this pack)*
@@ -276,7 +276,7 @@ RYP-AG
 
 **Total Cards:**
 ```
-007
+008
 ```
 
 ### File Naming Convention
@@ -295,4 +295,6 @@ RYP-AG-006-The-Relic-Harvester-Front.png
 RYP-AG-006-The-Relic-Harvester-Back.png
 RYP-AG-007-My-Eyes-and-Ears-Front.png
 RYP-AG-007-My-Eyes-and-Ears-Back.png
+RYP-AG-008-The-Summoners-Deck-Front.png
+RYP-AG-008-The-Summoners-Deck-Back.png
 ```
