@@ -231,7 +231,64 @@ Gain resources equal to the shroud value of that location.
 
 ---
 
-## Key Chapter 2 Changes — Important Notes
+## All Chapter 2 Investigators — Stats Reference
+
+| Investigator | Class | WIL | INT | COM | AGI | HP | SAN | Deckbuilding |
+|---|---|---|---|---|---|---|---|---|
+| Daniela Reyes | Guardian | 3 | 2 | 5 | 2 | 9 | 5 | Guardian 0–5, Survivor 0–2 |
+| Joe Diamond | Seeker | 2 | 4 | 4 | 2 | 7 | 7 | Seeker 0–5, Guardian 0–2 |
+| Trish Scarborough | Rogue | 2 | 4 | 2 | 4 | 8 | 6 | Rogue 0–5, Seeker 0–2 |
+| Dexter Drake | Mystic | 5 | 2 | 2 | 3 | 6 | 8 | Mystic 0–5, Rogue 0–2 |
+| Isabelle Barnes | Survivor | 4 | 2 | 3 | 3 | 5 | 9 | Survivor 0–5, Mystic 0–2 |
+| Tommy Muldoon | Guardian | 3 | 2 | 4 | 3 | 9 | 6 | Guardian 0–5, Neutral 0–5 |
+| Carolyn Fern | Seeker | 3 | 5 | 1 | 2 | 6 | 9 | Seeker 0–5, Guardian 0–2 |
+| André Patel | Rogue | 2 | 3 | 2 | 4 | 7 | 7 | Rogue 0–5, Survivor 0–2 |
+| Marie Lambeau | Mystic | 4 | 4 | 2 | 2 | 7 | 7 | Mystic 0–5, Neutral 0–5 |
+| Miguel de la Cruz | Survivor | 3 | 2 | 4 | 3 | 8 | 7 | Survivor 0–5, Guardian 0–2 |
+
+### Standalone Investigator Abilities
+
+**Tommy Muldoon** — After you play a Firearm asset: Either pay 1 resource to add 2 ammo to it, or discard a spent Firearm you control to add 2 ammo to it.
+
+**Carolyn Fern** — After you successfully investigate: Discover 1 additional clue at your location if there is at least 1 clue there. (Limit once per round.)
+
+**André Patel** — Rogue showboater; resource-spending abilities and chaos token manipulation.
+
+**Marie Lambeau** — Mystic card selection and draw engine; risk/reward spell playstyle.
+
+**Miguel de la Cruz** — Survivor combat specialist; Guardian 0–2 access for combat tools.
+
+---
+
+## Fearless Replacement Analysis — Greystoke Deck
+
+**Problem:** Fearless in Chapter 2 (Core Set 2026 #69) is **level 2** — requires XP, cannot go in a starting deck.
+
+**Solution:** Use the **original Fearless from the old Core Set (#67)** — level 0, still fully legal in Chapter 2.
+
+| Card | Set | Level | Icons | Rules |
+|---|---|---|---|---|
+| Fearless (use this one) | Core Set #67 | **0** | 2 × `<wil>` | If successful, heal 1 horror |
+| Fearless (do NOT use) | Core Set 2026 #69 | **2** | 2 × `<wil>` | If successful, heal 1 (or 2) horror |
+
+**In Strange Eons:** When printing Fearless for Greystoke, use Core Set #67 card data — NOT Core Set 2026 #69.
+
+---
+
+## Soul Link — Chapter 2 Alternative Mystic Skill
+
+**Soul Link**
+**Set:** Core Set 2026 #67
+**Class:** Mystic
+**Type:** Skill
+**Level:** 0
+**Traits:** Innate. Spell.
+**Icons:** 1 × `<wil>`
+**Rules:**
+```
+After this test resolves, another investigator at your location may draw 1 card or gain 1 resource.
+```
+*Weaker than old Fearless for Greystoke — only 1 `<wil>` icon and no horror healing. Use old Fearless instead.*
 
 | Card | Old Class | New Class | Old Level | New Level | Change |
 |---|---|---|---|---|---|
