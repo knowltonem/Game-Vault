@@ -202,6 +202,8 @@ Alistair Greystoke deck only.
 
 You have 1 additional ally slot.
 
+You may have 2 unique Ally assets in play simultaneously.
+
 **<rea>** After an Ally asset you control is defeated: Exhaust The Summoner's Deck — shuffle that Ally into your deck instead of discarding it.
 
 ---
@@ -241,10 +243,10 @@ You have 1 additional ally slot.
 | 12 | Emergency Cache | Event | Neutral | 0 | ×2 | 028-029-Emergency-Cache |
 | 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
 | 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
-| 15 | First Aid | Asset – Hand | Guardian | 0 | ×1 | 034-First-Aid |
-| 16 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
-| 17 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
-| 18 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
+| 15 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
+| 16 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
+| 17 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
+| 18 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×2 | 005-The-Ancient-Binding |
 | | **TOTAL** | | | | **30** | |
 
 ---
