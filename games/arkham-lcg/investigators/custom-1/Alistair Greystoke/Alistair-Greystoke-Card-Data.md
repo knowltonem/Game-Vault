@@ -88,7 +88,6 @@ Gain 2 resources and heal 1 damage or 1 horror.
 | **Traits** | Item. Tome. Relic. |
 | **Subtitle** | Two Centuries of Notes |
 | **Flavor** | *"I have watched every predator on this earth hunt. I know exactly how they move."* |
-| **Status** | ⚠️ .eon file not yet created — folder 003-The-Unbroken-Codex is ready |
 
 ### Text
 Alistair Greystoke deck only.
@@ -119,7 +118,93 @@ You may use your Intellect instead of Agility when evading enemies.
 
 ---
 
-## Design Notes
+## Regular Deck Asset #1 — The Ancient Binding
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Ally |
+| **Slot** | Ally |
+| **Cost** | 3 |
+| **Traits** | Ally. Monster. Dimensional. |
+| **Subtitle** | It Has Always Been There |
+| **Health/Sanity soak** | 3/3 |
+| **Unique** | Yes |
+| **Flavor** | *"It does not protect me out of loyalty. It protects me because the cosmos demands I survive."* |
+
+### Text
+Alistair Greystoke deck only.
+
+**<rea>** After you would be dealt damage or horror: Exhaust The Ancient Binding — prevent 1 of that damage or horror.
+
+**Forced** — When The Ancient Binding is defeated: Take 1 horror and shuffle The Ancient Binding back into your deck.
+
+---
+
+## Regular Deck Asset #2 — The Relic Harvester
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Ally |
+| **Slot** | Ally |
+| **Cost** | 3 |
+| **Traits** | Ally. Monster. Mi-Go. |
+| **Subtitle** | A Debt Long Owed |
+| **Health/Sanity soak** | 2/2 |
+| **Unique** | Yes |
+| **Flavor** | *"A life spared. A debt owed."* |
+
+### Text
+Alistair Greystoke deck only.
+
+After you successfully investigate and discover 1 or more clues: Gain 1 resource.
+
+**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it.
+
+---
+
+## Regular Deck Asset #3 — My Eyes and Ears
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Ally |
+| **Slot** | Ally |
+| **Cost** | 2 |
+| **Traits** | Ally. Creature. Swarm. |
+| **Subtitle** | There Are Many |
+| **Health/Sanity soak** | 1/3 |
+| **Unique** | Yes |
+| **Flavor** | *"Check every corner. Under every stone."* |
+
+### Text
+Alistair Greystoke deck only.
+
+**<rea>** After you successfully investigate: Discover 1 additional clue at your location.
+
+**Forced** — When My Eyes and Ears is defeated: Place 1 doom on the current agenda.
+
+---
+
+## Regular Deck Asset #4 — The Summoner's Deck
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Accessory |
+| **Slot** | Accessory |
+| **Cost** | 2 |
+| **Traits** | Item. Tome. Relic. Cursed. |
+| **Subtitle** | Bound with the Arcane |
+| **Health/Sanity soak** | —/2 |
+| **Unique** | Yes |
+| **Flavor** | *"Each hellish card played with hope for the future."* |
+
+### Text
+Alistair Greystoke deck only.
+
+You have 1 additional ally slot.
+
+**<rea>** After an Ally asset you control is defeated: Exhaust The Summoner's Deck — shuffle that Ally into your deck instead of discarding it.
+
+---
 
 - **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
 - **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
@@ -129,6 +214,8 @@ You may use your Intellect instead of Agility when evading enemies.
 - **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
 - **Elder Sign:** +1, draw 1 card and gain 1 resource on success. Above average for Seeker class. Differentiated from Ironhide's identical Elder Sign by context — Greystoke tests Intellect constantly, so Elder Sign fires frequently and rewards his core investigate loop.
 - **Deckbuilding splash:** Guardian 0–2 (First Aid, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
+- **Custom allies:** Three custom Mythos creature allies replace all official allies — The Ancient Binding (Dimensional Shambler, defender), The Relic Harvester (Mi-Go, economy), My Eyes and Ears (red-eyed rat swarm, clue accelerator). Each has a unique relationship with Greystoke built across two centuries.
+- **The Summoner's Deck:** Accessory slot item that grants a second ally slot and shuffles defeated allies back into the deck. Enables fielding two of the three custom allies simultaneously — meaningful scenario-by-scenario decision.
 - **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
 - **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
 
