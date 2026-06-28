@@ -140,10 +140,11 @@ You may use your Intellect instead of Agility when evading enemies.
 
 | # | Card Name | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 005-006-Magnifying-Glass |
-| 2 | Dr. Milan Christopher | Asset – Ally | Seeker | 0 | ×1 | 007-Dr-Milan-Christopher |
-| 3 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 | 008-009-Laboratory-Assistant |
-| 4 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 | 010-Research-Librarian |
+| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 006-007-Magnifying-Glass |
+| 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
+| 3 | Dr. Milan Christopher | Asset – Ally | Seeker | 0 | ×1 | 008-Dr-Milan-Christopher |
+| 4 | Laboratory Assistant | Asset – Ally | Seeker | 0 | ×2 | 009-010-Laboratory-Assistant |
+| 5 | Research Librarian | Asset – Ally | Seeker | 0 | ×1 | 011-Research-Librarian |
 | 5 | Deduction | Skill | Seeker | 0 | ×2 | 011-012-Deduction |
 | 6 | Perception | Skill | Seeker | 0 | ×2 | 013-014-Perception |
 | 7 | Crack the Case | Event | Seeker | 0 | ×2 | 015-016-Crack-the-Case |
@@ -210,8 +211,9 @@ Alistair Greystoke/
 ├── art/                                ← all MJ generated and reference art
 ├── 001-Alistair-Greystoke/             ← Greystoke-Investigator.eon, Greystoke-Mini-Marker.eon
 ├── 002-Wisdom-of-Antiquity/            ← Greystoke-Asset-Wisdom-of-Antiquity.eon
-├── 003-The-Unbroken-Codex/             ← ⚠️ .eon not yet created
-├── 004-My-Glass-is-Nearly-Run/         ← Greystoke-Weakness-My-Glass-Is-Nearly-Run.eon
+├── 003-The-Unbroken-Codex/             ← Greystoke-Sig-Asset-The-Unbroken-Codex.eon
+├── 004-My-Glass-is-Nearly-Run/         ← Greystoke-Sig-Weakness-My-Glass-Is-Nearly-Run.eon
+├── 005-The-Ancient-Binding/            ← Greystoke-Asset-The-Ancient-Binding.eon
 ├── 005-006-Magnifying-Glass/           ← deck card
 ├── 007-Dr-Milan-Christopher/           ← deck card
 ├── 008-009-Laboratory-Assistant/       ← deck card
@@ -244,7 +246,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | **Expansion** | The R'lyeh Expansion |
 | **Pack Name** | Alistair Greystoke Investigator Pack |
 | **Pack Code** | RYP-AG |
-| **Total Cards** | 004 |
+| **Total Cards** | 005 |
 
 ### Card List & Numbers
 
@@ -254,6 +256,7 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 | 002 | Wisdom of Antiquity | Asset – Signature |
 | 003 | The Unbroken Codex | Asset – Signature |
 | 004 | My Glass is Nearly Run | Treachery – Weakness |
+| 005 | The Ancient Binding | Asset – Regular |
 
 ### Strange Eons Collection Fields
 *(Use these on every card in this pack)*
@@ -270,7 +273,7 @@ RYP-AG
 
 **Total Cards:**
 ```
-004
+005
 ```
 
 ### File Naming Convention
@@ -283,4 +286,6 @@ RYP-AG-003-The-Unbroken-Codex-Front.png
 RYP-AG-003-The-Unbroken-Codex-Back.png
 RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
 RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
+RYP-AG-005-The-Ancient-Binding-Front.png
+RYP-AG-005-The-Ancient-Binding-Back.png
 ```
