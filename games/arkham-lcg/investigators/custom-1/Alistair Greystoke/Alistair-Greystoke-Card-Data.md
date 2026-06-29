@@ -256,12 +256,12 @@ You may have 2 unique Ally assets in play simultaneously.
 | Category | Cards | Role |
 |---|---|---|
 | Clue Assets | Magnifying Glass | Boost investigate tests |
-| Ally Assets | Dr. Milan Christopher, Laboratory Assistant, Research Librarian | Economy, card draw, horror soak |
-| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame, Cryptic Research | Clue compression and acceleration |
+| Ally Assets | The Ancient Binding, The Relic Harvester, My Eyes and Ears | Defender, economy, clue acceleration |
+| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame | Clue compression and acceleration |
 | Enemy Management | Mind Over Matter, Evidence! | Intellect-based enemy handling |
-| Economy | Emergency Cache | Resource backup |
+| Economy | Treasure Vault | Resource backup |
 | Encounter Protection | Ward of Protection, Fearless | Cancel treacheries, horror resistance |
-| Support | First Aid | Healing for self and Ironhide |
+| Support | Evidence! | Clue on enemy defeat |
 | Skills | Deduction, Perception, Guts, Inquiring Mind | Commit to investigate and Willpower tests |
 
 ---
@@ -278,7 +278,7 @@ You may have 2 unique Ally assets in play simultaneously.
 
 **Encounter deck:** Ward of Protection cancels the worst treacheries. Fearless commits to Willpower tests and heals horror. Guts protects against Willpower-based encounter cards. Unbroken Codex ignores or cancels horror most rounds.
 
-**Sanity pressure:** Laboratory Assistant provides 2/2 horror soak. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
+**Sanity pressure:** The Ancient Binding prevents 1 damage/horror per round. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
 
 ---
 

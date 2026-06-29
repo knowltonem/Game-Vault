@@ -200,8 +200,8 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | Beat Cop (2) | 4 XP | Adds 2 damage on defeat instead of 1 |
-| 2 | Vicious Blow (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
+| 1 | Father Thomas (2) | 4 XP | Adds 2 damage on defeat instead of 1 |
+| 2 | R'lyeh's Fury (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
 
 ---
