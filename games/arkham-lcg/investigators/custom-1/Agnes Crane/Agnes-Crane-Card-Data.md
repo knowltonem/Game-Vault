@@ -12,8 +12,8 @@
 | **Class** | Survivor |
 | **Traits** | Mystic. Cursed. Survivor. |
 | **Willpower** | 4 |
-| **Intellect** | 4 |
-| **Combat** | 2 |
+| **Intellect** | 3 |
+| **Combat** | 3 |
 | **Agility** | 3 |
 | **Health** | 6 |
 | **Sanity** | 9 |
@@ -162,8 +162,7 @@ Agnes Crane/
 
 - **High SAN (9)** — essential given the haunting ability constantly draining sanity. She needs the buffer.
 - **Low HP (6)** — she is not a combat character. Leather Coat and Peter Sylvestre provide physical resilience.
-- **WIL 4 / INT 4** — balanced dual-stat investigator. Passes encounter tests reliably (WIL 4) and investigates well (INT 4). Not exceptional at either but competent at both.
-- **COM 2** — genuinely cannot fight. Must evade or rely on teammates for enemy management.
+- **WIL 4 / INT 3 / COM 3 / AGI 3** — balanced 4/3/3/3 spread, total 13. No catastrophic weakness, no dominant strength. Competent across the board — fits the survivor archetype. INT 3 offset by ability generating clues from treachery reveals without testing. COM 3 means she can occasionally fight weaker enemies in a pinch.
 - **Drawn to the Flame synergy** — deliberately pulling encounter cards feeds her ability and generates 2 clues simultaneously.
 - **Grotesque Statue** — chaos bag manipulation makes her Elder Sign fire more reliably, and her encounter peek ability benefits from a cleaner bag.
 - **Pairs with Ironhide** — he handles enemies she can't fight, she warns him what's coming. Ward of Protection covers him from treacheries when out of range.
