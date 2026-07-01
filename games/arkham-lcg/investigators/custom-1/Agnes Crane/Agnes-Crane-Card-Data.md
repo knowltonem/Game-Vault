@@ -30,8 +30,33 @@ At the start of your turn: Reveal the top card of the encounter deck and look at
 
 ### Requirements
 - The Haunted Veil ×1
+- The Night-Gaunt ×1
 - The Voice Below ×1
 - 1 random basic weakness
+
+---
+
+## Signature Ally — The Night-Gaunt
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Ally |
+| **Cost** | 3 |
+| **Traits** | Ally. Monster. Night-Gaunt. |
+| **Slot** | Ally |
+| **Subtitle** | The Dark Between Shadows |
+| **Health/Sanity soak** | 3/2 |
+| **Unique** | Yes |
+
+### Text
+Agnes Crane deck only.
+
+You get +1 `<wil>` while The Night-Gaunt is in play.
+
+**<rea>** After you would take horror: Exhaust The Night-Gaunt — prevent 1 of that horror.
+
+### Flavor
+*"I did not summon it. I simply stopped running from it."*
 
 ---
 
@@ -110,10 +135,11 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 |---|---|
 | **Pack Name** | Agnes Crane Investigator Pack |
 | **Pack Code** | RYP-AC |
-| **Total Cards** | 003 |
+| **Total Cards** | 004 |
 | **Investigator** | 001 Agnes Crane |
-| **Signature Asset** | 002 The Haunted Veil |
-| **Signature Weakness** | 003 The Voice Below |
+| **Signature Ally** | 002 The Night-Gaunt |
+| **Signature Asset** | 003 The Haunted Veil |
+| **Signature Weakness** | 004 The Voice Below |
 
 ---
 
@@ -124,8 +150,9 @@ Agnes Crane/
 ├── art/
 ├── 001-Agnes-Crane/
 │   └── Agnes-mini/
-├── 002-The-Haunted-Veil/
-├── 003-The-Voice-Below/
+├── 002-The-Night-Gaunt/
+├── 003-The-Haunted-Veil/
+├── 004-The-Voice-Below/
 ├── 004-005-Cherished-Keepsake/
 ├── 006-Leather-Coat/
 ├── 007-008-Grotesque-Statue/
