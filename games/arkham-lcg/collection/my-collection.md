@@ -24,6 +24,7 @@
 ## Collection notes
 - [[games/arkham-lcg/collection/core-set-2026|Core Set (2026) — my starting point]]
 - [[games/arkham-lcg/collection/chapter-1-wishlist|Chapter 1 Wishlist Reference — target prices for missing cycles]]
+- [[games/arkham-lcg/collection/standalone-scenarios|Standalone Scenarios — prices and links for all 13 standalones]]
 
 ## Total card count
 | Product                             | Cards   |
