@@ -113,7 +113,7 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 2 | Leather Coat | Asset | Neutral | 0 | ×1 | 008-Leather-Coat |
 | 3 | Grotesque Statue | Asset | Mystic | 0 | ×2 | 009-010-Grotesque-Statue |
 | 4 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×2 | 005-The-Pale-Child |
-| 5 | Newspaper | Asset | Seeker | 0 | ×1 | 011-Newspaper |
+| 5 | Working a Hunch | Event | Seeker | 0 | ×1 | 011-Working-a-Hunch |
 | 6 | Lucky! | Event | Survivor | 0 | ×2 | 012-013-Lucky |
 | 7 | "Look What I Found!" | Event | Survivor | 0 | ×2 | 014-015-Look-What-I-Found |
 | 8 | Narrow Escape | Event | Survivor | 0 | ×2 | 016-017-Narrow-Escape |
@@ -158,7 +158,7 @@ Agnes Crane/
 ├── 006-007-Cherished-Keepsake/
 ├── 008-Leather-Coat/
 ├── 009-010-Grotesque-Statue/
-├── 011-Newspaper/
+├── 011-Working-a-Hunch/
 ├── 012-013-Lucky/
 ├── 014-015-Look-What-I-Found/
 ├── 016-017-Narrow-Escape/

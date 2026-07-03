@@ -80,6 +80,10 @@ Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
 
 **[Action]** Spend 2 resources: Add 2 ammo to The Hollow Warden.
 
+**[Free]** At the start of your turn, if The Hollow Warden has 0 ammo: Add 1 ammo to it.
+
+**[Free]** If there are no enemies at your location: Draw 1 card.
+
 ---
 
 ## Signature Asset #2 — Hydra Hyde
