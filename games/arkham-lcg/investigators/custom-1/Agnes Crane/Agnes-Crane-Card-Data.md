@@ -155,9 +155,9 @@ Agnes Crane/
 ├── 003-The-Haunted-Veil/
 ├── 004-The-Voice-Below/
 ├── 005-The-Pale-Child/
-├── 006-Leather-Coat/
-├── 007-008-Grotesque-Statue/
-├── 034-035-Cherished-Keepsake/
+├── 006-007-Cherished-Keepsake/
+├── 008-Leather-Coat/
+├── 009-010-Grotesque-Statue/
 ├── 011-Newspaper/
 ├── 012-013-Lucky/
 ├── 014-015-Look-What-I-Found/
@@ -189,7 +189,7 @@ Agnes Crane/
 ## Design Notes
 
 - **High SAN (9)** — essential given the haunting ability constantly draining sanity. She needs the buffer.
-- **Low HP (6)** — she is not a combat character. Leather Coat and Peter Sylvestre provide physical resilience.
+- **Low HP (6)** — she is not a combat character. Leather Coat and The Pale Child provide physical and horror resilience.
 - **WIL 4 / INT 3 / COM 3 / AGI 3** — balanced 4/3/3/3 spread, total 13. No catastrophic weakness, no dominant strength. Competent across the board — fits the survivor archetype. INT 3 offset by ability generating clues from treachery reveals without testing. COM 3 means she can occasionally fight weaker enemies in a pinch.
 - **Drawn to the Flame synergy** — deliberately pulling encounter cards feeds her ability and generates 2 clues simultaneously.
 - **Grotesque Statue** — chaos bag manipulation makes her Elder Sign fire more reliably, and her encounter peek ability benefits from a cleaner bag.
@@ -202,7 +202,7 @@ Agnes Crane/
 
 | Priority | Card | XP | Reason |
 |---|---|---|---|
-| 1 | Peter Sylvestre (2) | 4 XP | +1 AGI, +1 WIL, stronger horror reduction |
+| 1 | The Pale Child (2) | 4 XP | +1 AGI, +1 WIL, stronger horror reduction |
 | 2 | Lucky! (2) | 2 XP | Also cancels revelation effects — massive upgrade |
 | 3 | Grotesque Statue (4) | 4 XP | Can cancel any chaos token reveal — game changing |
 | 4 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
