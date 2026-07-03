@@ -215,7 +215,7 @@ You may have 2 unique Ally assets in play simultaneously.
 - **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Ignore reaction uses official Deny Existence language — horror occurs but doesn't apply. Cancel reaction uses Ward of Protection language — proactively banks full protection after a successful investigate. Two distinct official mechanics on one card, clearly differentiated.
 - **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
 - **Elder Sign:** +1, draw 1 card and gain 1 resource on success. Above average for Seeker class. Differentiated from Ironhide's identical Elder Sign by context — Greystoke tests Intellect constantly, so Elder Sign fires frequently and rewards his core investigate loop.
-- **Deckbuilding splash:** Guardian 0–2 (First Aid, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
+- **Deckbuilding splash:** Guardian 0–2 (Evidence!, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
 - **Custom allies:** Three custom Mythos creature allies replace all official allies — The Ancient Binding (Dimensional Shambler, defender), The Relic Harvester (Mi-Go, economy), My Eyes and Ears (red-eyed rat swarm, clue accelerator). Each has a unique relationship with Greystoke built across two centuries.
 - **The Summoner's Deck:** Accessory slot item that grants a second ally slot and shuffles defeated allies back into the deck. Enables fielding two of the three custom allies simultaneously — meaningful scenario-by-scenario decision.
 - **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
@@ -240,7 +240,7 @@ You may have 2 unique Ally assets in play simultaneously.
 | 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
 | 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
 | 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
-| 12 | Treasure Vault *(Emergency Cache)* | Event | Neutral | 0 | ×2 | 028-029-Treasure-Vault |
+| 12 | Treasure Vault *(Treasure Vault)* | Event | Neutral | 0 | ×2 | 028-029-Treasure-Vault |
 | 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
 | 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
 | 15 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
@@ -270,7 +270,7 @@ You may have 2 unique Ally assets in play simultaneously.
 
 **Turn 1:** Play Unbroken Codex (cost 1) — 4 resources spare. Drop Magnifying Glass (cost 1) if drawn — 3 resources spare. Investigate immediately at Intellect 6.
 
-**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play Dr. Milan Christopher if available — every clue discovery now generates 1 resource.
+**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play The Relic Harvester if available — every clue discovery now generates 1 resource.
 
 **Mid game:** Deduction commits to investigations for double clues. Crack the Case generates resources passively as clues accumulate. Working a Hunch grabs testless clues. Drawn to the Flame takes 2 clues at once at the cost of drawing an encounter card — high risk, high reward.
 
@@ -286,7 +286,7 @@ You may have 2 unique Ally assets in play simultaneously.
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | Dr. Milan Christopher (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
+| 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
 | 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 — doubles clue output per investigation |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too — covers Ironhide from encounter cards |
 

@@ -160,7 +160,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 - **Hollow Warden:** Cost 0, 3 ammo, +2 Combat, +1 damage. Matches official signature weapon convention (Roland, Tony, Zoey all cost 0). Draw 1 card on any kill — gun rewards hand fuel, investigator ability rewards economy. Clean separation: gun keeps hand stocked, ability keeps wallet full. Self-reload at 2 resources ties the economy loop to the weapon: kill → earn → reload → kill.
 - **Hydra Hyde:** Three-ability body asset — protects (damage reduction), endures (discard prevention), and redirects R'lyeh's mental toll into physical damage (horror → damage swap). Cursed trait ties to investigator trait and R'lyeh origin.
 - **Hound of the Deep:** Flavor reskin of Guard Dog using official card rules and cost. No custom card — just thematic naming in the deck. Up to 2 copies.
-- **Deckbuilding splashes:** Mystic 0–2 (Ward of Protection, Holy Water). Survivor 0–1 (Take Heart, Aquinnah). These are represented in the final 30-card deck list.
+- **Deckbuilding splashes:** Mystic 0–2 (Ward of Protection, Holy Water). Survivor 0–1 (I'll Manage, Aquinnah). These are represented in the final 30-card deck list.
 - **Stat profile:** 5 Combat top tier for Guardians. 9 Health built to absorb punishment. 7 Sanity (bumped from 6) — gives genuine breathing room against Echoes of R'lyeh across a full scenario without eliminating the pressure. Hydra Hyde's horror redirect interlinks health and sanity pressure.
 - **King's Talon:** Regular deck card, 1–2 copies. Infinite use melee covering Warden gap rounds. Three interlocking abilities — Cursed token payoff (+2 damage), sanity recovery (heal 1 horror on kill), and Elite specialist (+1 Combat per damage on target, max +3). Earned through skill as a Hunter trophy, not gifted by R'lyeh. Thematically distinct from both signatures.
 - **Weapon system:** Warden and Talon create a natural tactical rhythm — Warden for economy and card draw on standard enemies, Talon for sanity recovery and Elite finishing. Switching between them is a genuine decision every round.
@@ -183,10 +183,10 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 6 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 015-016-Ill-See-You-In-Hell |
 | 7 | Cosmic Blast *(Dynamite Blast)* | Event | Guardian | 0 | ×1 | 017-Cosmic-Blast |
 | 8 | On the Hunt | Event | Guardian | 0 | ×1 | 018-On-the-Hunt |
-| 9 | Antique Dealings *(Emergency Cache)* | Event | Neutral | 0 | ×2 | 019-020-Antique-Dealings |
+| 9 | Antique Dealings *(Antique Dealings)* | Event | Neutral | 0 | ×2 | 019-020-Antique-Dealings |
 | 10 | Premonitions *(Prepared for the Worst)* | Event | Guardian | 0 | ×2 | 021-022-Premonitions |
 | 11 | Knowledge From the Deep *(Logical Reasoning)* | Event | Guardian | 0 | ×2 | 023-024-Knowledge-From-the-Deep |
-| 12 | I'll Manage *(Take Heart)* | Skill | Survivor | 0 | ×1 | 025-Ill-Manage |
+| 12 | I'll Manage *(I'll Manage)* | Skill | Survivor | 0 | ×1 | 025-Ill-Manage |
 | 13 | Aquinnah | Asset – Ally | Survivor | 0 | ×1 | 026-Aquinnah |
 | 14 | Ward of Protection | Event | Mystic | 0 | ×2 | 027-028-Ward-of-Protection |
 | 15 | Holy Water | Asset – Hand | Mystic | 0 | ×2 | 029-030-Holy-Water |
