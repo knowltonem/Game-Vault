@@ -109,10 +109,10 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 
 | # | Card | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Cherished Keepsake | Asset | Neutral | 0 | ×2 | 004-005-Cherished-Keepsake |
+| 1 | Cherished Keepsake | Asset | Neutral | 0 | ×2 | 034-035-Cherished-Keepsake |
 | 2 | Leather Coat | Asset | Neutral | 0 | ×1 | 006-Leather-Coat |
 | 3 | Grotesque Statue | Asset | Mystic | 0 | ×2 | 007-008-Grotesque-Statue |
-| 4 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×2 | 009-010-The-Pale-Child |
+| 4 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×2 | 005-The-Pale-Child |
 | 5 | Newspaper | Asset | Seeker | 0 | ×1 | 011-Newspaper |
 | 6 | Lucky! | Event | Survivor | 0 | ×2 | 012-013-Lucky |
 | 7 | "Look What I Found!" | Event | Survivor | 0 | ×2 | 014-015-Look-What-I-Found |
@@ -155,10 +155,9 @@ Agnes Crane/
 ├── 003-The-Haunted-Veil/
 ├── 004-The-Voice-Below/
 ├── 005-The-Pale-Child/
-├── 004-005-Cherished-Keepsake/
 ├── 006-Leather-Coat/
 ├── 007-008-Grotesque-Statue/
-├── 009-010-The-Pale-Child/
+├── 034-035-Cherished-Keepsake/
 ├── 011-Newspaper/
 ├── 012-013-Lucky/
 ├── 014-015-Look-What-I-Found/
