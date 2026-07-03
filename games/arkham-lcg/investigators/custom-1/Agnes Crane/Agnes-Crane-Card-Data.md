@@ -123,7 +123,7 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 12 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
 | 13 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
 | 14 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 028-029-Unexpected-Courage |
-| 15 | Survives the Fall | Skill | Survivor | 0 | ×2 | 030-031-Survives-the-Fall |
+| 15 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
 | 16 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
 | | **TOTAL** | | | | **30** | |
 
@@ -168,7 +168,7 @@ Agnes Crane/
 ├── 024-025-Guts/
 ├── 026-027-Perception/
 ├── 028-029-Unexpected-Courage/
-├── 030-031-Survives-the-Fall/
+├── 030-031-Rise-to-the-Occasion/
 ├── 032-033-Inquiring-Mind/
 └── Agnes-Crane-Card-Data.md
 ```

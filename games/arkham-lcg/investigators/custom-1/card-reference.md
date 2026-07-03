@@ -189,6 +189,22 @@ If this skill test is successful, heal 1 horror.
 
 ---
 
+### Rise to the Occasion
+**Set:** Blood on the Altar #192
+**Class:** Survivor
+**Type:** Skill
+**Level:** 0
+**Traits:** Innate.
+**Icons:** 3 × `<wld>` (wild — conditional)
+**Rules:**
+```
+Commit only to a skill test you are performing, and only if the difficulty
+of that test is at least 2 higher than your base skill value.
+```
+**Note:** 3 wild icons but restricted — only usable when difficulty is 2+ above your base stat. Agnes with COM 3 and AGI 3 will frequently face tests above 5 difficulty making this extremely valuable. Replaces Survives the Fall which does not exist.
+
+---
+
 ### Inquiring Mind
 **Set:** Undimensioned and Unseen #227
 **Class:** Seeker
