@@ -214,7 +214,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 5 | Tracker *(Evidence!)* | Event | Guardian | 0 | ×2 | 014-015-Tracker |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
 | 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
-| 8 | Ward of Protection | Event | Mystic | 0 | ×2 | 020-021-Ward-of-Protection |
+| 8 | Chant of Salvation *(Ward of Protection)* | Event | Mystic | 0 | ×2 | 020-021-Chant-of-Salvation |
 | 9 | Overpower | Skill | Neutral | 0 | ×2 | 022-023-Overpower |
 | 10 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
 | 11 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
@@ -259,7 +259,7 @@ Abel Redcloud/
 ├── 014-015-Tracker/
 ├── 016-017-On-the-Hunt/
 ├── 018-019-Back-to-the-Dark/
-├── 020-021-Ward-of-Protection/
+├── 020-021-Chant-of-Salvation/
 ├── 022-023-Overpower/
 ├── 024-025-Guts/
 ├── 026-027-Vicious-Blow/
