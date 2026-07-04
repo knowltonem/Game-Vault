@@ -232,16 +232,28 @@ You get +2 <com> and deal +1 damage for this attack.
 **Class:** Neutral
 **Type:** Event
 **Cost:** 0
-**Level:** 0
+
+**Level 0:**
 **Traits:** Supply.
 **Icons:** 1 × `<wld>`
+**Rules:**
+```
+Gain 3 resources.
+```
+**Note:** Costs an action — same as Emergency Cache level 0. Correct power level for starting deck.
+
+**Level 2 (upgrade):**
+**Traits:** Supply.
+**Icons:** 2 × `<wld>`
 **Rules:**
 ```
 Fast.
 Gain 3 resources.
 ```
-**Flavor:** *"Some things were left behind deliberately. Others were simply forgotten. Both are useful."*
-**Note:** Neutral economy card — Emergency Cache equivalent for the R'lyeh Expansion. Works for all four investigators. Net +3 resources at no action or resource cost.
+**Note:** 4 XP to upgrade. Fast arrives at level 2 as the upgrade reward. Mirrors Emergency Cache (2) from Chapter 1 exactly. Works for all four investigators.
+
+**Flavor (0):** *"Some things were left behind deliberately. Others were simply forgotten."*
+**Flavor (2):** *"Both are useful. The difference is knowing when."*
 
 ---
 
