@@ -288,7 +288,7 @@ You may have 2 unique Ally assets in play simultaneously.
 |---|---|---|---|
 | 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
 | 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 — doubles clue output per investigation |
-| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too — covers Ironhide from encounter cards |
+| 3 | Centuries of Knowledge (3) | 6 XP | Foreknowledge upgrade — see top 5 encounter cards, cancel treacheries, block encounter draws |
 
 ---
 
