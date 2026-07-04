@@ -202,11 +202,86 @@ Agnes Crane/
 
 ---
 
+## Signature Upgrade Cards
+
+### The Night-Gaunt (2)
+**Level:** 2 | **Cost:** 4 XP | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 3 | 3 |
+| SAN soak | 2 | **3** |
+| WIL bonus | +1 | **+2** |
+| Horror prevent | 1 (exhaust) | **2 (exhaust)** |
+
+```
+Agnes Crane deck only.
+You get +2 <wil> while The Night-Gaunt is in play.
+<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 2 of that horror.
+```
+*Flavor: "It has learned what I need. It does not ask why."*
+
+---
+
+### The Pale Child (2)
+**Level:** 2 | **Cost:** 4 XP | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 0 | 0 |
+| SAN soak | 2 | **3** |
+| WIL bonus | +1 | **+1** |
+| AGI bonus | — | **+1** |
+| Passive heal | 1 horror/upkeep | **2 horror/upkeep** |
+
+```
+Agnes Crane deck only.
+You get +1 <wil> and +1 <agi> while The Pale Child is in play.
+Forced — At the end of the upkeep phase: Heal 2 horror from Agnes Crane.
+```
+*Flavor: "She does not speak. She does not need to."*
+
+---
+
+### Arcane Athame (3)
+**Level:** 3 | **Cost:** 6 XP | **Slot:** Hand
+
+| Field | Lv 0 | Lv 3 |
+|---|---|---|
+| COM bonus | +1 | **+2** |
+| Horror heal | 1 on kill | **2 on kill** |
+| Icons | `<wil>` + `<com>` | `<wil>` + `<wil>` + `<com>` |
+
+```
+<act> Fight. You get +2 <com> for this attack.
+<fre> After you defeat an enemy with Arcane Athame: Heal 2 horror from Agnes Crane.
+<fre> After you defeat an enemy with Arcane Athame: Add 1 bless token to the chaos bag.
+```
+*Flavor: "Hamunaptra gave it power. I gave it purpose."*
+
+---
+
+### The Third Eye (1) — New Custom
+**Level:** 1 | **Cost:** 2 XP | **Type:** Asset — Accessory | **Icons:** 1 × `<wil>`
+
+```
+Agnes Crane deck only. Unique.
+
+<fre> At the start of your turn: Look at the top 2 cards of the encounter
+deck instead of 1. Return them in any order.
+If either is a Treachery — discover 1 clue at your location.
+```
+*Flavor: "The third eye does not blink. It does not look away. Neither do I."*
+
+---
+
 ## Upgrade Path (XP Priorities)
 
 | Priority | Card | XP | Reason |
 |---|---|---|---|
-| 1 | The Pale Child (2) | 4 XP | +1 AGI, +1 WIL, stronger horror reduction |
-| 2 | Lucky! (2) | 2 XP | Also cancels revelation effects — massive upgrade |
-| 3 | Grotesque Statue (4) | 4 XP | Can cancel any chaos token reveal — game changing |
-| 4 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
+| 1 | The Night-Gaunt (2) | 4 XP | +1 WIL, +1 SAN soak, prevents 2 horror per exhaust |
+| 2 | The Pale Child (2) | 4 XP | +1 AGI, +1 WIL, passive horror heal increases |
+| 3 | Lucky! (2) | 2 XP | Also cancels revelation effects |
+| 4 | Arcane Athame (3) | 6 XP | +2 COM, heals 2 horror on kill |
+| 5 | Grotesque Statue (4) | 4 XP | Can cancel any chaos token reveal |
+| 6 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |

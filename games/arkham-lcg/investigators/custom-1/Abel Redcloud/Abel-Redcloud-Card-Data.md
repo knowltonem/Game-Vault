@@ -336,6 +336,46 @@ In a full run Abel can add 15-25 bless tokens to the chaos bag — significantly
 
 ---
 
+## Signature Upgrade Cards
+
+### The Sacred Spear (3)
+**Level:** 3 | **Cost:** 6 XP | **Slot:** Hand ×2
+
+| Field | Lv 0 | Lv 3 |
+|---|---|---|
+| COM bonus | +2, +1 dmg | **+2, +2 dmg** |
+| On kill | Bless token | **2 bless tokens** |
+| Range | Melee only | **Melee OR connecting location** |
+| Icons | — | 1 × `<com>` + 1 × `<wil>` |
+
+```
+Abel Redcloud deck only.
+
+<act> Fight. You may target an enemy at a connecting location.
+You get +2 <com> for this attack. This attack deals +2 damage.
+
+<fre> After you defeat an enemy with The Sacred Spear:
+Add 2 bless tokens to the chaos bag.
+```
+*Flavor: "The ancestors made it for this. For all of it."*
+
+---
+
+### Ancient Warrior (4) — New Custom
+**Level:** 4 | **Cost:** 8 XP | **Type:** Event
+
+```
+Abel Redcloud deck only. Fast.
+
+Choose an enemy at your location or a connecting location.
+That enemy gets -2 fight and -2 evade until the end of the round.
+Add 2 bless tokens to the chaos bag.
+Heal 1 damage and 1 horror from Abel Redcloud.
+```
+*Flavor: "Four generations of keepers showed me how to face this. I remember all of them."*
+
+---
+
 ## Upgrade Path (XP Priorities)
 
 | Priority | Card | XP | Reason |

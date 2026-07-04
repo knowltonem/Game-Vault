@@ -304,7 +304,40 @@ You may have 2 unique Ally assets in play simultaneously.
 
 ---
 
-## Upgrade Path (First 10 XP)
+## Custom Upgrade Cards
+
+### Centuries of Memory (1)
+**Level:** 1 | **Cost:** 2 XP | **Type:** Skill | **Icons:** 2 × `<int>`
+
+```
+After you commit Centuries of Memory to a skill test and succeed:
+Draw 1 card. If you discovered 1 or more clues this round, draw 2 cards instead.
+```
+*Flavor: "Two hundred years of pattern recognition. The answer was already there."*
+
+---
+
+### The Immortal's Eye (4)
+**Level:** 4 | **Cost:** 3r | **Type:** Asset — Arcane | **Icons:** 2 × `<int>`
+
+```
+Alistair Greystoke deck only. Unique.
+
+<fre> At the start of the enemy phase: Look at the top card of the encounter
+deck. You may move it to the bottom of the deck.
+
+<act> Exhaust The Immortal's Eye: Choose an investigator at your location.
+That investigator gets +3 <int> until the end of the round.
+
+<rea> After any investigator at your location would draw a treachery:
+Exhaust The Immortal's Eye — that investigator may discard it unresolved
+instead. Take 1 horror.
+```
+*Flavor: "I have watched it all for two centuries. Nothing surprises me. Everything horrifies me."*
+
+---
+
+## Upgrade Path (XP Priorities)
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
