@@ -257,6 +257,29 @@ Gain 4 resources.
 
 ---
 
+### Beat Cop *(Father Thomas)*
+**Set:** Core Set #28
+**Class:** Guardian
+**Type:** Asset — Ally
+**Cost:** 4 (our version: 3)
+**Level:** 0
+**Traits:** Ally. Police.
+**Health soak:** 3
+**Sanity soak:** 2
+**Rules:**
+```
+You get +1 <com>.
+<fre> Exhaust Beat Cop and deal 1 damage to it: Deal 1 damage to an enemy at your location.
+```
+**Level 2 upgrade:**
+```
+You get +1 <com>.
+<fre> Exhaust Beat Cop and deal 1 damage to it: Deal 2 damage to an enemy at your location.
+```
+**Note:** Our version is reskinned as Father Thomas. Soak is 3hp/2san. Cost reduced to 3r for thematic fit. Ability identical to official.
+
+---
+
 ### "Let Me Handle This!"
 **Set:** The Path to Carcosa #22
 **Class:** Guardian
