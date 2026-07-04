@@ -122,9 +122,10 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 11 | Crack the Case | Event | Seeker | 0 | ×2 | 022-023-Crack-the-Case |
 | 12 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
 | 13 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
-| 14 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 028-029-Unexpected-Courage |
-| 15 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
-| 16 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
+| 14 | Unexpected Courage | Skill | Neutral | 0 | ×1 | 028-029-Unexpected-Courage |
+| 15 | Survival Knife | Asset | Survivor | 0 | ×1 | 034-Survival-Knife |
+| 16 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
+| 17 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -170,6 +171,7 @@ Agnes Crane/
 ├── 028-029-Unexpected-Courage/
 ├── 030-031-Rise-to-the-Occasion/
 ├── 032-033-Inquiring-Mind/
+├── 034-Survival-Knife/
 └── Agnes-Crane-Card-Data.md
 ```
 

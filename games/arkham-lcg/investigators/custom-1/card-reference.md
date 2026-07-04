@@ -189,6 +189,25 @@ If this skill test is successful, heal 1 horror.
 
 ---
 
+### Survival Knife
+**Set:** The Forgotten Age #90
+**Class:** Survivor
+**Type:** Asset — Hand
+**Cost:** 1
+**Traits:** Item. Weapon. Knife.
+**Icons:** 1 × `<com>`
+**Slot:** Hand
+**Rules:**
+```
+<act> Fight. You get +1 <com> for this attack.
+<rea> After an enemy attack deals damage to you during the enemy phase,
+exhaust Survival Knife: Fight. This attack targets the attacking enemy.
+You get +2 <com> and deal +1 damage for this attack.
+```
+**Note:** Agnes uses this as a COM 3+1=4 base fighter. The reaction triggers when she takes damage — hits back harder than the initial attack. Does NOT trigger on horror-only attacks.
+
+---
+
 ### Rise to the Occasion
 **Set:** Blood on the Altar #192
 **Class:** Survivor
