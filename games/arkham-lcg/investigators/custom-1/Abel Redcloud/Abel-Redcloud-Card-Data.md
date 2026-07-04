@@ -338,6 +338,65 @@ In a full run Abel can add 15-25 bless tokens to the chaos bag — significantly
 
 ## Signature Upgrade Cards
 
+### Spirit Coyote (2)
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 3 | 3 |
+| SAN soak | 1 | **2** |
+| COM bonus | +1 | +1 |
+| Reaction dmg | 1 | **2** |
+
+```
+You get +1 <com> while Spirit Coyote is in play.
+<rea> When an enemy attack deals damage to you: Exhaust Spirit Coyote
+— deal 2 damage to the attacking enemy.
+```
+*Flavor: "It remembered what hurt me. It made sure they felt it too."*
+
+---
+
+### Spirit Coyote (3)
+**Level:** 3 | **XP:** +2 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 3 |
+|---|---|---|
+| HP soak | 3 | **4** |
+| COM bonus | +1 | **+2** |
+| Reaction dmg | 2 | 2 |
+| New | — | **Fires on AoO too** |
+
+```
+You get +2 <com> while Spirit Coyote is in play.
+<rea> When an attack of opportunity or enemy attack deals damage to you:
+Exhaust Spirit Coyote — deal 2 damage to the attacking enemy.
+```
+*Flavor: "It does not wait to be asked anymore. It knows."*
+
+---
+
+### Spirit Coyote (5)
+**Level:** 5 | **XP:** +4 from Lv 3 | **Slot:** Ally
+
+| Field | Lv 3 | Lv 5 |
+|---|---|---|
+| HP soak | 4 | **5** |
+| SAN soak | 2 | **3** |
+| COM bonus | +2 | +2 |
+| Reaction dmg | 2 | **3** |
+| New | — | **Bless on reaction + ready on kill** |
+
+```
+You get +2 <com> while Spirit Coyote is in play.
+<rea> When an attack of opportunity or enemy attack deals damage to you:
+Exhaust Spirit Coyote — deal 3 damage to the attacking enemy and add
+1 bless token to the chaos bag.
+<fre> After Spirit Coyote's reaction defeats an enemy: Ready Spirit Coyote.
+```
+*Flavor: "The coyote does not guard. It hunts. There is a difference."*
+
+---
 ### The Sacred Spear (3)
 **Level:** 3 | **Cost:** 6 XP | **Slot:** Hand ×2
 
@@ -380,13 +439,16 @@ Heal 1 damage and 1 horror from Abel Redcloud.
 
 | Priority | Card | XP | Reason |
 |---|---|---|---|
-| 1 | The Sacred Spear (3) | 6 XP | Ranged + spear, double bless per kill |
-| 2 | Spirit Coyote (2) | 2 XP | 2 damage on AoO instead of 1 |
-| 3 | Multi-Shot (2) | 4 XP | Sacred Bow fires at up to 3 targets simultaneously |
-| 4 | Fire Walker (2) | 4 XP | Teleport and immediately fight — arrive swinging |
-| 5 | Bear Pelt (2) | 4 XP | +1 health soak (2→3), costs 2r — upgraded armor |
-| 6 | Rain Dance (2) | 4 XP | Protects adjacent investigators too |
-| 7 | Sweat Lodge (3) | 6 XP | 6 charges, heals 2 horror, adds 3 bless tokens |
+| 1 | The Sacred Spear (3) | 6 XP | Ranged, +2 dmg, 2 bless per kill |
+| 2 | Spirit Coyote (2) | 4 XP | 2 dmg on AoO, +1 SAN soak |
+| 3 | Multi-Shot (2) | 4 XP | Bow hits up to 3 targets simultaneously |
+| 4 | Spirit Coyote (3) | 2 XP | +2 COM, AoO trigger, +1 HP soak |
+| 5 | Fire Walker (2) | 4 XP | Teleport + free fight on arrival |
+| 6 | Bear Pelt (2) | 4 XP | +1 HP soak (2→3) |
+| 7 | Rain Dance (2) | 4 XP | Protects adjacent investigators |
+| 8 | Sweat Lodge (3) | 6 XP | 6 charges, heals 2 horror, 3 bless |
+| 9 | Spirit Coyote (5) | 4 XP | 3 dmg + bless + ready on kill |
+| 10 | Ancient Warrior (4) | 8 XP | Fast, weaken enemy, 2 bless, heal self |
 
 ---
 
