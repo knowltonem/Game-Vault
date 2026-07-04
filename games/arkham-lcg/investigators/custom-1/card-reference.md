@@ -271,12 +271,18 @@ Gain 4 resources.
 You get +1 <com>.
 <fre> Exhaust Beat Cop and deal 1 damage to it: Deal 1 damage to an enemy at your location.
 ```
-**Level 2 upgrade:**
+**Level 2 upgrade (Father Thomas):** Cost 4r. HP soak 3. SAN soak 2.
 ```
 You get +1 <com>.
-<fre> Exhaust Beat Cop and deal 1 damage to it: Deal 2 damage to an enemy at your location.
+<fre> Exhaust Father Thomas and deal 1 damage to it: Deal 2 damage to an enemy at your location.
 ```
-**Note:** Our version is reskinned as Father Thomas. Soak is 3hp/2san. Cost reduced to 3r for thematic fit. Ability identical to official.
+
+**Level 4 upgrade (Father Thomas):** Cost 4r. HP soak 3. SAN soak 3.
+```
+You get +1 <com>.
+<fre> Exhaust Father Thomas and deal 1 damage to it: Deal 2 damage to an enemy at your location and add 1 bless token to the chaos bag.
+```
+**Note:** Our version is reskinned as Father Thomas. Soak is 2hp/2san (lv0). Cost reduced to 3r for thematic fit.
 
 ---
 

@@ -182,7 +182,7 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 1 | King's Talon | Asset – Hand | Custom | 0 | ×2 | 005-006-Kings-Talon |
 | 2 | Guard Dog *(Hound of the Deep)* | Asset – Ally | Guardian | 0 | ×2 | 007-008-Guard-Dog-Hound-of-the-Deep |
 | 3 | Enchanted Blade | Asset – Hand | Neutral | 0 | ×2 | 009-010-Enchanted-Blade |
-| 4 | Father Thomas *(Beat Cop)* | Asset – Ally | Guardian | 0 | ×2 | 011-012-Father-Thomas | 3hp/2san soak |
+| 4 | Father Thomas *(Beat Cop)* | Asset – Ally | Guardian | 0 | ×2 | 011-012-Father-Thomas |
 | 5 | R'lyeh's Fury *(Vicious Blow)* | Skill | Guardian | 0 | ×2 | 013-014-Rlyeh-Fury |
 | 6 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 015-016-Ill-See-You-In-Hell |
 | 7 | Cosmic Blast *(Dynamite Blast)* | Event | Guardian | 0 | ×1 | 017-Cosmic-Blast |
@@ -204,9 +204,10 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | Father Thomas (2) | 4 XP | Adds 2 damage on defeat instead of 1 |
+| 1 | Father Thomas (2) | 4 XP | 2 damage on splash + 3hp soak |
 | 2 | R'lyeh's Fury (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
+| 4 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
 
 ---
 
