@@ -154,13 +154,37 @@ Uses (4 arrows).
 
 ---
 
+## Regular Deck Asset — Bear Pelt
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Body |
+| **Cost** | 1 |
+| **Traits** | Item. Relic. Blessed. |
+| **Slot** | Body |
+| **Subtitle** | The Spirit Remains |
+| **Health soak** | 2 |
+| **Sanity soak** | 1 |
+| **Icons** | 1 × `<wil>` |
+| **Unique** | Yes |
+
+### Text
+You get +1 `<wil>` while Bear Pelt is in play.
+
+`<rea>` After you take damage from an enemy attack: Exhaust Bear Pelt — reduce that damage by 1.
+
+### Flavor
+*"The bear did not give this willingly. Nothing worth having ever does."*
+
+---
+
 ## Deck List (30 Cards)
 
 | # | Card | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
 | 1 | Guard Dog | Asset | Guardian | 0 | ×2 | 007-008-Guard-Dog |
 | 2 | Holy Water | Asset | Guardian | 0 | ×2 | 009-010-Holy-Water |
-| 3 | Leather Coat | Asset | Neutral | 0 | ×1 | 011-Leather-Coat |
+| 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
 | 4 | Enchanted Blade | Asset | Guardian | 0 | ×2 | 012-013-Enchanted-Blade |
 | 5 | Evidence! | Event | Guardian | 0 | ×2 | 014-015-Evidence |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
@@ -205,7 +229,7 @@ Abel Redcloud/
 ├── 006-The-Ritual-Knife/
 ├── 007-008-Guard-Dog/
 ├── 009-010-Holy-Water/
-├── 011-Leather-Coat/
+├── 011-Bear-Pelt/
 ├── 012-013-Enchanted-Blade/
 ├── 014-015-Evidence/
 ├── 016-017-On-the-Hunt/
