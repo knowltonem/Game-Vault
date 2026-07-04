@@ -205,14 +205,14 @@ Agnes Crane/
 ## Signature Upgrade Cards
 
 ### The Night-Gaunt (2)
-**Level:** 2 | **Cost:** 4 XP | **Slot:** Ally
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
 
 | Field | Lv 0 | Lv 2 |
 |---|---|---|
 | HP soak | 3 | 3 |
 | SAN soak | 2 | **3** |
 | WIL bonus | +1 | **+2** |
-| Horror prevent | 1 (exhaust) | **2 (exhaust)** |
+| Horror prevent | 1 per exhaust | **2 per exhaust** |
 
 ```
 Agnes Crane deck only.
@@ -223,16 +223,55 @@ You get +2 <wil> while The Night-Gaunt is in play.
 
 ---
 
+### The Night-Gaunt (4)
+**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 4 |
+|---|---|---|
+| HP soak | 3 | **4** |
+| SAN soak | 3 | **4** |
+| WIL bonus | +2 | +2 |
+| Horror prevent | 2 per exhaust | 2 per exhaust |
+| New | — | **Deal 1 dmg after prevent** |
+
+```
+Agnes Crane deck only.
+You get +2 <wil> while The Night-Gaunt is in play.
+<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 2 of that horror.
+<fre> Once per round, after The Night-Gaunt prevents horror: Deal 1 damage to any enemy at your location or a connecting location.
+```
+*Flavor: "It does not just protect me now. It hunts what hurts me."*
+
+---
+
+### The Night-Gaunt (5)
+**Level:** 5 | **XP:** +2 from Lv 4 | **Slot:** Ally
+
+| Field | Lv 4 | Lv 5 |
+|---|---|---|
+| HP soak | 4 | **5** |
+| Horror prevent | 2 | **3** |
+| Damage on prevent | 1 | **2** |
+
+```
+Agnes Crane deck only.
+You get +2 <wil> while The Night-Gaunt is in play.
+<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 3 of that horror.
+<fre> Once per round, after The Night-Gaunt prevents horror: Deal 2 damage to any enemy at your location or a connecting location.
+```
+*Flavor: "I stopped running from it. Now nothing runs from us."*
+
+---
+
 ### The Pale Child (2)
-**Level:** 2 | **Cost:** 4 XP | **Slot:** Ally
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
 
 | Field | Lv 0 | Lv 2 |
 |---|---|---|
-| HP soak | 0 | 0 |
 | SAN soak | 2 | **3** |
-| WIL bonus | +1 | **+1** |
+| WIL bonus | +1 | +1 |
 | AGI bonus | — | **+1** |
-| Passive heal | 1 horror/upkeep | **2 horror/upkeep** |
+| Upkeep heal | 1 horror | **2 horror** |
 
 ```
 Agnes Crane deck only.
@@ -243,7 +282,50 @@ Forced — At the end of the upkeep phase: Heal 2 horror from Agnes Crane.
 
 ---
 
-### Arcane Athame (3)
+### The Pale Child (3)
+**Level:** 3 | **XP:** +2 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 3 |
+|---|---|---|
+| HP soak | 0 | **1** |
+| WIL bonus | +1 | **+2** |
+| AGI bonus | +1 | +1 |
+| Upkeep heal | 2 horror | 2 horror |
+| New | — | **Cancel 1 horror from enemy** |
+
+```
+Agnes Crane deck only.
+You get +2 <wil> and +1 <agi> while The Pale Child is in play.
+Forced — At the end of the upkeep phase: Heal 2 horror from Agnes Crane.
+<rea> After Agnes Crane would take horror from an enemy attack: Exhaust The Pale Child — cancel 1 of that horror.
+```
+*Flavor: "She stepped in front of it. She always does."*
+
+---
+
+### The Pale Child (5)
+**Level:** 5 | **XP:** +4 from Lv 3 | **Slot:** Ally
+
+| Field | Lv 3 | Lv 5 |
+|---|---|---|
+| HP soak | 1 | **2** |
+| SAN soak | 3 | **4** |
+| WIL bonus | +2 | +2 |
+| AGI bonus | +1 | **+2** |
+| Upkeep heal | 2 horror | **2 horror + 1 dmg + draw 1** |
+| Cancel | 1 horror | 1 horror |
+
+```
+Agnes Crane deck only.
+You get +2 <wil> and +2 <agi> while The Pale Child is in play.
+Forced — At the end of the upkeep phase: Heal 2 horror and 1 damage from Agnes Crane. Draw 1 card.
+<rea> After Agnes Crane would take horror from an enemy attack: Exhaust The Pale Child — cancel 1 of that horror.
+```
+*Flavor: "She has always been here. I just finally learned to see her."*
+
+---
+
+### The Third Eye (1) — New Custom
 **Level:** 3 | **Cost:** 6 XP | **Slot:** Hand
 
 | Field | Lv 0 | Lv 3 |
@@ -279,9 +361,12 @@ If either is a Treachery — discover 1 clue at your location.
 
 | Priority | Card | XP | Reason |
 |---|---|---|---|
-| 1 | The Night-Gaunt (2) | 4 XP | +1 WIL, +1 SAN soak, prevents 2 horror per exhaust |
-| 2 | The Pale Child (2) | 4 XP | +1 AGI, +1 WIL, passive horror heal increases |
+| 1 | The Night-Gaunt (2) | 4 XP | +2 WIL, +1 SAN soak, prevents 2 horror |
+| 2 | The Pale Child (2) | 4 XP | +1 AGI, +1 SAN soak, heals 2 horror per upkeep |
 | 3 | Lucky! (2) | 2 XP | Also cancels revelation effects |
-| 4 | Arcane Athame (3) | 6 XP | +2 COM, heals 2 horror on kill |
-| 5 | Grotesque Statue (4) | 4 XP | Can cancel any chaos token reveal |
-| 6 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
+| 4 | The Pale Child (3) | 2 XP | +2 WIL, +1 HP soak, cancel horror from enemy attack |
+| 5 | Arcane Athame (3) | 6 XP | +2 COM, heals 2 horror + bless on kill |
+| 6 | The Night-Gaunt (4) | 4 XP | +1 HP/SAN soak, deals 1 damage after preventing horror |
+| 7 | Grotesque Statue (4) | 4 XP | Cancel any chaos token reveal |
+| 8 | The Pale Child (5) | 4 XP | +2 AGI, heals dmg + horror + draws card per upkeep |
+| 9 | The Night-Gaunt (5) | 2 XP | Prevents 3 horror, deals 2 damage after prevent |
