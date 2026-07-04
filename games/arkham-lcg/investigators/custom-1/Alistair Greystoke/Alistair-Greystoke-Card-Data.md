@@ -319,7 +319,7 @@ Alistair Greystoke/
 ├── 030-First-Aid/                      ← deck card
 ├── 031-Evidence/                       ← deck card
 ├── 032-033-Guts/                       ← deck card
-├── 034-035-Inquiring-Mind/             ← deck card
+├── 038-039-Inquiring-Mind/             ← deck card
 └── Alistair-Greystoke-Card-Data.md
 ```
 

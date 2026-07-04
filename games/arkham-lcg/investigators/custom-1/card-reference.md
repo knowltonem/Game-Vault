@@ -189,6 +189,25 @@ If this skill test is successful, heal 1 horror.
 
 ---
 
+### Arcane Athame
+**Set:** Agnes Crane Investigator Pack (custom)
+**Class:** Survivor
+**Type:** Asset — Hand
+**Cost:** 1
+**Traits:** Item. Weapon. Relic. Cursed.
+**Icons:** 1 × `<wil>` + 1 × `<com>`
+**Slot:** Hand
+**Unique:** Yes
+**Rules:**
+```
+<act> Fight. You get +1 <com> for this attack.
+<fre> After you defeat an enemy with Arcane Athame: Heal 1 horror.
+```
+**Flavor:** *"It came from Hamunaptra."*
+**Note:** Custom card. Agnes's ritual dagger from Hamunaptra. Horror heal on kill pairs with Survival Knife's retaliate reaction — proactive vs reactive combat pair.
+
+---
+
 ### Survival Knife
 **Set:** The Forgotten Age #90
 **Class:** Survivor
