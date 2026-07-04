@@ -213,7 +213,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
 | 5 | Evidence! | Event | Guardian | 0 | ×2 | 014-015-Evidence |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
-| 7 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 018-019-Ill-See-You-in-Hell |
+| 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
 | 8 | Ward of Protection | Event | Mystic | 0 | ×2 | 020-021-Ward-of-Protection |
 | 9 | Overpower | Skill | Neutral | 0 | ×2 | 022-023-Overpower |
 | 10 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
@@ -258,7 +258,7 @@ Abel Redcloud/
 ├── 012-013-Let-Me-Handle-This/
 ├── 014-015-Evidence/
 ├── 016-017-On-the-Hunt/
-├── 018-019-Ill-See-You-in-Hell/
+├── 018-019-Back-to-the-Dark/
 ├── 020-021-Ward-of-Protection/
 ├── 022-023-Overpower/
 ├── 024-025-Guts/
