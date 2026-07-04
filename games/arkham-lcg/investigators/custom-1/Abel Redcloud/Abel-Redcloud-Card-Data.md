@@ -285,7 +285,7 @@ Abel Redcloud/
 |---|---|---|
 | **Folders** | `###-Card-Name` | `002-The-Sacred-Spear` |
 | **Signature .eon** | `Redcloud-Sig-[Type]-[Name].eon` | `Redcloud-Sig-Asset-The-Sacred-Spear.eon` |
-| **Regular deck .eon** | `Redcloud-[Type]-[Name].eon` | `Redcloud-Skill-Guts.eon` |
+| **Regular deck .eon** | `Redcloud-[Type]-[Name].eon` | `Redcloud-Skill-Chieftain-Wisdom.eon` |
 | **Exported PNGs** | `RYP-AR-###-[Name]-[Front/Back].png` | `RYP-AR-001-Abel-Redcloud-Front.png` |
 
 ---
@@ -341,9 +341,9 @@ In a full run Abel can add 15-25 bless tokens to the chaos bag — significantly
 | Priority | Card | XP | Reason |
 |---|---|---|---|
 | 1 | The Sacred Spear (2) | 4 XP | Adds ranged capability to spear OR additional bless on hit not just kill |
-| 2 | Guard Dog (2) | 2 XP | Soak + damage on AoO becomes 2 damage instead of 1 |
+| 2 | Spirit Coyote (2) | 2 XP | Soak + damage on AoO becomes 2 damage instead of 1 |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
-| 4 | Holy Water (4) | 4 XP | Charges increase, bless generation accelerates |
+| 4 | Sweat Lodge (4) | 4 XP | Charges increase, bless generation accelerates |
 
 ---
 
