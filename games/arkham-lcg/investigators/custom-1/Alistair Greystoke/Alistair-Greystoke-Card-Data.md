@@ -118,6 +118,28 @@ You may use your Intellect instead of Agility when evading enemies.
 
 ---
 
+### The Unbroken Codex — Level 2 Upgrade
+
+| Field | Value |
+|---|---|
+| **Cost** | 2 |
+| **XP** | 4 XP |
+| **Slot** | Arcane |
+
+### Text
+Alistair Greystoke deck only.
+
+You may use your `<int>` instead of `<agi>` when evading enemies. Each investigator at your location may use your `<int>` instead of their own `<agi>` when evading.
+
+`<rea>` After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
+
+`<rea>` After any investigator at your location successfully investigates: Exhaust The Unbroken Codex — cancel the next horror that investigator would be dealt until the end of this round.
+
+### Flavor
+*"Two hundred years of knowing how they move. Now I can show you."*
+
+---
+
 ## Regular Deck Asset #1 — The Ancient Binding
 
 | Field | Value |
@@ -286,11 +308,12 @@ You may have 2 unique Ally assets in play simultaneously.
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
-| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 — doubles clue output per investigation |
-| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak instead of 1 — swarm survives longer, doom risk reduced |
-| 4 | Intellectual Violence (3) | 6 XP | INT-based attack — deals 2-3 damage using INT 5, clue on kill, no retaliation |
-| 5 | Centuries of Knowledge (3) | 6 XP | Foreknowledge upgrade — see top 5 encounter cards, cancel treacheries, block encounter draws |
+| 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue — massive economy boost |
+| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 |
+| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak — swarm survives longer |
+| 4 | The Unbroken Codex (2) | 4 XP | Team INT evade + cancel horror for any investigator |
+| 5 | Intellectual Violence (3) | 6 XP | INT-based attack — 2-3 damage + clue on kill |
+| 6 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter cards, cancel treacheries |
 
 ---
 
