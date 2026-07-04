@@ -340,10 +340,11 @@ In a full run Abel can add 15-25 bless tokens to the chaos bag — significantly
 
 | Priority | Card | XP | Reason |
 |---|---|---|---|
-| 1 | The Sacred Spear (2) | 4 XP | Adds ranged capability to spear OR additional bless on hit not just kill |
-| 2 | Spirit Coyote (2) | 2 XP | Soak + damage on AoO becomes 2 damage instead of 1 |
-| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
-| 4 | Sweat Lodge (4) | 4 XP | Charges increase, bless generation accelerates |
+| 1 | The Sacred Spear (3) | 6 XP | Ranged + spear, double bless per kill |
+| 2 | Spirit Coyote (2) | 2 XP | 2 damage on AoO instead of 1 |
+| 3 | Fire Walker (2) | 4 XP | Teleport and immediately fight — arrive swinging |
+| 4 | Rain Dance (2) | 4 XP | Protects adjacent investigators too |
+| 5 | Sweat Lodge (3) | 6 XP | 6 charges, heals 2 horror, adds 3 bless tokens |
 
 ---
 
