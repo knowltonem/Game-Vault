@@ -158,6 +158,7 @@ Uses (4 arrows).
 
 | Card | Base Card | Flavor |
 |---|---|---|
+| Noble Sacrifice | "Let Me Handle This!" | *"This is not your burden to carry. It is mine."* |
 | Spirit Coyote | Guard Dog | *"It does not guard. It watches. There is a difference."* |
 | Sweat Lodge | Holy Water | *"The steam carries the prayers upward. The visions tell you what is coming."* |
 | Tracker | Evidence! | *"Every creature leaves a trail. Every darkness leaves a shadow. I was taught to read both."* |
@@ -216,7 +217,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 1 | Spirit Coyote *(Guard Dog)* | Asset — Ally | Guardian | 0 | ×2 | 007-008-Spirit-Coyote |
 | 2 | Sweat Lodge *(Holy Water)* | Asset | Guardian | 0 | ×2 | 009-010-Sweat-Lodge |
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
-| 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
+| 4 | Noble Sacrifice *("Let Me Handle This!")* | Event | Guardian | 0 | ×2 | 012-013-Noble-Sacrifice |
 | 5 | Tracker *(Evidence!)* | Event | Guardian | 0 | ×2 | 014-015-Tracker |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
 | 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
@@ -261,7 +262,7 @@ Abel Redcloud/
 ├── 007-008-Spirit-Coyote/
 ├── 009-010-Sweat-Lodge/
 ├── 011-Bear-Pelt/
-├── 012-013-Let-Me-Handle-This/
+├── 012-013-Noble-Sacrifice/
 ├── 014-015-Tracker/
 ├── 016-017-On-the-Hunt/
 ├── 018-019-Back-to-the-Dark/
