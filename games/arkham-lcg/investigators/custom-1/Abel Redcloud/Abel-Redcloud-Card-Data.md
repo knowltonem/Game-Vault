@@ -182,7 +182,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 
 | # | Card | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Guard Dog | Asset | Guardian | 0 | ×2 | 007-008-Guard-Dog |
+| 1 | Spirit Coyote *(Guard Dog)* | Asset — Ally | Guardian | 0 | ×2 | 007-008-Spirit-Coyote |
 | 2 | Holy Water | Asset | Guardian | 0 | ×2 | 009-010-Holy-Water |
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
 | 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
@@ -227,7 +227,7 @@ Abel Redcloud/
 ├── 004-Teeth-of-the-Deep-Ones/
 ├── 005-The-Sacred-Bow/
 ├── 006-The-Ritual-Knife/
-├── 007-008-Guard-Dog/
+├── 007-008-Spirit-Coyote/
 ├── 009-010-Holy-Water/
 ├── 011-Bear-Pelt/
 ├── 012-013-Let-Me-Handle-This/
