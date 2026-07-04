@@ -185,7 +185,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 1 | Guard Dog | Asset | Guardian | 0 | ×2 | 007-008-Guard-Dog |
 | 2 | Holy Water | Asset | Guardian | 0 | ×2 | 009-010-Holy-Water |
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
-| 4 | Enchanted Blade | Asset | Guardian | 0 | ×2 | 012-013-Enchanted-Blade |
+| 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
 | 5 | Evidence! | Event | Guardian | 0 | ×2 | 014-015-Evidence |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
 | 7 | "I'll See You in Hell!" | Event | Guardian | 0 | ×2 | 018-019-Ill-See-You-in-Hell |
@@ -230,7 +230,7 @@ Abel Redcloud/
 ├── 007-008-Guard-Dog/
 ├── 009-010-Holy-Water/
 ├── 011-Bear-Pelt/
-├── 012-013-Enchanted-Blade/
+├── 012-013-Let-Me-Handle-This/
 ├── 014-015-Evidence/
 ├── 016-017-On-the-Hunt/
 ├── 018-019-Ill-See-You-in-Hell/
