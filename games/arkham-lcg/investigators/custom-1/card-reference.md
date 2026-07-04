@@ -251,13 +251,13 @@ at your location instead. You still take any horror dealt by the attack.
 ```
 **Note:** Level 3 adds attack of opportunity trigger. 4 XP from level 1.
 
-**Level 5 upgrade (custom):** Cost 5r. Same soak.
+**Level 5 upgrade (custom):** Cost 5r. HP soak 2. SAN soak 4.
 ```
 <rea> When an attack of opportunity or enemy attack deals damage to you,
 exhaust Aquinnah and deal 1 horror to her: Deal that damage to ALL enemies
 at your location instead. You still take any horror dealt by the attack.
 ```
-**Note:** Custom level 5. Damage spreads to every enemy at location simultaneously. 4 XP from level 3. Total path 8 XP from starting level 1.
+**Note:** Custom level 5. +1 HP soak (1→2). Damage spreads to every enemy at location simultaneously. 4 XP from level 3. Total path 8 XP from starting level 1.
 
 ---
 
