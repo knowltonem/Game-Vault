@@ -84,6 +84,19 @@ Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
 
 **[Free]** If there are no enemies at your location: Draw 1 card.
 
+### Level 3 Upgrade — The Hollow Warden (3)
+Uses (4 ammo). Cost 6 XP.
+
+**[Action]** Spend 1 ammo: **[Combat] Fight.** You get +2 Combat and deal +2 damage for this attack. If this attack defeats an enemy, draw 1 card and gain 1 resource. If a `<curse>` token is revealed during this attack, deal +2 additional damage instead.
+
+**[Action]** Spend 1 resource: Add 3 ammo to The Hollow Warden.
+
+**[Free]** At the start of your turn, if The Hollow Warden has 0 ammo: Add 1 ammo to it.
+
+**[Free]** If there are no enemies at your location: Draw 1 card.
+
+*Flavor: "R'lyeh made it. It was always going to get stronger the longer it stayed with me."*
+
 ---
 
 ## Signature Asset #2 — Hydra Hyde
@@ -207,9 +220,10 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 1 | Father Thomas (2) | 4 XP | 2 damage on splash + 3hp soak |
 | 2 | R'lyeh's Fury (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
-| 4 | Aquinnah (3) | 4 XP | Fires on attacks of opportunity too — redirect any attack |
-| 5 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
-| 6 | Aquinnah (5) | 4 XP | Redirect damage to ALL enemies at location simultaneously |
+| 4 | Aquinnah (3) | 4 XP | Fires on attacks of opportunity too |
+| 5 | The Hollow Warden (3) | 6 XP | 4 ammo, +2 dmg, curse payoff, cheaper reload, draw+resource on kill |
+| 6 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
+| 7 | Aquinnah (5) | 4 XP | Redirect damage to ALL enemies at location |
 
 ---
 
