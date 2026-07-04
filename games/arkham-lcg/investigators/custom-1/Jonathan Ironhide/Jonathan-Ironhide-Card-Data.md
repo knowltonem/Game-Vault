@@ -121,7 +121,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to prevent it.
 
 **Forced** — After you defeat an enemy: Take 1 horror.
 
-**[Action]** Spend 3 resources: Discard Echoes of R'lyeh.
+**[Action]** Spend 2 resources: Discard Echoes of R'lyeh.
 
 ---
 
