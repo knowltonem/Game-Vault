@@ -248,9 +248,9 @@ Gain 3 resources.
 **Rules:**
 ```
 Fast.
-Gain 3 resources.
+Gain 4 resources.
 ```
-**Note:** 4 XP to upgrade. Fast arrives at level 2 as the upgrade reward. Mirrors Emergency Cache (2) from Chapter 1 exactly. Works for all four investigators.
+**Note:** 4 XP to upgrade. Fast + 4r vs level 0's action + 3r — double upgrade reward. Mirrors Emergency Cache (2) power level.
 
 **Flavor (0):** *"Some things were left behind deliberately. Others were simply forgotten."*
 **Flavor (2):** *"Both are useful. The difference is knowing when."*
