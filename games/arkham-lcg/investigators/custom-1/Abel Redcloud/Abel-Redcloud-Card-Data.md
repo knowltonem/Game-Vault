@@ -218,7 +218,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 9 | Elder Strength *(Overpower)* | Skill | Neutral | 0 | ×2 | 022-023-Elder-Strength |
 | 10 | Chieftain Wisdom *(Guts)* | Skill | Neutral | 0 | ×2 | 024-025-Chieftain-Wisdom |
 | 11 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
-| 12 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 028-029-Rise-to-the-Occasion |
+| 12 | Awaken the Spirits *(Rise to the Occasion)* | Skill | Survivor | 0 | ×2 | 028-029-Awaken-the-Spirits |
 | 13 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 030-031-Unexpected-Courage |
 | | **TOTAL** | | | | **30** | |
 
@@ -263,7 +263,7 @@ Abel Redcloud/
 ├── 022-023-Elder-Strength/
 ├── 024-025-Chieftain-Wisdom/
 ├── 026-027-Vicious-Blow/
-├── 028-029-Rise-to-the-Occasion/
+├── 028-029-Awaken-the-Spirits/
 ├── 030-031-Unexpected-Courage/
 └── Abel-Redcloud-Card-Data.md
 ```
