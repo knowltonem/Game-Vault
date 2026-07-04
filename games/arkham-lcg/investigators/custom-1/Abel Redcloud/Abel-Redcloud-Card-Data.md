@@ -219,14 +219,15 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
 | 4 | Noble Sacrifice *("Let Me Handle This!")* | Event | Guardian | 0 | ×2 | 012-013-Noble-Sacrifice |
 | 5 | Tracker *(Evidence!)* | Event | Guardian | 0 | ×2 | 014-015-Tracker |
-| 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
-| 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
-| 8 | Rain Dance *(Ward of Protection)* | Event | Mystic | 0 | ×2 | 020-021-Rain-Dance |
-| 9 | Elder Strength *(Overpower)* | Skill | Neutral | 0 | ×2 | 022-023-Elder-Strength |
-| 10 | Chieftain Wisdom *(Guts)* | Skill | Neutral | 0 | ×2 | 024-025-Chieftain-Wisdom |
-| 11 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
-| 12 | Awaken the Spirits *(Rise to the Occasion)* | Skill | Survivor | 0 | ×2 | 028-029-Awaken-the-Spirits |
-| 13 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 030-031-Unexpected-Courage |
+| 6 | On the Hunt | Event | Guardian | 0 | ×1 | 016-On-the-Hunt |
+| 7 | Fire Walker | Event | Guardian | 0 | ×1 | 017-Fire-Walker |
+| 8 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
+| 9 | Rain Dance *(Ward of Protection)* | Event | Mystic | 0 | ×2 | 020-021-Rain-Dance |
+| 10 | Elder Strength *(Overpower)* | Skill | Neutral | 0 | ×2 | 022-023-Elder-Strength |
+| 11 | Chieftain Wisdom *(Guts)* | Skill | Neutral | 0 | ×2 | 024-025-Chieftain-Wisdom |
+| 12 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
+| 13 | Awaken the Spirits *(Rise to the Occasion)* | Skill | Survivor | 0 | ×2 | 028-029-Awaken-the-Spirits |
+| 14 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 030-031-Unexpected-Courage |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -264,7 +265,8 @@ Abel Redcloud/
 ├── 011-Bear-Pelt/
 ├── 012-013-Noble-Sacrifice/
 ├── 014-015-Tracker/
-├── 016-017-On-the-Hunt/
+├── 016-On-the-Hunt/
+├── 017-Fire-Walker/
 ├── 018-019-Back-to-the-Dark/
 ├── 020-021-Rain-Dance/
 ├── 022-023-Elder-Strength/
