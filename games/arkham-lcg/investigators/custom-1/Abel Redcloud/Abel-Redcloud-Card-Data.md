@@ -154,6 +154,31 @@ Uses (4 arrows).
 
 ---
 
+## Regular Deck Asset — Sweat Lodge *(Holy Water)*
+
+| Field | Value |
+|---|---|
+| **Type** | Asset – Hand |
+| **Cost** | 1 |
+| **Traits** | Item. Relic. Blessed. |
+| **Slot** | Hand |
+| **Uses** | 4 charges |
+| **Subtitle** | Vision of the Ancestors |
+| **Icons** | 1 × `<wil>` |
+| **Unique** | No |
+
+### Text
+Uses (4 charges).
+
+`<act>` Spend 1 charge: Choose an investigator at your location. That investigator heals 1 horror.
+
+`<act>` Spend 2 charges: Add 2 bless tokens to the chaos bag.
+
+### Flavor
+*"The steam carries the prayers upward. The visions tell you what is coming."*
+
+---
+
 ## Regular Deck Asset — Bear Pelt
 
 | Field | Value |
@@ -183,7 +208,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | # | Card | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
 | 1 | Spirit Coyote *(Guard Dog)* | Asset — Ally | Guardian | 0 | ×2 | 007-008-Spirit-Coyote |
-| 2 | Holy Water | Asset | Guardian | 0 | ×2 | 009-010-Holy-Water |
+| 2 | Sweat Lodge *(Holy Water)* | Asset | Guardian | 0 | ×2 | 009-010-Sweat-Lodge |
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
 | 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
 | 5 | Evidence! | Event | Guardian | 0 | ×2 | 014-015-Evidence |
@@ -228,7 +253,7 @@ Abel Redcloud/
 ├── 005-The-Sacred-Bow/
 ├── 006-The-Ritual-Knife/
 ├── 007-008-Spirit-Coyote/
-├── 009-010-Holy-Water/
+├── 009-010-Sweat-Lodge/
 ├── 011-Bear-Pelt/
 ├── 012-013-Let-Me-Handle-This/
 ├── 014-015-Evidence/
