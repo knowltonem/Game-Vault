@@ -288,7 +288,8 @@ You may have 2 unique Ally assets in play simultaneously.
 |---|---|---|---|
 | 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue, not just investigate actions — massive economy boost |
 | 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 — doubles clue output per investigation |
-| 3 | Centuries of Knowledge (3) | 6 XP | Foreknowledge upgrade — see top 5 encounter cards, cancel treacheries, block encounter draws |
+| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak instead of 1 — swarm survives longer, doom risk reduced |
+| 4 | Centuries of Knowledge (3) | 6 XP | Foreknowledge upgrade — see top 5 encounter cards, cancel treacheries, block encounter draws |
 
 ---
 
