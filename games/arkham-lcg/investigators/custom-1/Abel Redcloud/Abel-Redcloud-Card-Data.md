@@ -211,7 +211,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 2 | Sweat Lodge *(Holy Water)* | Asset | Guardian | 0 | ×2 | 009-010-Sweat-Lodge |
 | 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
 | 4 | "Let Me Handle This!" | Event | Guardian | 0 | ×2 | 012-013-Let-Me-Handle-This |
-| 5 | Evidence! | Event | Guardian | 0 | ×2 | 014-015-Evidence |
+| 5 | Tracker *(Evidence!)* | Event | Guardian | 0 | ×2 | 014-015-Tracker |
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
 | 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
 | 8 | Ward of Protection | Event | Mystic | 0 | ×2 | 020-021-Ward-of-Protection |
@@ -256,7 +256,7 @@ Abel Redcloud/
 ├── 009-010-Sweat-Lodge/
 ├── 011-Bear-Pelt/
 ├── 012-013-Let-Me-Handle-This/
-├── 014-015-Evidence/
+├── 014-015-Tracker/
 ├── 016-017-On-the-Hunt/
 ├── 018-019-Back-to-the-Dark/
 ├── 020-021-Ward-of-Protection/
