@@ -227,6 +227,24 @@ You get +2 <com> and deal +1 damage for this attack.
 
 ---
 
+### Ancient Cache
+**Set:** The R'lyeh Expansion (custom)
+**Class:** Neutral
+**Type:** Event
+**Cost:** 0
+**Level:** 0
+**Traits:** Supply.
+**Icons:** 1 × `<wld>`
+**Rules:**
+```
+Fast.
+Gain 3 resources.
+```
+**Flavor:** *"Some things were left behind deliberately. Others were simply forgotten. Both are useful."*
+**Note:** Neutral economy card — Emergency Cache equivalent for the R'lyeh Expansion. Works for all four investigators. Net +3 resources at no action or resource cost.
+
+---
+
 ### "Let Me Handle This!"
 **Set:** The Path to Carcosa #22
 **Class:** Guardian
