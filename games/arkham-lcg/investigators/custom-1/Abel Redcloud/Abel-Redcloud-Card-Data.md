@@ -154,17 +154,23 @@ Uses (4 arrows).
 
 ---
 
-## Regular Deck Asset — Sweat Lodge *(Holy Water)*
+## Reskin Card Flavor Lines
 
-| Field | Value |
-|---|---|
-| **Type** | Asset – Hand |
-| **Cost** | 1 |
-| **Traits** | Item. Relic. Blessed. |
-| **Slot** | Hand |
-| **Uses** | 4 charges |
-| **Subtitle** | Vision of the Ancestors |
-| **Icons** | 1 × `<wil>` |
+| Card | Base Card | Flavor |
+|---|---|---|
+| Spirit Coyote | Guard Dog | *"It does not guard. It watches. There is a difference."* |
+| Sweat Lodge | Holy Water | *"The steam carries the prayers upward. The visions tell you what is coming."* |
+| Tracker | Evidence! | *"Every creature leaves a trail. Every darkness leaves a shadow. I was taught to read both."* |
+| "Back to the Dark!" | "I'll See You in Hell!" | *"You do not belong in this world. Go back to the dark that made you."* |
+| Rain Dance | Ward of Protection | *"The rain does not ask permission. Neither does the prayer."* |
+| Elder Strength | Overpower | *"Two hundred generations of warriors stand behind this arm."* |
+| Chieftain Wisdom | Guts | *"My grandfather faced things that would drive other men mad. He taught me everything he knew."* |
+| Awaken the Spirits | Rise to the Occasion | *"When everything else has failed — the ancestors have not."* |
+| Unexpected Courage | Unexpected Courage | *"Even I surprise myself sometimes."* |
+
+---
+
+## Regular Deck Asset — Sweat Lodge *(Holy Water)*
 | **Unique** | No |
 
 ### Text

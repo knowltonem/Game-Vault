@@ -227,6 +227,66 @@ You get +2 <com> and deal +1 damage for this attack.
 
 ---
 
+### "Let Me Handle This!"
+**Set:** The Path to Carcosa #22
+**Class:** Guardian
+**Type:** Event
+**Cost:** 0
+**Traits:** Tactic.
+**Icons:** 2 × `<wil>`
+**Rules:**
+```
+Fast. Play when another investigator at your location would draw an encounter card.
+That investigator does not draw that card. Instead, you draw it and resolve its effects.
+You get +2 to each of your skills for any skill tests you make as a result of this card's effects.
+```
+**Note:** Abel at WIL 4-5 absorbs treacheries meant for low-WIL teammates. The +2 to all skills makes most encounter tests very manageable.
+
+---
+
+### On the Hunt
+**Set:** Core Set #03021
+**Class:** Guardian
+**Type:** Event
+**Cost:** 1
+**Traits:** Tactic.
+**Icons:** 1 × `<com>`
+**Rules:**
+```
+Search the encounter deck and discard pile for an Enemy card, and draw it.
+Shuffle the encounter deck.
+```
+**Note:** Spawns an enemy engaged with you. Guarantees Abel has something to fight. Thins the encounter deck of enemies protecting teammates. Synergises with Tracker (Evidence!) to discover a clue after the kill.
+
+---
+
+### Unexpected Courage
+**Set:** Core Set #01093
+**Class:** Neutral
+**Type:** Skill
+**Traits:** Innate.
+**Icons:** 2 × `<wld>` (wild)
+**Rules:**
+```
+Max 1 committed per skill test.
+```
+**Note:** Pure 2 wild icons, no restriction. Abel's version is reskinned as Unexpected Courage — still Official card.
+
+---
+
+### Vicious Blow
+**Set:** Core Set 2026 #25
+**Class:** Guardian
+**Type:** Skill
+**Traits:** Practiced.
+**Icons:** 1 × `<com>`
+**Rules:**
+```
+If this skill test is successful during an attack, that attack deals +1 damage.
+```
+
+---
+
 ### Rise to the Occasion
 **Set:** Blood on the Altar #192
 **Class:** Survivor
