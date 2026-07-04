@@ -116,16 +116,17 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 5 | Working a Hunch | Event | Seeker | 0 | ×1 | 011-Working-a-Hunch |
 | 6 | Lucky! | Event | Survivor | 0 | ×2 | 012-013-Lucky |
 | 7 | "Look What I Found!" | Event | Survivor | 0 | ×2 | 014-015-Look-What-I-Found |
-| 8 | Narrow Escape | Event | Survivor | 0 | ×2 | 016-017-Narrow-Escape |
-| 9 | Ward of Protection | Event | Mystic | 0 | ×2 | 018-019-Ward-of-Protection |
-| 10 | Drawn to the Flame | Event | Mystic | 0 | ×2 | 020-021-Drawn-to-the-Flame |
-| 11 | Crack the Case | Event | Seeker | 0 | ×2 | 022-023-Crack-the-Case |
-| 12 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
-| 13 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
-| 14 | Unexpected Courage | Skill | Neutral | 0 | ×1 | 028-Unexpected-Courage |
-| 15 | Survival Knife | Asset | Survivor | 0 | ×1 | 029-Survival-Knife |
-| 16 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
-| 17 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
+| 8 | Narrow Escape | Event | Survivor | 0 | ×1 | 016-Narrow-Escape |
+| 9 | Arcane Athame | Asset | Survivor | 0 | ×1 | 017-Arcane-Athame |
+| 10 | Ward of Protection | Event | Mystic | 0 | ×2 | 018-019-Ward-of-Protection |
+| 11 | Drawn to the Flame | Event | Mystic | 0 | ×2 | 020-021-Drawn-to-the-Flame |
+| 12 | Crack the Case | Event | Seeker | 0 | ×2 | 022-023-Crack-the-Case |
+| 13 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
+| 14 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
+| 15 | Unexpected Courage | Skill | Neutral | 0 | ×1 | 028-Unexpected-Courage |
+| 16 | Survival Knife | Asset | Survivor | 0 | ×1 | 029-Survival-Knife |
+| 17 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
+| 18 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -162,7 +163,8 @@ Agnes Crane/
 ├── 011-Working-a-Hunch/
 ├── 012-013-Lucky/
 ├── 014-015-Look-What-I-Found/
-├── 016-017-Narrow-Escape/
+├── 016-Narrow-Escape/
+├── 017-Arcane-Athame/
 ├── 018-019-Ward-of-Protection/
 ├── 020-021-Drawn-to-the-Flame/
 ├── 022-023-Crack-the-Case/
