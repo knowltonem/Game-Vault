@@ -213,17 +213,62 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 
 ---
 
+## Ally Upgrade Arcs
+
+### Hound of the Deep (2)
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 3 | **4** |
+| SAN soak | 1 | **2** |
+| COM bonus | +1 | **+2** |
+| Reaction dmg | 1 | **2** |
+| New | — | **+1 dmg if curse token revealed** |
+
+```
+You get +2 <com> while Hound of the Deep is in play.
+<rea> When an enemy attack deals damage to you: Exhaust Hound of the Deep
+— deal 2 damage to the attacking enemy.
+If a <curse> token was revealed this round: Deal 3 damage instead.
+```
+*Flavor: "It came back with me. I never asked it to. I stopped complaining."*
+
+---
+
+### Hound of the Deep (4)
+**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 4 |
+|---|---|---|
+| HP soak | 4 | **5** |
+| Reaction dmg | 2/3 | **3/4** |
+| New | — | **Fires on AoO + adds curse token** |
+
+```
+You get +2 <com> while Hound of the Deep is in play.
+<rea> When an attack of opportunity or enemy attack deals damage to you:
+Exhaust Hound of the Deep — deal 3 damage to the attacking enemy and
+add 1 curse token to the chaos bag.
+If a <curse> token was revealed this round: Deal 4 damage instead.
+```
+*Flavor: "The city marked it the same way it marked me. We understand each other."*
+
+---
+
 ## Upgrade Path (First 10 XP)
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | Father Thomas (2) | 4 XP | 2 damage on splash + 3hp soak |
-| 2 | R'lyeh's Fury (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
-| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
-| 4 | Aquinnah (3) | 4 XP | Fires on attacks of opportunity too |
-| 5 | The Hollow Warden (3) | 6 XP | 4 ammo, +2 dmg, curse payoff, cheaper reload, draw+resource on kill |
-| 6 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
-| 7 | Aquinnah (5) | 4 XP | Redirect damage to ALL enemies at location |
+| 1 | Father Thomas (2) | 4 XP | 2 splash dmg + 3hp soak |
+| 2 | R'lyeh's Fury (2) | 4 XP | +2 fight damage |
+| 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators |
+| 4 | Aquinnah (3) | 4 XP | Fires on AoO too |
+| 5 | Hound of the Deep (2) | 4 XP | +2 COM, 2 dmg reaction, curse payoff |
+| 6 | The Hollow Warden (3) | 6 XP | 4 ammo, +2 dmg, curse payoff, cheaper reload |
+| 7 | Father Thomas (4) | 4 XP | 2 dmg + bless + 3san soak |
+| 8 | Aquinnah (5) | 4 XP | Redirect dmg to ALL enemies at location |
+| 9 | Hound of the Deep (4) | 4 XP | AoO trigger + curse token on reaction, 3-4 dmg |
 
 ---
 

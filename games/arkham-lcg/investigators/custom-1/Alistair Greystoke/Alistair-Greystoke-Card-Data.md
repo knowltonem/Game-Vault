@@ -304,6 +304,93 @@ You may have 2 unique Ally assets in play simultaneously.
 
 ---
 
+## Ally Upgrade Arcs
+
+### The Ancient Binding (2)
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 3 | **4** |
+| SAN soak | 3 | **4** |
+| Prevent | 1 dmg or horror | **2 dmg or horror** |
+| On defeat | Shuffle back | Shuffle back |
+
+```
+Alistair Greystoke deck only.
+<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
+— prevent 2 of that damage or horror.
+Forced — When The Ancient Binding is defeated: Take 1 horror and shuffle
+The Ancient Binding back into your deck.
+```
+*Flavor: "It does not age. Neither do I. We have an understanding."*
+
+---
+
+### The Ancient Binding (4)
+**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 4 |
+|---|---|---|
+| HP soak | 4 | **5** |
+| SAN soak | 4 | **5** |
+| Prevent | 2 | 2 |
+| New | — | **Redirect prevented damage to enemy** |
+| On defeat | Shuffle back | **Shuffle back + draw 1** |
+
+```
+Alistair Greystoke deck only.
+<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
+— prevent 2 of that damage or horror. You may deal that amount of damage
+to any enemy at your location.
+Forced — When The Ancient Binding is defeated: Take 1 horror, draw 1 card,
+and shuffle The Ancient Binding back into your deck.
+```
+*Flavor: "I have watched it fight for me for two hundred years. I have never seen it tire."*
+
+---
+
+### The Relic Harvester (2)
+**Level:** 2 | **XP:** 4 | **Slot:** Ally
+
+| Field | Lv 0 | Lv 2 |
+|---|---|---|
+| HP soak | 2 | **3** |
+| Economy | 1r per investigate | **1r per clue discovered** |
+| Search | Top 5, action | Top 5, action |
+
+```
+Alistair Greystoke deck only.
+After you discover 1 or more clues (by any means): Gain 1 resource.
+<act> Exhaust The Relic Harvester: Search the top 5 cards of your deck
+for an Item asset and draw it. Shuffle your deck.
+```
+*Flavor: "The debt compounds. It seems content with the arrangement."*
+
+---
+
+### The Relic Harvester (4)
+**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
+
+| Field | Lv 2 | Lv 4 |
+|---|---|---|
+| HP soak | 3 | **4** |
+| SAN soak | 2 | **3** |
+| Economy | 1r per clue (self) | **1r per clue (any investigator at location)** |
+| Search | Top 5, action | **Top 10, free after investigate** |
+
+```
+Alistair Greystoke deck only.
+After any investigator at your location discovers 1 or more clues:
+Gain 1 resource.
+<fre> After you successfully investigate: You may exhaust The Relic Harvester
+to search the top 10 cards of your deck for an Item asset and draw it.
+Shuffle your deck.
+```
+*Flavor: "A life spared. Two hundred years repaid. We are almost even."*
+
+---
+
 ## Custom Upgrade Cards
 
 ### Centuries of Memory (1)
@@ -341,12 +428,17 @@ instead. Take 1 horror.
 
 | Priority | Card | XP Cost | Why |
 |---|---|---|---|
-| 1 | The Relic Harvester (4) | 4 XP | Gains resource on every clue — massive economy boost |
+| 1 | The Relic Harvester (2) | 4 XP | 1r per clue by any means — broader economy trigger |
 | 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 |
 | 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak — swarm survives longer |
 | 4 | The Unbroken Codex (2) | 4 XP | Team INT evade + cancel horror for any investigator |
-| 5 | Intellectual Violence (3) | 6 XP | INT-based attack — 2-3 damage + clue on kill |
-| 6 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter cards, cancel treacheries |
+| 5 | The Ancient Binding (2) | 4 XP | Prevent 2 damage or horror per exhaust |
+| 6 | Centuries of Memory (1) | 2 XP | Draw 1-2 cards after INT success |
+| 7 | Intellectual Violence (3) | 6 XP | INT attack — 2-3 dmg + clue on kill |
+| 8 | The Relic Harvester (4) | 4 XP | Team economy + free search after investigate |
+| 9 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter, cancel treacheries |
+| 10 | The Ancient Binding (4) | 4 XP | Redirect prevented damage to enemy |
+| 11 | The Immortal's Eye (4) | 8 XP | Peek enemy phase, +3 INT team, cancel treachery |
 
 ---
 
