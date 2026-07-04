@@ -215,7 +215,7 @@ You get +1 `<wil>` while Bear Pelt is in play.
 | 6 | On the Hunt | Event | Guardian | 0 | ×2 | 016-017-On-the-Hunt |
 | 7 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
 | 8 | Rain Dance *(Ward of Protection)* | Event | Mystic | 0 | ×2 | 020-021-Rain-Dance |
-| 9 | Overpower | Skill | Neutral | 0 | ×2 | 022-023-Overpower |
+| 9 | Elder Strength *(Overpower)* | Skill | Neutral | 0 | ×2 | 022-023-Elder-Strength |
 | 10 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
 | 11 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
 | 12 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 028-029-Rise-to-the-Occasion |
@@ -260,7 +260,7 @@ Abel Redcloud/
 ├── 016-017-On-the-Hunt/
 ├── 018-019-Back-to-the-Dark/
 ├── 020-021-Rain-Dance/
-├── 022-023-Overpower/
+├── 022-023-Elder-Strength/
 ├── 024-025-Guts/
 ├── 026-027-Vicious-Blow/
 ├── 028-029-Rise-to-the-Occasion/
