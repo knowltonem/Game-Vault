@@ -158,7 +158,7 @@ Alistair Greystoke deck only.
 
 After you successfully investigate and discover 1 or more clues: Gain 1 resource.
 
-**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it.
+**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it. Shuffle your deck.
 
 ---
 
