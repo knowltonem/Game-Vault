@@ -207,7 +207,9 @@ Ironhide's regular 30-card deck includes Guard Dog (up to 2 copies), thematicall
 | 1 | Father Thomas (2) | 4 XP | 2 damage on splash + 3hp soak |
 | 2 | R'lyeh's Fury (2) | 4 XP | +2 damage on fight, pairs with Warden for 4 damage kills |
 | 3 | Ward of Protection (2) | 2 XP | Protects adjacent investigators too |
-| 4 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
+| 4 | Aquinnah (3) | 4 XP | Fires on attacks of opportunity too — redirect any attack |
+| 5 | Father Thomas (4) | 4 XP | 2 damage + bless token per activation + 3san soak |
+| 6 | Aquinnah (5) | 4 XP | Redirect damage to ALL enemies at location simultaneously |
 
 ---
 

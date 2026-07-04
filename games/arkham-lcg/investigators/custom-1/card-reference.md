@@ -227,6 +227,40 @@ You get +2 <com> and deal +1 damage for this attack.
 
 ---
 
+### Aquinnah
+**Set:** Lost in Time and Space #308
+**Class:** Survivor
+**Type:** Asset — Ally
+**Cost:** 4
+**Level:** 1
+**Traits:** Ally. Blessed.
+**Health soak:** 1
+**Sanity soak:** 4
+**Rules:**
+```
+<rea> When an enemy attacks you, exhaust Aquinnah and deal 1 horror to her:
+Deal that enemy's damage to any enemy at your location instead.
+You still take any horror dealt by the attack.
+```
+
+**Level 3 upgrade:** Cost 4r. Same soak.
+```
+<rea> When an attack of opportunity or enemy attack deals damage to you,
+exhaust Aquinnah and deal 1 horror to her: Deal that damage to any enemy
+at your location instead. You still take any horror dealt by the attack.
+```
+**Note:** Level 3 adds attack of opportunity trigger. 4 XP from level 1.
+
+**Level 5 upgrade (custom):** Cost 5r. Same soak.
+```
+<rea> When an attack of opportunity or enemy attack deals damage to you,
+exhaust Aquinnah and deal 1 horror to her: Deal that damage to ALL enemies
+at your location instead. You still take any horror dealt by the attack.
+```
+**Note:** Custom level 5. Damage spreads to every enemy at location simultaneously. 4 XP from level 3. Total path 8 XP from starting level 1.
+
+---
+
 ### Ancient Cache
 **Set:** The R'lyeh Expansion (custom)
 **Class:** Neutral
