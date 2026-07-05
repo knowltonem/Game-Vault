@@ -312,6 +312,29 @@ or horror: Exhaust The Eye Amulet — prevent
 
 ---
 
+## Pending Design Decisions — Review Before Deck Build
+
+### 1. Eye of Horus — Starting Deck or Upgrade Only?
+Current: Upgrade only (level 2+)
+Lean: Upgrade only — cleaner starting experience, two allies for two slots.
+
+### 2. Weapon Discard Options — Keep or Remove?
+Current: Each weapon has a fast discard effect when stranded.
+Lean: Keep — Rogue flavor justifies it, stranded weapons are more punishing than stranded allies.
+
+### 3. Ally Icons — Quality Check
+Current: Ra 2×COM, Anubis WIL+COM, Eye INT+WIL
+Lean: Correct — covers all of Nora's core test types.
+
+### 4. Soak Card Quantity — One of Each or Some ×2?
+Current: ×1 of each soak card.
+Lean: Keep ×1 each — three distinct soak cards, strategic choice on attachment.
+
+### 5. Ally Cost — Not Yet Decided
+Lean: 3r each — affordable with Nora's economy, meaningful investment.
+
+---
+
 ## 30-Card Deck (TBD)
 
 *Deck design pending. Core cards to consider:*
