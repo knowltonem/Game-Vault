@@ -195,25 +195,35 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 
 ### All Three Allies — Competing For Different Reasons
 
-| Ally | Passive | Boost | Why You Want It |
+| Ally | HP | SAN | Passive | Special | Icons | Identity |
+|---|---|---|---|---|---|---|
+| Ra-Night-Gaunt | 3 | 1 | +1 COM | Deal 1 dmg to all enemies on defeat | 2×`<com>` | Physical tank |
+| Anubis-Touched | 1 | 4 | +1 WIL | Forced absorb 1 from 2+ hits | `<wil>`+`<com>` | Horror specialist |
+| The Horus Heresy | 1 | 3 | +1 INT +1 AGI | Heal 1 horror per clue discovered | `<int>`+`<wil>` | Knowledge sustain |
+
+### Soak Card Best Matches
+
+| Ally | Best Card | Final Soak | Why |
 |---|---|---|---|
-| Ra-Night-Gaunt | +1 `<com>` | COM 4 | Fighter reliability |
-| Anubis-Touched | +1 `<wil>` | WIL 4 | Encounter protection + bless ability |
-| The Horus Heresy | +1 `<int>` + +1 `<agi>` | INT 7 + AGI 3 | Investigate ceiling + evasion |
+| Ra | Canopic Wrappings (HP) | **5/1** | Maximise physical tank |
+| Anubis | Scarab Amulet (SAN) | **1/6** | Maximise horror absorption |
+| Horus | Eye Amulet (SAN) | **1/5** + prevent | Horror sponge + active prevention |
 
-### Full Stat Picture — All Ally Combinations
+### Full Soak Picture — All Combinations With Best Cards
 
-*(Collection always in play — base INT already 6)*
+| Configuration | HP total | SAN total | Play style |
+|---|---|---|---|
+| Ra (5/1) + Anubis (1/6) | **13** | **15** | Balanced — safe pairing |
+| Ra (5/1) + Horus (1/5) | **13** | **14** | Offensive — max stats |
+| Anubis (1/6) + Horus (1/5) | **9** | **19** | Horror fortress — physically fragile |
 
-| Active Allies | INT | COM | WIL | AGI |
-|---|---|---|---|---|
-| None | 6 | 3 | 3 | 2 |
-| Ra only | 6 | **4** | 3 | 2 |
-| Anubis only | 6 | 3 | **4** | 2 |
-| Horus Heresy only | **7** | 3 | 3 | **3** |
-| Ra + Anubis | 6 | **4** | **4** | 2 |
-| Ra + Horus Heresy | **7** | **4** | 3 | **3** |
-| Anubis + Horus Heresy | **7** | 3 | **4** | **3** |
+### The Hard Choices
+
+| Pairing | Strengths | Weakness | When to pick |
+|---|---|---|---|
+| Ra + Anubis | Balanced HP and SAN | No INT/AGI boost | Standard scenarios |
+| Ra + Horus | Max stats, self-sustaining horror soak | No big-hit absorb | Clue-heavy scenarios |
+| Anubis + Horus | SAN 19, horror fortress | HP 9 — physically fragile | Horror-heavy encounter deck |
 
 
 | Pairing | Dynamic |
@@ -359,36 +369,38 @@ or horror: Exhaust The Eye Amulet — prevent
 ### Servitor Allies
 
 **Ra-Night-Gaunt** — Combat Servitor
-- Base: 2 HP / 1 SAN
+- Base: 3 HP / 1 SAN
 - **Cost: 3r**
 - COM 3 fixed
 - Icons: 2 × `<com>`
 - Passive: You get +1 `<com>` while Ra-Night-Gaunt is in play
+- **On defeat:** Deal 1 damage to each enemy at Nora Warwick's location
 - Soak slot: holds any soak asset
-- Identity: Stat booster + damage soak shield
+- Identity: Physical tank — goes out fighting
 - No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
 **Anubis-Touched** — Defensive Servitor
-- Base: 1 HP / 2 SAN
+- Base: 1 HP / 4 SAN
 - **Cost: 3r**
 - COM 3 fixed
 - Icons: 1 × `<wil>` + 1 × `<com>`
 - Passive: You get +1 `<wil>` while Anubis-Touched is in play
 - **Forced:** When Nora Warwick would be dealt 2 or more damage or horror from a single source: Place 1 of that damage or horror on Anubis-Touched instead (your choice of type)
 - Soak slot: holds any soak asset
-- Identity: Stat booster + automatic big-hit absorber
+- Identity: Horror specialist — silent guardian
 - No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
 **The Horus Heresy** — Support Servitor
-- Base: 2 HP / 1 SAN
+- Base: 1 HP / 3 SAN
 - **Cost: 4r**
 - COM 3 fixed
 - Icons: 1 × `<int>` + 1 × `<wil>`
 - Passive: You get +1 `<int>` and +1 `<agi>` while The Horus Heresy is in play
+- **Free:** Once per round, after Nora Warwick discovers a clue: Heal 1 horror from The Horus Heresy
 - Soak slot: holds any soak asset
-- Identity: Stat booster + passive soak
+- Identity: Knowledge sustains it — horror sponge
 - No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
