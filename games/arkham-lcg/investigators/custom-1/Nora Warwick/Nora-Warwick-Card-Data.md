@@ -23,8 +23,6 @@
 ```
 Once per round: Spend 2 resources to add 2 bless
 tokens to the chaos bag.
-You may not add more than 3 bless tokens to the
-chaos bag per round from your abilities and assets.
 ```
 
 ### Elder Sign
@@ -72,18 +70,19 @@ The Family Debt ×1, 1 random basic weakness.
 
 ### Rules Text
 ```
-Nora Warwick deck only.
+Nora Warwick deck only. Unique.
 
 You get +1 <int> while The Warwick Collection
 is in play.
 
 <fre> At the start of your turn: Gain 1 resource.
 
-<act> Spend 4 resources: Discover 1 clue at your
-location and add 1 bless token to the chaos bag.
+<act> Spend 4 resources: Discover 1 clue at
+your location.
 
-<fre> After you spend 5 or more resources in a
-single round: Add 2 bless tokens to the chaos bag.
+<fre> After you successfully investigate: You
+may move 1 clue from your location to any
+connecting location.
 ```
 
 ### Flavor
@@ -283,7 +282,7 @@ Gain 2 resources.
 <act> Fight. You get +1 <com> for this attack.
 This attack deals +1 damage.
 <fre> After you defeat an enemy with The Khopesh:
-Add 2 bless tokens to the chaos bag.
+Gain 1 resource and draw 1 card.
 ```
 *Flavor: "Ra's warriors carried these into battles older than memory. The blade remembers them all."*
 
@@ -309,10 +308,10 @@ Nora Warwick would be dealt this round.
 
 ## Weapon Summary
 
-| Weapon | Cost | Damage | Trigger | Condition | Icons | Scenario Use |
+| Weapon | Cost | Damage | On Kill / Effect | Condition | Icons | Scenario Use |
 |---|---|---|---|---|---|---|
 | The Kopis | 2r | 1 | Gain 2r | On kill | `<com>` + `<int>` | Resource-starved |
-| The Khopesh | 2r | 1 | Add 2 bless | On kill | 2 × `<com>` | Bless team synergy |
+| The Khopesh | 2r | 1 | Gain 1r + draw 1 card | On kill | 2 × `<com>` | Balanced refuel |
 | The Sekhem Sceptre | 2r | 1 | Cancel next horror | Every attack | `<com>` + `<wil>` | Horror-heavy deck |
 
 ---
