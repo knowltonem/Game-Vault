@@ -21,8 +21,8 @@
 
 ### Ability
 ```
-Once per round: Spend 2 resources to add 2 bless
-tokens to the chaos bag.
+Once per round: Spend 1 resource to add 1 bless
+token to the chaos bag.
 ```
 
 ### Elder Sign
