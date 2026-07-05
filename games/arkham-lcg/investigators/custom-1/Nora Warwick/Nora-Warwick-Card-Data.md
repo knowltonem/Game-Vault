@@ -270,23 +270,45 @@ or horror: Exhaust The Eye Amulet — prevent
 **Ra-Night-Gaunt** — Combat Servitor
 - Base: 2 HP / 1 SAN
 - COM 3 fixed
+- Icons: 2 × `<com>`
 - Weapon slot: holds The Khopesh
 - Soak slot: holds any soak asset
-- Identity: Fighter, bless generator
+- Identity: Fighter, bless engine
+- No secondary use — official ally design
 
 **Anubis-Touched** — Defensive Servitor
 - Base: 1 HP / 2 SAN
 - COM 3 fixed
+- Icons: 1 × `<wil>` + 1 × `<com>`
 - Weapon slot: holds The Sekhem Sceptre
 - Soak slot: holds any soak asset
 - Identity: Protector, horror absorber
+- No secondary use — official ally design
 
-**Eye of Horus** — Support Servitor (upgrade only)
+**Eye of Horus** — Support Servitor (upgrade only, level 2+)
 - Base: 2 HP / 1 SAN
 - COM 3 fixed
+- Icons: 1 × `<int>` + 1 × `<wil>`
 - Weapon slot: holds any weapon
 - Soak slot: holds any soak asset
 - Identity: Investigative support, bless on clue
+- No secondary use — official ally design
+
+### Weapon Icons and Discard Options
+
+| Weapon | Icons | Fast Discard Effect |
+|---|---|---|
+| The Kopis | 1 × `<com>` + 1 × `<int>` | Gain 2 resources |
+| The Khopesh | 2 × `<com>` | Deal 1 damage to any enemy at your location |
+| The Sekhem Sceptre | 2 × `<wil>` | Deal 1 horror to any enemy at your location |
+
+### Soak Asset Icons
+
+| Soak Card | Icons | Secondary |
+|---|---|---|
+| Canopic Wrappings | 1 × `<wil>` + 1 × `<int>` | None — just icons |
+| Scarab Amulet | 2 × `<wil>` | None — just icons |
+| Eye Amulet | 1 × `<int>` + 1 × `<wil>` | None — just icons |
 
 ---
 
