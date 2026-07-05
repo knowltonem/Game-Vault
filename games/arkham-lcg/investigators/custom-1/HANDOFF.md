@@ -517,29 +517,7 @@ Flavor: `"Oxford never taught her this. Egypt did."`
 
 ---
 
-### 024-025 — Sand Veil (Elusive ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-Sand-Veil.eon` |
-| PNG front | `RYP-NW-024-Sand-Veil-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Traits | Trick. |
-| Icons | 1 × `<agi>` + 1 × `<wld>` |
-| Base card | Elusive |
-
-Rules text:
-```
-Fast. Disengage from all enemies engaged with you.
-Move to any connecting location.
-```
-Flavor: `"The sand swallows footprints. She learned this early."`
-
----
-
-### 026 — The Warwick Incendiary (Dynamite Blast ×1)
+### 024 — The Warwick Incendiary (Dynamite Blast ×1)
 
 | Field | Value |
 |---|---|
@@ -562,7 +540,7 @@ Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremon
 
 ---
 
-### 027-028 — The Family Name (Calling in Favors ×2)
+### 019-020 — The Family Name (Calling in Favors ×2)
 
 | Field | Value |
 |---|---|
@@ -584,30 +562,45 @@ Flavor: `"The Warwick name opens doors. She uses it sparingly. Mostly."`
 
 ---
 
-### 029-030 — Expedition Protocol (Teamwork ×2)
+### 025-026 — The Scholar's Eye (Perception ×2)
 
 | Field | Value |
 |---|---|
-| EON file | `Warwick-Event-Expedition-Protocol.eon` |
-| PNG front | `RYP-NW-029-Expedition-Protocol-Front.png` |
-| Class | Guardian |
+| EON file | `Warwick-Skill-The-Scholars-Eye.eon` |
+| PNG front | `RYP-NW-025-The-Scholars-Eye-Front.png` |
+| Class | Seeker |
 | Level | 0 |
-| Cost | 0 |
-| Traits | Tactic. |
-| Icons | 1 × `<wld>` |
-| Base card | Teamwork |
+| Traits | Practiced. |
+| Icons | 2 × `<int>` |
+| Base card | Perception |
 
 Rules text:
 ```
-Fast. Choose an investigator at your location. You and
-that investigator may each give the other any number
-of assets you control.
+If this skill test is successful while investigating,
+discover 1 additional clue at your location.
 ```
-Flavor: `"The dig protocol requires cooperation. She wrote the protocol."`
+Flavor: `"She has read everything ever written about what lies beneath the sand."`
 
 ---
 
-### 031-032 — The Opportunist (Opportunist ×2)
+### 027-028 — Desert Reflexes (Manual Dexterity ×1)
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Skill-Desert-Reflexes.eon` |
+| PNG front | `RYP-NW-027-Desert-Reflexes-Front.png` |
+| Class | Neutral |
+| Level | 0 |
+| Traits | Practiced. |
+| Icons | 2 × `<agi>` |
+| Base card | Manual Dexterity |
+
+Rules text: `If this skill test is successful, you may immediately evade an enemy at your location.`
+Flavor: `"When the tomb traps activate, you learn to move."`
+
+---
+
+### 029-030 — The Opportunist (Opportunist ×2)
 
 | Field | Value |
 |---|---|
@@ -629,7 +622,7 @@ Flavor: `"She works alone when it matters. By design."`
 
 ---
 
-### 033-034 — The Warwick Gambit (Daring ×2)
+### 031-032 — The Warwick Gambit (Daring ×2)
 
 | Field | Value |
 |---|---|
@@ -646,7 +639,7 @@ Flavor: `"The family motto is not 'be careful'."`
 
 ---
 
-### 035 — The Kopis (×1)
+### 033 — The Kopis (×1)
 
 | Field | Value |
 |---|---|
@@ -670,7 +663,7 @@ Flavor: `"Every serious archaeologist carries one. Most don't use them like this
 
 ---
 
-### 036 — The Khopesh (×1)
+### 034 — The Khopesh (×1)
 
 | Field | Value |
 |---|---|
@@ -694,7 +687,7 @@ Flavor: `"Ra's warriors carried these into battles older than memory. The blade 
 
 ---
 
-### 037 — The Sekhem Sceptre (×1)
+### 035 — The Sekhem Sceptre (×1)
 
 | Field | Value |
 |---|---|
@@ -718,7 +711,7 @@ Flavor: `"Power is not always measured in wounds."`
 
 ---
 
-### 038 — Ra-Night-Gaunt (×1)
+### 036 — Ra-Night-Gaunt (×1)
 
 | Field | Value |
 |---|---|
@@ -743,7 +736,7 @@ Flavor: `"Solar fire in a creature of darkness. It burns what comes near her."`
 
 ---
 
-### 039 — Anubis-Touched (×1)
+### 037 — Anubis-Touched (×1)
 
 | Field | Value |
 |---|---|
@@ -770,7 +763,7 @@ Flavor: `"The guardian of the dead does not ask permission. It simply steps in f
 
 ---
 
-### 040 — The Horus Heresy (×1)
+### 038 — The Horus Heresy (×1)
 
 | Field | Value |
 |---|---|
@@ -796,14 +789,14 @@ Flavor: `"What wears the face of gods. It feeds on what she finds."`
 
 ---
 
-### 041 — The Collar of Sekhmet (deck copy, ×1)
+### 039 — The Collar of Sekhmet (deck copy, ×1)
 
 Same card as pack card 005. Use same EON file.
 PNG: `RYP-NW-041-The-Collar-of-Sekhmet-Front.png`
 
 ---
 
-### 042 — The Scarab Compass (Lucky Cigarette Case ×1)
+### 040 — The Scarab Compass (Lucky Cigarette Case ×1)
 
 | Field | Value |
 |---|---|
@@ -826,7 +819,7 @@ Flavor: `"It always points toward what she needs. She stopped questioning it."`
 
 ---
 
-### 043 — River Water (Liquid Courage ×1)
+### 041 — River Water (Liquid Courage ×1)
 
 | Field | Value |
 |---|---|
