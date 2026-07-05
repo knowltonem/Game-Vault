@@ -454,43 +454,51 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | 006-007 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
 | 008-009 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×2 |
 
-### Investigation (6 cards)
+### Investigation (5 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 010-011 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
 | 012-013 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
-| 014-015 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
+| 014 | Deduction | The Academic's Eye | Skill | Seeker | ×1 |
 
-### Combat Support (4 cards)
+### Combat Support (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 016-017 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
-| 018-019 | Elusive | Sand Veil | Event | Rogue | ×2 |
+| 015 | Cheap Shot | Desert Trick | Event | Rogue | ×1 |
+| 016-017 | Elusive | Sand Veil | Event | Rogue | ×2 |
 
 ### Utility (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 020-021 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
-| 022-023 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
+| 018-019 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
+| 020-021 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
 
-### Skills (6 cards)
+### Skills (5 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 024-025 | Unexpected Courage | Warwick Resolve | Skill | Neutral | ×2 |
-| 026-027 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
-| 028-029 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
+| 022 | Unexpected Courage | Warwick Resolve | Skill | Neutral | ×1 |
+| 023-024 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
+| 025-026 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
 
 ### Weapons (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 030 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 031 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 032 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| 027 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 028 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 029 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+
+### Allies (3 cards)
+
+| # | Card | Type | Class | Qty | Icons | Secondary use |
+|---|---|---|---|---|---|---|
+| 030 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
+| 031 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
+| 032 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
 
 ---
 
@@ -499,12 +507,35 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Category | Cards | Slots |
 |---|---|---|
 | Economy | Tomb Cache, Warwick Clause, Pact of Kha | 6 |
-| Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 6 |
-| Combat | Desert Trick, Sand Veil | 4 |
+| Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 5 |
+| Combat | Desert Trick, Sand Veil | 3 |
 | Utility | The Family Name, Expedition Protocol | 4 |
-| Skills | Warwick Resolve, The Opportunist, Warwick Gambit | 6 |
+| Skills | Warwick Resolve, The Opportunist, Warwick Gambit | 5 |
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
+| Allies | Ra-Night-Gaunt, Anubis-Touched, The Horus Heresy | 3 |
 | **Total** | | **30** |
+
+---
+
+## Icon Coverage
+
+| Test type | Icons | Sources |
+|---|---|---|
+| `<com>` | 6 | Ra ×2, Khopesh ×2, Kopis ×1, Anubis ×1 |
+| `<int>` | 4 | Horus ×1, Kopis ×1, Academic's Eye ×1, Ancient Intuition ×1 |
+| `<wil>` | 4 | Anubis ×1, Horus ×1, Sekhem ×1, Warwick Resolve ×1 |
+| `<wld>` | 10 | Opportunist ×4, Warwick Gambit ×4, Warwick Resolve ×2 |
+| `<agi>` | 0 | None — intentional |
+
+---
+
+## Ally As Skill Commit — Icon Replacements
+
+| Ally | Replaces | Reasoning |
+|---|---|---|
+| Ra-Night-Gaunt 2×`<com>` | 1 copy of Desert Trick | Same combat icon coverage |
+| The Horus Heresy `<int>`+`<wil>` | 1 copy of Academic's Eye | Same INT coverage |
+| Anubis-Touched `<wil>`+`<com>` | 1 copy of Warwick Resolve | Adds WIL coverage previously absent |
 
 ---
 
@@ -532,18 +563,8 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | Rule | Cards | Count | Limit | Status |
 |---|---|---|---|---|
-| Rogue 0-5 | Lone Wolf, Pact of Kha, Desert Trick, Sand Veil, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem | 14 | No limit | ✅ |
-| Seeker 0-2 | Warwick Method, Ancient Intuition, Academic's Eye | 6 | 6 max | ✅ |
+| Rogue 0-5 | Warwick Clause, Pact of Kha, Desert Trick, Sand Veil, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem, Ra, Anubis, Horus | 16 | No limit | ✅ |
+| Seeker 0-2 | Warwick Method, Ancient Intuition, Academic's Eye | 5 | 6 max | ✅ |
 | Guardian 0-2 | Expedition Protocol | 2 | 4 max | ✅ |
-| Neutral | Tomb Cache, Warwick Resolve | 4 | No limit | ✅ |
-
----
-
-## Weapon As Skill Commit Reference
-
-| Weapon drawn | Not equipping? | Best commit target |
-|---|---|---|
-| The Kopis | Already equipped | `<com>` + `<int>` — fight or investigate |
-| The Khopesh | Wrong scenario | 2×`<com>` — any combat test |
-| The Sekhem Sceptre | Horror not a problem | `<com>` + `<wil>` — fight or encounter test |
+| Neutral | Tomb Cache, Warwick Resolve | 3 | No limit | ✅ |
 
