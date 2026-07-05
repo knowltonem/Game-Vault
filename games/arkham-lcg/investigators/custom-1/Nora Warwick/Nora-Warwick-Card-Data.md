@@ -375,9 +375,9 @@ or horror: Exhaust The Eye Amulet — prevent
 - COM 3 fixed
 - Icons: 1 × `<wil>` + 1 × `<com>`
 - Passive: You get +1 `<wil>` while Anubis-Touched is in play
+- **Forced:** When Nora Warwick would be dealt 2 or more damage or horror from a single source: Place 1 of that damage or horror on Anubis-Touched instead (your choice of type)
 - Soak slot: holds any soak asset
-- **Redirect:** Nora may assign damage or horror to Anubis-Touched instead of herself
-- Identity: Stat booster + primary horror/damage shield
+- Identity: Stat booster + automatic big-hit absorber
 - No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
