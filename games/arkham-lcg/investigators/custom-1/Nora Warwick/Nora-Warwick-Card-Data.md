@@ -111,8 +111,8 @@ current agenda's doom threshold (rounded up,
 minimum 3).
 
 If you cannot pay the full amount: For each
-resource you cannot pay, take 1 horror and
-1 damage.
+resource you cannot pay, take 1 horror or
+1 damage (your choice).
 
 <act> Spend 5 resources: Discard The Family Debt.
 ```
@@ -196,9 +196,9 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 
 | Ally | HP | SAN | Passive | Special | Icons | Identity |
 |---|---|---|---|---|---|---|
-| Ra-Night-Gaunt | 3 | 1 | +1 COM | Deal 1 dmg to all enemies on defeat | 2×`<com>` | Physical tank |
+| Ra-Night-Gaunt | 3 | 1 | +1 COM | Deal 1 dmg to all enemies on defeat (if any) | 2×`<com>` | Physical tank |
 | Anubis-Touched | 1 | 4 | +1 WIL | Forced absorb 1 from 2+ hits | `<wil>`+`<com>` | Horror specialist |
-| The Horus Heresy | 1 | 3 | +1 INT +1 AGI | Heal 1 horror per clue discovered | `<int>`+`<wil>` | Knowledge sustain |
+| The Horus Heresy | 2 | 3 | +1 INT +1 AGI | Heal 1 horror per clue discovered | `<int>`+`<wil>` | Knowledge sustain |
 
 ### Soak Card Best Matches
 
@@ -206,15 +206,15 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 |---|---|---|---|
 | Ra | Canopic Wrappings (HP) | **5/1** | Maximise physical tank |
 | Anubis | Scarab Amulet (SAN) | **1/6** | Maximise horror absorption |
-| Horus | Eye Amulet (SAN) | **1/5** + prevent | Horror sponge + active prevention |
+| Horus | Eye Amulet (SAN) | **2/5** + prevent | Horror sponge + survive physical hit |
 
 ### Full Soak Picture — All Combinations With Best Cards
 
 | Configuration | HP total | SAN total | Play style |
 |---|---|---|---|
 | Ra (5/1) + Anubis (1/6) | **13** | **15** | Balanced — safe pairing |
-| Ra (5/1) + Horus (1/5) | **13** | **14** | Offensive — max stats |
-| Anubis (1/6) + Horus (1/5) | **9** | **19** | Horror fortress — physically fragile |
+| Ra (5/1) + Horus (2/5) | **14** | **14** | Offensive — max stats |
+| Anubis (1/6) + Horus (2/5) | **10** | **19** | Horror fortress — less physically fragile now |
 
 ### The Hard Choices
 
@@ -373,7 +373,7 @@ or horror: Exhaust The Eye Amulet — prevent
 - COM 3 fixed
 - Icons: 2 × `<com>`
 - Passive: You get +1 `<com>` while Ra-Night-Gaunt is in play
-- **On defeat:** Deal 1 damage to each enemy at Nora Warwick's location
+- **On defeat:** Deal 1 damage to each enemy at Nora Warwick's location (if any)
 - Soak slot: holds any soak asset
 - Identity: Physical tank — goes out fighting
 - No weapon slot — weapons are Nora only
@@ -392,7 +392,7 @@ or horror: Exhaust The Eye Amulet — prevent
 - No secondary use — official ally design
 
 **The Horus Heresy** — Support Servitor
-- Base: 1 HP / 3 SAN
+- Base: 2 HP / 3 SAN
 - **Cost: 4r**
 - COM 3 fixed
 - Icons: 1 × `<int>` + 1 × `<wil>`
