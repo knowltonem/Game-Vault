@@ -239,12 +239,12 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 
 ## Weapons — The Three Knives
 
-All three weapons are unrestricted — useable by Nora or any ally. Each has a natural pairing but works in any configuration.
+All three weapons are Nora Warwick only. Same damage baseline, meaningfully different feel. Choose before each scenario based on what you need.
 
 ---
 
-### The Kopis
-**Natural home:** Nora | **Cost:** 2r | **Slot:** Hand
+### The Kopis — The Efficient Blade
+**Feel:** Economy swing | **Cost:** 2r | **Slot:** Hand
 
 | Field | Value |
 |---|---|
@@ -252,18 +252,17 @@ All three weapons are unrestricted — useable by Nora or any ally. Each has a n
 | Icons | 1 × `<com>` + 1 × `<int>` |
 
 ```
-Hand slot.
 <act> Fight. You get +1 <com> for this attack.
 This attack deals +1 damage.
 <fre> After you defeat an enemy with The Kopis:
-Gain 1 resource.
+Gain 2 resources.
 ```
 *Flavor: "Every serious archaeologist carries one. Most don't use them like this."*
 
 ---
 
-### The Khopesh
-**Natural home:** Ra-Night-Gaunt | **Cost:** 2r | **Slot:** Hand
+### The Khopesh — The Sacred Blade
+**Feel:** Bless swing | **Cost:** 2r | **Slot:** Hand
 
 | Field | Value |
 |---|---|
@@ -271,32 +270,28 @@ Gain 1 resource.
 | Icons | 2 × `<com>` |
 
 ```
-Hand slot.
 <act> Fight. You get +1 <com> for this attack.
 This attack deals +1 damage.
 <fre> After you defeat an enemy with The Khopesh:
-Add 1 bless token to the chaos bag.
+Add 2 bless tokens to the chaos bag.
 ```
 *Flavor: "Ra's warriors carried these into battles older than memory. The blade remembers them all."*
 
 ---
 
-### The Sekhem Sceptre
-**Natural home:** Anubis-Touched | **Cost:** 2r | **Slot:** Hand
+### The Sekhem Sceptre — The Mind Breaker
+**Feel:** Defensive safety net | **Cost:** 2r | **Slot:** Hand
 
 | Field | Value |
 |---|---|
 | Traits | Item. Weapon. Relic. |
-| Icons | 2 × `<wil>` |
+| Icons | 1 × `<com>` + 1 × `<wil>` |
 
 ```
-Hand slot.
-<act> Fight. You get +1 <wil> for this attack.
-This attack deals 1 horror damage to the enemy
-instead of physical damage.
-<fre> After you defeat an enemy with The Sekhem
-Sceptre: Cancel the next horror you would be
-dealt this round.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+After this attack resolves: Cancel the next horror
+Nora Warwick would be dealt this round.
 ```
 *Flavor: "Power is not always measured in wounds."*
 
@@ -304,21 +299,21 @@ dealt this round.
 
 ## Weapon Summary
 
-| Weapon | Cost | Attack | Damage | On Kill | Icons | Natural Home |
+| Weapon | Cost | Damage | Trigger | Condition | Icons | Scenario Use |
 |---|---|---|---|---|---|---|
-| The Kopis | 2r | +1 COM | 1 physical | Gain 1r | `<com>` + `<int>` | Nora |
-| The Khopesh | 2r | +1 COM | 1 physical | Add 1 bless | 2 × `<com>` | Ra-Night-Gaunt |
-| The Sekhem Sceptre | 2r | +1 WIL | 1 horror | Cancel next horror | 2 × `<wil>` | Anubis-Touched |
+| The Kopis | 2r | 1 | Gain 2r | On kill | `<com>` + `<int>` | Resource-starved |
+| The Khopesh | 2r | 1 | Add 2 bless | On kill | 2 × `<com>` | Bless team synergy |
+| The Sekhem Sceptre | 2r | 1 | Cancel next horror | Every attack | `<com>` + `<wil>` | Horror-heavy deck |
 
 ---
 
-### Weapon Upgrade Paths
+## Weapon Upgrade Paths
 
 | Weapon | Lv 0 | Lv 2 | Lv 4 |
 |---|---|---|---|
-| The Kopis | 1 dmg, gain 1r | 2 dmg, gain 1r + bless | 2 dmg, gain 2r + bless |
-| The Khopesh | 1 dmg, 1 bless | 2 dmg, 2 bless | 2 dmg, 2 bless + splash |
-| The Sekhem Sceptre | 1 horror dmg, cancel horror | 2 horror dmg, cancel + heal 1 | 2 horror dmg, cancel + heal 2 + bless |
+| The Kopis | 1 dmg, gain 2r | 2 dmg, gain 2r + draw 1 | 2 dmg, gain 3r + draw 1 + bless |
+| The Khopesh | 1 dmg, 2 bless | 2 dmg, 2 bless + gain 1r | 2 dmg, 3 bless + gain 1r + splash |
+| The Sekhem Sceptre | 1 dmg, cancel horror | 2 dmg, cancel + heal 1 | 2 dmg, cancel + heal 2 + cancel revelation |
 
 ---
 
@@ -368,9 +363,10 @@ or horror: Exhaust The Eye Amulet — prevent
 - **Cost: 3r**
 - COM 3 fixed
 - Icons: 2 × `<com>`
-- Weapon slot: holds The Khopesh
+- Passive: You get +1 `<com>` while Ra-Night-Gaunt is in play
 - Soak slot: holds any soak asset
-- Identity: Fighter, bless engine
+- Identity: Stat booster + damage soak shield
+- No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
 **Anubis-Touched** — Defensive Servitor
@@ -378,20 +374,22 @@ or horror: Exhaust The Eye Amulet — prevent
 - **Cost: 3r**
 - COM 3 fixed
 - Icons: 1 × `<wil>` + 1 × `<com>`
-- Weapon slot: holds The Sekhem Sceptre
+- Passive: You get +1 `<wil>` while Anubis-Touched is in play
 - Soak slot: holds any soak asset
-- Identity: Protector, horror absorber
+- **Redirect:** Nora may assign damage or horror to Anubis-Touched instead of herself
+- Identity: Stat booster + primary horror/damage shield
+- No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
-**The Horus Heresy** — Support Servitor (starting deck, level 0)
+**The Horus Heresy** — Support Servitor
 - Base: 2 HP / 1 SAN
 - **Cost: 4r**
 - COM 3 fixed
 - Icons: 1 × `<int>` + 1 × `<wil>`
 - Passive: You get +1 `<int>` and +1 `<agi>` while The Horus Heresy is in play
-- Weapon slot: holds any weapon
 - Soak slot: holds any soak asset
-- Identity: Investigative ceiling + evasion unlock
+- Identity: Stat booster + passive soak
+- No weapon slot — weapons are Nora only
 - No secondary use — official ally design
 
 ### Weapon Icons
