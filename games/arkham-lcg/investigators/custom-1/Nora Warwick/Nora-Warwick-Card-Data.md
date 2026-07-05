@@ -315,8 +315,7 @@ or horror: Exhaust The Eye Amulet — prevent
 ## Pending Design Decisions — Review Before Deck Build
 
 ### 1. Eye of Horus — Starting Deck or Upgrade Only?
-Current: Upgrade only (level 2+)
-Lean: Upgrade only — cleaner starting experience, two allies for two slots.
+RESOLVED: In starting deck at level 0. Name TBD (rename pending). Icons ensure it is never dead when third ally slot unavailable.
 
 ### 2. Weapon Discard Options — Keep or Remove?
 Current: Each weapon has a fast discard effect when stranded.
