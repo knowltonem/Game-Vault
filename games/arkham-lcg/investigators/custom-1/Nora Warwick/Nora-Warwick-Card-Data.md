@@ -600,6 +600,23 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ---
 
+## Art Prompts
+
+### 001 — Nora Warwick Investigator Card
+```
+Cinematic gritty dark fantasy photograph. Professor Nora Warwick,
+a British archaeologist in her 30s, sharp features, wearing a leather
+flight jacket over khaki expedition clothes, holding an ancient scarab
+amulet that glows faintly gold. Behind her, Egyptian hieroglyphs and
+crumbling stone pillars. Dust motes in dim torchlight. Gritty, dark,
+atmospheric, dramatic lighting. In her hand The Book of the Dead,
+opened, with Nora peering in — its large, weighty body bound in Large
+Gold Metal Binding, an eerie green glow emitting from the inside of
+the book like it has its own life-force.
+```
+
+---
+
 ## Deck Summary
 
 | Category | Cards | Slots |

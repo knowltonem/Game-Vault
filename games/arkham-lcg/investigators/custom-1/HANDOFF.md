@@ -841,14 +841,39 @@ Flavor: `"The Nile remembers. So does she."`
 
 ---
 
+## Art Prompts — Nora Warwick
+
+### 001 — Investigator Card
+```
+Cinematic gritty dark fantasy photograph. Professor Nora Warwick,
+a British archaeologist in her 30s, sharp features, wearing a leather
+flight jacket over khaki expedition clothes, holding an ancient scarab
+amulet that glows faintly gold. Behind her, Egyptian hieroglyphs and
+crumbling stone pillars. Dust motes in dim torchlight. Gritty, dark,
+atmospheric, dramatic lighting. In her hand The Book of the Dead,
+opened, with Nora peering in — its large, weighty body bound in Large
+Gold Metal Binding, an eerie green glow emitting from the inside of
+the book like it has its own life-force.
+```
+Status: PROMPT LOCKED — not yet generated.
+
+---
+
 ## What To Do Next (In Order)
 
-1. Finish Strange Eons card blocks for any missing cards above
-2. Build .eon files in Strange Eons for all 43 cards
-3. Generate art prompts for each card (Egyptian Arkham theme)
-4. Export PNGs at 300 DPI
+1. Generate art for Nora Warwick investigator card (prompt locked above)
+2. Generate art prompts for all remaining pack cards (002-006, allies, weapons, soak cards)
+3. Build .eon files in Strange Eons for all pack and deck cards
+4. Export PNGs at 300 DPI — Front and Back for every card
 5. Git commit all exports
 6. Begin Upgrade Pack Strange Eons build (RYP-UP — 54 cards designed)
+
+### Recent Changes (session update)
+- Deck swaps: Pact of Kha ×2→×1, Expedition Protocol ×2→×1
+- Replaced Scarab Compass + River Water with Cairo Revelation ×2 + Warwick Reasoning ×2
+- Both new cards are unconditional — no trigger conditions
+- Art prompt locked for Nora investigator card
+- Deck is now 35 cards
 
 ---
 
