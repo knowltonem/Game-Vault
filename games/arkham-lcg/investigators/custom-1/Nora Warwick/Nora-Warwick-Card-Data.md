@@ -158,7 +158,7 @@ and draw it. Shuffle your deck.
 
 ### Flavor
 ```
-"With THIS KNOWLEDGE I can see the unseen."
+"With this knowledge, I can see the unseen."
 ```
 
 ---
