@@ -321,13 +321,16 @@ or horror: Exhaust The Eye Amulet — prevent
 - Identity: Investigative ceiling + evasion unlock
 - No secondary use — official ally design
 
-### Weapon Icons and Discard Options
+### Weapon Icons
 
-| Weapon | Icons | Fast Discard Effect |
-|---|---|---|
-| The Kopis | 1 × `<com>` + 1 × `<int>` | Gain 2 resources |
-| The Khopesh | 2 × `<com>` | Deal 1 damage to any enemy at your location |
-| The Sekhem Sceptre | 2 × `<wil>` | Deal 1 horror to any enemy at your location |
+| Weapon | Icons |
+|---|---|
+| The Kopis | 1 × `<com>` + 1 × `<int>` |
+| The Khopesh | 2 × `<com>` |
+| The Sekhem Sceptre | 2 × `<wil>` |
+
+### 2. Weapon Discard Options — RESOLVED
+Removed. Icons are sufficient safety valve. Official weapon design standard maintained.
 
 ### Soak Asset Icons
 
@@ -348,13 +351,11 @@ RESOLVED: In starting deck at level 0. Name TBD (rename pending). Icons ensure i
 Current: Each weapon has a fast discard effect when stranded.
 Lean: Keep — Rogue flavor justifies it, stranded weapons are more punishing than stranded allies.
 
-### 3. Ally Icons — Quality Check
-Current: Ra 2×COM, Anubis WIL+COM, Eye INT+WIL
-Lean: Correct — covers all of Nora's core test types.
+### 3. Ally Icons — RESOLVED
+Confirmed as designed. Ra 2×COM, Anubis WIL+COM, Horus INT+WIL. No AGI icons intentional — Nora does not evade by design.
 
-### 4. Soak Card Quantity — One of Each or Some ×2?
-Current: ×1 of each soak card.
-Lean: Keep ×1 each — three distinct soak cards, strategic choice on attachment.
+### 4. Soak Card Quantity — RESOLVED
+×1 each. Perfect 3-to-3 parity with ally slots. Each soak card strategically distinct. No duplicates needed.
 
 ### 5. Ally Cost — RESOLVED
 Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost justifies premium).
