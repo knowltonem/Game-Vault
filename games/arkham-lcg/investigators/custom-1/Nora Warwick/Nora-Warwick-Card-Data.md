@@ -237,15 +237,88 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 
 ---
 
-## Signature Weapon and Soak System
+## Weapons — The Three Knives
 
-### Weapons
+All three weapons are unrestricted — useable by Nora or any ally. Each has a natural pairing but works in any configuration.
 
-| Weapon | Holder | Lv 0 | Lv 2 | Lv 4 |
-|---|---|---|---|---|
-| The Kopis | Nora | +1 COM, 1 dmg, gain 1r on kill | +1 COM, 2 dmg, 1r + bless on kill | +2 COM, 2 dmg, 2r + bless on kill |
-| The Khopesh | Ra-Night-Gaunt | +1 COM, 1 dmg, 1 bless on kill | +2 COM, 2 dmg, 2 bless on kill | +2 COM, 2 dmg, 2 bless + splash dmg |
-| The Sekhem Sceptre | Anubis-Touched | +1 WIL, 1 horror dmg, cancel horror | +1 WIL, 2 horror dmg, cancel + heal 1 | +2 WIL, 2 horror dmg, cancel + heal 2 + bless |
+---
+
+### The Kopis
+**Natural home:** Nora | **Cost:** 2r | **Slot:** Hand
+
+| Field | Value |
+|---|---|
+| Traits | Item. Weapon. Relic. |
+| Icons | 1 × `<com>` + 1 × `<int>` |
+
+```
+Hand slot.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+<fre> After you defeat an enemy with The Kopis:
+Gain 1 resource.
+```
+*Flavor: "Every serious archaeologist carries one. Most don't use them like this."*
+
+---
+
+### The Khopesh
+**Natural home:** Ra-Night-Gaunt | **Cost:** 2r | **Slot:** Hand
+
+| Field | Value |
+|---|---|
+| Traits | Item. Weapon. Relic. |
+| Icons | 2 × `<com>` |
+
+```
+Hand slot.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+<fre> After you defeat an enemy with The Khopesh:
+Add 1 bless token to the chaos bag.
+```
+*Flavor: "Ra's warriors carried these into battles older than memory. The blade remembers them all."*
+
+---
+
+### The Sekhem Sceptre
+**Natural home:** Anubis-Touched | **Cost:** 2r | **Slot:** Hand
+
+| Field | Value |
+|---|---|
+| Traits | Item. Weapon. Relic. |
+| Icons | 2 × `<wil>` |
+
+```
+Hand slot.
+<act> Fight. You get +1 <wil> for this attack.
+This attack deals 1 horror damage to the enemy
+instead of physical damage.
+<fre> After you defeat an enemy with The Sekhem
+Sceptre: Cancel the next horror you would be
+dealt this round.
+```
+*Flavor: "Power is not always measured in wounds."*
+
+---
+
+## Weapon Summary
+
+| Weapon | Cost | Attack | Damage | On Kill | Icons | Natural Home |
+|---|---|---|---|---|---|---|
+| The Kopis | 2r | +1 COM | 1 physical | Gain 1r | `<com>` + `<int>` | Nora |
+| The Khopesh | 2r | +1 COM | 1 physical | Add 1 bless | 2 × `<com>` | Ra-Night-Gaunt |
+| The Sekhem Sceptre | 2r | +1 WIL | 1 horror | Cancel next horror | 2 × `<wil>` | Anubis-Touched |
+
+---
+
+### Weapon Upgrade Paths
+
+| Weapon | Lv 0 | Lv 2 | Lv 4 |
+|---|---|---|---|
+| The Kopis | 1 dmg, gain 1r | 2 dmg, gain 1r + bless | 2 dmg, gain 2r + bless |
+| The Khopesh | 1 dmg, 1 bless | 2 dmg, 2 bless | 2 dmg, 2 bless + splash |
+| The Sekhem Sceptre | 1 horror dmg, cancel horror | 2 horror dmg, cancel + heal 1 | 2 horror dmg, cancel + heal 2 + bless |
 
 ---
 
