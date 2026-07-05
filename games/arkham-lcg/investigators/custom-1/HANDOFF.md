@@ -841,21 +841,56 @@ Flavor: `"The Nile remembers. So does she."`
 
 ---
 
-## Art Prompts — Nora Warwick
+## Art Prompts -- Nora Warwick
 
-### 001 — Investigator Card
+### 001 -- Investigator Card
 ```
-Cinematic gritty dark fantasy photograph. Professor Nora Warwick,
-a British archaeologist in her 30s, sharp features, wearing a leather
-flight jacket over khaki expedition clothes, holding an ancient scarab
-amulet that glows faintly gold. Behind her, Egyptian hieroglyphs and
-crumbling stone pillars. Dust motes in dim torchlight. Gritty, dark,
-atmospheric, dramatic lighting. In her hand The Book of the Dead,
-opened, with Nora peering in — its large, weighty body bound in Large
-Gold Metal Binding, an eerie green glow emitting from the inside of
-the book like it has its own life-force.
+Cinematic gritty dark fantasy photograph, hyper-detailed,
+8K resolution. Professor Nora Warwick, British archaeologist,
+early 30s. Sharp angular features, intelligent dark eyes,
+weathered complexion from years in the field. Hair pulled
+back severely, a few loose strands catching the torchlight.
+Wearing a worn brown leather flight jacket -- lived-in,
+scarred, covered in small pockets -- over khaki expedition
+shirt, canvas trousers, heavy field boots.
+
+In her left hand: an ancient Egyptian scarab amulet on a
+corroded bronze chain, carved lapis lazuli, emanating a
+faint warm gold luminescence that catches on her jaw and
+knuckles. She holds it unconsciously, like she has forgotten
+it is there.
+
+In her right hand and cradled against her chest: The Book
+of the Dead. Massive. Oppressively heavy. Large ornate gold
+metal binding with raised hieroglyphic reliefs, tarnished
+at the edges but gleaming at the centre. The book is open.
+She is leaning slightly into it, eyes tracking the text,
+expression caught between academic fascination and something
+she will not name. From the open pages: an eerie cold green
+light pours upward -- not reflected light but generated light,
+alive, pulsing faintly, as if the book breathes. The green
+glow catches the underside of her face and the inside of
+her jacket.
+
+Background: ancient Egyptian burial chamber. Towering stone
+pillars carved with hieroglyphs, some crumbling, one fallen.
+Torchlight from an unseen source behind and to the right --
+warm amber against the cold green from the book. Dust motes
+suspended in the air. Shadows deep and absolute beyond the
+torchlight. Suggestion of something vast in the darkness
+behind her -- architecture that should not exist, angles
+that do not resolve correctly.
+
+Mood: the moment before everything changes. She knows
+something no one else knows. She is not sure she should.
+
+Style: gritty cinematic realism, Ridley Scott lighting,
+photographic depth of field with shallow focus on her face
+and the book. Colour palette: deep amber, bone, shadow black,
+cold green. No soft edges. No fantasy prettiness. This is
+real and it is wrong.
 ```
-Status: PROMPT LOCKED — not yet generated.
+Status: PROMPT LOCKED -- not yet generated.
 
 ---
 
