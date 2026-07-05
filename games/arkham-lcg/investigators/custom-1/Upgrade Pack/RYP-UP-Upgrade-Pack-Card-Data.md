@@ -1179,3 +1179,250 @@ You have 1 additional hand slot.
 | Spirit Coyote (5) | +4 |
 | Ancient Warrior (4) | 8 |
 | **Full path total** | **46 XP** |
+
+---
+
+## Additional Cards — Filling The Gaps
+
+### Level 1 Cards (one per class)
+
+---
+
+### 045 — Iron Will (1) ✦ Custom
+**Investigators:** Ironhide + Abel | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 0r |
+| Traits | Tactic. Spirit. |
+| Icons | 1 × `<com>` + 1 × `<wil>` |
+
+```
+Fast.
+Until the end of this round, you get +1 <com>
+and +1 <wil>.
+If you have a Blessed card in play: Also get +1 <agi>.
+```
+*Flavor: "The city tried to break me. I am still here."*
+
+---
+
+### 046 — Cryptic Notes (1) ✦ Custom
+**Investigator:** Greystoke | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 1r |
+| Traits | Insight. |
+| Icons | 2 × `<int>` |
+
+```
+Fast. Investigate. If you succeed, draw 2 cards.
+If you succeed by 2 or more, also discover 1
+additional clue at your location.
+```
+*Flavor: "Two hundred years of marginalia. Every note matters."*
+
+---
+
+### 047 — Spirit Veil (1) ✦ Custom
+**Investigators:** Agnes + Abel | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 0r |
+| Traits | Spell. Spirit. |
+| Icons | 1 × `<wil>` |
+
+```
+Fast. Play when a chaos token is revealed during
+a skill test you are performing.
+Cancel that token's effect. Draw 1 card.
+```
+*Flavor: "The spirits do not let the darkness in without a fight."*
+
+---
+
+### 048 — Stubborn (1) ✦ Custom
+**Investigators:** Agnes + Abel | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Skill |
+| Traits | Innate. |
+| Icons | 1 × `<wil>` + 1 × `<wld>` |
+
+```
+Fast. Play when you fail a skill test by exactly 1.
+You may treat that test as a success with 0 remaining.
+Take 1 horror.
+```
+*Flavor: "Close enough."*
+
+---
+
+### Expanded Neutral Suite
+
+---
+
+### 049 — Torch (0) Official reskin
+**All investigators** | **XP:** 0
+
+| Field | Value |
+|---|---|
+| Type | Asset — Hand |
+| Cost | 1r |
+| Traits | Item. Tool. |
+| Slot | Hand |
+| Uses | 3 light |
+| Icons | 1 × `<int>` |
+
+```
+Uses (3 light).
+<act> Spend 1 light: Investigate. You get +1 <int>
+for this investigation.
+```
+*Flavor: "Some things only reveal themselves in the dark."*
+
+---
+
+### 050 — Field Notes (0) ✦ Custom
+**All investigators** | **XP:** 0
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 1r |
+| Traits | Insight. |
+| Icons | 1 × `<int>` + 1 × `<wld>` |
+
+```
+Draw 2 cards. You may discard 1 card from your hand
+to draw 1 additional card.
+```
+*Flavor: "Write everything down. You will forget more than you think."*
+
+---
+
+### 051 — Steadfast (1) ✦ Custom
+**All investigators** | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Skill |
+| Traits | Innate. |
+| Icons | 2 × `<wld>` |
+
+```
+If this skill test is successful: Heal 1 horror from
+an investigator at your location.
+```
+*Flavor: "Hold the line."*
+
+---
+
+### 052 — Calling in Favors (1) Official
+**All investigators** | **XP:** 2
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 0r |
+| Traits | Connection. |
+| Icons | 1 × `<wld>` |
+
+```
+Fast. Return an Ally asset you control to its
+owner's hand. Draw 2 cards.
+```
+*Flavor: "Everyone owes someone something."*
+
+---
+
+### 053 — Inspiring Presence (2) ✦ Custom
+**All investigators** | **XP:** 4
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 1r |
+| Traits | Insight. |
+| Icons | 1 × `<wil>` + 1 × `<wld>` |
+
+```
+Fast. Choose an investigator at your location.
+That investigator heals 1 damage and 1 horror.
+Draw 1 card.
+```
+*Flavor: "Sometimes all it takes is knowing someone else is still standing."*
+
+---
+
+### 054 — Double or Nothing (2) Official
+**All investigators** | **XP:** 4
+
+| Field | Value |
+|---|---|
+| Type | Event |
+| Cost | 0r |
+| Traits | Fortune. |
+| Icons | 1 × `<wld>` |
+
+```
+Fast. Play before a skill test you are performing.
+If you succeed: Double the clues discovered or
+damage dealt as a result of this test.
+If you fail: Take 2 horror.
+```
+*Flavor: "What's the worst that could happen?"*
+
+---
+
+## Cards Requiring ×2 Copies
+
+The following cards should be printed in pairs for deck use:
+
+| Card | Folder | Reason |
+|---|---|---|
+| Iron Will (1) | 045 | Skill commit — want 2 in deck |
+| Cryptic Notes (1) | 046 | Event — runs out fast |
+| Spirit Veil (1) | 047 | Fast token cancel — want 2 |
+| Stubborn (1) | 048 | Skill — want 2 in deck |
+| Steadfast (1) | 051 | Skill — want 2 in deck |
+| Field Notes (0) | 050 | Draw engine — want 2 |
+| Calling in Favors (1) | 052 | Ally recursion event |
+| Inspiring Presence (2) | 053 | Support event |
+| Ancient Cache (0) | 041 | Economy — always run 2 |
+| Ancient Cache (2) | 042 | Economy — always run 2 |
+| Multi-Shot (2) | 014 | Core Abel combat event |
+| Fire Walker (2) | 015 | Core Abel movement event |
+| Intellectual Violence (3) | 025 | Greystoke's only attack |
+| Rain Dance (2) | 032 | Team protection event |
+
+---
+
+## Updated Complete Card Count
+
+| Class | Cards | Custom | Reskin | Official |
+|---|---|---|---|---|
+| Guardian | 17 | 9 | 4 | 4 |
+| Seeker | 10 | 10 | 0 | 0 |
+| Mystic | 5+1 | 5 | 1 | 0 |
+| Survivor | 8+1 | 7 | 1 | 1 |
+| Neutral | 4+5 | 4 | 0 | 5 |
+| Level 1 | 4 | 4 | 0 | 0 |
+| **Total** | **55** | **39** | **6** | **10** |
+
+---
+
+## Updated XP Summary — All Investigators
+
+| Investigator | Early (0-10 XP) | Mid (11-25 XP) | Late (26-50 XP) |
+|---|---|---|---|
+| Ironhide | Father Thomas (2), R'lyeh's Fury | Aquinnah (3), Hollow Warden (3) | Father Thomas (4), Aquinnah (5) |
+| Greystoke | Relic Harvester (2), Deduction | Unbroken Codex (2), Ancient Binding (2) | Intellectual Violence, Immortal's Eye |
+| Agnes | Night-Gaunt (2), Pale Child (2) | Arcane Athame (3), Night-Gaunt (4) | Pale Child (5), Night-Gaunt (5) |
+| Abel | Sacred Spear (3), Spirit Coyote (2) | Multi-Shot, Fire Walker (2), Bear Pelt | Sweat Lodge (3), Ancient Warrior (4) |
