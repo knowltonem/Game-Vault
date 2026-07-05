@@ -403,6 +403,29 @@ or horror: Exhaust The Eye Amulet — prevent
 
 ---
 
+**The Collar of Sekhmet** — Cost 2r
+
+| Field | Value |
+|---|---|
+| **Name** | The Collar of Sekhmet |
+| **Subtitle** | Worn in Ten Thousand Battles |
+| **Type** | Asset — Body |
+| **Cost** | 2r |
+| **Traits** | Item. Relic. Blessed. |
+| **Slot** | Body |
+| **HP soak** | 1 |
+| **SAN soak** | 1 |
+| **Unique** | Yes |
+| **Icons** | 1 × `<com>` + 1 × `<wil>` |
+
+```
+You get +1 <com> while The Collar of Sekhmet
+is in play.
+```
+*Flavor: "The curator said it was decorative. He had never worn it into the dark."*
+
+---
+
 ### Servitor Allies
 
 **Ra-Night-Gaunt** — Combat Servitor
@@ -514,29 +537,34 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | 018-019 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
 | 020-021 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
 
-### Skills (5 cards)
+### Skills (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 022 | Unexpected Courage | Warwick Resolve | Skill | Neutral | ×1 |
-| 023-024 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
-| 025-026 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
+| 022-023 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
+| 024-025 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
 
 ### Weapons (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 027 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 028 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 029 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| 026 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 027 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 028 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
 
 ### Allies (3 cards)
 
 | # | Card | Type | Class | Qty | Icons | Secondary use |
 |---|---|---|---|---|---|---|
-| 030 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
-| 031 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
-| 032 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
+| 029 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
+| 030 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
+| 031 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
+
+### Equipment (1 card)
+
+| # | Card | Reskin Name | Type | Class | Qty | Icons |
+|---|---|---|---|---|---|---|
+| 032 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
 
 ---
 
@@ -548,9 +576,10 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 5 |
 | Combat | Desert Trick, Sand Veil | 3 |
 | Utility | The Family Name, Expedition Protocol | 4 |
-| Skills | Warwick Resolve, The Opportunist, Warwick Gambit | 5 |
+| Skills | The Opportunist, Warwick Gambit | 4 |
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
 | Allies | Ra-Night-Gaunt, Anubis-Touched, The Horus Heresy | 3 |
+| Equipment | The Collar of Sekhmet | 1 |
 | **Total** | | **30** |
 
 ---
@@ -559,10 +588,10 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | Test type | Icons | Sources |
 |---|---|---|
-| `<com>` | 6 | Ra ×2, Khopesh ×2, Kopis ×1, Anubis ×1 |
+| `<com>` | 7 | Ra ×2, Khopesh ×2, Kopis ×1, Anubis ×1, Collar ×1 |
 | `<int>` | 4 | Horus ×1, Kopis ×1, Academic's Eye ×1, Ancient Intuition ×1 |
-| `<wil>` | 4 | Anubis ×1, Horus ×1, Sekhem ×1, Warwick Resolve ×1 |
-| `<wld>` | 10 | Opportunist ×4, Warwick Gambit ×4, Warwick Resolve ×2 |
+| `<wil>` | 5 | Anubis ×1, Horus ×1, Sekhem ×1, Collar ×1, Warwick Resolve removed |
+| `<wld>` | 8 | Opportunist ×4, Warwick Gambit ×4 |
 | `<agi>` | 0 | None — intentional |
 
 ---
@@ -594,6 +623,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Unexpected Courage | Warwick Resolve | *"She is more surprised than anyone."* |
 | Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
 | Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
+| The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
 
 ---
 
