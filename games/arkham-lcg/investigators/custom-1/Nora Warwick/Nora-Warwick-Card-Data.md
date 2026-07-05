@@ -23,6 +23,8 @@
 ```
 Once per round: Spend 2 resources to add 2 bless
 tokens to the chaos bag.
+You may not add more than 3 bless tokens to the
+chaos bag per round from your abilities and assets.
 ```
 
 ### Elder Sign
@@ -77,7 +79,7 @@ is in play.
 
 <fre> At the start of your turn: Gain 1 resource.
 
-<act> Spend 3 resources: Discover 1 clue at your
+<act> Spend 4 resources: Discover 1 clue at your
 location and add 1 bless token to the chaos bag.
 
 <fre> After you spend 5 or more resources in a
@@ -290,6 +292,7 @@ or horror: Exhaust The Eye Amulet — prevent
 
 **Ra-Night-Gaunt** — Combat Servitor
 - Base: 2 HP / 1 SAN
+- **Cost: 3r**
 - COM 3 fixed
 - Icons: 2 × `<com>`
 - Weapon slot: holds The Khopesh
@@ -299,6 +302,7 @@ or horror: Exhaust The Eye Amulet — prevent
 
 **Anubis-Touched** — Defensive Servitor
 - Base: 1 HP / 2 SAN
+- **Cost: 3r**
 - COM 3 fixed
 - Icons: 1 × `<wil>` + 1 × `<com>`
 - Weapon slot: holds The Sekhem Sceptre
@@ -308,6 +312,7 @@ or horror: Exhaust The Eye Amulet — prevent
 
 **The Horus Heresy** — Support Servitor (starting deck, level 0)
 - Base: 2 HP / 1 SAN
+- **Cost: 4r**
 - COM 3 fixed
 - Icons: 1 × `<int>` + 1 × `<wil>`
 - Passive: You get +1 `<int>` and +1 `<agi>` while The Horus Heresy is in play
@@ -351,8 +356,8 @@ Lean: Correct — covers all of Nora's core test types.
 Current: ×1 of each soak card.
 Lean: Keep ×1 each — three distinct soak cards, strategic choice on attachment.
 
-### 5. Ally Cost — Not Yet Decided
-Lean: 3r each — affordable with Nora's economy, meaningful investment.
+### 5. Ally Cost — RESOLVED
+Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost justifies premium).
 
 ---
 
