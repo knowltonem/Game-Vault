@@ -515,56 +515,63 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | 006-007 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
 | 008-009 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×2 |
 
-### Investigation (5 cards)
+### Investigation (6 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 010-011 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
 | 012-013 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
-| 014 | Deduction | The Academic's Eye | Skill | Seeker | ×1 |
+| 014-015 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
 
-### Combat Support (3 cards)
+### Combat Support (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 015 | Cheap Shot | Desert Trick | Event | Rogue | ×1 |
-| 016-017 | Elusive | Sand Veil | Event | Rogue | ×2 |
+| 016-017 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
+| 018-019 | Elusive | Sand Veil | Event | Rogue | ×2 |
 
 ### Utility (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 018-019 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
-| 020-021 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
+| 020-021 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
+| 022-023 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
 
 ### Skills (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 022-023 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
-| 024-025 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
+| 024-025 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
+| 026-027 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
 
 ### Weapons (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 026 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 027 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 028 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| 028 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 029 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 030 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
 
 ### Allies (3 cards)
 
 | # | Card | Type | Class | Qty | Icons | Secondary use |
 |---|---|---|---|---|---|---|
-| 029 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
-| 030 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
-| 031 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
+| 031 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
+| 032 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
+| 033 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
 
 ### Equipment (1 card)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 032 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
+| 034 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
+
+### Draw + Healing (2 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty | Role |
+|---|---|---|---|---|---|---|
+| 035 | Lucky Cigarette Case | The Scarab Compass | Asset | Rogue | ×1 | Draw engine |
+| 036 | Liquid Courage | River Water | Event | Neutral | ×1 | Horror heal |
 
 ---
 
@@ -580,7 +587,8 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
 | Allies | Ra-Night-Gaunt, Anubis-Touched, The Horus Heresy | 3 |
 | Equipment | The Collar of Sekhmet | 1 |
-| **Total** | | **30** |
+| Draw + Healing | Scarab Compass, River Water | 2 |
+| **Total** | | **34** |
 
 ---
 
@@ -623,6 +631,8 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Unexpected Courage | Warwick Resolve | *"She is more surprised than anyone."* |
 | Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
 | Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
+| Lucky Cigarette Case | The Scarab Compass | *"It always points toward what she needs. She stopped questioning it."* |
+| Liquid Courage | River Water | *"The Nile remembers. So does she."* |
 | The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
 
 ---
