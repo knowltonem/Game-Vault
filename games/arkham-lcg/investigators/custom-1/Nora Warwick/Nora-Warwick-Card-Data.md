@@ -47,6 +47,7 @@ Guardian cards (0-2).
 Mystic cards (0-1).
 Neutral cards (0-5).
 Signature cards: The Warwick Collection ×1,
+The Book of the Dead ×1,
 The Family Debt ×1, 1 random basic weakness.
 ```
 
@@ -121,6 +122,42 @@ resource you cannot pay, take 1 horror or
 ```
 "The telegram arrived at the worst possible
 moment. They always do."
+```
+
+---
+
+### 004 — The Book of the Dead
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Cost** | 1r |
+| **Traits** | Item. Tome. Relic. Blessed. |
+| **Slot** | Arcane |
+| **SAN soak** | 2 |
+| **Unique** | Yes |
+| **Icons** | 2 × `<int>` |
+
+### Rules Text
+```
+Nora Warwick deck only. Unique.
+
+You get +1 <int> while The Book of the Dead
+is in play.
+
+<fre> After you successfully investigate: You
+may exhaust The Book of the Dead — investigate
+again at your location without spending an action.
+
+<fre> After The Book of the Dead enters play:
+Search your deck for any Insight or Relic card
+and draw it. Shuffle your deck.
+```
+
+### Flavor
+```
+"The British Museum has a copy. Mine has better
+footnotes."
 ```
 
 ---
