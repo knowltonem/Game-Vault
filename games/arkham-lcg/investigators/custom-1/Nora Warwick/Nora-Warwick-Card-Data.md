@@ -191,7 +191,28 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 - **Horror AND damage if unpaid** — 1 horror + 1 damage per resource short
 - **Discard: 5r + action** — clean exit if prepared
 
-### Team Synergies
+### All Three Allies — Competing For Different Reasons
+
+| Ally | Passive | Boost | Why You Want It |
+|---|---|---|---|
+| Ra-Night-Gaunt | +1 `<com>` | COM 4 | Fighter reliability |
+| Anubis-Touched | +1 `<wil>` | WIL 4 | Encounter protection + bless ability |
+| The Horus Heresy | +1 `<int>` + +1 `<agi>` | INT 7 + AGI 3 | Investigate ceiling + evasion |
+
+### Full Stat Picture — All Ally Combinations
+
+*(Collection always in play — base INT already 6)*
+
+| Active Allies | INT | COM | WIL | AGI |
+|---|---|---|---|---|
+| None | 6 | 3 | 3 | 2 |
+| Ra only | 6 | **4** | 3 | 2 |
+| Anubis only | 6 | 3 | **4** | 2 |
+| Horus Heresy only | **7** | 3 | 3 | **3** |
+| Ra + Anubis | 6 | **4** | **4** | 2 |
+| Ra + Horus Heresy | **7** | **4** | 3 | **3** |
+| Anubis + Horus Heresy | **7** | 3 | **4** | **3** |
+
 
 | Pairing | Dynamic |
 |---|---|
@@ -285,13 +306,14 @@ or horror: Exhaust The Eye Amulet — prevent
 - Identity: Protector, horror absorber
 - No secondary use — official ally design
 
-**Eye of Horus** — Support Servitor (upgrade only, level 2+)
+**The Horus Heresy** — Support Servitor (starting deck, level 0)
 - Base: 2 HP / 1 SAN
 - COM 3 fixed
 - Icons: 1 × `<int>` + 1 × `<wil>`
+- Passive: You get +1 `<int>` and +1 `<agi>` while The Horus Heresy is in play
 - Weapon slot: holds any weapon
 - Soak slot: holds any soak asset
-- Identity: Investigative support, bless on clue
+- Identity: Investigative ceiling + evasion unlock
 - No secondary use — official ally design
 
 ### Weapon Icons and Discard Options
