@@ -214,6 +214,82 @@ A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Ox
 
 ---
 
+## Signature Weapon and Soak System
+
+### Weapons
+
+| Weapon | Holder | Lv 0 | Lv 2 | Lv 4 |
+|---|---|---|---|---|
+| The Kopis | Nora | +1 COM, 1 dmg, gain 1r on kill | +1 COM, 2 dmg, 1r + bless on kill | +2 COM, 2 dmg, 2r + bless on kill |
+| The Khopesh | Ra-Night-Gaunt | +1 COM, 1 dmg, 1 bless on kill | +2 COM, 2 dmg, 2 bless on kill | +2 COM, 2 dmg, 2 bless + splash dmg |
+| The Sekhem Sceptre | Anubis-Touched | +1 WIL, 1 horror dmg, cancel horror | +1 WIL, 2 horror dmg, cancel + heal 1 | +2 WIL, 2 horror dmg, cancel + heal 2 + bless |
+
+---
+
+### Soak Assets (×1 each)
+
+**The Canopic Wrappings** — Cost 1r
+```
+Attach to an Ally asset you control.
+When attached: Choose HP or SAN. That ally
+gains +2 of the chosen type permanently.
+<fre> At the end of the upkeep phase: Heal
+1 damage from the attached ally.
+```
+*Flavor: "The jars remember their purpose. So do the wrappings."*
+
+---
+
+**The Scarab Amulet** — Cost 1r
+```
+Attach to an Ally asset you control.
+When attached: Choose HP or SAN. That ally
+gains +2 of the chosen type permanently.
+<fre> At the end of the upkeep phase: Heal
+1 horror from the attached ally.
+```
+*Flavor: "Khepri rolls the sun. The scarab rolls away what would destroy you."*
+
+---
+
+**The Eye Amulet** — Cost 2r
+```
+Attach to an Ally asset you control.
+When attached: Choose HP or SAN. That ally
+gains +2 of the chosen type permanently.
+<rea> After the attached ally soaks damage
+or horror: Exhaust The Eye Amulet — prevent
+1 of that damage or horror.
+```
+*Flavor: "Horus lost his eye in battle and found it again. What it sees now is different."*
+
+---
+
+### Servitor Allies
+
+**Ra-Night-Gaunt** — Combat Servitor
+- Base: 2 HP / 1 SAN
+- COM 3 fixed
+- Weapon slot: holds The Khopesh
+- Soak slot: holds any soak asset
+- Identity: Fighter, bless generator
+
+**Anubis-Touched** — Defensive Servitor
+- Base: 1 HP / 2 SAN
+- COM 3 fixed
+- Weapon slot: holds The Sekhem Sceptre
+- Soak slot: holds any soak asset
+- Identity: Protector, horror absorber
+
+**Eye of Horus** — Support Servitor (upgrade only)
+- Base: 2 HP / 1 SAN
+- COM 3 fixed
+- Weapon slot: holds any weapon
+- Soak slot: holds any soak asset
+- Identity: Investigative support, bless on clue
+
+---
+
 ## 30-Card Deck (TBD)
 
 *Deck design pending. Core cards to consider:*
