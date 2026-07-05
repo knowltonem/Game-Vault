@@ -130,6 +130,8 @@ moment. They always do."
 
 | Field | Value |
 |---|---|
+| **Name** | The Book of the Dead |
+| **Subtitle** | Arcane and Unnatural |
 | **Type** | Asset — Arcane |
 | **Cost** | 1r |
 | **Traits** | Item. Tome. Relic. Blessed. |
