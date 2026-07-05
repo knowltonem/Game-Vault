@@ -158,8 +158,7 @@ and draw it. Shuffle your deck.
 
 ### Flavor
 ```
-"The British Museum has a copy. Mine has better
-footnotes."
+"With THIS KNOWLEDGE I can see the unseen."
 ```
 
 ---
