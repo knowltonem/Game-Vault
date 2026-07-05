@@ -444,14 +444,106 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ---
 
-## 30-Card Deck (TBD)
+## 30-Card Deck
 
-*Deck design pending. Core cards to consider:*
+### Economy (6 cards)
 
-**Economy:** Emergency Cache, Lucky Cigarette Case, Lone Wolf
-**Investigation:** Pilfer, Pickpocketing, Shortcut
-**Combat:** .41 Derringer, Butterfly Swords, Cheap Shot
-**Support:** Teamwork, Calling in Favors, Liquid Courage
-**Skills:** Manual Dexterity, Opportunist, Daring
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 004-005 | Ancient Cache | Tomb Cache | Event | Neutral | ×2 |
+| 006-007 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
+| 008-009 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×2 |
 
-*Full deck will be built after signature cards are confirmed.*
+### Investigation (6 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 010-011 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
+| 012-013 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
+| 014-015 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
+
+### Combat Support (4 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 016-017 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
+| 018-019 | Elusive | Sand Veil | Event | Rogue | ×2 |
+
+### Utility (4 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 020-021 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
+| 022-023 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
+
+### Skills (6 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 024-025 | Unexpected Courage | Warwick Resolve | Skill | Neutral | ×2 |
+| 026-027 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
+| 028-029 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
+
+### Weapons (3 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty | Icons |
+|---|---|---|---|---|---|---|
+| 030 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 031 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 032 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+
+---
+
+## Deck Summary
+
+| Category | Cards | Slots |
+|---|---|---|
+| Economy | Tomb Cache, Warwick Clause, Pact of Kha | 6 |
+| Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 6 |
+| Combat | Desert Trick, Sand Veil | 4 |
+| Utility | The Family Name, Expedition Protocol | 4 |
+| Skills | Warwick Resolve, The Opportunist, Warwick Gambit | 6 |
+| Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
+| **Total** | | **30** |
+
+---
+
+## Reskin Flavor Lines
+
+| Card | Reskin | Flavor |
+|---|---|---|
+| Ancient Cache | Tomb Cache | *"Every expedition leaves something behind. She knows where to look."* |
+| Lone Wolf | The Warwick Clause | *"The Warwick endowment has a clause. She's the only one who reads it."* |
+| Faustian Bargain | The Pact of Kha | *"Kha's price is always paid in darkness. She pays it anyway."* |
+| Crack the Case | The Warwick Method | *"Find everything. Document nothing. Profit immediately."* |
+| Working a Hunch | Ancient Intuition | *"Two hundred years of digs, catalogued and cross-referenced. She already knows what's here."* |
+| Deduction | The Academic's Eye | *"She sees what others miss. Professionally."* |
+| Cheap Shot | Desert Trick | *"Oxford never taught her this. Egypt did."* |
+| Elusive | Sand Veil | *"The sand swallows footprints. She learned this early."* |
+| Calling in Favors | The Family Name | *"The Warwick name opens doors. She uses it sparingly. Mostly."* |
+| Teamwork | Expedition Protocol | *"The dig protocol requires cooperation. She wrote the protocol."* |
+| Unexpected Courage | Warwick Resolve | *"She is more surprised than anyone."* |
+| Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
+| Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
+
+---
+
+## Deckbuilding Check
+
+| Rule | Cards | Count | Limit | Status |
+|---|---|---|---|---|
+| Rogue 0-5 | Lone Wolf, Pact of Kha, Desert Trick, Sand Veil, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem | 14 | No limit | ✅ |
+| Seeker 0-2 | Warwick Method, Ancient Intuition, Academic's Eye | 6 | 6 max | ✅ |
+| Guardian 0-2 | Expedition Protocol | 2 | 4 max | ✅ |
+| Neutral | Tomb Cache, Warwick Resolve | 4 | No limit | ✅ |
+
+---
+
+## Weapon As Skill Commit Reference
+
+| Weapon drawn | Not equipping? | Best commit target |
+|---|---|---|
+| The Kopis | Already equipped | `<com>` + `<int>` — fight or investigate |
+| The Khopesh | Wrong scenario | 2×`<com>` — any combat test |
+| The Sekhem Sceptre | Horror not a problem | `<com>` + `<wil>` — fight or encounter test |
+
