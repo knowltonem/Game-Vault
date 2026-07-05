@@ -426,6 +426,30 @@ is in play.
 
 ---
 
+---
+
+**The Warwick Incendiary** — Cost 3r
+
+| Field | Value |
+|---|---|
+| **Name** | The Warwick Incendiary |
+| **Subtitle** | Do Not Shake |
+| **Type** | Event |
+| **Cost** | 3r |
+| **Class** | Rogue |
+| **Traits** | Improvised. Relic. Cursed. |
+| **Icons** | 1 × `<wil>` + 1 × `<int>` |
+
+```
+Choose a location. Deal 2 damage to each enemy
+at that location. Each investigator at that
+location takes 1 damage.
+Add 1 bless token to the chaos bag.
+```
+*Flavor: "The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."*
+
+---
+
 ### Servitor Allies
 
 **Ra-Night-Gaunt** — Combat Servitor
@@ -505,7 +529,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ---
 
-## 30-Card Deck
+## 35-Card Deck
 
 ### Economy (6 cards)
 
@@ -523,55 +547,56 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | 012-013 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
 | 014-015 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
 
-### Combat Support (4 cards)
+### Combat Support (5 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 016-017 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
 | 018-019 | Elusive | Sand Veil | Event | Rogue | ×2 |
+| 020 | Dynamite Blast | The Warwick Incendiary | Event | Rogue | ×1 |
 
 ### Utility (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 020-021 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
-| 022-023 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
+| 021-022 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
+| 023-024 | Teamwork | Expedition Protocol | Event | Guardian | ×2 |
 
 ### Skills (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 024-025 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
-| 026-027 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
+| 025-026 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
+| 027-028 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
 
 ### Weapons (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 028 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 029 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 030 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| 029 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 030 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 031 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
 
 ### Allies (3 cards)
 
 | # | Card | Type | Class | Qty | Icons | Secondary use |
 |---|---|---|---|---|---|---|
-| 031 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
-| 032 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
-| 033 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
+| 032 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
+| 033 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
+| 034 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
 
 ### Equipment (1 card)
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 034 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
+| 035 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
 
 ### Draw + Healing (2 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty | Role |
 |---|---|---|---|---|---|---|
-| 035 | Lucky Cigarette Case | The Scarab Compass | Asset | Rogue | ×1 | Draw engine |
-| 036 | Liquid Courage | River Water | Event | Neutral | ×1 | Horror heal |
+| 036 | Lucky Cigarette Case | The Scarab Compass | Asset | Rogue | ×1 | Draw engine |
+| 037 | Liquid Courage | River Water | Event | Neutral | ×1 | Horror heal |
 
 ---
 
@@ -581,14 +606,14 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 |---|---|---|
 | Economy | Tomb Cache, Warwick Clause, Pact of Kha | 6 |
 | Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 5 |
-| Combat | Desert Trick, Sand Veil | 3 |
+| Combat | Desert Trick, Sand Veil, Warwick Incendiary | 5 |
 | Utility | The Family Name, Expedition Protocol | 4 |
 | Skills | The Opportunist, Warwick Gambit | 4 |
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
 | Allies | Ra-Night-Gaunt, Anubis-Touched, The Horus Heresy | 3 |
 | Equipment | The Collar of Sekhmet | 1 |
 | Draw + Healing | Scarab Compass, River Water | 2 |
-| **Total** | | **34** |
+| **Total** | | **35** |
 
 ---
 
@@ -631,6 +656,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Unexpected Courage | Warwick Resolve | *"She is more surprised than anyone."* |
 | Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
 | Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
+| Dynamite Blast | The Warwick Incendiary | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
 | Lucky Cigarette Case | The Scarab Compass | *"It always points toward what she needs. She stopped questioning it."* |
 | Liquid Courage | River Water | *"The Nile remembers. So does she."* |
 | The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
