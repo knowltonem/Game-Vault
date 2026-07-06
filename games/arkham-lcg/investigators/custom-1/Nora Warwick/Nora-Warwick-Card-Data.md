@@ -604,50 +604,87 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ### 001 - Nora Warwick Investigator Card
 ```
-Cinematic gritty dark fantasy photograph, hyper-detailed,
-8K resolution. Professor Nora Warwick, British archaeologist,
-early 30s. Sharp angular features, intelligent dark eyes,
-weathered complexion from years in the field. Hair pulled
-back severely, a few loose strands catching the torchlight.
-Wearing a worn brown leather flight jacket -- lived-in,
-scarred, covered in small pockets -- over khaki expedition
-shirt, canvas trousers, heavy field boots.
+Cinematic gritty dark fantasy photograph. Close to mid body
+shot, low camera angle looking sharply upward. Professor Nora
+Warwick, British archaeologist, early 30s, at the precise
+moment she reads something in The Book of the Dead that
+cannot be unread -- head tilted slightly downward toward the
+open pages, eyes narrowed in focused inquisition not wide
+with surprise.
 
-In her left hand: an ancient Egyptian scarab amulet on a
-corroded bronze chain, carved lapis lazuli, emanating a
-faint warm gold luminescence that catches on her jaw and
-knuckles. She holds it unconsciously, like she has forgotten
-it is there.
+Expression: pure focused inquisition. Eyes narrowed slightly,
+not wide -- she is reading, not reacting. Head tilted the
+precise degree of someone who has found the passage they were
+looking for and is now extracting every detail from it. One
+eyebrow fractionally raised -- not surprise, recognition.
+She has suspected this. The book is confirming it. Her mouth
+is set in a firm line, jaw forward, the expression of a woman
+who catalogues the impossible professionally and is currently
+cataloguing this. No terror. No awe. Assessment.
 
-In her right hand and cradled against her chest: The Book
-of the Dead. Massive. Oppressively heavy. Large ornate gold
-metal binding with raised hieroglyphic reliefs, tarnished
-at the edges but gleaming at the centre. The book is open.
-She is leaning slightly into it, eyes tracking the text,
-expression caught between academic fascination and something
-she will not name. From the open pages: an eerie cold green
-light pours upward -- not reflected light but generated light,
-alive, pulsing faintly, as if the book breathes. The green
-glow catches the underside of her face and the inside of
-her jacket.
+One hand pressed flat against the open page as if to stop it
+moving, the other gripping the gold binding so hard her
+knuckles are white.
 
-Background: ancient Egyptian burial chamber. Towering stone
-pillars carved with hieroglyphs, some crumbling, one fallen.
-Torchlight from an unseen source behind and to the right --
-warm amber against the cold green from the book. Dust motes
-suspended in the air. Shadows deep and absolute beyond the
-torchlight. Suggestion of something vast in the darkness
-behind her -- architecture that should not exist, angles
-that do not resolve correctly.
+Dark complexion weathered by fieldwork, sharp angular
+features, hair pulled severely back with loose strands lit
+green from below. Wearing a worn brown leather flight jacket
+over khaki expedition shirt -- lived-in, scarred, pockets
+full. Around her neck on a corroded bronze chain: an ancient
+Egyptian scarab amulet, lapis lazuli, catching the green
+light from the book and throwing it back gold.
 
-Mood: the moment before everything changes. She knows
-something no one else knows. She is not sure she should.
+The Book of the Dead in her hands: massive, oppressively
+heavy, large ornate gold metal binding with raised
+hieroglyphic reliefs along the spine and cover edges.
+The book is open. From the open pages: an eerie cold green
+light pours upward -- not reflected light but generated
+light, alive, pulsing faintly as if the book breathes.
+The green glow is the dominant light source on her face,
+washing her jaw, cheekbones, the underside of her brow
+in cold green. Her eyes in this light look like she is
+seeing through the page into something below it.
+
+From the open pages simultaneously: three streams of
+ancient Egyptian energy rising -- cold green from the
+hieroglyphs themselves, deep gold from the metal binding
+reacting, electric blue-white from the void between the
+words where something lives. The three streams rising
+around her hands and face as she reads, the colours mixing
+on her skin and jacket.
+
+Background: crumbling Egyptian burial chamber, towering
+stone pillars with hieroglyphs that seem to shift in the
+peripheral, one pillar fallen. The chamber walls in the
+far background briefly luminous where the energy from
+the book touches them. Above: chamber ceiling lost in
+absolute darkness. Below and around her feet: dust rising
+from the stone floor reacting to the energy, catching the
+green and gold light as it spirals upward. Wrong geometry
+of the chamber -- angles that do not resolve correctly --
+visible in the deep background.
+
+Lighting: cold green from the open book as dominant
+source, deep gold from the binding reacting, electric
+blue-white from the page void, all three converging
+on her face and hands simultaneously. Deep void-black
+at the absolute edges. Warm amber torchlight from
+an unseen source far behind her -- the only normal
+light in the frame, barely reaching her.
+
+Mood: professional certainty in the face of the
+impossible. She has found what she came for. It is
+worse than expected. She is already three steps ahead
+of what to do with it. This is Tuesday.
 
 Style: gritty cinematic realism, Ridley Scott lighting,
-photographic depth of field with shallow focus on her face
-and the book. Colour palette: deep amber, bone, shadow black,
-cold green. No soft edges. No fantasy prettiness. This is
-real and it is wrong.
+real film grain, extreme high contrast, three colour
+energy mixing on her face and hands, macro detail on
+her expression and the open pages, the gold binding
+gleaming against the dark. Colour palette: cold green,
+deep gold, electric blue-white, void black, amber at
+the far edges. No soft edges. No fantasy prettiness.
+8K. --v 7
 ```
 Status: PROMPT LOCKED -- not yet generated.
 

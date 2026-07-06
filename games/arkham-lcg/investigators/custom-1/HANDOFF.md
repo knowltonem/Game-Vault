@@ -845,50 +845,59 @@ Flavor: `"The Nile remembers. So does she."`
 
 ### 001 -- Investigator Card
 ```
-Cinematic gritty dark fantasy photograph, hyper-detailed,
-8K resolution. Professor Nora Warwick, British archaeologist,
-early 30s. Sharp angular features, intelligent dark eyes,
-weathered complexion from years in the field. Hair pulled
-back severely, a few loose strands catching the torchlight.
-Wearing a worn brown leather flight jacket -- lived-in,
-scarred, covered in small pockets -- over khaki expedition
-shirt, canvas trousers, heavy field boots.
+Cinematic gritty dark fantasy photograph. Close to mid body
+shot, low camera angle looking sharply upward. Professor Nora
+Warwick, British archaeologist, early 30s, at the precise
+moment she reads something in The Book of the Dead that
+cannot be unread -- head tilted slightly downward toward the
+open pages, eyes narrowed in focused inquisition not wide
+with surprise.
 
-In her left hand: an ancient Egyptian scarab amulet on a
-corroded bronze chain, carved lapis lazuli, emanating a
-faint warm gold luminescence that catches on her jaw and
-knuckles. She holds it unconsciously, like she has forgotten
-it is there.
+Expression: pure focused inquisition. Eyes narrowed slightly,
+not wide -- she is reading, not reacting. Head tilted the
+precise degree of someone who has found the passage they were
+looking for and is now extracting every detail from it. One
+eyebrow fractionally raised -- not surprise, recognition.
+She has suspected this. The book is confirming it. Her mouth
+is set in a firm line, jaw forward, the expression of a woman
+who catalogues the impossible professionally and is currently
+cataloguing this. No terror. No awe. Assessment.
 
-In her right hand and cradled against her chest: The Book
-of the Dead. Massive. Oppressively heavy. Large ornate gold
-metal binding with raised hieroglyphic reliefs, tarnished
-at the edges but gleaming at the centre. The book is open.
-She is leaning slightly into it, eyes tracking the text,
-expression caught between academic fascination and something
-she will not name. From the open pages: an eerie cold green
-light pours upward -- not reflected light but generated light,
-alive, pulsing faintly, as if the book breathes. The green
-glow catches the underside of her face and the inside of
-her jacket.
+One hand pressed flat against the open page as if to stop it
+moving, the other gripping the gold binding so hard her
+knuckles are white. Dark complexion weathered by fieldwork,
+sharp angular features, hair pulled severely back with loose
+strands lit green from below. Wearing a worn brown leather
+flight jacket over khaki expedition shirt. Around her neck:
+ancient Egyptian scarab amulet, lapis lazuli, catching green
+light from the book and throwing it back gold.
 
-Background: ancient Egyptian burial chamber. Towering stone
-pillars carved with hieroglyphs, some crumbling, one fallen.
-Torchlight from an unseen source behind and to the right --
-warm amber against the cold green from the book. Dust motes
-suspended in the air. Shadows deep and absolute beyond the
-torchlight. Suggestion of something vast in the darkness
-behind her -- architecture that should not exist, angles
-that do not resolve correctly.
+The Book of the Dead: massive, large ornate gold metal
+binding with raised hieroglyphic reliefs. Open. From the
+pages: cold green light pours upward -- generated not
+reflected, alive, pulsing as if the book breathes. Three
+streams rising simultaneously -- cold green from hieroglyphs,
+deep gold from binding reacting, electric blue-white from
+the void between words. All three mixing on her face.
 
-Mood: the moment before everything changes. She knows
-something no one else knows. She is not sure she should.
+Background: crumbling Egyptian burial chamber, towering
+stone pillars with hieroglyphs shifting in peripheral,
+one fallen. Wrong geometry -- angles that do not resolve
+correctly. Dust rising around her feet catching green and
+gold light spiraling upward. Void black at absolute edges.
+Warm amber torchlight far behind her -- the only normal
+light in frame, barely reaching her.
+
+Mood: professional certainty in the face of the impossible.
+She has found what she came for. It is worse than expected.
+She is already three steps ahead of what to do with it.
+This is Tuesday.
 
 Style: gritty cinematic realism, Ridley Scott lighting,
-photographic depth of field with shallow focus on her face
-and the book. Colour palette: deep amber, bone, shadow black,
-cold green. No soft edges. No fantasy prettiness. This is
-real and it is wrong.
+real film grain, extreme high contrast, three colour energy
+mixing on face and hands, macro detail on expression and
+open pages. Colour palette: cold green, deep gold, electric
+blue-white, void black, amber edges. 8K. --v 7
 ```
 Status: PROMPT LOCKED -- not yet generated.
 
