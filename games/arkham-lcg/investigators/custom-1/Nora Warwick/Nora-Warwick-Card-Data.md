@@ -548,12 +548,12 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ## 34-Card Deck
 
-### Economy (3 cards)
+### Economy (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
-| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
+| 017-018 | Faustian Bargain | The Pact of Kha | Event | Rogue | x2 |
 
 ### Movement (2 cards)
 
@@ -565,37 +565,36 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
-| 022-023 | Deduction | Oxford Studies | Skill | Seeker | x2 |
+| 021-022 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
+| 023-024 | Deduction | Oxford Studies | Skill | Seeker | x2 |
 
 ### Combat (5 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 024-025 | Ra's Wrath | (custom) | Event | Rogue | x2 |
+| 025-026 | Ra's Wrath | (custom) | Event | Rogue | x2 |
 | 012 | Dynamite Blast | Isfet's Fury | Event | Rogue | x1 |
-| 018-019 | Elusive | Sand Veil | Event | Rogue | x2 |
+| 019-020 | Elusive | Sand Veil | Event | Rogue | x2 |
 
-### Utility (3 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 026-027 | Calling in Favors | The Family Name | Event | Rogue | x2 |
-| 028 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
-
-### Skills (3 cards)
+### Utility (2 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 029-030 | Opportunist | The Opportunist | Skill | Rogue | x2 |
-| 031-032 | Daring | The Warwick Gambit | Skill | Rogue | x2 |
+| 027-028 | Sobek's Gift | (custom) | Event | Guardian | x2 |
 
-### Draw + Heal (6 cards)
+### Skills (6 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 033-034 | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
-| 035-036 | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
+| 029-030 | Manual Dexterity | Pharaoh's Chariot | Skill | Neutral | x2 |
+| 031-032 | (custom) | The Oxford Gambit | Skill | Rogue | x2 |
+| 033-034 | (custom) | Power of Thebes | Skill | Rogue | x2 |
+
+### Heal (2 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 035-036 | Logical Reasoning | Nile's Blessing | Event | Guardian | x2 |
 
 ### Weapons (3 cards)
 
@@ -632,17 +631,17 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | Category | Cards | Slots |
 |---|---|---|
-| Economy | Grave Robber, Pact of Kha | 3 |
+| Economy | Grave Robber, Pact of Kha | 4 |
 | Movement | Anti-Chamber | 2 |
 | Investigation | Ancient Intuition, Oxford Studies | 4 |
 | Combat | Ra's Wrath, Isfet's Fury, Sand Veil | 5 |
-| Utility | Family Name, Expedition Protocol | 3 |
-| Skills | Opportunist, Gambit | 4 |
+| Utility | Sobek's Gift | 2 |
+| Skills | Pharaoh's Chariot, Gambit, Power of Thebes | 6 |
 | Weapons | Kopis, Khopesh, Sekhem | 3 |
 | Allies | Ra, Call of Anubis, Horus | 3 |
 | Assets | Book of Dead, Collar of Sekhmet | 2 |
 | Soak | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
-| Draw + Heal | Cairo Revelation, Warwick Reasoning | 4 |
+| Heal | Warwick Reasoning | 2 |
 | **Total** | | **36** |
 ---
 
@@ -768,9 +767,10 @@ Status: PROMPT LOCKED -- not yet generated.
 | Deduction | Oxford Studies | *"She sees what others miss. Professionally."* |
 | Calling in Favors | The Family Name | *"The Warwick name opens doors. She uses it sparingly. Mostly."* |
 | Elusive | Sand Veil | *"The desert hides what it does not wish to be found."* |
-| Teamwork | Expedition Protocol | *"Every expedition needs a plan. She writes hers in advance."* |
-| Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
-| Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
+| Sobek's Gift | (custom) | *"Sobek Is Generous"* |
+| Manual Dexterity | Pharaoh's Chariot | *"Speed can often make up the difference."* |
+| (custom) | The Oxford Gambit | *"The family motto is not 'be careful'."* |
+| (custom) | Power of Thebes | *"Fill in flavor"* |
 | Dynamite Blast | Isfet's Fury | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
 | The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
 

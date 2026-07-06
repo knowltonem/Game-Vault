@@ -107,23 +107,20 @@ Bless generator. Sacred Spear + Spirit Coyote.
 - `.eon` convention: `Warwick-[Type]-[Card-Name].eon` (signatures) or `RYP-NW-###-Card-Name.eon` (regular deck)
 
 ### What Is Done
-- Investigator card Ã¢â‚¬â€ fully designed and locked
-- All signature cards Ã¢â‚¬â€ fully designed and locked
-- All pack cards Ã¢â‚¬â€ fully designed and locked
-- 36-card deck Ã¢â‚¬â€ in progress, Sand Veil Ãƒâ€”2 and Expedition Protocol Ãƒâ€”1 re-added
+- Investigator card — fully designed and locked
+- All signature cards — fully designed and locked
+- All pack cards — fully designed and locked
+- 36-card deck — fully designed: all 22 card entries (13 unique ×2, 9 singletons)
 - All card data in: `Nora Warwick/Nora-Warwick-Card-Data.md`
-- Ra's Wrath (024-025) Ã¢â‚¬â€ designed and blocked
-- Folders 001-036 created with all naming conventions fixed
-- Folder naming restructured: no a/b suffixes, each card copy = unique number
+- All 36 Strange Eons blocks printed with art prompts
+- All 36 folders created with correct naming conventions
+- PNGs exported and renamed for all 36 cards (no -Face, correct RYP-NW-###- prefix)
+- Deck pairs reordered to be adjacent (017-028)
+- Nora vs Finn Edwards analysis complete
 
 ### What Is NOT Done
-- The Family Name (026-027) Ã¢â‚¬â€ card data exists, user undecided
-- Handoff deck cards section Ã¢â‚¬â€ needs Strange Eons blocks for 013-036
-- Art Ã¢â‚¬â€ not yet generated
-- PNG exports Ã¢â‚¬â€ some done by agent, many folders only have .gitkeep
-
-### Immediate Next Task
-Continue card-by-card Strange Eons blocks. Next: The Family Name (026-027) or next player card.
+- Art generation (Midjourney) — not yet started
+- Need to check if any .eon files need updates after renames
 
 ---
 
@@ -472,23 +469,24 @@ Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremon
 
 Full Strange Eons blocks are generated per-card as we build them. See Nora-Warwick-Card-Data.md for the complete deck list and card data.
 
+Last updated: folders reordered so paired cards are adjacent (017-028 renumbered). The Family Name removed, Pact of Kha ×2 and Expedition Protocol ×2 in deck.
+
 Current 36-card deck:
 
 | # | Card | Reskin | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
 | 015-016 | Shortcut | Anti-Chamber | Event | Neutral | x2 |
-| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
-| 018-019 | Elusive | Sand Veil | Event | Rogue | x2 |
-| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
-| 022-023 | Deduction | Oxford Studies | Skill | Seeker | x2 |
-| 024-025 | Ra's Wrath | (custom) | Event | Rogue | x2 |
-| 026-027 | Calling in Favors | The Family Name | Event | Rogue | x2 |
-| 028 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
-| 029-030 | Opportunist | The Opportunist | Skill | Rogue | x2 |
-| 031-032 | Daring | The Warwick Gambit | Skill | Rogue | x2 |
-| 033-034 | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
-| 035-036 | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
+| 017-018 | Faustian Bargain | The Pact of Kha | Event | Rogue | x2 |
+| 019-020 | Elusive | Sand Veil | Event | Rogue | x2 |
+| 021-022 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
+| 023-024 | Deduction | Oxford Studies | Skill | Seeker | x2 |
+| 025-026 | Ra's Wrath | (custom) | Event | Rogue | x2 |
+| 027-028 | Sobek's Gift | (custom) | Event | Guardian | x2 |
+| 029-030 | Manual Dexterity | Pharaoh's Chariot | Skill | Neutral | x2 |
+| 031-032 | (custom) | The Oxford Gambit | Skill | Rogue | x2 |
+| 033-034 | (custom) | Power of Thebes | Skill | Rogue | x2 |
+| 035-036 | Logical Reasoning | Nile's Blessing | Event | Guardian | x2 |
 
 Weapons (007-009), allies (004-006), other assets (010-012) are defined in the Pack Cards section above.
 
@@ -616,11 +614,18 @@ Status: PROMPT LOCKED -- not yet generated.
 6. Begin Upgrade Pack Strange Eons build (RYP-UP Ã¢â‚¬â€ 54 cards designed)
 
 ### Recent Changes (session update)
-- Deck swaps: Pact of Kha Ãƒâ€”2Ã¢â€ â€™Ãƒâ€”1, Expedition Protocol Ãƒâ€”2Ã¢â€ â€™Ãƒâ€”1
-- Replaced Scarab Compass + River Water with Cairo Revelation Ãƒâ€”2 + Warwick Reasoning Ãƒâ€”2
-- Both new cards are unconditional Ã¢â‚¬â€ no trigger conditions
-- Art prompt locked for Nora investigator card
-- Deck is now 35 cards
+- Removed The Family Name ×2 from deck
+- Added second copies of Pact of Kha and Expedition Protocol (back to ×2 each)
+- Reordered folders so all pairs are adjacent (017-028 renumbered)
+- Replaced Expedition Protocol with custom **Sobek's Gift** (Guardian 0, Fast, each investigator draws 1)
+- Replaced The Opportunist ×2 with **Pharaoh's Chariot** ×2 (Manual Dexterity reskin, Neutral, 3×AGI)
+- Replaced The Cairo Revelation ×2 with **Power of Thebes** ×2 (custom Rogue skill, 2×COM+2×AGI, fight/evade only)
+- Replaced The Warwick Reasoning ×2 with **Nile's Blessing** ×2 (Logical Reasoning reskin, heal 2 horror)
+- Created custom **The Oxford Gambit** (Rogue 0 skill, 3×AGI, +2 on evade, free move on success)
+- Cleaned and renamed all PNGs exported by Strange Eons agent (removed -Face suffix, added RYP-NW-###- prefix)
+- All 36 folders have correct naming conventions
+- Deck stands at 33 cards toward 30 minimum across 22 card entries
+- Full Nora vs Finn Edwards comparison done: Nora rated A-/B+, stronger team player than Finn
 
 ---
 
