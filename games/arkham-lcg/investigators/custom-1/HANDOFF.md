@@ -257,7 +257,7 @@ Flavor: `"With this knowledge, I can see the unseen."`
 
 Rules text:
 ```
-You get +1 <com> while The Collar of Sekhmet is in play.
++1 <com> while The Collar of Sekhmet is in play. [reaction] When The Collar of Sekhmet would be defeated: Instead, shuffle it into your deck.
 ```
 Flavor: `"The curator said it was decorative. He had never worn it into the dark."`
 

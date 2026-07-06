@@ -417,8 +417,9 @@ or horror: Exhaust The Eye Amulet — prevent
 | **Icons** | 1 × `<com>` + 1 × `<wil>` |
 
 ```
-You get +1 <com> while The Collar of Sekhmet
-is in play.
++1 <com> while The Collar of Sekhmet is in play.
+<rea> When The Collar of Sekhmet would be defeated:
+Instead, shuffle it into your deck.
 ```
 *Flavor: "The curator said it was decorative. He had never worn it into the dark."*
 
