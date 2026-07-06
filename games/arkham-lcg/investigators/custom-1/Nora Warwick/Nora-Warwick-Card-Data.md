@@ -427,7 +427,7 @@ Instead, shuffle it into your deck.
 
 ---
 
-**The Warwick Incendiary** renamed to **Isfet's Fury**
+**Isfet's Fury**
 
 | Field | Value |
 |---|---|
@@ -551,7 +551,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 016-017 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
-| 018 | Dynamite Blast | The Warwick Incendiary | Event | Rogue | ×1 |
+| 018 | Dynamite Blast | Isfet's Fury | Event | Rogue | ×1 |
 
 ### Utility (2 cards)
 
@@ -675,7 +675,7 @@ Status: PROMPT LOCKED -- not yet generated.
 |---|---|---|
 | Economy | Tomb Cache, Warwick Clause, Pact of Kha | 5 |
 | Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 6 |
-| Combat | Desert Trick, Warwick Incendiary | 3 |
+| Combat | Desert Trick, Isfet's Fury | 3 |
 | Utility | The Family Name | 2 |
 | Skills | Opportunist, Gambit, Scholar's Eye, Desert Reflexes | 7 |
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
@@ -692,7 +692,7 @@ Status: PROMPT LOCKED -- not yet generated.
 |---|---|---|---|
 | `<com>` | 10 | Ra ×2, Khopesh ×2, Desert Trick ×2, Kopis ×1, Anubis ×1, Sekhem ×1, Collar ×1 |
 | `<int>` | 8 | Scholar's Eye ×4, Ancient Intuition ×4, Horus ×1, Kopis ×1, Academic's Eye ×2, Warwick Method ×2, Family Name ×2, Cairo Revelation ×2, Pact of Kha ×1 |
-| `<wil>` | 7 | Warwick Reasoning ×4, Anubis ×1, Horus ×1, Sekhem ×1, Collar ×1, Warwick Incendiary ×1, Pact of Kha ×1 |
+| `<wil>` | 7 | Warwick Reasoning ×4, Anubis ×1, Horus ×1, Sekhem ×1, Collar ×1, Isfet's Fury ×1, Pact of Kha ×1 |
 | `<wld>` | 10 | Warwick Gambit ×6, Opportunist ×2, Cairo Revelation ×2, Tomb Cache ×2 |
 | `<agi>` | 4 | Desert Reflexes ×2, Desert Trick ×2, Family Name ×2, Warwick Clause ×2 |
 
@@ -724,7 +724,7 @@ Status: PROMPT LOCKED -- not yet generated.
 | Manual Dexterity | Desert Reflexes | *"When the tomb traps activate, you learn to move."* |
 | Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
 | Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
-| Dynamite Blast | The Warwick Incendiary | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
+| Dynamite Blast | Isfet's Fury | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
 | The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
 
 ---

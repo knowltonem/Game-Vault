@@ -263,13 +263,13 @@ Flavor: `"The curator said it was decorative. He had never worn it into the dark
 
 ---
 
-### 006 — The Warwick Incendiary
+### 006 — Isfet's Fury
 
 | Field | Value |
 |---|---|
-| EON file | `Warwick-Event-The-Warwick-Incendiary.eon` |
-| PNG front | `RYP-NW-006-The-Warwick-Incendiary-Front.png` |
-| PNG back | `RYP-NW-006-The-Warwick-Incendiary-Back.png` |
+| EON file | `Warwick-Event-Isfets-Fury.eon` |
+| PNG front | `RYP-NW-006-Isfets-Fury-Front.png` |
+| PNG back | `RYP-NW-006-Isfets-Fury-Back.png` |
 | Class | Rogue |
 | Level | 0 |
 | Cost | 3 |
@@ -279,7 +279,7 @@ Flavor: `"The curator said it was decorative. He had never worn it into the dark
 | SAN soak | — |
 | Unique | No |
 | Icons | 1 × `<wil>` + 1 × `<int>` |
-| Subtitle | Do Not Shake |
+| Subtitle | Cosmic Chaos |
 | Base card | Dynamite Blast |
 
 Rules text:
@@ -518,12 +518,12 @@ Flavor: `"Oxford never taught her this. Egypt did."`
 
 ---
 
-### 024 — The Warwick Incendiary (Dynamite Blast ×1)
+### 024 — Isfet's Fury (Dynamite Blast ×1)
 
 | Field | Value |
 |---|---|
-| EON file | `Warwick-Event-The-Warwick-Incendiary.eon` |
-| PNG front | `RYP-NW-026-The-Warwick-Incendiary-Front.png` |
+| EON file | `Warwick-Event-Isfets-Fury.eon` |
+| PNG front | `RYP-NW-026-Isfets-Fury-Front.png` |
 | Class | Rogue |
 | Level | 0 |
 | Cost | 3 |
