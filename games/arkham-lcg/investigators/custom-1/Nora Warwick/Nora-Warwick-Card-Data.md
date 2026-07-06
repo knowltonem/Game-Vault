@@ -301,7 +301,7 @@ This attack deals +1 damage.
 <fre> After you defeat an enemy with The Kopis:
 Gain 2 resources.
 ```
-*Flavor: "Every serious archaeologist carries one. Most don't use them like this."*
+*Flavor: "A gift from Ra."*
 
 ---
 
