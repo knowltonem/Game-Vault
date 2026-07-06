@@ -448,6 +448,22 @@ Add 1 bless token to the chaos bag.
 
 ---
 
+## Player Cards
+
+**Ra's Wrath** — Combat Event
+- **Cost:** 2r
+- **Class:** Rogue
+- **Traits:** Trick.
+- **Icons:** 1 × `<com>` + 1 × `<agi>`
+
+```
+Fight. You get +1 <com> for this attack.
+If this attack succeeds, deal 1 damage and evade the enemy.
+```
+*Flavor: "His vengeance runs deep."*
+
+---
+
 ### Servitor Allies
 
 **Ra-Night-Gaunt** — Combat Servitor
@@ -532,53 +548,54 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ## 34-Card Deck
 
-### Economy (4 cards)
+### Economy (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 013a/b | Ancient Cache | Grave Robber | Event | Neutral | x2 |
-| 015 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
+| 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
+| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
 
 ### Movement (2 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 014a/b | Shortcut | Anti-Chamber | Event | Neutral | x2 |
+| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | x2 |
 
 ### Investigation (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 017a/b | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
-| 018a/b | Deduction | Oxford Studies | Skill | Seeker | x2 |
+| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
+| 022-023 | Deduction | Oxford Studies | Skill | Seeker | x2 |
 
-### Combat (3 cards)
+### Combat (5 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 016a/b | Elusive | Sand Veil | Event | Rogue | x2 |
+| 024-025 | Ra's Wrath | (custom) | Event | Rogue | x2 |
 | 012 | Dynamite Blast | Isfet's Fury | Event | Rogue | x1 |
+| 018-019 | Elusive | Sand Veil | Event | Rogue | x2 |
 
 ### Utility (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 020a/b | Calling in Favors | The Family Name | Event | Rogue | x2 |
-| 021 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
+| 026-027 | Calling in Favors | The Family Name | Event | Rogue | x2 |
+| 028 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
 
-### Skills (4 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 022a/b | Opportunist | The Opportunist | Skill | Rogue | x2 |
-| 023a/b | Daring | The Warwick Gambit | Skill | Rogue | x2 |
-
-### Draw + Heal (4 cards)
+### Skills (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 024a/b | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
-| 025a/b | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
+| 029-030 | Opportunist | The Opportunist | Skill | Rogue | x2 |
+| 031-032 | Daring | The Warwick Gambit | Skill | Rogue | x2 |
+
+### Draw + Heal (6 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 033-034 | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
+| 035-036 | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
 
 ### Weapons (3 cards)
 
@@ -591,17 +608,25 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 ### Allies (3 cards)
 
 | # | Card | Type | Class | Qty |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 004 | Ra-Night-Gaunt | Asset - Ally | Rogue | x1 |
 | 005 | Call of Anubis | Asset - Ally | Rogue | x1 |
 | 006 | The Horus Heresy | Asset - Ally | Rogue | x1 |
 
-### Assets (3 cards)
+### Assets (2 cards)
+
+| # | Card | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 010 | The Book of the Dead | Asset - Arcane | Rogue | x1 |
+| 011 | The Collar of Sekhmet | Asset - Body | Rogue | x1 |
+
+### Soak Attachments (3 cards)
 
 | # | Card | Type | Class | Qty |
 |---|---|---|---|---|
-| 010 | The Book of the Dead | Asset - Arcane | Rogue | x1 |
-| 011 | The Collar of Sekhmet | Asset - Body | Rogue | x1 |
+| — | Canopic Wrappings | Asset | Rogue | x1 |
+| — | Scarab Amulet | Asset | Rogue | x1 |
+| — | Eye Amulet | Asset | Rogue | x1 |
 
 ## Deck Summary
 
@@ -610,15 +635,15 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | Economy | Grave Robber, Pact of Kha | 3 |
 | Movement | Anti-Chamber | 2 |
 | Investigation | Ancient Intuition, Oxford Studies | 4 |
-| Combat | Sand Veil, Isfet's Fury | 3 |
+| Combat | Ra's Wrath, Isfet's Fury, Sand Veil | 5 |
 | Utility | Family Name, Expedition Protocol | 3 |
-| Skills | Opportunist, Warwick Gambit | 4 |
-| Draw + Heal | Cairo Revelation, Warwick Reasoning | 4 |
+| Skills | Opportunist, Gambit | 4 |
 | Weapons | Kopis, Khopesh, Sekhem | 3 |
 | Allies | Ra, Call of Anubis, Horus | 3 |
 | Assets | Book of Dead, Collar of Sekhmet | 2 |
-| Isfet's Fury | — | 1 |
-| **Total** | | **32** |
+| Soak | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
+| Draw + Heal | Cairo Revelation, Warwick Reasoning | 4 |
+| **Total** | | **36** |
 ---
 
 ## Art Prompts
@@ -695,16 +720,17 @@ Status: PROMPT LOCKED -- not yet generated.
 
 | Category | Cards | Slots |
 |---|---|---|
-| Economy | Tomb Cache, Warwick Clause, Pact of Kha | 5 |
-| Investigation | Warwick Method, Ancient Intuition, Academic's Eye | 6 |
-| Combat | Desert Trick, Isfet's Fury | 3 |
-| Utility | The Family Name | 2 |
+| Economy | Grave Robber, Pact of Kha | 3 |
+| Movement | Anti-Chamber | 2 |
+| Investigation | Ancient Intuition, Oxford Studies | 4 |
+| Combat | Ra's Wrath, Isfet's Fury | 3 |
+| Utility | Family Name | 2 |
 | Skills | Opportunist, Gambit, Scholar's Eye, Desert Reflexes | 7 |
+| Draw + Healing | Cairo Revelation, Warwick Reasoning | 4 |
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
 | Allies | Ra-Night-Gaunt, Anubis-Touched, Horus Heresy | 3 |
-| Equipment | Collar of Sekhmet | 1 |
+| Equipment | Book of Dead, Collar of Sekhmet | 2 |
 | Soak Attachments | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
-| Draw + Healing | Cairo Revelation, Warwick Reasoning | 4 |
 | **Total** | | **34** |
 
 ---
@@ -712,12 +738,12 @@ Status: PROMPT LOCKED -- not yet generated.
 ## Icon Coverage
 
 | Test type | Icons | Sources |
-|---|---|---|---|
-| `<com>` | 10 | Ra ×2, Khopesh ×2, Desert Trick ×2, Kopis ×1, Anubis ×1, Sekhem ×1, Collar ×1 |
-| `<int>` | 8 | Scholar's Eye ×4, Ancient Intuition ×4, Horus ×1, Kopis ×1, Academic's Eye ×2, Warwick Method ×2, Family Name ×2, Cairo Revelation ×2, Pact of Kha ×1 |
+|---|---|---|---|---|
+| `<com>` | 8 | Ra ×2, Khopesh ×2, Kopis ×1, Anubis ×1, Sekhem ×1, Collar ×1 |
+| `<int>` | 8 | Ancient Intuition ×2, Horus ×1, Kopis ×1, Oxford Studies ×2, Family Name ×2, Cairo Revelation ×2, Pact of Kha ×1 |
 | `<wil>` | 7 | Warwick Reasoning ×4, Anubis ×1, Horus ×1, Sekhem ×1, Collar ×1, Isfet's Fury ×1, Pact of Kha ×1 |
-| `<wld>` | 10 | Warwick Gambit ×6, Opportunist ×2, Cairo Revelation ×2, Tomb Cache ×2 |
-| `<agi>` | 4 | Desert Reflexes ×2, Desert Trick ×2, Family Name ×2, Warwick Clause ×2 |
+| `<wld>` | 8 | Warwick Gambit ×6, Opportunist ×2, Grave Robber ×2, Cairo Revelation ×2 |
+| `<agi>` | 4 | Family Name ×2, Ra's Wrath ×2 |
 
 ---
 
@@ -735,16 +761,14 @@ Status: PROMPT LOCKED -- not yet generated.
 
 | Card | Reskin | Flavor |
 |---|---|---|
-| Ancient Cache | Tomb Cache | *"The museum will pay handsomely."* |
-| Lone Wolf | The Warwick Clause | *"The Warwick endowment has a clause. She's the only one who reads it."* |
+| Ancient Cache | Grave Robber | *"The museum will pay handsomely."* |
+| Shortcut | Anti-Chamber | *"Every tomb has a hidden passage. She makes sure to find it first."* |
 | Faustian Bargain | The Pact of Kha | *"Kha's price is always paid in darkness. She pays it anyway."* |
-| Crack the Case | The Warwick Method | *"Find everything. Document nothing. Profit immediately."* |
 | Working a Hunch | Ancient Intuition | *"Two hundred years of digs, catalogued and cross-referenced. She already knows what's here."* |
-| Deduction | The Academic's Eye | *"She sees what others miss. Professionally."* |
-| Cheap Shot | Desert Trick | *"His vengeance runs deep."* |
+| Deduction | Oxford Studies | *"She sees what others miss. Professionally."* |
 | Calling in Favors | The Family Name | *"The Warwick name opens doors. She uses it sparingly. Mostly."* |
-| Perception | The Scholar's Eye | *"She has read everything ever written about what lies beneath the sand."* |
-| Manual Dexterity | Desert Reflexes | *"When the tomb traps activate, you learn to move."* |
+| Elusive | Sand Veil | *"The desert hides what it does not wish to be found."* |
+| Teamwork | Expedition Protocol | *"Every expedition needs a plan. She writes hers in advance."* |
 | Opportunist | The Opportunist | *"She works alone when it matters. By design."* |
 | Daring | The Warwick Gambit | *"The family motto is not 'be careful'."* |
 | Dynamite Blast | Isfet's Fury | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
@@ -755,9 +779,9 @@ Status: PROMPT LOCKED -- not yet generated.
 ## Deckbuilding Check
 
 | Rule | Cards | Count | Limit | Status |
-|---|---|---|---|---|---|
-| Rogue 0-5 | Warwick Clause, Pact of Kha, Desert Trick, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem, Ra, Anubis, Horus, Desert Reflexes | 14 | No limit | ✅ |
-| Seeker 0-2 | Warwick Method, Ancient Intuition, Academic's Eye, Scholar's Eye, Cairo Revelation, Warwick Reasoning | 12 | No limit | ✅ |
+|---|---|---|---|---|---|---|
+| Rogue 0-5 | Pact of Kha, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem, Ra, Anubis, Horus, Desert Reflexes, Ra's Wrath, Isfet's Fury | 13 | No limit | ✅ |
+| Seeker 0-2 | Ancient Intuition, Oxford Studies, Scholar's Eye, Cairo Revelation, Warwick Reasoning | 10 | No limit | ✅ |
 | Guardian 0-2 | (none in deck) | 0 | 4 max | ✅ |
-| Neutral | Tomb Cache | 2 | No limit | ✅ |
+| Neutral | Grave Robber, Anti-Chamber | 4 | No limit | ✅ |
 

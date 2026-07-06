@@ -207,13 +207,177 @@ Flavor: `"The telegram arrived at the worst possible moment. They always do."`
 
 ---
 
-### 004 — The Book of the Dead
+### 004 — Ra-Night-Gaunt
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Ally-Ra-Night-Gaunt.eon` |
+| PNG front | `RYP-NW-004-Ra-Night-Gaunt-Front.png` |
+| PNG back | `RYP-NW-004-Ra-Night-Gaunt-Back.png` |
+| Class | Rogue |
+| Level | 0 |
+| Cost | 3 |
+| Slot | Ally |
+| Traits | Creature. Servitor. |
+| HP soak | 3 |
+| SAN soak | 1 |
+| Unique | Yes |
+| Icons | 2 × `<com>` |
+
+Rules text:
+```
+Nora Warwick deck only. Unique.
+You get +1 <com> while Ra-Night-Gaunt is in play.
+<rea> When Ra-Night-Gaunt is defeated: Deal 1 damage to
+each enemy at Nora Warwick's location.
+```
+Flavor: `"A Curse of Ancient Design."`
+
+---
+
+### 005 — Call of Anubis
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Ally-Call-of-Anubis.eon` |
+| PNG front | `RYP-NW-005-Call-of-Anubis-Front.png` |
+| PNG back | `RYP-NW-005-Call-of-Anubis-Back.png` |
+| Class | Rogue |
+| Level | 0 |
+| Cost | 3 |
+| Slot | Ally |
+| Traits | Creature. Servitor. |
+| HP soak | 1 |
+| SAN soak | 4 |
+| Unique | Yes |
+| Icons | 1 × `<wil>` + 1 × `<com>` |
+
+Rules text:
+```
+Nora Warwick deck only. Unique.
+You get +1 <wil> while Anubis-Touched is in play.
+<for> When Nora Warwick would be dealt 2 or more damage or
+horror from a single source: Place 1 of that damage or
+horror on Anubis-Touched instead (your choice of type).
+```
+Flavor: `"The jackal waits for all of us. This one waits for her enemies."`
+
+---
+
+### 006 — The Horus Heresy
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Sig-Asset-The-Horus-Heresy.eon` |
+| PNG front | `RYP-NW-006-The-Horus-Heresy-Front.png` |
+| PNG back | `RYP-NW-006-The-Horus-Heresy-Back.png` |
+| Class | Rogue |
+| Level | Signature |
+| Cost | 4 |
+| Slot | Ally |
+| Traits | Creature. Servitor. |
+| HP soak | 2 |
+| SAN soak | 3 |
+| Unique | Yes |
+| Icons | 1 × `<int>` + 1 × `<wil>` |
+
+Rules text:
+```
+Nora Warwick deck only. Unique.
+You get +1 <int> and +1 <agi> while The Horus Heresy is
+in play.
+<fre> Once per round, after Nora Warwick discovers a clue:
+Heal 1 horror from The Horus Heresy.
+```
+Flavor: `"The falcon's eye sees through every deception."`
+
+---
+
+### 007 — The Kopis
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Asset-The-Kopis.eon` |
+| PNG front | `RYP-NW-007-The-Kopis-Front.png` |
+| PNG back | `RYP-NW-007-The-Kopis-Back.png` |
+| Class | Rogue |
+| Level | 0 |
+| Cost | 2 |
+| Slot | Hand |
+| Traits | Item. Weapon. Relic. |
+| Icons | 1 × `<com>` + 1 × `<int>` |
+
+Rules text:
+```
+Nora Warwick deck only.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+<fre> After you defeat an enemy with The Kopis:
+Gain 2 resources.
+```
+Flavor: `"Found it on a dig. It whispers to me."`
+
+---
+
+### 008 — The Khopesh
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Asset-The-Khopesh.eon` |
+| PNG front | `RYP-NW-008-The-Khopesh-Front.png` |
+| PNG back | `RYP-NW-008-The-Khopesh-Back.png` |
+| Class | Rogue |
+| Level | 0 |
+| Cost | 2 |
+| Slot | Hand |
+| Traits | Item. Weapon. Relic. |
+| Icons | 2 × `<com>` |
+
+Rules text:
+```
+Nora Warwick deck only.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+<fre> After you defeat an enemy with The Khopesh:
+Gain 1 resource and draw 1 card.
+```
+Flavor: `"The blade remembers them all."`
+
+---
+
+### 009 — The Sekhem Sceptre
+
+| Field | Value |
+|---|---|
+| EON file | `Warwick-Asset-The-Sekhem-Sceptre.eon` |
+| PNG front | `RYP-NW-009-The-Sekhem-Sceptre-Front.png` |
+| PNG back | `RYP-NW-009-The-Sekhem-Sceptre-Back.png` |
+| Class | Rogue |
+| Level | 0 |
+| Cost | 2 |
+| Slot | Hand |
+| Traits | Item. Weapon. Relic. |
+| Icons | 1 × `<com>` + 1 × `<wil>` |
+
+Rules text:
+```
+Nora Warwick deck only.
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+After this attack resolves: Cancel the next horror
+Nora Warwick would be dealt this round.
+```
+Flavor: `"Power is not always measured in wounds."`
+
+---
+
+### 010 — The Book of the Dead
 
 | Field | Value |
 |---|---|
 | EON file | `Warwick-Sig-Asset-The-Book-of-the-Dead.eon` |
-| PNG front | `RYP-NW-004-The-Book-of-the-Dead-Front.png` |
-| PNG back | `RYP-NW-004-The-Book-of-the-Dead-Back.png` |
+| PNG front | `RYP-NW-010-The-Book-of-the-Dead-Front.png` |
+| PNG back | `RYP-NW-010-The-Book-of-the-Dead-Back.png` |
 | Class | Rogue |
 | Level | Signature |
 | Cost | 1 |
@@ -240,13 +404,13 @@ Flavor: `"With this knowledge, I can see the unseen."`
 
 ---
 
-### 005 — The Collar of Sekhmet
+### 011 — The Collar of Sekhmet
 
 | Field | Value |
 |---|---|
 | EON file | `Warwick-Asset-The-Collar-of-Sekhmet.eon` |
-| PNG front | `RYP-NW-005-The-Collar-of-Sekhmet-Front.png` |
-| PNG back | `RYP-NW-005-The-Collar-of-Sekhmet-Back.png` |
+| PNG front | `RYP-NW-011-The-Collar-of-Sekhmet-Front.png` |
+| PNG back | `RYP-NW-011-The-Collar-of-Sekhmet-Back.png` |
 | Class | Rogue |
 | Level | 0 |
 | Cost | 2 |
@@ -260,19 +424,21 @@ Flavor: `"With this knowledge, I can see the unseen."`
 
 Rules text:
 ```
-+1 <com> while The Collar of Sekhmet is in play. [reaction] When The Collar of Sekhmet would be defeated: Instead, shuffle it into your deck.
++1 <com> while The Collar of Sekhmet is in play.
+<rea> When The Collar of Sekhmet would be defeated:
+Instead, shuffle it into your deck.
 ```
 Flavor: `"The curator said it was decorative. He had never worn it into the dark."`
 
 ---
 
-### 006 — Isfet's Fury
+### 012 — Isfet's Fury
 
 | Field | Value |
 |---|---|
 | EON file | `Warwick-Event-Isfets-Fury.eon` |
-| PNG front | `RYP-NW-006-Isfets-Fury-Front.png` |
-| PNG back | `RYP-NW-006-Isfets-Fury-Back.png` |
+| PNG front | `RYP-NW-012-Isfets-Fury-Front.png` |
+| PNG back | `RYP-NW-012-Isfets-Fury-Back.png` |
 | Class | Rogue |
 | Level | 0 |
 | Cost | 3 |
@@ -295,95 +461,17 @@ Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremon
 
 ---
 
-### 007 — Canopic Wrappings (Soak Attachment)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-Canopic-Wrappings.eon` |
-| PNG front | `RYP-NW-007-Canopic-Wrappings-Front.png` |
-| PNG back | `RYP-NW-007-Canopic-Wrappings-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 1 |
-| Slot | — (attaches to ally) |
-| Traits | Item. Relic. Blessed. |
-| Icons | 1 × `<wil>` + 1 × `<int>` |
-
-Rules text:
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally gains
-+2 of the chosen type permanently.
-<fre> At the end of the upkeep phase: Heal 1 damage
-from the attached ally.
-```
-Flavor: `"The jars remember their purpose. So do the wrappings."`
-
----
-
-### 008 — The Scarab Amulet (Soak Attachment)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Scarab-Amulet.eon` |
-| PNG front | `RYP-NW-008-The-Scarab-Amulet-Front.png` |
-| PNG back | `RYP-NW-008-The-Scarab-Amulet-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 1 |
-| Slot | — (attaches to ally) |
-| Traits | Item. Relic. Blessed. |
-| Icons | 2 × `<wil>` |
-
-Rules text:
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally gains
-+2 of the chosen type permanently.
-<fre> At the end of the upkeep phase: Heal 1 horror
-from the attached ally.
-```
-Flavor: `"Khepri rolls the sun. The scarab rolls away what would destroy you."`
-
----
-
-### 009 — The Eye Amulet (Soak Attachment)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Eye-Amulet.eon` |
-| PNG front | `RYP-NW-009-The-Eye-Amulet-Front.png` |
-| PNG back | `RYP-NW-009-The-Eye-Amulet-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | — (attaches to ally) |
-| Traits | Item. Relic. |
-| Icons | 1 × `<int>` + 1 × `<wil>` |
-
-Rules text:
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally gains
-+2 of the chosen type permanently.
-<rea> After the attached ally soaks damage or horror:
-Exhaust The Eye Amulet — prevent 1 of that damage
-or horror.
-```
-Flavor: `"Horus lost his eye in battle and found it again. What it sees now is different."`
-
----
-
 ## Nora Warwick — Deck Cards (Strange Eons Ready)
 
 ---
 
-### 010-011 — Tomb Cache (Ancient Cache ×2)
+### 013-014 — Grave Robber (Ancient Cache ×2)
 
 | Field | Value |
 |---|---|
-| EON file | `Warwick-Event-Tomb-Cache.eon` |
-| PNG front | `RYP-NW-010-Tomb-Cache-Front.png` |
+| EON file | `RYP-NW-013a-Grave-Robber.eon` |
+| PNG front | `RYP-NW-013a-Grave-Robber-Front.png` |
+| PNG back | `RYP-NW-013a-Grave-Robber-Back.png` |
 | Class | Neutral |
 | Level | 0 |
 | Cost | 0 |
@@ -396,34 +484,11 @@ Flavor: `"Every expedition leaves something behind. She knows where to look."`
 
 ---
 
-### 012-013 — The Warwick Clause (Lone Wolf ×2)
+### 015 — The Pact of Kha (Faustian Bargain ×1)
 
 | Field | Value |
 |---|---|
-| EON file | `Warwick-Asset-The-Warwick-Clause.eon` |
-| PNG front | `RYP-NW-012-The-Warwick-Clause-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 0 |
-| Slot | — |
-| Traits | Condition. |
-| Icons | 1 × `<wld>` |
-| Base card | Lone Wolf |
-
-Rules text:
-```
-At the end of the round, if you are the only investigator
-at your location: Gain 1 resource.
-```
-Flavor: `"The Warwick endowment has a clause. She's the only one who reads it."`
-
----
-
-### 014-015 — The Pact of Kha (Faustian Bargain ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-The-Pact-of-Kha.eon` |
+| EON file | `RYP-NW-015-The-Pact-of-Kha.eon` |
 | PNG front | `RYP-NW-014-The-Pact-of-Kha-Front.png` |
 | Class | Rogue |
 | Level | 0 |
