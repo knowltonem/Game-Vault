@@ -533,23 +533,23 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 010-011 | Ancient Cache | Tomb Cache | Event | Neutral | ×2 |
-| 012-013 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
-| 014 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×1 |
+| 013-014 | Ancient Cache | Tomb Cache | Event | Neutral | ×2 |
+| 015-016 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
+| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×1 |
 
 ### Investigation (6 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 015-016 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
-| 017-018 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
-| 019-020 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
+| 018-019 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
+| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
+| 022-023 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
 
 ### Combat Support (3 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 021-022 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
+| 024-025 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
 | 018 | Dynamite Blast | Isfet's Fury | Event | Rogue | ×1 |
 
 ### Utility (2 cards)
@@ -571,9 +571,9 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | # | Card | Reskin Name | Type | Class | Qty | Icons |
 |---|---|---|---|---|---|---|
-| 036 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 037 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 038 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| 007 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
+| 008 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
+| 009 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
 
 ### Allies (3 cards)
 
@@ -593,8 +593,8 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | # | Card | Reskin Name | Type | Class | Qty | Role |
 |---|---|---|---|---|---|---|
-| 032-033 | Astounding Revelation | The Cairo Revelation | Event | Seeker | ×2 | Unconditional draw + 2r |
-| 034-035 | Logical Reasoning | The Warwick Reasoning | Event | Seeker | ×2 | Unconditional 2 horror heal |
+| 035-036 | Astounding Revelation | The Cairo Revelation | Event | Seeker | ×2 | Unconditional draw + 2r |
+| 037-038 | Logical Reasoning | The Warwick Reasoning | Event | Seeker | ×2 | Unconditional 2 horror heal |
 
 ---
 
