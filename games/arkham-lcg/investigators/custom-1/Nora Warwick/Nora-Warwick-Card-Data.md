@@ -682,7 +682,7 @@ Status: PROMPT LOCKED -- not yet generated.
 | Equipment | Collar of Sekhmet | 1 |
 | Soak Attachments | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
 | Draw + Healing | Cairo Revelation, Warwick Reasoning | 4 |
-| **Total** | | **37** |
+| **Total** | | **34** |
 
 ---
 
