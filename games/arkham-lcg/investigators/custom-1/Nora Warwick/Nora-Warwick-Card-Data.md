@@ -31,7 +31,12 @@ token to the chaos bag.
 shroud value of your location.
 ```
 
-### Flavor
+### Flavor (front)
+```
+"The Pyramids hold more Questions than Answers"
+```
+
+### Story (back)
 ```
 "The Warwick name has opened every tomb, every
 archive, and every door that mattered. What I've
