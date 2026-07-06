@@ -1,30 +1,48 @@
-# 🎲 Board Game Vault
+# 🏛️ R'lyeh Expansion — Home
 
-A personal wiki for board game notes, rules references, buying guides, and how-to resources.
+> Custom Arkham Horror LCG expansion. Five investigators, one upgrade pack, more to come.
 
 ---
 
-## Games
+## Quick Navigation
+
+- [[Arkham LCG Index]] — Full project index
+- [[MASTER-CATALOGUE]] — Card catalogue master index
+- [[HANDOFF]] — AI handoff document
+
+---
+
+## Investigators
+
+| Investigator | Class | Status | Cards |
+|---|---|---|---|
+| [[Jonathan Ironhide]] | Guardian | ✅ Printed | 34 |
+| [[Alistair Greystoke]] | Seeker | ✅ Printed | 39 |
+| [[Agnes Crane]] | Survivor | ✅ Printed | 33 |
+| [[Abel Redcloud]] | Guardian | ✅ Printed | 31 |
+| [[Nora Warwick]] | Rogue | 🔧 In Progress | 36 |
+
+---
+
+## Packs
+
+| Pack | Status |
+|---|---|
+| [[Upgrade Pack]] | ⬜ Not Started |
+| Investigator 6 | ⬜ Not Designed |
+
+---
+
+## Recent Activity
 
 ```dataview
-TABLE game-type AS "Type", players AS "Players", play-time AS "Time", complexity AS "Complexity", status AS "Status"
-FROM "games"
-WHERE file.name = "index"
-SORT file.name ASC
+TABLE file.mtime AS "Last Modified"
+FROM "games/arkham-lcg/investigators/custom-1"
+WHERE file.mtime >= date(today) - dur(7 days)
+SORT file.mtime DESC
+LIMIT 10
 ```
 
-### Browse manually
-- [[games/lotr-lcg/index|Lord of the Rings: The Card Game (LCG)]]
-- [[games/arkham-lcg/index|Arkham Horror: The Card Game (LCG)]]
-
 ---
 
-## Quick links
-
-- [[_templates/game-template|➕ Add a new game (template)]]
-- [[_assets/plugin-setup|⚙️ Plugin setup guide]]
-
----
-
-> [!tip] Vault syncs automatically via the Obsidian Git plugin.
-> Commit/push runs on a schedule. You can also trigger it manually with `Ctrl+P → Obsidian Git: Commit and push`.
+*Repository: [knowltonem/Game-Vault](https://github.com/knowltonem/Game-Vault)*
