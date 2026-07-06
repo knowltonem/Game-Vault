@@ -427,11 +427,11 @@ Instead, shuffle it into your deck.
 
 ---
 
-**The Warwick Incendiary** — Cost 3r
+**The Warwick Incendiary** renamed to **Isfet's Fury**
 
 | Field | Value |
 |---|---|
-| **Name** | The Warwick Incendiary |
+| **Name** | Isfet's Fury |
 | **Subtitle** | Do Not Shake |
 | **Type** | Event |
 | **Cost** | 3r |
