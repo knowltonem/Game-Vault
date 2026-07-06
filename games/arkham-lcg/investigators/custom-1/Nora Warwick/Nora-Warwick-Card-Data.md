@@ -301,7 +301,7 @@ This attack deals +1 damage.
 <fre> After you defeat an enemy with The Kopis:
 Gain 2 resources.
 ```
-*Flavor: "A gift from Ra."*
+*Flavor: "Found it on a dig. It whispers to me."*
 
 ---
 
