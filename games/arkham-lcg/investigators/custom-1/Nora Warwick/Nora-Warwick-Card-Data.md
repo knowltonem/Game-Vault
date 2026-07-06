@@ -471,6 +471,7 @@ Add 1 bless token to the chaos bag.
 - Icons: 1 × `<wil>` + 1 × `<com>`
 - Passive: You get +1 `<wil>` while Anubis-Touched is in play
 - **Forced:** When Nora Warwick would be dealt 2 or more damage or horror from a single source: Place 1 of that damage or horror on Anubis-Touched instead (your choice of type)
+- Name: Call of Anubis (renamed from Anubis-Touched)
 - Soak slot: holds any soak asset
 - Identity: Horror specialist — silent guardian
 - No weapon slot — weapons are Nora only
