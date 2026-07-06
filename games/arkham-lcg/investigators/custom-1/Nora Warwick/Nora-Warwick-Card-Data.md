@@ -680,8 +680,9 @@ Status: PROMPT LOCKED -- not yet generated.
 | Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
 | Allies | Ra-Night-Gaunt, Anubis-Touched, Horus Heresy | 3 |
 | Equipment | Collar of Sekhmet | 1 |
+| Soak Attachments | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
 | Draw + Healing | Cairo Revelation, Warwick Reasoning | 4 |
-| **Total** | | **34** |
+| **Total** | | **37** |
 
 ---
 
