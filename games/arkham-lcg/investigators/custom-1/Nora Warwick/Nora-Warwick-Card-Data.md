@@ -536,7 +536,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 013-014 | Ancient Cache | Tomb Cache | Event | Neutral | ×2 |
+| 013-014 | Ancient Cache | Grave Robber | Event | Neutral | ×2 |
 | 015-016 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
 | 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×1 |
 
@@ -715,7 +715,7 @@ Status: PROMPT LOCKED -- not yet generated.
 
 | Card | Reskin | Flavor |
 |---|---|---|
-| Ancient Cache | Tomb Cache | *"Every expedition leaves something behind. She knows where to look."* |
+| Ancient Cache | Tomb Cache | *"The museum will pay handsomely."* |
 | Lone Wolf | The Warwick Clause | *"The Warwick endowment has a clause. She's the only one who reads it."* |
 | Faustian Bargain | The Pact of Kha | *"Kha's price is always paid in darkness. She pays it anyway."* |
 | Crack the Case | The Warwick Method | *"Find everything. Document nothing. Profit immediately."* |
