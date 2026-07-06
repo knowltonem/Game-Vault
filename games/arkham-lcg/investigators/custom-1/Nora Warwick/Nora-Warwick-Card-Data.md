@@ -457,6 +457,8 @@ Add 1 bless token to the chaos bag.
 - Icons: 2 × `<com>`
 - Passive: You get +1 `<com>` while Ra-Night-Gaunt is in play
 - **On defeat:** Deal 1 damage to each enemy at Nora Warwick's location (if any)
+- Subtitle: Dark Embrace
+- Flavor: "A Curse of Ancient Design."
 - Soak slot: holds any soak asset
 - Identity: Physical tank — goes out fighting
 - No weapon slot — weapons are Nora only
