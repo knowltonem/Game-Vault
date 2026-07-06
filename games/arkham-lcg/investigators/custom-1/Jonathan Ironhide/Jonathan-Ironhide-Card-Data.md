@@ -47,7 +47,7 @@ They don't talk much. They don't need to. Greystoke finds the clues. Ironhide cl
 > **[Reaction]** After you defeat an enemy: Gain 1 resource.
 
 ### Elder Sign Effect
-> **[Elder Sign]** Effect: +1. If you succeed, draw 1 card and gain 1 resource.
+> **[Elder Sign]** Effect: +1. If you succeed, either deal 1 damage to any enemy at your location, or heal 1 horror from yourself.
 
 ### Deckbuilding Options
 Guardian, Neutral (level 0–5). Mystic (level 0–2). Survivor (level 0–1).
