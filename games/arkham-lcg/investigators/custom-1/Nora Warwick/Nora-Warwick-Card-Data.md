@@ -319,7 +319,7 @@ This attack deals +1 damage.
 <fre> After you defeat an enemy with The Khopesh:
 Gain 1 resource and draw 1 card.
 ```
-*Flavor: "Ra's warriors carried these into battles older than memory. The blade remembers them all."*
+*Flavor: "The blade remembers them all."*
 
 ---
 
