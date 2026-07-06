@@ -135,7 +135,7 @@ Then export PNGs.
 | Deckbuilding | Rogue 0-5, Seeker 0-2, Guardian 0-2, Mystic 0-1, Neutral 0-5 |
 | Requirements | The Warwick Collection ×1, The Book of the Dead ×1, The Family Debt ×1, 1 random basic weakness |
 | Pack Code | RYP-NW |
-| Flavor (front) | "The Pyramids hold more Questions than Answers" |
+| Flavor (front) | "These Pyramids Hold More Questions than Answers" |
 | Story (back) | "The Warwick name has opened every tomb, every archive, and every door that mattered. What I've found has cosmic implications." |
 | EON file | `Warwick-Sig-Investigator.eon` |
 | PNG front | `RYP-NW-001-Nora-Warwick-Front.png` |

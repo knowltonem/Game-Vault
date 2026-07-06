@@ -33,7 +33,7 @@ shroud value of your location.
 
 ### Flavor (front)
 ```
-"The Pyramids hold more Questions than Answers"
+"These Pyramids Hold More Questions than Answers"
 ```
 
 ### Story (back)
