@@ -432,7 +432,7 @@ Instead, shuffle it into your deck.
 | Field | Value |
 |---|---|
 | **Name** | Isfet's Fury |
-| **Subtitle** | Do Not Shake |
+| **Subtitle** | Cosmic Chaos |
 | **Type** | Event |
 | **Cost** | 3r |
 | **Class** | Rogue |
