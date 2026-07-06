@@ -842,6 +842,47 @@ Flavor: `"The Nile remembers. So does she."`
 
 ---
 
+## Card Print Format — DEFAULT (never change)
+
+When printing any card for Strange Eons, always use this format.
+Every field gets its own fenced code block with copy button.
+After every card print, include the art prompt immediately after.
+
+Field order:
+1. Card Number
+2. Set
+3. Name
+4. Subtitle
+5. Type
+6. Subtype
+7. Class
+8. Level
+9. Unique
+10. Cost
+11. Slot
+12. Traits
+13. HP Soak
+14. SAN Soak
+15. Icons
+16. Rules Text
+17. Flavor
+18. Copyright
+
+Then immediately after: Art Prompt for that card.
+
+Example format:
+**Card Number**
+```
+002
+```
+**Set**
+```
+RYP-NW
+```
+...and so on for every field.
+
+---
+
 ## Art Prompts -- Nora Warwick
 
 ### 001 - Nora Warwick Investigator Card

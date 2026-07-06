@@ -77,18 +77,11 @@ The Family Debt ×1, 1 random basic weakness.
 ### Rules Text
 ```
 Nora Warwick deck only. Unique.
-
-You get +1 <int> while The Warwick Collection
-is in play.
-
-<fre> At the start of your turn: Gain 1 resource.
-
-<act> Spend 4 resources: Discover 1 clue at
-your location.
-
-<fre> After you successfully investigate: You
-may move 1 clue from your location to any
-connecting location.
++1 <int> while The Warwick Collection is in play.
+<fre> Start of your turn: Gain 1 resource.
+<act> Spend 4 resources: Discover 1 clue here.
+<fre> After you investigate: Move 1 clue here
+to a connecting location.
 ```
 
 ### Flavor
