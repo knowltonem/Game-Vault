@@ -36,6 +36,9 @@ games/arkham-lcg/investigators/custom-1/
 
 ## Standing Rules — NEVER VIOLATE
 
+### Nora's Hand — Art Prompt Rule
+Whenever Nora's hand appears in art: always a young woman's hand, lean and capable, smooth skin expedition-worn but not aged, fingers strong and precise. Never old, never male. Leather-jacketed sleeve always visible.
+
 ### Naming Conventions
 | File Type | Convention | Example |
 |---|---|---|
