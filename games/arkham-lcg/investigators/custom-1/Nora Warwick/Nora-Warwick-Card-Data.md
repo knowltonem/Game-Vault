@@ -741,7 +741,7 @@ Status: PROMPT LOCKED -- not yet generated.
 | Crack the Case | The Warwick Method | *"Find everything. Document nothing. Profit immediately."* |
 | Working a Hunch | Ancient Intuition | *"Two hundred years of digs, catalogued and cross-referenced. She already knows what's here."* |
 | Deduction | The Academic's Eye | *"She sees what others miss. Professionally."* |
-| Cheap Shot | Desert Trick | *"Oxford never taught her this. Egypt did."* |
+| Cheap Shot | Desert Trick | *"His vengeance runs deep."* |
 | Calling in Favors | The Family Name | *"The Warwick name opens doors. She uses it sparingly. Mostly."* |
 | Perception | The Scholar's Eye | *"She has read everything ever written about what lies beneath the sand."* |
 | Manual Dexterity | Desert Reflexes | *"When the tomb traps activate, you learn to move."* |
