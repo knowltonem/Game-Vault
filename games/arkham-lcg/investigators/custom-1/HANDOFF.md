@@ -1,4 +1,4 @@
-# R'lyeh Expansion — AI Handoff Document
+# R'lyeh Expansion Ã¢â‚¬â€ AI Handoff Document
 
 ## READ THIS FIRST
 
@@ -13,7 +13,7 @@ When Claude's usage is paused, read this file and continue seamlessly.
 Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
 Five custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
-Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
+Repository: `C:\Users\edwar\Documents\games\board-game-vault` Ã¢â€ â€™ GitHub: `knowltonem/Game-Vault`
 
 ---
 
@@ -21,22 +21,22 @@ Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowl
 
 ```
 games/arkham-lcg/investigators/custom-1/
-├── HANDOFF.md                          ← YOU ARE HERE
-├── card-reference.md                   ← Verified ArkhamDB card text
-├── index.md                            ← Project index
-├── Jonathan Ironhide/                  ← COMPLETE ✅ printed
-├── Alistair Greystoke/                 ← COMPLETE ✅ printed
-├── Agnes Crane/                        ← COMPLETE ✅ printed
-├── Abel Redcloud/                      ← COMPLETE ✅ printed
-├── Nora Warwick/                       ← IN PROGRESS 🔧
-└── Upgrade Pack/                       ← DESIGNED ✅ not yet built in Strange Eons
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ HANDOFF.md                          Ã¢â€ Â YOU ARE HERE
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ card-reference.md                   Ã¢â€ Â Verified ArkhamDB card text
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.md                            Ã¢â€ Â Project index
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Jonathan Ironhide/                  Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Alistair Greystoke/                 Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Agnes Crane/                        Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Abel Redcloud/                      Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
+Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Nora Warwick/                       Ã¢â€ Â IN PROGRESS Ã°Å¸â€Â§
+Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ Upgrade Pack/                       Ã¢â€ Â DESIGNED Ã¢Å“â€¦ not yet built in Strange Eons
 ```
 
 ---
 
-## Standing Rules — NEVER VIOLATE
+## Standing Rules Ã¢â‚¬â€ NEVER VIOLATE
 
-### Nora's Hand — Art Prompt Rule
+### Nora's Hand Ã¢â‚¬â€ Art Prompt Rule
 Whenever Nora's hand appears in art: always a young woman's hand, lean and capable, smooth skin expedition-worn but not aged, fingers strong and precise. Never old, never male. Leather-jacketed sleeve always visible.
 
 ### Naming Conventions
@@ -75,51 +75,59 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 
 ---
 
-## Completed Investigators — Do Not Modify
+## Completed Investigators Ã¢â‚¬â€ Do Not Modify
 
-### Jonathan Ironhide (RYP-JI) ✅ PRINTED
+### Jonathan Ironhide (RYP-JI) Ã¢Å“â€¦ PRINTED
 Guardian. Will 3 / Int 2 / Com 5 / Agi 3. Health 9 / Sanity 7.
 Curse payoff fighter. Hollow Warden signature weapon.
 
-### Alistair Greystoke (RYP-AG) ✅ PRINTED
+### Alistair Greystoke (RYP-AG) Ã¢Å“â€¦ PRINTED
 Seeker. Will 3 / Int 5 / Com 3 / Agi 2. Health 7 / Sanity 7.
 Ally swarm investigator. Summoner's Deck signature.
 
-### Agnes Crane (RYP-AC) ✅ PRINTED
+### Agnes Crane (RYP-AC) Ã¢Å“â€¦ PRINTED
 Survivor. Will 4 / Int 3 / Com 3 / Agi 3. Health 6 / Sanity 9.
 Horror prevention specialist. Night-Gaunt + Pale Child allies.
 
-### Abel Redcloud (RYP-AR) ✅ PRINTED
+### Abel Redcloud (RYP-AR) Ã¢Å“â€¦ PRINTED
 Guardian. Will 4 / Int 2 / Com 4 / Agi 3. Health 8 / Sanity 7.
 Bless generator. Sacred Spear + Spirit Coyote.
 
 ---
 
-## Nora Warwick — Current Status 🔧
+## Nora Warwick Ã¢â‚¬â€ Current Status Ã°Å¸â€Â§
+
+### Folder Numbering (2026-07-06)
+**Why we restructured:** Cards with multiple copies (e.g., Grave Robber Ãƒâ€”2) previously shared one folder number with `a`/`b` suffixes (e.g., `013-Grave-Robber-a/b`). This made card numbers and folder numbers misalign in the deck list, causing confusion. Now each physical card has its own folder and unique number:
+
+- **001-012**: Investigator + signature pack cards (fixed slots)
+- **013-036**: Deck cards Ã¢â‚¬â€ each card copy gets its own number (e.g., `013-Grave-Robber`, `014-Grave-Robber`)
+- No `a`/`b` suffixes anywhere
+- PNG convention: `RYP-NW-###-Card-Name-Front/Back.png`
+- `.eon` convention: `Warwick-[Type]-[Card-Name].eon` (signatures) or `RYP-NW-###-Card-Name.eon` (regular deck)
 
 ### What Is Done
-- Investigator card — fully designed and locked
-- All signature cards — fully designed and locked
-- All pack cards — fully designed and locked
-- 35-card deck — fully designed and locked
+- Investigator card Ã¢â‚¬â€ fully designed and locked
+- All signature cards Ã¢â‚¬â€ fully designed and locked
+- All pack cards Ã¢â‚¬â€ fully designed and locked
+- 36-card deck Ã¢â‚¬â€ in progress, Sand Veil Ãƒâ€”2 and Expedition Protocol Ãƒâ€”1 re-added
 - All card data in: `Nora Warwick/Nora-Warwick-Card-Data.md`
-- Folders created for all pack cards (001-006)
+- Ra's Wrath (024-025) Ã¢â‚¬â€ designed and blocked
+- Folders 001-036 created with all naming conventions fixed
+- Folder naming restructured: no a/b suffixes, each card copy = unique number
 
 ### What Is NOT Done
-- Strange Eons .eon files — NONE built yet
-- Art — not yet generated
-- PNG exports — none yet
-- Full Strange Eons-ready card blocks — in progress
+- The Family Name (026-027) Ã¢â‚¬â€ card data exists, user undecided
+- Handoff deck cards section Ã¢â‚¬â€ needs Strange Eons blocks for 013-036
+- Art Ã¢â‚¬â€ not yet generated
+- PNG exports Ã¢â‚¬â€ some done by agent, many folders only have .gitkeep
 
 ### Immediate Next Task
-Write full Strange Eons-ready card blocks for every Nora Warwick pack card.
-Then build .eon files in Strange Eons.
-Then generate art prompts.
-Then export PNGs.
+Continue card-by-card Strange Eons blocks. Next: The Family Name (026-027) or next player card.
 
 ---
 
-## Nora Warwick — Investigator Card
+## Nora Warwick Ã¢â‚¬â€ Investigator Card
 
 | Field | Value |
 |---|---|
@@ -136,7 +144,7 @@ Then export PNGs.
 | Ability | Once per round: Spend 1 resource to add 1 bless token to the chaos bag. |
 | Elder Sign | +1. If you succeed, gain resources equal to the shroud value of your location. |
 | Deckbuilding | Rogue 0-5, Seeker 0-2, Guardian 0-2, Mystic 0-1, Neutral 0-5 |
-| Requirements | The Warwick Collection ×1, The Book of the Dead ×1, The Family Debt ×1, 1 random basic weakness |
+| Requirements | The Warwick Collection Ãƒâ€”1, The Book of the Dead Ãƒâ€”1, The Family Debt Ãƒâ€”1, 1 random basic weakness |
 | Pack Code | RYP-NW |
 | Flavor (front) | "These Pyramids Hold More Questions than Answers" |
 | Story (back) | "The Warwick name has opened every tomb, every archive, and every door that mattered. What I've found has cosmic implications." |
@@ -146,11 +154,11 @@ Then export PNGs.
 
 ---
 
-## Nora Warwick — All Pack Cards (Strange Eons Ready)
+## Nora Warwick Ã¢â‚¬â€ All Pack Cards (Strange Eons Ready)
 
 ---
 
-### 002 — The Warwick Collection
+### 002 Ã¢â‚¬â€ The Warwick Collection
 
 | Field | Value |
 |---|---|
@@ -162,10 +170,10 @@ Then export PNGs.
 | Cost | 0 |
 | Slot | Accessory |
 | Traits | Item. Relic. Blessed. |
-| HP soak | — |
+| HP soak | Ã¢â‚¬â€ |
 | SAN soak | 2 |
 | Unique | Yes |
-| Icons | 1 × `<int>` + 1 × `<wil>` |
+| Icons | 1 Ãƒâ€” `<int>` + 1 Ãƒâ€” `<wil>` |
 
 Rules text:
 ```
@@ -180,7 +188,7 @@ Flavor: `"The curator at the British Museum was quite upset, until he saw the ch
 
 ---
 
-### 003 — The Family Debt
+### 003 Ã¢â‚¬â€ The Family Debt
 
 | Field | Value |
 |---|---|
@@ -189,15 +197,15 @@ Flavor: `"The curator at the British Museum was quite upset, until he saw the ch
 | PNG back | `RYP-NW-003-The-Family-Debt-Back.png` |
 | Class | Rogue |
 | Level | Signature |
-| Type | Treachery — Weakness |
+| Type | Treachery Ã¢â‚¬â€ Weakness |
 | Traits | Flaw. Burden. |
 | Unique | Yes |
-| Icons | — |
+| Icons | Ã¢â‚¬â€ |
 
 Rules text:
 ```
 Nora Warwick deck only.
-Revelation — Immediately spend resources equal to half the
+Revelation Ã¢â‚¬â€ Immediately spend resources equal to half the
 current agenda's doom threshold (rounded up, minimum 3).
 If you cannot pay the full amount: For each resource you
 cannot pay, take 1 horror or 1 damage (your choice).
@@ -207,7 +215,7 @@ Flavor: `"The telegram arrived at the worst possible moment. They always do."`
 
 ---
 
-### 004 — Ra-Night-Gaunt
+### 004 Ã¢â‚¬â€ Ra-Night-Gaunt
 
 | Field | Value |
 |---|---|
@@ -222,7 +230,7 @@ Flavor: `"The telegram arrived at the worst possible moment. They always do."`
 | HP soak | 3 |
 | SAN soak | 1 |
 | Unique | Yes |
-| Icons | 2 × `<com>` |
+| Icons | 2 Ãƒâ€” `<com>` |
 
 Rules text:
 ```
@@ -235,7 +243,7 @@ Flavor: `"A Curse of Ancient Design."`
 
 ---
 
-### 005 — Call of Anubis
+### 005 Ã¢â‚¬â€ Call of Anubis
 
 | Field | Value |
 |---|---|
@@ -250,7 +258,7 @@ Flavor: `"A Curse of Ancient Design."`
 | HP soak | 1 |
 | SAN soak | 4 |
 | Unique | Yes |
-| Icons | 1 × `<wil>` + 1 × `<com>` |
+| Icons | 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<com>` |
 
 Rules text:
 ```
@@ -264,7 +272,7 @@ Flavor: `"The jackal waits for all of us. This one waits for her enemies."`
 
 ---
 
-### 006 — The Horus Heresy
+### 006 Ã¢â‚¬â€ The Horus Heresy
 
 | Field | Value |
 |---|---|
@@ -279,7 +287,7 @@ Flavor: `"The jackal waits for all of us. This one waits for her enemies."`
 | HP soak | 2 |
 | SAN soak | 3 |
 | Unique | Yes |
-| Icons | 1 × `<int>` + 1 × `<wil>` |
+| Icons | 1 Ãƒâ€” `<int>` + 1 Ãƒâ€” `<wil>` |
 
 Rules text:
 ```
@@ -293,7 +301,7 @@ Flavor: `"The falcon's eye sees through every deception."`
 
 ---
 
-### 007 — The Kopis
+### 007 Ã¢â‚¬â€ The Kopis
 
 | Field | Value |
 |---|---|
@@ -305,7 +313,7 @@ Flavor: `"The falcon's eye sees through every deception."`
 | Cost | 2 |
 | Slot | Hand |
 | Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<int>` |
+| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<int>` |
 
 Rules text:
 ```
@@ -319,7 +327,7 @@ Flavor: `"Found it on a dig. It whispers to me."`
 
 ---
 
-### 008 — The Khopesh
+### 008 Ã¢â‚¬â€ The Khopesh
 
 | Field | Value |
 |---|---|
@@ -331,7 +339,7 @@ Flavor: `"Found it on a dig. It whispers to me."`
 | Cost | 2 |
 | Slot | Hand |
 | Traits | Item. Weapon. Relic. |
-| Icons | 2 × `<com>` |
+| Icons | 2 Ãƒâ€” `<com>` |
 
 Rules text:
 ```
@@ -345,7 +353,7 @@ Flavor: `"The blade remembers them all."`
 
 ---
 
-### 009 — The Sekhem Sceptre
+### 009 Ã¢â‚¬â€ The Sekhem Sceptre
 
 | Field | Value |
 |---|---|
@@ -357,7 +365,7 @@ Flavor: `"The blade remembers them all."`
 | Cost | 2 |
 | Slot | Hand |
 | Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<wil>` |
+| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<wil>` |
 
 Rules text:
 ```
@@ -371,7 +379,7 @@ Flavor: `"Power is not always measured in wounds."`
 
 ---
 
-### 010 — The Book of the Dead
+### 010 Ã¢â‚¬â€ The Book of the Dead
 
 | Field | Value |
 |---|---|
@@ -383,10 +391,10 @@ Flavor: `"Power is not always measured in wounds."`
 | Cost | 1 |
 | Slot | Arcane |
 | Traits | Item. Tome. Relic. Blessed. |
-| HP soak | — |
+| HP soak | Ã¢â‚¬â€ |
 | SAN soak | 2 |
 | Unique | Yes |
-| Icons | 2 × `<int>` |
+| Icons | 2 Ãƒâ€” `<int>` |
 | Subtitle | Arcane and Unnatural |
 
 Rules text:
@@ -394,7 +402,7 @@ Rules text:
 Nora Warwick deck only. Unique.
 You get +1 <int> while The Book of the Dead is in play.
 <fre> After you successfully investigate: You may exhaust
-The Book of the Dead — investigate again at your location
+The Book of the Dead Ã¢â‚¬â€ investigate again at your location
 without spending an action.
 <fre> After The Book of the Dead enters play: Search your
 deck for any Insight or Relic card and draw it. Shuffle
@@ -404,7 +412,7 @@ Flavor: `"With this knowledge, I can see the unseen."`
 
 ---
 
-### 011 — The Collar of Sekhmet
+### 011 Ã¢â‚¬â€ The Collar of Sekhmet
 
 | Field | Value |
 |---|---|
@@ -419,7 +427,7 @@ Flavor: `"With this knowledge, I can see the unseen."`
 | HP soak | 1 |
 | SAN soak | 1 |
 | Unique | Yes |
-| Icons | 1 × `<com>` + 1 × `<wil>` |
+| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<wil>` |
 | Subtitle | Worn in Ten Thousand Battles |
 
 Rules text:
@@ -432,7 +440,7 @@ Flavor: `"The curator said it was decorative. He had never worn it into the dark
 
 ---
 
-### 012 — Isfet's Fury
+### 012 Ã¢â‚¬â€ Isfet's Fury
 
 | Field | Value |
 |---|---|
@@ -442,12 +450,12 @@ Flavor: `"The curator said it was decorative. He had never worn it into the dark
 | Class | Rogue |
 | Level | 0 |
 | Cost | 3 |
-| Slot | — |
+| Slot | Ã¢â‚¬â€ |
 | Traits | Improvised. Relic. Cursed. |
-| HP soak | — |
-| SAN soak | — |
+| HP soak | Ã¢â‚¬â€ |
+| SAN soak | Ã¢â‚¬â€ |
 | Unique | No |
-| Icons | 1 × `<wil>` + 1 × `<int>` |
+| Icons | 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<int>` |
 | Subtitle | Cosmic Chaos |
 | Base card | Dynamite Blast |
 
@@ -460,457 +468,34 @@ Add 1 bless token to the chaos bag.
 Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."`
 
 ---
+## Nora Warwick - Deck Cards
 
-## Nora Warwick — Deck Cards (Strange Eons Ready)
+Full Strange Eons blocks are generated per-card as we build them. See Nora-Warwick-Card-Data.md for the complete deck list and card data.
 
----
+Current 36-card deck:
 
-### 013-014 — Grave Robber (Ancient Cache ×2)
+| # | Card | Reskin | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
+| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | x2 |
+| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
+| 018-019 | Elusive | Sand Veil | Event | Rogue | x2 |
+| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
+| 022-023 | Deduction | Oxford Studies | Skill | Seeker | x2 |
+| 024-025 | Ra's Wrath | (custom) | Event | Rogue | x2 |
+| 026-027 | Calling in Favors | The Family Name | Event | Rogue | x2 |
+| 028 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
+| 029-030 | Opportunist | The Opportunist | Skill | Rogue | x2 |
+| 031-032 | Daring | The Warwick Gambit | Skill | Rogue | x2 |
+| 033-034 | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
+| 035-036 | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
 
-| Field | Value |
-|---|---|
-| EON file | `RYP-NW-013a-Grave-Robber.eon` |
-| PNG front | `RYP-NW-013a-Grave-Robber-Front.png` |
-| PNG back | `RYP-NW-013a-Grave-Robber-Back.png` |
-| Class | Neutral |
-| Level | 0 |
-| Cost | 0 |
-| Traits | Supply. |
-| Icons | 1 × `<wld>` |
-| Base card | Ancient Cache |
+Weapons (007-009), allies (004-006), other assets (010-012) are defined in the Pack Cards section above.
 
-Rules text: `Gain 3 resources.`
-Flavor: `"Every expedition leaves something behind. She knows where to look."`
-
----
-
-### 015 — The Pact of Kha (Faustian Bargain ×1)
-
-| Field | Value |
-|---|---|
-| EON file | `RYP-NW-015-The-Pact-of-Kha.eon` |
-| PNG front | `RYP-NW-014-The-Pact-of-Kha-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 0 |
-| Traits | Augury. |
-| Icons | 1 × `<wld>` |
-| Base card | Faustian Bargain |
-
-Rules text: `Gain 4 resources. Add 2 curse tokens to the chaos bag.`
-Flavor: `"Kha's price is always paid in darkness. She pays it anyway."`
 
 ---
 
-### 016-017 — The Warwick Method (Crack the Case ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-The-Warwick-Method.eon` |
-| PNG front | `RYP-NW-016-The-Warwick-Method-Front.png` |
-| Class | Seeker |
-| Level | 0 |
-| Cost | 0 |
-| Traits | Insight. |
-| Icons | 1 × `<int>` |
-| Base card | Crack the Case |
-
-Rules text:
-```
-Fast. Play when you successfully investigate a location
-and clear its last clue. Gain resources equal to that
-location's shroud value.
-```
-Flavor: `"Find everything. Document nothing. Profit immediately."`
-
----
-
-### 018-019 — Ancient Intuition (Working a Hunch ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-Ancient-Intuition.eon` |
-| PNG front | `RYP-NW-018-Ancient-Intuition-Front.png` |
-| Class | Seeker |
-| Level | 0 |
-| Cost | 2 |
-| Traits | Insight. |
-| Icons | 2 × `<int>` |
-| Base card | Working a Hunch |
-
-Rules text: `Fast. Discover 1 clue at your location.`
-Flavor: `"Two hundred years of digs, catalogued and cross-referenced. She already knows what's here."`
-
----
-
-### 020-021 — The Academic's Eye (Deduction ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Skill-The-Academics-Eye.eon` |
-| PNG front | `RYP-NW-020-The-Academics-Eye-Front.png` |
-| Class | Seeker |
-| Level | 0 |
-| Traits | Practiced. |
-| Icons | 2 × `<int>` |
-| Base card | Deduction |
-
-Rules text:
-```
-If this skill test is successful while investigating,
-discover 1 additional clue at your location.
-```
-Flavor: `"She sees what others miss. Professionally."`
-
----
-
-### 022-023 — Desert Trick (Cheap Shot ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-Desert-Trick.eon` |
-| PNG front | `RYP-NW-022-Desert-Trick-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Traits | Trick. |
-| Icons | 1 × `<com>` + 1 × `<agi>` |
-| Base card | Cheap Shot |
-
-Rules text:
-```
-Fight. You get +1 <com> for this attack. If this attack
-succeeds, deal 1 damage and evade the enemy.
-```
-Flavor: `"Oxford never taught her this. Egypt did."`
-
----
-
-### 024 — Isfet's Fury (Dynamite Blast ×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-Isfets-Fury.eon` |
-| PNG front | `RYP-NW-026-Isfets-Fury-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Traits | Improvised. Relic. Cursed. |
-| Icons | 1 × `<wil>` + 1 × `<int>` |
-| Base card | Dynamite Blast |
-
-Rules text:
-```
-Choose a location. Deal 2 damage to each enemy at that
-location. Each investigator at that location takes 1 damage.
-Add 1 bless token to the chaos bag.
-```
-Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."`
-
----
-
-### 019-020 — The Family Name (Calling in Favors ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-The-Family-Name.eon` |
-| PNG front | `RYP-NW-027-The-Family-Name-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 0 |
-| Traits | Connection. |
-| Icons | 1 × `<wld>` |
-| Base card | Calling in Favors |
-
-Rules text:
-```
-Fast. Return an Ally asset you control to its owner's hand.
-Draw 2 cards.
-```
-Flavor: `"The Warwick name opens doors. She uses it sparingly. Mostly."`
-
----
-
-### 025-026 — The Scholar's Eye (Perception ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Skill-The-Scholars-Eye.eon` |
-| PNG front | `RYP-NW-025-The-Scholars-Eye-Front.png` |
-| Class | Seeker |
-| Level | 0 |
-| Traits | Practiced. |
-| Icons | 2 × `<int>` |
-| Base card | Perception |
-
-Rules text:
-```
-If this skill test is successful while investigating,
-discover 1 additional clue at your location.
-```
-Flavor: `"She has read everything ever written about what lies beneath the sand."`
-
----
-
-### 027-028 — Desert Reflexes (Manual Dexterity ×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Skill-Desert-Reflexes.eon` |
-| PNG front | `RYP-NW-027-Desert-Reflexes-Front.png` |
-| Class | Neutral |
-| Level | 0 |
-| Traits | Practiced. |
-| Icons | 2 × `<agi>` |
-| Base card | Manual Dexterity |
-
-Rules text: `If this skill test is successful, you may immediately evade an enemy at your location.`
-Flavor: `"When the tomb traps activate, you learn to move."`
-
----
-
-### 029-030 — The Opportunist (Opportunist ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Skill-The-Opportunist.eon` |
-| PNG front | `RYP-NW-031-The-Opportunist-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Traits | Practiced. |
-| Icons | 2 × `<wld>` |
-| Base card | Opportunist |
-
-Rules text:
-```
-If this skill test is successful and no other investigators
-committed cards to this test: Return The Opportunist to
-your hand instead of discarding it.
-```
-Flavor: `"She works alone when it matters. By design."`
-
----
-
-### 031-032 — The Warwick Gambit (Daring ×2)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Skill-The-Warwick-Gambit.eon` |
-| PNG front | `RYP-NW-033-The-Warwick-Gambit-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Traits | Innate. |
-| Icons | 2 × `<wld>` |
-| Base card | Daring |
-
-Rules text: `If this skill test fails: Draw 1 card.`
-Flavor: `"The family motto is not 'be careful'."`
-
----
-
-### 033 — The Kopis (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Kopis.eon` |
-| PNG front | `RYP-NW-035-The-Kopis-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<int>` |
-
-Rules text:
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Kopis:
-Gain 2 resources.
-```
-Flavor: `"Every serious archaeologist carries one. Most don't use them like this."`
-
----
-
-### 034 — The Khopesh (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Khopesh.eon` |
-| PNG front | `RYP-NW-036-The-Khopesh-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 2 × `<com>` |
-
-Rules text:
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Khopesh:
-Gain 1 resource and draw 1 card.
-```
-Flavor: `"Ra's warriors carried these into battles older than memory. The blade remembers them all."`
-
----
-
-### 035 — The Sekhem Sceptre (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Sekhem-Sceptre.eon` |
-| PNG front | `RYP-NW-037-The-Sekhem-Sceptre-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<wil>` |
-
-Rules text:
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-After this attack resolves: Cancel the next horror
-Nora Warwick would be dealt this round.
-```
-Flavor: `"Power is not always measured in wounds."`
-
----
-
-### 036 — Ra-Night-Gaunt (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-Ra-Night-Gaunt.eon` |
-| PNG front | `RYP-NW-038-Ra-Night-Gaunt-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Slot | Ally |
-| Traits | Ally. Monster. Blessed. |
-| HP soak | 3 |
-| SAN soak | 1 |
-| Icons | 2 × `<com>` |
-
-Rules text:
-```
-You get +1 <com> while Ra-Night-Gaunt is in play.
-<rea> After Ra-Night-Gaunt is defeated: Deal 1 damage
-to each enemy at Nora Warwick's location (if any).
-```
-Flavor: `"Solar fire in a creature of darkness. It burns what comes near her."`
-
----
-
-### 037 — Anubis-Touched (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-Anubis-Touched.eon` |
-| PNG front | `RYP-NW-039-Anubis-Touched-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Slot | Ally |
-| Traits | Ally. Monster. |
-| HP soak | 1 |
-| SAN soak | 4 |
-| Icons | 1 × `<wil>` + 1 × `<com>` |
-
-Rules text:
-```
-You get +1 <wil> while Anubis-Touched is in play.
-Forced — When Nora Warwick would be dealt 2 or more
-damage or horror from a single source: Place 1 of that
-damage or horror on Anubis-Touched instead (your choice
-of type).
-```
-Flavor: `"The guardian of the dead does not ask permission. It simply steps in front."`
-
----
-
-### 038 — The Horus Heresy (×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Horus-Heresy.eon` |
-| PNG front | `RYP-NW-040-The-Horus-Heresy-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 4 |
-| Slot | Ally |
-| Traits | Ally. Monster. Mythos. |
-| HP soak | 2 |
-| SAN soak | 3 |
-| Icons | 1 × `<int>` + 1 × `<wil>` |
-
-Rules text:
-```
-You get +1 <int> and +1 <agi> while The Horus Heresy
-is in play.
-<fre> Once per round, after Nora Warwick discovers a
-clue: Heal 1 horror from The Horus Heresy.
-```
-Flavor: `"What wears the face of gods. It feeds on what she finds."`
-
----
-
-### 039 — The Collar of Sekhmet (deck copy, ×1)
-
-Same card as pack card 005. Use same EON file.
-PNG: `RYP-NW-041-The-Collar-of-Sekhmet-Front.png`
-
----
-
-### 040 — The Scarab Compass (Lucky Cigarette Case ×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Scarab-Compass.eon` |
-| PNG front | `RYP-NW-042-The-Scarab-Compass-Front.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Accessory |
-| Traits | Item. Relic. |
-| Icons | 1 × `<int>` |
-| Base card | Lucky Cigarette Case |
-
-Rules text:
-```
-After you reveal a chaos token with a negative modifier
-during a skill test: Draw 1 card.
-```
-Flavor: `"It always points toward what she needs. She stopped questioning it."`
-
----
-
-### 041 — River Water (Liquid Courage ×1)
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-River-Water.eon` |
-| PNG front | `RYP-NW-043-River-Water-Front.png` |
-| Class | Neutral |
-| Level | 0 |
-| Cost | 1 |
-| Traits | Supply. |
-| Icons | 1 × `<wil>` |
-| Base card | Liquid Courage |
-
-Rules text:
-```
-Heal 1 horror. If you have 3 or more resources:
-Heal 2 horror instead.
-```
-Flavor: `"The Nile remembers. So does she."`
-
----
-
-## Card Print Format — DEFAULT (never change)
+## Card Print Format Ã¢â‚¬â€ DEFAULT (never change)
 
 When printing any card for Strange Eons, always use this format.
 Every field gets its own fenced code block with copy button.
@@ -1026,31 +611,31 @@ Status: PROMPT LOCKED -- not yet generated.
 1. Generate art for Nora Warwick investigator card (prompt locked above)
 2. Generate art prompts for all remaining pack cards (002-006, allies, weapons, soak cards)
 3. Build .eon files in Strange Eons for all pack and deck cards
-4. Export PNGs at 300 DPI — Front and Back for every card
+4. Export PNGs at 300 DPI Ã¢â‚¬â€ Front and Back for every card
 5. Git commit all exports
-6. Begin Upgrade Pack Strange Eons build (RYP-UP — 54 cards designed)
+6. Begin Upgrade Pack Strange Eons build (RYP-UP Ã¢â‚¬â€ 54 cards designed)
 
 ### Recent Changes (session update)
-- Deck swaps: Pact of Kha ×2→×1, Expedition Protocol ×2→×1
-- Replaced Scarab Compass + River Water with Cairo Revelation ×2 + Warwick Reasoning ×2
-- Both new cards are unconditional — no trigger conditions
+- Deck swaps: Pact of Kha Ãƒâ€”2Ã¢â€ â€™Ãƒâ€”1, Expedition Protocol Ãƒâ€”2Ã¢â€ â€™Ãƒâ€”1
+- Replaced Scarab Compass + River Water with Cairo Revelation Ãƒâ€”2 + Warwick Reasoning Ãƒâ€”2
+- Both new cards are unconditional Ã¢â‚¬â€ no trigger conditions
 - Art prompt locked for Nora investigator card
 - Deck is now 35 cards
 
 ---
 
-## Key Design Decisions — Do Not Reverse
+## Key Design Decisions Ã¢â‚¬â€ Do Not Reverse
 
 | Decision | Value | Reason |
 |---|---|---|
-| Bless ability | 1r → 1 bless/round | Matches Sister Mary rate, paid not free |
+| Bless ability | 1r Ã¢â€ â€™ 1 bless/round | Matches Sister Mary rate, paid not free |
 | Collection clue cost | 4r | Prevents automatic clue purchase |
 | Horus Heresy cost | 4r | Double stat boost warrants premium |
-| Family Debt penalty | 1 horror OR damage | Not both — too punishing |
+| Family Debt penalty | 1 horror OR damage | Not both Ã¢â‚¬â€ too punishing |
 | Ra on-defeat | "if any" | Timing clarification |
 | Ally slots | 2 base | Charisma built in |
 | Weapons | Nora only | Allies are shields not fighters |
-| Soak cards | ×1 each, pack not deck | 3-to-3 parity with ally slots |
+| Soak cards | Ãƒâ€”1 each, pack not deck | 3-to-3 parity with ally slots |
 
 ---
 
@@ -1063,7 +648,7 @@ NOT YET built in Strange Eons. This is the next major build phase after Nora War
 
 ---
 
-## Emergency Context — If AI Has No Memory
+## Emergency Context Ã¢â‚¬â€ If AI Has No Memory
 
 If you are reading this with no prior context:
 - This is a custom Arkham Horror LCG expansion project
@@ -1071,5 +656,5 @@ If you are reading this with no prior context:
 - Five investigators designed, four printed, one in progress
 - Current task: build Nora Warwick in Strange Eons
 - Read Nora-Warwick-Card-Data.md for full card details
-- Ask the user what they want to work on — do not assume
-- Claude is primary AI, you are backup — maintain all standards
+- Ask the user what they want to work on Ã¢â‚¬â€ do not assume
+- Claude is primary AI, you are backup Ã¢â‚¬â€ maintain all standards
