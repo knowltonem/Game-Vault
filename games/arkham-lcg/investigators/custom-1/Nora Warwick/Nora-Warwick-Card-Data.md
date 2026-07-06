@@ -623,68 +623,48 @@ who catalogues the impossible professionally and is currently
 cataloguing this. No terror. No awe. Assessment.
 
 One hand pressed flat against the open page as if to stop it
-moving, the other gripping the gold binding so hard her
-knuckles are white.
-
-Dark complexion weathered by fieldwork, sharp angular
-features, hair pulled severely back with loose strands lit
-green from below. Wearing a worn brown leather flight jacket
-over khaki expedition shirt -- lived-in, scarred, pockets
-full. Around her neck on a corroded bronze chain: an ancient
-Egyptian scarab amulet, lapis lazuli, catching the green
+moving, the other gripping the brass spine so hard her
+knuckles are white. Dark complexion weathered by fieldwork,
+sharp angular features, hair pulled severely back with loose
+strands lit green from below. Wearing a worn brown leather
+flight jacket over khaki expedition shirt. Around her neck:
+ancient Egyptian scarab amulet, lapis lazuli, catching green
 light from the book and throwing it back gold.
 
-The Book of the Dead in her hands: massive, oppressively
-heavy, large ornate gold metal binding with raised
-hieroglyphic reliefs along the spine and cover edges.
-The book is open. From the open pages: an eerie cold green
-light pours upward -- not reflected light but generated
-light, alive, pulsing faintly as if the book breathes.
-The green glow is the dominant light source on her face,
-washing her jaw, cheekbones, the underside of her brow
-in cold green. Her eyes in this light look like she is
-seeing through the page into something below it.
-
-From the open pages simultaneously: three streams of
-ancient Egyptian energy rising -- cold green from the
-hieroglyphs themselves, deep gold from the metal binding
-reacting, electric blue-white from the void between the
-words where something lives. The three streams rising
-around her hands and face as she reads, the colours mixing
-on her skin and jacket.
+The Book of the Dead: massive, oppressively heavy. Deep
+matte black cover with deep geometric crosshatch pattern
+pressed into it. Four aged brass scarab beetle clasps at
+each corner, scroll-cylinder closures along the right
+edge. Left spine: thick wrapped brass cylindrical rod
+binding. Cover face: a large tarnished brass circular
+medallion with geometric star cutwork, winged scarab
+beetle raised in the centre. Left of the medallion: a
+carved black cartouche panel with Egyptian hieroglyphs
+and figures in raised relief. The book is open -- the
+pages within casting that eerie cold green light upward,
+the black cover and tarnished brass clasps catching the
+green and throwing it back dark. The aged brass does not
+gleam -- it absorbs the light and releases it slowly,
+like the book is reluctant to be read.
 
 Background: crumbling Egyptian burial chamber, towering
-stone pillars with hieroglyphs that seem to shift in the
-peripheral, one pillar fallen. The chamber walls in the
-far background briefly luminous where the energy from
-the book touches them. Above: chamber ceiling lost in
-absolute darkness. Below and around her feet: dust rising
-from the stone floor reacting to the energy, catching the
-green and gold light as it spirals upward. Wrong geometry
-of the chamber -- angles that do not resolve correctly --
-visible in the deep background.
+stone pillars with hieroglyphs shifting in peripheral,
+one fallen. Wrong geometry -- angles that do not resolve
+correctly. Dust rising around her feet catching green and
+gold light spiraling upward. Void black at absolute edges.
+Warm amber torchlight far behind her -- the only normal
+light in frame, barely reaching her.
 
-Lighting: cold green from the open book as dominant
-source, deep gold from the binding reacting, electric
-blue-white from the page void, all three converging
-on her face and hands simultaneously. Deep void-black
-at the absolute edges. Warm amber torchlight from
-an unseen source far behind her -- the only normal
-light in the frame, barely reaching her.
-
-Mood: professional certainty in the face of the
-impossible. She has found what she came for. It is
-worse than expected. She is already three steps ahead
-of what to do with it. This is Tuesday.
+Mood: professional certainty in the face of the impossible.
+She has found what she came for. It is worse than expected.
+She is already three steps ahead of what to do with it.
+This is Tuesday.
 
 Style: gritty cinematic realism, Ridley Scott lighting,
-real film grain, extreme high contrast, three colour
-energy mixing on her face and hands, macro detail on
-her expression and the open pages, the gold binding
-gleaming against the dark. Colour palette: cold green,
-deep gold, electric blue-white, void black, amber at
-the far edges. No soft edges. No fantasy prettiness.
-8K. --v 7
+real film grain, extreme high contrast, three colour energy
+mixing on face and hands, macro detail on expression and
+open pages. Colour palette: cold green, deep gold, electric
+blue-white, void black, amber edges. 8K. --ar 3:2 --v 7
 ```
 Status: PROMPT LOCKED -- not yet generated.
 

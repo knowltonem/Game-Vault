@@ -843,7 +843,7 @@ Flavor: `"The Nile remembers. So does she."`
 
 ## Art Prompts -- Nora Warwick
 
-### 001 -- Investigator Card
+### 001 - Nora Warwick Investigator Card
 ```
 Cinematic gritty dark fantasy photograph. Close to mid body
 shot, low camera angle looking sharply upward. Professor Nora
@@ -864,7 +864,7 @@ who catalogues the impossible professionally and is currently
 cataloguing this. No terror. No awe. Assessment.
 
 One hand pressed flat against the open page as if to stop it
-moving, the other gripping the gold binding so hard her
+moving, the other gripping the brass spine so hard her
 knuckles are white. Dark complexion weathered by fieldwork,
 sharp angular features, hair pulled severely back with loose
 strands lit green from below. Wearing a worn brown leather
@@ -872,13 +872,21 @@ flight jacket over khaki expedition shirt. Around her neck:
 ancient Egyptian scarab amulet, lapis lazuli, catching green
 light from the book and throwing it back gold.
 
-The Book of the Dead: massive, large ornate gold metal
-binding with raised hieroglyphic reliefs. Open. From the
-pages: cold green light pours upward -- generated not
-reflected, alive, pulsing as if the book breathes. Three
-streams rising simultaneously -- cold green from hieroglyphs,
-deep gold from binding reacting, electric blue-white from
-the void between words. All three mixing on her face.
+The Book of the Dead: massive, oppressively heavy. Deep
+matte black cover with deep geometric crosshatch pattern
+pressed into it. Four aged brass scarab beetle clasps at
+each corner, scroll-cylinder closures along the right
+edge. Left spine: thick wrapped brass cylindrical rod
+binding. Cover face: a large tarnished brass circular
+medallion with geometric star cutwork, winged scarab
+beetle raised in the centre. Left of the medallion: a
+carved black cartouche panel with Egyptian hieroglyphs
+and figures in raised relief. The book is open -- the
+pages within casting that eerie cold green light upward,
+the black cover and tarnished brass clasps catching the
+green and throwing it back dark. The aged brass does not
+gleam -- it absorbs the light and releases it slowly,
+like the book is reluctant to be read.
 
 Background: crumbling Egyptian burial chamber, towering
 stone pillars with hieroglyphs shifting in peripheral,
@@ -897,7 +905,7 @@ Style: gritty cinematic realism, Ridley Scott lighting,
 real film grain, extreme high contrast, three colour energy
 mixing on face and hands, macro detail on expression and
 open pages. Colour palette: cold green, deep gold, electric
-blue-white, void black, amber edges. 8K. --v 7
+blue-white, void black, amber edges. 8K. --ar 3:2 --v 7
 ```
 Status: PROMPT LOCKED -- not yet generated.
 
