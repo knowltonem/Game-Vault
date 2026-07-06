@@ -537,7 +537,7 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
 | 013-014 | Ancient Cache | Grave Robber (Funding the Dig) | Event | Neutral | ×2 |
-| 015-016 | Lone Wolf | The Warwick Clause | Asset | Rogue | ×2 |
+| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | ×2 |
 | 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×1 |
 
 ### Investigation (6 cards)
