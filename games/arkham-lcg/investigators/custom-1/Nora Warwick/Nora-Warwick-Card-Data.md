@@ -52,7 +52,6 @@ Guardian cards (0-2).
 Mystic cards (0-1).
 Neutral cards (0-5).
 Signature cards: The Warwick Collection ×1,
-The Book of the Dead ×1,
 The Family Debt ×1, 1 random basic weakness.
 ```
 
