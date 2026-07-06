@@ -532,73 +532,93 @@ Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost j
 
 ## 34-Card Deck
 
-### Economy (5 cards)
+### Economy (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 013-014 | Ancient Cache | Grave Robber (Funding the Dig) | Event | Neutral | ×2 |
-| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | ×2 |
-| 017 | Faustian Bargain | The Pact of Kha | Event | Rogue | ×1 |
+| 013a/b | Ancient Cache | Grave Robber | Event | Neutral | x2 |
+| 015 | Faustian Bargain | The Pact of Kha | Event | Rogue | x1 |
 
-### Investigation (6 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 018-019 | Crack the Case | The Warwick Method | Event | Seeker | ×2 |
-| 020-021 | Working a Hunch | Ancient Intuition | Event | Seeker | ×2 |
-| 022-023 | Deduction | The Academic's Eye | Skill | Seeker | ×2 |
-
-### Combat Support (3 cards)
+### Movement (2 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 024-025 | Cheap Shot | Desert Trick | Event | Rogue | ×2 |
-| 018 | Dynamite Blast | Isfet's Fury | Event | Rogue | ×1 |
+| 014a/b | Shortcut | Anti-Chamber | Event | Neutral | x2 |
 
-### Utility (2 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 019-020 | Calling in Favors | The Family Name | Event | Rogue | ×2 |
-
-### Skills (7 cards)
+### Investigation (4 cards)
 
 | # | Card | Reskin Name | Type | Class | Qty |
 |---|---|---|---|---|---|
-| 021-022 | Opportunist | The Opportunist | Skill | Rogue | ×2 |
-| 023-024 | Daring | The Warwick Gambit | Skill | Rogue | ×2 |
-| 025-026 | Perception | The Scholar's Eye | Skill | Seeker | ×2 |
-| 027 | Manual Dexterity | Desert Reflexes | Skill | Neutral | ×1 |
+| 017a/b | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
+| 018a/b | Deduction | Oxford Studies | Skill | Seeker | x2 |
 
-### Weapons (3 cards)
+### Combat (3 cards)
 
-| # | Card | Reskin Name | Type | Class | Qty | Icons |
-|---|---|---|---|---|---|---|
-| 007 | The Kopis | The Kopis | Asset | Rogue | ×1 | `<com>` + `<int>` |
-| 008 | The Khopesh | The Khopesh | Asset | Rogue | ×1 | 2 × `<com>` |
-| 009 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | ×1 | `<com>` + `<wil>` |
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 016a/b | Elusive | Sand Veil | Event | Rogue | x2 |
+| 012 | Dynamite Blast | Isfet's Fury | Event | Rogue | x1 |
 
-### Allies (3 cards)
+### Utility (3 cards)
 
-| # | Card | Type | Class | Qty | Icons | Secondary use |
-|---|---|---|---|---|---|---|
-| 032 | Ra-Night-Gaunt | Asset — Ally | Rogue | ×1 | 2 × `<com>` | Combat commits |
-| 033 | Anubis-Touched | Asset — Ally | Rogue | ×1 | `<wil>` + `<com>` | Encounter + combat |
-| 034 | The Horus Heresy | Asset — Ally | Rogue | ×1 | `<int>` + `<wil>` | Investigate + encounter |
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 020a/b | Calling in Favors | The Family Name | Event | Rogue | x2 |
+| 021 | Teamwork | Expedition Protocol | Event | Guardian | x1 |
 
-### Equipment (1 card)
+### Skills (4 cards)
 
-| # | Card | Reskin Name | Type | Class | Qty | Icons |
-|---|---|---|---|---|---|---|
-| 034 | The Collar of Sekhmet | The Collar of Sekhmet | Asset — Body | Rogue | ×1 | `<com>` + `<wil>` |
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 022a/b | Opportunist | The Opportunist | Skill | Rogue | x2 |
+| 023a/b | Daring | The Warwick Gambit | Skill | Rogue | x2 |
 
 ### Draw + Heal (4 cards)
 
-| # | Card | Reskin Name | Type | Class | Qty | Role |
-|---|---|---|---|---|---|---|
-| 035-036 | Astounding Revelation | The Cairo Revelation | Event | Seeker | ×2 | Unconditional draw + 2r |
-| 037-038 | Logical Reasoning | The Warwick Reasoning | Event | Seeker | ×2 | Unconditional 2 horror heal |
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 024a/b | Astounding Revelation | The Cairo Revelation | Skill | Seeker | x2 |
+| 025a/b | Logical Reasoning | The Warwick Reasoning | Event | Guardian | x2 |
 
+### Weapons (3 cards)
+
+| # | Card | Reskin Name | Type | Class | Qty |
+|---|---|---|---|---|---|
+| 007 | The Kopis | The Kopis | Asset | Rogue | x1 |
+| 008 | The Khopesh | The Khopesh | Asset | Rogue | x1 |
+| 009 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | x1 |
+
+### Allies (3 cards)
+
+| # | Card | Type | Class | Qty |
+|---|---|---|---|---|
+| 004 | Ra-Night-Gaunt | Asset - Ally | Rogue | x1 |
+| 005 | Call of Anubis | Asset - Ally | Rogue | x1 |
+| 006 | The Horus Heresy | Asset - Ally | Rogue | x1 |
+
+### Assets (3 cards)
+
+| # | Card | Type | Class | Qty |
+|---|---|---|---|---|
+| 010 | The Book of the Dead | Asset - Arcane | Rogue | x1 |
+| 011 | The Collar of Sekhmet | Asset - Body | Rogue | x1 |
+
+## Deck Summary
+
+| Category | Cards | Slots |
+|---|---|---|
+| Economy | Grave Robber, Pact of Kha | 3 |
+| Movement | Anti-Chamber | 2 |
+| Investigation | Ancient Intuition, Oxford Studies | 4 |
+| Combat | Sand Veil, Isfet's Fury | 3 |
+| Utility | Family Name, Expedition Protocol | 3 |
+| Skills | Opportunist, Warwick Gambit | 4 |
+| Draw + Heal | Cairo Revelation, Warwick Reasoning | 4 |
+| Weapons | Kopis, Khopesh, Sekhem | 3 |
+| Allies | Ra, Call of Anubis, Horus | 3 |
+| Assets | Book of Dead, Collar of Sekhmet | 2 |
+| Isfet's Fury | — | 1 |
+| **Total** | | **32** |
 ---
 
 ## Art Prompts
