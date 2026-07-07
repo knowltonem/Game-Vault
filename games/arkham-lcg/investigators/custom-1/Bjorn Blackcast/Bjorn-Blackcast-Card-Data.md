@@ -583,3 +583,22 @@ Mood: a man who has read the threads of fate and chosen to pull on one of them a
 Style: gritty cinematic realism, real film grain, extreme high contrast, rune light mixing on his face and hands, macro detail on his expression and the glowing staff runes. Colour palette: winter ice blue-white, deep gold, ancient grey fur and iron, void black, cold mist. 8K. --ar 3:2 --v 7
 ```
 Status: PROMPT LOCKED -- not yet generated.
+
+#### Leif's Leap
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Class** | Neutral |
+| **Level** | 0 |
+| **Cost** | 2r |
+| **Slot** | Accessory |
+| **Traits** | Item. Relic. |
+| **Icons** | `<agi><wld>` |
+| **Qty** | x1 |
+
+```
++1 AGI while Leif's Leap is in play. [free] Once per round: Move to a connecting location. This does not provoke attacks of opportunity.
+```
+*Flavor: "Leif went further than any man before him. So does this."*
+
+---
