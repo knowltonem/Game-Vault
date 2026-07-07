@@ -33,9 +33,9 @@ Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5
 
 ### Back Story
 ```
-The mist took him in 1724. He walked into that cave, a mistake he understood too late. The agents of Cthulhu sealed the cave with runes older than anything he had been taught to fear.
+The mist took him in 914. He walked into that cave, a mistake he understood too late. The agents of Cthulhu sealed the cave with runes older than anything he had been taught to fear.
 
-He spent two hundred years in the dark. The mist kept him alive. It keeps things that are not yet finished.
+He spent a thousand years in the dark. The mist kept him alive. It keeps things that are not yet finished.
 
 He walked out into a world that had moved without him. Stranger than he expected, more dangerous than he remembered.
 
