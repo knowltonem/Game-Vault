@@ -400,3 +400,98 @@ If this skill test is successful while investigating, draw 1 card.
 - [ ] Ward of Protection or cancel event
 - [ ] Flavor text for signature assets
 - [ ] Subtitles for signature assets
+
+### Draw
+
+#### Odin's Library
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Cost** | 2 |
+| **Traits** | Insight. |
+| **Icons** | `<int><int>` |
+| **Base Card** | Preposterous Sketches |
+| **Qty** | x2 |
+
+```
+Draw 3 cards.
+```
+*Flavor: "The ravens brought him three truths. He needed all of them."*
+
+---
+
+### Utility
+
+#### Njord's Calm
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Cost** | 1 |
+| **Traits** | Insight. |
+| **Icons** | `<wil><wld>` |
+| **Base Card** | Custom |
+| **Qty** | x2 |
+
+```
+Fast. Remove up to 2 curse tokens from the chaos bag.
+```
+*Flavor: "The curse was placed by men. Njord answers to older things."*
+
+---
+
+#### Odin's Ward
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Cost** | 1 |
+| **Traits** | Insight. Spell. |
+| **Icons** | `<wil>` |
+| **Base Card** | Ward of Protection |
+| **Qty** | x2 |
+
+```
+Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 horror.
+```
+*Flavor: "Some things cannot be stopped. This one can."*
+
+---
+
+## Final Deck Summary (30 Cards)
+
+| Category | Cards | Qty |
+|---|---|---|
+| Allies | Loki's Spirit, Thor's Honor | 2 |
+| Spells | Rune of Lightning ×2, Allfather's Eye ×2, Sif's Love ×2 | 6 |
+| Economy | Odin's Price ×2, Heimdall's Offering ×2 | 4 |
+| Horror Heal | Eir's Touch ×2, Val's Embrace ×2 | 4 |
+| Movement | The Bifrost Path ×2 | 2 |
+| Skills | Sigurd's Fury ×2, Vegtam ×2, Rune Sight ×2 | 6 |
+| Draw | Odin's Library ×2 | 2 |
+| Utility | Njord's Calm ×2, Odin's Ward ×2 | 4 |
+| **Total** | | **30** |
+
+## WIL Stacking Summary
+
+| Source | WIL Bonus |
+|---|---|
+| Base | 5 |
+| Runic Staff | +1 |
+| Runic Helm | +1 |
+| Thor's Honor | +1 |
+| **Max Total** | **8** |
+
+## Key Combos
+
+| Combo | Effect |
+|---|---|
+| Staff + Rune of Lightning | WIL 10 fight, +1 damage |
+| Allfather's Eye + Loki's Spirit | WIL 9 investigate, draw on success |
+| Sif's Love + Bifrost Path | Evade + freeze + escape |
+| Odin's Price + Odin's Ward | Pay 1 horror for 4r, spend 1r + 1 horror to cancel threat |
+| Sigurd's Fury on WIL test | Draw on failure -- turns misses into card advantage |
