@@ -1965,3 +1965,519 @@ Full entries will be added here after each card is reviewed and locked with Edwa
 | 013-026 | Deck cards | ✅ All built |
 | 027-036 | Deck cards | ❓ Built, not reviewed |
 | Soak cards | Pack extras | ⬜ Not yet built |
+
+## 027 & 028 — Sobek's Gift (×2)
+
+**Card Number**
+```
+027 / 028
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+Sobek's Gift
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Event
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Guardian
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+0
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+Blessed.
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<wil>
+```
+**Rules Text**
+```
+Fast. Play during any player's turn. Each investigator draws 1 card.
+```
+**Flavor**
+```
+"Sobek Is Generous"
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-027-Sobeks-Gift.eon
+```
+**PNG Front**
+```
+RYP-NW-027-Sobeks-Gift-Front.png
+```
+**PNG Back**
+```
+RYP-NW-027-Sobeks-Gift-Back.png
+```
+**Build Status:** ✅ Built ×2
+
+### Art Prompt — 027 Sobek's Gift
+**Image File Name**
+```
+RYP-NW-027-Sobeks-Gift-Art.png
+```
+**Prompt**
+```
+⬜ Not yet written
+```
+
+---
+
+## 029 & 030 — Pharaoh's Chariot (×2)
+
+**Card Number**
+```
+029 / 030
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+Pharaoh's Chariot
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Neutral
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+—
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<agi><agi><agi>
+```
+**Rules Text**
+```
+—
+```
+**Flavor**
+```
+"Speed can often make up the difference."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-029-Pharaohs-Chariot.eon
+```
+**PNG Front**
+```
+RYP-NW-029-Pharaohs-Chariot-Front.png
+```
+**PNG Back**
+```
+RYP-NW-029-Pharaohs-Chariot-Back.png
+```
+**Build Status:** ✅ Built ×2
+
+### Art Prompt — 029 Pharaoh's Chariot
+**Image File Name**
+```
+RYP-NW-029-Pharaohs-Chariot-Art.png
+```
+**Prompt**
+```
+⬜ Not yet written
+```
+
+---
+
+## 031 & 032 — The Oxford Gambit (×2)
+
+**Card Number**
+```
+031 / 032
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+The Oxford Gambit
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Rogue
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+—
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<agi><agi><agi>
+```
+**Rules Text**
+```
+Commit only to an evasion test. This test gains +2 <agi>. If this test is successful, you may move to a connecting location.
+```
+**Flavor**
+```
+"A gambit is not a retreat. It is a better position."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-031-The-Oxford-Gambit.eon
+```
+**PNG Front**
+```
+RYP-NW-031-The-Oxford-Gambit-Front.png
+```
+**PNG Back**
+```
+RYP-NW-031-The-Oxford-Gambit-Back.png
+```
+**Build Status:** ✅ Built ×2
+
+### Art Prompt — 031 The Oxford Gambit
+**Image File Name**
+```
+RYP-NW-031-The-Oxford-Gambit-Art.png
+```
+**Prompt**
+```
+⬜ Not yet written
+```
+
+---
+
+## 033 & 034 — Power of Thebes (×2)
+
+**Card Number**
+```
+033 / 034
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+Power of Thebes
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Rogue
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+—
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<com><com><agi><agi>
+```
+**Rules Text**
+```
+Commit only to a fight or evasion test.
+```
+**Flavor**
+```
+"Oxford taught her to think. Thebes taught her to move."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-033-Power-of-Thebes.eon
+```
+**PNG Front**
+```
+RYP-NW-033-Power-of-Thebes-Front.png
+```
+**PNG Back**
+```
+RYP-NW-033-Power-of-Thebes-Back.png
+```
+**Build Status:** ✅ Built ×2
+
+### Art Prompt — 033 Power of Thebes
+**Image File Name**
+```
+RYP-NW-033-Power-of-Thebes-Art.png
+```
+**Prompt**
+```
+⬜ Not yet written
+```
+
+---
+
+## 035 & 036 — Nile's Blessing (×2)
+
+**Card Number**
+```
+035 / 036
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+Nile's Blessing
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Event
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Guardian
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+1
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+Insight.
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<wil><wil>
+```
+**Rules Text**
+```
+Choose an investigator at your location. That investigator heals 2 horror and may discard a Terror card from their hand.
+```
+**Flavor**
+```
+"Let the Water of the Nile Heal You"
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-035-Niles-Blessing.eon
+```
+**PNG Front**
+```
+RYP-NW-035-Niles-Blessing-Front.png
+```
+**PNG Back**
+```
+RYP-NW-035-Niles-Blessing-Back.png
+```
+**Build Status:** ✅ Built ×2
+
+### Art Prompt — 035 Nile's Blessing
+**Image File Name**
+```
+RYP-NW-035-Niles-Blessing-Art.png
+```
+**Prompt**
+```
+⬜ Not yet written
+```
+
+---
+
+## Build Summary — UPDATED
+
+| Range | Cards | Status |
+|---|---|---|
+| 001-012 | Pack cards | ✅ All built |
+| 013-036 | Deck cards | ✅ All built and reviewed |
+| Soak cards | Pack extras | ⬜ Not yet built |
+
+**All 36 physical cards reviewed and locked. ✅**
+
+### Remaining Tasks
+- [ ] Art prompts for 027-036
+- [ ] Soak cards — Strange Eons build (Canopic Wrappings, Scarab Amulet, Eye Amulet)
+- [ ] Soak cards — full catalogue entries
+- [ ] Update flavor in Strange Eons for Oxford Gambit and Power of Thebes
