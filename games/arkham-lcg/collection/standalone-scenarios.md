@@ -10,8 +10,9 @@ All Amazon links verified from live search results.
 
 | Status | Count |
 |---|---|
-| ✅ In print, readily available ~$20 | 5 |
-| ⚠️ In print, spotty availability | 3 |
+| ✅ **Owned** | 4 |
+| ✅ In print, available ~$20 | 3 |
+| ⚠️ In print, spotty availability | 1 |
 | 🔴 Out of print, eBay only | 3 |
 | 🆕 New release, limited availability | 2 |
 
@@ -40,8 +41,9 @@ https://boardlandia.com/products/arkham-horror-lcg-scenario-bundle
 ---
 
 ### 3. The Labyrinths of Lunacy
-**Status:** ⚠️ Low stock
+**Status:** 🟢 **OWNED** ✅
 **MSRP:** $21.99
+**SKU:** AHC18
 **Amazon:** https://www.amazon.com/Asmodee-AHC18-Arkham-Horror-Labyrinths/dp/B077TCSJ89
 **Board Game Oracle:** https://www.boardgameoracle.com/boardgame/price/QF2oFQFt5t/arkham-horror-the-card-game-the-labyrinths-of-lunacy-scenario-pack
 **Notes:** Epic multiplayer scenario, up to 12 players. Unique format.
@@ -66,16 +68,18 @@ https://boardlandia.com/products/arkham-horror-lcg-scenario-bundle
 ---
 
 ### 6. The Blob That Ate Everything
-**Status:** ✅ In print
+**Status:** 🟢 **OWNED** ✅
 **MSRP:** ~$20
+**SKU:** AHC45
 **Amazon:** https://www.amazon.com/Arkham-Horror-LCG-Everything-Scenario/dp/B084BQHZ6W
 **Notes:** Epic multiplayer, campy B-movie tone, no player limit.
 
 ---
 
 ### 7. War of the Outer Gods
-**Status:** ⚠️ Spotty availability
+**Status:** 🟢 **OWNED** ✅
 **MSRP:** $21.99
+**SKU:** AHC59
 **Amazon:** https://www.amazon.com/FFG-Arkham-Horror-LCG-Scenario/dp/B08MYYHRFK
 **Board Game Oracle:** https://www.boardgameoracle.com/boardgame/price/wvcyOrRtv8/arkham-horror-the-card-game-war-of-the-outer-gods-scenario-pack
 **Notes:** Three warring cults, epic multiplayer mode. Highly rated (8.5 BGG). Buy before it goes OOP.
@@ -83,8 +87,9 @@ https://boardlandia.com/products/arkham-horror-lcg-scenario-bundle
 ---
 
 ### 8. Machinations Through Time
-**Status:** ✅ In print
+**Status:** 🟢 **OWNED** ✅
 **MSRP:** ~$20
+**SKU:** AHC62
 **Amazon:** https://www.amazon.com/Machinations-Cooperative-Fantasy-Flight-Games/dp/B09JWZSB42
 **Notes:** Time travel mechanics, up to 12 players in epic mode.
 
@@ -141,13 +146,12 @@ Under 40% of MSRP  — excellent, buy immediately
 
 ## Priority Buy Order
 
+✅ **Owned:** War of the Outer Gods, Machinations Through Time, The Blob That Ate Everything, Labyrinths of Lunacy
+
 1. **Murder at the Excelsior Hotel** — best rated, most replayable, ~$20
 2. **Guardians of the Abyss** — two scenarios in one pack, great value
-3. **War of the Outer Gods** — highly rated, get before it goes OOP
-4. **Film Fatale** — new, well reviewed, highly replayable
-5. **The Midwinter Gala** — strong mechanics, faction choice adds replayability
-6. **Fortune and Folly** — solid, widely available
-7. **Machinations Through Time** — fun time travel mechanics
-8. **The Blob That Ate Everything** — great for large groups
-9. **Curse of the Rougarou** — eBay hunt, worth it under $40
-10. **Barkham Horror** — eBay hunt, novelty buy under $35
+3. **Film Fatale** — new, well reviewed, highly replayable
+4. **The Midwinter Gala** — strong mechanics, faction choice adds replayability
+5. **Fortune and Folly** — solid, widely available
+6. **Curse of the Rougarou** — eBay hunt, worth it under $40
+7. **Barkham Horror** — eBay hunt, novelty buy under $35

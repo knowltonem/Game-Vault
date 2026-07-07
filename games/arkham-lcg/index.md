@@ -25,17 +25,30 @@ tags: [game, lcg, cooperative, horror, lovecraft]
 
 ## My Investigators
 
-**15 investigators owned** across Chapter 1 (core only) and Chapter 2.
+**25 investigators owned** across Chapter 1 and Chapter 2.
 
 | Chapter | Source | Investigators |
 |---|---|---|
 | Chapter 1 | Revised Core Set (2021) | Roland Banks, Daisy Walker, Agnes Baker, Wendy Adams, "Skids" O'Toole |
+| Chapter 1 | The Circle Undone (2019) | Carolyn Fern Ⓓ, Joe Diamond Ⓓ, **Preston Fairmont**, **Diana Stanley**, Marie Lambeau Ⓓ, **Rita Young** |
+| Chapter 1 | The Innsmouth Conspiracy (2020) | **Sister Mary**, **Amanda Sharpe**, Trish Scarborough Ⓓ, **Silas Marsh**, Dexter Drake Ⓓ |
+| Chapter 1 | Edge of the Earth Inv. Exp. (2021) | Daniela Reyes Ⓓ, **Norman Withers**, **Monterey Jack**, **Lily Chen**, **Bob Jenkins** |
 | Chapter 2 | Core Set (2026) | Isabelle Barnes, Trish Scarborough, Joe Diamond, Daniela Reyes, Dexter Drake |
 | Chapter 2 | Investigator Decks (2026) | Tommy Muldoon, Carolyn Fern, André Patel, Marie Lambeau, Miguel de la Cruz |
+
+Ⓓ = Duplicate copy (same investigator already owned from another source)
 
 → [[games/arkham-lcg/investigators/index|Full investigator index]]
 
 ---
+
+## Campaigns
+
+| Campaign | Source | Status |
+|---|---|---|
+| [[games/arkham-lcg/Edge Of The Earth - Campaign/edge-of-the-earth\|Edge of the Earth]] | Campaign Exp. (AHC64) | ✅ Owned — not yet played |
+| [[games/arkham-lcg/The Circle Undone - Campaign/the-circle-undone\|The Circle Undone]] | Full cycle (AHC29-35) | ✅ Owned — not yet played |
+| [[games/arkham-lcg/The Innsmouth Conspiracy - Campaign/the-innsmouth-conspiracy\|The Innsmouth Conspiracy]] | Full cycle (AHC52-58) | ✅ Owned — not yet played |
 
 ## Notes
 
