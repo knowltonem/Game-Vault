@@ -495,3 +495,59 @@ Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 hor
 | Sif's Love + Bifrost Path | Evade + freeze + escape |
 | Odin's Price + Odin's Ward | Pay 1 horror for 4r, spend 1r + 1 horror to cancel threat |
 | Sigurd's Fury on WIL test | Draw on failure -- turns misses into card advantage |
+
+### Additional Cards
+
+#### Mjolnir's Might
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Cost** | 3 |
+| **Traits** | Spell. |
+| **Icons** | `<wil><wil>` |
+| **Base Card** | Dynamite Blast |
+| **Qty** | x1 |
+
+```
+Choose a location. Deal 2 damage to each enemy at that location. Each investigator at that location takes 1 horror.
+```
+*Flavor: "Mjolnir was forged in a dying star. It remembers."*
+
+---
+
+#### Norns' Sight
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Cost** | 3 |
+| **Slot** | Arcane |
+| **Traits** | Spell. |
+| **Icons** | `<wil><int>` |
+| **Base Card** | Rite of Seeking |
+| **Qty** | x1 |
+
+```
+Uses (4 charges). [action] Spend 1 charge: Investigate. This investigation uses WIL instead of INT. If you succeed, discover 1 additional clue at your location.
+```
+*Flavor: "The Norns weave what was, what is, what shall be. He simply reads the thread."*
+
+---
+
+## Final Deck Summary (32 Cards)
+
+| Category | Cards | Qty |
+|---|---|---|
+| Allies | Loki's Spirit, Thor's Honor | 2 |
+| Spells | Rune of Lightning ×2, Allfather's Eye ×2, Sif's Love ×2, Norns' Sight ×1 | 7 |
+| Combat | Mjolnir's Might ×1 | 1 |
+| Economy | Odin's Price ×2, Heimdall's Offering ×2 | 4 |
+| Horror Heal | Eir's Touch ×2, Val's Embrace ×2 | 4 |
+| Movement | The Bifrost Path ×2 | 2 |
+| Skills | Sigurd's Fury ×2, Vegtam ×2, Rune Sight ×2 | 6 |
+| Draw | Odin's Library ×2 | 2 |
+| Utility | Njord's Calm ×2, Odin's Ward ×2 | 4 |
+| **Total** | | **32** |
