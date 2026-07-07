@@ -2489,3 +2489,314 @@ RYP-NW-035-Niles-Blessing-Art.png
 - [ ] Soak cards — Strange Eons build (Canopic Wrappings, Scarab Amulet, Eye Amulet)
 - [ ] Soak cards — full catalogue entries
 - [ ] Update flavor in Strange Eons for Oxford Gambit and Power of Thebes
+
+## 037 — The Canopic Wrappings
+
+**Card Number**
+```
+037
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+The Canopic Wrappings
+```
+**Subtitle**
+```
+Bound in Ancient Linen
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Rogue
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+Item. Relic. Blessed.
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<wil><int>
+```
+**Rules Text**
+```
+Attach The Canopic Wrappings to an Ally you control. That ally gains +2 HP while that ally is in play.
+```
+**Flavor**
+```
+"The jars remember their purpose. So do the wrappings."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-037-The-Canopic-Wrappings.eon
+```
+**PNG Front**
+```
+RYP-NW-037-The-Canopic-Wrappings-Front.png
+```
+**PNG Back**
+```
+RYP-NW-037-The-Canopic-Wrappings-Back.png
+```
+**Build Status:** ⬜ Not yet built
+
+### Art Prompt — 037 The Canopic Wrappings
+**Image File Name**
+```
+RYP-NW-037-The-Canopic-Wrappings-Art.png
+```
+**Prompt**
+```
+Cinematic gritty dark fantasy photograph. Nora Warwick -- early 30s, sharp angular features, leather flight jacket, hair pulled back -- standing before a large stone display stand in an ancient Egyptian burial chamber. On the stand: an extraordinary collection of canopic jars and linen wrappings arranged together -- four alabaster canopic jars with human, jackal, baboon and falcon headed lids, each sealed, each faintly luminous at the seal. Between the jars: strips of ancient linen wrappings partially unrolled, covered in dense hieroglyphic text, some draped over the stand edge, some coiled beside the jars. Nora: slightly leaning forward, one hand reaching toward the nearest jar, expression of focused professional assessment -- not reverence, recognition. She has seen these before. She knows what they do. The stand itself: ancient carved stone with hieroglyphic relief panels, clearly undisturbed for centuries until this moment. Dust in the torchlight around her. Background: burial chamber walls receding into deep shadow, more hieroglyphs barely visible. Colour palette: alabaster white, aged cream linen, warm amber torchlight, ancient stone grey, faint gold luminescence from the jar seals, void black shadow. Gritty, cinematic, real film grain. --ar 3:2 --v 7
+```
+
+---
+
+## 038 — The Scarab Amulet
+
+**Card Number**
+```
+038
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+The Scarab Amulet
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Rogue
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+Item. Relic. Blessed.
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<wil><wil>
+```
+**Rules Text**
+```
+Attach The Scarab Amulet to an Ally you control. That ally gains +2 SAN while that ally is in play.
+```
+**Flavor**
+```
+"It was warm when she picked it up. The tomb had been sealed for three thousand years."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-038-The-Scarab-Amulet.eon
+```
+**PNG Front**
+```
+RYP-NW-038-The-Scarab-Amulet-Front.png
+```
+**PNG Back**
+```
+RYP-NW-038-The-Scarab-Amulet-Back.png
+```
+**Build Status:** ⬜ Not yet built
+
+### Art Prompt — 038 The Scarab Amulet
+**Image File Name**
+```
+RYP-NW-038-The-Scarab-Amulet-Art.png
+```
+**Prompt**
+```
+Cinematic gritty dark fantasy photograph. Close up on an ancient Egyptian scarab amulet held in a young woman's hand -- lean and capable, smooth skin expedition-worn but not aged, fingers strong and precise, leather-jacketed sleeve visible. The scarab: carved deep lapis lazuli blue, the beetle wings detailed and precise, set in aged gold with fine wire work around the edges. On a corroded bronze chain. The amulet faintly luminous -- a warm gold pulse from within the lapis, as if something inside it is alive and aware. The woman's grip: confident, familiar, the grip of someone who has carried this a long time. Background: dim torchlight, ancient stone walls, deep shadow. Colour palette: deep lapis lazuli blue, aged gold, corroded bronze, warm amber torchlight, void black. Gritty, cinematic, real film grain. --ar 3:2 --v 7
+```
+
+---
+
+## 039 — The Eye Amulet
+
+**Card Number**
+```
+039
+```
+**Set**
+```
+RYP-NW
+```
+**Name**
+```
+The Eye Amulet
+```
+**Subtitle**
+```
+—
+```
+**Type**
+```
+Skill
+```
+**Subtype**
+```
+—
+```
+**Class**
+```
+Rogue
+```
+**Level**
+```
+0
+```
+**Unique**
+```
+No
+```
+**Cost**
+```
+—
+```
+**Slot**
+```
+—
+```
+**Traits**
+```
+Item. Relic.
+```
+**HP Soak**
+```
+—
+```
+**SAN Soak**
+```
+—
+```
+**Icons**
+```
+<int><int>
+```
+**Rules Text**
+```
+Attach The Eye Amulet to an Ally you control. That ally gains +2 HP or +2 SAN (your choice) while that ally is in play.
+```
+**Flavor**
+```
+"Horus lost his eye in battle and found it again. What it sees now is different."
+```
+**Copyright**
+```
+RYP-NW © 2026
+```
+**EON File**
+```
+RYP-NW-039-The-Eye-Amulet.eon
+```
+**PNG Front**
+```
+RYP-NW-039-The-Eye-Amulet-Front.png
+```
+**PNG Back**
+```
+RYP-NW-039-The-Eye-Amulet-Back.png
+```
+**Build Status:** ⬜ Not yet built
+
+### Art Prompt — 039 The Eye Amulet
+**Image File Name**
+```
+RYP-NW-039-The-Eye-Amulet-Art.png
+```
+**Prompt**
+```
+Cinematic gritty dark fantasy digital painting. Horus -- the falcon-headed god -- depicted in full battle regalia, mid-stride, commanding and absolute. His form: towering, divine, the proportions of a god not a human. Falcon head proud and alert, the eyes fierce and burning gold. Full Egyptian battle armour: broad gold pectoral plate engraved with sacred symbols, gold arm bracers, a white and gold kilt, sandals with gold straps. The double crown of Upper and Lower Egypt on his head. In one hand: a was sceptre. Around his neck, prominently displayed: the Eye of Horus amulet -- large, ornate, turquoise faience with gold inlay, the obsidian pupil catching the light as a cold blue-white point. The amulet is the focal point -- it sits at the centre of his chest, the eye within the eye, watching everything. His expression: absolute divine certainty. He has fought this battle before. He will win it again. Background: ancient Egyptian battlefield at night -- the Nile in the far distance, torchlight, the suggestion of an enemy force being driven back into darkness. Colour palette: divine gold armour, deep turquoise amulet, cold blue-white eye glow, warm torchlight, deep void black. Epic scale, cinematic, real film grain, extreme contrast. --ar 3:2 --v 7
+```
+
+---
+
+## Build Summary — FINAL
+
+| Range | Cards | Status |
+|---|---|---|
+| 001-012 | Pack cards | ✅ All built |
+| 013-036 | Deck cards | ✅ All built and reviewed |
+| 037-039 | Soak cards | ⬜ Not yet built in Strange Eons |
+
+**Total physical cards: 39**
+**All cards designed and locked. ✅**
