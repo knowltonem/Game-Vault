@@ -31,9 +31,17 @@ Once per round: Before revealing a chaos token, you may exhaust a Rune asset you
 Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5
 ```
 
-### Requirements
+### Back Story
 ```
-The Runic Staff x1, The Runic Helm x1, The Ragnarök x1, 1 random basic weakness
+The mist took him in 1724. He walked into that cave, a mistake he understood too late. The agents of Cthulhu sealed the cave with runes older than anything he had been taught to fear.
+
+He spent two hundred years in the dark. The mist kept him alive. It keeps things that are not yet finished.
+
+He walked out into a world that had moved without him. Stranger than he expected, more dangerous than he remembered.
+
+Valhalla requires a warrior's death. There is one enemy worthy of the price of entry.
+
+He will not wait much longer.
 ```
 
 ---
