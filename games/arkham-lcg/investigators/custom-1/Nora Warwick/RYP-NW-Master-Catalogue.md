@@ -1,5 +1,13 @@
 # RYP-NW — Nora Warwick Master Catalogue
 
+> ⚠️ **AUTHORITATIVE SOURCE** — This is the single source of truth for all Nora Warwick card data.
+> All rules text, flavor, and field values in this file are final and locked.
+> The Nora-Warwick-Card-Data.md contains the deck list. This file contains the full print blocks.
+> Do not use any other file as reference for card stats.
+
+---
+
+
 ## Pack Overview
 
 | Field | Value |
