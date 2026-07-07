@@ -551,3 +551,27 @@ Uses (4 charges). [action] Spend 1 charge: Investigate. This investigation uses 
 | Draw | Odin's Library ×2 | 2 |
 | Utility | Njord's Calm ×2, Odin's Ward ×2 | 4 |
 | **Total** | | **32** |
+
+## Art Prompts
+
+### 001 — Bjorn Blackcast Investigator Card
+```
+Cinematic gritty dark fantasy photograph. Close to mid body shot, low camera angle looking sharply upward. Bjorn Blackcast, Norse shaman, mid to late fifties. Broad powerful frame, weathered Nordic features -- deep-set eyes the colour of winter ice, a heavy grey-streaked beard, long grey hair loose around his shoulders. His expression: absolute calm certainty. He has seen the end of the world in his visions. He is not afraid of what stands before him now.
+
+Wearing layered Norse expedition gear -- heavy fur-lined cloak over dark leather armour, iron bracers carved with runic symbols along the forearm edges. Around his neck: bone and iron amulets on rough cord, each carved with a different rune. His hands: large, scarred, the hands of someone who has carved runes into stone and bone for decades.
+
+In his right hand: The Runic Staff -- a long dark staff of ancient wood, the shaft carved from top to bottom with interlocking rune sequences, each rune slightly luminous, a cold blue-white glow running through the carved channels as if the runes are alive. The staff planted vertically beside him like an anchor to the earth.
+
+From the staff: runic energy radiating outward in controlled streams -- cold blue-white from the carved runes, deep gold from the wood itself reacting, a faint green where the streams cross. The runes on his bracers responding to the staff -- glowing sympathetically, the same cold blue-white.
+
+Above him: the mist. Not weather -- something older. Dense, directional, moving toward him rather than past him, as if drawn to the staff. The mist: grey-white, cold, alive in the way ancient things are alive.
+
+Background: Nordic coastal cliff at night -- dark sea below, wrong stars above, the kind of sky that appears in dreams of the end of the world. Stone formations carved with ancient runes barely visible in the mist behind him.
+
+Lighting: cold blue-white from the staff runes as dominant source, deep gold secondary, the mist catching and diffusing both, void black at absolute edges.
+
+Mood: a man who has read the threads of fate and chosen to pull on one of them anyway. He knows the cost. He has always known the cost.
+
+Style: gritty cinematic realism, real film grain, extreme high contrast, rune light mixing on his face and hands, macro detail on his expression and the glowing staff runes. Colour palette: winter ice blue-white, deep gold, ancient grey fur and iron, void black, cold mist. 8K. --ar 3:2 --v 7
+```
+Status: PROMPT LOCKED -- not yet generated.
