@@ -304,3 +304,99 @@ Fast. Play when you would take horror. Prevent 2 of that horror.
 - [ ] Flavor text for all cards
 - [ ] Signature asset subtitles and full specs
 - [ ] Deckbuilding requirements finalized
+
+### Movement
+
+#### The Bifrost Path
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Neutral |
+| **Level** | 0 |
+| **Cost** | 0 |
+| **Traits** | Insight. |
+| **Icons** | `<agi><wld>` |
+| **Base Card** | Elusive |
+| **Qty** | x2 |
+
+```
+Fast. Disengage from all enemies engaged with you. Move to any connecting location.
+```
+*Flavor: "The bridge between worlds opens for those who know the way."*
+
+---
+
+### Skills
+
+#### Sigurd's Fury
+| Field | Value |
+|---|---|
+| **Type** | Skill |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Traits** | Practiced. |
+| **Icons** | `<wil><wil>` |
+| **Base Card** | Guts |
+| **Qty** | x2 |
+
+```
+If this skill test fails, draw 1 card.
+```
+*Flavor: "Sigurd slew Fafnir not through caution. Through fury."*
+
+---
+
+#### Vegtam "The Wanderer"
+| Field | Value |
+|---|---|
+| **Type** | Skill |
+| **Class** | Neutral |
+| **Level** | 0 |
+| **Traits** | Innate. |
+| **Icons** | `<wld><wld>` |
+| **Base Card** | Unexpected Courage |
+| **Qty** | x2 |
+
+```
+—
+```
+*Flavor: "He walks unseen. He always has."*
+
+---
+
+#### Rune Sight
+| Field | Value |
+|---|---|
+| **Type** | Skill |
+| **Class** | Mystic |
+| **Level** | 0 |
+| **Traits** | Practiced. |
+| **Icons** | `<int><int>` |
+| **Base Card** | Perception |
+| **Qty** | x2 |
+
+```
+If this skill test is successful while investigating, draw 1 card.
+```
+*Flavor: "He does not look for clues. He reads what was always written there."*
+
+---
+
+## Deck Summary (Current)
+
+| Category | Cards | Qty |
+|---|---|---|
+| Allies | Loki's Spirit, Thor's Honor | 2 |
+| Spells | Rune of Lightning, Allfather's Eye, Sif's Love | 3 |
+| Economy | Odin's Price, Heimdall's Offering | 4 |
+| Horror Heal | Eir's Touch, Val's Embrace | 4 |
+| Movement | The Bifrost Path | 2 |
+| Skills | Sigurd's Fury, Vegtam, Rune Sight | 6 |
+| **Total** | | **21** |
+
+### Still Needed (~9 more cards to reach 30)
+- [ ] Utility cards
+- [ ] Draw engine
+- [ ] Ward of Protection or cancel event
+- [ ] Flavor text for signature assets
+- [ ] Subtitles for signature assets
