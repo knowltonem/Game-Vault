@@ -653,6 +653,68 @@ NOT YET built in Strange Eons. This is the next major build phase after Nora War
 
 ---
 
+
+---
+
+## Bjorn Blackcast (RYP-BB) -- IN PROGRESS 🔧
+
+### Investigator
+| Field | Value |
+|---|---|
+| Name | Bjorn Blackcast |
+| Subtitle | The Mist Borne |
+| Class | Mystic |
+| Traits | Shaman. Runebearer. |
+| Willpower | 5 |
+| Intellect | 3 |
+| Combat | 2 |
+| Agility | 3 |
+| Health | 6 |
+| Sanity | 10 |
+| Ability | Once per round: Before revealing a chaos token, you may exhaust a Rune asset you control to reveal 2 tokens and choose which one applies. Return the other to the bag. |
+| Elder Sign | +3. Heal 1 horror. |
+| Deckbuilding | Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5 |
+| Requirements | The Runic Staff x1, The Runic Helm x1, The Ragnarok x1, 1 random basic weakness |
+| Pack Code | RYP-BB |
+
+### Back Story
+The mist took him in 914. Viking shaman sealed in a cave by Cthulhu agents for a thousand years. Walked out in 1924. Wants Valhalla. One enemy stands between him and it.
+
+### Signature Cards
+- The Runic Staff -- Hand slot, +1 WIL, fight using WIL instead of COM, +2 WIL for attack
+- The Runic Helm -- Body slot, HP soak 1/SAN soak 2, +1 WIL, reaction prevent 1 horror
+- The Ragnarok -- Weakness, disables investigator ability, clears on elder sign reveal (5 tokens)
+
+### Deck (32 cards)
+| Category | Cards | Qty |
+|---|---|---|
+| Allies | Loki's Spirit, Thor's Honor | 2 |
+| Spells | Rune of Lightning x2, Allfather's Eye x2, Sif's Love x2, Norns' Sight x1 | 7 |
+| Combat | Mjolnir's Might x1 | 1 |
+| Economy | Odin's Price x2, Heimdall's Offering x2 | 4 |
+| Horror Heal | Eir's Touch x2, Val's Embrace x2 | 4 |
+| Movement | The Bifrost Path x2 | 2 |
+| Skills | Sigurd's Fury x2, Vegtam x2, Rune Sight x2 | 6 |
+| Draw | Odin's Library x2 | 2 |
+| Utility | Njord's Calm x2, Odin's Ward x2 | 4 |
+| **Total** | | **32** |
+
+### Build Status
+| Component | Status |
+|---|---|
+| Investigator card | ✅ Built in Strange Eons |
+| Signature cards | ⬜ Not yet built |
+| Deck cards | ⬜ Not yet built |
+| Art | ⬜ Investigator prompt locked, not generated |
+| Master Catalogue | ⬜ Not yet written |
+
+### What To Do Next
+1. Build signature cards in Strange Eons (Runic Staff, Runic Helm, Ragnarok)
+2. Build all deck cards
+3. Generate art for investigator card
+4. Write art prompts for all other cards
+5. Create RYP-BB-Master-Catalogue.md
+
 ## Emergency Context Ã¢â‚¬â€ If AI Has No Memory
 
 If you are reading this with no prior context:
