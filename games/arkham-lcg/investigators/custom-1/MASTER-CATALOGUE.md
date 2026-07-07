@@ -37,6 +37,12 @@ This file links to each catalogue and tracks overall build status.
 
 ---
 
+## Investigator 6
+
+| Pack Code | Investigator | Class | Cards | Catalogue | Build Status |
+|---|---|---|---|---|---|
+| RYP-BB | [[Bjorn Blackcast]] | Mystic | 36 | RYP-BB-Master-Catalogue.md | 🔧 In Progress |
+
 ## Future Packs — Placeholder
 
 | Pack Code | Name | Type | Catalogue | Build Status |
