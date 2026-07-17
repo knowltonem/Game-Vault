@@ -25,7 +25,8 @@ This file links to each catalogue and tracks overall build status.
 | RYP-AG | Alistair Greystoke | Seeker | 39 | [RYP-AG-Master-Catalogue.md](Alistair%20Greystoke/RYP-AG-Master-Catalogue.md) | ✅ Printed |
 | RYP-AC | Agnes Crane | Survivor | 33 | [RYP-AC-Master-Catalogue.md](Agnes%20Crane/RYP-AC-Master-Catalogue.md) | ✅ Printed |
 | RYP-AR | Abel Redcloud | Guardian | 31 | [RYP-AR-Master-Catalogue.md](Abel%20Redcloud/RYP-AR-Master-Catalogue.md) | ✅ Printed |
-| RYP-NW | Nora Warwick | Rogue | 36 | [RYP-NW-Master-Catalogue.md](Nora%20Warwick/RYP-NW-Master-Catalogue.md) | 🔧 In Progress |
+| RYP-NW | Nora Warwick | Rogue | 36 | [RYP-NW-Master-Catalogue.md](Nora%20Warwick/RYP-NW-Master-Catalogue.md) | ✅ Printed |
+| RYP-BB | Bjorn Blackcast | Mystic | 36 | [RYP-BB-Master-Catalogue.md](Bjorn%20Blackcast/RYP-BB-Master-Catalogue.md) | ✅ Printed |
 
 ---
 
@@ -35,19 +36,10 @@ This file links to each catalogue and tracks overall build status.
 |---|---|---|---|---|
 | RYP-UP | Upgrade Pack | 54 | [RYP-UP-Master-Catalogue.md](Upgrade%20Pack/RYP-UP-Master-Catalogue.md) | ⬜ Not Started |
 
----
-
-## Investigator 6
-
-| Pack Code | Investigator | Class | Cards | Catalogue | Build Status |
-|---|---|---|---|---|---|
-| RYP-BB | [[Bjorn Blackcast]] | Mystic | 36 | RYP-BB-Master-Catalogue.md | 🔧 In Progress |
-
 ## Future Packs — Placeholder
 
 | Pack Code | Name | Type | Catalogue | Build Status |
 |---|---|---|---|---|
-| RYP-06 | Investigator 6 (TBD) | Investigator | TBD | ⬜ Not Designed |
 | RYP-07 | Investigator 7 (TBD) | Investigator | TBD | ⬜ Not Designed |
 | RYP-SD1 | Standalone Deck 1 (TBD) | Standalone | TBD | ⬜ Not Designed |
 | RYP-CE1 | Campaign Encounter Pack 1 (TBD) | Encounter | TBD | ⬜ Not Designed |
@@ -155,4 +147,4 @@ Local: `C:\Users\edwar\Documents\games\board-game-vault\games\arkham-lcg\investi
 
 ## Last Updated
 
-2026-07-06 — Nora Warwick in progress, 36 cards built in Strange Eons.
+2026-07-16 — 6 investigators complete, all ✅ Printed. Awaiting Investigator 7.
