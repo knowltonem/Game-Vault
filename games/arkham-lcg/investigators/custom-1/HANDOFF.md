@@ -1,4 +1,4 @@
-# R'lyeh Expansion Ã¢â‚¬â€ AI Handoff Document
+# R'lyeh Expansion — AI Handoff Document
 
 ## READ THIS FIRST
 
@@ -11,9 +11,10 @@ When Claude's usage is paused, read this file and continue seamlessly.
 ## Project Summary
 
 Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
-Five custom investigator packs plus one shared upgrade pack.
+Seven custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
-Repository: `C:\Users\edwar\Documents\games\board-game-vault` Ã¢â€ â€™ GitHub: `knowltonem/Game-Vault`
+Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
+Latest commit: `b453ccd` → main
 
 ---
 
@@ -21,37 +22,44 @@ Repository: `C:\Users\edwar\Documents\games\board-game-vault` Ã¢â€ â€�
 
 ```
 games/arkham-lcg/investigators/custom-1/
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ HANDOFF.md                          Ã¢â€ Â YOU ARE HERE
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ card-reference.md                   Ã¢â€ Â Verified ArkhamDB card text
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ index.md                            Ã¢â€ Â Project index
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Jonathan Ironhide/                  Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Alistair Greystoke/                 Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Agnes Crane/                        Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Abel Redcloud/                      Ã¢â€ Â COMPLETE Ã¢Å“â€¦ printed
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ Nora Warwick/                       Ã¢â€ Â IN PROGRESS Ã°Å¸â€Â§
-Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ Upgrade Pack/                       Ã¢â€ Â DESIGNED Ã¢Å“â€¦ not yet built in Strange Eons
+├── HANDOFF.md                          ← YOU ARE HERE
+├── MASTER-CATALOGUE.md
+├── INVESTIGATOR-PROFILE-TEMPLATE.md
+├── Jonathan Ironhide/                  ← COMPLETE ✅ needs PNG regen
+├── Alistair Greystoke/                 ← COMPLETE ✅ needs PNG regen
+├── Agnes Crane/                        ← COMPLETE ✅ needs PNG regen
+├── Abel Redcloud/                      ← COMPLETE ✅ needs PNG regen
+├── Nora Warwick/                       ← COMPLETE ✅
+├── Bjorn Blackcast/                    ← IN PROGRESS 🔧 cards 025-037 not built
+├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
+└── Upgrade Pack/                       ← DESIGNED ✅ not yet built in Strange Eons
 ```
 
 ---
 
-## Standing Rules Ã¢â‚¬â€ NEVER VIOLATE
-
-### Nora's Hand Ã¢â‚¬â€ Art Prompt Rule
-Whenever Nora's hand appears in art: always a young woman's hand, lean and capable, smooth skin expedition-worn but not aged, fingers strong and precise. Never old, never male. Leather-jacketed sleeve always visible.
+## Standing Rules — NEVER VIOLATE
 
 ### Naming Conventions
 | File Type | Convention | Example |
 |---|---|---|
-| Folders | `###-Card-Name` | `006-The-Warwick-Incendiary` |
-| EON files (signature) | `Warwick-Sig-[Type]-[Name].eon` | `Warwick-Sig-Asset-The-Warwick-Collection.eon` |
-| EON files (deck) | `Warwick-[Type]-[Name].eon` | `Warwick-Event-Desert-Trick.eon` |
-| PNG exports | `RYP-NW-###-[Name]-Front.png` | `RYP-NW-006-The-Warwick-Incendiary-Front.png` |
+| Folders | `###-Card-Name` | `006-The-Red-Blade` |
+| EON files | `RYP-XX-###-Card-Name.eon` | `RYP-EA-006-The-Red-Blade.eon` |
+| PNG exports Front | `RYP-XX-###-Card-Name-Front.png` | `RYP-EA-006-The-Red-Blade-Front.png` |
+| PNG exports Back | `RYP-XX-###-Card-Name-Back.png` | `RYP-EA-006-The-Red-Blade-Back.png` |
+| Art files | `RYP-XX-###-Card-Name-Art.png` | `RYP-EA-006-The-Red-Blade-Art.png` |
+| REF images | `000-REF-Description.png` | `000-REF-Ephraim-Archer-1.png` |
+| Mini markers | Keep any Mini-Marker EON files — every investigator should have one |
+
+### PNG Handling
+- NEVER delete PNG files from card folders unless explicitly told to
+- Only rename PNGs to convention, never delete them
+- Strange Eons re-exports constantly — rename not delete
 
 ### Print Standards
-- Always check card-reference.md before printing any official card
-- Export PNGs at 300 DPI minimum
-- Always export Front AND Back for each card
-- Git commit after every session with descriptive message
+- Every card print: full fenced code block per field (copy button)
+- Art prompt with image filename immediately after each card
+- After completing each card: clean up folder naming before moving to next
+- Any change triggers a full card reprint
 
 ### Git Workflow
 ```
@@ -64,599 +72,101 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 
 ## Pack Codes
 
-| Investigator | Pack Code |
-|---|---|
-| Jonathan Ironhide | RYP-JI |
-| Alistair Greystoke | RYP-AG |
-| Agnes Crane | RYP-AC |
-| Abel Redcloud | RYP-AR |
-| Nora Warwick | RYP-NW |
-| Upgrade Pack | RYP-UP |
+| Investigator | Pack Code | Class | Status |
+|---|---|---|---|
+| Jonathan Ironhide | RYP-JI | Guardian | ✅ Complete — needs PNG regen |
+| Alistair Greystoke | RYP-AG | Seeker | ✅ Complete — needs PNG regen |
+| Agnes Crane | RYP-AC | Survivor | ✅ Complete — needs PNG regen |
+| Abel Redcloud | RYP-AR | Guardian | ✅ Complete — needs PNG regen |
+| Nora Warwick | RYP-NW | Rogue | ✅ Complete |
+| Bjorn Blackcast | RYP-BB | Mystic | 🔧 Cards 025-037 not yet built |
+| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
 
 ---
 
-## Completed Investigators Ã¢â‚¬â€ Do Not Modify
+## Investigator Power Rankings
 
-### Jonathan Ironhide (RYP-JI) Ã¢Å“â€¦ PRINTED
-Guardian. Will 3 / Int 2 / Com 5 / Agi 3. Health 9 / Sanity 7.
-Curse payoff fighter. Hollow Warden signature weapon.
-
-### Alistair Greystoke (RYP-AG) Ã¢Å“â€¦ PRINTED
-Seeker. Will 3 / Int 5 / Com 3 / Agi 2. Health 7 / Sanity 7.
-Ally swarm investigator. Summoner's Deck signature.
-
-### Agnes Crane (RYP-AC) Ã¢Å“â€¦ PRINTED
-Survivor. Will 4 / Int 3 / Com 3 / Agi 3. Health 6 / Sanity 9.
-Horror prevention specialist. Night-Gaunt + Pale Child allies.
-
-### Abel Redcloud (RYP-AR) Ã¢Å“â€¦ PRINTED
-Guardian. Will 4 / Int 2 / Com 4 / Agi 3. Health 8 / Sanity 7.
-Bless generator. Sacred Spear + Spirit Coyote.
+| Rank | Investigator | Class | Rating |
+|---|---|---|---|
+| 1 | Nora Warwick | Rogue | ⭐⭐⭐⭐⭐ |
+| 2 | Bjorn Blackcast | Mystic | ⭐⭐⭐⭐⭐ |
+| 3 | Alistair Greystoke | Seeker | ⭐⭐⭐⭐ |
+| 4 | Ephraim Archer | Guardian | ⭐⭐⭐⭐ |
+| 5 | Agnes Crane | Survivor | ⭐⭐⭐ |
+| 6 | Abel Redcloud | Guardian | ⭐⭐⭐ |
+| 7 | Jonathan Ironhide | Guardian | ⭐⭐⭐ |
 
 ---
 
-## Nora Warwick Ã¢â‚¬â€ Current Status Ã°Å¸â€Â§
+## Investigator Stats
 
-### Folder Numbering (2026-07-06)
-**Why we restructured:** Cards with multiple copies (e.g., Grave Robber Ãƒâ€”2) previously shared one folder number with `a`/`b` suffixes (e.g., `013-Grave-Robber-a/b`). This made card numbers and folder numbers misalign in the deck list, causing confusion. Now each physical card has its own folder and unique number:
-
-- **001-012**: Investigator + signature pack cards (fixed slots)
-- **013-036**: Deck cards Ã¢â‚¬â€ each card copy gets its own number (e.g., `013-Grave-Robber`, `014-Grave-Robber`)
-- No `a`/`b` suffixes anywhere
-- PNG convention: `RYP-NW-###-Card-Name-Front/Back.png`
-- `.eon` convention: `Warwick-[Type]-[Card-Name].eon` (signatures) or `RYP-NW-###-Card-Name.eon` (regular deck)
-
-### What Is Done
-- Investigator card — fully designed and locked
-- All signature cards — fully designed and locked
-- All pack cards — fully designed and locked
-- 36-card deck — fully designed: all 22 card entries (13 unique ×2, 9 singletons)
-- All card data in: `Nora Warwick/Nora-Warwick-Card-Data.md`
-- All 36 Strange Eons blocks printed with art prompts
-- All 36 folders created with correct naming conventions
-- PNGs exported and renamed for all 36 cards (no -Face, correct RYP-NW-###- prefix)
-- Deck pairs reordered to be adjacent (017-028)
-- Nora vs Finn Edwards analysis complete
-
-### What Is NOT Done
-- Art generation (Midjourney) — not yet started
-- Need to check if any .eon files need updates after renames
+| Investigator | WIL | INT | COM | AGI | HP | SAN |
+|---|---|---|---|---|---|---|
+| Jonathan Ironhide | 3 | 2 | 5 | 3 | 9 | 7 |
+| Alistair Greystoke | 3 | 5 | 3 | 2 | 7 | 7 |
+| Agnes Crane | 4 | 3 | 3 | 3 | 6 | 9 |
+| Abel Redcloud | 4 | 2 | 4 | 3 | 8 | 7 |
+| Nora Warwick | 3 | 5 | 3 | 2 | 7 | 8 |
+| Bjorn Blackcast | 5 | 3 | 2 | 3 | 6 | 10 |
+| Ephraim Archer | 3 | 2 | 5 | 3 | 7 | 8 |
 
 ---
 
-## Nora Warwick Ã¢â‚¬â€ Investigator Card
+## Ephraim Archer (RYP-EA) — COMPLETE ✅
 
+### Investigator Card
 | Field | Value |
 |---|---|
-| Name | Professor Nora Warwick |
-| Subtitle | The Warwick Endowment |
-| Class | Rogue |
-| Traits | Academic. Archaeologist. Blessed. |
-| Willpower | 3 |
-| Intellect | 5 |
-| Combat | 3 |
-| Agility | 2 |
-| Health | 7 |
-| Sanity | 8 |
-| Ability | Once per round: Spend 1 resource to add 1 bless token to the chaos bag. |
-| Elder Sign | +1. If you succeed, gain resources equal to the shroud value of your location. |
-| Deckbuilding | Rogue 0-5, Seeker 0-2, Guardian 0-2, Mystic 0-1, Neutral 0-5 |
-| Requirements | The Warwick Collection Ãƒâ€”1, The Book of the Dead Ãƒâ€”1, The Family Debt Ãƒâ€”1, 1 random basic weakness |
-| Pack Code | RYP-NW |
-| Flavor (front) | "These Pyramids Hold More Questions than Answers" |
-| Story (back) | "The Warwick name has opened every tomb, every archive, and every door that mattered. What I've found has cosmic implications." |
-| EON file | `Warwick-Sig-Investigator.eon` |
-| PNG front | `RYP-NW-001-Nora-Warwick-Front.png` |
-| PNG back | `RYP-NW-001-Nora-Warwick-Back.png` |
-
----
-
-## Nora Warwick Ã¢â‚¬â€ All Pack Cards (Strange Eons Ready)
-
----
-
-### 002 Ã¢â‚¬â€ The Warwick Collection
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Sig-Asset-The-Warwick-Collection.eon` |
-| PNG front | `RYP-NW-002-The-Warwick-Collection-Front.png` |
-| PNG back | `RYP-NW-002-The-Warwick-Collection-Back.png` |
-| Class | Rogue |
-| Level | Signature |
-| Cost | 0 |
-| Slot | Accessory |
-| Traits | Item. Relic. Blessed. |
-| HP soak | Ã¢â‚¬â€ |
-| SAN soak | 2 |
-| Unique | Yes |
-| Icons | 1 Ãƒâ€” `<int>` + 1 Ãƒâ€” `<wil>` |
-
-Rules text:
-```
-Nora Warwick deck only. Unique.
-You get +1 <int> while The Warwick Collection is in play.
-<fre> At the start of your turn: Gain 1 resource.
-<act> Spend 4 resources: Discover 1 clue at your location.
-<fre> After you successfully investigate: You may move 1 clue
-from your location to any connecting location.
-```
-Flavor: `"The curator at the British Museum was quite upset, until he saw the cheque."`
-
----
-
-### 003 Ã¢â‚¬â€ The Family Debt
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Sig-Treachery-The-Family-Debt.eon` |
-| PNG front | `RYP-NW-003-The-Family-Debt-Front.png` |
-| PNG back | `RYP-NW-003-The-Family-Debt-Back.png` |
-| Class | Rogue |
-| Level | Signature |
-| Type | Treachery Ã¢â‚¬â€ Weakness |
-| Traits | Flaw. Burden. |
-| Unique | Yes |
-| Icons | Ã¢â‚¬â€ |
-
-Rules text:
-```
-Nora Warwick deck only.
-Revelation Ã¢â‚¬â€ Immediately spend resources equal to half the
-current agenda's doom threshold (rounded up, minimum 3).
-If you cannot pay the full amount: For each resource you
-cannot pay, take 1 horror or 1 damage (your choice).
-<act> Spend 5 resources: Discard The Family Debt.
-```
-Flavor: `"The telegram arrived at the worst possible moment. They always do."`
-
----
-
-### 004 Ã¢â‚¬â€ Ra-Night-Gaunt
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Ally-Ra-Night-Gaunt.eon` |
-| PNG front | `RYP-NW-004-Ra-Night-Gaunt-Front.png` |
-| PNG back | `RYP-NW-004-Ra-Night-Gaunt-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Slot | Ally |
-| Traits | Creature. Servitor. |
-| HP soak | 3 |
-| SAN soak | 1 |
-| Unique | Yes |
-| Icons | 2 Ãƒâ€” `<com>` |
-
-Rules text:
-```
-Nora Warwick deck only. Unique.
-You get +1 <com> while Ra-Night-Gaunt is in play.
-<rea> When Ra-Night-Gaunt is defeated: Deal 1 damage to
-each enemy at Nora Warwick's location.
-```
-Flavor: `"A Curse of Ancient Design."`
-
----
-
-### 005 Ã¢â‚¬â€ Call of Anubis
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Ally-Call-of-Anubis.eon` |
-| PNG front | `RYP-NW-005-Call-of-Anubis-Front.png` |
-| PNG back | `RYP-NW-005-Call-of-Anubis-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Slot | Ally |
-| Traits | Creature. Servitor. |
-| HP soak | 1 |
-| SAN soak | 4 |
-| Unique | Yes |
-| Icons | 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<com>` |
-
-Rules text:
-```
-Nora Warwick deck only. Unique.
-You get +1 <wil> while Anubis-Touched is in play.
-<for> When Nora Warwick would be dealt 2 or more damage or
-horror from a single source: Place 1 of that damage or
-horror on Anubis-Touched instead (your choice of type).
-```
-Flavor: `"The jackal waits for all of us. This one waits for her enemies."`
-
----
-
-### 006 Ã¢â‚¬â€ The Horus Heresy
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Sig-Asset-The-Horus-Heresy.eon` |
-| PNG front | `RYP-NW-006-The-Horus-Heresy-Front.png` |
-| PNG back | `RYP-NW-006-The-Horus-Heresy-Back.png` |
-| Class | Rogue |
-| Level | Signature |
-| Cost | 4 |
-| Slot | Ally |
-| Traits | Creature. Servitor. |
-| HP soak | 2 |
-| SAN soak | 3 |
-| Unique | Yes |
-| Icons | 1 Ãƒâ€” `<int>` + 1 Ãƒâ€” `<wil>` |
-
-Rules text:
-```
-Nora Warwick deck only. Unique.
-You get +1 <int> and +1 <agi> while The Horus Heresy is
-in play.
-<fre> Once per round, after Nora Warwick discovers a clue:
-Heal 1 horror from The Horus Heresy.
-```
-Flavor: `"The falcon's eye sees through every deception."`
-
----
-
-### 007 Ã¢â‚¬â€ The Kopis
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Kopis.eon` |
-| PNG front | `RYP-NW-007-The-Kopis-Front.png` |
-| PNG back | `RYP-NW-007-The-Kopis-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<int>` |
-
-Rules text:
-```
-Nora Warwick deck only.
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Kopis:
-Gain 2 resources.
-```
-Flavor: `"Found it on a dig. It whispers to me."`
-
----
-
-### 008 Ã¢â‚¬â€ The Khopesh
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Khopesh.eon` |
-| PNG front | `RYP-NW-008-The-Khopesh-Front.png` |
-| PNG back | `RYP-NW-008-The-Khopesh-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 2 Ãƒâ€” `<com>` |
-
-Rules text:
-```
-Nora Warwick deck only.
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Khopesh:
-Gain 1 resource and draw 1 card.
-```
-Flavor: `"The blade remembers them all."`
-
----
-
-### 009 Ã¢â‚¬â€ The Sekhem Sceptre
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Sekhem-Sceptre.eon` |
-| PNG front | `RYP-NW-009-The-Sekhem-Sceptre-Front.png` |
-| PNG back | `RYP-NW-009-The-Sekhem-Sceptre-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Hand |
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<wil>` |
-
-Rules text:
-```
-Nora Warwick deck only.
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-After this attack resolves: Cancel the next horror
-Nora Warwick would be dealt this round.
-```
-Flavor: `"Power is not always measured in wounds."`
-
----
-
-### 010 Ã¢â‚¬â€ The Book of the Dead
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Sig-Asset-The-Book-of-the-Dead.eon` |
-| PNG front | `RYP-NW-010-The-Book-of-the-Dead-Front.png` |
-| PNG back | `RYP-NW-010-The-Book-of-the-Dead-Back.png` |
-| Class | Rogue |
-| Level | Signature |
-| Cost | 1 |
-| Slot | Arcane |
-| Traits | Item. Tome. Relic. Blessed. |
-| HP soak | Ã¢â‚¬â€ |
-| SAN soak | 2 |
-| Unique | Yes |
-| Icons | 2 Ãƒâ€” `<int>` |
-| Subtitle | Arcane and Unnatural |
-
-Rules text:
-```
-Nora Warwick deck only. Unique.
-You get +1 <int> while The Book of the Dead is in play.
-<fre> After you successfully investigate: You may exhaust
-The Book of the Dead Ã¢â‚¬â€ investigate again at your location
-without spending an action.
-<fre> After The Book of the Dead enters play: Search your
-deck for any Insight or Relic card and draw it. Shuffle
-your deck.
-```
-Flavor: `"With this knowledge, I can see the unseen."`
-
----
-
-### 011 Ã¢â‚¬â€ The Collar of Sekhmet
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Asset-The-Collar-of-Sekhmet.eon` |
-| PNG front | `RYP-NW-011-The-Collar-of-Sekhmet-Front.png` |
-| PNG back | `RYP-NW-011-The-Collar-of-Sekhmet-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 2 |
-| Slot | Body |
-| Traits | Item. Relic. Blessed. |
-| HP soak | 1 |
-| SAN soak | 1 |
-| Unique | Yes |
-| Icons | 1 Ãƒâ€” `<com>` + 1 Ãƒâ€” `<wil>` |
-| Subtitle | Worn in Ten Thousand Battles |
-
-Rules text:
-```
-+1 <com> while The Collar of Sekhmet is in play.
-<rea> When The Collar of Sekhmet would be defeated:
-Instead, shuffle it into your deck.
-```
-Flavor: `"The curator said it was decorative. He had never worn it into the dark."`
-
----
-
-### 012 Ã¢â‚¬â€ Isfet's Fury
-
-| Field | Value |
-|---|---|
-| EON file | `Warwick-Event-Isfets-Fury.eon` |
-| PNG front | `RYP-NW-012-Isfets-Fury-Front.png` |
-| PNG back | `RYP-NW-012-Isfets-Fury-Back.png` |
-| Class | Rogue |
-| Level | 0 |
-| Cost | 3 |
-| Slot | Ã¢â‚¬â€ |
-| Traits | Improvised. Relic. Cursed. |
-| HP soak | Ã¢â‚¬â€ |
-| SAN soak | Ã¢â‚¬â€ |
-| Unique | No |
-| Icons | 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<int>` |
-| Subtitle | Cosmic Chaos |
-| Base card | Dynamite Blast |
-
-Rules text:
-```
-Choose a location. Deal 2 damage to each enemy at that
-location. Each investigator at that location takes 1 damage.
-Add 1 bless token to the chaos bag.
-```
-Flavor: `"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."`
-
----
-## Nora Warwick - Deck Cards
-
-Full Strange Eons blocks are generated per-card as we build them. See Nora-Warwick-Card-Data.md for the complete deck list and card data.
-
-Last updated: folders reordered so paired cards are adjacent (017-028 renumbered). The Family Name removed, Pact of Kha ×2 and Expedition Protocol ×2 in deck.
-
-Current 36-card deck:
-
-| # | Card | Reskin | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
-| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | x2 |
-| 017-018 | Faustian Bargain | The Pact of Kha | Event | Rogue | x2 |
-| 019-020 | Elusive | Sand Veil | Event | Rogue | x2 |
-| 021-022 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
-| 023-024 | Deduction | Oxford Studies | Skill | Seeker | x2 |
-| 025-026 | Ra's Wrath | (custom) | Event | Rogue | x2 |
-| 027-028 | Sobek's Gift | (custom) | Event | Guardian | x2 |
-| 029-030 | Manual Dexterity | Pharaoh's Chariot | Skill | Neutral | x2 |
-| 031-032 | (custom) | The Oxford Gambit | Skill | Rogue | x2 |
-| 033-034 | (custom) | Power of Thebes | Skill | Rogue | x2 |
-| 035-036 | Logical Reasoning | Nile's Blessing | Event | Guardian | x2 |
-
-Weapons (007-009), allies (004-006), other assets (010-012) are defined in the Pack Cards section above.
-
-
----
-
-## Card Print Format Ã¢â‚¬â€ DEFAULT (never change)
-
-When printing any card for Strange Eons, always use this format.
-Every field gets its own fenced code block with copy button.
-After every card print, include the art prompt immediately after.
-
-Field order:
-1. Card Number
-2. Set
-3. Name
-4. Subtitle
-5. Type
-6. Subtype
-7. Class
-8. Level
-9. Unique
-10. Cost
-11. Slot
-12. Traits
-13. HP Soak
-14. SAN Soak
-15. Icons
-16. Rules Text
-17. Flavor
-18. Copyright
-
-Then immediately after: Art Prompt for that card.
-
-Example format:
-**Card Number**
-```
-002
-```
-**Set**
-```
-RYP-NW
-```
-...and so on for every field.
-
----
-
-## Art Prompts -- Nora Warwick
-
-### 001 - Nora Warwick Investigator Card
-```
-Cinematic gritty dark fantasy photograph. Close to mid body
-shot, low camera angle looking sharply upward. Professor Nora
-Warwick, British archaeologist, early 30s, at the precise
-moment she reads something in The Book of the Dead that
-cannot be unread -- head tilted slightly downward toward the
-open pages, eyes narrowed in focused inquisition not wide
-with surprise.
-
-Expression: pure focused inquisition. Eyes narrowed slightly,
-not wide -- she is reading, not reacting. Head tilted the
-precise degree of someone who has found the passage they were
-looking for and is now extracting every detail from it. One
-eyebrow fractionally raised -- not surprise, recognition.
-She has suspected this. The book is confirming it. Her mouth
-is set in a firm line, jaw forward, the expression of a woman
-who catalogues the impossible professionally and is currently
-cataloguing this. No terror. No awe. Assessment.
-
-One hand pressed flat against the open page as if to stop it
-moving, the other gripping the brass spine so hard her
-knuckles are white. Dark complexion weathered by fieldwork,
-sharp angular features, hair pulled severely back with loose
-strands lit green from below. Wearing a worn brown leather
-flight jacket over khaki expedition shirt. Around her neck:
-ancient Egyptian scarab amulet, lapis lazuli, catching green
-light from the book and throwing it back gold.
-
-The Book of the Dead: massive, oppressively heavy. Deep
-matte black cover with deep geometric crosshatch pattern
-pressed into it. Four aged brass scarab beetle clasps at
-each corner, scroll-cylinder closures along the right
-edge. Left spine: thick wrapped brass cylindrical rod
-binding. Cover face: a large tarnished brass circular
-medallion with geometric star cutwork, winged scarab
-beetle raised in the centre. Left of the medallion: a
-carved black cartouche panel with Egyptian hieroglyphs
-and figures in raised relief. The book is open -- the
-pages within casting that eerie cold green light upward,
-the black cover and tarnished brass clasps catching the
-green and throwing it back dark. The aged brass does not
-gleam -- it absorbs the light and releases it slowly,
-like the book is reluctant to be read.
-
-Background: crumbling Egyptian burial chamber, towering
-stone pillars with hieroglyphs shifting in peripheral,
-one fallen. Wrong geometry -- angles that do not resolve
-correctly. Dust rising around her feet catching green and
-gold light spiraling upward. Void black at absolute edges.
-Warm amber torchlight far behind her -- the only normal
-light in frame, barely reaching her.
-
-Mood: professional certainty in the face of the impossible.
-She has found what she came for. It is worse than expected.
-She is already three steps ahead of what to do with it.
-This is Tuesday.
-
-Style: gritty cinematic realism, Ridley Scott lighting,
-real film grain, extreme high contrast, three colour energy
-mixing on face and hands, macro detail on expression and
-open pages. Colour palette: cold green, deep gold, electric
-blue-white, void black, amber edges. 8K. --ar 3:2 --v 7
-```
-Status: PROMPT LOCKED -- not yet generated.
-
----
-
-## What To Do Next (In Order)
-
-1. Generate art for Nora Warwick investigator card (prompt locked above)
-2. Generate art prompts for all remaining pack cards (002-006, allies, weapons, soak cards)
-3. Build .eon files in Strange Eons for all pack and deck cards
-4. Export PNGs at 300 DPI Ã¢â‚¬â€ Front and Back for every card
-5. Git commit all exports
-6. Begin Upgrade Pack Strange Eons build (RYP-UP Ã¢â‚¬â€ 54 cards designed)
-
-### Recent Changes (session update)
-- Removed The Family Name ×2 from deck
-- Added second copies of Pact of Kha and Expedition Protocol (back to ×2 each)
-- Reordered folders so all pairs are adjacent (017-028 renumbered)
-- Replaced Expedition Protocol with custom **Sobek's Gift** (Guardian 0, Fast, each investigator draws 1)
-- Replaced The Opportunist ×2 with **Pharaoh's Chariot** ×2 (Manual Dexterity reskin, Neutral, 3×AGI)
-- Replaced The Cairo Revelation ×2 with **Power of Thebes** ×2 (custom Rogue skill, 2×COM+2×AGI, fight/evade only)
-- Replaced The Warwick Reasoning ×2 with **Nile's Blessing** ×2 (Logical Reasoning reskin, heal 2 horror)
-- Created custom **The Oxford Gambit** (Rogue 0 skill, 3×AGI, +2 on evade, free move on success)
-- Cleaned and renamed all PNGs exported by Strange Eons agent (removed -Face suffix, added RYP-NW-###- prefix)
-- All 36 folders have correct naming conventions
-- Deck stands at 33 cards toward 30 minimum across 22 card entries
-- Full Nora vs Finn Edwards comparison done: Nora rated A-/B+, stronger team player than Finn
-
----
-
-## Key Design Decisions Ã¢â‚¬â€ Do Not Reverse
-
-| Decision | Value | Reason |
+| Name | Ephraim Archer |
+| Subtitle | The Wanderer |
+| Class | Guardian |
+| Traits | Sell Sword. |
+| WIL | 3 / INT | 2 / COM | 5 / AGI | 3 |
+| HP | 7 / SAN | 8 |
+| Ability | Once per round: Before making a skill test, you may spend 1 resource to get +2 to that test. |
+| Elder Sign | +2. Gain 3 resources. |
+| Deckbuilding | Guardian 0-5, Mystic 0-2, Neutral 0-5 |
+| Requirements | The Red Blade x1, The Black Cloak x1, The Dunwich Hounds x2 |
+| Flavor | "I've seen things you people wouldn't believe." |
+| Back Story | He found too many dark things in Dunwich. He fought his way back to Arkham, but something has followed him back. |
+
+### Signature Cards
+| # | Card | Type | Key Ability |
+|---|---|---|---|
+| 002 | The Red Blade | Hand (2) Asset | +1 COM, fight 2-3 damage, Spoils of an Old War |
+| 003 | The Black Cloak | Body Asset | SAN soak 2, evade up to 2 enemies |
+| 004-005 | The Dunwich Hounds x2 | Enemy Weakness | Hunter, disables ability while at location |
+
+### Deck (30 cards, 006-035)
+| # | Card | Function |
 |---|---|---|
-| Bless ability | 1r Ã¢â€ â€™ 1 bless/round | Matches Sister Mary rate, paid not free |
-| Collection clue cost | 4r | Prevents automatic clue purchase |
-| Horus Heresy cost | 4r | Double stat boost warrants premium |
-| Family Debt penalty | 1 horror OR damage | Not both Ã¢â‚¬â€ too punishing |
-| Ra on-defeat | "if any" | Timing clarification |
-| Ally slots | 2 base | Charisma built in |
-| Weapons | Nora only | Allies are shields not fighters |
-| Soak cards | Ãƒâ€”1 each, pack not deck | 3-to-3 parity with ally slots |
+| 006-007 | Prepare for the Worst x2 | Search top 9 for any asset |
+| 008-009 | What He's Owed x2 | Fast gain 3r |
+| 010-011 | The Dunwich Relic x2 | Accessory, heal 1 damage or horror, 3 charges |
+| 012 | Kori Kross | Ally, +1 COM, react 1 damage on engage |
+| 013 | William Dread | Ally, +1 COM, react 1 damage on engage |
+| 014 | Sebastian Fenn | Ally, +2 INT, free clue on move |
+| 015 | The Man in Black | Ally, gain 1r per turn |
+| 016-017 | RagTag x2 | Extra ally slot, 2 allies simultaneously |
+| 018-019 | Ancient Fortune x2 | Arcane, draw 1 card after each kill |
+| 020-021 | Fighter's Fury x2 | Skill com/com, +1 damage on fight success |
+| 022-023 | I'll Take You With Me x2 | Fast fight, +2 COM, 1 horror on fail |
+| 024-025 | Brush It Off x2 | Cancel treachery, take 1 horror |
+| 026-027 | Mystic Blast x2 | AoE 2 damage all enemies, wld/wld |
+| 028-029 | Old Soldier x2 | Skill wld/wld |
+| 030-031 | Iron Will x2 | Skill wil/wil, draw on fail |
+| 032-033 | Swift Shadows x2 | Skill agi/agi, move after evade |
+| 034-035 | Hunt Them Down x2 | Search for enemy, fight with +2 COM |
+
+### Folder Status
+- 001-034: ✅ All clean
+- 035: ⬜ Needs Strange Eons build
+- Art folder: ✅ All named correctly
+- Profile page: ✅ Ephraim-Archer-Profile.md
 
 ---
 
-## Upgrade Pack Status (RYP-UP)
-
-54 cards fully designed in:
-`Upgrade Pack/RYP-UP-Upgrade-Pack-Card-Data.md`
-
-NOT YET built in Strange Eons. This is the next major build phase after Nora Warwick.
-
----
-
-
----
-
-## Bjorn Blackcast (RYP-BB) -- IN PROGRESS 🔧
+## Bjorn Blackcast (RYP-BB) — IN PROGRESS 🔧
 
 ### Investigator
 | Field | Value |
@@ -665,63 +175,142 @@ NOT YET built in Strange Eons. This is the next major build phase after Nora War
 | Subtitle | The Mist Borne |
 | Class | Mystic |
 | Traits | Shaman. Runebearer. |
-| Willpower | 5 |
-| Intellect | 3 |
-| Combat | 2 |
-| Agility | 3 |
-| Health | 6 |
-| Sanity | 10 |
-| Ability | Once per round: Before revealing a chaos token, you may exhaust a Rune asset you control to reveal 2 tokens and choose which one applies. Return the other to the bag. |
+| WIL | 5 / INT | 3 / COM | 2 / AGI | 3 |
+| HP | 6 / SAN | 10 |
+| Ability | Once per round: Before revealing a chaos token, exhaust a Rune asset to reveal 2 tokens and choose which applies. Return other to bag. |
 | Elder Sign | +3. Heal 1 horror. |
 | Deckbuilding | Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5 |
 | Requirements | The Runic Staff x1, The Runic Helm x1, The Ragnarok x1, 1 random basic weakness |
-| Pack Code | RYP-BB |
-
-### Back Story
-The mist took him in 914. Viking shaman sealed in a cave by Cthulhu agents for a thousand years. Walked out in 1924. Wants Valhalla. One enemy stands between him and it.
-
-### Signature Cards
-- The Runic Staff -- Hand slot, +1 WIL, fight using WIL instead of COM, +2 WIL for attack
-- The Runic Helm -- Body slot, HP soak 1/SAN soak 2, +1 WIL, reaction prevent 1 horror
-- The Ragnarok -- Weakness, disables investigator ability, clears on elder sign reveal (5 tokens)
-
-### Deck (32 cards)
-| Category | Cards | Qty |
-|---|---|---|
-| Allies | Loki's Spirit, Thor's Honor | 2 |
-| Spells | Rune of Lightning x2, Allfather's Eye x2, Sif's Love x2, Norns' Sight x1 | 7 |
-| Combat | Mjolnir's Might x1 | 1 |
-| Economy | Odin's Price x2, Heimdall's Offering x2 | 4 |
-| Horror Heal | Eir's Touch x2, Val's Embrace x2 | 4 |
-| Movement | The Bifrost Path x2 | 2 |
-| Skills | Sigurd's Fury x2, Vegtam x2, Rune Sight x2 | 6 |
-| Draw | Odin's Library x2 | 2 |
-| Utility | Njord's Calm x2, Odin's Ward x2 | 4 |
-| **Total** | | **32** |
 
 ### Build Status
 | Component | Status |
 |---|---|
-| Investigator card | ✅ Built in Strange Eons |
-| Signature cards | ⬜ Not yet built |
-| Deck cards | ⬜ Not yet built |
-| Art | ⬜ Investigator prompt locked, not generated |
+| 001-024 EON/PNG | ✅ Built and correctly named |
+| 025-037 | ⬜ Not yet built in Strange Eons |
+| Art 001-024 | ✅ Generated and named |
+| Art 025-037 | ⬜ Prompts written, not generated |
+| Profile page | ✅ Written |
 | Master Catalogue | ⬜ Not yet written |
 
-### What To Do Next
-1. Build signature cards in Strange Eons (Runic Staff, Runic Helm, Ragnarok)
-2. Build all deck cards
-3. Generate art for investigator card
-4. Write art prompts for all other cards
-5. Create RYP-BB-Master-Catalogue.md
+### WIL Stacking
+Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 
-## Emergency Context Ã¢â‚¬â€ If AI Has No Memory
+---
+
+## Alistair Greystoke (RYP-AG) — COMPLETE ✅
+
+- Seeker, WIL 3 / INT 5 / COM 3 / AGI 2, HP 7 / SAN 7
+- Subtitle: The Immortal Scholar
+- Traits: Detective. Scholar. Antiquarian.
+- 034 folders, all clean
+- Art folder: all named correctly
+- Missing art: 004 My Glass is Nearly Run — needs generation
+- Profile page: ✅ Written
+
+### Key Locked Decisions
+- Wisdom of Antiquity: Hand slot
+- Collector's Ledger: Arcane, gain 2r after ability fires
+- Arkham's Ring: replaces Magnifying Glass, exhaust for +2 COM
+- My Glass weakness: persistent horror drain, spend 5 clues to clear
+- My Eyes and Ears defeat: take 1 horror not doom
+
+---
+
+## Jonathan Ironhide (RYP-JI) — COMPLETE ✅
+
+- Guardian, WIL 3 / INT 2 / COM 5 / AGI 3, HP 9 / SAN 7
+- 34 folders, all clean, EONs renamed to RYP-JI convention
+- PNGs deleted — ready for regen with correct names
+- 21 art files named to convention
+- Hound of the Deep art: new prompt written — needs generation
+- Profile page: ✅ Written
+
+---
+
+## Agnes Crane (RYP-AC) — COMPLETE ✅
+
+- Survivor, WIL 4 / INT 3 / COM 3 / AGI 3, HP 6 / SAN 9
+- Folders split, EONs renamed RYP-AC, PNGs deleted ready for regen
+- Profile page: ✅ Written
+- Deck review: PENDING
+
+---
+
+## Abel Redcloud (RYP-AR) — COMPLETE ✅
+
+- Guardian, WIL 4 / INT 2 / COM 4 / AGI 3, HP 8 / SAN 7
+- Folders split, EONs renamed RYP-AR, PNGs deleted ready for regen
+- Profile page: ✅ Written
+- Deck review: PENDING
+
+---
+
+## Nora Warwick (RYP-NW) — COMPLETE ✅
+
+- Rogue, WIL 3 / INT 5 / COM 3 / AGI 2, HP 7 / SAN 8
+- 39 folders all clean, all correctly named
+- Full catalogue: Nora Warwick/RYP-NW-Master-Catalogue.md
+- Card data: Nora Warwick/Nora-Warwick-Card-Data.md
+- Profile: Nora Warwick/Nora-Warwick-Profile.md
+- Ability: Once per round: Spend 1r to add 1 bless token
+- Elder Sign: +1. Gain resources = shroud value
+
+---
+
+## Pending Items
+
+### Immediate Priority
+- [ ] Build Bjorn Blackcast 025-037 in Strange Eons
+- [ ] Generate art for Bjorn 025-037
+- [ ] Write RYP-BB Master Catalogue
+- [ ] Build Ephraim Archer 035 in Strange Eons
+- [ ] Regen PNGs for Ironhide, Greystoke, Agnes, Abel
+
+### Secondary
+- [ ] Review Agnes Crane deck
+- [ ] Review Abel Redcloud deck
+- [ ] Generate art for Ironhide 007 Hound of the Deep
+- [ ] Generate art for Greystoke 004 My Glass is Nearly Run
+
+---
+
+## Key Design Decisions — DO NOT REVERSE
+
+| Decision | Value |
+|---|---|
+| Folder naming | One folder per physical card, number = card number |
+| PNG handling | NEVER delete PNGs unless explicitly told to |
+| Mini markers | Keep Mini-Marker EON in 001 folder for all investigators |
+| Greystoke traits | Detective. Scholar. Antiquarian. |
+| Greystoke subtitle | The Immortal Scholar |
+| Wisdom of Antiquity slot | Hand slot |
+| My Glass weakness | Persistent horror drain, spend 5 clues to clear |
+| Arkham's Ring | Replaces Magnifying Glass, exhaust for +2 COM |
+| My Eyes and Ears defeat | Take 1 horror not doom |
+| Bjorn ability | Exhaust Rune asset, reveal 2 tokens, choose 1 |
+| Bjorn Elder Sign | +3. Heal 1 horror. |
+| Ragnarok | Disables ability, clears on Elder Sign in 5-token reveal |
+| Leif's Leap | Neutral accessory, +1 AGI, free move per round, no AOO |
+| Sif's Blessing | Renamed from Sif's Love |
+| The Valkyrie's Embrace | Renamed from Val's Embrace |
+| Ephraim ability | Spend 1r to get +2 to any skill test once per round |
+| Ephraim Elder Sign | +2. Gain 3 resources. |
+| Red Blade | Hand (2), +1 COM, fight 2-3 damage |
+| Black Cloak | Body, SAN soak 2, evade up to 2 enemies |
+| Dunwich Hounds | x2 weakness, Hunter, disables ability while at location |
+| RagTag | No slot, extra ally slot, 2 allies simultaneously |
+| Ancient Fortune | Arcane, draw 1 card after each kill, permanent |
+| Mystic Blast | AoE 2 damage all enemies, wld/wld, costs 3r |
+
+---
+
+## Emergency Context — If AI Has No Memory
 
 If you are reading this with no prior context:
 - This is a custom Arkham Horror LCG expansion project
 - The user is Edward (GitHub: knowltonem)
-- Five investigators designed, four printed, one in progress
-- Current task: build Nora Warwick in Strange Eons
-- Read Nora-Warwick-Card-Data.md for full card details
-- Ask the user what they want to work on Ã¢â‚¬â€ do not assume
-- Claude is primary AI, you are backup Ã¢â‚¬â€ maintain all standards
+- Seven investigators designed, six complete or near-complete
+- Current priority: Complete Bjorn Blackcast (025-037) and regen PNGs for older investigators
+- Read individual investigator card data files for full card details
+- Ask the user what they want to work on — do not assume
+- Claude is primary AI, you are backup — maintain all standards
