@@ -11,10 +11,10 @@ When Claude's usage is paused, read this file and continue seamlessly.
 ## Project Summary
 
 Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
-Seven custom investigator packs plus one shared upgrade pack.
+Eight custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
 Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
-Latest commit: `b453ccd` → main
+Latest commit: `feaff2d` → main
 
 ---
 
@@ -23,15 +23,14 @@ Latest commit: `b453ccd` → main
 ```
 games/arkham-lcg/investigators/custom-1/
 ├── HANDOFF.md                          ← YOU ARE HERE
-├── MASTER-CATALOGUE.md
-├── INVESTIGATOR-PROFILE-TEMPLATE.md
 ├── Jonathan Ironhide/                  ← COMPLETE ✅ needs PNG regen
 ├── Alistair Greystoke/                 ← COMPLETE ✅ needs PNG regen
 ├── Agnes Crane/                        ← COMPLETE ✅ needs PNG regen
 ├── Abel Redcloud/                      ← COMPLETE ✅ needs PNG regen
 ├── Nora Warwick/                       ← COMPLETE ✅
-├── Bjorn Blackcast/                    ← IN PROGRESS 🔧 cards 025-037 not built
+├── Bjorn Blackcast/                    ← IN PROGRESS 🔧 025-037 not built
 ├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
+├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck designed, not yet built
 └── Upgrade Pack/                       ← DESIGNED ✅ not yet built in Strange Eons
 ```
 
@@ -43,11 +42,11 @@ games/arkham-lcg/investigators/custom-1/
 | File Type | Convention | Example |
 |---|---|---|
 | Folders | `###-Card-Name` | `006-The-Red-Blade` |
-| EON files | `RYP-XX-###-Card-Name.eon` | `RYP-EA-006-The-Red-Blade.eon` |
-| PNG exports Front | `RYP-XX-###-Card-Name-Front.png` | `RYP-EA-006-The-Red-Blade-Front.png` |
-| PNG exports Back | `RYP-XX-###-Card-Name-Back.png` | `RYP-EA-006-The-Red-Blade-Back.png` |
-| Art files | `RYP-XX-###-Card-Name-Art.png` | `RYP-EA-006-The-Red-Blade-Art.png` |
-| REF images | `000-REF-Description.png` | `000-REF-Ephraim-Archer-1.png` |
+| EON files | `RYP-XX-###-Card-Name.eon` | `RYP-EH-006-Take-What-You-Need.eon` |
+| PNG exports Front | `RYP-XX-###-Card-Name-Front.png` | `RYP-EH-006-Take-What-You-Need-Front.png` |
+| PNG exports Back | `RYP-XX-###-Card-Name-Back.png` | `RYP-EH-006-Take-What-You-Need-Back.png` |
+| Art files | `RYP-XX-###-Card-Name-Art.png` | `RYP-EH-006-Take-What-You-Need-Art.png` |
+| REF images | `000-REF-Description.png` | `000-REF-Eleanor-Heart-1.jpeg` |
 | Mini markers | Keep any Mini-Marker EON files — every investigator should have one |
 
 ### PNG Handling
@@ -81,6 +80,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | 🔧 Cards 025-037 not yet built |
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
+| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck designed, not yet built |
 
 ---
 
@@ -92,9 +92,10 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | 2 | Bjorn Blackcast | Mystic | ⭐⭐⭐⭐⭐ |
 | 3 | Alistair Greystoke | Seeker | ⭐⭐⭐⭐ |
 | 4 | Ephraim Archer | Guardian | ⭐⭐⭐⭐ |
-| 5 | Agnes Crane | Survivor | ⭐⭐⭐ |
-| 6 | Abel Redcloud | Guardian | ⭐⭐⭐ |
-| 7 | Jonathan Ironhide | Guardian | ⭐⭐⭐ |
+| 5 | Eleanor Heart | Mystic | ⭐⭐⭐⭐ |
+| 6 | Agnes Crane | Survivor | ⭐⭐⭐ |
+| 7 | Abel Redcloud | Guardian | ⭐⭐⭐ |
+| 8 | Jonathan Ironhide | Guardian | ⭐⭐⭐ |
 
 ---
 
@@ -109,6 +110,102 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | Nora Warwick | 3 | 5 | 3 | 2 | 7 | 8 |
 | Bjorn Blackcast | 5 | 3 | 2 | 3 | 6 | 10 |
 | Ephraim Archer | 3 | 2 | 5 | 3 | 7 | 8 |
+| Eleanor Heart | 4 | 4 | 1 | 4 | 10 | 7 |
+
+---
+
+## Eleanor Heart (RYP-EH) — IN PROGRESS 🔧
+
+### Backstory
+Former Army nurse, Lieutenant, stationed at Fort Warren (Massachusetts) — a real Civil War fort on Georges Island near Boston Harbor, close to Innsmouth. She was not a combat medic — a base nurse, educated, precise, kept records. She went to Innsmouth. She doesn't remember what happened. She woke on the beach alone, sand in her lungs, something cold where her heartbeat used to be. Her unit of 12 didn't come back. She wanders Arkham now, healing others while searching for answers about herself. She put her weapons down after Innsmouth and will not pick them up again.
+
+### Investigator Card
+| Field | Value |
+|---|---|
+| Name | Eleanor Heart |
+| Subtitle | The Undying |
+| Class | Mystic |
+| Traits | Medic. Scholar. |
+| WIL | 4 |
+| INT | 4 |
+| COM | 1 |
+| AGI | 4 |
+| HP | 10 |
+| SAN | 7 |
+| Ability | After one of your card effects heals damage or horror from an investigator: Heal 1 additional damage or horror for each 3 damage currently on Eleanor Heart. |
+| Elder Sign | +2. You may heal 2 damage or horror from Eleanor Heart. All investigators at your location draw 1 card. |
+| Deckbuilding | Mystic 0-3, Neutral 0-5, cards that "heal damage or horror" 0-5, up to 15 Seeker and/or Guardian cards 0-1. No Weapon cards level 1-5. |
+| Pack Code | RYP-EH |
+
+### Healing Scale
+| Damage on Eleanor | Bonus Healing |
+|---|---|
+| 0-2 | +0 |
+| 3-5 | +1 |
+| 6-8 | +2 |
+| 9 | +3 |
+
+### High HP Design Intent
+HP 10 is intentional — as Eleanor takes damage her healing power increases. At 9 damage she is one hit from death and healing +3 on every heal. The tension: let her take damage to amplify healing, or protect her and lose the bonus.
+
+### Signature Cards
+| # | Card | Type | Slot | Notes |
+|---|---|---|---|---|
+| 002 | Medical Bag | Asset | Hand | Uses 4 charges, heal 1 dmg or horror. Doubles heals via reaction. Subtitle: Issued at Fort Warren. Flavor: "Fort Warren issued it. Innsmouth changed it. Now it's different." |
+| 003 | The Innsmouth Codex | Asset | Accessory | +1 INT. Action exhaust: investigate INT. Success = +1 clue. Fail = draw 1 card. Flavor: "She wasn't supposed to see it. Now she can't unsee it." |
+| 004 | The Fog of Innsmouth | Weakness | — | Revelation: take 2 horror, can't self-heal until discarded. Action WIL 4 test to discard. Flavor: "Twelve people went into Innsmouth. The fog claimed them." |
+
+### Full Deck (30 cards, 005-034)
+| # | Card | Type | Class | Function |
+|---|---|---|---|---|
+| 005-006 | Take What You Need x2 | Event | Neutral | Search top 7 for any asset |
+| 007-008 | Special Allowance x2 | Event | Neutral | Fast gain 3r |
+| 009-010 | Last Resort x2 | Event | Mystic | AoE fight INT or WIL, 2 dmg all enemies, take 1 dmg + 1 horror |
+| 011-012 | Military Tactics x2 | Event | Neutral | Fast draw 3 cards |
+| 013-014 | Arcane Practice x2 | Event | Mystic | Fight WIL, +1 dmg, +1 more on succeed by 2. Icons: int/int |
+| 015-016 | Triage x2 | Asset | Mystic | Arcane slot, 5 charges, action: heal 1 dmg or horror any investigator |
+| 017-018 | Patch Up x2 | Event | Mystic | Fast, heal 1 dmg AND 1 horror any investigator |
+| 019-020 | Fort Warren Chapel x2 | Asset | Mystic | Arcane slot, SAN soak 1, free: after you heal add 1 bless token |
+| 021-022 | Army Resupply x2 | Event | Neutral | Fast, replenish up to 3 charges on any asset you control |
+| 023-024 | Do No Harm x2 | Event | Mystic | Fast cancel treachery, take 1 horror |
+| 025-026 | The Codex Revealed x2 | Event | Seeker | Fast discover 1 clue without investigation |
+| 027 | Innsmouth Lessons x1 | Asset | Seeker | Arcane slot, free: after successful investigate discover 1 clue + gain 1r |
+| 028 | Private Parker x1 | Asset | Neutral | Ally, 0/3 soak, +1 AGI, free draw 1 card after each heal |
+| 029 | Chaplain Adama x1 | Asset | Neutral | Ally, 0/3 soak, +1 WIL, free gain 1r after each bless token added |
+| 030-031 | Dead Calm x2 | Skill | Neutral | wil/wil, draw 1 on fail |
+| 032-033 | Focused Mind x2 | Skill | Neutral | int/int, draw 1 on success |
+| 034 | The Undying Will x1 | Skill | Neutral | wil/int/wld, no rules text |
+
+### Slot Picture
+| Slot | Card |
+|---|---|
+| Hand | Medical Bag + 1 open |
+| Arcane | Triage + Fort Warren Chapel OR Innsmouth Lessons |
+| Accessory | The Innsmouth Codex |
+| Body | Open |
+| Ally | Open (Parker or Adama) |
+
+### Folder Status
+- 001-034: ✅ All folders created and correctly named
+- Strange Eons: ⬜ Not yet built
+- Art: 6 REF images in art folder (000-REF-Eleanor-Heart-1 through 6)
+
+### Key Design Decisions — LOCKED
+| Decision | Value |
+|---|---|
+| Class | Mystic primary |
+| COM | 1 (Strange Eons minimum, she won't fight) |
+| HP | 10 — scales healing power as she takes damage |
+| Healing scale | +1 bonus per 3 damage on Eleanor |
+| No weapons | No Weapon cards level 1-5 enforced |
+| Medical Bag slot | Hand slot |
+| Innsmouth Codex slot | Accessory slot |
+| Triage slot | Arcane slot |
+| Fort Warren Chapel slot | Arcane slot |
+| Innsmouth Lessons slot | Arcane slot |
+| Army Resupply | Fast, replenish up to 3 charges, neutral |
+| Parker soak | 0 HP / 3 SAN |
+| Adama soak | 0 HP / 3 SAN |
 
 ---
 
@@ -127,15 +224,6 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | Elder Sign | +2. Gain 3 resources. |
 | Deckbuilding | Guardian 0-5, Mystic 0-2, Neutral 0-5 |
 | Requirements | The Red Blade x1, The Black Cloak x1, The Dunwich Hounds x2 |
-| Flavor | "I've seen things you people wouldn't believe." |
-| Back Story | He found too many dark things in Dunwich. He fought his way back to Arkham, but something has followed him back. |
-
-### Signature Cards
-| # | Card | Type | Key Ability |
-|---|---|---|---|
-| 002 | The Red Blade | Hand (2) Asset | +1 COM, fight 2-3 damage, Spoils of an Old War |
-| 003 | The Black Cloak | Body Asset | SAN soak 2, evade up to 2 enemies |
-| 004-005 | The Dunwich Hounds x2 | Enemy Weakness | Hunter, disables ability while at location |
 
 ### Deck (30 cards, 006-035)
 | # | Card | Function |
@@ -161,50 +249,29 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 ### Folder Status
 - 001-034: ✅ All clean
 - 035: ⬜ Needs Strange Eons build
-- Art folder: ✅ All named correctly
 - Profile page: ✅ Ephraim-Archer-Profile.md
 
 ---
 
 ## Bjorn Blackcast (RYP-BB) — IN PROGRESS 🔧
 
-### Investigator
-| Field | Value |
-|---|---|
-| Name | Bjorn Blackcast |
-| Subtitle | The Mist Borne |
-| Class | Mystic |
-| Traits | Shaman. Runebearer. |
-| WIL | 5 / INT | 3 / COM | 2 / AGI | 3 |
-| HP | 6 / SAN | 10 |
-| Ability | Once per round: Before revealing a chaos token, exhaust a Rune asset to reveal 2 tokens and choose which applies. Return other to bag. |
-| Elder Sign | +3. Heal 1 horror. |
-| Deckbuilding | Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5 |
-| Requirements | The Runic Staff x1, The Runic Helm x1, The Ragnarok x1, 1 random basic weakness |
-
-### Build Status
-| Component | Status |
-|---|---|
-| 001-024 EON/PNG | ✅ Built and correctly named |
-| 025-037 | ⬜ Not yet built in Strange Eons |
-| Art 001-024 | ✅ Generated and named |
-| Art 025-037 | ⬜ Prompts written, not generated |
-| Profile page | ✅ Written |
-| Master Catalogue | ⬜ Not yet written |
-
-### WIL Stacking
-Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
+- Mystic, WIL 5 / INT 3 / COM 2 / AGI 3, HP 6 / SAN 10
+- Subtitle: The Mist Borne. Traits: Shaman. Runebearer.
+- Ability: Exhaust Rune asset → reveal 2 tokens, choose 1
+- Elder Sign: +3. Heal 1 horror.
+- 001-024 EON/PNG built and correctly named
+- Art 001-024 generated and named
+- 025-037 not yet built in Strange Eons
+- Art prompts for 025-037 written, not yet generated
+- WIL max: Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8
 
 ---
 
 ## Alistair Greystoke (RYP-AG) — COMPLETE ✅
 
 - Seeker, WIL 3 / INT 5 / COM 3 / AGI 2, HP 7 / SAN 7
-- Subtitle: The Immortal Scholar
-- Traits: Detective. Scholar. Antiquarian.
-- 034 folders, all clean
-- Art folder: all named correctly
-- Missing art: 004 My Glass is Nearly Run — needs generation
+- Subtitle: The Immortal Scholar. Traits: Detective. Scholar. Antiquarian.
+- 034 folders, all clean. Missing art: 004 My Glass is Nearly Run.
 - Profile page: ✅ Written
 
 ### Key Locked Decisions
@@ -219,10 +286,8 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 ## Jonathan Ironhide (RYP-JI) — COMPLETE ✅
 
 - Guardian, WIL 3 / INT 2 / COM 5 / AGI 3, HP 9 / SAN 7
-- 34 folders, all clean, EONs renamed to RYP-JI convention
-- PNGs deleted — ready for regen with correct names
-- 21 art files named to convention
-- Hound of the Deep art: new prompt written — needs generation
+- 34 folders, all clean. PNGs deleted — ready for regen.
+- Hound of the Deep art: new prompt written — needs generation.
 - Profile page: ✅ Written
 
 ---
@@ -230,29 +295,22 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 ## Agnes Crane (RYP-AC) — COMPLETE ✅
 
 - Survivor, WIL 4 / INT 3 / COM 3 / AGI 3, HP 6 / SAN 9
-- Folders split, EONs renamed RYP-AC, PNGs deleted ready for regen
-- Profile page: ✅ Written
-- Deck review: PENDING
+- Folders clean. Profile page: ✅ Written. Deck review: PENDING
 
 ---
 
 ## Abel Redcloud (RYP-AR) — COMPLETE ✅
 
 - Guardian, WIL 4 / INT 2 / COM 4 / AGI 3, HP 8 / SAN 7
-- Folders split, EONs renamed RYP-AR, PNGs deleted ready for regen
-- Profile page: ✅ Written
-- Deck review: PENDING
+- Folders clean. Profile page: ✅ Written. Deck review: PENDING
 
 ---
 
 ## Nora Warwick (RYP-NW) — COMPLETE ✅
 
 - Rogue, WIL 3 / INT 5 / COM 3 / AGI 2, HP 7 / SAN 8
-- 39 folders all clean, all correctly named
-- Full catalogue: Nora Warwick/RYP-NW-Master-Catalogue.md
-- Card data: Nora Warwick/Nora-Warwick-Card-Data.md
-- Profile: Nora Warwick/Nora-Warwick-Profile.md
-- Ability: Once per round: Spend 1r to add 1 bless token
+- 39 folders all clean. Full catalogue written. Profile written.
+- Ability: Once per round: Spend 1r → add 1 bless token
 - Elder Sign: +1. Gain resources = shroud value
 
 ---
@@ -260,6 +318,7 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 ## Pending Items
 
 ### Immediate Priority
+- [ ] Build Eleanor Heart in Strange Eons (001-034)
 - [ ] Build Bjorn Blackcast 025-037 in Strange Eons
 - [ ] Generate art for Bjorn 025-037
 - [ ] Write RYP-BB Master Catalogue
@@ -267,6 +326,8 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 - [ ] Regen PNGs for Ironhide, Greystoke, Agnes, Abel
 
 ### Secondary
+- [ ] Eleanor Heart art — investigator card art prompt not yet written
+- [ ] Eleanor Heart art prompts for all cards
 - [ ] Review Agnes Crane deck
 - [ ] Review Abel Redcloud deck
 - [ ] Generate art for Ironhide 007 Hound of the Deep
@@ -278,29 +339,40 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 
 | Decision | Value |
 |---|---|
-| Folder naming | One folder per physical card, number = card number |
+| Folder naming | One folder per physical card |
 | PNG handling | NEVER delete PNGs unless explicitly told to |
 | Mini markers | Keep Mini-Marker EON in 001 folder for all investigators |
-| Greystoke traits | Detective. Scholar. Antiquarian. |
 | Greystoke subtitle | The Immortal Scholar |
+| Greystoke traits | Detective. Scholar. Antiquarian. |
 | Wisdom of Antiquity slot | Hand slot |
 | My Glass weakness | Persistent horror drain, spend 5 clues to clear |
 | Arkham's Ring | Replaces Magnifying Glass, exhaust for +2 COM |
 | My Eyes and Ears defeat | Take 1 horror not doom |
-| Bjorn ability | Exhaust Rune asset, reveal 2 tokens, choose 1 |
+| Bjorn ability | Exhaust Rune asset → reveal 2 tokens, choose 1 |
 | Bjorn Elder Sign | +3. Heal 1 horror. |
 | Ragnarok | Disables ability, clears on Elder Sign in 5-token reveal |
-| Leif's Leap | Neutral accessory, +1 AGI, free move per round, no AOO |
+| Leif's Leap | Neutral accessory, +1 AGI, free move per round |
 | Sif's Blessing | Renamed from Sif's Love |
 | The Valkyrie's Embrace | Renamed from Val's Embrace |
-| Ephraim ability | Spend 1r to get +2 to any skill test once per round |
-| Ephraim Elder Sign | +2. Gain 3 resources. |
-| Red Blade | Hand (2), +1 COM, fight 2-3 damage |
-| Black Cloak | Body, SAN soak 2, evade up to 2 enemies |
-| Dunwich Hounds | x2 weakness, Hunter, disables ability while at location |
-| RagTag | No slot, extra ally slot, 2 allies simultaneously |
-| Ancient Fortune | Arcane, draw 1 card after each kill, permanent |
-| Mystic Blast | AoE 2 damage all enemies, wld/wld, costs 3r |
+| Ephraim ability | Spend 1r → +2 to any skill test once per round |
+| Ephraim Red Blade | Hand (2), +1 COM, fight 2-3 damage |
+| Ephraim Black Cloak | Body, SAN soak 2, evade up to 2 enemies |
+| Ephraim Dunwich Hounds | x2 weakness, Hunter, disables ability while at location |
+| Ephraim RagTag | No slot, extra ally slot, 2 allies simultaneously |
+| Ephraim Ancient Fortune | Arcane, draw 1 card after each kill, permanent |
+| Ephraim Mystic Blast | AoE 2 damage all enemies, wld/wld, costs 3r |
+| Eleanor class | Mystic primary |
+| Eleanor COM | 1 (Strange Eons minimum) |
+| Eleanor HP | 10 — scales healing power as she takes damage |
+| Eleanor healing scale | +1 bonus heal per 3 damage on Eleanor |
+| Eleanor no weapons | No Weapon cards level 1-5 enforced |
+| Medical Bag slot | Hand slot |
+| Innsmouth Codex slot | Accessory slot |
+| Triage slot | Arcane slot |
+| Fort Warren Chapel slot | Arcane slot |
+| Army Resupply | Replenish up to 3 charges, fast, neutral |
+| Parker soak | 0 HP / 3 SAN |
+| Adama soak | 0 HP / 3 SAN |
 
 ---
 
@@ -309,8 +381,8 @@ Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8 maximum
 If you are reading this with no prior context:
 - This is a custom Arkham Horror LCG expansion project
 - The user is Edward (GitHub: knowltonem)
-- Seven investigators designed, six complete or near-complete
-- Current priority: Complete Bjorn Blackcast (025-037) and regen PNGs for older investigators
-- Read individual investigator card data files for full card details
+- Eight investigators designed, six complete or near-complete
+- Current priority: Build Eleanor Heart and Bjorn Blackcast in Strange Eons
+- Read individual investigator sections above for full card details
 - Ask the user what they want to work on — do not assume
 - Claude is primary AI, you are backup — maintain all standards
