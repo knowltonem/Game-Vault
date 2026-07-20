@@ -72,15 +72,15 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 ## Pack Codes
 
 | Investigator | Pack Code | Class | Status |
-|---|---|---|---|
+|---|---|---|---|---|
 | Jonathan Ironhide | RYP-JI | Guardian | ✅ Complete — needs PNG regen |
 | Alistair Greystoke | RYP-AG | Seeker | ✅ Complete — needs PNG regen |
 | Agnes Crane | RYP-AC | Survivor | ✅ Complete — needs PNG regen |
 | Abel Redcloud | RYP-AR | Guardian | ✅ Complete — needs PNG regen |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
-| Bjorn Blackcast | RYP-BB | Mystic | 🔧 Cards 025-037 not yet built |
-| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
-| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck designed, not yet built |
+| Bjorn Blackcast | RYP-BB | Mystic | ✅ Complete — 37 .eon, 1 missing |
+| Ephraim Archer | RYP-EA | Guardian | ✅ Complete |
+| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck designed, not yet built in Strange Eons |
 
 ---
 
@@ -114,7 +114,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 
 ---
 
-## Eleanor Heart (RYP-EH) — IN PROGRESS 🔧
+## Eleanor Heart (RYP-EH) — IN PROGRESS 🔧 (Strange Eons)
 
 ### Backstory
 Former Army nurse, Lieutenant, stationed at Fort Warren (Massachusetts) — a real Civil War fort on Georges Island near Boston Harbor, close to Innsmouth. She was not a combat medic — a base nurse, educated, precise, kept records. She went to Innsmouth. She doesn't remember what happened. She woke on the beach alone, sand in her lungs, something cold where her heartbeat used to be. Her unit of 12 didn't come back. She wanders Arkham now, healing others while searching for answers about herself. She put her weapons down after Innsmouth and will not pick them up again.
@@ -187,6 +187,9 @@ HP 10 is intentional — as Eleanor takes damage her healing power increases. At
 
 ### Folder Status
 - 001-034: ✅ All folders created and correctly named
+- Profile: ✅ Eleanor-Heart-Profile.md created
+- Card Data: ✅ Eleanor-Heart-Card-Data.md created
+- Art Prompts: ✅ RYP-EH-Art-Prompts.md written
 - Strange Eons: ⬜ Not yet built
 - Art: 6 REF images in art folder (000-REF-Eleanor-Heart-1 through 6)
 
@@ -319,15 +322,12 @@ HP 10 is intentional — as Eleanor takes damage her healing power increases. At
 
 ### Immediate Priority
 - [ ] Build Eleanor Heart in Strange Eons (001-034)
-- [ ] Build Bjorn Blackcast 025-037 in Strange Eons
-- [ ] Generate art for Bjorn 025-037
+- [ ] Build Bjorn Blackcast 025-037 in Strange Eons (37 .eon, 1 missing)
 - [ ] Write RYP-BB Master Catalogue
-- [ ] Build Ephraim Archer 035 in Strange Eons
+- [ ] Generate art for Bjorn 025-037
 - [ ] Regen PNGs for Ironhide, Greystoke, Agnes, Abel
 
 ### Secondary
-- [ ] Eleanor Heart art — investigator card art prompt not yet written
-- [ ] Eleanor Heart art prompts for all cards
 - [ ] Review Agnes Crane deck
 - [ ] Review Abel Redcloud deck
 - [ ] Generate art for Ironhide 007 Hound of the Deep

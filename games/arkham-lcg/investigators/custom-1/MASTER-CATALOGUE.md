@@ -22,11 +22,14 @@ This file links to each catalogue and tracks overall build status.
 | Pack Code | Investigator | Class | Cards | Catalogue | Build Status |
 |---|---|---|---|---|---|
 | RYP-JI | Jonathan Ironhide | Guardian | 34 | [RYP-JI-Master-Catalogue.md](Jonathan%20Ironhide/RYP-JI-Master-Catalogue.md) | ✅ Printed |
-| RYP-AG | Alistair Greystoke | Seeker | 39 | [RYP-AG-Master-Catalogue.md](Alistair%20Greystoke/RYP-AG-Master-Catalogue.md) | ✅ Printed |
+| RYP-AG | Alistair Greystoke | Seeker | 34 | [RYP-AG-Master-Catalogue.md](Alistair%20Greystoke/RYP-AG-Master-Catalogue.md) | ✅ Printed |
 | RYP-AC | Agnes Crane | Survivor | 33 | [RYP-AC-Master-Catalogue.md](Agnes%20Crane/RYP-AC-Master-Catalogue.md) | ✅ Printed |
 | RYP-AR | Abel Redcloud | Guardian | 31 | [RYP-AR-Master-Catalogue.md](Abel%20Redcloud/RYP-AR-Master-Catalogue.md) | ✅ Printed |
-| RYP-NW | Nora Warwick | Rogue | 36 | [RYP-NW-Master-Catalogue.md](Nora%20Warwick/RYP-NW-Master-Catalogue.md) | ✅ Printed |
-| RYP-BB | Bjorn Blackcast | Mystic | 36 | [RYP-BB-Master-Catalogue.md](Bjorn%20Blackcast/RYP-BB-Master-Catalogue.md) | ✅ Printed |
+| RYP-NW | Nora Warwick | Rogue | 39 | [RYP-NW-Master-Catalogue.md](Nora%20Warwick/RYP-NW-Master-Catalogue.md) | ✅ Printed |
+| RYP-BB | Bjorn Blackcast | Mystic | 37 | [RYP-BB-Master-Catalogue.md](Bjorn%20Blackcast/RYP-BB-Master-Catalogue.md) | ✅ Printed |
+| RYP-EA | Ephraim Archer | Guardian | 35 | [RYP-EA-Master-Catalogue.md](Ephraim%20Archer/RYP-EA-Master-Catalogue.md) | ✅ Printed |
+
+| RYP-EH | Eleanor Heart | Mystic | 34 | [RYP-EH-Master-Catalogue.md](Eleanor%20Heart/RYP-EH-Master-Catalogue.md) | 🔧 In Progress |
 
 ---
 
@@ -40,7 +43,6 @@ This file links to each catalogue and tracks overall build status.
 
 | Pack Code | Name | Type | Catalogue | Build Status |
 |---|---|---|---|---|
-| RYP-07 | Investigator 7 (TBD) | Investigator | TBD | ⬜ Not Designed |
 | RYP-SD1 | Standalone Deck 1 (TBD) | Standalone | TBD | ⬜ Not Designed |
 | RYP-CE1 | Campaign Encounter Pack 1 (TBD) | Encounter | TBD | ⬜ Not Designed |
 | RYP-EX1 | Expansion Pack 1 (TBD) | Expansion | TBD | ⬜ Not Designed |
@@ -147,4 +149,4 @@ Local: `C:\Users\edwar\Documents\games\board-game-vault\games\arkham-lcg\investi
 
 ## Last Updated
 
-2026-07-16 — 6 investigators complete, all ✅ Printed. Awaiting Investigator 7.
+2026-07-16 — 7 investigators (6 complete, 1 in progress). Eleanor Heart added.
