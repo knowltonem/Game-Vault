@@ -14,7 +14,7 @@ Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
 Nine custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
 Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
-Latest commit: `8a1a952` → main
+Latest commit: `00ef1a9` → main
 
 ---
 
@@ -28,7 +28,7 @@ games/arkham-lcg/investigators/custom-1/
 ├── Agnes Crane/                        ← COMPLETE ✅ needs PNG regen
 ├── Abel Redcloud/                      ← COMPLETE ✅ needs PNG regen
 ├── Nora Warwick/                       ← COMPLETE ✅
-├── Bjorn Blackcast/                    ← IN PROGRESS 🔧 025-037 not built
+├── Bjorn Blackcast/                    ← COMPLETE ✅ all 37 cards built
 ├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
 ├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck designed, not yet built
 ├── The Man in Black/                   ← COMPLETE ✅ all 34 cards built
@@ -79,7 +79,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | Agnes Crane | RYP-AC | Survivor | ✅ Complete — needs PNG regen |
 | Abel Redcloud | RYP-AR | Guardian | ✅ Complete — needs PNG regen |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
-| Bjorn Blackcast | RYP-BB | Mystic | 🔧 Cards 025-037 not yet built |
+| Bjorn Blackcast | RYP-BB | Mystic | ✅ COMPLETE — all 37 cards built |
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
 | Eleanor Heart | RYP-EH | Mystic | 🔧 Deck designed, not yet built |
 | The Man in Black | RYP-MB | Rogue | ✅ COMPLETE — all 34 cards built |
@@ -305,14 +305,14 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 
 ---
 
-## BJORN BLACKCAST (RYP-BB) — IN PROGRESS 🔧
+## BJORN BLACKCAST (RYP-BB) — COMPLETE ✅
 
 - Mystic, WIL 5 / INT 3 / COM 2 / AGI 3, HP 6 / SAN 10
 - Subtitle: The Mist Borne. Traits: Shaman. Runebearer.
 - Ability: Exhaust Rune asset → reveal 2 tokens, choose 1
 - Elder Sign: +3. Heal 1 horror.
-- 001-024 EON/PNG built. Art 001-024 done.
-- 025-037 not yet built in Strange Eons
+- All 37 folders clean. All EON/PNG built and correctly named.
+- WIL max: Base 5 + Staff +1 + Helm +1 + Thor's Honor +1 = WIL 8
 
 ---
 
@@ -359,11 +359,9 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 
 ### Immediate Priority
 - [ ] Build Eleanor Heart in Strange Eons (001-034)
-- [ ] Build Bjorn Blackcast 025-037 in Strange Eons
-- [ ] Generate art for Bjorn 025-037
-- [ ] Write RYP-BB Master Catalogue
 - [ ] Build Ephraim Archer 035 in Strange Eons
 - [ ] Regen PNGs for Ironhide, Greystoke, Agnes, Abel
+- [ ] Write RYP-BB Master Catalogue
 
 ### Secondary
 - [ ] Review Agnes Crane deck
