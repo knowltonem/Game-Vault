@@ -291,7 +291,8 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 ### Build Status
 - Folders 001-034: ✅ All created and correctly named
 - Strange Eons: ⬜ Not yet built
-- Art: ✅ All 21 art files generated
+- Art: ✅ 001 (investigator), 002 (Medical Bag), 003 (Innsmouth Codex), 004 (Fog of Innsmouth), 019 (Fort Warren Chapel), 027 (Innsmouth Lessons), 028 (Private Parker), 029 (Chaplain Adama) correctly named
+- Art: ⚠️ 14 files incorrectly labeled as 004 variants — needs cleanup (user will handle later)
 
 ---
 
@@ -335,6 +336,9 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 ## AGNES CRANE (RYP-AC) — COMPLETE ✅
 
 - Survivor, WIL 4 / INT 3 / COM 3 / AGI 3, HP 6 / SAN 9
+- 5 signature cards (001-005), 30 deck cards (006-034) = 35 total pack cards
+- Key fix: Cherished Keepsake corrected to ×1 (006), Leather Coat at 007
+- 034: Storm of Spirits — AoE spell, uses WIL instead of COM, costs charges instead of ammo
 - Deck review: PENDING
 
 ---
@@ -395,6 +399,7 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 | Eleanor COM | 1 (Strange Eons minimum) |
 | Eleanor HP | 10 — scales healing power as she takes damage |
 | Eleanor no weapons | No Weapon cards level 1-5 enforced |
+| Agnes Storm of Spirits | 034, AoE fight WIL 2 dmg all enemies at location, 3 charges, uses WIL instead of COM, spell asset
 | Bjorn ability | Exhaust Rune asset → reveal 2 tokens, choose 1 |
 | Ephraim ability | Spend 1r → +2 to any skill test once per round |
 

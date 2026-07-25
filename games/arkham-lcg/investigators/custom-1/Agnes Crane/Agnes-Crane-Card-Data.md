@@ -127,7 +127,7 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 16 | The Pale Knife | Asset | Survivor | 0 | ×1 | 029-The-Pale-Knife |
 | 17 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
 | 18 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
-| 19 | Storm of Spirits | Event | Mystic | 0 | ×1 | 034-Storm-of-Spirits |
+| 19 | Storm of Spirits | Asset | Mystic | 0 | ×1 | 034-Storm-of-Spirits |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -144,7 +144,7 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | **Signature Asset** | 003 The Haunted Veil |
 | **Signature Weakness** | 004 The Voice Below |
 | **Regular Deck Ally** | 005 The Pale Child |
-| **Deck Cards** | 006-033 (28 cards) |
+| **Deck Cards** | 006-034 (29 cards) |
 
 ---
 
@@ -211,6 +211,7 @@ Agnes Crane/
 - **WIL 4 / INT 3 / COM 3 / AGI 3** — balanced 4/3/3/3 spread, total 13. No catastrophic weakness, no dominant strength. Competent across the board — fits the survivor archetype. INT 3 offset by ability generating clues from treachery reveals without testing. COM 3 means she can occasionally fight weaker enemies in a pinch.
 - **Drawn to the Flame synergy** — deliberately pulling encounter cards feeds her ability and generates 2 clues simultaneously.
 - **Grotesque Statue** — chaos bag manipulation makes her Elder Sign fire more reliably, and her encounter peek ability benefits from a cleaner bag.
+- **Storm of Spirits (034)** — AoE fight spell using charges instead of ammo. WIL-based (matches her WIL 4), 2 damage to target + 1 to each other enemy at location. Fills the gap left by removing Survival Knife — gives her a second weapon option alongside Arcane Athame.
 - **Pairs with Ironhide** — he handles enemies she can't fight, she warns him what's coming. Ward of Protection covers him from treacheries when out of range.
 - **Pairs with Greystoke** — double clue engine, double encounter peek. Together they see everything the encounter deck is planning.
 
