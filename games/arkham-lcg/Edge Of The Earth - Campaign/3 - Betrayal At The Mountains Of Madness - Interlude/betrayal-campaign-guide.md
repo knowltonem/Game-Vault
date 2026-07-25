@@ -1,4 +1,4 @@
-﻿   Betrayal: Campaign Guide v0.9.X – It's Writing Itself!                                                                      
+   Betrayal: Campaign Guide v0.9.X – It's Writing Itself!                                                                      
 
 [Skip to content](#primary)
 

@@ -109,11 +109,11 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 
 | # | Card | Type | Class | Level | Qty | Folder |
 |---|---|---|---|---|---|---|
-| 1 | Cherished Keepsake | Asset | Neutral | 0 | ×2 | 006-007-Cherished-Keepsake |
-| 2 | Leather Coat | Asset | Neutral | 0 | ×1 | 008-Leather-Coat |
-| 3 | Grotesque Statue | Asset | Mystic | 0 | ×2 | 009-010-Grotesque-Statue |
-| 4 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×2 | 005-The-Pale-Child |
-| 5 | Working a Hunch | Event | Seeker | 0 | ×1 | 011-Working-a-Hunch |
+| 1 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×1 | 005-The-Pale-Child |
+| 2 | Cherished Keepsake | Asset | Neutral | 0 | ×1 | 006-Cherished-Keepsake |
+| 3 | Leather Coat | Asset | Neutral | 0 | ×1 | 007-Leather-Coat |
+| 4 | Grotesque Statue | Asset | Mystic | 0 | ×2 | 008-009-Grotesque-Statue |
+| 5 | Working a Hunch | Event | Seeker | 0 | ×2 | 010-011-Working-a-Hunch |
 | 6 | Lucky! | Event | Survivor | 0 | ×2 | 012-013-Lucky |
 | 7 | "Look What I Found!" | Event | Survivor | 0 | ×2 | 014-015-Look-What-I-Found |
 | 8 | Narrow Escape | Event | Survivor | 0 | ×1 | 016-Narrow-Escape |
@@ -124,9 +124,10 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 | 13 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
 | 14 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
 | 15 | Unexpected Courage | Skill | Neutral | 0 | ×1 | 028-Unexpected-Courage |
-| 16 | Survival Knife | Asset | Survivor | 0 | ×1 | 029-Survival-Knife |
+| 16 | The Pale Knife | Asset | Survivor | 0 | ×1 | 029-The-Pale-Knife |
 | 17 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
 | 18 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
+| 19 | Storm of Spirits | Event | Mystic | 0 | ×1 | 034-Storm-of-Spirits |
 | | **TOTAL** | | | | **30** | |
 
 ---
@@ -137,12 +138,13 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 |---|---|
 | **Pack Name** | Agnes Crane Investigator Pack |
 | **Pack Code** | RYP-AC |
-| **Total Cards** | 005 |
+| **Total Cards** | 034 |
 | **Investigator** | 001 Agnes Crane |
 | **Signature Ally** | 002 The Night-Gaunt |
 | **Signature Asset** | 003 The Haunted Veil |
 | **Signature Weakness** | 004 The Voice Below |
 | **Regular Deck Ally** | 005 The Pale Child |
+| **Deck Cards** | 006-033 (28 cards) |
 
 ---
 
@@ -157,23 +159,35 @@ Agnes Crane/
 ├── 003-The-Haunted-Veil/
 ├── 004-The-Voice-Below/
 ├── 005-The-Pale-Child/
-├── 006-007-Cherished-Keepsake/
-├── 008-Leather-Coat/
-├── 009-010-Grotesque-Statue/
+├── 006-Cherished-Keepsake/
+├── 007-Leather-Coat/
+├── 008-Grotesque-Statue/
+├── 009-Grotesque-Statue/
+├── 010-Working-a-Hunch/
 ├── 011-Working-a-Hunch/
-├── 012-013-Lucky/
-├── 014-015-Look-What-I-Found/
+├── 012-Lucky/
+├── 013-Lucky/
+├── 014-Look-What-I-Found/
+├── 015-Look-What-I-Found/
 ├── 016-Narrow-Escape/
 ├── 017-Arcane-Athame/
-├── 018-019-Ward-of-Protection/
-├── 020-021-Drawn-to-the-Flame/
-├── 022-023-Crack-the-Case/
-├── 024-025-Guts/
-├── 026-027-Perception/
+├── 018-Ward-of-Protection/
+├── 019-Ward-of-Protection/
+├── 020-Drawn-to-the-Flame/
+├── 021-Drawn-to-the-Flame/
+├── 022-Crack-the-Case/
+├── 023-Crack-the-Case/
+├── 024-Guts/
+├── 025-Guts/
+├── 026-Perception/
+├── 027-Perception/
 ├── 028-Unexpected-Courage/
-├── 029-Survival-Knife/
-├── 030-031-Rise-to-the-Occasion/
-├── 032-033-Inquiring-Mind/
+├── 029-The-Pale-Knife/
+├── 030-Rise-to-the-Occasion/
+├── 031-Rise-to-the-Occasion/
+├── 032-Inquiring-Mind/
+├── 033-Inquiring-Mind/
+├── 034-Storm-of-Spirits/
 └── Agnes-Crane-Card-Data.md
 ```
 
