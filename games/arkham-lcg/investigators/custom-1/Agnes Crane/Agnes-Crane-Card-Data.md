@@ -9,18 +9,19 @@
 | Field | Value |
 |---|---|
 | **Name** | Agnes Crane |
+| **Subtitle** | The Haunted Survivor |
 | **Class** | Survivor |
 | **Traits** | Mystic. Cursed. Survivor. |
 | **Willpower** | 4 |
 | **Intellect** | 3 |
-| **Combat** | 3 |
-| **Agility** | 3 |
-| **Health** | 6 |
-| **Sanity** | 9 |
-| **Deckbuilding** | Survivor 0–5, Seeker 0–2, Mystic 0–2 |
+| **Combat** | 1 |
+| **Agility** | 4 |
+| **Health** | 8 |
+| **Sanity** | 8 |
+| **Deckbuilding** | Survivor 0-5, Mystic 0-2, Neutral 0-5 |
 
 ### Ability
-At the start of your turn: Reveal the top card of the encounter deck and look at it. Return it to the top. If it is a Treachery — discover 1 clue at your location.
+Once per round: Reveal the top 2 cards of the encounter deck. Return 1 to the top and 1 to the bottom of the encounter deck.
 
 ### Elder Sign
 +1. If you succeed, you may look at the top 3 cards of the encounter deck and rearrange them in any order.
@@ -29,8 +30,8 @@ At the start of your turn: Reveal the top card of the encounter deck and look at
 *"They raised me to hear the voices. They never told me I could learn to answer back."*
 
 ### Requirements
-- The Haunted Veil ×1
 - The Night-Gaunt ×1
+- The Haunted Veil ×1
 - The Voice Below ×1
 - 1 random basic weakness
 
@@ -40,20 +41,22 @@ At the start of your turn: Reveal the top card of the encounter deck and look at
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Night-Gaunt. |
-| **Slot** | Ally |
+| **Type** | Asset — Ally |
 | **Subtitle** | The Dark Between Shadows |
-| **Health/Sanity soak** | 3/2 |
+| **Cost** | 3 |
+| **Slot** | Ally |
+| **Traits** | Ally. Monster. Night-Gaunt. |
+| **HP Soak** | 3 |
+| **SAN Soak** | 2 |
+| **Icons** | wil/wld |
 | **Unique** | Yes |
 
 ### Text
-Agnes Crane deck only.
+Agnes Crane deck only. Unique.
 
-You get +1 `<wil>` while The Night-Gaunt is in play.
+You get +1 WIL while The Night-Gaunt is in play.
 
-**<rea>** After you would take horror: Exhaust The Night-Gaunt — prevent 1 of that horror.
+[reaction] After you would take horror: Exhaust The Night-Gaunt — prevent 1 of that horror.
 
 ### Flavor
 *"I did not summon it. I simply stopped running from it."*
@@ -64,21 +67,20 @@ You get +1 `<wil>` while The Night-Gaunt is in play.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Accessory |
+| **Type** | Asset — Accessory |
+| **Subtitle** | The Voices Never Stop |
 | **Cost** | 0 |
-| **Traits** | Item. Relic. Cursed. |
 | **Slot** | Accessory |
-| **Health/Sanity soak** | —/2 |
+| **Traits** | Item. Relic. Cursed. |
+| **HP Soak** | — |
+| **SAN Soak** | 3 |
+| **Icons** | wil/wld |
 | **Unique** | Yes |
 
 ### Text
-Agnes Crane deck only.
+Agnes Crane deck only. Unique.
 
-You may look at the top card of the encounter deck at any time.
-
-<rea> After you would take horror: Exhaust The Haunted Veil — reduce that horror by 1.
-
-Forced — At the end of the round: If you looked at the encounter deck 3 or more times this round, take 1 horror.
+[reaction] After you would take horror: Exhaust The Haunted Veil — reduce that horror by 1 and deal 1 damage to an enemy at your location.
 
 ### Flavor
 *"The voices never stop. I have simply learned to listen differently."*
@@ -89,46 +91,64 @@ Forced — At the end of the round: If you looked at the encounter deck 3 or mor
 
 | Field | Value |
 |---|---|
-| **Type** | Treachery Weakness |
+| **Type** | Treachery — Weakness |
+| **Subtitle** | It Was Calling Me Home |
 | **Traits** | Flaw. Curse. Haunted. |
 | **Unique** | Yes |
 
 ### Text
-Agnes Crane deck only.
+Agnes Crane deck only. Unique.
 
-Revelation — Attach to Agnes Crane.
+Revelation — Take 1 horror. Attach to Agnes Crane.
 
-Forced — At the start of your turn: Reveal the top card of the encounter deck. If it is an Enemy — take 1 horror and discard The Voice Below. If it is a Treachery — take 2 horror and discard The Voice Below. If it is a Location or Act/Agenda — take 1 horror and shuffle The Voice Below back into your deck.
+Forced — At the start of the Mythos Phase: Take 1 horror.
+
+[action] Test WIL (4): If you succeed, discard The Voice Below.
 
 ### Flavor
 *"It was calling me home. It has never stopped."*
 
 ---
 
-## Deck List (30 Cards)
+## Deck List (31 Cards, 005-035)
 
-| # | Card | Type | Class | Level | Qty | Folder |
-|---|---|---|---|---|---|---|
-| 1 | The Pale Child *(Peter Sylvestre)* | Asset | Survivor | 0 | ×1 | 005-The-Pale-Child |
-| 2 | Cherished Keepsake | Asset | Neutral | 0 | ×1 | 006-Cherished-Keepsake |
-| 3 | Leather Coat | Asset | Neutral | 0 | ×1 | 007-Leather-Coat |
-| 4 | Grotesque Statue | Asset | Mystic | 0 | ×2 | 008-009-Grotesque-Statue |
-| 5 | Working a Hunch | Event | Seeker | 0 | ×2 | 010-011-Working-a-Hunch |
-| 6 | Lucky! | Event | Survivor | 0 | ×2 | 012-013-Lucky |
-| 7 | "Look What I Found!" | Event | Survivor | 0 | ×2 | 014-015-Look-What-I-Found |
-| 8 | Narrow Escape | Event | Survivor | 0 | ×1 | 016-Narrow-Escape |
-| 9 | Arcane Athame | Asset | Survivor | 0 | ×1 | 017-Arcane-Athame |
-| 10 | Ward of Protection | Event | Mystic | 0 | ×2 | 018-019-Ward-of-Protection |
-| 11 | Drawn to the Flame | Event | Mystic | 0 | ×2 | 020-021-Drawn-to-the-Flame |
-| 12 | Crack the Case | Event | Seeker | 0 | ×2 | 022-023-Crack-the-Case |
-| 13 | Guts | Skill | Neutral | 0 | ×2 | 024-025-Guts |
-| 14 | Perception | Skill | Neutral | 0 | ×2 | 026-027-Perception |
-| 15 | Unexpected Courage | Skill | Neutral | 0 | ×1 | 028-Unexpected-Courage |
-| 16 | The Pale Knife | Asset | Survivor | 0 | ×1 | 029-The-Pale-Knife |
-| 17 | Rise to the Occasion | Skill | Survivor | 0 | ×2 | 030-031-Rise-to-the-Occasion |
-| 18 | Inquiring Mind | Skill | Seeker | 0 | ×2 | 032-033-Inquiring-Mind |
-| 19 | Storm of Spirits | Asset | Mystic | 0 | ×1 | 034-Storm-of-Spirits |
-| | **TOTAL** | | | | **30** | |
+| # | Card | Type | Class | Cost | Slot | Icons | Notes |
+|---|---|---|---|---|---|---|---|
+| 005 | The Pale Child ×1 | Asset | Survivor | 2 | Arcane | int/int | Unique. +1 WIL. Forced end upkeep: Heal 1 horror. 0/2 soak. |
+| 006 | Cherished Keepsake ×1 | Asset | Neutral | 1 | — | wil | 0/3 soak. No rules text. |
+| 007 | Leather Coat ×1 | Asset | Neutral | 1 | Body | wil | 3/0 soak. No rules text. |
+| 008-009 | Grotesque Statue ×2 | Asset | Mystic | 3 | — | int/agi | No slot. Uses (4 charges). [free] Spend 1 charge: Reveal 2 tokens, choose 1. |
+| 010-011 | Working a Hunch ×2 | Event | Seeker | 0 | — | int/int | Fast. Discover 1 clue at your location. |
+| 012-013 | Lucky! ×2 | Event | Survivor | 1 | — | wld | Fast. Play when failing. +2 skill value. |
+| 014-015 | Look What I Found! ×2 | Event | Survivor | 2 | — | int/int | Fast. Fail INT by 2 or less. Discover 2 clues. |
+| 016 | Narrow Escape ×1 | Event | Survivor | 0 | — | agi/agi/wld | Fast. Fail AGI. +2 AGI. If succeed: disengage all + move. |
+| 017 | Arcane Athame ×1 | Asset | Survivor | 2 | Hand | wil/wil | [action] Fight. +1 WIL. Use WIL instead of COM. +1 damage. |
+| 018-019 | Ward of Protection ×2 | Event | Mystic | 1 | — | wil | Fast. Cancel non-weakness treachery. Take 1 horror. |
+| 020-021 | Drawn to the Flame ×2 | Event | Mystic | 0 | — | wil/wil | Investigate +2 INT. Succeed: +1 clue. Draw encounter card. |
+| 022-023 | Crack the Case ×2 | Event | Seeker | 0 | — | int/int | Fast. Discover clues at shroud 3+: Gain resources = shroud. |
+| 024-025 | Guts ×2 | Skill | Neutral | — | — | wil/wil | Max 1 per test. If successful: Draw 1 card. |
+| 026-027 | Perception ×2 | Skill | Neutral | — | — | int/int | If successful: Draw 1 card. |
+| 028 | Unexpected Courage ×1 | Skill | Neutral | — | — | wld/wld | No rules text. |
+| 029 | The Pale Knife ×1 | Asset | Survivor | 2 | Arcane | wil/wil | Unique. [action] Fight. +1 WIL. Use WIL instead of COM. +1 damage. Subtitle: It Cuts Both Ways. Flavor: "Always sharp. Never sharpened." |
+| 030-031 | Rise to the Occasion ×2 | Skill | Survivor | — | — | wil/wil/wil | Max 1 per test. Commit only if skill < difficulty. |
+| 032-033 | Inquiring Mind ×2 | Skill | Seeker | — | — | wld/wld/wld | Commit only if 1+ clues at location. |
+| 034 | Storm of Spirits ×1 | Event | Mystic | 3 | — | wil | [action] Fight. +1 WIL. Use WIL instead of COM. If succeed: deal 2 damage to each enemy at your location. Flavor: "Go back to the dark." |
+| 035 | Salem's Lot ×1 | Asset | Survivor | 0 | Hand | wil/wld | Unique. Subtitle: The Purse. [reaction] After you discard a weakness card: Gain 2 resources. Flavor: "Everything costs something. She learned to charge interest." |
+
+---
+
+## Slot Picture
+
+| Slot | Card |
+|---|---|
+| Hand | Arcane Athame (017) |
+| Hand | Salem's Lot (035) |
+| Arcane | The Pale Child (005) |
+| Arcane | The Pale Knife (029) |
+| Accessory | The Haunted Veil (Signature) |
+| Body | Leather Coat (007) |
+| Ally | The Night-Gaunt (Signature) |
+| No Slot | Grotesque Statue ×2 (008-009) |
 
 ---
 
@@ -138,13 +158,55 @@ Forced — At the start of your turn: Reveal the top card of the encounter deck.
 |---|---|
 | **Pack Name** | Agnes Crane Investigator Pack |
 | **Pack Code** | RYP-AC |
-| **Total Cards** | 034 |
+| **Total Cards** | 035 |
 | **Investigator** | 001 Agnes Crane |
 | **Signature Ally** | 002 The Night-Gaunt |
 | **Signature Asset** | 003 The Haunted Veil |
 | **Signature Weakness** | 004 The Voice Below |
-| **Regular Deck Ally** | 005 The Pale Child |
-| **Deck Cards** | 006-034 (29 cards) |
+| **Deck** | 005-035 (31 cards) |
+
+---
+
+## Key Design Decisions — LOCKED
+
+| Decision | Value |
+|---|---|
+| Stats | WIL 4 / INT 3 / COM 1 / AGI 4 / HP 8 / SAN 8 |
+| Ability | Reveal top 2 encounter cards, return 1 top 1 bottom |
+| Elder Sign | +1. Rearrange top 3 encounter cards |
+| Haunted Veil soak | 0/3 SAN |
+| Haunted Veil ability | Reduce horror by 1 AND deal 1 damage to enemy |
+| Voice Below | Revelation: 1 horror. Attach. Mythos: 1 horror. WIL(4) test to discard |
+| Pale Child slot | Arcane |
+| Pale Child icons | int/int |
+| The Pale Knife | Arcane slot, cost 2, WIL fight, +1 WIL, +1 damage, unique |
+| Grotesque Statue | No slot, cost 3, 4 charges |
+| Cherished Keepsake | ×1 only, cost 1 |
+| Leather Coat | HP 3, cost 1 |
+| Guts | Draw on SUCCESS |
+| Storm of Spirits | Mystic event, cost 3, WIL fight, AoE 2 damage on success |
+| Salem's Lot | Hand slot, cost 0, gain 2r after discarding any weakness |
+
+---
+
+## Design Notes
+
+- **Encounter control identity** — no other Survivor manipulates the encounter deck. Unique in the class.
+- **COM 1** — she never fights with COM. Arcane Athame, The Pale Knife, and Storm of Spirits all use WIL.
+- **WIL 4 base** — with Night-Gaunt (+1) and Pale Child (+1) = WIL 6. Athame/Knife add +1 = WIL 7 effective combat.
+- **Salem's Lot synergy** — Voice Below, Ward of Protection, and encounter weaknesses all feed her economy.
+- **Haunted Veil synergy** — horror drain from Drawn to the Flame and Ward of Protection trigger Veil for free damage.
+- **AGI 4** — Narrow Escape + high AGI = excellent evader when cornered.
+
+## Best Pairings
+
+| Partner | Rating | Why |
+|---|---|---|
+| Alistair Greystoke | ⭐⭐⭐⭐⭐ | Double clue engine, double encounter peek |
+| The Man in Black | ⭐⭐⭐⭐ | Encounter control + combat |
+| Jonathan Ironhide | ⭐⭐⭐⭐ | He handles enemies, she warns what's coming |
+| Ephraim Archer | ⭐⭐⭐⭐ | She controls, he kills |
+| Bjorn Blackcast | ⭐⭐⭐⭐ | Token control makes her Elder Sign fire reliably |
 
 ---
 
@@ -188,200 +250,6 @@ Agnes Crane/
 ├── 032-Inquiring-Mind/
 ├── 033-Inquiring-Mind/
 ├── 034-Storm-of-Spirits/
+├── 035-Salems-Lot/
 └── Agnes-Crane-Card-Data.md
 ```
-
----
-
-## Naming Convention
-
-| File Type | Convention | Example |
-|---|---|---|
-| **Folders** | `###-Card-Name` | `002-The-Haunted-Veil` |
-| **Signature .eon** | `Crane-Sig-[Type]-[Name].eon` | `Crane-Sig-Asset-The-Haunted-Veil.eon` |
-| **Regular deck .eon** | `Crane-[Type]-[Name].eon` | `Crane-Skill-Guts.eon` |
-| **Exported PNGs** | `RYP-AC-###-[Name]-[Front/Back].png` | `RYP-AC-001-Agnes-Crane-Front.png` |
-
----
-
-## Design Notes
-
-- **High SAN (9)** — essential given the haunting ability constantly draining sanity. She needs the buffer.
-- **Low HP (6)** — she is not a combat character. Leather Coat and The Pale Child provide physical and horror resilience.
-- **WIL 4 / INT 3 / COM 3 / AGI 3** — balanced 4/3/3/3 spread, total 13. No catastrophic weakness, no dominant strength. Competent across the board — fits the survivor archetype. INT 3 offset by ability generating clues from treachery reveals without testing. COM 3 means she can occasionally fight weaker enemies in a pinch.
-- **Drawn to the Flame synergy** — deliberately pulling encounter cards feeds her ability and generates 2 clues simultaneously.
-- **Grotesque Statue** — chaos bag manipulation makes her Elder Sign fire more reliably, and her encounter peek ability benefits from a cleaner bag.
-- **Storm of Spirits (034)** — AoE fight spell using charges instead of ammo. WIL-based (matches her WIL 4), 2 damage to target + 1 to each other enemy at location. Fills the gap left by removing Survival Knife — gives her a second weapon option alongside Arcane Athame.
-- **Pairs with Ironhide** — he handles enemies she can't fight, she warns him what's coming. Ward of Protection covers him from treacheries when out of range.
-- **Pairs with Greystoke** — double clue engine, double encounter peek. Together they see everything the encounter deck is planning.
-
----
-
-## Signature Upgrade Cards
-
-### The Night-Gaunt (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 3 | 3 |
-| SAN soak | 2 | **3** |
-| WIL bonus | +1 | **+2** |
-| Horror prevent | 1 per exhaust | **2 per exhaust** |
-
-```
-Agnes Crane deck only.
-You get +2 <wil> while The Night-Gaunt is in play.
-<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 2 of that horror.
-```
-*Flavor: "It has learned what I need. It does not ask why."*
-
----
-
-### The Night-Gaunt (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 3 | **4** |
-| WIL bonus | +2 | +2 |
-| Horror prevent | 2 per exhaust | 2 per exhaust |
-| New | — | **Deal 1 dmg after prevent** |
-
-```
-Agnes Crane deck only.
-You get +2 <wil> while The Night-Gaunt is in play.
-<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 2 of that horror.
-<fre> Once per round, after The Night-Gaunt prevents horror: Deal 1 damage to any enemy at your location or a connecting location.
-```
-*Flavor: "It does not just protect me now. It hunts what hurts me."*
-
----
-
-### The Night-Gaunt (5)
-**Level:** 5 | **XP:** +2 from Lv 4 | **Slot:** Ally
-
-| Field | Lv 4 | Lv 5 |
-|---|---|---|
-| HP soak | 4 | **5** |
-| Horror prevent | 2 | **3** |
-| Damage on prevent | 1 | **2** |
-
-```
-Agnes Crane deck only.
-You get +2 <wil> while The Night-Gaunt is in play.
-<rea> After you would take horror: Exhaust The Night-Gaunt — prevent 3 of that horror.
-<fre> Once per round, after The Night-Gaunt prevents horror: Deal 2 damage to any enemy at your location or a connecting location.
-```
-*Flavor: "I stopped running from it. Now nothing runs from us."*
-
----
-
-### The Pale Child (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| SAN soak | 2 | **3** |
-| WIL bonus | +1 | +1 |
-| AGI bonus | — | **+1** |
-| Upkeep heal | 1 horror | **2 horror** |
-
-```
-Agnes Crane deck only.
-You get +1 <wil> and +1 <agi> while The Pale Child is in play.
-Forced — At the end of the upkeep phase: Heal 2 horror from Agnes Crane.
-```
-*Flavor: "She does not speak. She does not need to."*
-
----
-
-### The Pale Child (3)
-**Level:** 3 | **XP:** +2 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 3 |
-|---|---|---|
-| HP soak | 0 | **1** |
-| WIL bonus | +1 | **+2** |
-| AGI bonus | +1 | +1 |
-| Upkeep heal | 2 horror | 2 horror |
-| New | — | **Cancel 1 horror from enemy** |
-
-```
-Agnes Crane deck only.
-You get +2 <wil> and +1 <agi> while The Pale Child is in play.
-Forced — At the end of the upkeep phase: Heal 2 horror from Agnes Crane.
-<rea> After Agnes Crane would take horror from an enemy attack: Exhaust The Pale Child — cancel 1 of that horror.
-```
-*Flavor: "She stepped in front of it. She always does."*
-
----
-
-### The Pale Child (5)
-**Level:** 5 | **XP:** +4 from Lv 3 | **Slot:** Ally
-
-| Field | Lv 3 | Lv 5 |
-|---|---|---|
-| HP soak | 1 | **2** |
-| SAN soak | 3 | **4** |
-| WIL bonus | +2 | +2 |
-| AGI bonus | +1 | **+2** |
-| Upkeep heal | 2 horror | **2 horror + 1 dmg + draw 1** |
-| Cancel | 1 horror | 1 horror |
-
-```
-Agnes Crane deck only.
-You get +2 <wil> and +2 <agi> while The Pale Child is in play.
-Forced — At the end of the upkeep phase: Heal 2 horror and 1 damage from Agnes Crane. Draw 1 card.
-<rea> After Agnes Crane would take horror from an enemy attack: Exhaust The Pale Child — cancel 1 of that horror.
-```
-*Flavor: "She has always been here. I just finally learned to see her."*
-
----
-
-### The Third Eye (1) — New Custom
-**Level:** 3 | **Cost:** 6 XP | **Slot:** Hand
-
-| Field | Lv 0 | Lv 3 |
-|---|---|---|
-| COM bonus | +1 | **+2** |
-| Horror heal | 1 on kill | **2 on kill** |
-| Icons | `<wil>` + `<com>` | `<wil>` + `<wil>` + `<com>` |
-
-```
-<act> Fight. You get +2 <com> for this attack.
-<fre> After you defeat an enemy with Arcane Athame: Heal 2 horror from Agnes Crane.
-<fre> After you defeat an enemy with Arcane Athame: Add 1 bless token to the chaos bag.
-```
-*Flavor: "Hamunaptra gave it power. I gave it purpose."*
-
----
-
-### The Third Eye (1) — New Custom
-**Level:** 1 | **Cost:** 2 XP | **Type:** Asset — Accessory | **Icons:** 1 × `<wil>`
-
-```
-Agnes Crane deck only. Unique.
-
-<fre> At the start of your turn: Look at the top 2 cards of the encounter
-deck instead of 1. Return them in any order.
-If either is a Treachery — discover 1 clue at your location.
-```
-*Flavor: "The third eye does not blink. It does not look away. Neither do I."*
-
----
-
-## Upgrade Path (XP Priorities)
-
-| Priority | Card | XP | Reason |
-|---|---|---|---|
-| 1 | The Night-Gaunt (2) | 4 XP | +2 WIL, +1 SAN soak, prevents 2 horror |
-| 2 | The Pale Child (2) | 4 XP | +1 AGI, +1 SAN soak, heals 2 horror per upkeep |
-| 3 | Lucky! (2) | 2 XP | Also cancels revelation effects |
-| 4 | The Pale Child (3) | 2 XP | +2 WIL, +1 HP soak, cancel horror from enemy attack |
-| 5 | Arcane Athame (3) | 6 XP | +2 COM, heals 2 horror + bless on kill |
-| 6 | The Night-Gaunt (4) | 4 XP | +1 HP/SAN soak, deals 1 damage after preventing horror |
-| 7 | Grotesque Statue (4) | 4 XP | Cancel any chaos token reveal |
-| 8 | The Pale Child (5) | 4 XP | +2 AGI, heals dmg + horror + draws card per upkeep |
-| 9 | The Night-Gaunt (5) | 2 XP | Prevents 3 horror, deals 2 damage after prevent |

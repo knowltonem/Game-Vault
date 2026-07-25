@@ -1,4 +1,4 @@
-# R'lyeh Expansion — AI Handoff Document
+﻿# R'lyeh Expansion — AI Handoff Document
 
 ## READ THIS FIRST
 
@@ -25,7 +25,7 @@ games/arkham-lcg/investigators/custom-1/
 ├── HANDOFF.md                          ← YOU ARE HERE
 ├── Jonathan Ironhide/                  ← COMPLETE ✅ needs PNG regen
 ├── Alistair Greystoke/                 ← COMPLETE ✅ needs PNG regen
-├── Agnes Crane/                        ← COMPLETE ✅ needs PNG regen
+├── Agnes Crane/                        ← COMPLETE ✅ all 35 cards built
 ├── Abel Redcloud/                      ← COMPLETE ✅ needs PNG regen
 ├── Nora Warwick/                       ← COMPLETE ✅
 ├── Bjorn Blackcast/                    ← COMPLETE ✅ all 37 cards built
@@ -76,7 +76,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 |---|---|---|---|
 | Jonathan Ironhide | RYP-JI | Guardian | ✅ Complete — needs PNG regen |
 | Alistair Greystoke | RYP-AG | Seeker | ✅ Complete — needs PNG regen |
-| Agnes Crane | RYP-AC | Survivor | ✅ Complete — needs PNG regen |
+| Agnes Crane | RYP-AC | Survivor | ✅ COMPLETE — all 35 cards built |
 | Abel Redcloud | RYP-AR | Guardian | ✅ Complete — needs PNG regen |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ COMPLETE — all 37 cards built |
@@ -108,7 +108,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 |---|---|---|---|---|---|---|
 | Jonathan Ironhide | 3 | 2 | 5 | 3 | 9 | 7 |
 | Alistair Greystoke | 3 | 5 | 3 | 2 | 7 | 7 |
-| Agnes Crane | 4 | 3 | 3 | 3 | 6 | 9 |
+| Agnes Crane | 4 | 3 | 1 | 4 | 8 | 8 |
 | Abel Redcloud | 4 | 2 | 4 | 3 | 8 | 7 |
 | Nora Warwick | 3 | 5 | 3 | 2 | 7 | 8 |
 | Bjorn Blackcast | 5 | 3 | 2 | 3 | 6 | 10 |
@@ -368,7 +368,7 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 - [ ] Write RYP-BB Master Catalogue
 
 ### Secondary
-- [ ] Review Agnes Crane deck
+- [x] Agnes Crane COMPLETE -- 35 cards built
 - [ ] Review Abel Redcloud deck
 - [ ] Generate art for Ironhide 007 Hound of the Deep
 - [ ] Generate art for Greystoke 004 My Glass is Nearly Run
@@ -415,3 +415,4 @@ If you are reading this with no prior context:
 - Current priority: Build Eleanor Heart and Bjorn Blackcast in Strange Eons
 - Read individual investigator sections above for full card details
 - Ask the user what they want to work on — do not assume
+
