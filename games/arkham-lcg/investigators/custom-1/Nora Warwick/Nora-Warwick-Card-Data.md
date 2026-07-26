@@ -1,15 +1,15 @@
-# Professor Nora Warwick — Investigator Pack (RYP-NW)
+# Nora Warwick — Investigator Pack (EON VERIFIED)
 
 ← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
 ---
 
-## Investigator Card
+## Investigator Card — 001
 
 | Field | Value |
 |---|---|
 | **Name** | Professor Nora Warwick |
-| **Subtitle** | The Warwick Endowment |
+| **Subtitle** | Professor |
 | **Class** | Rogue |
 | **Traits** | Academic. Archaeologist. Blessed. |
 | **Willpower** | 3 |
@@ -20,768 +20,299 @@
 | **Sanity** | 8 |
 
 ### Ability
-```
-Once per round: Spend 1 resource to add 1 bless
-token to the chaos bag.
-```
+Once per round: Spend 1 resource to add 1 bless token to the chaos bag.
 
 ### Elder Sign
-```
-+1. If you succeed, gain resources equal to the
-shroud value of your location.
-```
++1. If you succeed, gain resources equal to the shroud value of your location.
 
-### Flavor (front)
-```
-"These Pyramids Hold More Questions than Answers"
-```
-
-### Story (back)
-```
-"The Warwick name has opened every tomb, every
-archive, and every door that mattered. What I've
-found has cosmic implications."
-```
-
-### Deckbuilding
-```
-Deck size: 30.
-Rogue cards (0-5).
-Seeker cards (0-2).
-Guardian cards (0-2).
-Mystic cards (0-1).
-Neutral cards (0-5).
-Signature cards: The Warwick Collection ×1,
-The Family Debt ×1, 1 random basic weakness.
-```
+### Flavor
+*"These Pyramids Hold More Questions than Answers"*
 
 ---
 
-## Signature Cards
-
----
-
-### 002 — The Warwick Collection
+## Signature Asset — 002 The Warwick Collection
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Accessory |
+| **Subtitle** | Acquired at Considerable Expense |
 | **Cost** | 0 |
-| **Traits** | Item. Relic. Blessed. |
 | **Slot** | Accessory |
-| **SAN soak** | 2 |
-| **Unique** | Yes |
-| **Icons** | 1 × `<int>` + 1 × `<wil>` |
+| **SAN Soak** | 2 |
 
-### Rules Text
-```
-Nora Warwick deck only. Unique.
+### Text
 +1 <int> while The Warwick Collection is in play.
-<fre> Start of your turn: Gain 1 resource.
-<act> Spend 4 resources: Discover 1 clue here.
-<fre> After you investigate: Move 1 clue here
-to a connecting location.
-```
+
+[fre] Start of your turn: Gain 1 resource.
+
+[act] Spend 4 resources: Discover 1 clue here.
+
+[fre] After you investigate: Move 1 clue here to a connecting location.
 
 ### Flavor
-```
-"The curator at the British Museum was quite
-upset, until he saw the cheque."
-```
+*"The curator at the British Museum was quite upset, until he saw the cheque."*
 
 ---
 
-### 003 — The Family Debt
+## Signature Weakness — 003 The Family Debt
 
 | Field | Value |
 |---|---|
-| **Type** | Treachery |
 | **Traits** | Flaw. Burden. |
-| **Unique** | Yes |
 
-### Rules Text
-```
-Nora Warwick deck only.
+### Text
+[rev] Spend resources equal to half the current agenda's doom threshold (rounded up, minimum 3). If you cannot pay: Take 1 horror or 1 damage per resource short (your choice).
 
-Revelation — The family calls in the debt.
-Immediately spend resources equal to half the
-current agenda's doom threshold (rounded up,
-minimum 3).
-
-If you cannot pay the full amount: For each
-resource you cannot pay, take 1 horror or
-1 damage (your choice).
-
-<act> Spend 5 resources: Discard The Family Debt.
-```
+[act] Spend 5 resources: Discard The Family Debt.
 
 ### Flavor
-```
-"The telegram arrived at the worst possible
-moment. They always do."
-```
+*"The telegram arrived at the worst possible moment. They always do."*
 
 ---
 
-### 004 — The Book of the Dead
+## Ally Cards
+
+### 004 Ra-Night-Gaunt
 
 | Field | Value |
 |---|---|
-| **Name** | The Book of the Dead |
+| **Subtitle** | Dark Embrace |
+| **Cost** | 0 |
+| **Traits** | Ally. Monster. |
+| **HP Soak** | 3 |
+| **SAN Soak** | 1 |
+
+### Text
++1 <com> while Ra-Night-Gaunt is in play.
+
+[reaction] After Ra-Night-Gaunt is defeated: Deal 1 damage to each enemy at your location (if any).
+
+### Flavor
+*"A Curse of Ancient Design."*
+
+---
+
+### 005 Call of Anubis
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Dark Tidings |
+| **Cost** | 3 |
+| **Traits** | Ally. Monster. |
+| **HP Soak** | 1 |
+| **SAN Soak** | 4 |
+
+### Text
++1 <wil> while Call of Anubis is in play.
+
+[for] When Nora Warwick would be dealt 2 or more damage or horror from a single source: Place 1 of that damage or horror on Call of Anubis instead (your choice).
+
+### Flavor
+*"The guardian of the dead does not ask permission. It simply steps in front."*
+
+---
+
+### 006 The Horus Heresy
+
+| Field | Value |
+|---|---|
+| **Subtitle** | What Wears the Face of Gods |
+| **Cost** | 4 |
+| **Traits** | Ally. Monster. |
+| **HP Soak** | 2 |
+| **SAN Soak** | 3 |
+
+### Text
++1 <int> and +1 <agi> while The Horus Heresy is in play.
+
+[fre] Once per round, after Nora Warwick discovers a clue: Heal 1 horror from The Horus Heresy.
+
+### Flavor
+*"What wears the face of gods. It feeds on what she finds."*
+
+---
+
+## Weapons
+
+### 007 The Kopis
+
+| Field | Value |
+|---|---|
+| **Subtitle** | As Sharp as Pharaoh's Heart |
+| **Cost** | 2 |
+| **Slot** | Hand |
+| **Traits** | Item. Weapon. Melee. Relic. |
+
+### Text
+[act] Fight. You get +1 <com> for this attack. This attack deals +1 damage.
+
+[fre] After you defeat an enemy with The Kopis: Gain 2 resources.
+
+### Flavor
+*"Found it on a dig, it whispers to me."*
+
+---
+
+### 008 The Khopesh
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Set's Favor |
+| **Cost** | 2 |
+| **Slot** | Hand |
+| **Traits** | Item. Weapon. Melee. Relic. |
+
+### Text
+[act] Fight. You get +1 <com> for this attack. This attack deals +1 damage.
+
+[fre] After you defeat an enemy with The Khopesh: Gain 1 resource and draw 1 card.
+
+### Flavor
+*"The blade remembers them all."*
+
+---
+
+### 009 The Sekhem Sceptre
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Power Incarnate |
+| **Cost** | 2 |
+| **Slot** | Hand |
+| **Traits** | Item. Weapon. Melee. Relic. |
+
+### Text
+[act] Fight. You get +1 <com> for this attack. This attack deals +1 damage.
+
+After this attack resolves: Cancel the next horror Nora Warwick would be dealt this round.
+
+### Flavor
+*"Power is not always measured in wounds."*
+
+---
+
+## Other Assets
+
+### 010 The Book of the Dead
+
+| Field | Value |
+|---|---|
 | **Subtitle** | Arcane and Unnatural |
-| **Type** | Asset — Arcane |
-| **Cost** | 1r |
-| **Traits** | Item. Tome. Relic. Blessed. |
+| **Cost** | 0 |
 | **Slot** | Arcane |
-| **SAN soak** | 2 |
-| **Unique** | Yes |
-| **Icons** | 2 × `<int>` |
+| **SAN Soak** | 2 |
+| **Traits** | Item. Tome. Relic. Blessed. |
 
-### Rules Text
-```
-Nora Warwick deck only. Unique.
+### Text
++1 <int> while The Book of the Dead is in play.
 
-You get +1 <int> while The Book of the Dead
-is in play.
+[fre] After you successfully investigate: You may exhaust The Book of the Dead — investigate again at your location without spending an action.
 
-<fre> After you successfully investigate: You
-may exhaust The Book of the Dead — investigate
-again at your location without spending an action.
-
-<fre> After The Book of the Dead enters play:
-Search your deck for any Insight or Relic card
-and draw it. Shuffle your deck.
-```
+[fre] After The Book of the Dead enters play: Search your deck for any Insight or Relic card and draw it. Shuffle your deck.
 
 ### Flavor
-```
-"With this knowledge, I can see the unseen."
-```
+*"With this knowledge, I can see the unseen."*
 
 ---
 
-## Naming Convention
-
-| File Type | Convention | Example |
-|---|---|---|
-| **Investigator .eon** | `Warwick-Sig-Investigator.eon` | `Warwick-Sig-Investigator.eon` |
-| **Signature .eon** | `Warwick-Sig-[Type]-[Name].eon` | `Warwick-Sig-Asset-The-Warwick-Collection.eon` |
-| **Regular deck .eon** | `Warwick-[Type]-[Name].eon` | `Warwick-Event-Lucky.eon` |
-| **Exported PNGs** | `RYP-NW-###-[Name]-[Front/Back].png` | `RYP-NW-001-Nora-Warwick-Front.png` |
-
----
-
-## Pack Code
-```
-RYP-NW
-```
-
----
-
-## Folder Structure
-
-```
-Nora Warwick/
-├── art/
-├── 001-Nora-Warwick/
-│   └── Nora-mini/
-├── 002-The-Warwick-Collection/
-├── 003-The-Family-Debt/
-└── Nora-Warwick-Card-Data.md
-```
-
----
-
-## Design Notes
-
-### Character Summary
-A 30-year-old British archaeologist bankrolled by the Warwick family fortune. Oxford educated, field hardened, and completely unafraid to throw money at problems that should be solved with caution. Looks like she belongs in a lecture hall. Turns out she's been doing this since her first dig in Egypt at age nineteen.
-
-### Stat Analysis
-
-| Stat | Value | Notes |
-|---|---|---|
-| WIL | 3 | Average — enough with skill commits |
-| INT | 5 | Elite investigator — matches Greystoke |
-| COM | 3 | Below average — compensated by expensive weapons |
-| AGI | 2 | Genuinely low — she does not run from things |
-| Health | 7 | Rogue-standard — fragile physically |
-| Sanity | 8 | Strong — she's seen worse in private collections |
-
-### Ability Analysis
-**2r → 2 bless tokens** — the most aggressive bless generation in the set. At peak economy (4-6r per round) she can add 4 bless tokens per round. Faster than Abel's kill-trigger blesses, more consistent than Father Thomas's exhaust blesses.
-
-### Elder Sign Analysis
-**Gain resources equal to shroud value** — at INT 6 (with Collection) she frequently investigates high-shroud locations. Shroud 3 = +3r. Shroud 5 = +5r. The elder sign becomes a massive economy spike on exactly the locations she should be investigating anyway.
-
-### The Warwick Collection Analysis
-- **+1 INT** — pushes to INT 6, tied with Greystoke for highest investigate in the set
-- **Free 1r per turn** — passive income funds the bless ability without touching hand
-- **3r → clue + bless** — money buys clues directly, no test required
-- **5r spent → 2 extra bless** — rewards big spending rounds automatically
-- **2 SAN soak** — artifact insulates her mind
-
-### The Family Debt Analysis
-- **Scales with agenda doom threshold** — early scenarios: 3-4r. Late campaign: 6-7r
-- **Minimum 3r** — never trivial even in scenario 1
-- **Horror AND damage if unpaid** — 1 horror + 1 damage per resource short
-- **Discard: 5r + action** — clean exit if prepared
-
-### All Three Allies — Competing For Different Reasons
-
-| Ally | HP | SAN | Passive | Special | Icons | Identity |
-|---|---|---|---|---|---|---|
-| Ra-Night-Gaunt | 3 | 1 | +1 COM | Deal 1 dmg to all enemies on defeat (if any) | 2×`<com>` | Physical tank |
-| Anubis-Touched | 1 | 4 | +1 WIL | Forced absorb 1 from 2+ hits | `<wil>`+`<com>` | Horror specialist |
-| The Horus Heresy | 2 | 3 | +1 INT +1 AGI | Heal 1 horror per clue discovered | `<int>`+`<wil>` | Knowledge sustain |
-
-### Soak Card Best Matches
-
-| Ally | Best Card | Final Soak | Why |
-|---|---|---|---|
-| Ra | Canopic Wrappings (HP) | **5/1** | Maximise physical tank |
-| Anubis | Scarab Amulet (SAN) | **1/6** | Maximise horror absorption |
-| Horus | Eye Amulet (SAN) | **2/5** + prevent | Horror sponge + survive physical hit |
-
-### Full Soak Picture — All Combinations With Best Cards
-
-| Configuration | HP total | SAN total | Play style |
-|---|---|---|---|
-| Ra (5/1) + Anubis (1/6) | **13** | **15** | Balanced — safe pairing |
-| Ra (5/1) + Horus (2/5) | **14** | **14** | Offensive — max stats |
-| Anubis (1/6) + Horus (2/5) | **10** | **19** | Horror fortress — less physically fragile now |
-
-### The Hard Choices
-
-| Pairing | Strengths | Weakness | When to pick |
-|---|---|---|---|
-| Ra + Anubis | Balanced HP and SAN | No INT/AGI boost | Standard scenarios |
-| Ra + Horus | Max stats, self-sustaining horror soak | No big-hit absorb | Clue-heavy scenarios |
-| Anubis + Horus | SAN 19, horror fortress | HP 9 — physically fragile | Horror-heavy encounter deck |
-
-
-| Pairing | Dynamic |
-|---|---|
-| Nora + Ironhide | Funds his weapons, blesses his bag, he kills everything she uncovers |
-| Nora + Greystoke | Two INT 5 investigators — extraordinarily fast clue clearing |
-| Nora + Agnes | Nora's bless engine makes Agnes's chaos tokens dramatically better |
-| Nora + Abel | Double bless engine — chaos bag almost entirely blessed within 3 rounds |
-
----
-
-## Upgrade Path (Planned)
-
-| Priority | Card | XP | Reason |
-|---|---|---|---|
-| 1 | The Warwick Collection (2) | 4 XP | Enhanced economy and bless generation |
-| 2 | Lucky! (2) | 2 XP | Cancels revelations — protects the economy |
-| 3 | Lola Santiago (3) | 6 XP | Elite Rogue ally — clues and resources |
-| 4 | The Family Debt (2) | 4 XP | Reduced debt cost, faster discard |
-| 5 | Chuck Fergus (5) | 10 XP | Ultimate Rogue support ally |
-
----
-
-## Weapons — The Three Knives
-
-All three weapons are Nora Warwick only. Same damage baseline, meaningfully different feel. Choose before each scenario based on what you need.
-
----
-
-### The Kopis — The Efficient Blade
-**Feel:** Economy swing | **Cost:** 2r | **Slot:** Hand
+### 011 The Collar of Sekhmet
 
 | Field | Value |
 |---|---|
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<int>` |
-
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Kopis:
-Gain 2 resources.
-```
-*Flavor: "Found it on a dig. It whispers to me."*
-
----
-
-### The Khopesh — The Sacred Blade
-**Feel:** Bless swing | **Cost:** 2r | **Slot:** Hand
-
-| Field | Value |
-|---|---|
-| Traits | Item. Weapon. Relic. |
-| Icons | 2 × `<com>` |
-
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-<fre> After you defeat an enemy with The Khopesh:
-Gain 1 resource and draw 1 card.
-```
-*Flavor: "The blade remembers them all."*
-
----
-
-### The Sekhem Sceptre — The Mind Breaker
-**Feel:** Defensive safety net | **Cost:** 2r | **Slot:** Hand
-
-| Field | Value |
-|---|---|
-| Traits | Item. Weapon. Relic. |
-| Icons | 1 × `<com>` + 1 × `<wil>` |
-
-```
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
-After this attack resolves: Cancel the next horror
-Nora Warwick would be dealt this round.
-```
-*Flavor: "Power is not always measured in wounds."*
-
----
-
-## Weapon Summary
-
-| Weapon | Cost | Damage | On Kill / Effect | Condition | Icons | Scenario Use |
-|---|---|---|---|---|---|---|
-| The Kopis | 2r | 1 | Gain 2r | On kill | `<com>` + `<int>` | Resource-starved |
-| The Khopesh | 2r | 1 | Gain 1r + draw 1 card | On kill | 2 × `<com>` | Balanced refuel |
-| The Sekhem Sceptre | 2r | 1 | Cancel next horror | Every attack | `<com>` + `<wil>` | Horror-heavy deck |
-
----
-
-## Weapon Upgrade Paths
-
-| Weapon | Lv 0 | Lv 2 | Lv 4 |
-|---|---|---|---|
-| The Kopis | 1 dmg, gain 2r | 2 dmg, gain 2r + draw 1 | 2 dmg, gain 3r + draw 1 + bless |
-| The Khopesh | 1 dmg, 2 bless | 2 dmg, 2 bless + gain 1r | 2 dmg, 3 bless + gain 1r + splash |
-| The Sekhem Sceptre | 1 dmg, cancel horror | 2 dmg, cancel + heal 1 | 2 dmg, cancel + heal 2 + cancel revelation |
-
----
-
-### Soak Assets (×1 each)
-
-**The Canopic Wrappings** — Cost 1r
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally
-gains +2 of the chosen type permanently.
-<fre> At the end of the upkeep phase: Heal
-1 damage from the attached ally.
-```
-*Flavor: "The jars remember their purpose. So do the wrappings."*
-
----
-
-**The Scarab Amulet** — Cost 1r
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally
-gains +2 of the chosen type permanently.
-<fre> At the end of the upkeep phase: Heal
-1 horror from the attached ally.
-```
-*Flavor: "Khepri rolls the sun. The scarab rolls away what would destroy you."*
-
----
-
-**The Eye Amulet** — Cost 2r
-```
-Attach to an Ally asset you control.
-When attached: Choose HP or SAN. That ally
-gains +2 of the chosen type permanently.
-<rea> After the attached ally soaks damage
-or horror: Exhaust The Eye Amulet — prevent
-1 of that damage or horror.
-```
-*Flavor: "Horus lost his eye in battle and found it again. What it sees now is different."*
-
----
-
-**The Collar of Sekhmet** — Cost 2r
-
-| Field | Value |
-|---|---|
-| **Name** | The Collar of Sekhmet |
 | **Subtitle** | Worn in Ten Thousand Battles |
-| **Type** | Asset — Body |
-| **Cost** | 2r |
-| **Traits** | Item. Relic. Blessed. |
+| **Cost** | 2 |
 | **Slot** | Body |
-| **HP soak** | 1 |
-| **SAN soak** | 1 |
-| **Unique** | Yes |
-| **Icons** | 1 × `<com>` + 1 × `<wil>` |
+| **HP Soak** | 1 |
+| **SAN Soak** | 1 |
+| **Traits** | Item. Relic. Blessed. |
 
-```
+### Text
 +1 <com> while The Collar of Sekhmet is in play.
-<rea> When The Collar of Sekhmet would be defeated:
-Instead, shuffle it into your deck.
-```
-*Flavor: "The curator said it was decorative. He had never worn it into the dark."*
+
+[rea] When The Collar of Sekhmet would be defeated: Instead, shuffle it into your deck.
+
+### Flavor
+*"The curator said it was decorative. He had never worn it into the dark."*
 
 ---
 
+## Deck (27 Cards — 012-039)
+
+| # | Card | Type | Cost | Traits | Rules | Flavor |
+|---|---|---|---|---|---|---|
+| 012 | Isfet's Fury | Event | 3 | Improvised. Relic. Cursed. | Choose a location. Deal 2 damage to each enemy at that location. Each investigator at that location takes 1 damage. Add 1 bless token to the chaos bag. | — |
+| 013-014 | Grave Robber ×2 | Event | 0 | Supply. | Gain 3 resources. | "The museum will pay handsomely." |
+| 015-016 | Anti-Chamber ×2 | Event | 0 | Insight. | Fast. Move to a connecting location. | — |
+| 017-018 | The Pact of Kha ×2 | Event | 0 | Augury. | Gain 4 resources. Add 2 curse tokens to the chaos bag. | — |
+| 019-020 | Sand Veil ×2 | Event | 2 | — | Fast. Disengage from all enemies engaged with you. Move to any connecting location. | — |
+| 021-022 | Ancient Intuition ×2 | Event | 2 | Insight. | Fast. Discover 1 clue at your location. | — |
+| 023-024 | Oxford Studies ×2 | Skill | — | Practiced. | If this skill test is successful while investigating, discover 1 additional clue at your location. | "She sees what others miss. I did my Homework." |
+| 025-026 | Ra's Wrath ×2 | Event | 2 | — | Fight. You get +1 <com> for this attack. If this attack succeeds, deal 1 damage and evade the enemy. | "His vengeance runs deep." |
+| 027-028 | Sobek's Gift ×2 | Event | 0 | Blessed. | Fast. Play during any player's turn. Each investigator draws 1 card. | "Sobek Is Generous" |
+| 029-030 | Pharaoh's Chariot ×2 | Skill | — | — | AGI icons. No rules text. | "Speed can often make up the difference." |
+| 031-032 | The Oxford Gambit ×2 | Skill | — | — | Commit only to an evasion test. This test gains +2 <agi>. If this test is successful, you may move to a connecting location. | "A gambit is not a retreat. It is a better position." |
+| 033-034 | Power of Thebes ×2 | Skill | — | Innate. | Commit only to a fight or evasion test. | "Oxford taught her to think. Thebes taught her to move." |
+| 035-036 | Nile's Blessing ×2 | Event | 1 | Insight. | Choose an investigator at your location. That investigator heals 2 horror and may discard a Terror card from their hand. | "Let the Water of the Nile Heal You" |
+| 037 | The Canopic Wrappings | Asset | 0 | Item. Relic. | Attach to an Ally you control. That ally gains +2 HP while that ally is in play. | "The jars remember their purpose. So do the wrappings." |
+| 038 | The Scarab Amulet | Asset | — | Item. Relic. | Attach to an Ally you control. That ally gains +2 SAN while that ally is in play. | "It was warm when she picked it up. The tomb had been sealed for three thousand years." |
+| 039 | The Eye Amulet | Asset | — | Item. Relic. | Attach to an Ally you control. That ally gains +2 HP or +2 SAN (your choice) while that ally is in play. | "Horus lost his eye in battle and found it again. What it sees now is different." |
+
 ---
 
-**Isfet's Fury**
+## Ally Soak Summary (with attachments)
+
+| Ally | Base HP | Base SAN | + Canopic (+2 HP) | + Scarab (+2 SAN) | + Eye (+2 choice) |
+|---|---|---|---|---|---|
+| Ra-Night-Gaunt | 3 | 1 | 5/1 | 3/3 | 5/1 or 3/3 |
+| Call of Anubis | 1 | 4 | 3/4 | 1/6 | 3/4 or 1/6 |
+| The Horus Heresy | 2 | 3 | 4/3 | 2/5 | 4/3 or 2/5 |
+
+---
+
+## Pack Information
 
 | Field | Value |
 |---|---|
-| **Name** | Isfet's Fury |
-| **Subtitle** | Cosmic Chaos |
-| **Type** | Event |
-| **Cost** | 3r |
-| **Class** | Rogue |
-| **Traits** | Improvised. Relic. Cursed. |
-| **Icons** | 1 × `<wil>` + 1 × `<int>` |
-
-```
-Choose a location. Deal 2 damage to each enemy
-at that location. Each investigator at that
-location takes 1 damage.
-Add 1 bless token to the chaos bag.
-```
-*Flavor: "The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."*
+| **Pack Name** | Nora Warwick Investigator Pack |
+| **Pack Code** | RYP-NW |
+| **Total Cards** | 039 |
+| **Investigator** | 001 Nora Warwick |
+| **Signature Asset** | 002 The Warwick Collection |
+| **Signature Weakness** | 003 The Family Debt |
+| **Allies** | 004 Ra-Night-Gaunt, 005 Call of Anubis, 006 The Horus Heresy |
+| **Weapons** | 007 The Kopis, 008 The Khopesh, 009 The Sekhem Sceptre |
+| **Other Assets** | 010 The Book of the Dead, 011 The Collar of Sekhmet |
+| **Deck** | 012-039 (28 cards) |
 
 ---
 
-## Player Cards
+## Key Design Decisions — LOCKED (EON VERIFIED)
 
-**Ra's Wrath** — Combat Event
-- **Cost:** 2r
-- **Class:** Rogue
-- **Traits:** Trick.
-- **Icons:** 1 × `<com>` + 1 × `<agi>`
-
-```
-Fight. You get +1 <com> for this attack.
-If this attack succeeds, deal 1 damage and evade the enemy.
-```
-*Flavor: "His vengeance runs deep."*
-
----
-
-### Servitor Allies
-
-**Ra-Night-Gaunt** — Combat Servitor
-- Base: 3 HP / 1 SAN
-- **Cost: 3r**
-- COM 3 fixed
-- Icons: 2 × `<com>`
-- Passive: You get +1 `<com>` while Ra-Night-Gaunt is in play
-- **On defeat:** Deal 1 damage to each enemy at Nora Warwick's location (if any)
-- Subtitle: Dark Embrace
-- Flavor: "A Curse of Ancient Design."
-- Soak slot: holds any soak asset
-- Identity: Physical tank — goes out fighting
-- No weapon slot — weapons are Nora only
-- No secondary use — official ally design
-
-**Anubis-Touched** — Defensive Servitor
-- Base: 1 HP / 4 SAN
-- **Cost: 3r**
-- COM 3 fixed
-- Icons: 1 × `<wil>` + 1 × `<com>`
-- Passive: You get +1 `<wil>` while Anubis-Touched is in play
-- **Forced:** When Nora Warwick would be dealt 2 or more damage or horror from a single source: Place 1 of that damage or horror on Anubis-Touched instead (your choice of type)
-- Name: Call of Anubis (renamed from Anubis-Touched)
-- Soak slot: holds any soak asset
-- Identity: Horror specialist — silent guardian
-- No weapon slot — weapons are Nora only
-- No secondary use — official ally design
-
-**The Horus Heresy** — Support Servitor
-- Base: 2 HP / 3 SAN
-- **Cost: 4r**
-- COM 3 fixed
-- Icons: 1 × `<int>` + 1 × `<wil>`
-- Passive: You get +1 `<int>` and +1 `<agi>` while The Horus Heresy is in play
-- **Free:** Once per round, after Nora Warwick discovers a clue: Heal 1 horror from The Horus Heresy
-- Soak slot: holds any soak asset
-- Identity: Knowledge sustains it — horror sponge
-- No weapon slot — weapons are Nora only
-- No secondary use — official ally design
-
-### Weapon Icons
-
-| Weapon | Icons |
+| Decision | Value |
 |---|---|
-| The Kopis | 1 × `<com>` + 1 × `<int>` |
-| The Khopesh | 2 × `<com>` |
-| The Sekhem Sceptre | 2 × `<wil>` |
-
-### 2. Weapon Discard Options — RESOLVED
-Removed. Icons are sufficient safety valve. Official weapon design standard maintained.
-
-### Soak Asset Icons
-
-| Soak Card | Icons | Secondary |
-|---|---|---|
-| Canopic Wrappings | 1 × `<wil>` + 1 × `<int>` | None — just icons |
-| Scarab Amulet | 2 × `<wil>` | None — just icons |
-| Eye Amulet | 1 × `<int>` + 1 × `<wil>` | None — just icons |
-
----
-
-## Pending Design Decisions — Review Before Deck Build
-
-### 1. Eye of Horus — Starting Deck or Upgrade Only?
-RESOLVED: In starting deck at level 0. Name TBD (rename pending). Icons ensure it is never dead when third ally slot unavailable.
-
-### 2. Weapon Discard Options — Keep or Remove?
-Current: Each weapon has a fast discard effect when stranded.
-Lean: Keep — Rogue flavor justifies it, stranded weapons are more punishing than stranded allies.
-
-### 3. Ally Icons — RESOLVED
-Confirmed as designed. Ra 2×COM, Anubis WIL+COM, Horus INT+WIL. No AGI icons intentional — Nora does not evade by design.
-
-### 4. Soak Card Quantity — RESOLVED
-×1 each. Perfect 3-to-3 parity with ally slots. Each soak card strategically distinct. No duplicates needed.
-
-### 5. Ally Cost — RESOLVED
-Ra-Night-Gaunt: 3r. Anubis-Touched: 3r. The Horus Heresy: 4r (extra stat boost justifies premium).
-
----
-
-## 34-Card Deck
-
-### Economy (4 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 013-014 | Ancient Cache | Grave Robber | Event | Neutral | x2 |
-| 017-018 | Faustian Bargain | The Pact of Kha | Event | Rogue | x2 |
-
-### Movement (2 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 015-016 | Shortcut | Anti-Chamber | Event | Neutral | x2 |
-
-### Investigation (4 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 021-022 | Working a Hunch | Ancient Intuition | Event | Seeker | x2 |
-| 023-024 | Deduction | Oxford Studies | Skill | Seeker | x2 |
-
-### Combat (5 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 025-026 | Ra's Wrath | (custom) | Event | Rogue | x2 |
-| 012 | Dynamite Blast | Isfet's Fury | Event | Rogue | x1 |
-| 019-020 | Elusive | Sand Veil | Event | Rogue | x2 |
-
-### Utility (2 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 027-028 | Sobek's Gift | (custom) | Event | Guardian | x2 |
-
-### Skills (6 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 029-030 | Manual Dexterity | Pharaoh's Chariot | Skill | Neutral | x2 |
-| 031-032 | (custom) | The Oxford Gambit | Skill | Rogue | x2 |
-| 033-034 | (custom) | Power of Thebes | Skill | Rogue | x2 |
-
-### Heal (2 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 035-036 | Logical Reasoning | Nile's Blessing | Event | Guardian | x2 |
-
-### Weapons (3 cards)
-
-| # | Card | Reskin Name | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 007 | The Kopis | The Kopis | Asset | Rogue | x1 |
-| 008 | The Khopesh | The Khopesh | Asset | Rogue | x1 |
-| 009 | The Sekhem Sceptre | The Sekhem Sceptre | Asset | Rogue | x1 |
-
-### Allies (3 cards)
-
-| # | Card | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 004 | Ra-Night-Gaunt | Asset - Ally | Rogue | x1 |
-| 005 | Call of Anubis | Asset - Ally | Rogue | x1 |
-| 006 | The Horus Heresy | Asset - Ally | Rogue | x1 |
-
-### Assets (2 cards)
-
-| # | Card | Type | Class | Qty |
-|---|---|---|---|---|---|
-| 010 | The Book of the Dead | Asset - Arcane | Rogue | x1 |
-| 011 | The Collar of Sekhmet | Asset - Body | Rogue | x1 |
-
-### Soak Attachments (3 cards)
-
-| # | Card | Type | Class | Qty |
-|---|---|---|---|---|
-| — | Canopic Wrappings | Asset | Rogue | x1 |
-| — | Scarab Amulet | Asset | Rogue | x1 |
-| — | Eye Amulet | Asset | Rogue | x1 |
-
-## Deck Summary
-
-| Category | Cards | Slots |
-|---|---|---|
-| Economy | Grave Robber, Pact of Kha | 4 |
-| Movement | Anti-Chamber | 2 |
-| Investigation | Ancient Intuition, Oxford Studies | 4 |
-| Combat | Ra's Wrath, Isfet's Fury, Sand Veil | 5 |
-| Utility | Sobek's Gift | 2 |
-| Skills | Pharaoh's Chariot, Gambit, Power of Thebes | 6 |
-| Weapons | Kopis, Khopesh, Sekhem | 3 |
-| Allies | Ra, Call of Anubis, Horus | 3 |
-| Assets | Book of Dead, Collar of Sekhmet | 2 |
-| Soak | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
-| Heal | Warwick Reasoning | 2 |
-| **Total** | | **36** |
----
-
-## Art Prompts
-
-### 001 - Nora Warwick Investigator Card
-```
-Cinematic gritty dark fantasy photograph. Close to mid body
-shot, low camera angle looking sharply upward. Professor Nora
-Warwick, British archaeologist, early 30s, at the precise
-moment she reads something in The Book of the Dead that
-cannot be unread -- head tilted slightly downward toward the
-open pages, eyes narrowed in focused inquisition not wide
-with surprise.
-
-Expression: pure focused inquisition. Eyes narrowed slightly,
-not wide -- she is reading, not reacting. Head tilted the
-precise degree of someone who has found the passage they were
-looking for and is now extracting every detail from it. One
-eyebrow fractionally raised -- not surprise, recognition.
-She has suspected this. The book is confirming it. Her mouth
-is set in a firm line, jaw forward, the expression of a woman
-who catalogues the impossible professionally and is currently
-cataloguing this. No terror. No awe. Assessment.
-
-One hand pressed flat against the open page as if to stop it
-moving, the other gripping the brass spine so hard her
-knuckles are white. Dark complexion weathered by fieldwork,
-sharp angular features, hair pulled severely back with loose
-strands lit green from below. Wearing a worn brown leather
-flight jacket over khaki expedition shirt. Around her neck:
-ancient Egyptian scarab amulet, lapis lazuli, catching green
-light from the book and throwing it back gold.
-
-The Book of the Dead: massive, oppressively heavy. Deep
-matte black cover with deep geometric crosshatch pattern
-pressed into it. Four aged brass scarab beetle clasps at
-each corner, scroll-cylinder closures along the right
-edge. Left spine: thick wrapped brass cylindrical rod
-binding. Cover face: a large tarnished brass circular
-medallion with geometric star cutwork, winged scarab
-beetle raised in the centre. Left of the medallion: a
-carved black cartouche panel with Egyptian hieroglyphs
-and figures in raised relief. The book is open -- the
-pages within casting that eerie cold green light upward,
-the black cover and tarnished brass clasps catching the
-green and throwing it back dark. The aged brass does not
-gleam -- it absorbs the light and releases it slowly,
-like the book is reluctant to be read.
-
-Background: crumbling Egyptian burial chamber, towering
-stone pillars with hieroglyphs shifting in peripheral,
-one fallen. Wrong geometry -- angles that do not resolve
-correctly. Dust rising around her feet catching green and
-gold light spiraling upward. Void black at absolute edges.
-Warm amber torchlight far behind her -- the only normal
-light in frame, barely reaching her.
-
-Mood: professional certainty in the face of the impossible.
-She has found what she came for. It is worse than expected.
-She is already three steps ahead of what to do with it.
-This is Tuesday.
-
-Style: gritty cinematic realism, Ridley Scott lighting,
-real film grain, extreme high contrast, three colour energy
-mixing on face and hands, macro detail on expression and
-open pages. Colour palette: cold green, deep gold, electric
-blue-white, void black, amber edges. 8K. --ar 3:2 --v 7
-```
-Status: PROMPT LOCKED -- not yet generated.
-
----
-
-## Deck Summary
-
-| Category | Cards | Slots |
-|---|---|---|
-| Economy | Grave Robber, Pact of Kha | 3 |
-| Movement | Anti-Chamber | 2 |
-| Investigation | Ancient Intuition, Oxford Studies | 4 |
-| Combat | Ra's Wrath, Isfet's Fury | 3 |
-| Utility | Family Name | 2 |
-| Skills | Opportunist, Gambit, Scholar's Eye, Desert Reflexes | 7 |
-| Draw + Healing | Cairo Revelation, Warwick Reasoning | 4 |
-| Weapons | Kopis, Khopesh, Sekhem Sceptre | 3 |
-| Allies | Ra-Night-Gaunt, Anubis-Touched, Horus Heresy | 3 |
-| Equipment | Book of Dead, Collar of Sekhmet | 2 |
-| Soak Attachments | Canopic Wrappings, Scarab Amulet, Eye Amulet | 3 |
-| **Total** | | **34** |
-
----
-
-## Icon Coverage
-
-| Test type | Icons | Sources |
-|---|---|---|---|---|
-| `<com>` | 8 | Ra ×2, Khopesh ×2, Kopis ×1, Anubis ×1, Sekhem ×1, Collar ×1 |
-| `<int>` | 8 | Ancient Intuition ×2, Horus ×1, Kopis ×1, Oxford Studies ×2, Family Name ×2, Cairo Revelation ×2, Pact of Kha ×1 |
-| `<wil>` | 7 | Warwick Reasoning ×4, Anubis ×1, Horus ×1, Sekhem ×1, Collar ×1, Isfet's Fury ×1, Pact of Kha ×1 |
-| `<wld>` | 8 | Warwick Gambit ×6, Opportunist ×2, Grave Robber ×2, Cairo Revelation ×2 |
-| `<agi>` | 4 | Family Name ×2, Ra's Wrath ×2 |
-
----
-
-## Ally As Skill Commit — Icon Replacements
-
-| Ally | Replaces | Reasoning |
-|---|---|---|
-| Ra-Night-Gaunt 2×`<com>` | 1 copy of Desert Trick | Same combat icon coverage |
-| The Horus Heresy `<int>`+`<wil>` | 1 copy of Academic's Eye | Same INT coverage |
-| Anubis-Touched `<wil>`+`<com>` | 1 copy of Warwick Resolve | Adds WIL coverage previously absent |
-
----
-
-## Reskin Flavor Lines
-
-| Card | Reskin | Flavor |
-|---|---|---|
-| Ancient Cache | Grave Robber | *"The museum will pay handsomely."* |
-| Shortcut | Anti-Chamber | *"Every tomb has a hidden passage. She makes sure to find it first."* |
-| Faustian Bargain | The Pact of Kha | *"Kha's price is always paid in darkness. She pays it anyway."* |
-| Working a Hunch | Ancient Intuition | *"Two hundred years of digs, catalogued and cross-referenced. She already knows what's here."* |
-| Deduction | Oxford Studies | *"She sees what others miss. Professionally."* |
-| Calling in Favors | The Family Name | *"The Warwick name opens doors. She uses it sparingly. Mostly."* |
-| Elusive | Sand Veil | *"The desert hides what it does not wish to be found."* |
-| Sobek's Gift | (custom) | *"Sobek Is Generous"* |
-| Manual Dexterity | Pharaoh's Chariot | *"Speed can often make up the difference."* |
-| (custom) | The Oxford Gambit | *"The family motto is not 'be careful'."* |
-| (custom) | Power of Thebes | *"Fill in flavor"* |
-| Dynamite Blast | Isfet's Fury | *"The museum catalogue calls it a ceremonial vessel. It is not a ceremonial vessel."* |
-| The Collar of Sekhmet | The Collar of Sekhmet | *"The curator said it was decorative. He had never worn it into the dark."* |
-
----
-
-## Deckbuilding Check
-
-| Rule | Cards | Count | Limit | Status |
-|---|---|---|---|---|---|---|
-| Rogue 0-5 | Pact of Kha, Family Name, Opportunist, Daring, Kopis, Khopesh, Sekhem, Ra, Anubis, Horus, Desert Reflexes, Ra's Wrath, Isfet's Fury | 13 | No limit | ✅ |
-| Seeker 0-2 | Ancient Intuition, Oxford Studies, Scholar's Eye, Cairo Revelation, Warwick Reasoning | 10 | No limit | ✅ |
-| Guardian 0-2 | (none in deck) | 0 | 4 max | ✅ |
-| Neutral | Grave Robber, Anti-Chamber | 4 | No limit | ✅ |
-
+| Stats | WIL 3 / INT 5 / COM 3 / AGI 2 / HP 7 / SAN 8 |
+| Ability | Once per round: Spend 1r → add 1 bless token |
+| Elder Sign | +1. Gain resources = shroud value |
+| Warwick Collection | Cost 0, +1 INT, 1r per turn, 4r→clue, move clue after investigate |
+| Family Debt | Half doom threshold (min 3r) or take damage/horror, 5r to discard |
+| Ra-Night-Gaunt | Cost 0, +1 COM, 3/1 soak, deal 1 dmg to all enemies on defeat |
+| Call of Anubis | Cost 3, +1 WIL, 1/4 soak, absorbs 1 from 2+ dmg/hor hits |
+| The Horus Heresy | Cost 4, +1 INT +1 AGI, 2/3 soak, heals 1 hor per clue discovered |
+| The Kopis | Cost 2, +1 COM, +1 dmg, gain 2r on kill |
+| The Khopesh | Cost 2, +1 COM, +1 dmg, gain 1r + draw 1 on kill |
+| The Sekhem Sceptre | Cost 2, +1 COM, +1 dmg, cancel next horror this round |
+| The Book of the Dead | Cost 0, +1 INT, 2 SAN soak, free re-investigate, search on entry |
+| The Collar of Sekhmet | Cost 2, +1 COM, 1/1 soak, shuffles back into deck on defeat |
+| Isfet's Fury | Cost 3, AoE 2 dmg all enemies at location, all investigators take 1 dmg, +1 bless |
+| Grave Robber | Cost 0, gain 3r |
+| Anti-Chamber | Cost 0, fast move to connecting location |
+| Pact of Kha | Cost 0, gain 4r, add 2 curse tokens |
+| Sand Veil | Cost 2, fast disengage all + move |
+| Ancient Intuition | Cost 2, fast discover 1 clue |
+| Ra's Wrath | Cost 2, fight +1 COM, on success deal 1 dmg and evade |
+| Sobek's Gift | Cost 0, fast each investigator draws 1 card |
+| Oxford Gambit | Skill, commit to evasion only, +2 AGI, move on success |
+| Power of Thebes | Skill, commit to fight or evasion only |
+| Nile's Blessing | Cost 1, heal 2 horror + may discard Terror card |
+| Canopic Wrappings | Cost 0, attach to ally: +2 HP |
+| Scarab Amulet | Attach to ally: +2 SAN |
+| Eye Amulet | Attach to ally: +2 HP or +2 SAN (choice) |
