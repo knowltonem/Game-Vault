@@ -1,6 +1,7 @@
 from typing import Optional, List
 from dataclasses import dataclass
 from .models import Investigator, Card, GameState, Action, Location
+from .phases import log
 
 
 class AIPlayer:
@@ -13,6 +14,7 @@ class AIPlayer:
         for enemy in investigator.engaged_enemies:
             if not enemy.exhausted:
                 weapon = self._find_weapon(investigator)
+                weapon_name = weapon.name if weapon else 'bare hands'
                 return FightAction(enemy, weapon)
 
         # Priority 2: Investigate if current location has clues
@@ -38,11 +40,9 @@ class AIPlayer:
         return None
 
     def _find_best_location(self, game_state: GameState) -> Optional[Location]:
-        """Find a connected location with the most clues."""
         current = game_state.current_location
         if not current:
             return None
-
         best = None
         best_clues = 0
         for loc in game_state.locations:
@@ -52,7 +52,6 @@ class AIPlayer:
         return best
 
     def _find_weapon(self, investigator: Investigator) -> Optional[Card]:
-        """Find a weapon in play area."""
         for asset in investigator.play_area:
             if hasattr(asset, 'keywords'):
                 kws = asset.keywords if isinstance(asset.keywords, list) else [asset.keywords]
@@ -61,7 +60,6 @@ class AIPlayer:
         return None
 
     def choose_commited_cards(self, investigator: Investigator, skill: str) -> List[Card]:
-        """Choose cards to commit to a skill test."""
         committed = []
         for card in investigator.hand:
             if len(committed) >= 2:
@@ -88,14 +86,20 @@ class FightAction:
     def execute(self, investigator: Investigator, game_state: GameState):
         from .combat import CombatResolver
         combat = CombatResolver()
+        weapon_name = self.weapon.name if self.weapon else 'bare hands'
+        log(f'    {investigator.name} fights {self.enemy.name} (F{self.enemy.fight} HP{self.enemy.current_health}) with {weapon_name}')
+
         result = combat.fight(
             investigator,
             self.enemy,
             game_state.chaos_bag,
             weapon=self.weapon
         )
-        game_state.action_log.append(f"{investigator.name} fights {self.enemy.name}: {result}")
-        if self.enemy.is_defeated():
+        log(f'      Base: {result.test_result.base_value} + Token: {result.test_result.token} ({result.test_result.modifier:+d}) = {result.test_result.final_value} vs {result.test_result.difficulty} -> {"HIT" if result.test_result.success else "MISS"}')
+        if result.test_result.success:
+            log(f'      {self.enemy.name} takes {result.damage_dealt} damage (HP {self.enemy.current_health}/{getattr(self.enemy, "health", "?")})')
+        if result.enemy_defeated:
+            log(f'      *** {self.enemy.name} DEFEATED ***')
             if self.enemy in investigator.engaged_enemies:
                 investigator.engaged_enemies.remove(self.enemy)
             if self.enemy in game_state.enemies:
@@ -103,6 +107,9 @@ class FightAction:
             investigator.victory_points += getattr(self.enemy, 'victory', 0)
             if self.enemy.name == "Servant of Flame":
                 game_state.servant_of_flame_defeated = True
+                log(f'      *** SERVANT OF FLAME DEFEATED — VICTORY! ***')
+        elif result.retaliation:
+            log(f'      Retaliation! {self.enemy.name} attacks back')
 
 
 @dataclass
@@ -112,12 +119,11 @@ class EvadeAction:
     def execute(self, investigator: Investigator, game_state: GameState):
         from .combat import CombatResolver
         combat = CombatResolver()
-        result = combat.evade(
-            investigator,
-            self.enemy,
-            game_state.chaos_bag
-        )
-        game_state.action_log.append(f"{investigator.name} evades {self.enemy.name}: {result}")
+        log(f'    {investigator.name} evades {self.enemy.name} (E{self.enemy.evade})')
+        result = combat.evade(investigator, self.enemy, game_state.chaos_bag)
+        log(f'      Base: {result.test_result.base_value} + Token: {result.test_result.token} ({result.test_result.modifier:+d}) = {result.test_result.final_value} vs {result.test_result.difficulty} -> {"ESCAPED" if result.test_result.success else "CAUGHT"}')
+        if result.success:
+            log(f'      {self.enemy.name} exhausted and disengaged')
 
 
 @dataclass
@@ -127,9 +133,7 @@ class MoveAction:
     def execute(self, investigator: Investigator, game_state: GameState):
         old_location = game_state.current_location
         game_state.current_location = self.destination
-        game_state.action_log.append(
-            f"{investigator.name} moves from {old_location.name} to {self.destination.name}"
-        )
+        log(f'    {investigator.name} moves: {old_location.name} -> {self.destination.name} (Shroud {self.destination.shroud}, {self.destination.current_clues} clues)')
 
 
 @dataclass
@@ -139,23 +143,23 @@ class InvestigateAction:
     def execute(self, investigator: Investigator, game_state: GameState):
         from .skill_test import SkillTestResolver
         resolver = SkillTestResolver()
+        log(f'    {investigator.name} investigates {self.location.name} (Shroud {self.location.shroud}, {self.location.current_clues} clues remaining)')
+
         result = resolver.resolve(
             investigator,
             "intellect",
             self.location.shroud,
             game_state.chaos_bag
         )
+        log(f'      Base: {result.base_value} + Token: {result.token} ({result.modifier:+d}) = {result.final_value} vs {result.difficulty} -> {"SUCCESS" if result.success else "FAILURE"}')
+
         if result.success:
             clues = min(2, self.location.current_clues)
             self.location.current_clues -= clues
             game_state.clues_gathered += clues
-            game_state.action_log.append(
-                f"{investigator.name} investigates {self.location.name}: {result} (+{clues} clues, {self.location.current_clues} remaining)"
-            )
+            log(f'      Discovered {clues} clue(s) ({self.location.current_clues} remaining at location, {game_state.clues_gathered} total)')
         else:
-            game_state.action_log.append(
-                f"{investigator.name} investigates {self.location.name}: {result}"
-            )
+            log(f'      No clues discovered')
 
 
 @dataclass
@@ -164,6 +168,12 @@ class PlayCardAction:
 
     def execute(self, investigator: Investigator, game_state: GameState):
         if self.card.cost <= investigator.resources:
+            log(f'    {investigator.name} plays [{self.card.name}] ({self.card.type.value}, cost {self.card.cost}r)')
             investigator.spend_resource(self.card.cost)
+            log(f'      Resources: {investigator.resources + self.card.cost} -> {investigator.resources}')
             investigator.play_card(self.card)
-            game_state.action_log.append(f"{investigator.name} plays {self.card.name}")
+            if self.card.is_asset():
+                slot_info = f' [{self.card.slot}]' if self.card.slot else ''
+                log(f'      {self.card.name} enters play{slot_info}')
+        else:
+            log(f'    {investigator.name} cannot afford [{self.card.name}] ({self.card.cost}r, has {investigator.resources}r)')

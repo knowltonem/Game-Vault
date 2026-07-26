@@ -286,22 +286,72 @@ class Game:
 
     def setup(self):
         """Set up the game."""
+        from .phases import Logger
+        Logger.set_log_func(self._log)
+
         self.game_state.phase = "setup"
         self.game_state.round = 0
 
-        # Draw initial hands (5 cards) and gain 5 resources
+        self._log('=' * 60)
+        self._log(f'SCENARIO: {self.game_state.scenario_name}')
+        self._log(f'DIFFICULTY: {self.difficulty}')
+        self._log('=' * 60)
+
+        # Agenda info
+        if self.game_state.current_agenda:
+            self._log(f'Agenda: {self.game_state.current_agenda.name} (doom threshold: {self.game_state.current_agenda.doom_threshold})')
+        if self.game_state.current_act:
+            self._log(f'Act: {self.game_state.current_act.name} (clues needed: {self.game_state.current_act.clues_needed})')
+        self._log(f'Locations: {", ".join(loc.name for loc in self.game_state.locations)}')
+
+        # Draw opening hands
+        self._log('')
         for inv in self.game_state.investigators:
+            inv.resources = 5
+            self._log(f'--- {inv.name} ({inv.card_class}, WIL{inv.willpower} INT{inv.intellect} COM{inv.combat} AGI{inv.agility}) ---')
+            self._log(f'  HP: {inv.health}/{inv.health} | SAN: {inv.sanity}/{inv.sanity} | Resources: {inv.resources}')
+
+            # Draw 5 cards
+            drawn = []
             for _ in range(5):
                 card = inv.deck.draw()
                 if card:
+                    drawn.append(card)
                     inv.hand.append(card)
-            inv.resources = 5  # Starting resources
 
-        self._log("=== GAME SETUP ===")
-        self._log(f"Scenario: {self.game_state.scenario_name}")
-        self._log(f"Difficulty: {self.difficulty}")
-        for inv in self.game_state.investigators:
-            self._log(f"  {inv.name} ready to investigate!")
+            self._log(f'  Opening hand ({len(inv.hand)} cards):')
+            for card in inv.hand:
+                self._log(f'    [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
+
+            # Mulligan: discard and redraw any non-signature, non-asset cards
+            mulliganed = []
+            keep = []
+            for card in inv.hand:
+                if card.name in [s.name for s in inv.set_aside]:
+                    keep.append(card)
+                elif card.type.value == "skill":
+                    mulliganed.append(card)
+                else:
+                    keep.append(card)
+
+            if mulliganed:
+                self._log(f'  Mulliganing {len(mulliganed)} card(s):')
+                for card in mulliganed:
+                    self._log(f'    Discard [{card.name}]', indent=1)
+                    inv.hand.remove(card)
+                    inv.discard.append(card)
+
+                # Draw replacements
+                for _ in range(len(mulliganed)):
+                    card = inv.deck.draw()
+                    if card:
+                        inv.hand.append(card)
+                        self._log(f'    Draw [{card.name}]', indent=1)
+
+            self._log(f'  Final hand ({len(inv.hand)} cards):')
+            for card in inv.hand:
+                self._log(f'    [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
+            self._log('')
 
     def run(self, max_rounds: int = 50) -> GameResult:
         """Run the full game loop."""
@@ -310,7 +360,17 @@ class Game:
         while not self.game_over and self.round_count < max_rounds:
             self.round_count += 1
             self.game_state.round = self.round_count
-            self._log(f"\n=== ROUND {self.round_count} ===")
+            self._log('')
+            self._log('=' * 60)
+            self._log(f'ROUND {self.round_count}')
+            self._log('=' * 60)
+
+            # Show investigator status
+            for inv in self.game_state.investigators:
+                status = 'DEFEATED' if inv.is_defeated() else f'HP {inv.current_health}/{inv.health} SAN {inv.current_sanity}/{inv.sanity}'
+                engaged = [e.name for e in inv.engaged_enemies]
+                engaged_str = f' vs {", ".join(engaged)}' if engaged else ''
+                self._log(f'  {inv.name}: {status} | {inv.resources}r | {len(inv.hand)} cards{engaged_str}')
 
             # Upkeep Phase
             self.game_state.phase = "upkeep"
@@ -329,8 +389,8 @@ class Game:
 
             # Enemy Phase
             self.game_state.phase = "enemy"
-            enemy = EnemyPhase()
-            enemy.execute(self.game_state)
+            enemy_phase = EnemyPhase()
+            enemy_phase.execute(self.game_state)
 
             # Check win/lose conditions
             self._check_conditions()
@@ -450,6 +510,6 @@ class Game:
             log_path=str(log_path)
         )
 
-    def _log(self, message: str):
+    def _log(self, message: str, indent: int = 0):
         """Log a message."""
-        logger.info(message)
+        print(message)

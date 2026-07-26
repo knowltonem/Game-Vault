@@ -1,16 +1,36 @@
 from typing import List, Optional
 from .models import Investigator, Enemy, Card, Location
-from .combat import CombatResolver
-from .chaos_bag import ChaosBag
-from .skill_test import SkillTestResolver
+
+
+class Logger:
+    """Shared game logger."""
+    _log_func = None
+
+    @classmethod
+    def set_log_func(cls, func):
+        cls._log_func = func
+
+    @classmethod
+    def log(cls, msg, indent=0):
+        if cls._log_func:
+            cls._log_func(msg, indent)
+
+
+def log(msg, indent=0):
+    Logger.log(msg, indent)
 
 
 class MythosPhase:
     def execute(self, game_state):
         """Each investigator draws 1 encounter card. Place 1 doom on agenda."""
+        log('')
+        log('--- MYTHOS PHASE ---')
+
         # Place doom on agenda
         if game_state.current_agenda:
+            old_doom = game_state.current_agenda.current_doom
             game_state.current_agenda.add_doom(1)
+            log(f'Doom placed on {game_state.current_agenda.name}: {old_doom} -> {game_state.current_agenda.current_doom}/{game_state.current_agenda.doom_threshold}')
 
         # Each investigator draws encounter card
         for inv in game_state.investigators:
@@ -25,7 +45,10 @@ class MythosPhase:
             if game_state.encounter_deck:
                 card = game_state.encounter_deck.draw()
                 if card:
+                    log(f'  {inv.name} draws encounter: [{card.name}] ({card.type.value})')
                     self._resolve_encounter_card(inv, card, game_state)
+                else:
+                    log(f'  {inv.name} — encounter deck empty')
 
     def _resolve_investigator_ability(self, inv: Investigator, game_state):
         """Resolve investigator-specific abilities."""
@@ -33,6 +56,7 @@ class MythosPhase:
             game_state.chaos_bag.add_bless(1)
             inv.bless_tokens_added += 1
             inv.heal_damage(1)
+            log(f'  {inv.name} ability: +1 bless token (total {game_state.chaos_bag.get_size()} in bag), heal 1 damage (HP {inv.current_health}/{inv.health})')
 
     def _resolve_encounter_card(self, inv: Investigator, card: Card, game_state):
         """Resolve an encounter card based on its type and name."""
@@ -46,48 +70,57 @@ class MythosPhase:
         name = card.name.lower().strip()
 
         if name == "fire!":
+            log(f'    Fire! — damaging assets...')
             for asset in list(inv.play_area):
                 if asset.health:
+                    old_hp = asset.health
                     asset.health -= 1
                     if asset.health <= 0:
                         inv.discard_card(asset)
+                        log(f'    {asset.name} destroyed by Fire!')
+                    else:
+                        log(f'    {asset.name}: {old_hp} -> {asset.health} HP')
+            from .skill_test import SkillTestResolver
             resolver = SkillTestResolver()
             result = resolver.resolve(inv, "agility", 3, game_state.chaos_bag)
+            log(f'    Agility 3 test: {result}')
             if not result.success:
                 inv.take_damage(1, source="Fire!")
+                log(f'    {inv.name} takes 1 damage (HP {inv.current_health}/{inv.health})')
 
         elif name == "cosmic evils":
-            # AI choice: place doom is better than damage+horror
+            log(f'    Cosmic Evils — placing 1 doom on agenda')
             game_state.current_agenda.add_doom(1)
 
         elif name == "caught in a lie":
+            from .skill_test import SkillTestResolver
             resolver = SkillTestResolver()
             result = resolver.resolve(inv, "willpower", 2, game_state.chaos_bag)
+            log(f'    Willpower 2 test: {result}')
             if not result.success:
                 inv.take_horror(1, source="Caught in a Lie")
-
-        elif name == "dark machinations":
-            resolver = SkillTestResolver()
-            result = resolver.resolve(inv, "willpower", 3, game_state.chaos_bag)
-            if not result.success:
-                inv.take_damage(1, source="Dark Machinations")
-                inv.take_horror(1, source="Dark Machinations")
+                log(f'    {inv.name} takes 1 horror (SAN {inv.current_sanity}/{inv.sanity})')
 
         elif name == "disorienting fear":
+            from .skill_test import SkillTestResolver
             resolver = SkillTestResolver()
             result = resolver.resolve(inv, "willpower", 2, game_state.chaos_bag)
+            log(f'    Willpower 2 test: {result}')
             if not result.success:
                 inv.take_horror(1, source="Disorienting Fear")
+                log(f'    {inv.name} takes 1 horror (SAN {inv.current_sanity}/{inv.sanity})')
 
         else:
-            # Unknown treachery: test willpower 2, fail = 1 horror
+            from .skill_test import SkillTestResolver
             resolver = SkillTestResolver()
             result = resolver.resolve(inv, "willpower", 2, game_state.chaos_bag)
+            log(f'    Willpower 2 test: {result}')
             if not result.success:
                 inv.take_horror(1, source=card.name)
+                log(f'    {inv.name} takes 1 horror (SAN {inv.current_sanity}/{inv.sanity})')
 
     def _resolve_enemy_encounter(self, inv: Investigator, card: Card, game_state):
-        """Resolve an enemy encounter card - spawn enemy engaged with investigator."""
+        """Resolve an enemy encounter card - spawn enemy engaged."""
         enemy = Enemy(
             id=f"{card.id}_{inv.id}_{game_state.round}",
             name=card.name,
@@ -104,15 +137,20 @@ class MythosPhase:
         enemy.engaged_with = inv.id
         inv.engaged_enemies.append(enemy)
         game_state.enemies.append(enemy)
+        kws = ', '.join(enemy.keywords) if enemy.keywords else 'none'
+        log(f'    Spawns {enemy.name} (F{enemy.fight} E{enemy.evade} HP{enemy.current_health} Dmg{enemy.damage}/{enemy.horror} [{kws}]) engaged with {inv.name}')
 
 
 class InvestigationPhase:
     def execute(self, game_state):
-        """Investigators take turns, 3 actions each."""
+        log('')
+        log('--- INVESTIGATION PHASE ---')
         for inv in game_state.investigators:
             if inv.is_defeated():
+                log(f'  {inv.name}: DEFEATED — skipping')
                 continue
 
+            log(f'  {inv.name}: {inv.actions} actions, {inv.resources} resources, {len(inv.hand)} cards in hand')
             for _ in range(3):
                 if inv.actions <= 0:
                     break
@@ -126,14 +164,19 @@ class InvestigationPhase:
 
 class EnemyPhase:
     def execute(self, game_state):
-        """Engaged non-exhausted enemies attack investigators."""
+        log('')
+        log('--- ENEMY PHASE ---')
+        # Enemies attack
         for inv in game_state.investigators:
             if inv.is_defeated():
                 continue
             for enemy in list(inv.engaged_enemies):
                 if not enemy.exhausted:
-                    combat = CombatResolver()
-                    combat.enemy_attack(enemy, inv)
+                    log(f'  {enemy.name} attacks {inv.name}: {enemy.damage} dmg + {enemy.horror} hor')
+                    enemy.attack(inv)
+                    log(f'    {inv.name}: HP {inv.current_health}/{inv.health} SAN {inv.current_sanity}/{inv.sanity}')
+                    if inv.is_defeated():
+                        log(f'    *** {inv.name} DEFEATED ***')
 
         # Ready exhausted enemies
         for enemy in game_state.enemies:
@@ -143,12 +186,16 @@ class EnemyPhase:
 
 class UpkeepPhase:
     def execute(self, game_state):
-        """Ready all cards. Draw 1 card, gain 1 resource."""
+        log('')
+        log('--- UPKEEP PHASE ---')
         for inv in game_state.investigators:
             if inv.is_defeated():
                 continue
 
             inv.ready_all()
-            inv.draw_card()
+            old_resources = inv.resources
             inv.gain_resource()
+            drawn = inv.draw_card()
             inv.ability_used_this_round = False
+            drawn_name = drawn.name if drawn else 'nothing'
+            log(f'  {inv.name}: +1 resource ({old_resources} -> {inv.resources}), draw [{drawn_name}], ready all')
