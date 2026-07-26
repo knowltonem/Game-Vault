@@ -1,0 +1,225 @@
+{
+  "id": "abel_redcloud",
+  "name": "Abel Redcloud",
+  "title": "The Protector",
+  "class": "guardian",
+  "stats": {
+    "willpower": 4,
+    "intellect": 2,
+    "combat": 4,
+    "agility": 3,
+    "health": 8,
+    "sanity": 7
+  },
+  "ability": {
+    "trigger": "start_of_mythos",
+    "text": "At the start of the Mythos phase, add 1 bless token to the chaos bag and heal 1 damage."
+  },
+  "elder_sign": {
+    "text": "+1. Play Sacred Bond."
+  },
+  "signatures": [
+    {
+      "id": "sacred_spear",
+      "name": "Sacred Spear",
+      "type": "asset",
+      "class": "spirit",
+      "cost": 2,
+      "slot": "hand",
+      "text": "+2 <com>. This attack deals +1 damage. If you succeed by 2 or more, this attack deals +1 additional damage.",
+      "icons": {"combat": 2},
+      "health": 3,
+      "keywords": "Spirit. Weapon. Melee.",
+      "ability_text": "You get +2 combat for this attack. If you succeed by 2 or more, deal +1 additional damage."
+    },
+    {
+      "id": "sacred_bond",
+      "name": "Sacred Bond",
+      "type": "event",
+      "class": "spirit",
+      "cost": 0,
+      "text": "Fast. Play after you draw a chaos token with a symbol. Return that token to the chaos bag, and heal 1 damage.",
+      "icons": {},
+      "keywords": "Spirit. Fast."
+    },
+    {
+      "id": "sacred_wind",
+      "name": "Sacred Wind",
+      "type": "event",
+      "class": "spirit",
+      "cost": 0,
+      "text": "Fast. Play after you fail a skill test by 2 or more. Draw 2 cards.",
+      "icons": {},
+      "keywords": "Spirit. Fast."
+    },
+    {
+      "id": "sacred_strength",
+      "name": "Sacred Strength",
+      "type": "event",
+      "class": "spirit",
+      "cost": 0,
+      "text": "Fast. Play after you succeed at a skill test by 2 or more. You get +2 to your next skill test this round.",
+      "icons": {},
+      "keywords": "Spirit. Fast."
+    },
+    {
+      "id": "tribal_oath",
+      "name": "Tribal Oath",
+      "type": "asset",
+      "class": "spirit",
+      "cost": 0,
+      "slot": "",
+      "text": "Forced - At the end of your turn: Take 1 horror. Spend 3 resources to discard Tribal Oath.",
+      "icons": {},
+      "health": 3,
+      "keywords": "Spirit. Oath."
+    }
+  ],
+  "deck": [
+    {
+      "id": "vicious_blow",
+      "name": "Vicious Blow",
+      "type": "skill",
+      "level": 0,
+      "text": "+1 <com>. If this skill test is successful during a fight, deal +1 damage.",
+      "icons": {"combat": 1},
+      "quantity": 2
+    },
+    {
+      "id": " guts",
+      "name": "Guts",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <wil>. If this skill test is successful, draw 1 card.",
+      "icons": {"willpower": 2},
+      "quantity": 2
+    },
+    {
+      "id": "overpower",
+      "name": "Overpower",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <com>. If this skill test is successful, draw 1 card.",
+      "icons": {"combat": 2},
+      "quantity": 2
+    },
+    {
+      "id": "perception",
+      "name": "Perception",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <int>. If this skill test is successful, draw 1 card.",
+      "icons": {"intellect": 2},
+      "quantity": 2
+    },
+    {
+      "id": "unexpected_courage",
+      "name": "Unexpected Courage",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 to any skill.",
+      "icons": {"wild": 2},
+      "quantity": 2
+    },
+    {
+      "id": "guardian_angel",
+      "name": "Guardian Angel",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "Guardian Angel gets +1 <wil> for each asset you control.",
+      "icons": {},
+      "slot": "",
+      "health": 3,
+      "keywords": "Asset."
+    },
+    {
+      "id": "beat",
+      "name": "Beat Cop",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "Fight: +1 <com>. If you succeed by 2 or more, deal +1 damage.",
+      "icons": {},
+      "slot": "ally",
+      "health": 2,
+      "keywords": "Asset. Ally."
+    },
+    {
+      "id": "machete",
+      "name": "Machete",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "+2 <com>. If you are engaged with only 1 enemy, this attack deals +1 damage.",
+      "icons": {"combat": 2},
+      "slot": "hand",
+      "health": 3,
+      "keywords": "Asset. Weapon. Melee."
+    },
+    {
+      "id": "leather_coat",
+      "name": "Leather Coat",
+      "type": "asset",
+      "level": 0,
+      "cost": 0,
+      "text": "Leather Coat takes +1 additional damage before you.",
+      "icons": {},
+      "slot": "body",
+      "health": 3,
+      "keywords": "Asset. Armor."
+    },
+    {
+      "id": "holy_rosary",
+      "name": "Holy Rosary",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "You get +1 <wil>.",
+      "icons": {"willpower": 1},
+      "slot": "arcane",
+      "sanity": 2,
+      "keywords": "Asset. Tome."
+    },
+    {
+      "id": "emergency_caches",
+      "name": "Emergency Caches",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "Fast. Fight: Exhaust Emergency Caches and spend 1 resource: Deal 2 damage to an enemy at your location.",
+      "icons": {},
+      "keywords": "Asset. Supply."
+    },
+    {
+      "id": "first_aid",
+      "name": "First Aid",
+      "type": "asset",
+      "level": 0,
+      "cost": 1,
+      "text": "Heal 1 damage from an investigator at your location.",
+      "icons": {},
+      "keywords": "Asset. Supply."
+    },
+    {
+      "id": "evidence",
+      "name": "Evidence!",
+      "type": "event",
+      "level": 0,
+      "cost": 0,
+      "text": "Fast. Play after you succeed at a skill test during a fight. Deal 1 additional damage to the enemy.",
+      "icons": {},
+      "keywords": "Event."
+    },
+    {
+      "id": "deduction",
+      "name": "Deduction",
+      "type": "event",
+      "level": 0,
+      "cost": 0,
+      "text": "Fast. Play after you succeed at a skill test during an investigation. Discover 1 additional clue.",
+      "icons": {},
+      "keywords": "Event."
+    }
+  ]
+}

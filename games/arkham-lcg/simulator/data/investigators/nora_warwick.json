@@ -1,0 +1,296 @@
+{
+  "id": "nora_warwick",
+  "name": "Nora Warwick",
+  "title": "Professor",
+  "class": "rogue",
+  "stats": {
+    "willpower": 3,
+    "intellect": 5,
+    "combat": 3,
+    "agility": 2,
+    "health": 7,
+    "sanity": 8
+  },
+  "ability": {
+    "trigger": "action",
+    "text": "Once per round, spend 1 resource to add 1 bless token to the chaos bag."
+  },
+  "elder_sign": {
+    "text": "+1. Gain resources equal to the shroud value of your location."
+  },
+  "signatures": [
+    {
+      "id": "warwick_collection",
+      "name": "Warwick Collection",
+      "type": "asset",
+      "class": "item",
+      "cost": 3,
+      "slot": "hand",
+      "text": "Exhaust Warwick Collection: Investigate. If you succeed, gain 2 resources.",
+      "icons": {"intellect": 2},
+      "keywords": "Item. Tome."
+    },
+    {
+      "id": "sekhem_sceptre",
+      "name": "Sekhem Sceptre",
+      "type": "asset",
+      "class": "arcane",
+      "cost": 2,
+      "slot": "arcane",
+      "text": "+2 <wil>. When you succeed at a willpower test by 2 or more, deal 1 damage to an enemy at your location.",
+      "icons": {"willpower": 2},
+      "keywords": "Arcane. Relic."
+    },
+    {
+      "id": "ancient_knowledge",
+      "name": "Ancient Knowledge",
+      "type": "asset",
+      "class": "item",
+      "cost": 1,
+      "slot": "",
+      "text": "Force - At the end of your turn: Discard 1 card from your hand. Spend 1 resource to discard Ancient Knowledge.",
+      "icons": {"intellect": 1},
+      "keywords": "Item. Tome."
+    },
+    {
+      "id": "power_of_the_ancients_1",
+      "name": "Power of the Ancients",
+      "type": "event",
+      "class": "spell",
+      "cost": 0,
+      "text": "Fast. Play after you succeed at a skill test. You get +2 to your next skill test this round.",
+      "icons": {},
+      "keywords": "Spell. Fast."
+    },
+    {
+      "id": "power_of_the_ancients_2",
+      "name": "Power of the Ancients",
+      "type": "event",
+      "class": "spell",
+      "cost": 0,
+      "text": "Fast. Play after you succeed at a skill test. You get +2 to your next skill test this round.",
+      "icons": {},
+      "keywords": "Spell. Fast."
+    },
+    {
+      "id": "call_of_anubis",
+      "name": "Call of Anubis",
+      "type": "asset",
+      "class": "arcane",
+      "cost": 2,
+      "slot": "arcane",
+      "text": "Force - When you defeat an enemy: Gain 2 resources.",
+      "icons": {"combat": 1},
+      "keywords": "Arcane. Relic."
+    },
+    {
+      "id": "anubis",
+      "name": "Anubis",
+      "type": "enemy",
+      "class": "monster",
+      "fight": 5,
+      "evade": 3,
+      "health": 8,
+      "damage": 2,
+      "horror": 1,
+      "keywords": "Hunter. Retaliate.",
+      "text": "Anubis gets -1 fight for each bless token in the chaos bag."
+    },
+    {
+      "id": "ra_night_gaunt",
+      "name": "Ra-Night-Gaunt",
+      "type": "enemy",
+      "class": "monster",
+      "cost": 0,
+      "fight": 3,
+      "evade": 4,
+      "health": 5,
+      "damage": 1,
+      "horror": 2,
+      "keywords": "Hunter. Alert.",
+      "text": "When Ra-Night-Gaunt is defeated, it returns to your hand instead of being discarded."
+    },
+    {
+      "id": "horus_heresy",
+      "name": "Horus Heresy",
+      "type": "event",
+      "class": "spell",
+      "cost": 2,
+      "text": "Fight. Use <wil> instead of <com>. This attack deals +2 damage. If you succeed by 2 or more, this attack deals +1 additional damage.",
+      "icons": {"willpower": 1},
+      "keywords": "Spell."
+    },
+    {
+      "id": "seth_vengeful",
+      "name": "Seth, Vengeful",
+      "type": "event",
+      "class": "spell",
+      "cost": 2,
+      "text": "Fight. Use <wil> instead of <com>. This attack deals +1 damage. If an enemy is defeated, gain 2 resources.",
+      "icons": {"willpower": 1},
+      "keywords": "Spell."
+    },
+    {
+      "id": "divine_intercession",
+      "name": "Divine Intercession",
+      "type": "event",
+      "class": "spell",
+      "cost": 0,
+      "text": "Fast. Play after you draw a chaos token with a symbol. Return that token to the chaos bag, and heal 1 damage or horror.",
+      "icons": {},
+      "keywords": "Spell. Fast."
+    },
+    {
+      "id": "thoths_judgment",
+      "name": "Thoth's Judgment",
+      "type": "asset",
+      "class": "arcane",
+      "cost": 2,
+      "slot": "arcane",
+      "text": "Fight. Use <wil> instead of <com>. This attack deals +1 damage. If you succeed by 2 or more, draw 1 card.",
+      "icons": {"willpower": 1},
+      "keywords": "Arcane. Relic."
+    }
+  ],
+  "deck": [
+    {
+      "id": "high_stakes",
+      "name": "High Stakes Gambler",
+      "type": "skill",
+      "level": 0,
+      "text": "+3 <com>. If this skill test is successful, gain 1 resource.",
+      "icons": {"combat": 3},
+      "quantity": 2
+    },
+    {
+      "id": "guts",
+      "name": "Guts",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <wil>. If this skill test is successful, draw 1 card.",
+      "icons": {"willpower": 2},
+      "quantity": 2
+    },
+    {
+      "id": "perception",
+      "name": "Perception",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <int>. If this skill test is successful, draw 1 card.",
+      "icons": {"intellect": 2},
+      "quantity": 2
+    },
+    {
+      "id": "unexpected_courage",
+      "name": "Unexpected Courage",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 to any skill.",
+      "icons": {"wild": 2},
+      "quantity": 2
+    },
+    {
+      "id": "trapeze_artist",
+      "name": "Trapeze Artist",
+      "type": "skill",
+      "level": 0,
+      "text": "+2 <agi>. If this skill test is successful, draw 1 card.",
+      "icons": {"agility": 2},
+      "quantity": 2
+    },
+    {
+      "id": "pickpocketing",
+      "name": "Pickpocketing",
+      "type": "skill",
+      "level": 0,
+      "text": "+1 <agi>. If this skill test is successful during an evade, gain 1 resource.",
+      "icons": {"agility": 1},
+      "quantity": 2
+    },
+    {
+      "id": "burglary",
+      "name": "Burglary",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "Investigate. Use <agi> instead of <int>. If you succeed, gain 2 resources.",
+      "icons": {"agility": 1},
+      "keywords": "Item."
+    },
+    {
+      "id": "switchblade",
+      "name": "Switchblade",
+      "type": "asset",
+      "level": 0,
+      "cost": 1,
+      "text": "+1 <agi>. If you succeed by 2 or more during an evade, deal 1 damage to the enemy.",
+      "icons": {"agility": 1},
+      "slot": "hand",
+      "keywords": "Item. Weapon. Melee."
+    },
+    {
+      "id": "lockpicks",
+      "name": "Lockpicks",
+      "type": "asset",
+      "level": 0,
+      "cost": 1,
+      "text": "+2 <int>. If you succeed by 2 or more, discover 1 additional clue.",
+      "icons": {"intellect": 2},
+      "slot": "hand",
+      "keywords": "Item."
+    },
+    {
+      "id": "sneak_attack",
+      "name": "Sneak Attack",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "+1 <com>. If you succeed by 2 or more, this attack deals +1 damage.",
+      "icons": {"combat": 1},
+      "slot": "hand",
+      "keywords": "Item. Weapon. Melee."
+    },
+    {
+      "id": "leather_jacket",
+      "name": "Leather Jacket",
+      "type": "asset",
+      "level": 0,
+      "cost": 0,
+      "text": "Leather Jacket takes +1 additional damage before you.",
+      "icons": {},
+      "slot": "body",
+      "health": 3,
+      "keywords": "Item. Armor."
+    },
+    {
+      "id": "thermos",
+      "name": "Thermos",
+      "type": "asset",
+      "level": 0,
+      "cost": 1,
+      "text": "Heal 1 horror from an investigator at your location.",
+      "icons": {},
+      "keywords": "Item."
+    },
+    {
+      "id": "emergency_caches",
+      "name": "Emergency Caches",
+      "type": "asset",
+      "level": 0,
+      "cost": 2,
+      "text": "Gain 2 resources.",
+      "icons": {},
+      "keywords": "Item. Supply."
+    },
+    {
+      "id": "take_heart",
+      "name": "Take Heart",
+      "type": "event",
+      "level": 0,
+      "cost": 0,
+      "text": "Fast. Play after you fail a skill test. Gain 2 resources.",
+      "icons": {},
+      "keywords": "Event."
+    }
+  ]
+}

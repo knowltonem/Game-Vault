@@ -67,6 +67,33 @@ class Card:
     uses: Optional[int] = None
     uses_type: str = ""  # charges, ammo, supplies
     keywords: List[str] = field(default_factory=list)
+    ability_text: str = ""
+
+    # Additional attributes for compatibility with game.py
+    fight: int = 0
+    evade: int = 0
+    damage: int = 0
+    horror: int = 0
+    victory: int = 0
+    quantity: int = 1  # For deck building
+
+    # Icons as individual attributes for compatibility
+    willpower: int = 0
+    intellect: int = 0
+    combat: int = 0
+    agility: int = 0
+    wild: int = 0
+
+    def __post_init__(self):
+        # Sync individual icon attributes with Icons object
+        if self.willpower or self.intellect or self.combat or self.agility or self.wild:
+            self.icons = Icons(
+                willpower=self.willpower,
+                intellect=self.intellect,
+                combat=self.combat,
+                agility=self.agility,
+                wild=self.wild
+            )
 
     def is_asset(self) -> bool:
         return self.type == CardType.ASSET
@@ -85,6 +112,22 @@ class Card:
             self.uses -= 1
             return True
         return False
+
+    @staticmethod
+    def _type(type_str: str) -> 'CardType':
+        """Convert a string to CardType enum."""
+        type_map = {
+            "investigator": CardType.INVESTIGATOR,
+            "asset": CardType.ASSET,
+            "event": CardType.EVENT,
+            "skill": CardType.SKILL,
+            "treachery": CardType.TREACHERY,
+            "enemy": CardType.ENEMY,
+            "act": CardType.ACT,
+            "agenda": CardType.AGENDA,
+            "location": CardType.LOCATION
+        }
+        return type_map.get(type_str.lower(), CardType.ASSET)
 
 
 @dataclass
@@ -118,6 +161,11 @@ class Enemy(Card):
 
     def disengage(self):
         self.engaged_with = None
+
+    def attack(self, investigator: 'Investigator'):
+        """Attack an investigator."""
+        investigator.take_damage(self.damage, source=self.name)
+        investigator.take_horror(self.horror, source=self.name)
 
 
 @dataclass
@@ -154,6 +202,7 @@ class Agenda(Card):
 class Act(Card):
     clue_threshold: int = 0
     clues_spent: int = 0
+    clues_needed: int = 0  # Added for compatibility with game.py
 
     def spend_clues(self, amount: int) -> bool:
         if self.clues_spent + amount >= self.clue_threshold:
@@ -166,13 +215,13 @@ class Act(Card):
 class Investigator:
     id: str
     name: str
-    subtitle: str
-    card_class: str
-    traits: List[str]
-    stats: Dict[str, int]  # willpower, intellect, combat, agility
-    health: int
-    sanity: int
-    deck_size: int
+    subtitle: str = ""
+    card_class: str = "neutral"
+    traits: List[str] = field(default_factory=list)
+    stats: Dict[str, int] = field(default_factory=dict)  # willpower, intellect, combat, agility
+    health: int = 0
+    sanity: int = 0
+    deck_size: int = 0
     ability_text: str = ""
     ability_trigger: str = ""  # start_of_mythos, once_per_round, etc.
     elder_sign_text: str = ""
@@ -180,13 +229,21 @@ class Investigator:
     auto_fail_text: str = ""
     cultist_text: str = ""
 
+    # Additional stats for compatibility
+    willpower: int = 0
+    intellect: int = 0
+    combat: int = 0
+    agility: int = 0
+    health_max: int = 0
+    sanity_max: int = 0
+
     # Game state
     current_health: int = 0
     current_sanity: int = 0
     resources: int = 0
     actions: int = 3
     hand: List[Card] = field(default_factory=list)
-    deck: List[Card] = field(default_factory=list)
+    deck: 'Deck' = None
     discard: List[Card] = field(default_factory=list)
     play_area: List[Card] = field(default_factory=list)
     engaged_enemies: List[Enemy] = field(default_factory=list)
@@ -196,13 +253,15 @@ class Investigator:
     clues: int = 0
     trauma_damage: int = 0
     trauma_horror: int = 0
+    victory_points: int = 0
 
     # Slot tracking
     slots: Dict[Slot, Optional[Card]] = field(default_factory=dict)
+    asset_slots: Dict[str, Optional[Card]] = field(default_factory=dict)
 
     # Signature cards
-    signatures: List[str] = field(default_factory=list)
-    set_aside: List[str] = field(default_factory=list)
+    signatures: List[Card] = field(default_factory=list)
+    set_aside: List[Card] = field(default_factory=list)
 
     # Ability tracking
     ability_used_this_round: bool = False
@@ -213,9 +272,16 @@ class Investigator:
             self.current_health = self.health
         if self.current_sanity == 0:
             self.current_sanity = self.sanity
+        if self.health_max == 0:
+            self.health_max = self.health
+        if self.sanity_max == 0:
+            self.sanity_max = self.sanity
         # Initialize slots
         if not self.slots:
             self.slots = {slot: None for slot in Slot}
+        # Initialize asset slots
+        if not self.asset_slots:
+            self.asset_slots = {"hand": None, "arcane": None, "accessory": None, "body": None, "ally": None}
 
     def get_stat(self, skill: str) -> int:
         base = self.stats.get(skill, 0)
@@ -311,3 +377,91 @@ class Investigator:
 
     def get_assets_in_slot(self, slot: Slot) -> List[Card]:
         return [c for c in self.play_area if c.slot == slot]
+
+
+class Deck:
+    """A deck of cards."""
+    def __init__(self, name: str = "", cards: List[Card] = None):
+        self.name = name
+        self.cards = cards if cards else []
+        self.original_cards = list(self.cards)
+        self.shuffle()
+
+    def shuffle(self):
+        """Shuffle the deck."""
+        self.cards = list(self.original_cards)
+        random.shuffle(self.cards)
+
+    def draw(self) -> Optional[Card]:
+        """Draw a card from the deck."""
+        if not self.cards:
+            if self.original_cards:
+                self.cards = list(self.original_cards)
+                random.shuffle(self.cards)
+            else:
+                return None
+        return self.cards.pop(0)
+
+    def add_card(self, card: Card):
+        """Add a card to the deck."""
+        self.cards.append(card)
+        self.original_cards.append(card)
+
+    def remove_card(self, card: Card):
+        """Remove a card from the deck."""
+        if card in self.cards:
+            self.cards.remove(card)
+        if card in self.original_cards:
+            self.original_cards.remove(card)
+
+    def get_size(self) -> int:
+        """Get the current size of the deck."""
+        return len(self.cards)
+
+    def is_empty(self) -> bool:
+        """Check if the deck is empty."""
+        return len(self.cards) == 0
+
+
+class Action:
+    """Base class for actions."""
+    def execute(self, investigator: 'Investigator', game_state: 'GameState'):
+        pass
+
+
+class GameState:
+    """Represents the current state of the game."""
+    def __init__(self):
+        self.investigators: List[Investigator] = []
+        self.enemies: List[Enemy] = []
+        self.locations: List[Location] = []
+        self.agendas: List[Agenda] = []
+        self.acts: List[Act] = []
+        self.current_agenda: Optional[Agenda] = None
+        self.current_act: Optional[Act] = None
+        self.current_location: Optional[Location] = None
+        self.encounter_deck: Optional[Deck] = None
+        self.victory_display: List[Card] = []
+        self.chaos_bag = None
+        self.ai_player = None
+        self.phase: str = ""
+        self.round: int = 0
+        self.clues_gathered: int = 0
+        self.scenario_name: str = ""
+        self.scenario_id: str = ""
+        self.action_log: List[str] = []
+
+    def add_investigator(self, investigator: Investigator):
+        """Add an investigator to the game."""
+        self.investigators.append(investigator)
+
+    def get_investigator(self, investigator_id: str) -> Optional[Investigator]:
+        """Get an investigator by ID."""
+        for inv in self.investigators:
+            if inv.id == investigator_id:
+                return inv
+        return None
+
+    def get_all_investigators(self) -> List[Investigator]:
+        """Get all investigators."""
+        return self.investigators
