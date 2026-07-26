@@ -117,7 +117,7 @@ He found too many dark things in Dunwich. He fought his way back to Arkham, but 
 | 028-029 | Old Soldier ×2 | Skill | — | Innate. | No rules text. | "The last man standing." |
 | 030-031 | Iron Will ×2 | Skill | — | Innate. | If this skill test fails, draw 2 cards. | "Whatever doesn't kill him makes him cold." |
 | 032-033 | Swift Shadows ×2 | Skill | — | Innate. | If this skill test is successful while evading: After evading the enemy, move to a connected location. | "He doesn't run. He relocates." |
-| 034-035 | Hunt Them Down ×2 | Event | 1 | Tactic. | Search the encounter deck and discard pile for an enemy and spawn it at your location. Fight that enemy. You get +2 COM for this attack. | "He has never lost a target." |
+| 034-035 | Hunt Them Down ×2 | Event | 1 | Tactic. | Search the encounter deck and discard pile for an enemy and spawn it at your location. Fight that enemy. You get +2 COM for this attack. Shuffle your deck and discard pile together. | "He has never lost a target." |
 
 ---
 
@@ -174,5 +174,5 @@ He found too many dark things in Dunwich. He fought his way back to Arkham, but 
 | Old Soldier | Skill, innate, no rules text |
 | Iron Will | Skill, innate, fail: draw 2 cards |
 | Swift Shadows | Skill, innate, evade success: move to connected location |
-| Hunt Them Down | Cost 1, search encounter for enemy, spawn + fight, +2 COM |
+| Hunt Them Down | Cost 1, search encounter for enemy, spawn + fight +2 COM, shuffle own deck+discard |
 | 035 | Needs Strange Eons build |
