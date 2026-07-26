@@ -289,12 +289,13 @@ class Game:
         self.game_state.phase = "setup"
         self.game_state.round = 0
 
-        # Draw initial hands (5 cards)
+        # Draw initial hands (5 cards) and gain 5 resources
         for inv in self.game_state.investigators:
             for _ in range(5):
                 card = inv.deck.draw()
                 if card:
                     inv.hand.append(card)
+            inv.resources = 5  # Starting resources
 
         self._log("=== GAME SETUP ===")
         self._log(f"Scenario: {self.game_state.scenario_name}")
@@ -345,22 +346,43 @@ class Game:
             self.game_over_reason = "All investigators defeated"
             return
 
-        # Check if agenda advanced to end
-        if self.game_state.current_agenda:
+        # Check agenda advancement
+        if self.game_state.current_agenda and self.game_state.current_agenda.should_advance():
             agenda_index = self.game_state.agendas.index(self.game_state.current_agenda)
-            if agenda_index >= len(self.game_state.agendas) - 1:
-                # Last agenda, game continues until victory or defeat
-                pass
+            # Deal damage/horror when agenda advances
+            for inv in self.game_state.investigators:
+                if not inv.is_defeated():
+                    inv.take_damage(1, source="Agenda advance")
+                    if agenda_index >= 1:
+                        inv.take_horror(1, source="Agenda advance")
 
-        # Check for victory (agenda 3b advanced)
-        # Simplified: check if we've completed enough of the scenario
-        victory_points = sum(
-            inv.victory_points for inv in self.game_state.investigators
-        )
-        if victory_points >= 10:
-            self.game_over = True
-            self.game_over_reason = "Victory achieved!"
-            return
+            # Advance to next agenda
+            if agenda_index < len(self.game_state.agendas) - 1:
+                self.game_state.current_agenda = self.game_state.agendas[agenda_index + 1]
+            else:
+                # Last agenda advanced = defeat (agenda out of time)
+                self.game_over = True
+                self.game_over_reason = "The agenda has run out of time!"
+                return
+
+        # Check act advancement based on clues
+        if self.game_state.current_act:
+            clues_needed = self.game_state.current_act.clues_needed
+            if clues_needed > 0 and self.game_state.clues_gathered >= clues_needed:
+                act_index = self.game_state.acts.index(self.game_state.current_act)
+                # Advance to next act
+                if act_index < len(self.game_state.acts) - 1:
+                    self.game_state.current_act = self.game_state.acts[act_index + 1]
+                    # Reset clue count for next act
+                    self.game_state.clues_gathered = 0
+                else:
+                    # Last act completed = victory!
+                    self.game_over = True
+                    self.game_over_reason = "All acts completed — victory!"
+                    for inv in self.game_state.investigators:
+                        if not inv.is_defeated():
+                            inv.victory_points += 5
+                    return
 
     def _create_result(self) -> GameResult:
         """Create the final game result."""
@@ -384,8 +406,8 @@ class Game:
             investigators_defeated=defeated,
             agenda_advanced=len(self.game_state.agendas) - 1,
             act_progress=self.game_state.acts.index(self.game_state.current_act) if self.game_state.current_act else 0,
-            damage_taken=sum(inv.trauma_damage for inv in self.game_state.investigators),
-            horror_taken=sum(inv.trauma_horror for inv in self.game_state.investigators),
+            damage_taken=sum(inv.health - inv.current_health for inv in self.game_state.investigators),
+            horror_taken=sum(inv.sanity - inv.current_sanity for inv in self.game_state.investigators),
             log_path=str(log_path)
         )
 

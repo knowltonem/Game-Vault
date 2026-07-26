@@ -285,6 +285,9 @@ class Investigator:
 
     def get_stat(self, skill: str) -> int:
         base = self.stats.get(skill, 0)
+        # Also check individual attributes set directly
+        if base == 0:
+            base = getattr(self, skill, 0)
         # Add bonuses from assets in play
         for card in self.play_area:
             if card.is_asset():
