@@ -299,16 +299,10 @@ class Investigator:
         return base
 
     def draw_card(self) -> Optional[Card]:
-        if not self.deck:
-            # Shuffle discard into deck
-            if self.discard:
-                self.deck = self.discard.copy()
-                self.discard.clear()
-                random.shuffle(self.deck)
-            else:
-                return None
-        if self.deck:
-            card = self.deck.pop(0)
+        if self.deck is None:
+            return None
+        card = self.deck.draw()
+        if card:
             self.hand.append(card)
             return card
         return None

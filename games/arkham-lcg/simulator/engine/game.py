@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass, field
 from typing import List, Optional, Dict, Any
 from pathlib import Path
-from .models import Investigator, Enemy, Location, Agenda, Act, Card, GameState, Deck
+from .models import Investigator, Enemy, Location, Agenda, Act, Card, GameState, Deck, CardType
 from .chaos_bag import ChaosBag
 from .phases import MythosPhase, InvestigationPhase, EnemyPhase, UpkeepPhase
 from .combat import CombatResolver
@@ -77,6 +77,7 @@ class Game:
             agenda = Agenda(
                 id=agenda_data["id"],
                 name=agenda_data["name"],
+                type=CardType.AGENDA,
                 text=agenda_data.get("text", ""),
                 doom_threshold=agenda_data.get("doom_threshold", 8),
                 victory=agenda_data.get("victory", 0)
@@ -90,9 +91,10 @@ class Game:
             act = Act(
                 id=act_data["id"],
                 name=act_data["name"],
+                type=CardType.ACT,
                 text=act_data.get("text", ""),
                 victory=act_data.get("victory", 0),
-                cost=act_data.get("cost", 0)
+                clues_needed=act_data.get("clues_needed", 0)
             )
             self.game_state.acts.append(act)
         if self.game_state.acts:
@@ -103,6 +105,7 @@ class Game:
             location = Location(
                 id=loc_data["id"],
                 name=loc_data["name"],
+                type=CardType.LOCATION,
                 shroud=loc_data.get("shroud", 2),
                 clues=loc_data.get("clues", 0),
                 connections=loc_data.get("connections", [])
@@ -252,12 +255,14 @@ class Game:
         investigator = Investigator(
             id=inv_id,
             name=data["name"],
-            title=data.get("title", ""),
-            class_name=data.get("class", "neutral"),
+            subtitle=data.get("title", ""),
+            card_class=data.get("class", "neutral"),
             willpower=data["stats"]["willpower"],
             intellect=data["stats"]["intellect"],
             combat=data["stats"]["combat"],
             agility=data["stats"]["agility"],
+            health=data["stats"]["health"],
+            sanity=data["stats"]["sanity"],
             health_max=data["stats"]["health"],
             sanity_max=data["stats"]["sanity"],
             ability_trigger=data.get("ability", {}).get("trigger", ""),
@@ -379,8 +384,8 @@ class Game:
             investigators_defeated=defeated,
             agenda_advanced=len(self.game_state.agendas) - 1,
             act_progress=self.game_state.acts.index(self.game_state.current_act) if self.game_state.current_act else 0,
-            damage_taken=sum(inv.damage for inv in self.game_state.investigators),
-            horror_taken=sum(inv.horror for inv in self.game_state.investigators),
+            damage_taken=sum(inv.trauma_damage for inv in self.game_state.investigators),
+            horror_taken=sum(inv.trauma_horror for inv in self.game_state.investigators),
             log_path=str(log_path)
         )
 
