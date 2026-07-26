@@ -64,8 +64,6 @@ Abel Redcloud deck only. Unique.
 
 [rea] If you succeed by 2 or more: This attack deals +3 damage instead.
 
-[fre] After you defeat an enemy with The Sacred Spear: Add 1 <bls> token to the chaos bag. (Limit once per round.)
-
 ### Flavor
 *"It has tasted the blood of things older than memory. It remembers them all."*
 
@@ -250,7 +248,7 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 | Sacred Bond | +3 INT, 3/3 soak, fades 1 dmg+1 hor per round |
 | Sacred Wind | +1 all stats, 3/3 soak, fades 1 dmg+1 hor per round |
 | Sacred Strength | +2 COM, heal 1 horror per kill, 3/3 soak, fades 1 dmg+1 hor per round |
-| Sacred Spear | Hand x1, +2 COM, +2 dmg, +3 dmg on succeed by 2, 1 bless per round limit |
+| Sacred Spear | Hand x1, +2 COM, +2 dmg, +3 dmg on succeed by 2. No bless generation. |
 | Tribal Oath | Mythos Phase horror (not per kill), WIL(4) test to discard |
 | Teeth of the Deep Ones | Accessory, +1 WIL, reduce incoming damage by 1 |
 | Sacred Fire | Arcane, 4 charges, evade using WIL, +1 dmg on success |
