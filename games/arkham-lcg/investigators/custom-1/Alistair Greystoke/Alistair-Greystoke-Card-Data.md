@@ -122,7 +122,7 @@ You may use your <int> instead of <agi> when evading enemies.
 | 007 | The Relic Harvester ×1 | Asset — Ally | 2 | Ally. Monster. Mi-Go. | 2/2 soak. After you successfully investigate and discover 1 or more clues: Gain 1 resource. [act] Exhaust: Search top 5 cards of your deck for an asset and draw it. | "You Spared My life, I shall repay in Kind." |
 | 008 | My Eyes and Ears ×1 | Asset — Ally | 2 | Ally. Creature. Swarm. | 1/3 soak. [rea] After you successfully investigate: Discover 1 additional clue at your location. [for] When defeated: Place 1 doom on the current agenda. | "Check every corner. Under every stone." |
 | 009 | The Summoner's Deck ×1 | Asset — Accessory | 2 | Item. Tome. Relic. Cursed. | You have 1 additional ally slot. May have 2 unique Ally assets in play simultaneously. [rea] After an Ally is defeated: Exhaust — shuffle that Ally into deck instead of discarding. | "Each hellish card played with hope for the future." |
-| 010 | Arkham's Ring ×1 | Asset — Accessory | 1 | Item. Relic. | [act] Exhaust: You get +2 <com> until the end of the round. | "The stone is warm. It listens to me." |
+| 010 | Arkham's Ring ×1 | Asset — Hand | 1 | Item. Relic. | [act] Exhaust Arkham's Ring: You get +2 <com> until the end of the round. | "The stone is warm. It listens to me." |
 | 011-035 | Whispers from the Archive ×2 | Event | 2 | Insight. | Fast. Draw 3 cards. | "Two hundred years of archives. They whisper back now." |
 | 012-013 | Deduction ×2 | Skill | — | Practiced. | If successful while investigating: Discover 1 additional clue at that location. | "I knew I had seen this symbol before." |
 | 014-015 | Perception ×2 | Skill | — | Practiced. | Max 1 per test. If successful: Draw 1 card. | "At last, I've found it!" |
@@ -159,7 +159,7 @@ You may use your <int> instead of <agi> when evading enemies.
 
 | Slot | Card |
 |---|---|
-| Hand 1 | Open |
+| Hand 1 | Arkham's Ring |
 | Hand 2 | Open |
 | Arcane 1 | The Unbroken Codex |
 | Arcane 2 | The Collector's Ledger |
@@ -185,7 +185,7 @@ You may use your <int> instead of <agi> when evading enemies.
 | Relic Harvester | Cost 2, Ally, 2/2 soak, gain 1r per successful investigate, exhaust search top 5 for asset |
 | My Eyes and Ears | Cost 2, Ally, 1/3 soak, +1 clue on successful investigate, defeat: place 1 doom |
 | Summoner's Deck | Cost 2, Accessory, +1 ally slot, 2 unique allies simultaneously, exhaust shuffle defeated ally back |
-| Arkham's Ring | Cost 1, Accessory, exhaust: +2 COM until end of round |
+| Arkham's Ring | Cost 1, Hand, exhaust: +2 COM until end of round |
 | Crack the Case | Cost 0, fast, last clue at location: all investigators gain 1r per shroud |
 | Drawn to the Flame | Cost 0, draw encounter card, discover 2 clues |
 | Mind Over Matter | Cost 0, fast, use INT for COM and AGI until end of round |
