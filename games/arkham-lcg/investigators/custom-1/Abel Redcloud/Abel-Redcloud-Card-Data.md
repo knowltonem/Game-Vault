@@ -156,10 +156,10 @@ After you defeat an enemy: Heal 1 horror or damage.
 
 | # | Card | Subtitle | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|---|
-| 007 | Teeth of the Deep Ones | Taken in Battle | Asset — Accessory | 1 | Item. Relic. Blessed. | +1 WIL. While in play: When you would take damage, reduce by 1 (min 1). | "Each tooth is my legacy" |
+| 007 | Teeth of the Deep Ones | Taken in Battle | Asset — Accessory | 1 | Item. Relic. Blessed. | +1 WIL. While in play: When you would take damage or horror, reduce that damage or horror by 1. | "Each tooth is my legacy" |
 | 008 | Sacred Fire | The Flame Knows | Asset — Arcane | 2 | Item. Weapon. Relic. Ranged. | Uses (4 charges). [act] Spend 1 charge: Evade. Use WIL instead of AGI. If succeed: Deal +1 damage to that enemy. | "Fire Has Its Own Power." |
 | 009 | The Ritual Knife | First Blood | Asset — Hand | 1 | Item. Weapon. Relic. Blessed. | [act] Fight. +1 COM. +1 damage. Free — After defeat: Heal 1 horror from Abel. | "The first cut is a prayer. The last cut is a promise." |
-| 010-011 | Spirit Coyote ×2 | He Guides Me | Asset — Ally | 3 | Ally. Spirit. Creature. | +1 COM. 3/1 soak. [rea] When enemy attack deals damage: Exhaust — deal 1 damage to attacking enemy. | "My Eyes" |
+| 010-011 | Spirit Coyote ×2 | He Guides Me | Asset — Ally | 2 | Ally. Spirit. Creature. | +1 COM. 3/1 soak. [rea] When enemy attack deals damage: Exhaust — deal 1 damage to attacking enemy. | "My Eyes" |
 | 012-013 | Sweat Lodge ×2 | Vision of the Ancestors | Asset — Arcane | 2 | Item. Relic. Blessed. | Uses (4 charges). [act] Spend 1 charge: Choose investigator at your location. That investigator heals 1 horror or damage. | "Breathe It In" |
 | 014 | Bear Pelt | The Spirit Remains | Asset — Body | 1 | Item. Relic. Blessed. | 3/— soak. +1 WIL. [rea] After you take damage from enemy attack: Draw 1 card. | "The bear did not give this willingly. Nothing worth having ever does." |
 | 015-016 | Noble Sacrifice ×2 | It Is My Time | Event | 1 | Tactic. Spirit. | Fast. Play when another investigator at your location would draw an encounter card. That investigator does not draw that card. Instead, you draw it and resolve its effects. You get +2 to each of your skills for any skill tests you make as a result of this card's effects. | "This is not your burden to carry. It is mine." |
@@ -226,10 +226,10 @@ After you defeat an enemy: Heal 1 horror or damage.
 | Sacred Strength | +2 COM, heal 1 horror or damage per kill, 3/3 soak, fades 1 dmg+1 hor per round |
 | Sacred Spear | Hand, cost 0, +2 COM, +2 dmg, +3 dmg on succeed by 2. No bless. |
 | Tribal Oath | Mythos Phase horror, spend 3r to discard |
-| Teeth of the Deep Ones | Accessory, cost 1, +1 WIL, -1 incoming damage |
+| Teeth of the Deep Ones | Accessory, cost 1, +1 WIL, reduce incoming damage or horror by 1 |
 | Sacred Fire | Arcane, cost 2, 4 charges, evade using WIL, +1 dmg on success |
 | Ritual Knife | Hand, cost 1, +1 COM, +1 dmg, heal 1 horror per kill |
-| Spirit Coyote | Ally, cost 3, +1 COM, 3/1 soak, retaliate 1 dmg on hit |
+| Spirit Coyote | Ally, cost 2, +1 COM, 3/1 soak, retaliate 1 dmg on hit |
 | Sweat Lodge | Arcane, cost 2, 4 charges, heal any investigator 1 dmg or horror |
 | Bear Pelt | Body, cost 1, 3/— soak, +1 WIL, draw 1 card when taking damage |
 | Noble Sacrifice | Cost 1, fast, absorb ally's encounter card, +2 all skills for tests from it |
