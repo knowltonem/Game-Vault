@@ -194,10 +194,10 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 | 020 | Fire Walker x1 | Event | Guardian | 1 | — | wil/wil | Fast. Move Abel Redcloud to any location on the board. You must move to a location with at least 1 clue or 1 enemy. Enemies do not make attacks of opportunity this round. |
 | 021-022 | Back to the Dark x2 | Event | Guardian | 2 | — | wil/com | Fast. Cancel an encounter card just drawn and discard it. |
 | 023-024 | Rain Dance x2 | Event | Guardian | 0 | — | wil/wil | Fast. When you would discover 1 clue at your location: Discover 2 clues instead. |
-| 025-026 | Elder Strength x2 | Skill | Guardian | — | — | wil/wil/wil | TBD |
-| 027-028 | Chieftain Wisdom x2 | Skill | Guardian | — | — | TBD | TBD |
+| 025-026 | Elder Strength x2 | Skill | Guardian | — | — | wil/wil/wil | Max 1 per test. If successful: Draw 1 card. |
+| 027-028 | Chieftain Wisdom x2 | Skill | Guardian | — | — | wil/wil | Max 1 per test. If successful: Draw 1 card. |
 | 029-030 | Vicious Blow x2 | Skill | Guardian | — | — | com | If successful while fighting: Deal +1 damage. |
-| 031-032 | Awaken the Spirits x2 | Skill | Survivor | — | — | wil/wil/wil | TBD |
+| 031-032 | Awaken the Spirits x2 | Skill | Survivor | — | — | wil/wil/wil | Max 1 per test. Commit only if skill < difficulty. |
 | 033-034 | Unexpected Courage x2 | Skill | Neutral | — | — | wld/wld | No rules text. |
 
 ---
