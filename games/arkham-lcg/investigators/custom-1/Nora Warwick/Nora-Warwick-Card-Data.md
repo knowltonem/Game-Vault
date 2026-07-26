@@ -112,7 +112,7 @@ Once per round: Spend 1 resource to add 1 bless token to the chaos bag.
 | Field | Value |
 |---|---|
 | **Subtitle** | What Wears the Face of Gods |
-| **Cost** | 4 |
+| **Cost** | 2 |
 | **Traits** | Ally. Monster. |
 | **HP Soak** | 2 |
 | **SAN Soak** | 3 |
@@ -292,7 +292,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | Family Debt | Half doom threshold (min 3r) or take damage/horror, 5r to discard |
 | Ra-Night-Gaunt | Cost 0, +1 COM, 3/1 soak, deal 1 dmg to all enemies on defeat |
 | Call of Anubis | Cost 3, +1 WIL, 1/4 soak, absorbs 1 from 2+ dmg/hor hits |
-| The Horus Heresy | Cost 4, +1 INT +1 AGI, 2/3 soak, heals 1 hor per clue discovered |
+| The Horus Heresy | Cost 2, +1 INT +1 AGI, 2/3 soak, heals 1 hor per clue discovered |
 | The Kopis | Cost 2, +1 COM, +1 dmg, gain 2r on kill |
 | The Khopesh | Cost 2, +1 COM, +1 dmg, gain 1r + draw 1 on kill |
 | The Sekhem Sceptre | Cost 2, +1 COM, +1 dmg, cancel next horror this round, **Arcane slot** |
