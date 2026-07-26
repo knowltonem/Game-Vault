@@ -231,26 +231,28 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 
 ---
 
-## Deck (27 Cards — 012-039)
+## Deck (28 Cards — 007-036, excl. Sand Veil 019-020)
 
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 012 | Isfet's Fury | Event | 3 | Improvised. Relic. Cursed. | Choose a location. Deal 2 damage to each enemy at that location. Each investigator at that location takes 1 damage. Add 1 bless token to the chaos bag. | — |
+| 007 | The Kopis | Asset — Hand | 2 | Item. Weapon. Melee. Relic. | [act] Fight. +1 COM. +1 dmg. [fre] After defeat: Gain 2r. | "Found it on a dig, it whispers to me." |
+| 008 | The Khopesh | Asset — Hand | 2 | Item. Weapon. Melee. Relic. | [act] Fight. +1 COM. +1 dmg. [fre] After defeat: Gain 1r + draw 1 card. | "The blade remembers them all." |
+| 009 | The Sekhem Sceptre | Asset — Arcane | 2 | Item. Weapon. Relic. | [act] Fight. +1 COM. +1 dmg. After attack: Cancel next horror this round. | "Power is not always measured in wounds." |
+| 010 | The Book of the Dead | Asset — Arcane | 0 | Item. Tome. Relic. Blessed. | +1 INT. 2 SAN soak. [fre] After succeed investigate: Re-investigate free. [fre] On enter play: Search deck for Insight or Relic, draw it. | "With this knowledge, I can see the unseen." |
+| 011 | The Collar of Sekhmet | Asset — Body | 2 | Item. Relic. Blessed. | +1 COM. 1/1 soak. [rea] When defeated: Shuffle back into deck instead. | "The curator said it was decorative. He had never worn it into the dark." |
+| 012 | Isfet's Fury | Event | 3 | Improvised. Relic. Cursed. | Choose a location. Deal 2 dmg to each enemy there. Each investigator there takes 1 dmg. Add 1 bless token. | — |
 | 013-014 | Grave Robber ×2 | Event | 0 | Supply. | Gain 3 resources. | "The museum will pay handsomely." |
 | 015-016 | Anti-Chamber ×2 | Event | 0 | Insight. | Fast. Move to a connecting location. | — |
 | 017-018 | The Pact of Kha ×2 | Event | 0 | Augury. | Gain 4 resources. Add 2 curse tokens to the chaos bag. | — |
-| 019-020 | Sand Veil ×2 | Event | 2 | — | Fast. Disengage from all enemies engaged with you. Move to any connecting location. | — |
+| ~~019-020~~ | ~~Sand Veil ×2~~ | ~~REMOVED~~ | — | — | Replaced by Warwick Collection evade | — |
 | 021-022 | Ancient Intuition ×2 | Event | 2 | Insight. | Fast. Discover 1 clue at your location. | — |
-| 023-024 | Oxford Studies ×2 | Skill | — | Practiced. | If this skill test is successful while investigating, discover 1 additional clue at your location. | "She sees what others miss. I did my Homework." |
-| 025-026 | Ra's Wrath ×2 | Event | 2 | — | Fight. You get +1 <com> for this attack. If this attack succeeds, deal 1 damage and evade the enemy. | "His vengeance runs deep." |
-| 027-028 | Sobek's Gift ×2 | Event | 0 | Blessed. | Fast. Play during any player's turn. Each investigator draws 1 card. | "Sobek Is Generous" |
+| 023-024 | Oxford Studies ×2 | Skill | — | Practiced. | Succeed while investigating: Discover 1 additional clue. | "She sees what others miss." |
+| 025-026 | Ra's Wrath ×2 | Event | 2 | — | Fight. +1 COM. If succeed: Deal 1 dmg and evade. | "His vengeance runs deep." |
+| 027-028 | Sobek's Gift ×2 | Event | 0 | Blessed. | Fast. Each investigator draws 1 card. | "Sobek Is Generous" |
 | 029-030 | Pharaoh's Chariot ×2 | Skill | — | — | AGI icons. No rules text. | "Speed can often make up the difference." |
-| 031-032 | The Oxford Gambit ×2 | Skill | — | — | Commit only to an evasion test. This test gains +2 <agi>. If this test is successful, you may move to a connecting location. | "A gambit is not a retreat. It is a better position." |
-| 033-034 | Power of Thebes ×2 | Skill | — | Innate. | Commit only to a fight or evasion test. | "Oxford taught her to think. Thebes taught her to move." |
-| 035-036 | Nile's Blessing ×2 | Event | 1 | Insight. | Choose an investigator at your location. That investigator heals 2 horror and may discard a Terror card from their hand. | "Let the Water of the Nile Heal You" |
-| 037 | The Canopic Wrappings | Asset | 0 | Item. Relic. | Attach to an Ally you control. That ally gains +2 HP while that ally is in play. | "The jars remember their purpose. So do the wrappings." |
-| 038 | The Scarab Amulet | Asset | — | Item. Relic. | Attach to an Ally you control. That ally gains +2 SAN while that ally is in play. | "It was warm when she picked it up. The tomb had been sealed for three thousand years." |
-| 039 | The Eye Amulet | Asset | — | Item. Relic. | Attach to an Ally you control. That ally gains +2 HP or +2 SAN (your choice) while that ally is in play. | "Horus lost his eye in battle and found it again. What it sees now is different." |
+| 031-032 | The Oxford Gambit ×2 | Skill | — | — | Commit to evasion only. +2 AGI. Succeed: Move to connecting location. | "A gambit is not a retreat. It is a better position." |
+| 033-034 | Power of Thebes ×2 | Skill | — | Innate. | Commit to fight or evasion only. | "Oxford taught her to think. Thebes taught her to move." |
+| 035-036 | Nile's Blessing ×2 | Event | 1 | Insight. | Choose investigator at your location: Heal 2 horror, may discard Terror card. | "Let the Water of the Nile Heal You" |
 
 ---
 
@@ -272,12 +274,15 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | **Pack Code** | RYP-NW |
 | **Total Cards** | 039 |
 | **Investigator** | 001 Nora Warwick |
-| **Signature Asset** | 002 The Warwick Collection |
-| **Signature Weakness** | 003 The Family Debt |
-| **Allies** | 004 Ra-Night-Gaunt, 005 Call of Anubis, 006 The Horus Heresy |
-| **Weapons** | 007 The Kopis, 008 The Khopesh, 009 The Sekhem Sceptre |
-| **Other Assets** | 010 The Book of the Dead, 011 The Collar of Sekhmet |
-| **Deck** | 012-039 (28 cards) |
+| **Signature Asset** | 002 The Warwick Collection (starts in play) |
+| **Signature Weakness** | 003 The Family Debt (shuffled in) |
+| **Signature Ally 1** | 004 Ra-Night-Gaunt (shuffled in) |
+| **Signature Ally 2** | 005 Call of Anubis (shuffled in) |
+| **Signature Ally 3** | 006 The Horus Heresy (shuffled in) |
+| **Signature Attachment 1** | 037 The Canopic Wrappings (shuffled in) |
+| **Signature Attachment 2** | 038 The Scarab Amulet (shuffled in) |
+| **Signature Attachment 3** | 039 The Eye Amulet (shuffled in) |
+| **Deck** | 007-036 minus Sand Veil ×2 (28 cards) |
 
 ---
 
