@@ -114,7 +114,7 @@ You may use your <int> instead of <agi> when evading enemies.
 
 ---
 
-## Deck (006-034 = 29 cards — ⚠️ confirm deck size)
+## Deck (006-035 = 30 cards ✅)
 
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
@@ -123,7 +123,7 @@ You may use your <int> instead of <agi> when evading enemies.
 | 008 | My Eyes and Ears ×1 | Asset — Ally | 2 | Ally. Creature. Swarm. | 1/3 soak. [rea] After you successfully investigate: Discover 1 additional clue at your location. [for] When defeated: Place 1 doom on the current agenda. | "Check every corner. Under every stone." |
 | 009 | The Summoner's Deck ×1 | Asset — Accessory | 2 | Item. Tome. Relic. Cursed. | You have 1 additional ally slot. May have 2 unique Ally assets in play simultaneously. [rea] After an Ally is defeated: Exhaust — shuffle that Ally into deck instead of discarding. | "Each hellish card played with hope for the future." |
 | 010 | Arkham's Ring ×1 | Asset — Accessory | 1 | Item. Relic. | [act] Exhaust: You get +2 <com> until the end of the round. | "The stone is warm. It listens to me." |
-| 011 | Whispers from the Archive ×1 | Event | 2 | Insight. | Fast. Draw 3 cards. | "Two hundred years of archives. They whisper back now." |
+| 011-035 | Whispers from the Archive ×2 | Event | 2 | Insight. | Fast. Draw 3 cards. | "Two hundred years of archives. They whisper back now." |
 | 012-013 | Deduction ×2 | Skill | — | Practiced. | If successful while investigating: Discover 1 additional clue at that location. | "I knew I had seen this symbol before." |
 | 014-015 | Perception ×2 | Skill | — | Practiced. | Max 1 per test. If successful: Draw 1 card. | "At last, I've found it!" |
 | 016-017 | Crack the Case ×2 | Event | 0 | Insight. | Fast. Play after investigator discovers last clue at your location. Each investigator at your location gains 1 resource per point of that location's shroud value. | "The truth always has a price. Fortunately, so does silence." |
@@ -145,13 +145,13 @@ You may use your <int> instead of <agi> when evading enemies.
 |---|---|
 | **Pack Name** | Alistair Greystoke Investigator Pack |
 | **Pack Code** | RYP-AG |
-| **Total Cards** | 034 |
+| **Total Cards** | 035 |
 | **Investigator** | 001 Alistair Greystoke |
 | **Signature Asset 1** | 002 Wisdom of Antiquity (shuffled in) |
 | **Signature Asset 2** | 003 The Unbroken Codex (shuffled in) |
 | **Signature Asset 3** | 004 The Collector's Ledger (shuffled in) |
 | **Signature Weakness** | 005 My Glass is Nearly Run (shuffled in) |
-| **Deck** | 006-034 (29 cards — ⚠️ confirm) |
+| **Deck** | 006-035 (30 cards) |
 
 ---
 
@@ -197,6 +197,7 @@ You may use your <int> instead of <agi> when evading enemies.
 
 | Item | Issue |
 |---|---|
-| 001 PNGs | Missing Front and Back — needs regen in Strange Eons |
-| Deck size | 006-034 = 29 cards. Standard is 30. Need 1 more card or confirm 29. |
+| 001 PNGs | ✅ Done |
+| Deck size | ✅ 30 cards (006-035) |
 | Art 004 | My Glass is Nearly Run — art not yet generated |
+| 035 | Needs Strange Eons build |
