@@ -118,7 +118,7 @@ You may use your <int> instead of <agi> when evading enemies.
 
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 006 | The Ancient Binding ×1 | Asset — Ally | 3 | Ally. Monster. Dimensional. | 3/3 soak. [rea] After you would be dealt damage or horror: Exhaust — prevent 1 of that damage or horror. [for] When defeated: Take 1 horror and shuffle back into deck. | "It does not protect me out of loyalty. It protects me because the cosmos demands I survive." |
+| 006 | The Ancient Binding ×1 | Asset — Body | 3 | Ally. Monster. Dimensional. | 3/3 soak. [for] When The Ancient Binding is defeated: Return it to your deck. Shuffle your deck. | "It does not protect me out of loyalty. It protects me because the cosmos demands I survive." |
 | 007 | The Relic Harvester ×1 | Asset — Ally | 2 | Ally. Monster. Mi-Go. | 2/2 soak. After you successfully investigate and discover 1 or more clues: Gain 1 resource. [act] Exhaust: Search top 5 cards of your deck for an asset and draw it. | "You Spared My life, I shall repay in Kind." |
 | 008 | My Eyes and Ears ×1 | Asset — Ally | 2 | Ally. Creature. Swarm. | 1/3 soak. [rea] After you successfully investigate: Discover 1 additional clue at your location. [for] When defeated: Place 1 doom on the current agenda. | "Check every corner. Under every stone." |
 | 009 | The Summoner's Deck ×1 | Asset — Accessory | 2 | Item. Tome. Relic. Cursed. | You have 1 additional ally slot. May have 2 unique Ally assets in play simultaneously. [rea] After an Ally is defeated: Exhaust — shuffle that Ally into deck instead of discarding. | "Each hellish card played with hope for the future." |
@@ -164,9 +164,9 @@ You may use your <int> instead of <agi> when evading enemies.
 | Arcane 1 | The Unbroken Codex |
 | Arcane 2 | The Collector's Ledger |
 | Accessory | The Summoner's Deck |
-| Body | Open |
-| Ally 1 | The Ancient Binding / The Relic Harvester / My Eyes and Ears |
-| Ally 2 | (via The Summoner's Deck — extra slot) |
+| Body | The Ancient Binding |
+| Ally 1 | The Relic Harvester / My Eyes and Ears |
+| Ally 2 | The Relic Harvester / My Eyes and Ears (via The Summoner's Deck) |
 
 ---
 
@@ -181,7 +181,7 @@ You may use your <int> instead of <agi> when evading enemies.
 | Unbroken Codex | Cost 1, Arcane, 2 SAN soak, INT replaces AGI for evade, exhaust ignore 1 horror |
 | Collector's Ledger | Cost 1, Arcane, 1 SAN soak, gain 2r after drawing from ability |
 | My Glass is Nearly Run | Weakness, take 1 horror per upkeep, spend 3 clues to discard |
-| Ancient Binding | Cost 3, Ally, 3/3 soak, exhaust prevent 1 dmg/hor, defeated: take 1 hor + shuffle back |
+| Ancient Binding | Cost 3, Body, 3/3 soak, defeated: return to deck and shuffle |
 | Relic Harvester | Cost 2, Ally, 2/2 soak, gain 1r per successful investigate, exhaust search top 5 for asset |
 | My Eyes and Ears | Cost 2, Ally, 1/3 soak, +1 clue on successful investigate, defeat: place 1 doom |
 | Summoner's Deck | Cost 2, Accessory, +1 ally slot, 2 unique allies simultaneously, exhaust shuffle defeated ally back |
