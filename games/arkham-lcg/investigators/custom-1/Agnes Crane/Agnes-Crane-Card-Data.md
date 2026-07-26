@@ -124,7 +124,7 @@ Forced — At the start of the Mythos Phase: Take 1 horror.
 | 016 | Narrow Escape ×1 | Event | Survivor | 0 | — | agi/agi/wld | Fast. Fail AGI. +2 AGI. If succeed: disengage all + move. |
 | 017 | Arcane Athame ×1 | Asset | Survivor | 2 | Hand | wil/wil | [action] Fight. +1 WIL. Use WIL instead of COM. +1 damage. |
 | 018-019 | Ward of Protection ×2 | Event | Mystic | 1 | — | wil | Fast. Cancel non-weakness treachery. Take 1 horror. |
-| 020-021 | Drawn to the Flame ×2 | Event | Mystic | 0 | — | wil/wil | Investigate +2 INT. Succeed: +1 clue. Draw encounter card. |
+| 020-021 | Drawn to the Flame ×2 | Event | Mystic | 0 | Insight. | wil/wil | Draw the top card of the encounter deck. Then, gain 2 clues. Take them from any location. |
 | 022-023 | Crack the Case ×2 | Event | Seeker | 0 | — | int/int | Fast. Discover clues at shroud 3+: Gain resources = shroud. |
 | 024-025 | Guts ×2 | Skill | Neutral | — | — | wil/wil | Max 1 per test. If successful: Draw 1 card. |
 | 026-027 | Perception ×2 | Skill | Neutral | — | — | int/int | If successful: Draw 1 card. |

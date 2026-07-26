@@ -58,7 +58,8 @@ arkham-simulator/
 │   ├── agenda.py                ← Agenda/Act deck management
 │   ├── location.py              ← Location management and clue tracking
 │   ├── campaign.py              ← Campaign mode (trauma, XP, progression)
-│   └── effects.py               ← Card effect resolution system
+│   ├── effects.py               ← Card effect resolution system
+│   └── multiplayer.py           ← Multiplayer coordination (2-4 investigators)
 ├── data_import/
 │   ├── __init__.py
 │   ├── arkhamdb.py              ← ArkhamDB API client
@@ -76,6 +77,8 @@ arkham-simulator/
 │   ├── commands.py              ← CLI command implementations
 │   ├── display.py               ← Terminal display formatting
 │   └── game_view.py             ← Game state visualization
+├── logs/                        ← Game simulation logs
+│   └── .gitkeep
 └── tests/
     ├── test_skill_test.py
     ├── test_chaos_bag.py
@@ -538,16 +541,17 @@ class RecommendationEngine:
 ```
 arkham-sim/
 ├── simulate          Run a single game simulation
-│   ├── --investigator, -i    Choose investigator
+│   ├── --investigator, -i    Choose investigator(s), comma-separated for multiplayer
 │   ├── --scenario, -s        Choose scenario (1-3)
 │   ├── --difficulty, -d      Difficulty (easy/standard)
-│   ├── --players, -p         Player count (1-4)
-│   └── --verbose, -v         Show detailed card draws
+│   ├── --players, -p         Player count (1-4, defaults to investigator count)
+│   ├── --verbose, -v         Show detailed card draws
+│   └── --log, -l             Save game log to logs/ directory
 ├── analyze           Analyze a deck
 │   ├── --investigator, -i    Choose investigator
 │   └── --report, -r          Report type (full/quick/probability)
 ├── campaign          Run full campaign simulation
-│   ├── --investigator, -i    Choose investigator
+│   ├── --investigator, -i    Choose investigator(s)
 │   ├── --difficulty, -d      Difficulty
 │   └── --iterations, -n      Number of campaign runs
 ├── compare           Compare investigators
@@ -559,10 +563,13 @@ arkham-sim/
 │   ├── --custom              Import custom investigators
 │   └── --all                 Import everything
 └── deck              Deck builder
-    ├── --investigator, -i    Choose investigator
+    ├── --new, -n             Create new deck for investigator
+    ├── --load, -l            Load existing deck
     ├── --add, -a             Add card to deck
     ├── --remove, -r          Remove card from deck
-    └── --validate            Validate deck legality
+    ├── --validate            Validate deck legality
+    ├── --stats               Show deck statistics
+    └── --export              Export deck to JSON
 ```
 
 ### 5.2 Display Formatting
@@ -643,17 +650,34 @@ Use Rich library for:
 ## Success Criteria
 
 1. **Single Game Simulation**: Run a complete game of Spreading Flames with any custom investigator, showing all card draws, skill tests, and results
-2. **Campaign Mode**: Run all 3 scenarios with trauma/XP progression
-3. **Monte Carlo**: Run 1000 simulations and report win rates
-4. **Deck Analysis**: Full breakdown of deck strengths, weaknesses, and recommendations
-5. **Probability Calculator**: Exact odds for any skill test given chaos bag composition
-6. **All 9 Investigators**: Each one playable and balanced against Chapter 2 content
+2. **Multiplayer Simulation**: Run a 2-player game with coordinated actions, shared clue pool, and multiple encounter draws per round
+3. **Campaign Mode**: Run all 3 scenarios with trauma/XP progression across investigators
+4. **Monte Carlo**: Run 1000 simulations and report win rates per investigator and scenario
+5. **Deck Analysis**: Full breakdown of deck strengths, weaknesses, and recommendations
+6. **Probability Calculator**: Exact odds for any skill test given chaos bag composition
+7. **All 9 Investigators**: Each one playable and balanced against Chapter 2 content
+8. **Full Card Text**: All card abilities implemented and resolving correctly
+9. **Game Logs**: Detailed logs saved for every simulation run
+10. **Deck Builder**: Create, modify, validate, and export decks via CLI
 
 ---
 
 ## Open Questions
 
-1. Should the simulator support multiplayer (2-4 investigators) from the start, or single investigator first?
-2. How detailed should card effect resolution be? (Full text parsing vs. simplified keywords)
-3. Should we store game logs for post-game analysis?
-4. Do you want a deck builder CLI as part of this, or separate tool?
+1. ~~Should the simulator support multiplayer (2-4 investigators) from the start, or single investigator first?~~ → **Multiplayer 1-4, primary use is 2-player**
+2. ~~How detailed should card effect resolution be?~~ → **Full card text parsing**
+3. ~~Should we store game logs for post-game analysis?~~ → **Yes, save logs**
+4. ~~Do you want a deck builder CLI as part of this, or separate tool?~~ → **Include deck builder**
+
+---
+
+## Final Decisions
+
+| Decision | Value |
+|---|---|
+| Player count | 1-4 investigators, primary use is 2-player |
+| Card effects | Full text parsing — implement all card abilities |
+| Game logs | Save detailed logs to `logs/` directory for post-game analysis |
+| Deck builder | Included as CLI command `arkham-sim deck` |
+| Tech stack | Python CLI with Click + Rich |
+| Card data source | ArkhamDB API + manual custom investigator data |
