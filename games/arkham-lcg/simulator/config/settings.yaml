@@ -1,0 +1,5 @@
+default_difficulty: standard
+default_player_count: 1
+default_max_rounds: 50
+log_games: true
+log_directory: logs

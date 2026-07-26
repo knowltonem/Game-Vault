@@ -1,0 +1,77 @@
+standard:
+  tokens:
+    - symbol: "+1"
+      count: 1
+      modifier: 1
+    - symbol: "0"
+      count: 2
+      modifier: 0
+    - symbol: "-1"
+      count: 3
+      modifier: -1
+    - symbol: "-2"
+      count: 2
+      modifier: -2
+    - symbol: "-3"
+      count: 1
+      modifier: -3
+    - symbol: "-4"
+      count: 1
+      modifier: -4
+    - symbol: "skull"
+      count: 2
+      modifier: scenario
+    - symbol: "cultist"
+      count: 1
+      modifier: scenario
+    - symbol: "tablet"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_thing"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_sign"
+      count: 1
+      modifier: elder_sign
+    - symbol: "auto_fail"
+      count: 1
+      modifier: auto_fail
+
+easy:
+  tokens:
+    - symbol: "+1"
+      count: 2
+      modifier: 1
+    - symbol: "0"
+      count: 3
+      modifier: 0
+    - symbol: "-1"
+      count: 3
+      modifier: -1
+    - symbol: "-2"
+      count: 2
+      modifier: -2
+    - symbol: "-3"
+      count: 0
+      modifier: -3
+    - symbol: "-4"
+      count: 0
+      modifier: -4
+    - symbol: "skull"
+      count: 2
+      modifier: scenario
+    - symbol: "cultist"
+      count: 1
+      modifier: scenario
+    - symbol: "tablet"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_thing"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_sign"
+      count: 1
+      modifier: elder_sign
+    - symbol: "auto_fail"
+      count: 1
+      modifier: auto_fail

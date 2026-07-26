@@ -93,12 +93,10 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 
 ---
 
-## Deck (30 Cards — 005-037)
+## Deck (30 Cards — 007-036)
 
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 005 | Loki's Spirit ×1 | Asset — Ally | 3 | Ally. Spirit. | +1 <int>. 1/4 soak. [fre] After Bjorn successfully investigates: Draw 1 card. | "Loki does not help. He merely makes things interesting." |
-| 006 | Thor's Honor ×1 | Asset — Ally | 4 | Ally. Spirit. | +1 <wil>. 5/1 soak. [rea] When any investigator at your location would take damage: Exhaust Thor's Honor, prevent 1 damage. | "The thunder god stands between his people and what comes for them." |
 | 007-008 | Rune of Lightning ×2 | Asset — Arcane | 3 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Fight. Use <wil> instead of <com>. +1 <wil> for this attack. This attack deals +1 damage. | "The rune does not strike. It reminds lightning where it was always going." |
 | 009-010 | The Allfather's Eye ×2 | Asset — Arcane | 2 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Investigate. Use <wil> instead of <int>. +1 <wil> for this investigation. | "Odin gave his eye for wisdom. This one he kept." |
 | 011-012 | Sif's Blessing ×2 | Asset — Arcane | 3 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Evade. Use <wil> instead of <agi>. +1 <wil> for this evade. If you succeed: Exhaust the enemy and it cannot ready until the end of the round. | "Her love is a shield. Her patience is a weapon." |
@@ -115,7 +113,6 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 | 031-032 | Odin's Library ×2 | Event | 2 | Insight. | Draw 3 cards. | "The ravens brought him three truths. He needed all of them." |
 | 033-034 | Njord's Calm ×2 | Event | 1 | Insight. | Fast. Remove up to 2 curse tokens from the chaos bag. | "The curse was placed by men. Njord answers to older things." |
 | 035-036 | Odin's Ward ×2 | Event | 1 | Insight. Spell. | Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 horror. | "Some things cannot be stopped. This one can." |
-| 037 | Leif's Leap ×1 | Asset — Accessory | 2 | Item. Relic. | +1 <agi>. [fre] Once per round: Move to a connecting location. This does not provoke attacks of opportunity. | "Leif went further than any man before him. So does this." |
 
 ---
 
@@ -127,9 +124,13 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 | **Pack Code** | RYP-BB |
 | **Total Cards** | 037 |
 | **Investigator** | 001 Bjorn Blackcast |
-| **Signature Assets** | 002 The Runic Staff, 003 The Runic Helm |
-| **Signature Weakness** | 004 The Ragnarök (×1 or ×2 — confirm EON) |
-| **Deck** | 005-037 (33 cards — ⚠️ confirm deck size) |
+| **Signature Asset 1** | 002 The Runic Staff (shuffled in) |
+| **Signature Asset 2** | 003 The Runic Helm (shuffled in) |
+| **Signature Weakness** | 004 The Ragnarök (shuffled in) |
+| **Signature Ally 1** | 005 Loki's Spirit (shuffled in) |
+| **Signature Ally 2** | 006 Thor's Honor (shuffled in) |
+| **Deck** | 007-036 (30 cards) |
+| **Folder 037** | Leif's Leap — removed from deck, folder retained |
 
 ---
 
@@ -175,8 +176,8 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 | Runic Staff | Cost 2, Hand, +1 WIL, exhaust fight using WIL +2 WIL |
 | Runic Helm | Cost 2, Body, 1/2 soak, +1 WIL, exhaust prevent 1 horror |
 | The Ragnarök | Weakness, disables ability, reveal 5 tokens end of turn, Elder Sign discards it |
-| Loki's Spirit | Cost 3, Ally, 1/4 soak, +1 INT, draw on successful investigate |
-| Thor's Honor | Cost 4, Ally, 5/1 soak, +1 WIL, exhaust prevent 1 damage to any investigator |
+| Loki's Spirit | Signature Ally, cost 3, 1/4 soak, +1 INT, draw on successful investigate |
+| Thor's Honor | Signature Ally, cost 4, 5/1 soak, +1 WIL, exhaust prevent 1 damage to any investigator |
 | Rune of Lightning | Cost 3, Arcane, 4 charges, fight WIL +1 WIL +1 dmg |
 | Allfather's Eye | Cost 2, Arcane, 4 charges, investigate WIL +1 WIL |
 | Sif's Blessing | Cost 3, Arcane, 4 charges, evade WIL +1 WIL, success: freeze enemy |
@@ -193,14 +194,6 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 | Odin's Library | Cost 2, draw 3 cards |
 | Njord's Calm | Cost 1, fast remove up to 2 curse tokens |
 | Odin's Ward | Cost 1, fast cancel non-weakness treachery, take 1 horror |
-| Leif's Leap | Cost 2, Accessory, +1 AGI, free move once per round no AoO |
+| Deck | 007-036 (30 cards). 037 Leif's Leap folder retained but not in deck. |
 
----
 
-## ⚠️ Items Requiring Confirmation
-
-| Item | Issue |
-|---|---|
-| Deck size | EON has 005-037 = 33 cards. Standard is 30. Needs review. |
-| The Ragnarök | EON shows 004 only — is there a 005? Confirm quantity. |
-| Card-Data name corrections | Sif's Love → Sif's Blessing, Val's Embrace → The Valkyrie's Embrace |

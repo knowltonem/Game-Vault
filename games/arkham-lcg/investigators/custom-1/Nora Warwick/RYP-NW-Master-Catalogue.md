@@ -16,9 +16,10 @@
 | Investigator | Professor Nora Warwick |
 | Class | Rogue |
 | Traits | Academic. Archaeologist. Blessed. |
-| Total Cards | 36 physical cards |
+| Total Cards | 39 physical cards |
 | Pack Cards | 001-012 |
-| Deck Cards | 013-036 |
+| Deck Cards | 013-036 (28 cards, excl. Sand Veil 019-020) |
+| Soak Cards | 037-039 (shuffled in at setup) |
 | Build Status | 🔧 In Progress |
 
 ---
@@ -43,7 +44,7 @@ Professor Nora Warwick
 ```
 **Subtitle**
 ```
-The Warwick Endowment
+Professor
 ```
 **Type**
 ```
@@ -195,7 +196,7 @@ Item. Relic. Blessed.
 ```
 **Rules Text**
 ```
-Nora Warwick deck only. Unique. +1 <int> while The Warwick Collection is in play. [free] Start of your turn: Gain 1 resource. [action] Spend 4 resources: Discover 1 clue here. [free] After you investigate: Move 1 clue here to a connecting location.
+Nora Warwick deck only. Unique. +1 <int> while The Warwick Collection is in play. [action] Exhaust The Warwick Collection and evade an enemy without testing. This action does not provoke an attack of opportunity.
 ```
 **Flavor**
 ```
@@ -371,7 +372,7 @@ No
 ```
 **Cost**
 ```
-3
+0
 ```
 **Slot**
 ```
@@ -447,7 +448,7 @@ Call of Anubis
 ```
 **Subtitle**
 ```
-—
+Dark Tidings
 ```
 **Type**
 ```
@@ -571,7 +572,7 @@ No
 ```
 **Cost**
 ```
-4
+2
 ```
 **Slot**
 ```
@@ -855,7 +856,7 @@ Asset
 ```
 **Subtype**
 ```
-Hand
+Arcane
 ```
 **Class**
 ```
@@ -875,7 +876,7 @@ No
 ```
 **Slot**
 ```
-Hand
+Arcane
 ```
 **Traits**
 ```
@@ -1537,7 +1538,7 @@ Cinematic gritty dark fantasy photograph. Close up on a pile of ancient Egyptian
 
 ---
 
-## 019 & 020 — Sand Veil (×2)
+## 019 & 020 — Power of the Ancients (×2)
 
 **Card Number**
 ```
@@ -1549,7 +1550,7 @@ RYP-NW
 ```
 **Name**
 ```
-Sand Veil
+Power of the Ancients
 ```
 **Subtitle**
 ```
@@ -1557,7 +1558,7 @@ Sand Veil
 ```
 **Type**
 ```
-Event
+Skill
 ```
 **Subtype**
 ```
@@ -1565,7 +1566,7 @@ Event
 ```
 **Class**
 ```
-Rogue
+—
 ```
 **Level**
 ```
@@ -1577,7 +1578,7 @@ No
 ```
 **Cost**
 ```
-2
+—
 ```
 **Slot**
 ```
@@ -1585,7 +1586,7 @@ No
 ```
 **Traits**
 ```
-Trick.
+Innate. Blessed.
 ```
 **HP Soak**
 ```
@@ -1597,15 +1598,15 @@ Trick.
 ```
 **Icons**
 ```
-<agi><wld>
+<wld><wld>
 ```
 **Rules Text**
 ```
-Fast. Disengage from all enemies engaged with you. Move to any connecting location.
+Max 1 committed per skill test. If this test is successful: Draw 1 card.
 ```
 **Flavor**
 ```
-"The sand swallows footprints. She learned this early."
+—
 ```
 **Copyright**
 ```
@@ -1613,15 +1614,15 @@ RYP-NW © 2026
 ```
 **EON File**
 ```
-RYP-NW-019-Sand-Veil.eon
+RYP-NW-019-Power-of-the-Ancients.eon
 ```
 **PNG Front**
 ```
-RYP-NW-019-Sand-Veil-Front.png
+RYP-NW-019-Power-of-the-Ancients-Front.png
 ```
 **PNG Back**
 ```
-RYP-NW-019-Sand-Veil-Back.png
+RYP-NW-019-Power-of-the-Ancients-Back.png
 ```
 **Build Status:** ✅ Built ×2
 
@@ -2479,10 +2480,11 @@ RYP-NW-035-Niles-Blessing-Art.png
 | Range | Cards | Status |
 |---|---|---|
 | 001-012 | Pack cards | ✅ All built |
-| 013-036 | Deck cards | ✅ All built and reviewed |
-| Soak cards | Pack extras | ⬜ Not yet built |
+| 013-036 | Deck cards (28 cards, excl. Sand Veil) | ✅ All built and reviewed |
+| 037-039 | Soak cards | ⬜ Not yet built |
 
-**All 36 physical cards reviewed and locked. ✅**
+**Total physical cards: 39**
+**All cards designed and locked. ✅**
 
 ### Remaining Tasks
 - [ ] Art prompts for 027-036

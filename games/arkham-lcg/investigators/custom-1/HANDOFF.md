@@ -48,6 +48,21 @@ games/arkham-lcg/investigators/custom-1/
 | Art files | `RYP-XX-###-Card-Name-Art.png` | `RYP-MB-005-The-Saturday-Night-Special-Art.png` |
 | REF images | `000-REF-Description.png` | `000-REF-The-Man-in-Black-1.png` |
 
+### Source of Truth
+**Individual Card-Data.md files are the source of truth for each investigator.** The Master Catalogue (RYP-XX-Master-Catalogue.md) must be updated to match the Card-Data.md file. Card-Data.md may be updated by the user at any time — always re-read it before making changes.
+
+| Investigator | Card-Data File | Master Catalogue |
+|---|---|---|
+| Abel Redcloud | `Abel Redcloud/Abel-Redcloud-Card-Data.md` | `Abel Redcloud/` (no MC yet) |
+| Nora Warwick | `Nora Warwick/Nora-Warwick-Card-Data.md` | `Nora Warwick/RYP-NW-Master-Catalogue.md` |
+| Eleanor Heart | `Eleanor Heart/Eleanor-Heart-Card-Data.md` | (no MC yet) |
+| Agnes Crane | `Agnes Crane/Agnes-Crane-Card-Data.md` | (no MC yet) |
+| Bjorn Blackcast | (check folder) | (check folder) |
+| Ephraim Archer | (check folder) | (check folder) |
+| Jonathan Ironhide | (check folder) | (check folder) |
+| Alistair Greystoke | (check folder) | (check folder) |
+| The Man in Black | (check folder) | (check folder) |
+
 ### PNG Handling
 - NEVER delete PNG files from card folders unless explicitly told to
 - Only rename PNGs to convention, never delete them
