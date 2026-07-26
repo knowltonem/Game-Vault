@@ -1,10 +1,10 @@
-# Abel Redcloud — Investigator Pack
+# Abel Redcloud — Investigator Pack (EON VERIFIED)
 
 ← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
 ---
 
-## Investigator Card
+## Investigator Card — 001
 
 | Field | Value |
 |---|---|
@@ -18,10 +18,10 @@
 | **Agility** | 3 |
 | **Health** | 8 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Guardian 0-5, Mystic 0-2, Survivor 0-2 |
+| **Deckbuilding** | Guardian 0-5, Mystic 0-2, Survivor 0-2. Deck size: 30. |
 
 ### Ability
-At the beginning of the Mythos Phase: Add 1 <bls> token to the chaos bag and heal 1 damage from Abel Redcloud.
+At the Beginning of the Mythos phase, add 1 bless token to the chaos bag and heal one damage.
 
 ### Elder Sign
 +1. You may play Sacred Bond.
@@ -33,7 +33,7 @@ You may play Sacred Wind.
 You may play Sacred Strength.
 
 ### Flavor
-*"My grandfather fought these things. His grandfather before him. We have always known what lives in the dark."*
+*"I Do Not Fear The Dark"*
 
 ### Requirements
 - The Sacred Spear x1
@@ -45,21 +45,17 @@ You may play Sacred Strength.
 
 ---
 
-## Signature Asset — The Sacred Spear
+## Signature Asset — 002 The Sacred Spear
 
 | Field | Value |
 |---|---|
+| **Subtitle** | Blessed By The Ancestors |
 | **Type** | Asset — Hand |
-| **Subtitle** | Blessed by the Ancestors |
 | **Cost** | 0 |
-| **Slot** | Hand |
-| **Traits** | Item. Weapon. Melee. Relic. Blessed. |
-| **Icons** | — |
+| **Traits** | Item. Relic. Blessed. Weapon. |
 | **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only. Unique.
-
 [act] Fight. You get +2 <com> and +2 damage for this attack.
 
 [rea] If you succeed by 2 or more: This attack deals +3 damage instead.
@@ -69,7 +65,7 @@ Abel Redcloud deck only. Unique.
 
 ---
 
-## Signature Weakness — The Tribal Oath
+## Signature Weakness — 003 The Tribal Oath
 
 | Field | Value |
 |---|---|
@@ -78,67 +74,53 @@ Abel Redcloud deck only. Unique.
 | **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only. Unique.
+[rev] Attach to Abel Redcloud.
 
-Revelation — Attach to Abel Redcloud.
+[for] At the start of the Mythos Phase: Take 1 horror.
 
-Forced — At the start of the Mythos Phase: Take 1 horror.
-
-[act] Test <wil> (4): If you succeed, discard The Tribal Oath.
+[act] Spend 3 resources: Discard The Tribal Oath.
 
 ### Flavor
-*"Every life I take, even the evil ones, takes its toll."*
+*"Every life I take, even the evil ones takes its toll."*
 
 ---
 
-## Set-Aside Cards (Not In Deck)
+## Set-Aside Cards
 
-### 004 — Sacred Bond
+### 004 Sacred Bond — Elder Sign Trigger
 
 | Field | Value |
 |---|---|
-| **Type** | Asset |
 | **Subtitle** | My Ancestors |
 | **Cost** | 0 |
 | **Slot** | — |
 | **Traits** | Relic. Blessed. Spiritual. |
 | **HP Soak** | 3 |
 | **SAN Soak** | 3 |
-| **Icons** | — |
-| **Trigger** | Elder Sign drawn |
-| **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only. Unique. Set aside at the start of the game.
+Set aside at the start of the game. You get +3 <int> while Sacred Bond is in play.
 
-You get +3 <int> while Sacred Bond is in play.
-
-Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Bond. When Sacred Bond has no remaining soak: Discard it.
+[for] At the end of the round: Place 1 damage and 1 horror on Sacred Bond. When Sacred Bond has no remaining soak: Discard it.
 
 ### Flavor
 *"It comes in times of great need."*
 
 ---
 
-### 005 — Sacred Wind
+### 005 Sacred Wind — Auto-fail Trigger
 
 | Field | Value |
 |---|---|
-| **Type** | Asset |
 | **Subtitle** | My Ancestors |
 | **Cost** | 0 |
 | **Slot** | — |
 | **Traits** | Relic. Blessed. Spiritual. |
 | **HP Soak** | 3 |
 | **SAN Soak** | 3 |
-| **Icons** | — |
-| **Trigger** | Auto-fail drawn |
-| **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only. Unique. Set aside at the start of the game.
-
-You get +1 <wil>, +1 <int>, +1 <com>, and +1 <agi> while Sacred Wind is in play.
+Set aside at the start of the game. You get +1 <wil>, +1 <int>, +1 <com>, and +1 <agi> while Sacred Wind is in play.
 
 Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Wind. When Sacred Wind has no remaining soak: Discard it.
 
@@ -147,57 +129,51 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Wind. 
 
 ---
 
-### 006 — Sacred Strength
+### 006 Sacred Strength — Cultist Trigger
 
 | Field | Value |
 |---|---|
-| **Type** | Asset |
 | **Subtitle** | My Ancestors |
 | **Cost** | 0 |
 | **Slot** | — |
 | **Traits** | Relic. Blessed. Spiritual. |
 | **HP Soak** | 3 |
 | **SAN Soak** | 3 |
-| **Icons** | — |
-| **Trigger** | Cultist drawn |
-| **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only. Unique. Set aside at the start of the game.
+Set aside at the start of the game. You get +2 <com> while Sacred Strength is in play.
 
-You get +2 <com> while Sacred Strength is in play.
+After you defeat an enemy: Heal 1 horror or damage.
 
-After you defeat an enemy: Heal 1 horror from Abel Redcloud.
-
-Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Strength. When Sacred Strength has no remaining soak: Discard it.
+[for] At the end of the round: Place 1 damage and 1 horror on Sacred Strength. When Sacred Strength has no remaining soak: Discard it.
 
 ### Flavor
 *"It comes in times of great need."*
 
 ---
 
-## Deck List (28 Cards, 007-034)
+## Deck (30 Cards — 007-036)
 
-| # | Card | Type | Class | Cost | Slot | Icons | Notes |
+| # | Card | Subtitle | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|---|
-| 007 | Teeth of the Deep Ones x1 | Asset | Guardian | 1 | Accessory | wil/wil | +1 <wil>. While in play: When you would take damage, reduce by 1 (min 1). |
-| 008 | Sacred Fire x1 | Asset | Guardian | 2 | Arcane | wil/wil | Subtitle: The Flame Knows. Uses (4 charges). [act] Spend 1 charge: Evade. Use <wil> instead of <agi>. If succeed: Deal +1 damage to that enemy. |
-| 009 | The Ritual Knife x1 | Asset | Guardian | 1 | Hand | com/wil | Unique. [act] Fight. +1 <com>. +1 damage. [fre] After defeat: Heal 1 horror from Abel. |
-| 010-011 | Spirit Coyote x2 | Asset | Guardian | 2 | Ally | wil/agi | +1 <com>. 2/2 soak. [rea] When enemy attack deals damage: Exhaust — deal 1 damage to attacking enemy. |
-| 012-013 | Sweat Lodge x2 | Asset | Guardian | 2 | Arcane | wil/wil | Uses (4 charges). [act] Spend 1 charge: Choose investigator at your location. That investigator heals 1 horror or damage. |
-| 014 | Bear Pelt x1 | Asset | Guardian | 1 | Body | wil/wil | HP soak 3. +1 <wil>. [rea] After you take damage from enemy attack: Draw 1 card. |
-| 015-016 | Noble Sacrifice x2 | Event | Guardian | 1 | — | wil/com | Fast. Choose investigator at your location. That investigator heals 2 damage or 2 horror. You take 1 damage and 1 horror. |
-| 017-018 | Tracker x2 | Event | Guardian | 1 | — | int/int | [act] Investigate. Use <com> instead of <int>. If succeed: Discover 1 additional clue. |
-| 019 | On the Hunt x1 | Event | Guardian | 1 | — | com/wil | [act] When another investigator at your location would have an enemy engage them: That enemy engages you instead. Move to your threat area. You get +1 damage on your next attack against that enemy. |
-| 020 | Fire Walker x1 | Event | Guardian | 1 | — | wil/wil | Fast. Move Abel Redcloud to any location on the board. You must move to a location with at least 1 clue or 1 enemy. Enemies do not make attacks of opportunity this round. |
-| 021-022 | Back to the Dark x2 | Event | Guardian | 2 | — | wil/com | Fast. Cancel an encounter card just drawn and discard it. |
-| 023-024 | Rain Dance x2 | Event | Guardian | 0 | — | wil/wil | Fast. When you would discover 1 clue at your location: Discover 2 clues instead. |
-| 025-026 | Elder Strength x2 | Skill | Guardian | — | — | wil/wil/wil | Max 1 per test. If successful: Draw 1 card. |
-| 027-028 | Chieftain Wisdom x2 | Skill | Guardian | — | — | wil/wil | Max 1 per test. If successful: Draw 1 card. |
-| 029-030 | Vicious Blow x2 | Skill | Guardian | — | — | com | If successful while fighting: Deal +1 damage. |
-| 031-032 | Awaken the Spirits x2 | Skill | Survivor | — | — | wil/wil/wil | Max 1 per test. Commit only if skill < difficulty. |
-| 033-034 | Unexpected Courage x2 | Skill | Neutral | — | — | wld/wld | No rules text. |
-| 035-036 | River of Gold x2 | Event | Guardian | 0 | — | wil/wld | Fast. Gain 3 resources. Flavor: "The land provides. It always has." |
+| 007 | Teeth of the Deep Ones | Taken in Battle | Asset — Accessory | 1 | Item. Relic. Blessed. | +1 WIL. While in play: When you would take damage, reduce by 1 (min 1). | "Each tooth is my legacy" |
+| 008 | Sacred Fire | The Flame Knows | Asset — Arcane | 2 | Item. Weapon. Relic. Ranged. | Uses (4 charges). [act] Spend 1 charge: Evade. Use WIL instead of AGI. If succeed: Deal +1 damage to that enemy. | "Fire Has Its Own Power." |
+| 009 | The Ritual Knife | First Blood | Asset — Hand | 1 | Item. Weapon. Relic. Blessed. | [act] Fight. +1 COM. +1 damage. Free — After defeat: Heal 1 horror from Abel. | "The first cut is a prayer. The last cut is a promise." |
+| 010-011 | Spirit Coyote ×2 | He Guides Me | Asset — Ally | 3 | Ally. Spirit. Creature. | +1 COM. 3/1 soak. [rea] When enemy attack deals damage: Exhaust — deal 1 damage to attacking enemy. | "My Eyes" |
+| 012-013 | Sweat Lodge ×2 | Vision of the Ancestors | Asset — Arcane | 2 | Item. Relic. Blessed. | Uses (4 charges). [act] Spend 1 charge: Choose investigator at your location. That investigator heals 1 horror or damage. | "Breathe It In" |
+| 014 | Bear Pelt | The Spirit Remains | Asset — Body | 1 | Item. Relic. Blessed. | 3/— soak. +1 WIL. [rea] After you take damage from enemy attack: Draw 1 card. | "The bear did not give this willingly. Nothing worth having ever does." |
+| 015-016 | Noble Sacrifice ×2 | It Is My Time | Event | 1 | Tactic. Spirit. | Fast. Play when another investigator at your location would draw an encounter card. That investigator does not draw that card. Instead, you draw it and resolve its effects. You get +2 to each of your skills for any skill tests you make as a result of this card's effects. | "This is not your burden to carry. It is mine." |
+| 017-018 | Tracker ×2 | — | Event | 0 | Tactic. Spirit. | Fast. Play after you defeat an enemy. Discover 1 clue at your location. | "Every creature leaves a trail. Every darkness leaves a shadow. I was taught to read both." |
+| 019 | On the Hunt | — | Event | 1 | Tactic. | [act] When another investigator at your location would have an enemy engage them: That enemy engages you instead. Move that enemy to your threat area. Inflict 1 damage now. | "I do not wait for the darkness to find me." |
+| 020 | Fire Walker | — | Event | 1 | Spell. Spirit. | Fast. Move Abel Redcloud to any location on the board. You must move to a location that has at least 1 clue or 1 enemy present. Enemies do not make attacks of opportunity against Abel Redcloud this round. | "The fire does not burn the one who knows how to walk through it." |
+| 021-022 | Back to the Dark ×2 | — | Event | 2 | Tactic. Spirit. | Fast. Cancel an encounter card just drawn and discard it. | "You do not belong in this world. Go back to the dark that made you." |
+| 023-024 | Rain Dance ×2 | — | Event | 1 | Mystic. | Fast. When you would discover 1 clue at your location: Discover 2 clues instead. | "The rain can wash the evil away" |
+| 025-026 | Elder Strength ×2 | — | Skill | — | Innate. Blessed. | Max 1 committed per skill test. If this test is successful, draw 1 card. | — |
+| 027-028 | Chieftain Wisdom ×2 | — | Skill | — | Innate. Blessed. | Max 1 committed per skill test. If this test is successful, draw 1 card. | — |
+| 029-030 | Vicious Blow ×2 | — | Skill | — | Practiced. | If this skill test is successful during an attack, that attack deals +1 damage. | — |
+| 031-032 | Awaken the Spirits ×2 | — | Skill | — | Innate. Blessed. | Max 1 committed per skill test. Commit only if your skill value is lower than the difficulty of this test. | — |
+| 033-034 | Unexpected Courage ×2 | — | Skill | — | Innate. | Max 1 committed per skill test. | — |
+| 035-036 | River of Gold ×2 | — | Event | 0 | Blessed. Spiritual. | Fast. Gain 3 resources. | "The land provides. It always has." |
 
 ---
 
@@ -236,7 +212,7 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 
 ---
 
-## Key Design Decisions — LOCKED
+## Key Design Decisions — LOCKED (EON VERIFIED)
 
 | Decision | Value |
 |---|---|
@@ -247,19 +223,22 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 | Cultist | Play Sacred Strength. |
 | Sacred Bond | +3 INT, 3/3 soak, fades 1 dmg+1 hor per round |
 | Sacred Wind | +1 all stats, 3/3 soak, fades 1 dmg+1 hor per round |
-| Sacred Strength | +2 COM, heal 1 horror per kill, 3/3 soak, fades 1 dmg+1 hor per round |
-| Sacred Spear | Hand x1, +2 COM, +2 dmg, +3 dmg on succeed by 2. No bless generation. |
-| Tribal Oath | Mythos Phase horror (not per kill), WIL(4) test to discard |
-| Teeth of the Deep Ones | Accessory, +1 WIL, reduce incoming damage by 1 |
-| Sacred Fire | Arcane, 4 charges, evade using WIL, +1 dmg on success |
-| Ritual Knife | Hand, +1 COM, +1 dmg, heal 1 horror per kill |
-| Spirit Coyote | Ally, +1 COM, retaliate 1 dmg when Abel takes damage |
-| Sweat Lodge | Arcane, 4 charges, heal any investigator 1 dmg or horror |
-| Bear Pelt | Body, HP 3 soak, +1 WIL, draw 1 card when taking damage |
-| On the Hunt | Protect ally from engagement, +1 dmg bonus |
-| Fire Walker | Teleport to any location with clue or enemy, no AoO |
-| Back to the Dark | Cancel any encounter card, cost 2 |
-| Rain Dance | Fast event, discover 2 clues instead of 1 |
+| Sacred Strength | +2 COM, heal 1 horror or damage per kill, 3/3 soak, fades 1 dmg+1 hor per round |
+| Sacred Spear | Hand, cost 0, +2 COM, +2 dmg, +3 dmg on succeed by 2. No bless. |
+| Tribal Oath | Mythos Phase horror, spend 3r to discard |
+| Teeth of the Deep Ones | Accessory, cost 1, +1 WIL, -1 incoming damage |
+| Sacred Fire | Arcane, cost 2, 4 charges, evade using WIL, +1 dmg on success |
+| Ritual Knife | Hand, cost 1, +1 COM, +1 dmg, heal 1 horror per kill |
+| Spirit Coyote | Ally, cost 3, +1 COM, 3/1 soak, retaliate 1 dmg on hit |
+| Sweat Lodge | Arcane, cost 2, 4 charges, heal any investigator 1 dmg or horror |
+| Bear Pelt | Body, cost 1, 3/— soak, +1 WIL, draw 1 card when taking damage |
+| Noble Sacrifice | Cost 1, fast, absorb ally's encounter card, +2 all skills for tests from it |
+| Tracker | Cost 0, fast, after defeating enemy: discover 1 clue |
+| On the Hunt | Cost 1, pull enemy from ally, inflict 1 damage immediately |
+| Fire Walker | Cost 1, fast, teleport to any location with clue or enemy, no AoO |
+| Back to the Dark | Cost 2, fast, cancel any encounter card |
+| Rain Dance | Cost 1, fast, discover 2 clues instead of 1 |
+| River of Gold | Cost 0, fast, gain 3 resources |
 
 ---
 
@@ -303,5 +282,7 @@ Abel Redcloud/
 ├── 032-Awaken-the-Spirits/
 ├── 033-Unexpected-Courage/
 ├── 034-Unexpected-Courage/
+├── 035-River-of-Gold/
+├── 036-River-of-Gold/
 └── Abel-Redcloud-Card-Data.md
 ```
