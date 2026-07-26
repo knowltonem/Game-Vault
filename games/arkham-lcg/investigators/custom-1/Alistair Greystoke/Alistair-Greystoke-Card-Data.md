@@ -21,10 +21,10 @@
 | **Deckbuilding** | Seeker, Neutral (level 0-5). Guardian, Mystic (level 0-2). |
 
 ### Ability
-[rea] After you successfully investigate: Draw 1 card. (Limit once per round.)
+[rea] After you successfully investigate: Draw 1 card and gain 1 resource. (Limit once per round.)
 
 ### Elder Sign
-+1. If you succeed, draw 1 card and gain 1 resource.
++1. Search your deck for any Tome, Relic, or Codex asset. Play it for free. Shuffle your deck.
 
 ### Back Story
 Alistair Greystoke has walked the earth for two hundred years. His life is tethered to the Great Old One's presence in this realm. While Cthulhu dreams beneath the Pacific, Alistair Greystoke cannot die. It is not a gift. It is a chain. He tracks the Mythos not out of heroism but out of desperation.
@@ -217,8 +217,8 @@ At the start of your turn: Draw 1 card.
 | Decision | Value |
 |---|---|
 | Stats | WIL 3 / INT 5 / COM 3 / AGI 2 / HP 7 / SAN 7 |
-| Ability | [rea] After successful investigate: Draw 1 card (once per round) |
-| Elder Sign | +1. Draw 1 card and gain 1 resource on success |
+| Ability | [rea] After successful investigate: Draw 1 card and gain 1 resource (once per round) |
+| Elder Sign | +1. Search deck for any Tome, Relic, or Codex asset. Play it for free. Shuffle deck. |
 | Wisdom of Antiquity | Cost 0, no slot, +1 INT, search Tome on enter play, free re-investigate on exhaust |
 | Unbroken Codex | Cost 1, Arcane, 2 SAN soak, INT replaces AGI for evade, exhaust ignore 1 horror |
 | Collector's Ledger | Cost 1, Arcane, 1 SAN soak, gain 2r after drawing from ability |
