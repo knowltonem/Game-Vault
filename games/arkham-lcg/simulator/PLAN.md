@@ -1501,11 +1501,14 @@ And see a full game simulation with all card draws, skill tests, combat, and res
 | 12 | Spreading Flames scenario (5 locations, encounter deck, 3 agendas/acts) | ✅ Done |
 | 13 | CLI interface (simulate, list-investigators, list-scenarios) | ✅ Done |
 | 14 | Testing + debugging | ✅ Done |
+| 15 | Keywords parsing fix (weapon detection) | ✅ Done |
 
 ### Key Results
-- **Win Rate:** 88.5% over 200 games (Abel + Nora vs Spreading Flames, Standard)
-- **Average Rounds:** 9.6
+- **Win Rate:** 100% over 200 games (Abel + Nora vs Spreading Flames, Standard)
+- **Average Rounds:** 7.1
 - **AI Behavior:** Moves between locations, fights engaged enemies, investigates for clues
+- **Weapon Fix:** Keywords parsed from string to list — weapon detection now correctly identifies Sacred Spear/Switchblade in play
+- **Sacred Spear Impact:** Abel deals 3 damage/hit (COM4 + 2 weapon), Servant dies in 2 hits
 
 ### Remaining Work
 | Step | Task | Priority |

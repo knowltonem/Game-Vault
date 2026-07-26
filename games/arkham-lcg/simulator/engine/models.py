@@ -84,7 +84,22 @@ class Card:
     agility: int = 0
     wild: int = 0
 
+    @staticmethod
+    def _parse_keywords(kw):
+        """Parse keywords from string or list format into a list of stripped strings."""
+        if isinstance(kw, list):
+            return [k.strip() for k in kw if k.strip()]
+        if isinstance(kw, str) and kw.strip():
+            return [k.strip() for k in kw.split(".") if k.strip()]
+        return []
+
+    def has_keyword(self, keyword: str) -> bool:
+        """Check if card has a keyword (case-insensitive, handles string or list)."""
+        return keyword.lower() in [k.lower() for k in self._parse_keywords(self.keywords)]
+
     def __post_init__(self):
+        # Normalize keywords to list
+        self.keywords = self._parse_keywords(self.keywords)
         # Sync individual icon attributes with Icons object
         if self.willpower or self.intellect or self.combat or self.agility or self.wild:
             self.icons = Icons(

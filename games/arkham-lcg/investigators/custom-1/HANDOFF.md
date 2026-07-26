@@ -303,8 +303,9 @@ EON files are the SOURCE OF TRUTH — always verify Card-Data.md against EON fil
 
 ## Simulation Results (EON Verified Card Data)
 
-### Abel + Nora vs Spreading Flames — ✅ VICTORY Round 9 (88.5% win rate over 200 games)
-- Servant of Flame defeated (6 HP, fight 4)
+### Abel + Nora vs Spreading Flames — ✅ VICTORY Round 7 (100% win rate over 200 games)
+- Servant of Flame defeated in 2 hits (Sacred Spear +2 COM = 6 base, 3 dmg per hit)
+- Keywords bug fixed: weapon detection now correctly identifies Sacred Spear/Switchblade in play
 - Nora Warwick INT5 excellent at investigating (shroud 2-3 locations)
 - Abel WIL4/COM4 strong at fighting and mythos resilience
 - Bless tokens from both investigators' abilities stack effectively
@@ -363,8 +364,9 @@ py run.py list-scenarios
 - ✅ Spreading Flames scenario (5 locations, encounter deck, 3 agendas/acts)
 - ✅ Servant of Flame boss spawns on Agenda 1 advance
 - ✅ AI moves between locations to gather clues
+- ✅ Weapon detection fixed (keywords parsed from string to list)
 - ✅ Monte Carlo simulation (-n flag)
-- ✅ 88.5% win rate over 200 games (Abel + Nora vs Spreading Flames)
+- ✅ 100% win rate over 200 games (Abel + Nora vs Spreading Flames)
 - 🔧 Card effects framework (effects.py) — skeleton only
 - 🔧 Deck builder — placeholder
 - ⬜ Campaign mode (trauma/XP between scenarios)
