@@ -173,8 +173,8 @@ Once per round: Spend 1 resource to add 1 bless token to the chaos bag.
 |---|---|
 | **Subtitle** | Power Incarnate |
 | **Cost** | 2 |
-| **Slot** | Hand |
-| **Traits** | Item. Weapon. Melee. Relic. |
+| **Slot** | Arcane |
+| **Traits** | Item. Weapon. Relic. |
 
 ### Text
 [act] Fight. You get +1 <com> for this attack. This attack deals +1 damage.
@@ -295,7 +295,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | The Horus Heresy | Cost 4, +1 INT +1 AGI, 2/3 soak, heals 1 hor per clue discovered |
 | The Kopis | Cost 2, +1 COM, +1 dmg, gain 2r on kill |
 | The Khopesh | Cost 2, +1 COM, +1 dmg, gain 1r + draw 1 on kill |
-| The Sekhem Sceptre | Cost 2, +1 COM, +1 dmg, cancel next horror this round |
+| The Sekhem Sceptre | Cost 2, +1 COM, +1 dmg, cancel next horror this round, **Arcane slot** |
 | The Book of the Dead | Cost 0, +1 INT, 2 SAN soak, free re-investigate, search on entry |
 | The Collar of Sekhmet | Cost 2, +1 COM, 1/1 soak, shuffles back into deck on defeat |
 | Isfet's Fury | Cost 3, AoE 2 dmg all enemies at location, all investigators take 1 dmg, +1 bless |
