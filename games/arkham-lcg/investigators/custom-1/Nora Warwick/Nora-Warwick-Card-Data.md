@@ -274,7 +274,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | **Pack Code** | RYP-NW |
 | **Total Cards** | 039 |
 | **Investigator** | 001 Nora Warwick |
-| **Signature Asset** | 002 The Warwick Collection (starts in play) |
+| **Signature Asset** | 002 The Warwick Collection (shuffled in) |
 | **Signature Weakness** | 003 The Family Debt (shuffled in) |
 | **Signature Ally 1** | 004 Ra-Night-Gaunt (shuffled in) |
 | **Signature Ally 2** | 005 Call of Anubis (shuffled in) |
