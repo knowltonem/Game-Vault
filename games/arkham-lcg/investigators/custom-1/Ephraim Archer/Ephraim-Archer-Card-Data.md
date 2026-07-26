@@ -56,9 +56,7 @@ Ephraim Archer deck only.
 
 You get +1 COM while The Red Blade is in play.
 
-[action] Fight. You get +1 COM for this attack. This attack deals 2 damage.
-
-[free] After you defeat an enemy with The Red Blade: Heal 1 horror from yourself.
+[action] Exhaust The Red Blade: Fight. This attack deals +1 damage. If you succeed by 2 or more: Deal 1 additional damage from the spirit within.
 
 ### Flavor
 *"It came from something that shouldn't have existed. It still glows."*
@@ -118,18 +116,18 @@ While The Dunwich Hounds is at your location: Ephraim Archer's investigator abil
 | 006-007 | Prepare for the Worst ×2 | Event | Guardian | 1r | wld | Search top 9 cards of your deck for any Asset and draw it. |
 | 008-009 | What He's Owed ×2 | Event | Neutral | 0r | wld | Fast. Gain 3 resources. |
 | 010-011 | The Dunwich Relic ×2 | Asset | Neutral | 2r | wld | Uses (3 charges). [action] Spend 1 charge: Heal 1 damage or horror from any investigator at your location. |
-| 012 | Kori Kross ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/1 soak. [reaction] After you engage an enemy: Deal 1 damage to that enemy. |
-| 013 | William Dread ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/1 soak. [reaction] After you engage an enemy: Deal 1 damage to that enemy. |
-| 014 | Sebastian Fenn ×1 | Asset — Ally | Neutral | 3r | int/wld | +2 INT. 1/2 soak. [free] After you move: Discover 1 clue at your new location (once per round). |
-| 015 | The Man in Black ×1 | Asset — Ally | Neutral | 3r | wld | 0/2 soak. At the start of your turn: Gain 1 resource. |
-| 016-017 | RagTag ×2 | Asset — No Slot | Guardian | 2r | wld | You have 1 additional ally slot. |
-| 018-019 | Ancient Fortune ×2 | Asset — Arcane | Guardian | 2r | wld | Permanent-like. [free] After you defeat an enemy: Draw 1 card. |
+| 012 | Kori Kross ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/2 soak. [reaction] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. |
+| 013 | William Dread ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/2 soak. [reaction] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. |
+| 014 | Sebastian Fenn ×1 | Asset — Ally | Neutral | 3r | int/wld | +2 INT. 2/2 soak. [free] Once per round, after you move to a location with 1 or more clues: Discover 1 clue at that location. |
+| 015 | The Man in Black ×1 | Asset — Ally | Neutral | 3r | wld | 2/2 soak. At the start of your turn: Gain 1 resource. |
+| 016-017 | RagTag ×2 | Asset — No Slot | Guardian | 3r | wld | You have 1 additional ally slot. You may have 2 Ally assets in play simultaneously. |
+| 018-019 | Ancient Fortune ×2 | Asset — Arcane | Guardian | 2r | wld | [free] After you defeat an enemy: Draw 1 card. |
 | 020-021 | Fighter's Fury ×2 | Skill | Guardian | — | com/com | If successful while fighting: Deal +1 damage. |
-| 022-023 | I'll Take You With Me ×2 | Event | Guardian | 1r | com/wld | Fast. Fight. You get +2 COM for this attack. |
-| 024-025 | Brush It Off ×2 | Event | Guardian | 0r | wld | Fast. Cancel the effects of a non-weakness treachery just drawn. Take 1 horror. |
-| 026-027 | Mystic Blast ×2 | Event | Mystic | 3r | wld/wld | [action] Each enemy at your location takes 2 damage. |
+| 022-023 | I'll Take You With Me ×2 | Event | Guardian | 1r | com/wld | Fast. Fight. You get +2 COM for this attack. If this attack fails: Take 1 horror. |
+| 024-025 | Brush It Off ×2 | Event | Guardian | 1r | wld | Fast. Cancel the effects of a non-weakness treachery just drawn. Take 1 horror. |
+| 026-027 | Mystic Blast ×2 | Event | Mystic | 3r | wld/wld | [action] Fight. Each enemy at your location takes 2 damage. You take 1 damage. |
 | 028-029 | Old Soldier ×2 | Skill | Guardian | — | wld/wld | No rules text. |
-| 030-031 | Iron Will ×2 | Skill | Guardian | — | wil/wil | If this skill test fails: Draw 1 card. |
+| 030-031 | Iron Will ×2 | Skill | Guardian | — | wil/wil | If this skill test fails: Draw 2 cards. |
 | 032-033 | Swift Shadows ×2 | Skill | Guardian | — | agi/agi | After you successfully evade an enemy: Move to a connected location. |
 | 034-035 | Hunt Them Down ×2 | Event | Guardian | 1r | com/wld | [action] Search the encounter deck and discard pile for an Enemy. Spawn it at your location. Fight it. You get +2 COM for this attack. Shuffle the encounter deck. |
 
