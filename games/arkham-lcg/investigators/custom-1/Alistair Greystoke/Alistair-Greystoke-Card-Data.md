@@ -107,7 +107,7 @@ You may use your <int> instead of <agi> when evading enemies.
 
 [for] At the end of the upkeep phase: Take 1 horror.
 
-[act] Spend 5 clues: Discard My Glass is Nearly Run.
+[act] Spend 3 clues: Discard My Glass is Nearly Run.
 
 ### Flavor
 *"My glass is nearly run, and I am spent with the toils of a two hundred years."*
@@ -180,7 +180,7 @@ You may use your <int> instead of <agi> when evading enemies.
 | Wisdom of Antiquity | Cost 0, no slot, +1 INT, search Tome on enter play, free re-investigate on exhaust |
 | Unbroken Codex | Cost 1, Arcane, 2 SAN soak, INT replaces AGI for evade, exhaust ignore 1 horror |
 | Collector's Ledger | Cost 1, Arcane, 1 SAN soak, gain 2r after drawing from ability |
-| My Glass is Nearly Run | Weakness, take 1 horror per upkeep, spend 5 clues to discard |
+| My Glass is Nearly Run | Weakness, take 1 horror per upkeep, spend 3 clues to discard |
 | Ancient Binding | Cost 3, Ally, 3/3 soak, exhaust prevent 1 dmg/hor, defeated: take 1 hor + shuffle back |
 | Relic Harvester | Cost 2, Ally, 2/2 soak, gain 1r per successful investigate, exhaust search top 5 for asset |
 | My Eyes and Ears | Cost 2, Ally, 1/3 soak, +1 clue on successful investigate, defeat: place 1 doom |
