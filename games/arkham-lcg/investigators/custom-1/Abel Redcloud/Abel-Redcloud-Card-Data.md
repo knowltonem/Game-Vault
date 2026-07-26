@@ -199,6 +199,7 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 | 029-030 | Vicious Blow x2 | Skill | Guardian | — | — | com | If successful while fighting: Deal +1 damage. |
 | 031-032 | Awaken the Spirits x2 | Skill | Survivor | — | — | wil/wil/wil | Max 1 per test. Commit only if skill < difficulty. |
 | 033-034 | Unexpected Courage x2 | Skill | Neutral | — | — | wld/wld | No rules text. |
+| 035-036 | River of Gold x2 | Event | Guardian | 0 | — | wil/wld | Fast. Gain 3 resources. Flavor: "The land provides. It always has." |
 
 ---
 
@@ -226,14 +227,14 @@ Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Streng
 |---|---|
 | **Pack Name** | Abel Redcloud Investigator Pack |
 | **Pack Code** | RYP-AR |
-| **Total Cards** | 034 |
+| **Total Cards** | 036 |
 | **Investigator** | 001 Abel Redcloud |
 | **Signature Asset** | 002 The Sacred Spear |
 | **Signature Weakness** | 003 The Tribal Oath |
 | **Set Aside 1** | 004 Sacred Bond (Elder Sign) |
 | **Set Aside 2** | 005 Sacred Wind (Auto-fail) |
 | **Set Aside 3** | 006 Sacred Strength (Cultist) |
-| **Deck** | 007-034 (28 cards) |
+| **Deck** | 007-036 (30 cards) |
 
 ---
 

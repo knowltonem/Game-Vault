@@ -77,7 +77,7 @@ git -C "C:\Users\edwar\Documents\games\board-game-vault" push
 | Jonathan Ironhide | RYP-JI | Guardian | ✅ Complete — needs PNG regen |
 | Alistair Greystoke | RYP-AG | Seeker | ✅ Complete — needs PNG regen |
 | Agnes Crane | RYP-AC | Survivor | ✅ COMPLETE — all 35 cards built |
-| Abel Redcloud | RYP-AR | Guardian | ✅ COMPLETE — all 34 cards built |
+| Abel Redcloud | RYP-AR | Guardian | ✅ COMPLETE — all 36 cards built |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ COMPLETE — all 37 cards built |
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
@@ -348,7 +348,7 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 - Guardian, WIL 4 / INT 2 / COM 4 / AGI 3, HP 8 / SAN 7
 - Ability: Start of Mythos Phase: Add 1 bless + heal 1 damage
 - Three set-aside ancestral cards: Sacred Bond (Elder Sign), Sacred Wind (Auto-fail), Sacred Strength (Cultist)
-- All 34 folders clean. All EON/PNG built and correctly named.
+- All 36 folders clean. All EON/PNG built and correctly named. Deck 30 cards (007-036).
 
 ---
 
@@ -417,6 +417,7 @@ If you are reading this with no prior context:
 - Current priority: Build Eleanor Heart and Bjorn Blackcast in Strange Eons
 - Read individual investigator sections above for full card details
 - Ask the user what they want to work on — do not assume
+
 
 
 
