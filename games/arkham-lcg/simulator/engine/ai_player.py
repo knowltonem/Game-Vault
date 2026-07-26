@@ -1,6 +1,6 @@
 from typing import Optional, List
 from dataclasses import dataclass
-from .models import Investigator, Card, GameState, Action
+from .models import Investigator, Card, GameState, Action, Location
 
 
 class AIPlayer:
@@ -15,12 +15,17 @@ class AIPlayer:
                 weapon = self._find_weapon(investigator)
                 return FightAction(enemy, weapon)
 
-        # Priority 2: Investigate if we need clues
-        if game_state.current_act and game_state.current_act.clues_needed > 0:
-            if game_state.current_location:
-                return InvestigateAction(game_state.current_location)
+        # Priority 2: Investigate if current location has clues
+        if game_state.current_location and game_state.current_location.current_clues > 0:
+            return InvestigateAction(game_state.current_location)
 
-        # Priority 3: Play assets if we can afford them
+        # Priority 3: Move to a connected location with clues
+        if game_state.current_location:
+            best_loc = self._find_best_location(game_state)
+            if best_loc:
+                return MoveAction(best_loc)
+
+        # Priority 4: Play assets if we can afford them
         for card in investigator.hand:
             if card.type.value == "asset" and card.cost <= investigator.resources:
                 if card.slot:
@@ -30,20 +35,29 @@ class AIPlayer:
                 else:
                     return PlayCardAction(card)
 
-        # Priority 4: Investigate even if we don't need clues (for resources via cards)
-        if game_state.current_location:
-            return InvestigateAction(game_state.current_location)
-
         return None
+
+    def _find_best_location(self, game_state: GameState) -> Optional[Location]:
+        """Find a connected location with the most clues."""
+        current = game_state.current_location
+        if not current:
+            return None
+
+        best = None
+        best_clues = 0
+        for loc in game_state.locations:
+            if loc.id in current.connections and loc.current_clues > best_clues:
+                best = loc
+                best_clues = loc.current_clues
+        return best
 
     def _find_weapon(self, investigator: Investigator) -> Optional[Card]:
         """Find a weapon in play area."""
         for asset in investigator.play_area:
-            if hasattr(asset, 'keywords') and any(
-                kw.lower() in ["weapon", "melee"]
-                for kw in (asset.keywords if isinstance(asset.keywords, list) else [asset.keywords])
-            ):
-                return asset
+            if hasattr(asset, 'keywords'):
+                kws = asset.keywords if isinstance(asset.keywords, list) else [asset.keywords]
+                if any(kw.lower() in ["weapon", "melee"] for kw in kws):
+                    return asset
         return None
 
     def choose_commited_cards(self, investigator: Investigator, skill: str) -> List[Card]:
@@ -81,7 +95,6 @@ class FightAction:
             weapon=self.weapon
         )
         game_state.action_log.append(f"{investigator.name} fights {self.enemy.name}: {result}")
-        # Remove defeated enemies
         if self.enemy.is_defeated():
             if self.enemy in investigator.engaged_enemies:
                 investigator.engaged_enemies.remove(self.enemy)
@@ -103,6 +116,18 @@ class EvadeAction:
             game_state.chaos_bag
         )
         game_state.action_log.append(f"{investigator.name} evades {self.enemy.name}: {result}")
+
+
+@dataclass
+class MoveAction:
+    destination: Location
+
+    def execute(self, investigator: Investigator, game_state: GameState):
+        old_location = game_state.current_location
+        game_state.current_location = self.destination
+        game_state.action_log.append(
+            f"{investigator.name} moves from {old_location.name} to {self.destination.name}"
+        )
 
 
 @dataclass
