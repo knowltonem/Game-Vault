@@ -1,4 +1,8 @@
-# Bjorn Blackcast (RYP-BB) — Card Data
+# Bjorn Blackcast — Investigator Pack (EON VERIFIED)
+
+← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
+
+---
 
 ## Investigator Card
 
@@ -14,479 +18,139 @@
 | **Agility** | 3 |
 | **Health** | 6 |
 | **Sanity** | 10 |
-| **Pack Code** | RYP-BB |
+| **Deckbuilding** | Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5 |
 
 ### Ability
-```
 Once per round: Before revealing a chaos token, you may exhaust a Rune asset you control to reveal 2 tokens and choose which one applies. Return the other to the bag.
-```
 
 ### Elder Sign
-```
 +3. Heal 1 horror.
-```
-
-### Deckbuilding
-```
-Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5
-```
 
 ### Back Story
-```
-The mist took him in 914. He walked into that cave, a mistake he understood too late. The agents of Cthulhu sealed the cave with runes older than anything he had been taught to fear.
+The mist took him in 914. He walked into that cave, a mistake he understood too late. The agents of Cthulhu sealed the cave with runes older than anything he had been taught to fear. He spent a thousand years in the dark. The mist kept him alive. It keeps things that are not yet finished. He walked out into a world that had moved without him. Stranger than he expected, more dangerous than he remembered. Valhalla requires a warrior's death. There is one enemy worthy of the price of entry. He will not wait much longer.
 
-He spent a thousand years in the dark. The mist kept him alive. It keeps things that are not yet finished.
-
-He walked out into a world that had moved without him. Stranger than he expected, more dangerous than he remembered.
-
-Valhalla requires a warrior's death. There is one enemy worthy of the price of entry.
-
-He will not wait much longer.
-```
+### Flavor
+*"A Thousand years in the dark. He learned patience. He learned other things."*
 
 ---
 
-## Signature Cards
+## Signature Asset — 002 The Runic Staff
 
-### The Runic Staff
 | Field | Value |
 |---|---|
+| **Subtitle** | The First Rune |
 | **Type** | Asset — Hand |
-| **Class** | Mystic |
-| **Level** | Signature |
+| **Traits** | Item. Relic. Rune. |
 | **Cost** | 2 |
 | **Slot** | Hand |
-| **Traits** | Item. Relic. Rune. |
-| **Icons** | `<wil><wil>` |
-| **Unique** | Yes |
+| **SAN Soak** | — |
 
-```
-Bjorn Blackcast deck only. Unique.
-+1 WIL while The Runic Staff is in play.
-[action] Fight. This attack uses WIL instead of COM. You get +2 WIL for this attack.
-```
+### Text
++1 <wil> while The Runic Staff is in play.
+
+[act] Fight. This attack uses <wil> instead of <com>. You get +2 <wil> for this attack.
+
+### Flavor
+*"A thousand years in the dark. The runes never faded."*
 
 ---
 
-### The Runic Helm
+## Signature Asset — 003 The Runic Helm
+
 | Field | Value |
 |---|---|
+| **Subtitle** | May It Serve |
 | **Type** | Asset — Body |
-| **Class** | Mystic |
-| **Level** | Signature |
+| **Traits** | Item. Relic. Rune. |
 | **Cost** | 2 |
 | **Slot** | Body |
-| **Traits** | Item. Relic. Rune. |
 | **HP Soak** | 1 |
 | **SAN Soak** | 2 |
-| **Icons** | `<wil><wil>` |
-| **Unique** | Yes |
 
-```
-Bjorn Blackcast deck only. Unique.
-+1 WIL while The Runic Helm is in play.
-[reaction] When Bjorn would take horror: Exhaust The Runic Helm -- prevent 1 horror.
-```
+### Text
++1 <wil> while The Runic Helm is in play.
+
+[rea] When Bjorn would take horror: Exhaust The Runic Helm, prevent 1 horror.
+
+### Flavor
+*"The mist tried his mind for a thousand years. The helm helped."*
 
 ---
 
-### The Ragnarök
+## Signature Weakness — 004-005 The Ragnarök ×2 (?)
+
 | Field | Value |
 |---|---|
-| **Type** | Treachery — Weakness |
-| **Class** | Mystic |
-| **Level** | Signature |
 | **Traits** | Omen. |
-| **Unique** | Yes |
-| **Icons** | — |
 
-```
-Bjorn Blackcast deck only.
-Revelation -- Put The Ragnarök into play in your threat area. Bjorn Blackcast's investigator ability is disabled.
-Forced -- At the end of your turn: Reveal 5 random tokens from the chaos bag. If an [Elder Sign] is revealed, discard The Ragnarök.
-```
+### Text
+[rev] Put The Ragnarök into play in your threat area. Bjorn Blackcast's investigator ability is disabled.
+
+[for] At the end of your turn: Reveal 5 random tokens from the chaos bag. If an [Elder Sign] is revealed, discard The Ragnarök.
+
+### Flavor
+*"The End Has Always Been Coming"*
 
 ---
 
-## Deck Cards
+## Deck (30 Cards — 005-037)
 
-### Allies
+| # | Card | Type | Cost | Traits | Rules | Flavor |
+|---|---|---|---|---|---|---|
+| 005 | Loki's Spirit ×1 | Asset — Ally | 3 | Ally. Spirit. | +1 <int>. 1/4 soak. [fre] After Bjorn successfully investigates: Draw 1 card. | "Loki does not help. He merely makes things interesting." |
+| 006 | Thor's Honor ×1 | Asset — Ally | 4 | Ally. Spirit. | +1 <wil>. 5/1 soak. [rea] When any investigator at your location would take damage: Exhaust Thor's Honor, prevent 1 damage. | "The thunder god stands between his people and what comes for them." |
+| 007-008 | Rune of Lightning ×2 | Asset — Arcane | 3 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Fight. Use <wil> instead of <com>. +1 <wil> for this attack. This attack deals +1 damage. | "The rune does not strike. It reminds lightning where it was always going." |
+| 009-010 | The Allfather's Eye ×2 | Asset — Arcane | 2 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Investigate. Use <wil> instead of <int>. +1 <wil> for this investigation. | "Odin gave his eye for wisdom. This one he kept." |
+| 011-012 | Sif's Blessing ×2 | Asset — Arcane | 3 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Evade. Use <wil> instead of <agi>. +1 <wil> for this evade. If you succeed: Exhaust the enemy and it cannot ready until the end of the round. | "Her love is a shield. Her patience is a weapon." |
+| 013 | Norns' Sight ×1 | Asset — Arcane | 3 | Spell. Rune. | Uses (4 charges). [act] Spend 1 charge: Investigate. Use <wil> instead of <int>. If you succeed, discover 1 additional clue at your location. | "The Norns weave what was, what is, what shall be. He simply reads the thread." |
+| 014 | Mjolnir's Might ×1 | Event | 3 | Spell. | Fight. Each enemy at your location takes 2 damage. Each investigator at your location takes 1 horror. | "Mjolnir was forged in a dying star. It remembers." |
+| 015-016 | Odin's Price ×2 | Event | 0 | Augury. | Gain 4 resources. Take 1 horror. | "Odin hung nine days on the World Tree. Nothing comes free." |
+| 017-018 | Heimdall's Offering ×2 | Event | 0 | Supply. | Fast. Gain 2 resources. | "Heimdall sees those in need." |
+| 019-020 | Eir's Touch ×2 | Event | 1 | Insight. | Fast. Heal 1 horror from each investigator at your location. | "Eir does not ask what broke you. She asks what needs mending." |
+| 021-022 | The Valkyrie's Embrace ×2 | Event | 0 | Insight. | Fast. Play when you would take horror. Prevent 2 of that horror. | "The embrace of a Valkyrie is not comfort. It is armour." |
+| 023-024 | The Bifrost Path ×2 | Event | 0 | Insight. | Fast. Disengage from all enemies engaged with you. Move to any connecting location. | "The bridge between worlds opens for those who know the way." |
+| 025-026 | Sigurd's Fury ×2 | Skill | — | Practiced. | If this skill test fails, draw 1 card. | "Sigurd slew Fafnir not through caution. Through fury." |
+| 027-028 | Vegtam the Wanderer ×2 | Skill | — | Innate. | No rules text. | "He walks unseen. He always has." |
+| 029-030 | Rune Sight ×2 | Skill | — | Practiced. | If this skill test is successful while investigating, draw 1 card. | "He does not look for clues. He reads what was always written there." |
+| 031-032 | Odin's Library ×2 | Event | 2 | Insight. | Draw 3 cards. | "The ravens brought him three truths. He needed all of them." |
+| 033-034 | Njord's Calm ×2 | Event | 1 | Insight. | Fast. Remove up to 2 curse tokens from the chaos bag. | "The curse was placed by men. Njord answers to older things." |
+| 035-036 | Odin's Ward ×2 | Event | 1 | Insight. Spell. | Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 horror. | "Some things cannot be stopped. This one can." |
+| 037 | Leif's Leap ×1 | Asset — Accessory | 2 | Item. Relic. | +1 <agi>. [fre] Once per round: Move to a connecting location. This does not provoke attacks of opportunity. | "Leif went further than any man before him. So does this." |
 
-#### Loki's Spirit
+---
+
+## Pack Information
+
 | Field | Value |
 |---|---|
-| **Subtitle** | Neither Lies Nor Truth |
-| **Type** | Asset — Ally |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 3 |
-| **Slot** | Ally |
-| **Traits** | Ally. Spirit. |
-| **HP Soak** | 1 |
-| **SAN Soak** | 4 |
-| **Icons** | `<wil><int>` |
-
-```
-+1 INT while Loki's Spirit is in play.
-[free] After Bjorn successfully investigates: Draw 1 card.
-```
+| **Pack Name** | Bjorn Blackcast Investigator Pack |
+| **Pack Code** | RYP-BB |
+| **Total Cards** | 037 |
+| **Investigator** | 001 Bjorn Blackcast |
+| **Signature Assets** | 002 The Runic Staff, 003 The Runic Helm |
+| **Signature Weakness** | 004 The Ragnarök (×1 or ×2 — confirm EON) |
+| **Deck** | 005-037 (33 cards — ⚠️ confirm deck size) |
 
 ---
 
-#### Thor's Honor
-| Field | Value |
+## Slot Picture
+
+| Slot | Card |
 |---|---|
-| **Subtitle** | The Thunder Oath |
-| **Type** | Asset — Ally |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 4 |
-| **Slot** | Ally |
-| **Traits** | Ally. Spirit. |
-| **HP Soak** | 5 |
-| **SAN Soak** | 1 |
-| **Icons** | `<wil><wil>` |
-
-```
-+1 WIL while Thor's Honor is in play.
-[reaction] When any investigator at your location would take damage: Exhaust Thor's Honor -- prevent 1 damage.
-```
+| Hand | The Runic Staff |
+| Hand | Open |
+| Arcane 1 | Rune of Lightning |
+| Arcane 2 | The Allfather's Eye / Sif's Blessing / Norns' Sight |
+| Accessory | Leif's Leap |
+| Body | The Runic Helm |
+| Ally 1 | Loki's Spirit |
+| Ally 2 | Thor's Honor |
 
 ---
 
-### Spells
+## WIL Stacking (full setup)
 
-#### Rune of Lightning
-| Field | Value |
-|---|---|
-| **Type** | Asset — Arcane |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 3 |
-| **Slot** | Arcane |
-| **Traits** | Spell. Rune. |
-| **Icons** | `<wil><wil>` |
-
-```
-Uses (4 charges).
-[action] Spend 1 charge: Fight. This attack uses WIL instead of COM. You get +1 WIL for this attack. This attack deals +1 damage.
-```
-
----
-
-#### The Allfather's Eye
-| Field | Value |
-|---|---|
-| **Type** | Asset — Arcane |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 2 |
-| **Slot** | Arcane |
-| **Traits** | Spell. Rune. |
-| **Icons** | `<wil><int>` |
-
-```
-Uses (4 charges).
-[action] Spend 1 charge: Investigate. This investigation uses WIL instead of INT. You get +1 WIL for this investigation.
-```
-
----
-
-#### Sif's Love
-| Field | Value |
-|---|---|
-| **Type** | Asset — Arcane |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 3 |
-| **Slot** | Arcane |
-| **Traits** | Spell. Rune. |
-| **Icons** | `<wil><agi>` |
-
-```
-Uses (4 charges).
-[action] Spend 1 charge: Evade. This evade uses WIL instead of AGI. You get +1 WIL for this evade. If you succeed: Exhaust the enemy and it cannot ready until the end of the round.
-```
-
----
-
-### Economy
-
-#### Odin's Price
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 0 |
-| **Traits** | Augury. |
-| **Icons** | `<wld>` |
-| **Base Card** | Faustian Bargain |
-| **Qty** | x2 |
-
-```
-Gain 4 resources. Take 1 horror.
-```
-*Flavor: "Odin hung nine days on the World Tree. Nothing comes free."*
-
----
-
-#### Heimdall's Offering
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Neutral |
-| **Level** | 0 |
-| **Cost** | 0 |
-| **Traits** | Supply. |
-| **Icons** | `<wld>` |
-| **Base Card** | Emergency Cache |
-| **Qty** | x2 |
-
-```
-Fast. Gain 2 resources.
-```
-*Flavor: "Heimdall sees those in need."*
-
----
-
-### Horror Heal
-
-#### Eir's Touch
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 1 |
-| **Traits** | Insight. |
-| **Icons** | `<wil><wil>` |
-| **Qty** | x2 |
-
-```
-Fast. Heal 1 horror from each investigator at your location.
-```
-
----
-
-#### Val's Embrace
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 0 |
-| **Traits** | Insight. |
-| **Icons** | `<wil><agi>` |
-| **Qty** | x2 |
-
-```
-Fast. Play when you would take horror. Prevent 2 of that horror.
-```
-
----
-
-## Design Notes
-
-### WIL Stacking (max in play)
 | Source | WIL |
-|---|---|
-| Base | 5 |
-| Runic Staff | +1 |
-| Runic Helm | +1 |
-| Thor's Honor | +1 |
-| **Total** | **8** |
-
-### Combat (via Staff + Rune of Lightning)
-- Staff attack: WIL 8 + 2 = WIL 10 fight
-- Rune of Lightning: WIL 8 + 1 = WIL 9 fight, +1 damage
-
-### Investigation (via Allfather's Eye + Loki's Spirit)
-- INT 3 + 1 Loki = INT 4
-- Allfather's Eye: WIL 8 + 1 = WIL 9 investigate
-
-### Still Needed
-- [ ] Skill cards
-- [ ] Movement cards
-- [ ] Additional utility
-- [ ] Flavor text for all cards
-- [ ] Signature asset subtitles and full specs
-- [ ] Deckbuilding requirements finalized
-
-### Movement
-
-#### The Bifrost Path
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Neutral |
-| **Level** | 0 |
-| **Cost** | 0 |
-| **Traits** | Insight. |
-| **Icons** | `<agi><wld>` |
-| **Base Card** | Elusive |
-| **Qty** | x2 |
-
-```
-Fast. Disengage from all enemies engaged with you. Move to any connecting location.
-```
-*Flavor: "The bridge between worlds opens for those who know the way."*
-
----
-
-### Skills
-
-#### Sigurd's Fury
-| Field | Value |
-|---|---|
-| **Type** | Skill |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Traits** | Practiced. |
-| **Icons** | `<wil><wil>` |
-| **Base Card** | Guts |
-| **Qty** | x2 |
-
-```
-If this skill test fails, draw 1 card.
-```
-*Flavor: "Sigurd slew Fafnir not through caution. Through fury."*
-
----
-
-#### Vegtam "The Wanderer"
-| Field | Value |
-|---|---|
-| **Type** | Skill |
-| **Class** | Neutral |
-| **Level** | 0 |
-| **Traits** | Innate. |
-| **Icons** | `<wld><wld>` |
-| **Base Card** | Unexpected Courage |
-| **Qty** | x2 |
-
-```
-—
-```
-*Flavor: "He walks unseen. He always has."*
-
----
-
-#### Rune Sight
-| Field | Value |
-|---|---|
-| **Type** | Skill |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Traits** | Practiced. |
-| **Icons** | `<int><int>` |
-| **Base Card** | Perception |
-| **Qty** | x2 |
-
-```
-If this skill test is successful while investigating, draw 1 card.
-```
-*Flavor: "He does not look for clues. He reads what was always written there."*
-
----
-
-## Deck Summary (Current)
-
-| Category | Cards | Qty |
-|---|---|---|
-| Allies | Loki's Spirit, Thor's Honor | 2 |
-| Spells | Rune of Lightning, Allfather's Eye, Sif's Love | 3 |
-| Economy | Odin's Price, Heimdall's Offering | 4 |
-| Horror Heal | Eir's Touch, Val's Embrace | 4 |
-| Movement | The Bifrost Path | 2 |
-| Skills | Sigurd's Fury, Vegtam, Rune Sight | 6 |
-| **Total** | | **21** |
-
-### Still Needed (~9 more cards to reach 30)
-- [ ] Utility cards
-- [ ] Draw engine
-- [ ] Ward of Protection or cancel event
-- [ ] Flavor text for signature assets
-- [ ] Subtitles for signature assets
-
-### Draw
-
-#### Odin's Library
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 2 |
-| **Traits** | Insight. |
-| **Icons** | `<int><int>` |
-| **Base Card** | Preposterous Sketches |
-| **Qty** | x2 |
-
-```
-Draw 3 cards.
-```
-*Flavor: "The ravens brought him three truths. He needed all of them."*
-
----
-
-### Utility
-
-#### Njord's Calm
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 1 |
-| **Traits** | Insight. |
-| **Icons** | `<wil><wld>` |
-| **Base Card** | Custom |
-| **Qty** | x2 |
-
-```
-Fast. Remove up to 2 curse tokens from the chaos bag.
-```
-*Flavor: "The curse was placed by men. Njord answers to older things."*
-
----
-
-#### Odin's Ward
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 1 |
-| **Traits** | Insight. Spell. |
-| **Icons** | `<wil>` |
-| **Base Card** | Ward of Protection |
-| **Qty** | x2 |
-
-```
-Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 horror.
-```
-*Flavor: "Some things cannot be stopped. This one can."*
-
----
-
-## Final Deck Summary (30 Cards)
-
-| Category | Cards | Qty |
-|---|---|---|
-| Allies | Loki's Spirit, Thor's Honor | 2 |
-| Spells | Rune of Lightning ×2, Allfather's Eye ×2, Sif's Love ×2 | 6 |
-| Economy | Odin's Price ×2, Heimdall's Offering ×2 | 4 |
-| Horror Heal | Eir's Touch ×2, Val's Embrace ×2 | 4 |
-| Movement | The Bifrost Path ×2 | 2 |
-| Skills | Sigurd's Fury ×2, Vegtam ×2, Rune Sight ×2 | 6 |
-| Draw | Odin's Library ×2 | 2 |
-| Utility | Njord's Calm ×2, Odin's Ward ×2 | 4 |
-| **Total** | | **30** |
-
-## WIL Stacking Summary
-
-| Source | WIL Bonus |
 |---|---|
 | Base | 5 |
 | Runic Staff | +1 |
@@ -494,111 +158,49 @@ Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 hor
 | Thor's Honor | +1 |
 | **Max Total** | **8** |
 
-## Key Combos
-
-| Combo | Effect |
-|---|---|
-| Staff + Rune of Lightning | WIL 10 fight, +1 damage |
-| Allfather's Eye + Loki's Spirit | WIL 9 investigate, draw on success |
-| Sif's Love + Bifrost Path | Evade + freeze + escape |
-| Odin's Price + Odin's Ward | Pay 1 horror for 4r, spend 1r + 1 horror to cancel threat |
-| Sigurd's Fury on WIL test | Draw on failure -- turns misses into card advantage |
-
-### Additional Cards
-
-#### Mjolnir's Might
-| Field | Value |
-|---|---|
-| **Type** | Event |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 3 |
-| **Traits** | Spell. |
-| **Icons** | `<wil><wil>` |
-| **Base Card** | Dynamite Blast |
-| **Qty** | x1 |
-
-```
-Choose a location. Deal 2 damage to each enemy at that location. Each investigator at that location takes 1 horror.
-```
-*Flavor: "Mjolnir was forged in a dying star. It remembers."*
+- Staff attack: WIL 8 + 2 = **WIL 10** fight
+- Rune of Lightning: WIL 8 + 1 = **WIL 9** fight, +1 damage
+- Allfather's Eye: WIL 8 + 1 = **WIL 9** investigate
+- Sif's Blessing: WIL 8 + 1 = **WIL 9** evade, enemy frozen until end of round
 
 ---
 
-#### Norns' Sight
-| Field | Value |
-|---|---|
-| **Type** | Asset — Arcane |
-| **Class** | Mystic |
-| **Level** | 0 |
-| **Cost** | 3 |
-| **Slot** | Arcane |
-| **Traits** | Spell. |
-| **Icons** | `<wil><int>` |
-| **Base Card** | Rite of Seeking |
-| **Qty** | x1 |
+## Key Design Decisions — LOCKED (EON VERIFIED)
 
-```
-Uses (4 charges). [action] Spend 1 charge: Investigate. This investigation uses WIL instead of INT. If you succeed, discover 1 additional clue at your location.
-```
-*Flavor: "The Norns weave what was, what is, what shall be. He simply reads the thread."*
+| Decision | Value |
+|---|---|
+| Stats | WIL 5 / INT 3 / COM 2 / AGI 3 / HP 6 / SAN 10 |
+| Ability | Exhaust Rune asset → reveal 2 tokens, choose 1 |
+| Elder Sign | +3. Heal 1 horror. |
+| Runic Staff | Cost 2, Hand, +1 WIL, exhaust fight using WIL +2 WIL |
+| Runic Helm | Cost 2, Body, 1/2 soak, +1 WIL, exhaust prevent 1 horror |
+| The Ragnarök | Weakness, disables ability, reveal 5 tokens end of turn, Elder Sign discards it |
+| Loki's Spirit | Cost 3, Ally, 1/4 soak, +1 INT, draw on successful investigate |
+| Thor's Honor | Cost 4, Ally, 5/1 soak, +1 WIL, exhaust prevent 1 damage to any investigator |
+| Rune of Lightning | Cost 3, Arcane, 4 charges, fight WIL +1 WIL +1 dmg |
+| Allfather's Eye | Cost 2, Arcane, 4 charges, investigate WIL +1 WIL |
+| Sif's Blessing | Cost 3, Arcane, 4 charges, evade WIL +1 WIL, success: freeze enemy |
+| Norns' Sight | Cost 3, Arcane, 4 charges, investigate WIL, +1 clue on success |
+| Mjolnir's Might | Cost 3, fight AoE 2 dmg all enemies, all investigators take 1 horror |
+| Odin's Price | Cost 0, gain 4r, take 1 horror |
+| Heimdall's Offering | Cost 0, fast gain 2r |
+| Eir's Touch | Cost 1, fast heal 1 horror each investigator at location |
+| Valkyrie's Embrace | Cost 0, fast prevent 2 horror |
+| Bifrost Path | Cost 0, fast disengage all + move |
+| Sigurd's Fury | Skill, practiced, draw 1 on fail |
+| Vegtam the Wanderer | Skill, innate, no rules text |
+| Rune Sight | Skill, practiced, draw 1 on investigate success |
+| Odin's Library | Cost 2, draw 3 cards |
+| Njord's Calm | Cost 1, fast remove up to 2 curse tokens |
+| Odin's Ward | Cost 1, fast cancel non-weakness treachery, take 1 horror |
+| Leif's Leap | Cost 2, Accessory, +1 AGI, free move once per round no AoO |
 
 ---
 
-## Final Deck Summary (32 Cards)
+## ⚠️ Items Requiring Confirmation
 
-| Category | Cards | Qty |
-|---|---|---|
-| Allies | Loki's Spirit, Thor's Honor | 2 |
-| Spells | Rune of Lightning ×2, Allfather's Eye ×2, Sif's Love ×2, Norns' Sight ×1 | 7 |
-| Combat | Mjolnir's Might ×1 | 1 |
-| Economy | Odin's Price ×2, Heimdall's Offering ×2 | 4 |
-| Horror Heal | Eir's Touch ×2, Val's Embrace ×2 | 4 |
-| Movement | The Bifrost Path ×2 | 2 |
-| Skills | Sigurd's Fury ×2, Vegtam ×2, Rune Sight ×2 | 6 |
-| Draw | Odin's Library ×2 | 2 |
-| Utility | Njord's Calm ×2, Odin's Ward ×2 | 4 |
-| **Total** | | **32** |
-
-## Art Prompts
-
-### 001 — Bjorn Blackcast Investigator Card
-```
-Cinematic gritty dark fantasy photograph. Close to mid body shot, low camera angle looking sharply upward. Bjorn Blackcast, Norse shaman, mid to late fifties. Broad powerful frame, weathered Nordic features -- deep-set eyes the colour of winter ice, a heavy grey-streaked beard, long grey hair loose around his shoulders. His expression: absolute calm certainty. He has seen the end of the world in his visions. He is not afraid of what stands before him now.
-
-Wearing layered Norse expedition gear -- heavy fur-lined cloak over dark leather armour, iron bracers carved with runic symbols along the forearm edges. Around his neck: bone and iron amulets on rough cord, each carved with a different rune. His hands: large, scarred, the hands of someone who has carved runes into stone and bone for decades.
-
-In his right hand: The Runic Staff -- a long dark staff of ancient wood, the shaft carved from top to bottom with interlocking rune sequences, each rune slightly luminous, a cold blue-white glow running through the carved channels as if the runes are alive. The staff planted vertically beside him like an anchor to the earth.
-
-From the staff: runic energy radiating outward in controlled streams -- cold blue-white from the carved runes, deep gold from the wood itself reacting, a faint green where the streams cross. The runes on his bracers responding to the staff -- glowing sympathetically, the same cold blue-white.
-
-Above him: the mist. Not weather -- something older. Dense, directional, moving toward him rather than past him, as if drawn to the staff. The mist: grey-white, cold, alive in the way ancient things are alive.
-
-Background: Nordic coastal cliff at night -- dark sea below, wrong stars above, the kind of sky that appears in dreams of the end of the world. Stone formations carved with ancient runes barely visible in the mist behind him.
-
-Lighting: cold blue-white from the staff runes as dominant source, deep gold secondary, the mist catching and diffusing both, void black at absolute edges.
-
-Mood: a man who has read the threads of fate and chosen to pull on one of them anyway. He knows the cost. He has always known the cost.
-
-Style: gritty cinematic realism, real film grain, extreme high contrast, rune light mixing on his face and hands, macro detail on his expression and the glowing staff runes. Colour palette: winter ice blue-white, deep gold, ancient grey fur and iron, void black, cold mist. 8K. --ar 3:2 --v 7
-```
-Status: PROMPT LOCKED -- not yet generated.
-
-#### Leif's Leap
-| Field | Value |
+| Item | Issue |
 |---|---|
-| **Type** | Asset — Accessory |
-| **Class** | Neutral |
-| **Level** | 0 |
-| **Cost** | 2r |
-| **Slot** | Accessory |
-| **Traits** | Item. Relic. |
-| **Icons** | `<agi><wld>` |
-| **Qty** | x1 |
-
-```
-+1 AGI while Leif's Leap is in play. [free] Once per round: Move to a connecting location. This does not provoke attacks of opportunity.
-```
-*Flavor: "Leif went further than any man before him. So does this."*
-
----
+| Deck size | EON has 005-037 = 33 cards. Standard is 30. Needs review. |
+| The Ragnarök | EON shows 004 only — is there a 005? Confirm quantity. |
+| Card-Data name corrections | Sif's Love → Sif's Blessing, Val's Embrace → The Valkyrie's Embrace |
