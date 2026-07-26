@@ -37,16 +37,12 @@ Once per round: Spend 1 resource to add 1 bless token to the chaos bag.
 | **Subtitle** | Acquired at Considerable Expense |
 | **Cost** | 0 |
 | **Slot** | Accessory |
-| **SAN Soak** | 2 |
+| **SAN Soak** | — |
 
 ### Text
 +1 <int> while The Warwick Collection is in play.
 
-[fre] Start of your turn: Gain 1 resource.
-
-[act] Spend 4 resources: Discover 1 clue here.
-
-[fre] After you investigate: Move 1 clue here to a connecting location.
+[act] Exhaust The Warwick Collection and evade an enemy without testing. This action does not provoke an attack of opportunity.
 
 ### Flavor
 *"The curator at the British Museum was quite upset, until he saw the cheque."*
@@ -292,7 +288,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | Stats | WIL 3 / INT 5 / COM 3 / AGI 2 / HP 7 / SAN 8 |
 | Ability | Once per round: Spend 1r → add 1 bless token |
 | Elder Sign | +1. Gain resources = shroud value |
-| Warwick Collection | Cost 0, +1 INT, 1r per turn, 4r→clue, move clue after investigate |
+| Warwick Collection | Cost 0, +1 INT, no soak, [act] exhaust → free evade, no AoO |
 | Family Debt | Half doom threshold (min 3r) or take damage/horror, 5r to discard |
 | Ra-Night-Gaunt | Cost 0, +1 COM, 3/1 soak, deal 1 dmg to all enemies on defeat |
 | Call of Anubis | Cost 3, +1 WIL, 1/4 soak, absorbs 1 from 2+ dmg/hor hits |
