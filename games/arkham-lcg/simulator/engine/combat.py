@@ -68,10 +68,10 @@ class CombatResolver:
             # Weapon fight bonus
             if "+1 <com>" in weapon.text or "+2 <com>" in weapon.text:
                 bonuses["combat"] = 2 if "+2 <com>" in weapon.text else 1
-            # Weapon damage bonus
-            if "+1 damage" in weapon.text or "+1 dmg" in weapon.text:
-                damage_bonus += 1
+            # Weapon damage bonus (check +2 before +1 to avoid double-counting)
             if "+2 damage" in weapon.text or "+2 dmg" in weapon.text:
+                damage_bonus += 2
+            elif "+1 damage" in weapon.text or "+1 dmg" in weapon.text:
                 damage_bonus += 1
 
         # Check for succeed-by-2 bonus (Sacred Spear)

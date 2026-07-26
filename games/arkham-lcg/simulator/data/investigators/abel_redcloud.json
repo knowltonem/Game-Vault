@@ -26,11 +26,11 @@
       "class": "spirit",
       "cost": 2,
       "slot": "hand",
-      "text": "+2 <com>. This attack deals +1 damage. If you succeed by 2 or more, this attack deals +1 additional damage.",
+      "text": "+2 <com>. +2 damage. If you succeed by 2 or more, this attack deals +3 damage instead.",
       "icons": {"combat": 2},
       "health": 3,
       "keywords": "Spirit. Weapon. Melee.",
-      "ability_text": "You get +2 combat for this attack. If you succeed by 2 or more, deal +1 additional damage."
+      "ability_text": "You get +2 combat for this attack. +2 damage. If you succeed by 2 or more, deal +3 damage instead."
     },
     {
       "id": "sacred_bond",
