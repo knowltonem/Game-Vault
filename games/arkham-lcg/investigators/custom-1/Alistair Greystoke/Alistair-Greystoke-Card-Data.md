@@ -1,1080 +1,141 @@
-# Alistair Greystoke — Custom Seeker
+# Alistair Greystoke — Investigator Pack (EON VERIFIED)
 
-**Pairing:** Designed to run with Jonathan Ironhide (Guardian). Greystoke handles clues; Ironhide handles enemies.
-
----
-
-## Story
-
-Alistair Greystoke has walked the earth for two hundred years.
-
-He does not know exactly when it began — only that somewhere in the late 1700s he stopped aging, stopped dying, and started remembering things no living man should remember. He has outlived four wives, eleven colleagues, and more students than he cares to count. He has watched empires rise and collapse. He has seen the Mythos from angles that would shatter lesser minds.
-
-He is not cursed in the traditional sense. He feels no supernatural compulsion, bears no visible mark. He simply persists. And he has come to understand why.
-
-His life is tethered to the Great Old One's presence in this realm. While Cthulhu dreams beneath the Pacific, Alistair Greystoke cannot die. It is not a gift. It is a chain. Every year that passes without the Great Old One's destruction is another year Greystoke must endure — watching the world change around him, feeling the slow mental weight of centuries pressing down on his sanity.
-
-He tracks the Mythos not out of heroism but out of desperation. Every clue recovered, every ritual disrupted, every ancient text decoded brings him one step closer to the confrontation that might finally end his immortality — one way or another.
-
-He has partnered with Jonathan Ironhide precisely because Ironhide doesn't ask questions. Ironhide kills things. Greystoke finds things. It is a functional arrangement between two men who have seen too much.
-
-*"I cannot die until the Great Old One is slain."*
-
-*My life is tethered directly to the Great Old One's presence in this realm. While I do not age, I still feel the mental toll of tracking Cthulhu and his ilk across centuries. If Cthulhu remains dormant in R'lyeh for all time, will I remain trapped in immortality forever….*
+← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
 ---
 
 ## Investigator Card
-
-| Stat | Value |
-|---|---|
-| **Class** | Seeker |
-| **Willpower** | 3 |
-| **Intellect** | 5 |
-| **Combat** | 3 |
-| **Agility** | 2 |
-| **Health** | 7 |
-| **Sanity** | 7 |
-| **Subtitle** | Professor |
-| **Traits** | Detective. |
-| **Flavor** | *"I cannot die until the Great Old One is slain."* |
-
-### Ability
-> **[Reaction]** After you successfully investigate: Draw 1 card. (Limit once per round.)
-
-### Elder Sign Effect
-> **[Elder Sign]** Effect: +1. If you succeed, draw 1 card and gain 1 resource.
-
-### Deckbuilding Options
-Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
-
-### Deckbuilding Requirements
-*(do not count toward deck size)*
-- "Wisdom of Antiquity" (× 1)
-- The Unbroken Codex (× 1)
-- My Glass is Nearly Run (× 1)
-- 1 random Basic Weakness
-
-### Deck Size
-30.
-
----
-
-
-    # Alistair Greystoke — Custom Seeker
-
-**Pairing:** Designed to run with Jonathan Ironhide (Guardian). Greystoke handles clues; Ironhide handles enemies.
-
----
-
-## Story
-
-Alistair Greystoke has walked the earth for two hundred years.
-
-He does not know exactly when it began — only that somewhere in the late 1700s he stopped aging, stopped dying, and started remembering things no living man should remember. He has outlived four wives, eleven colleagues, and more students than he cares to count. He has watched empires rise and collapse. He has seen the Mythos from angles that would shatter lesser minds.
-
-He is not cursed in the traditional sense. He feels no supernatural compulsion, bears no visible mark. He simply persists. And he has come to understand why.
-
-His life is tethered to the Great Old One's presence in this realm. While Cthulhu dreams beneath the Pacific, Alistair Greystoke cannot die. It is not a gift. It is a chain. Every year that passes without the Great Old One's destruction is another year Greystoke must endure — watching the world change around him, feeling the slow mental weight of centuries pressing down on his sanity.
-
-He tracks the Mythos not out of heroism but out of desperation. Every clue recovered, every ritual disrupted, every ancient text decoded brings him one step closer to the confrontation that might finally end his immortality — one way or another.
-
-He has partnered with Jonathan Ironhide precisely because Ironhide doesn't ask questions. Ironhide kills things. Greystoke finds things. It is a functional arrangement between two men who have seen too much.
-
-*"I cannot die until the Great Old One is slain."*
-
-*My life is tethered directly to the Great Old One's presence in this realm. While I do not age, I still feel the mental toll of tracking Cthulhu and his ilk across centuries. If Cthulhu remains dormant in R'lyeh for all time, will I remain trapped in immortality forever….*
-
----
-
-## Investigator Card
-
-| Stat | Value |
-|---|---|
-| **Class** | Seeker |
-| **Willpower** | 3 |
-| **Intellect** | 5 |
-| **Combat** | 3 |
-| **Agility** | 2 |
-| **Health** | 7 |
-| **Sanity** | 7 |
-| **Subtitle** | Professor |
-| **Traits** | Detective. |
-| **Flavor** | *"I cannot die until the Great Old One is slain."* |
-
-### Ability
-> **[Reaction]** After you successfully investigate: Draw 1 card. (Limit once per round.)
-
-### Elder Sign Effect
-> **[Elder Sign]** Effect: +1. If you succeed, draw 1 card and gain 1 resource.
-
-### Deckbuilding Options
-Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
-
-### Deckbuilding Requirements
-*(do not count toward deck size)*
-- "Wisdom of Antiquity" (× 1)
-- The Unbroken Codex (× 1)
-- My Glass is Nearly Run (× 1)
-- 1 random Basic Weakness
-
-### Deck Size
-30.
-
----
-
-## Signature Asset #1 — Wisdom of Antiquity
 
 | Field | Value |
 |---|---|
+| **Name** | Alistair Greystoke |
+| **Subtitle** | The Immortal Scholar |
+| **Class** | Seeker |
+| **Traits** | Detective. Scholar. Antiquarian. |
+| **Willpower** | 3 |
+| **Intellect** | 5 |
+| **Combat** | 3 |
+| **Agility** | 2 |
+| **Health** | 7 |
+| **Sanity** | 7 |
+| **Deckbuilding** | Seeker, Neutral (level 0-5). Guardian, Mystic (level 0-2). |
+
+### Ability
+[rea] After you successfully investigate: Draw 1 card. (Limit once per round.)
+
+### Elder Sign
++1. If you succeed, draw 1 card and gain 1 resource.
+
+### Back Story
+Alistair Greystoke has walked the earth for two hundred years. His life is tethered to the Great Old One's presence in this realm. While Cthulhu dreams beneath the Pacific, Alistair Greystoke cannot die. It is not a gift. It is a chain. He tracks the Mythos not out of heroism but out of desperation.
+
+### Flavor
+*"I cannot die until the Great Old One is slain."*
+
+---
+
+## Signature Cards (shuffled in, don't count toward deck)
+
+### 002 Wisdom of Antiquity
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Let Us Study |
 | **Type** | Asset |
-| **Slot** | None (plays and goes — no slot occupied) |
-| **Cost** | 0 |
+| **Slot** | None |
 | **Traits** | Insight. |
-| **Deck Restriction** | Alistair Greystoke deck only |
-| **Flavor** | *"Where then do I look for good and evil?"* |
-
-### Text
-Gain 2 resources and heal 1 damage or 1 horror.
-
-**[Reaction]** After you draw Wisdom of Antiquity during your turn: Reveal it and draw 1 additional card.
-
----
-
-## Signature Asset #2 — The Unbroken Codex
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Arcane |
-| **Slot** | Arcane |
-| **Cost** | 1 |
-| **Traits** | Item. Tome. Relic. |
-| **Subtitle** | Two Centuries of Notes |
-| **Flavor** | *"I have watched every predator on this earth hunt. I know exactly how they move."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your Intellect instead of Agility when evading enemies.
-
-**[Reaction]** After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-**[Reaction]** After you successfully investigate: Exhaust The Unbroken Codex — cancel the next horror you would be dealt until the end of this round.
-
----
-
-## Signature Weakness — My Glass is Nearly Run
-
-| Field | Value |
-|---|---|
-| **Type** | Treachery – Weakness |
-| **Traits** | Flaw. Curse. |
-| **Health/Sanity soak** | 3/3 |
-| **Flavor** | *"My glass is nearly run, and I am spent with the toils of a two hundred years."* |
-
-### Text
-**Revelation** — Attach to Alistair Greystoke.
-
-**Forced** — When Alistair Greystoke successfully investigates: If his location has 3 or more clues, instead of drawing 1 card from his ability, discard 1 card from your hand.
-
-**[Action]** Spend 3 clues from any location: Discard My Glass Is Nearly Run.
-
----
-
-### The Unbroken Codex — Level 2 Upgrade
-
-| Field | Value |
-|---|---|
-| **Cost** | 2 |
-| **XP** | 4 XP |
-| **Slot** | Arcane |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your `<int>` instead of `<agi>` when evading enemies. Each investigator at your location may use your `<int>` instead of their own `<agi>` when evading.
-
-`<rea>` After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-`<rea>` After any investigator at your location successfully investigates: Exhaust The Unbroken Codex — cancel the next horror that investigator would be dealt until the end of this round.
-
-### Flavor
-*"Two hundred years of knowing how they move. Now I can show you."*
-
----
-
-## Regular Deck Asset #1 — The Ancient Binding
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Dimensional. |
-| **Subtitle** | It Has Always Been There |
-| **Health/Sanity soak** | 3/3 |
-| **Unique** | Yes |
-| **Flavor** | *"It does not protect me out of loyalty. It protects me because the cosmos demands I survive."* |
-
-### Text
-Alistair Greystoke deck only.
-
-**<rea>** After you would be dealt damage or horror: Exhaust The Ancient Binding — prevent 1 of that damage or horror.
-
-**Forced** — When The Ancient Binding is defeated: Take 1 horror and shuffle The Ancient Binding back into your deck.
-
----
-
-## Regular Deck Asset #2 — The Relic Harvester
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Mi-Go. |
-| **Subtitle** | A Debt Long Owed |
-| **Health/Sanity soak** | 2/2 |
-| **Unique** | Yes |
-| **Flavor** | *"A life spared. A debt owed."* |
-
-### Text
-Alistair Greystoke deck only.
-
-After you successfully investigate and discover 1 or more clues: Gain 1 resource.
-
-**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it. Shuffle your deck.
-
----
-
-## Regular Deck Asset #3 — My Eyes and Ears
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 2 |
-| **Traits** | Ally. Creature. Swarm. |
-| **Subtitle** | There Are Many |
-| **Health/Sanity soak** | 1/3 |
-| **Unique** | Yes |
-| **Flavor** | *"Check every corner. Under every stone."* |
-
-### Text
-Alistair Greystoke deck only.
-
-**<rea>** After you successfully investigate: Discover 1 additional clue at your location.
-
-**Forced** — When My Eyes and Ears is defeated: Place 1 doom on the current agenda.
-
----
-
-## Regular Deck Asset #4 — The Summoner's Deck
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Accessory |
-| **Slot** | Accessory |
-| **Cost** | 2 |
-| **Traits** | Item. Tome. Relic. Cursed. |
-| **Subtitle** | Bound with the Arcane |
-| **Health/Sanity soak** | —/2 |
-| **Unique** | Yes |
-| **Flavor** | *"Each hellish card played with hope for the future."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You have 1 additional ally slot.
-
-You may have 2 unique Ally assets in play simultaneously.
-
-**<rea>** After an Ally asset you control is defeated: Exhaust The Summoner's Deck — shuffle that Ally into your deck instead of discarding it.
-
----
-
-- **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
-- **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
-- **Escape condition:** Spend 3 clues from any location — expensive but achievable. Requires planning.
-- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, no slot occupied, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), passive horror ignore, and proactive horror cancel tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
-- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Ignore reaction uses official Deny Existence language — horror occurs but doesn't apply. Cancel reaction uses Ward of Protection language — proactively banks full protection after a successful investigate. Two distinct official mechanics on one card, clearly differentiated.
-- **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
-- **Elder Sign:** +1, draw 1 card and gain 1 resource on success. Above average for Seeker class. Differentiated from Ironhide's identical Elder Sign by context — Greystoke tests Intellect constantly, so Elder Sign fires frequently and rewards his core investigate loop.
-- **Deckbuilding splash:** Guardian 0–2 (Evidence!, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
-- **Custom allies:** Three custom Mythos creature allies replace all official allies — The Ancient Binding (Dimensional Shambler, defender), The Relic Harvester (Mi-Go, economy), My Eyes and Ears (red-eyed rat swarm, clue accelerator). Each has a unique relationship with Greystoke built across two centuries.
-- **The Summoner's Deck:** Accessory slot item that grants a second ally slot and shuffles defeated allies back into the deck. Enables fielding two of the three custom allies simultaneously — meaningful scenario-by-scenario decision.
-- **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
-- **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
-
----
-
-## Deck List (30 Cards)
-
-*Signatures not counted toward deck size: Wisdom of Antiquity, The Unbroken Codex, My Glass is Nearly Run, 1 random Basic Weakness*
-
-| # | Card Name | Type | Class | Level | Qty | Folder |
-|---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 009-010-Magnifying-Glass |
-| 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
-| 3 | The Relic Harvester | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
-| 4 | My Eyes and Ears | Asset – Ally | Seeker | 0 | ×1 | 007-My-Eyes-and-Ears |
-| 5 | The Summoner's Deck | Asset – Accessory | Seeker | 0 | ×1 | 008-The-Summoners-Deck |
-| 6 | Deduction | Skill | Seeker | 0 | ×2 | 015-016-Deduction |
-| 7 | Perception | Skill | Seeker | 0 | ×2 | 017-018-Perception |
-| 8 | Crack the Case | Event | Seeker | 0 | ×2 | 019-020-Crack-the-Case |
-| 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
-| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
-| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
-| 12 | Treasure Vault *(Treasure Vault)* | Event | Neutral | 0 | ×2 | 028-029-Treasure-Vault |
-| 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
-| 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
-| 15 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
-| 16 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
-| 17 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
-| 18 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×2 | 005-The-Ancient-Binding |
-| | **TOTAL** | | | | **30** | |
-
----
-
-## Deck Role Breakdown
-
-| Category | Cards | Role |
-|---|---|---|
-| Clue Assets | Magnifying Glass | Boost investigate tests |
-| Ally Assets | The Ancient Binding, The Relic Harvester, My Eyes and Ears | Defender, economy, clue acceleration |
-| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame | Clue compression and acceleration |
-| Enemy Management | Mind Over Matter, Evidence! | Intellect-based enemy handling |
-| Economy | Treasure Vault | Resource backup |
-| Encounter Protection | Ward of Protection, Fearless | Cancel treacheries, horror resistance |
-| Support | Evidence! | Clue on enemy defeat |
-| Skills | Deduction, Perception, Guts, Inquiring Mind | Commit to investigate and Willpower tests |
-
----
-
-## How It Plays
-
-**Turn 1:** Play Unbroken Codex (cost 1) — 4 resources spare. Drop Magnifying Glass (cost 1) if drawn — 3 resources spare. Investigate immediately at Intellect 6.
-
-**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play The Relic Harvester if available — every clue discovery now generates 1 resource.
-
-**Mid game:** Deduction commits to investigations for double clues. Crack the Case generates resources passively as clues accumulate. Working a Hunch grabs testless clues. Drawn to the Flame takes 2 clues at once at the cost of drawing an encounter card — high risk, high reward.
-
-**Enemy engaged:** Mind Over Matter lets him use Intellect 5 to evade or fight. Evidence! grabs a clue when defeating an enemy — turns rare combat moments into clue opportunities. Unbroken Codex Intellect evade is always available.
-
-**Encounter deck:** Ward of Protection cancels the worst treacheries. Fearless commits to Willpower tests and heals horror. Guts protects against Willpower-based encounter cards. Unbroken Codex ignores or cancels horror most rounds.
-
-**Sanity pressure:** The Ancient Binding prevents 1 damage/horror per round. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
-
----
-
-## Ally Upgrade Arcs
-
-### The Ancient Binding (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 3 | **4** |
-| Prevent | 1 dmg or horror | **2 dmg or horror** |
-| On defeat | Shuffle back | Shuffle back |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror.
-Forced — When The Ancient Binding is defeated: Take 1 horror and shuffle
-The Ancient Binding back into your deck.
-```
-*Flavor: "It does not age. Neither do I. We have an understanding."*
-
----
-
-### The Ancient Binding (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 4 | **5** |
-| SAN soak | 4 | **5** |
-| Prevent | 2 | 2 |
-| New | — | **Redirect prevented damage to enemy** |
-| On defeat | Shuffle back | **Shuffle back + draw 1** |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror. You may deal that amount of damage
-to any enemy at your location.
-Forced — When The Ancient Binding is defeated: Take 1 horror, draw 1 card,
-and shuffle The Ancient Binding back into your deck.
-```
-*Flavor: "I have watched it fight for me for two hundred years. I have never seen it tire."*
-
----
-
-### The Relic Harvester (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 2 | **3** |
-| Economy | 1r per investigate | **1r per clue discovered** |
-| Search | Top 5, action | Top 5, action |
-
-```
-Alistair Greystoke deck only.
-After you discover 1 or more clues (by any means): Gain 1 resource.
-<act> Exhaust The Relic Harvester: Search the top 5 cards of your deck
-for an Item asset and draw it. Shuffle your deck.
-```
-*Flavor: "The debt compounds. It seems content with the arrangement."*
-
----
-
-### The Relic Harvester (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 2 | **3** |
-| Economy | 1r per clue (self) | **1r per clue (any investigator at location)** |
-| Search | Top 5, action | **Top 10, free after investigate** |
-
-```
-Alistair Greystoke deck only.
-After any investigator at your location discovers 1 or more clues:
-Gain 1 resource.
-<fre> After you successfully investigate: You may exhaust The Relic Harvester
-to search the top 10 cards of your deck for an Item asset and draw it.
-Shuffle your deck.
-```
-*Flavor: "A life spared. Two hundred years repaid. We are almost even."*
-
----
-
-## Custom Upgrade Cards
-
-### Centuries of Memory (1)
-**Level:** 1 | **Cost:** 2 XP | **Type:** Skill | **Icons:** 2 × `<int>`
-
-```
-After you commit Centuries of Memory to a skill test and succeed:
-Draw 1 card. If you discovered 1 or more clues this round, draw 2 cards instead.
-```
-*Flavor: "Two hundred years of pattern recognition. The answer was already there."*
-
----
-
-### The Immortal's Eye (4)
-**Level:** 4 | **Cost:** 3r | **Type:** Asset — Arcane | **Icons:** 2 × `<int>`
-
-```
-Alistair Greystoke deck only. Unique.
-
-<fre> At the start of the enemy phase: Look at the top card of the encounter
-deck. You may move it to the bottom of the deck.
-
-<act> Exhaust The Immortal's Eye: Choose an investigator at your location.
-That investigator gets +3 <int> until the end of the round.
-
-<rea> After any investigator at your location would draw a treachery:
-Exhaust The Immortal's Eye — that investigator may discard it unresolved
-instead. Take 1 horror.
-```
-*Flavor: "I have watched it all for two centuries. Nothing surprises me. Everything horrifies me."*
-
----
-
-## Upgrade Path (XP Priorities)
-
-| Priority | Card | XP Cost | Why |
-|---|---|---|---|
-| 1 | The Relic Harvester (2) | 4 XP | 1r per clue by any means — broader economy trigger |
-| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 |
-| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak — swarm survives longer |
-| 4 | The Unbroken Codex (2) | 4 XP | Team INT evade + cancel horror for any investigator |
-| 5 | The Ancient Binding (2) | 4 XP | Prevent 2 damage or horror per exhaust |
-| 6 | Centuries of Memory (1) | 2 XP | Draw 1-2 cards after INT success |
-| 7 | Intellectual Violence (3) | 6 XP | INT attack — 2-3 dmg + clue on kill |
-| 8 | The Relic Harvester (4) | 4 XP | Team economy + free search after investigate |
-| 9 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter, cancel treacheries |
-| 10 | The Ancient Binding (4) | 4 XP | Redirect prevented damage to enemy |
-| 11 | The Immortal's Eye (4) | 8 XP | Peek enemy phase, +3 INT team, cancel treachery |
-
----
-
-## Folder Structure
-
-```
-Alistair Greystoke/
-├── art/                                ← all MJ generated and reference art
-├── 001-Alistair-Greystoke/             ← Greystoke-Investigator.eon, Greystoke-Mini-Marker.eon
-├── 002-Wisdom-of-Antiquity/            ← Greystoke-Asset-Wisdom-of-Antiquity.eon
-├── 003-The-Unbroken-Codex/             ← Greystoke-Sig-Asset-The-Unbroken-Codex.eon
-├── 004-My-Glass-is-Nearly-Run/         ← Greystoke-Sig-Weakness-My-Glass-Is-Nearly-Run.eon
-├── 005-The-Ancient-Binding/            ← Greystoke-Asset-The-Ancient-Binding.eon
-├── 005-006-Magnifying-Glass/           ← deck card
-├── 007-Dr-Milan-Christopher/           ← deck card
-├── 008-009-Laboratory-Assistant/       ← deck card
-├── 010-Research-Librarian/             ← deck card
-├── 011-012-Deduction/                  ← deck card
-├── 013-014-Perception/                 ← deck card
-├── 015-016-Crack-the-Case/             ← deck card
-├── 017-018-Working-a-Hunch/            ← deck card
-├── 019-Cryptic-Research/               ← deck card
-├── 020-021-Drawn-to-the-Flame/         ← deck card
-├── 022-023-Mind-Over-Matter/           ← deck card
-├── 024-025-Emergency-Cache/            ← deck card
-├── 026-027-Ward-of-Protection/         ← deck card
-├── 028-029-Fearless/                   ← deck card
-├── 030-First-Aid/                      ← deck card
-├── 031-Evidence/                       ← deck card
-├── 032-033-Guts/                       ← deck card
-├── 038-039-Inquiring-Mind/             ← deck card
-└── Alistair-Greystoke-Card-Data.md
-```
-
-Each card folder contains the .eon working file and exported card PNGs. Art folder at root is shared across all cards.
-
----
-
-## Pack Information
-
-| Field | Value |
-|---|---|
-| **Expansion** | The R'lyeh Expansion |
-| **Pack Name** | Alistair Greystoke Investigator Pack |
-| **Pack Code** | RYP-AG |
-| **Total Cards** | 008 |
-
-### Card List & Numbers
-
-| # | Card Name | Type |
-|---|---|---|
-| 001 | Alistair Greystoke | Investigator |
-| 002 | Wisdom of Antiquity | Asset – Signature |
-| 003 | The Unbroken Codex | Asset – Signature |
-| 004 | My Glass is Nearly Run | Treachery – Weakness |
-| 005 | The Ancient Binding | Asset – Regular |
-| 006 | The Relic Harvester | Asset – Regular |
-| 007 | My Eyes and Ears | Asset – Regular |
-| 008 | The Summoner's Deck | Asset – Regular |
-
-### Strange Eons Collection Fields
-*(Use these on every card in this pack)*
-
-**Set Name:**
-```
-Alistair Greystoke Investigator Pack
-```
-
-**Set Code:**
-```
-RYP-AG
-```
-
-**Total Cards:**
-```
-008
-```
-
-### File Naming Convention
-```
-RYP-AG-001-Alistair-Greystoke-Front.png
-RYP-AG-001-Alistair-Greystoke-Back.png
-RYP-AG-002-Wisdom-of-Antiquity-Front.png
-RYP-AG-002-Wisdom-of-Antiquity-Back.png
-RYP-AG-003-The-Unbroken-Codex-Front.png
-RYP-AG-003-The-Unbroken-Codex-Back.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
-RYP-AG-005-The-Ancient-Binding-Front.png
-RYP-AG-005-The-Ancient-Binding-Back.png
-RYP-AG-006-The-Relic-Harvester-Front.png
-RYP-AG-006-The-Relic-Harvester-Back.png
-RYP-AG-007-My-Eyes-and-Ears-Front.png
-RYP-AG-007-My-Eyes-and-Ears-Back.png
-RYP-AG-008-The-Summoners-Deck-Front.png
-RYP-AG-008-The-Summoners-Deck-Back.png
-```
-.Groups[1].Value + "Alistair Greystoke deck only. Unique. +1 INT while Wisdom of Antiquity is in play. [free] Once per round: After you successfully investigate, you may exhaust Wisdom of Antiquity to investigate again at your location without spending an action. [free] After Wisdom of Antiquity enters play: Search your deck for a Tome card and draw it. Shuffle your deck." + # Alistair Greystoke — Custom Seeker
-
-**Pairing:** Designed to run with Jonathan Ironhide (Guardian). Greystoke handles clues; Ironhide handles enemies.
-
----
-
-## Story
-
-Alistair Greystoke has walked the earth for two hundred years.
-
-He does not know exactly when it began — only that somewhere in the late 1700s he stopped aging, stopped dying, and started remembering things no living man should remember. He has outlived four wives, eleven colleagues, and more students than he cares to count. He has watched empires rise and collapse. He has seen the Mythos from angles that would shatter lesser minds.
-
-He is not cursed in the traditional sense. He feels no supernatural compulsion, bears no visible mark. He simply persists. And he has come to understand why.
-
-His life is tethered to the Great Old One's presence in this realm. While Cthulhu dreams beneath the Pacific, Alistair Greystoke cannot die. It is not a gift. It is a chain. Every year that passes without the Great Old One's destruction is another year Greystoke must endure — watching the world change around him, feeling the slow mental weight of centuries pressing down on his sanity.
-
-He tracks the Mythos not out of heroism but out of desperation. Every clue recovered, every ritual disrupted, every ancient text decoded brings him one step closer to the confrontation that might finally end his immortality — one way or another.
-
-He has partnered with Jonathan Ironhide precisely because Ironhide doesn't ask questions. Ironhide kills things. Greystoke finds things. It is a functional arrangement between two men who have seen too much.
-
-*"I cannot die until the Great Old One is slain."*
-
-*My life is tethered directly to the Great Old One's presence in this realm. While I do not age, I still feel the mental toll of tracking Cthulhu and his ilk across centuries. If Cthulhu remains dormant in R'lyeh for all time, will I remain trapped in immortality forever….*
-
----
-
-## Investigator Card
-
-| Stat | Value |
-|---|---|
-| **Class** | Seeker |
-| **Willpower** | 3 |
-| **Intellect** | 5 |
-| **Combat** | 3 |
-| **Agility** | 2 |
-| **Health** | 7 |
-| **Sanity** | 7 |
-| **Subtitle** | Professor |
-| **Traits** | Detective. |
-| **Flavor** | *"I cannot die until the Great Old One is slain."* |
-
-### Ability
-> **[Reaction]** After you successfully investigate: Draw 1 card. (Limit once per round.)
-
-### Elder Sign Effect
-> **[Elder Sign]** Effect: +1. If you succeed, draw 1 card and gain 1 resource.
-
-### Deckbuilding Options
-Seeker, Neutral (level 0–5). Guardian, Mystic (level 0–2).
-
-### Deckbuilding Requirements
-*(do not count toward deck size)*
-- "Wisdom of Antiquity" (× 1)
-- The Unbroken Codex (× 1)
-- My Glass is Nearly Run (× 1)
-- 1 random Basic Weakness
-
-### Deck Size
-30.
-
----
-
-## Signature Asset #1 — Wisdom of Antiquity
-
-| Field | Value |
-|---|---|
-| **Type** | Asset |
-| **Slot** | None (plays and goes — no slot occupied) |
 | **Cost** | 0 |
-| **Traits** | Insight. |
-| **Deck Restriction** | Alistair Greystoke deck only |
-| **Flavor** | *"Where then do I look for good and evil?"* |
+| **SAN Soak** | — |
 
 ### Text
-Gain 2 resources and heal 1 damage or 1 horror.
++1 <int> while Wisdom of Antiquity is in play.
 
-**[Reaction]** After you draw Wisdom of Antiquity during your turn: Reveal it and draw 1 additional card.
+[fre] After Wisdom of Antiquity enters play: Search your deck for a Tome card and draw it. Shuffle your deck.
 
----
-
-## Signature Asset #2 — The Unbroken Codex
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Arcane |
-| **Slot** | Arcane |
-| **Cost** | 1 |
-| **Traits** | Item. Tome. Relic. |
-| **Subtitle** | Two Centuries of Notes |
-| **Flavor** | *"I have watched every predator on this earth hunt. I know exactly how they move."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your Intellect instead of Agility when evading enemies.
-
-**[Reaction]** After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-**[Reaction]** After you successfully investigate: Exhaust The Unbroken Codex — cancel the next horror you would be dealt until the end of this round.
-
----
-
-## Signature Weakness — My Glass is Nearly Run
-
-| Field | Value |
-|---|---|
-| **Type** | Treachery – Weakness |
-| **Traits** | Flaw. Curse. |
-| **Health/Sanity soak** | 3/3 |
-| **Flavor** | *"My glass is nearly run, and I am spent with the toils of a two hundred years."* |
-
-### Text
-**Revelation** — Attach to Alistair Greystoke.
-
-**Forced** — When Alistair Greystoke successfully investigates: If his location has 3 or more clues, instead of drawing 1 card from his ability, discard 1 card from your hand.
-
-**[Action]** Spend 3 clues from any location: Discard My Glass Is Nearly Run.
-
----
-
-### The Unbroken Codex — Level 2 Upgrade
-
-| Field | Value |
-|---|---|
-| **Cost** | 2 |
-| **XP** | 4 XP |
-| **Slot** | Arcane |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your `<int>` instead of `<agi>` when evading enemies. Each investigator at your location may use your `<int>` instead of their own `<agi>` when evading.
-
-`<rea>` After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-`<rea>` After any investigator at your location successfully investigates: Exhaust The Unbroken Codex — cancel the next horror that investigator would be dealt until the end of this round.
+[fre] Once per round: After you successfully investigate, you may exhaust Wisdom of Antiquity to investigate again at your location without spending an action.
 
 ### Flavor
-*"Two hundred years of knowing how they move. Now I can show you."*
+*"Where then do I look for good and evil?"*
 
 ---
 
-## Regular Deck Asset #1 — The Ancient Binding
+### 003 The Unbroken Codex
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Dimensional. |
-| **Subtitle** | It Has Always Been There |
-| **Health/Sanity soak** | 3/3 |
-| **Unique** | Yes |
-| **Flavor** | *"It does not protect me out of loyalty. It protects me because the cosmos demands I survive."* |
+| **Subtitle** | Two Centuries of Notes |
+| **Type** | Asset — Arcane |
+| **Slot** | Arcane |
+| **Traits** | Item. Tome. Relic. |
+| **Cost** | 1 |
+| **SAN Soak** | 2 |
 
 ### Text
-Alistair Greystoke deck only.
+You may use your <int> instead of <agi> when evading enemies.
 
-**<rea>** After you would be dealt damage or horror: Exhaust The Ancient Binding — prevent 1 of that damage or horror.
-
-**Forced** — When The Ancient Binding is defeated: Take 1 horror and shuffle The Ancient Binding back into your deck.
+[rea] After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
 
 ---
 
-## Regular Deck Asset #2 — The Relic Harvester
+### 004 The Collector's Ledger
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Mi-Go. |
-| **Subtitle** | A Debt Long Owed |
-| **Health/Sanity soak** | 2/2 |
-| **Unique** | Yes |
-| **Flavor** | *"A life spared. A debt owed."* |
+| **Subtitle** | The Cost of Knowledge |
+| **Type** | Asset — Arcane |
+| **Slot** | Arcane |
+| **Traits** | Item. Tome. Relic. |
+| **Cost** | 1 |
+| **SAN Soak** | 1 |
 
 ### Text
-Alistair Greystoke deck only.
+[fre] After you draw a card from your investigator ability: Gain 2 resources.
 
-After you successfully investigate and discover 1 or more clues: Gain 1 resource.
-
-**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it. Shuffle your deck.
+### Flavor
+*"Two hundred years of acquisitions. The ledger never lies."*
 
 ---
 
-## Regular Deck Asset #3 — My Eyes and Ears
+### 005 My Glass is Nearly Run
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 2 |
-| **Traits** | Ally. Creature. Swarm. |
-| **Subtitle** | There Are Many |
-| **Health/Sanity soak** | 1/3 |
-| **Unique** | Yes |
-| **Flavor** | *"Check every corner. Under every stone."* |
+| **Traits** | Flaw. Curse. |
 
 ### Text
-Alistair Greystoke deck only.
+[rev] Attach to Alistair Greystoke. Revelation — Put My Glass is Nearly Run into play in your threat area.
 
-**<rea>** After you successfully investigate: Discover 1 additional clue at your location.
+[for] At the end of the upkeep phase: Take 1 horror.
 
-**Forced** — When My Eyes and Ears is defeated: Place 1 doom on the current agenda.
+[act] Spend 5 clues: Discard My Glass is Nearly Run.
 
----
-
-## Regular Deck Asset #4 — The Summoner's Deck
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Accessory |
-| **Slot** | Accessory |
-| **Cost** | 2 |
-| **Traits** | Item. Tome. Relic. Cursed. |
-| **Subtitle** | Bound with the Arcane |
-| **Health/Sanity soak** | —/2 |
-| **Unique** | Yes |
-| **Flavor** | *"Each hellish card played with hope for the future."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You have 1 additional ally slot.
-
-You may have 2 unique Ally assets in play simultaneously.
-
-**<rea>** After an Ally asset you control is defeated: Exhaust The Summoner's Deck — shuffle that Ally into your deck instead of discarding it.
+### Flavor
+*"My glass is nearly run, and I am spent with the toils of a two hundred years."*
 
 ---
 
-- **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
-- **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
-- **Escape condition:** Spend 3 clues from any location — expensive but achievable. Requires planning.
-- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, no slot occupied, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), passive horror ignore, and proactive horror cancel tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
-- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Ignore reaction uses official Deny Existence language — horror occurs but doesn't apply. Cancel reaction uses Ward of Protection language — proactively banks full protection after a successful investigate. Two distinct official mechanics on one card, clearly differentiated.
-- **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
-- **Elder Sign:** +1, draw 1 card and gain 1 resource on success. Above average for Seeker class. Differentiated from Ironhide's identical Elder Sign by context — Greystoke tests Intellect constantly, so Elder Sign fires frequently and rewards his core investigate loop.
-- **Deckbuilding splash:** Guardian 0–2 (Evidence!, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
-- **Custom allies:** Three custom Mythos creature allies replace all official allies — The Ancient Binding (Dimensional Shambler, defender), The Relic Harvester (Mi-Go, economy), My Eyes and Ears (red-eyed rat swarm, clue accelerator). Each has a unique relationship with Greystoke built across two centuries.
-- **The Summoner's Deck:** Accessory slot item that grants a second ally slot and shuffles defeated allies back into the deck. Enables fielding two of the three custom allies simultaneously — meaningful scenario-by-scenario decision.
-- **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
-- **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
+## Deck (006-034 = 29 cards — ⚠️ confirm deck size)
 
----
-
-## Deck List (30 Cards)
-
-*Signatures not counted toward deck size: Wisdom of Antiquity, The Unbroken Codex, My Glass is Nearly Run, 1 random Basic Weakness*
-
-| # | Card Name | Type | Class | Level | Qty | Folder |
+| # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 009-010-Magnifying-Glass |
-| 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
-| 3 | The Relic Harvester | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
-| 4 | My Eyes and Ears | Asset – Ally | Seeker | 0 | ×1 | 007-My-Eyes-and-Ears |
-| 5 | The Summoner's Deck | Asset – Accessory | Seeker | 0 | ×1 | 008-The-Summoners-Deck |
-| 6 | Deduction | Skill | Seeker | 0 | ×2 | 015-016-Deduction |
-| 7 | Perception | Skill | Seeker | 0 | ×2 | 017-018-Perception |
-| 8 | Crack the Case | Event | Seeker | 0 | ×2 | 019-020-Crack-the-Case |
-| 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
-| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
-| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
-| 12 | Treasure Vault *(Treasure Vault)* | Event | Neutral | 0 | ×2 | 028-029-Treasure-Vault |
-| 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
-| 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
-| 15 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
-| 16 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
-| 17 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
-| 18 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×2 | 005-The-Ancient-Binding |
-| | **TOTAL** | | | | **30** | |
-
----
-
-## Deck Role Breakdown
-
-| Category | Cards | Role |
-|---|---|---|
-| Clue Assets | Magnifying Glass | Boost investigate tests |
-| Ally Assets | The Ancient Binding, The Relic Harvester, My Eyes and Ears | Defender, economy, clue acceleration |
-| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame | Clue compression and acceleration |
-| Enemy Management | Mind Over Matter, Evidence! | Intellect-based enemy handling |
-| Economy | Treasure Vault | Resource backup |
-| Encounter Protection | Ward of Protection, Fearless | Cancel treacheries, horror resistance |
-| Support | Evidence! | Clue on enemy defeat |
-| Skills | Deduction, Perception, Guts, Inquiring Mind | Commit to investigate and Willpower tests |
-
----
-
-## How It Plays
-
-**Turn 1:** Play Unbroken Codex (cost 1) — 4 resources spare. Drop Magnifying Glass (cost 1) if drawn — 3 resources spare. Investigate immediately at Intellect 6.
-
-**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play The Relic Harvester if available — every clue discovery now generates 1 resource.
-
-**Mid game:** Deduction commits to investigations for double clues. Crack the Case generates resources passively as clues accumulate. Working a Hunch grabs testless clues. Drawn to the Flame takes 2 clues at once at the cost of drawing an encounter card — high risk, high reward.
-
-**Enemy engaged:** Mind Over Matter lets him use Intellect 5 to evade or fight. Evidence! grabs a clue when defeating an enemy — turns rare combat moments into clue opportunities. Unbroken Codex Intellect evade is always available.
-
-**Encounter deck:** Ward of Protection cancels the worst treacheries. Fearless commits to Willpower tests and heals horror. Guts protects against Willpower-based encounter cards. Unbroken Codex ignores or cancels horror most rounds.
-
-**Sanity pressure:** The Ancient Binding prevents 1 damage/horror per round. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
-
----
-
-## Ally Upgrade Arcs
-
-### The Ancient Binding (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 3 | **4** |
-| Prevent | 1 dmg or horror | **2 dmg or horror** |
-| On defeat | Shuffle back | Shuffle back |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror.
-Forced — When The Ancient Binding is defeated: Take 1 horror and shuffle
-The Ancient Binding back into your deck.
-```
-*Flavor: "It does not age. Neither do I. We have an understanding."*
-
----
-
-### The Ancient Binding (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 4 | **5** |
-| SAN soak | 4 | **5** |
-| Prevent | 2 | 2 |
-| New | — | **Redirect prevented damage to enemy** |
-| On defeat | Shuffle back | **Shuffle back + draw 1** |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror. You may deal that amount of damage
-to any enemy at your location.
-Forced — When The Ancient Binding is defeated: Take 1 horror, draw 1 card,
-and shuffle The Ancient Binding back into your deck.
-```
-*Flavor: "I have watched it fight for me for two hundred years. I have never seen it tire."*
-
----
-
-### The Relic Harvester (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 2 | **3** |
-| Economy | 1r per investigate | **1r per clue discovered** |
-| Search | Top 5, action | Top 5, action |
-
-```
-Alistair Greystoke deck only.
-After you discover 1 or more clues (by any means): Gain 1 resource.
-<act> Exhaust The Relic Harvester: Search the top 5 cards of your deck
-for an Item asset and draw it. Shuffle your deck.
-```
-*Flavor: "The debt compounds. It seems content with the arrangement."*
-
----
-
-### The Relic Harvester (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 2 | **3** |
-| Economy | 1r per clue (self) | **1r per clue (any investigator at location)** |
-| Search | Top 5, action | **Top 10, free after investigate** |
-
-```
-Alistair Greystoke deck only.
-After any investigator at your location discovers 1 or more clues:
-Gain 1 resource.
-<fre> After you successfully investigate: You may exhaust The Relic Harvester
-to search the top 10 cards of your deck for an Item asset and draw it.
-Shuffle your deck.
-```
-*Flavor: "A life spared. Two hundred years repaid. We are almost even."*
-
----
-
-## Custom Upgrade Cards
-
-### Centuries of Memory (1)
-**Level:** 1 | **Cost:** 2 XP | **Type:** Skill | **Icons:** 2 × `<int>`
-
-```
-After you commit Centuries of Memory to a skill test and succeed:
-Draw 1 card. If you discovered 1 or more clues this round, draw 2 cards instead.
-```
-*Flavor: "Two hundred years of pattern recognition. The answer was already there."*
-
----
-
-### The Immortal's Eye (4)
-**Level:** 4 | **Cost:** 3r | **Type:** Asset — Arcane | **Icons:** 2 × `<int>`
-
-```
-Alistair Greystoke deck only. Unique.
-
-<fre> At the start of the enemy phase: Look at the top card of the encounter
-deck. You may move it to the bottom of the deck.
-
-<act> Exhaust The Immortal's Eye: Choose an investigator at your location.
-That investigator gets +3 <int> until the end of the round.
-
-<rea> After any investigator at your location would draw a treachery:
-Exhaust The Immortal's Eye — that investigator may discard it unresolved
-instead. Take 1 horror.
-```
-*Flavor: "I have watched it all for two centuries. Nothing surprises me. Everything horrifies me."*
-
----
-
-## Upgrade Path (XP Priorities)
-
-| Priority | Card | XP Cost | Why |
-|---|---|---|---|
-| 1 | The Relic Harvester (2) | 4 XP | 1r per clue by any means — broader economy trigger |
-| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 |
-| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak — swarm survives longer |
-| 4 | The Unbroken Codex (2) | 4 XP | Team INT evade + cancel horror for any investigator |
-| 5 | The Ancient Binding (2) | 4 XP | Prevent 2 damage or horror per exhaust |
-| 6 | Centuries of Memory (1) | 2 XP | Draw 1-2 cards after INT success |
-| 7 | Intellectual Violence (3) | 6 XP | INT attack — 2-3 dmg + clue on kill |
-| 8 | The Relic Harvester (4) | 4 XP | Team economy + free search after investigate |
-| 9 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter, cancel treacheries |
-| 10 | The Ancient Binding (4) | 4 XP | Redirect prevented damage to enemy |
-| 11 | The Immortal's Eye (4) | 8 XP | Peek enemy phase, +3 INT team, cancel treachery |
-
----
-
-## Folder Structure
-
-```
-Alistair Greystoke/
-├── art/                                ← all MJ generated and reference art
-├── 001-Alistair-Greystoke/             ← Greystoke-Investigator.eon, Greystoke-Mini-Marker.eon
-├── 002-Wisdom-of-Antiquity/            ← Greystoke-Asset-Wisdom-of-Antiquity.eon
-├── 003-The-Unbroken-Codex/             ← Greystoke-Sig-Asset-The-Unbroken-Codex.eon
-├── 004-My-Glass-is-Nearly-Run/         ← Greystoke-Sig-Weakness-My-Glass-Is-Nearly-Run.eon
-├── 005-The-Ancient-Binding/            ← Greystoke-Asset-The-Ancient-Binding.eon
-├── 005-006-Magnifying-Glass/           ← deck card
-├── 007-Dr-Milan-Christopher/           ← deck card
-├── 008-009-Laboratory-Assistant/       ← deck card
-├── 010-Research-Librarian/             ← deck card
-├── 011-012-Deduction/                  ← deck card
-├── 013-014-Perception/                 ← deck card
-├── 015-016-Crack-the-Case/             ← deck card
-├── 017-018-Working-a-Hunch/            ← deck card
-├── 019-Cryptic-Research/               ← deck card
-├── 020-021-Drawn-to-the-Flame/         ← deck card
-├── 022-023-Mind-Over-Matter/           ← deck card
-├── 024-025-Emergency-Cache/            ← deck card
-├── 026-027-Ward-of-Protection/         ← deck card
-├── 028-029-Fearless/                   ← deck card
-├── 030-First-Aid/                      ← deck card
-├── 031-Evidence/                       ← deck card
-├── 032-033-Guts/                       ← deck card
-├── 038-039-Inquiring-Mind/             ← deck card
-└── Alistair-Greystoke-Card-Data.md
-```
-
-Each card folder contains the .eon working file and exported card PNGs. Art folder at root is shared across all cards.
+| 006 | The Ancient Binding ×1 | Asset — Ally | 3 | Ally. Monster. Dimensional. | 3/3 soak. [rea] After you would be dealt damage or horror: Exhaust — prevent 1 of that damage or horror. [for] When defeated: Take 1 horror and shuffle back into deck. | "It does not protect me out of loyalty. It protects me because the cosmos demands I survive." |
+| 007 | The Relic Harvester ×1 | Asset — Ally | 2 | Ally. Monster. Mi-Go. | 2/2 soak. After you successfully investigate and discover 1 or more clues: Gain 1 resource. [act] Exhaust: Search top 5 cards of your deck for an asset and draw it. | "You Spared My life, I shall repay in Kind." |
+| 008 | My Eyes and Ears ×1 | Asset — Ally | 2 | Ally. Creature. Swarm. | 1/3 soak. [rea] After you successfully investigate: Discover 1 additional clue at your location. [for] When defeated: Place 1 doom on the current agenda. | "Check every corner. Under every stone." |
+| 009 | The Summoner's Deck ×1 | Asset — Accessory | 2 | Item. Tome. Relic. Cursed. | You have 1 additional ally slot. May have 2 unique Ally assets in play simultaneously. [rea] After an Ally is defeated: Exhaust — shuffle that Ally into deck instead of discarding. | "Each hellish card played with hope for the future." |
+| 010 | Arkham's Ring ×1 | Asset — Accessory | 1 | Item. Relic. | [act] Exhaust: You get +2 <com> until the end of the round. | "The stone is warm. It listens to me." |
+| 011 | Whispers from the Archive ×1 | Event | 2 | Insight. | Fast. Draw 3 cards. | "Two hundred years of archives. They whisper back now." |
+| 012-013 | Deduction ×2 | Skill | — | Practiced. | If successful while investigating: Discover 1 additional clue at that location. | "I knew I had seen this symbol before." |
+| 014-015 | Perception ×2 | Skill | — | Practiced. | Max 1 per test. If successful: Draw 1 card. | "At last, I've found it!" |
+| 016-017 | Crack the Case ×2 | Event | 0 | Insight. | Fast. Play after investigator discovers last clue at your location. Each investigator at your location gains 1 resource per point of that location's shroud value. | "The truth always has a price. Fortunately, so does silence." |
+| 018-019 | Working a Hunch ×2 | Event | 2 | Insight. | Fast. Play only during your turn. Discover 1 clue at your location. | "Sometimes you just know." |
+| 020-021 | Drawn to the Flame ×2 | Event | 0 | Insight. | Draw the top card of the encounter deck. Then, discover 2 clues at your location. | "We live on a placid island of ignorance in the midst of black seas of infinity." |
+| 022-023 | Mind Over Matter ×2 | Event | 0 | Insight. | Fast. Play only during your turn. Until end of round, you may use <int> in place of <com> and <agi>. | — |
+| 024-025 | Treasure Vault ×2 | Event | 0 | Supply. | Gain 3 resources. | "200 years of saving." |
+| 026-027 | Ward of Protection ×2 | Event | 1 | Spell. Spirit. | Fast. Play when you draw a non-weakness treachery card. Cancel that card's revelation effect. Then, take 1 horror. | "Against the darkness, even a small light holds." |
+| 028-029 | Fearless ×2 | Skill | — | Innate. | If this skill test is successful, heal 1 horror. | "Fear is a luxury. I stopped affording it long ago." |
+| 030 | Evidence ×1 | Event | 1 | Insight. | Play after an enemy is defeated at your location. Discover 1 clue at your location. | "Every monster leaves a trail. You just have to know where to look." |
+| 031-032 | Guts ×2 | Skill | — | Innate. | Max 1 per test. If successful: Draw 1 card. | "Two hundred years of facing the worst. It gets easier. It doesn't." |
+| 033-034 | Inquiring Mind ×2 | Skill | — | Innate. | Commit to a skill test only if there is a clue at your location. | "There is always more to find. Always." |
 
 ---
 
@@ -1082,517 +143,60 @@ Each card folder contains the .eon working file and exported card PNGs. Art fold
 
 | Field | Value |
 |---|---|
-| **Expansion** | The R'lyeh Expansion |
 | **Pack Name** | Alistair Greystoke Investigator Pack |
 | **Pack Code** | RYP-AG |
-| **Total Cards** | 008 |
+| **Total Cards** | 034 |
+| **Investigator** | 001 Alistair Greystoke |
+| **Signature Asset 1** | 002 Wisdom of Antiquity (shuffled in) |
+| **Signature Asset 2** | 003 The Unbroken Codex (shuffled in) |
+| **Signature Asset 3** | 004 The Collector's Ledger (shuffled in) |
+| **Signature Weakness** | 005 My Glass is Nearly Run (shuffled in) |
+| **Deck** | 006-034 (29 cards — ⚠️ confirm) |
 
-### Card List & Numbers
+---
 
-| # | Card Name | Type |
-|---|---|---|
-| 001 | Alistair Greystoke | Investigator |
-| 002 | Wisdom of Antiquity | Asset – Signature |
-| 003 | The Unbroken Codex | Asset – Signature |
-| 004 | My Glass is Nearly Run | Treachery – Weakness |
-| 005 | The Ancient Binding | Asset – Regular |
-| 006 | The Relic Harvester | Asset – Regular |
-| 007 | My Eyes and Ears | Asset – Regular |
-| 008 | The Summoner's Deck | Asset – Regular |
+## Slot Picture
 
-### Strange Eons Collection Fields
-*(Use these on every card in this pack)*
-
-**Set Name:**
-```
-Alistair Greystoke Investigator Pack
-```
-
-**Set Code:**
-```
-RYP-AG
-```
-
-**Total Cards:**
-```
-008
-```
-
-### File Naming Convention
-```
-RYP-AG-001-Alistair-Greystoke-Front.png
-RYP-AG-001-Alistair-Greystoke-Back.png
-RYP-AG-002-Wisdom-of-Antiquity-Front.png
-RYP-AG-002-Wisdom-of-Antiquity-Back.png
-RYP-AG-003-The-Unbroken-Codex-Front.png
-RYP-AG-003-The-Unbroken-Codex-Back.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
-RYP-AG-005-The-Ancient-Binding-Front.png
-RYP-AG-005-The-Ancient-Binding-Back.png
-RYP-AG-006-The-Relic-Harvester-Front.png
-RYP-AG-006-The-Relic-Harvester-Back.png
-RYP-AG-007-My-Eyes-and-Ears-Front.png
-RYP-AG-007-My-Eyes-and-Ears-Back.png
-RYP-AG-008-The-Summoners-Deck-Front.png
-RYP-AG-008-The-Summoners-Deck-Back.png
-```
-.Groups[3].Value
- — The Unbroken Codex
-
-| Field | Value |
+| Slot | Card |
 |---|---|
-| **Type** | Asset – Arcane |
-| **Slot** | Arcane |
-| **Cost** | 1 |
-| **Traits** | Item. Tome. Relic. |
-| **Subtitle** | Two Centuries of Notes |
-| **Flavor** | *"I have watched every predator on this earth hunt. I know exactly how they move."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your Intellect instead of Agility when evading enemies.
-
-**[Reaction]** After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-**[Reaction]** After you successfully investigate: Exhaust The Unbroken Codex — cancel the next horror you would be dealt until the end of this round.
+| Hand 1 | Open |
+| Hand 2 | Open |
+| Arcane 1 | The Unbroken Codex |
+| Arcane 2 | The Collector's Ledger |
+| Accessory | The Summoner's Deck |
+| Body | Open |
+| Ally 1 | The Ancient Binding / The Relic Harvester / My Eyes and Ears |
+| Ally 2 | (via The Summoner's Deck — extra slot) |
 
 ---
 
-## Signature Weakness — My Glass is Nearly Run
+## Key Design Decisions — LOCKED (EON VERIFIED)
 
-| Field | Value |
+| Decision | Value |
 |---|---|
-| **Type** | Treachery – Weakness |
-| **Traits** | Flaw. Curse. |
-| **Health/Sanity soak** | 3/3 |
-| **Flavor** | *"My glass is nearly run, and I am spent with the toils of a two hundred years."* |
-
-### Text
-**Revelation** — Attach to Alistair Greystoke.
-
-**Forced** — When Alistair Greystoke successfully investigates: If his location has 3 or more clues, instead of drawing 1 card from his ability, discard 1 card from your hand.
-
-**[Action]** Spend 3 clues from any location: Discard My Glass Is Nearly Run.
+| Stats | WIL 3 / INT 5 / COM 3 / AGI 2 / HP 7 / SAN 7 |
+| Ability | [rea] After successful investigate: Draw 1 card (once per round) |
+| Elder Sign | +1. Draw 1 card and gain 1 resource on success |
+| Wisdom of Antiquity | Cost 0, no slot, +1 INT, search Tome on enter play, free re-investigate on exhaust |
+| Unbroken Codex | Cost 1, Arcane, 2 SAN soak, INT replaces AGI for evade, exhaust ignore 1 horror |
+| Collector's Ledger | Cost 1, Arcane, 1 SAN soak, gain 2r after drawing from ability |
+| My Glass is Nearly Run | Weakness, take 1 horror per upkeep, spend 5 clues to discard |
+| Ancient Binding | Cost 3, Ally, 3/3 soak, exhaust prevent 1 dmg/hor, defeated: take 1 hor + shuffle back |
+| Relic Harvester | Cost 2, Ally, 2/2 soak, gain 1r per successful investigate, exhaust search top 5 for asset |
+| My Eyes and Ears | Cost 2, Ally, 1/3 soak, +1 clue on successful investigate, defeat: place 1 doom |
+| Summoner's Deck | Cost 2, Accessory, +1 ally slot, 2 unique allies simultaneously, exhaust shuffle defeated ally back |
+| Arkham's Ring | Cost 1, Accessory, exhaust: +2 COM until end of round |
+| Crack the Case | Cost 0, fast, last clue at location: all investigators gain 1r per shroud |
+| Drawn to the Flame | Cost 0, draw encounter card, discover 2 clues |
+| Mind Over Matter | Cost 0, fast, use INT for COM and AGI until end of round |
+| Deduction | Skill, practiced, +1 clue on investigate success |
 
 ---
 
-### The Unbroken Codex — Level 2 Upgrade
+## ⚠️ Items Requiring Attention
 
-| Field | Value |
+| Item | Issue |
 |---|---|
-| **Cost** | 2 |
-| **XP** | 4 XP |
-| **Slot** | Arcane |
-
-### Text
-Alistair Greystoke deck only.
-
-You may use your `<int>` instead of `<agi>` when evading enemies. Each investigator at your location may use your `<int>` instead of their own `<agi>` when evading.
-
-`<rea>` After you would be dealt horror from an encounter card or enemy effect: Exhaust The Unbroken Codex — ignore 1 of that horror.
-
-`<rea>` After any investigator at your location successfully investigates: Exhaust The Unbroken Codex — cancel the next horror that investigator would be dealt until the end of this round.
-
-### Flavor
-*"Two hundred years of knowing how they move. Now I can show you."*
-
----
-
-## Regular Deck Asset #1 — The Ancient Binding
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Dimensional. |
-| **Subtitle** | It Has Always Been There |
-| **Health/Sanity soak** | 3/3 |
-| **Unique** | Yes |
-| **Flavor** | *"It does not protect me out of loyalty. It protects me because the cosmos demands I survive."* |
-
-### Text
-Alistair Greystoke deck only.
-
-**<rea>** After you would be dealt damage or horror: Exhaust The Ancient Binding — prevent 1 of that damage or horror.
-
-**Forced** — When The Ancient Binding is defeated: Take 1 horror and shuffle The Ancient Binding back into your deck.
-
----
-
-## Regular Deck Asset #2 — The Relic Harvester
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 3 |
-| **Traits** | Ally. Monster. Mi-Go. |
-| **Subtitle** | A Debt Long Owed |
-| **Health/Sanity soak** | 2/2 |
-| **Unique** | Yes |
-| **Flavor** | *"A life spared. A debt owed."* |
-
-### Text
-Alistair Greystoke deck only.
-
-After you successfully investigate and discover 1 or more clues: Gain 1 resource.
-
-**<act>** Exhaust The Relic Harvester: Search the top 5 cards of your deck for an Item asset and draw it. Shuffle your deck.
-
----
-
-## Regular Deck Asset #3 — My Eyes and Ears
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Ally |
-| **Slot** | Ally |
-| **Cost** | 2 |
-| **Traits** | Ally. Creature. Swarm. |
-| **Subtitle** | There Are Many |
-| **Health/Sanity soak** | 1/3 |
-| **Unique** | Yes |
-| **Flavor** | *"Check every corner. Under every stone."* |
-
-### Text
-Alistair Greystoke deck only.
-
-**<rea>** After you successfully investigate: Discover 1 additional clue at your location.
-
-**Forced** — When My Eyes and Ears is defeated: Place 1 doom on the current agenda.
-
----
-
-## Regular Deck Asset #4 — The Summoner's Deck
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Accessory |
-| **Slot** | Accessory |
-| **Cost** | 2 |
-| **Traits** | Item. Tome. Relic. Cursed. |
-| **Subtitle** | Bound with the Arcane |
-| **Health/Sanity soak** | —/2 |
-| **Unique** | Yes |
-| **Flavor** | *"Each hellish card played with hope for the future."* |
-
-### Text
-Alistair Greystoke deck only.
-
-You have 1 additional ally slot.
-
-You may have 2 unique Ally assets in play simultaneously.
-
-**<rea>** After an Ally asset you control is defeated: Exhaust The Summoner's Deck — shuffle that Ally into your deck instead of discarding it.
-
----
-
-- **Core loop:** Investigate → draw cards → fuel hand → investigate more. Every card in the set orbits this engine.
-- **Weakness tension:** The weakness hits exactly when Greystoke is most powerful — at clue-rich locations. Investigating where he's most effective flips his card draw into a card discard. A -2 card swing that punishes aggressive clue-gathering.
-- **Escape condition:** Spend 3 clues from any location — expensive but achievable. Requires planning.
-- **Signature assets:** Two signatures covering distinct roles. Wisdom of Antiquity is pure economy and healing — plays and goes, no slot occupied, nets 2 resources and chains a draw. The Unbroken Codex is a permanent Arcane asset that stays in play — solves the Agility 2 self-defense gap (Intellect evade), passive horror ignore, and proactive horror cancel tied to the investigate loop. Together they tell his full story: the scholar's wealth of knowledge and the immortal's centuries of hard-won resilience.
-- **The Unbroken Codex:** Arcane slot, cost 1. Uses 5 Intellect for evading — turns his greatest strength into a defense tool. Ignore reaction uses official Deny Existence language — horror occurs but doesn't apply. Cancel reaction uses Ward of Protection language — proactively banks full protection after a successful investigate. Two distinct official mechanics on one card, clearly differentiated.
-- **Wording rationale:** "Ignore" and "cancel" are mechanically distinct in Arkham LCG — ignore means the effect happens but doesn't apply to you; cancel means it never happens. First reaction uses ignore (appropriate for passive resilience). Second reaction uses cancel (appropriate for proactive protection). Consistent with Deny Existence and Ward of Protection respectively.
-- **Elder Sign:** +1, draw 1 card and gain 1 resource on success. Above average for Seeker class. Differentiated from Ironhide's identical Elder Sign by context — Greystoke tests Intellect constantly, so Elder Sign fires frequently and rewards his core investigate loop.
-- **Deckbuilding splash:** Guardian 0–2 (Evidence!, Evidence!, Guts). Mystic 0–2 (Ward of Protection, Fearless). Both represented in final 30-card deck list.
-- **Custom allies:** Three custom Mythos creature allies replace all official allies — The Ancient Binding (Dimensional Shambler, defender), The Relic Harvester (Mi-Go, economy), My Eyes and Ears (red-eyed rat swarm, clue accelerator). Each has a unique relationship with Greystoke built across two centuries.
-- **The Summoner's Deck:** Accessory slot item that grants a second ally slot and shuffles defeated allies back into the deck. Enables fielding two of the three custom allies simultaneously — meaningful scenario-by-scenario decision.
-- **Stat profile:** 5 Intellect is the highest in the Seeker class. 7/7 health/sanity is above average but not extreme — balanced for the immortality theme.
-- **Pairing:** Designed to stay behind Ironhide, gathering clues while Ironhide handles threats. Low Agility means he needs cover. Unbroken Codex provides meaningful solo capability when Ironhide is occupied.
-
----
-
-## Deck List (30 Cards)
-
-*Signatures not counted toward deck size: Wisdom of Antiquity, The Unbroken Codex, My Glass is Nearly Run, 1 random Basic Weakness*
-
-| # | Card Name | Type | Class | Level | Qty | Folder |
-|---|---|---|---|---|---|---|
-| 1 | Magnifying Glass | Asset – Hand | Seeker | 0 | ×2 | 009-010-Magnifying-Glass |
-| 2 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×1 | 005-The-Ancient-Binding |
-| 3 | The Relic Harvester | Asset – Ally | Seeker | 0 | ×1 | 006-The-Relic-Harvester |
-| 4 | My Eyes and Ears | Asset – Ally | Seeker | 0 | ×1 | 007-My-Eyes-and-Ears |
-| 5 | The Summoner's Deck | Asset – Accessory | Seeker | 0 | ×1 | 008-The-Summoners-Deck |
-| 6 | Deduction | Skill | Seeker | 0 | ×2 | 015-016-Deduction |
-| 7 | Perception | Skill | Seeker | 0 | ×2 | 017-018-Perception |
-| 8 | Crack the Case | Event | Seeker | 0 | ×2 | 019-020-Crack-the-Case |
-| 9 | Working a Hunch | Event | Seeker | 0 | ×2 | 021-022-Working-a-Hunch |
-| 10 | Drawn to the Flame | Event | Seeker | 0 | ×2 | 024-025-Drawn-to-the-Flame |
-| 11 | Mind Over Matter | Event | Seeker | 0 | ×2 | 026-027-Mind-Over-Matter |
-| 12 | Treasure Vault *(Treasure Vault)* | Event | Neutral | 0 | ×2 | 028-029-Treasure-Vault |
-| 13 | Ward of Protection | Event | Mystic | 0 | ×2 | 030-031-Ward-of-Protection |
-| 14 | Fearless | Skill | Mystic | 0 | ×2 | 032-033-Fearless |
-| 15 | Evidence! | Event | Guardian | 0 | ×1 | 035-Evidence |
-| 16 | Guts | Skill | Guardian | 0 | ×2 | 036-037-Guts |
-| 17 | Inquiring Mind | Skill | Neutral | 0 | ×2 | 038-039-Inquiring-Mind |
-| 18 | The Ancient Binding | Asset – Ally | Seeker | 0 | ×2 | 005-The-Ancient-Binding |
-| | **TOTAL** | | | | **30** | |
-
----
-
-## Deck Role Breakdown
-
-| Category | Cards | Role |
-|---|---|---|
-| Clue Assets | Magnifying Glass | Boost investigate tests |
-| Ally Assets | The Ancient Binding, The Relic Harvester, My Eyes and Ears | Defender, economy, clue acceleration |
-| Clue Events | Crack the Case, Working a Hunch, Drawn to the Flame | Clue compression and acceleration |
-| Enemy Management | Mind Over Matter, Evidence! | Intellect-based enemy handling |
-| Economy | Treasure Vault | Resource backup |
-| Encounter Protection | Ward of Protection, Fearless | Cancel treacheries, horror resistance |
-| Support | Evidence! | Clue on enemy defeat |
-| Skills | Deduction, Perception, Guts, Inquiring Mind | Commit to investigate and Willpower tests |
-
----
-
-## How It Plays
-
-**Turn 1:** Play Unbroken Codex (cost 1) — 4 resources spare. Drop Magnifying Glass (cost 1) if drawn — 3 resources spare. Investigate immediately at Intellect 6.
-
-**Turn 2:** Wisdom of Antiquity fires from hand — gain 2 resources, chain draw 1 card. Play The Relic Harvester if available — every clue discovery now generates 1 resource.
-
-**Mid game:** Deduction commits to investigations for double clues. Crack the Case generates resources passively as clues accumulate. Working a Hunch grabs testless clues. Drawn to the Flame takes 2 clues at once at the cost of drawing an encounter card — high risk, high reward.
-
-**Enemy engaged:** Mind Over Matter lets him use Intellect 5 to evade or fight. Evidence! grabs a clue when defeating an enemy — turns rare combat moments into clue opportunities. Unbroken Codex Intellect evade is always available.
-
-**Encounter deck:** Ward of Protection cancels the worst treacheries. Fearless commits to Willpower tests and heals horror. Guts protects against Willpower-based encounter cards. Unbroken Codex ignores or cancels horror most rounds.
-
-**Sanity pressure:** The Ancient Binding prevents 1 damage/horror per round. Fearless heals 1 horror on commit. Wisdom of Antiquity heals 1 damage or horror when played. Unbroken Codex absorbs 1 horror per round passively.
-
----
-
-## Ally Upgrade Arcs
-
-### The Ancient Binding (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 3 | **4** |
-| Prevent | 1 dmg or horror | **2 dmg or horror** |
-| On defeat | Shuffle back | Shuffle back |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror.
-Forced — When The Ancient Binding is defeated: Take 1 horror and shuffle
-The Ancient Binding back into your deck.
-```
-*Flavor: "It does not age. Neither do I. We have an understanding."*
-
----
-
-### The Ancient Binding (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 4 | **5** |
-| SAN soak | 4 | **5** |
-| Prevent | 2 | 2 |
-| New | — | **Redirect prevented damage to enemy** |
-| On defeat | Shuffle back | **Shuffle back + draw 1** |
-
-```
-Alistair Greystoke deck only.
-<rea> After you would be dealt damage or horror: Exhaust The Ancient Binding
-— prevent 2 of that damage or horror. You may deal that amount of damage
-to any enemy at your location.
-Forced — When The Ancient Binding is defeated: Take 1 horror, draw 1 card,
-and shuffle The Ancient Binding back into your deck.
-```
-*Flavor: "I have watched it fight for me for two hundred years. I have never seen it tire."*
-
----
-
-### The Relic Harvester (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 2 | **3** |
-| Economy | 1r per investigate | **1r per clue discovered** |
-| Search | Top 5, action | Top 5, action |
-
-```
-Alistair Greystoke deck only.
-After you discover 1 or more clues (by any means): Gain 1 resource.
-<act> Exhaust The Relic Harvester: Search the top 5 cards of your deck
-for an Item asset and draw it. Shuffle your deck.
-```
-*Flavor: "The debt compounds. It seems content with the arrangement."*
-
----
-
-### The Relic Harvester (4)
-**Level:** 4 | **XP:** +4 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 4 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| SAN soak | 2 | **3** |
-| Economy | 1r per clue (self) | **1r per clue (any investigator at location)** |
-| Search | Top 5, action | **Top 10, free after investigate** |
-
-```
-Alistair Greystoke deck only.
-After any investigator at your location discovers 1 or more clues:
-Gain 1 resource.
-<fre> After you successfully investigate: You may exhaust The Relic Harvester
-to search the top 10 cards of your deck for an Item asset and draw it.
-Shuffle your deck.
-```
-*Flavor: "A life spared. Two hundred years repaid. We are almost even."*
-
----
-
-## Custom Upgrade Cards
-
-### Centuries of Memory (1)
-**Level:** 1 | **Cost:** 2 XP | **Type:** Skill | **Icons:** 2 × `<int>`
-
-```
-After you commit Centuries of Memory to a skill test and succeed:
-Draw 1 card. If you discovered 1 or more clues this round, draw 2 cards instead.
-```
-*Flavor: "Two hundred years of pattern recognition. The answer was already there."*
-
----
-
-### The Immortal's Eye (4)
-**Level:** 4 | **Cost:** 3r | **Type:** Asset — Arcane | **Icons:** 2 × `<int>`
-
-```
-Alistair Greystoke deck only. Unique.
-
-<fre> At the start of the enemy phase: Look at the top card of the encounter
-deck. You may move it to the bottom of the deck.
-
-<act> Exhaust The Immortal's Eye: Choose an investigator at your location.
-That investigator gets +3 <int> until the end of the round.
-
-<rea> After any investigator at your location would draw a treachery:
-Exhaust The Immortal's Eye — that investigator may discard it unresolved
-instead. Take 1 horror.
-```
-*Flavor: "I have watched it all for two centuries. Nothing surprises me. Everything horrifies me."*
-
----
-
-## Upgrade Path (XP Priorities)
-
-| Priority | Card | XP Cost | Why |
-|---|---|---|---|
-| 1 | The Relic Harvester (2) | 4 XP | 1r per clue by any means — broader economy trigger |
-| 2 | Deduction (2) | 4 XP | Discover 2 extra clues instead of 1 |
-| 3 | My Eyes and Ears (2) | 4 XP | 3 HP soak — swarm survives longer |
-| 4 | The Unbroken Codex (2) | 4 XP | Team INT evade + cancel horror for any investigator |
-| 5 | The Ancient Binding (2) | 4 XP | Prevent 2 damage or horror per exhaust |
-| 6 | Centuries of Memory (1) | 2 XP | Draw 1-2 cards after INT success |
-| 7 | Intellectual Violence (3) | 6 XP | INT attack — 2-3 dmg + clue on kill |
-| 8 | The Relic Harvester (4) | 4 XP | Team economy + free search after investigate |
-| 9 | Centuries of Knowledge (3) | 6 XP | See top 5 encounter, cancel treacheries |
-| 10 | The Ancient Binding (4) | 4 XP | Redirect prevented damage to enemy |
-| 11 | The Immortal's Eye (4) | 8 XP | Peek enemy phase, +3 INT team, cancel treachery |
-
----
-
-## Folder Structure
-
-```
-Alistair Greystoke/
-├── art/                                ← all MJ generated and reference art
-├── 001-Alistair-Greystoke/             ← Greystoke-Investigator.eon, Greystoke-Mini-Marker.eon
-├── 002-Wisdom-of-Antiquity/            ← Greystoke-Asset-Wisdom-of-Antiquity.eon
-├── 003-The-Unbroken-Codex/             ← Greystoke-Sig-Asset-The-Unbroken-Codex.eon
-├── 004-My-Glass-is-Nearly-Run/         ← Greystoke-Sig-Weakness-My-Glass-Is-Nearly-Run.eon
-├── 005-The-Ancient-Binding/            ← Greystoke-Asset-The-Ancient-Binding.eon
-├── 005-006-Magnifying-Glass/           ← deck card
-├── 007-Dr-Milan-Christopher/           ← deck card
-├── 008-009-Laboratory-Assistant/       ← deck card
-├── 010-Research-Librarian/             ← deck card
-├── 011-012-Deduction/                  ← deck card
-├── 013-014-Perception/                 ← deck card
-├── 015-016-Crack-the-Case/             ← deck card
-├── 017-018-Working-a-Hunch/            ← deck card
-├── 019-Cryptic-Research/               ← deck card
-├── 020-021-Drawn-to-the-Flame/         ← deck card
-├── 022-023-Mind-Over-Matter/           ← deck card
-├── 024-025-Emergency-Cache/            ← deck card
-├── 026-027-Ward-of-Protection/         ← deck card
-├── 028-029-Fearless/                   ← deck card
-├── 030-First-Aid/                      ← deck card
-├── 031-Evidence/                       ← deck card
-├── 032-033-Guts/                       ← deck card
-├── 038-039-Inquiring-Mind/             ← deck card
-└── Alistair-Greystoke-Card-Data.md
-```
-
-Each card folder contains the .eon working file and exported card PNGs. Art folder at root is shared across all cards.
-
----
-
-## Pack Information
-
-| Field | Value |
-|---|---|
-| **Expansion** | The R'lyeh Expansion |
-| **Pack Name** | Alistair Greystoke Investigator Pack |
-| **Pack Code** | RYP-AG |
-| **Total Cards** | 008 |
-
-### Card List & Numbers
-
-| # | Card Name | Type |
-|---|---|---|
-| 001 | Alistair Greystoke | Investigator |
-| 002 | Wisdom of Antiquity | Asset – Signature |
-| 003 | The Unbroken Codex | Asset – Signature |
-| 004 | My Glass is Nearly Run | Treachery – Weakness |
-| 005 | The Ancient Binding | Asset – Regular |
-| 006 | The Relic Harvester | Asset – Regular |
-| 007 | My Eyes and Ears | Asset – Regular |
-| 008 | The Summoner's Deck | Asset – Regular |
-
-### Strange Eons Collection Fields
-*(Use these on every card in this pack)*
-
-**Set Name:**
-```
-Alistair Greystoke Investigator Pack
-```
-
-**Set Code:**
-```
-RYP-AG
-```
-
-**Total Cards:**
-```
-008
-```
-
-### File Naming Convention
-```
-RYP-AG-001-Alistair-Greystoke-Front.png
-RYP-AG-001-Alistair-Greystoke-Back.png
-RYP-AG-002-Wisdom-of-Antiquity-Front.png
-RYP-AG-002-Wisdom-of-Antiquity-Back.png
-RYP-AG-003-The-Unbroken-Codex-Front.png
-RYP-AG-003-The-Unbroken-Codex-Back.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Front.png
-RYP-AG-004-My-Glass-is-Nearly-Run-Back.png
-RYP-AG-005-The-Ancient-Binding-Front.png
-RYP-AG-005-The-Ancient-Binding-Back.png
-RYP-AG-006-The-Relic-Harvester-Front.png
-RYP-AG-006-The-Relic-Harvester-Back.png
-RYP-AG-007-My-Eyes-and-Ears-Front.png
-RYP-AG-007-My-Eyes-and-Ears-Back.png
-RYP-AG-008-The-Summoners-Deck-Front.png
-RYP-AG-008-The-Summoners-Deck-Back.png
-```
+| 001 PNGs | Missing Front and Back — needs regen in Strange Eons |
+| Deck size | 006-034 = 29 cards. Standard is 30. Need 1 more card or confirm 29. |
+| Art 004 | My Glass is Nearly Run — art not yet generated |
