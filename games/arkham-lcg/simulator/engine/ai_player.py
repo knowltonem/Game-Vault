@@ -101,6 +101,8 @@ class FightAction:
             if self.enemy in game_state.enemies:
                 game_state.enemies.remove(self.enemy)
             investigator.victory_points += getattr(self.enemy, 'victory', 0)
+            if self.enemy.name == "Servant of Flame":
+                game_state.servant_of_flame_defeated = True
 
 
 @dataclass

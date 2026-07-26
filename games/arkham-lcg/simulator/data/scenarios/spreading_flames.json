@@ -39,7 +39,7 @@
     {
       "id": "act_2a",
       "name": "The Source of the Fire",
-      "clues_needed": 8,
+      "clues_needed": 5,
       "text": "The fire is spreading. Find the source before it consumes the campus.",
       "victory": 0
     },
@@ -97,10 +97,38 @@
       "keywords": ""
     },
     {
+      "id": "fire2",
+      "name": "Fire!",
+      "type": "treachery",
+      "text": "Deal 1 damage to each asset you control. Test Agility 3.",
+      "keywords": ""
+    },
+    {
       "id": "cosmic_evils",
       "name": "Cosmic Evils",
       "type": "treachery",
       "text": "Choose: Place 1 doom on the current agenda, OR each investigator takes 1 damage and 1 horror.",
+      "keywords": ""
+    },
+    {
+      "id": "cosmic_evils2",
+      "name": "Cosmic Evils",
+      "type": "treachery",
+      "text": "Choose: Place 1 doom on the current agenda, OR each investigator takes 1 damage and 1 horror.",
+      "keywords": ""
+    },
+    {
+      "id": "caught_in_a_lie",
+      "name": "Caught in a Lie",
+      "type": "treachery",
+      "text": "Test Willpower 2. If you fail, take 1 horror.",
+      "keywords": ""
+    },
+    {
+      "id": "disorienting_fear",
+      "name": "Disorienting Fear",
+      "type": "treachery",
+      "text": "Test Willpower 2. If you fail, take 1 horror.",
       "keywords": ""
     },
     {
@@ -150,30 +178,6 @@
       "horror": 1,
       "keywords": "Cultist.",
       "text": ""
-    },
-    {
-      "id": "whip_of_wonder",
-      "name": "Whip-poor-will",
-      "type": "enemy",
-      "fight": 2,
-      "evade": 3,
-      "health": 1,
-      "damage": 0,
-      "horror": 2,
-      "keywords": "Hunter.",
-      "text": ""
-    },
-    {
-      "id": "strange_bird",
-      "name": "Strange Bird",
-      "type": "enemy",
-      "fight": 2,
-      "evade": 3,
-      "health": 1,
-      "damage": 0,
-      "horror": 1,
-      "keywords": "Alert.",
-      "text": ""
     }
   ],
   "victory_display": [
@@ -181,13 +185,13 @@
       "id": "servant_of_flame",
       "name": "Servant of Flame",
       "type": "enemy",
-      "fight": 5,
-      "evade": 4,
-      "health": 8,
-      "damage": 2,
+      "fight": 4,
+      "evade": 3,
+      "health": 6,
+      "damage": 1,
       "horror": 1,
       "victory": 5,
-      "keywords": "Hunter. Retaliate. Elite.",
+      "keywords": "Elite.",
       "text": "When Servant of Flame is spawned, place 2 doom on it. For each doom on Servant of Flame, it gets -1 fight."
     }
   ]

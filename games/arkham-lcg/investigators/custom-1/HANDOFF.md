@@ -303,7 +303,14 @@ EON files are the SOURCE OF TRUTH — always verify Card-Data.md against EON fil
 
 ## Simulation Results (EON Verified Card Data)
 
-### Abel + Nora vs Midnight Masks — ✅ VICTORY Round 8
+### Abel + Nora vs Spreading Flames — ✅ VICTORY Round 9 (88.5% win rate over 200 games)
+- Servant of Flame defeated (6 HP, fight 4)
+- Nora Warwick INT5 excellent at investigating (shroud 2-3 locations)
+- Abel WIL4/COM4 strong at fighting and mythos resilience
+- Bless tokens from both investigators' abilities stack effectively
+- AI learns to move between locations for clues
+
+### Previous sim (Midnight Masks) — ✅ VICTORY Round 8
 - Doom 8/11. All 4 cultists found.
 - Bless 16 tokens, 0 curse.
 - All 3 Abel set-asides appeared.
@@ -315,3 +322,50 @@ EON files are the SOURCE OF TRUTH — always verify Card-Data.md against EON fil
 - Museum Curator + Hunting Horror both spawned Round 1.
 - Abel no defensive assets in opening hand — died Round 3.
 - Not a card balance issue — variance/spawn issue.
+
+---
+
+## Game Simulator (Python CLI)
+
+A Python-based game simulator for testing custom investigators against scenarios.
+
+**Location:** `simulator/` (inside `arkham-lcg/`)
+
+### Quick Start
+```bash
+cd simulator
+py run.py simulate -i abel_redcloud,nora_warwick -s spreading_flames
+py run.py simulate -i abel_redcloud,nora_warwick -s spreading_flames -n 100  # Monte Carlo
+py run.py list-investigators
+py run.py list-scenarios
+```
+
+### Tech Stack
+- Python 3.14, Click (CLI), Rich (display), PyYAML (config)
+- JSON data files for investigators and scenarios
+- Game logs saved to `simulator/logs/`
+
+### Architecture
+- `engine/models.py` — Card, Investigator, Enemy, Location, Agenda, Act, GameState
+- `engine/chaos_bag.py` — Token draw, bless/curse management
+- `engine/skill_test.py` — Skill test resolution
+- `engine/combat.py` — Fight and evade resolution
+- `engine/phases.py` — Mythos, Investigation, Enemy, Upkeep phases
+- `engine/game.py` — Main game loop, win/loss conditions
+- `engine/ai_player.py` — Priority-based AI decision making
+- `engine/effects.py` — Card effect processing framework
+- `cli/main.py` — Click CLI commands
+- `cli/display.py` — Rich display helpers
+
+### Current State
+- ✅ Full game loop working (all 4 phases)
+- ✅ Abel Redcloud + Nora Warwick JSON data loaded
+- ✅ Spreading Flames scenario (5 locations, encounter deck, 3 agendas/acts)
+- ✅ Servant of Flame boss spawns on Agenda 1 advance
+- ✅ AI moves between locations to gather clues
+- ✅ Monte Carlo simulation (-n flag)
+- ✅ 88.5% win rate over 200 games (Abel + Nora vs Spreading Flames)
+- 🔧 Card effects framework (effects.py) — skeleton only
+- 🔧 Deck builder — placeholder
+- ⬜ Campaign mode (trauma/XP between scenarios)
+- ⬜ Additional investigators and scenarios

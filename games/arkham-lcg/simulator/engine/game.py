@@ -356,6 +356,10 @@ class Game:
                     if agenda_index >= 1:
                         inv.take_horror(1, source="Agenda advance")
 
+            # Spawn Servant of Flame when Agenda 1 advances
+            if agenda_index == 0:
+                self._spawn_servant_of_flame()
+
             # Advance to next agenda
             if agenda_index < len(self.game_state.agendas) - 1:
                 self.game_state.current_agenda = self.game_state.agendas[agenda_index + 1]
@@ -373,7 +377,6 @@ class Game:
                 # Advance to next act
                 if act_index < len(self.game_state.acts) - 1:
                     self.game_state.current_act = self.game_state.acts[act_index + 1]
-                    # Reset clue count for next act
                     self.game_state.clues_gathered = 0
                 else:
                     # Last act completed = victory!
@@ -383,6 +386,42 @@ class Game:
                         if not inv.is_defeated():
                             inv.victory_points += 5
                     return
+
+        # Check if Act 3 requires defeating Servant of Flame
+        if self.game_state.servant_of_flame_defeated:
+            self.game_over = True
+            self.game_over_reason = "Servant of Flame defeated — victory!"
+            for inv in self.game_state.investigators:
+                if not inv.is_defeated():
+                    inv.victory_points += 5
+            return
+
+    def _spawn_servant_of_flame(self):
+        """Spawn the Servant of Flame from the victory display."""
+        for card in self.game_state.victory_display:
+            if card.name == "Servant of Flame":
+                enemy = Enemy(
+                    id="servant_of_flame",
+                    name="Servant of Flame",
+                    type=card.type,
+                    fight=card.fight,
+                    evade=card.evade,
+                    health=card.health,
+                    current_health=card.health,
+                    damage=card.damage,
+                    horror=card.horror,
+                    victory=card.victory,
+                    keywords=card.keywords,
+                    traits=card.traits
+                )
+                # Spawn at first alive investigator's location
+                for inv in self.game_state.investigators:
+                    if not inv.is_defeated():
+                        enemy.engaged_with = inv.id
+                        inv.engaged_enemies.append(enemy)
+                        self.game_state.enemies.append(enemy)
+                        break
+                break
 
     def _create_result(self) -> GameResult:
         """Create the final game result."""
@@ -400,7 +439,7 @@ class Game:
         log_path = log_dir / f"game_{timestamp}.txt"
 
         return GameResult(
-            victory=self.game_over and "Victory" in self.game_over_reason,
+            victory=self.game_over and "victory" in self.game_over_reason.lower(),
             rounds_played=self.round_count,
             investigators_survived=survived,
             investigators_defeated=defeated,

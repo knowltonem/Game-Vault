@@ -1479,3 +1479,58 @@ After Step 14, we should be able to run:
 python run.py simulate --investigator abel_redcloud --scenario spreading_flames --difficulty standard --verbose
 ```
 And see a full game simulation with all card draws, skill tests, combat, and results.
+
+---
+
+## Implementation Progress (Updated Jul 2026)
+
+### Completed Steps
+| Step | Task | Status |
+|---|---|---|
+| 1 | Project setup + dependencies | ✅ Done |
+| 2 | Data models (Card, Investigator, Enemy, Location, GameState, Deck) | ✅ Done |
+| 3 | Chaos bag engine (Standard/Easy, bless/curse) | ✅ Done |
+| 4 | Skill test resolver | ✅ Done |
+| 5 | Combat resolver (fight, evade, enemy attack) | ✅ Done |
+| 6 | Phase implementations (Mythos, Investigation, Enemy, Upkeep) | ✅ Done |
+| 7 | Game loop + state + win/loss conditions | ✅ Done |
+| 8 | AI player (priority-based: fight > investigate > move > play) | ✅ Done |
+| 9 | Card effect resolver (skeleton) | ✅ Done |
+| 10 | Abel Redcloud JSON data (36 cards) | ✅ Done |
+| 11 | Nora Warwick JSON data (39 cards) | ✅ Done |
+| 12 | Spreading Flames scenario (5 locations, encounter deck, 3 agendas/acts) | ✅ Done |
+| 13 | CLI interface (simulate, list-investigators, list-scenarios) | ✅ Done |
+| 14 | Testing + debugging | ✅ Done |
+
+### Key Results
+- **Win Rate:** 88.5% over 200 games (Abel + Nora vs Spreading Flames, Standard)
+- **Average Rounds:** 9.6
+- **AI Behavior:** Moves between locations, fights engaged enemies, investigates for clues
+
+### Remaining Work
+| Step | Task | Priority |
+|---|---|---|
+| 15 | Campaign mode (trauma/XP between scenarios) | High |
+| 16 | Additional investigators (Eleanor, Agnes, etc.) | Medium |
+| 17 | Additional scenarios (Smoke and Mirrors, Queen of Ash) | Medium |
+| 18 | Card effect framework (trigger system, ability resolution) | Medium |
+| 19 | Deck builder CLI | Low |
+| 20 | Monte Carlo analysis (statistics, probability calculations) | Low |
+
+### CLI Usage
+```bash
+cd simulator
+
+# Single game
+py run.py simulate -i abel_redcloud,nora_warwick -s spreading_flames
+
+# Monte Carlo (100 games)
+py run.py simulate -i abel_redcloud,nora_warwick -s spreading_flames -n 100
+
+# List content
+py run.py list-investigators
+py run.py list-scenarios
+
+# Show investigator details
+py run.py show-investigator -i abel_redcloud
+```

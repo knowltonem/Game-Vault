@@ -267,6 +267,9 @@ class Investigator:
     ability_used_this_round: bool = False
     bless_tokens_added: int = 0
 
+    # Scenario tracking
+    servant_of_flame_defeated: bool = False
+
     def __post_init__(self):
         if self.current_health == 0:
             self.current_health = self.health
@@ -447,6 +450,7 @@ class GameState:
         self.scenario_name: str = ""
         self.scenario_id: str = ""
         self.action_log: List[str] = []
+        self.servant_of_flame_defeated: bool = False
 
     def add_investigator(self, investigator: Investigator):
         """Add an investigator to the game."""

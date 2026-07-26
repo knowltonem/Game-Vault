@@ -1,10 +1,15 @@
 import click
+import json
 from pathlib import Path
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
-from ..engine.game import Game
-from .display import display_game_result, display_investigator, display_scenario
+import sys
+
+# Add parent to path for imports when run as script
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from engine.game import Game
+from cli.display import display_game_result, display_investigator
 
 console = Console()
 
@@ -19,20 +24,35 @@ def cli():
 @click.option('--difficulty', '-d', default='standard', help='Difficulty level (easy, standard)')
 @click.option('--rounds', '-r', default=50, help='Maximum number of rounds')
 @click.option('--verbose', '-v', is_flag=True, help='Enable verbose logging')
-def simulate(investigator, scenario, difficulty, rounds, verbose):
-    """Run a single game simulation."""
+@click.option('--games', '-n', default=1, help='Number of games to simulate')
+def simulate(investigator, scenario, difficulty, rounds, verbose, games):
+    """Run game simulation(s)."""
     import logging
     if verbose:
         logging.basicConfig(level=logging.INFO)
 
-    # Parse multiple investigators
     inv_ids = [i.strip() for i in investigator.split(',')]
 
-    # Create and run game
-    game = Game(investigator_ids=inv_ids, scenario_id=scenario, difficulty=difficulty)
-    result = game.run(max_rounds=rounds)
+    if games == 1:
+        game = Game(investigator_ids=inv_ids, scenario_id=scenario, difficulty=difficulty)
+        result = game.run(max_rounds=rounds)
+        display_game_result(result)
+    else:
+        wins = 0
+        total_rounds = 0
+        for i in range(games):
+            game = Game(investigator_ids=inv_ids, scenario_id=scenario, difficulty=difficulty)
+            result = game.run(max_rounds=rounds)
+            if result.victory:
+                wins += 1
+            total_rounds += result.rounds_played
 
-    display_game_result(result)
+        table = Table(title=f"Monte Carlo Results ({games} games)")
+        table.add_column("Metric", style="cyan")
+        table.add_column("Value", style="green")
+        table.add_row("Win Rate", f"{wins}/{games} ({wins/games*100:.1f}%)")
+        table.add_row("Avg Rounds", f"{total_rounds/games:.1f}")
+        console.print(table)
 
 @cli.command()
 def list_investigators():
@@ -88,16 +108,9 @@ def show_investigator(investigator):
     with open(filepath) as f:
         data = json.load(f)
 
-    # Create a temporary game to load the investigator
-    game = Game(investigator_ids=[investigator], scenario_id="default")
+    game = Game(investigator_ids=[investigator], scenario_id="spreading_flames")
     inv = game.game_state.get_investigator(investigator)
     display_investigator(inv)
-
-@cli.command()
-def deck_builder():
-    """Interactive deck builder."""
-    console.print("[bold]Deck Builder[/bold]")
-    console.print("This feature is coming soon!")
 
 if __name__ == '__main__':
     cli()
