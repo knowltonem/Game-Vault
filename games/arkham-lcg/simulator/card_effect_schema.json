@@ -1,0 +1,450 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Arkham Horror LCG Card Effect Schema",
+  "description": "JSON schema for representing card effects in the AHLCG simulator. Designed to be human-readable for hand-writing 100+ cards, machine-parseable for the Python engine, and extensible via the type discriminator pattern.",
+  "type": "object",
+  "required": ["card_id", "name", "type"],
+  "properties": {
+    "card_id": {
+      "type": "string",
+      "description": "Unique card identifier (e.g. RYP-AR-002, 12129)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Card name"
+    },
+    "subtitle": {
+      "type": "string",
+      "description": "Card subtitle"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["asset", "event", "skill", "treachery", "enemy", "location", "act", "agenda"]
+    },
+    "faction": {
+      "type": "string",
+      "enum": ["guardian", "mystic", "seeker", "rogue", "survivor", "neutral"]
+    },
+    "cost": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Resource cost to play (null = no cost, e.g. skills/treacheries)"
+    },
+    "level": {
+      "type": ["integer", "null"],
+      "minimum": -1,
+      "maximum": 5,
+      "description": "XP level (-1 = uncollectible/story cards)"
+    },
+    "slot": {
+      "type": ["string", "null"],
+      "enum": ["hand", "hand_2", "body", "ally", "accessory", "arcane", "arcane_2", "tarot", "vest", "legs", null]
+    },
+    "health": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Health soak (null = no health)"
+    },
+    "sanity": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Sanity soak (null = no sanity)"
+    },
+    "skills": {
+      "type": "object",
+      "description": "Skill icons printed on the card",
+      "properties": {
+        "willpower": { "type": "integer", "default": 0 },
+        "intellect": { "type": "integer", "default": 0 },
+        "combat": { "type": "integer", "default": 0 },
+        "agility": { "type": "integer", "default": 0 },
+        "wild": { "type": "integer", "default": 0 }
+      },
+      "additionalProperties": false
+    },
+    "traits": {
+      "type": "string",
+      "description": "Space-separated traits with dots (e.g. 'Item. Relic. Blessed. Weapon.')"
+    },
+    "unique": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string",
+      "description": "Original card text (for reference/debugging)"
+    },
+    "flavor": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Enemy keywords: Hunter, Retaliate, Alert, Elite, Elusive, etc."
+    },
+    "fight_value": {
+      "type": "integer",
+      "description": "Enemy fight value"
+    },
+    "evade_value": {
+      "type": "integer",
+      "description": "Enemy evade value"
+    },
+    "enemy_damage": {
+      "type": "integer",
+      "description": "Damage dealt by enemy attack"
+    },
+    "enemy_horror": {
+      "type": "integer",
+      "description": "Horror dealt by enemy attack"
+    },
+    "prey": {
+      "type": "string",
+      "description": "Enemy prey parameter"
+    },
+    "shroud": {
+      "type": "integer",
+      "description": "Location shroud value"
+    },
+    "clues": {
+      "type": ["integer", "string"],
+      "description": "Location clue count (integer or 'per_investigator')"
+    },
+    "connections": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Connected location names"
+    },
+    "doom_threshold": {
+      "type": "integer",
+      "description": "Agenda doom threshold"
+    },
+    "clue_threshold": {
+      "type": ["integer", "string"],
+      "description": "Act clue requirement (integer or expression like '2_per_investigator')"
+    },
+    "passive_effects": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/passive_effect" },
+      "description": "Effects active while card is in play (no trigger needed)"
+    },
+    "abilities": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ability" },
+      "description": "Activated and triggered abilities"
+    }
+  },
+  "definitions": {
+
+    "passive_effect": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "skill_modifier",
+            "damage_reduction",
+            "horror_reduction",
+            "soak_bonus"
+          ],
+          "description": "Effect type. Add new types here for extensibility."
+        },
+        "skill": {
+          "$ref": "#/definitions/skill_type"
+        },
+        "amount": {
+          "type": "integer",
+          "description": "Modifier value"
+        },
+        "per_source": {
+          "type": "boolean",
+          "default": false,
+          "description": "Reduction applies per source, not per hit"
+        }
+      }
+    },
+
+    "ability": {
+      "type": "object",
+      "required": ["trigger", "effects"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Short key for referencing this ability (e.g. 'fight', 'react_to_attack')"
+        },
+        "trigger": {
+          "$ref": "#/definitions/trigger"
+        },
+        "cost": {
+          "$ref": "#/definitions/cost"
+        },
+        "target": {
+          "$ref": "#/definitions/target",
+          "description": "Who/what this ability targets (for choose-a-target abilities)"
+        },
+        "condition": {
+          "$ref": "#/definitions/condition",
+          "description": "Additional condition that must be true for this ability to be usable"
+        },
+        "effects": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/effect" }
+        },
+        "max_per_round": {
+          "type": "integer",
+          "description": "Optional limit on uses per round"
+        },
+        "max_per_game": {
+          "type": "integer",
+          "description": "Optional limit on uses per game"
+        }
+      }
+    },
+
+    "trigger": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "action",
+            "action_fight",
+            "action_evade",
+            "action_investigate",
+            "action_move",
+            "action_draw",
+            "action_resource",
+            "fast",
+            "reaction",
+            "forced",
+            "at_start_of_phase",
+            "at_end_of_phase",
+            "at_end_of_round",
+            "on_enter_play",
+            "on_leave_play",
+            "on_defeated",
+            "revelation"
+          ],
+          "description": "Trigger type. Add new types here for extensibility."
+        },
+        "event": {
+          "type": "string",
+          "description": "Specific event for reaction/forced triggers",
+          "enum": [
+            "after_enemy_attack",
+            "after_enemy_attack_deals_damage",
+            "after_defeat",
+            "after_discover_clue",
+            "after_investigate_success",
+            "after_heal",
+            "after_play_card",
+            "after_take_damage",
+            "after_take_horror",
+            "when_drawn_encounter",
+            "when_card_attaches",
+            "when_engaged",
+            "would_be_dealt_damage",
+            "would_be_dealt_horror",
+            null
+          ]
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "mythos",
+            "investigation",
+            "enemy",
+            "upkeep",
+            "resolution",
+            null
+          ]
+        },
+        "play_when": {
+          "type": "string",
+          "description": "For fast events: condition under which this can be played",
+          "enum": [
+            "another_investigator_would_draw_encounter",
+            "an_enemy_would_engage_investigator",
+            "you_would_discover_clue",
+            null
+          ]
+        }
+      }
+    },
+
+    "cost": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "resources",
+            "charges",
+            "ammo",
+            "supplies",
+            "actions",
+            "horror",
+            "damage",
+            "exhaust",
+            "discard_self",
+            "sacrifice_self",
+            "free"
+          ],
+          "description": "Cost type. Add new types here for extensibility."
+        },
+        "amount": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1,
+          "description": "Amount of resource/charge/ammo/etc. to spend"
+        }
+      }
+    },
+
+    "target": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "self",
+            "owner",
+            "engaged_enemy",
+            "attacking_enemy",
+            "all_engaged_enemies",
+            "each_enemy_at_location",
+            "each_non_elite_card_with_health_at_location",
+            "each_investigator_at_location",
+            "any_investigator_at_location",
+            "any_investigator_in_play",
+            "nearest_location",
+            "chosen_investigator",
+            "chosen_enemy",
+            "all_investigators"
+          ],
+          "description": "Target type. Add new types here for extensibility."
+        },
+        "filter": {
+          "type": "object",
+          "description": "Additional target filtering criteria",
+          "properties": {
+            "exclude_elite": { "type": "boolean", "default": false },
+            "has_health": { "type": "boolean", "default": false },
+            "with_card_named": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "condition": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "if_succeed_by_X",
+            "if_fail_by_X",
+            "if_no_fire_at_location",
+            "while_in_play",
+            "if_test_type",
+            "if_investigator_at_location"
+          ],
+          "description": "Condition type. Add new types here for extensibility."
+        },
+        "value": {
+          "type": "integer",
+          "description": "Threshold value for succeed_by/fail_by conditions"
+        },
+        "skill": {
+          "$ref": "#/definitions/skill_type"
+        }
+      }
+    },
+
+    "effect": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "add_skill_modifier",
+            "deal_damage",
+            "deal_horror",
+            "deal_direct_damage",
+            "heal_damage",
+            "heal_horror",
+            "gain_resources",
+            "draw_cards",
+            "discover_clues",
+            "test_skill",
+            "move_to",
+            "cancel_next_damage",
+            "cancel_next_horror",
+            "cancel_encounter",
+            "exhaust_target",
+            "discard_target",
+            "shuffle_into_deck",
+            "attach_to_location",
+            "gain_action",
+            "add_bless_tokens",
+            "add_curse_tokens",
+            "ignore_attack_of_opportunity"
+          ],
+          "description": "Effect type. Add new types here for extensibility."
+        },
+        "target": {
+          "$ref": "#/definitions/target",
+          "description": "Who/what this effect applies to (defaults to ability target if omitted)"
+        },
+        "amount": {
+          "type": "integer",
+          "description": "Quantity for damage, horror, resources, cards, clues, etc."
+        },
+        "skill": {
+          "$ref": "#/definitions/skill_type",
+          "description": "Skill for test_skill or add_skill_modifier"
+        },
+        "difficulty": {
+          "type": "integer",
+          "description": "Difficulty for test_skill"
+        },
+        "on_success": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/effect" },
+          "description": "Effects that resolve on skill test success"
+        },
+        "on_fail": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/effect" },
+          "description": "Effects that resolve on skill test failure"
+        },
+        "condition": {
+          "$ref": "#/definitions/condition",
+          "description": "Condition for this effect to apply (e.g. succeed_by_2 for bonus damage)"
+        },
+        "duration": {
+          "type": "string",
+          "enum": ["this_round", "this_test", "this_attack", "until_leave_play"],
+          "description": "How long a modifier or cancel lasts"
+        },
+        "location_scope": {
+          "type": "string",
+          "enum": ["this_location", "nearest", "chosen"],
+          "description": "Location scope for location-based effects"
+        }
+      }
+    },
+
+    "skill_type": {
+      "type": "string",
+      "enum": ["willpower", "intellect", "combat", "agility"],
+      "description": "The four investigator skills"
+    }
+  }
+}

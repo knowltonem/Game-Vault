@@ -1,4 +1,4 @@
-# Ephraim Archer — Investigator Pack
+# Ephraim Archer — Investigator Pack (EON VERIFIED)
 
 ← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
@@ -27,9 +27,7 @@ Once per round: Before making a skill test, you may spend 1 resource to get +2 t
 +2. Gain 3 resources.
 
 ### Story
-He found too many dark things in Dunwich. He fought his way back to Arkham, but something has followed him back.
-
-He carries a sword pulled from something he killed that shouldn't have existed. He doesn't talk about where he got it. The red glow never stops.
+He found too many dark things in Dunwich. He fought his way back to Arkham, but something has followed him back. He carries a sword pulled from something he killed that shouldn't have existed. He doesn't talk about where he got it. The red glow never stops.
 
 ### Flavor
 *"I've seen things you people wouldn't believe."*
@@ -42,122 +40,84 @@ He carries a sword pulled from something he killed that shouldn't have existed. 
 
 ---
 
-## Signature Asset — The Red Blade
+## Signature Asset — 002 The Red Blade
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Hand (2) |
-| **Slot** | Hand (takes 2 hand slots) |
+| **Subtitle** | Spoils of an Old War |
+| **Type** | Asset |
+| **Slot** | Hand ×2 |
 | **Traits** | Item. Weapon. Melee. Relic. |
-| **Unique** | Yes |
+| **Cost** | 2 |
+| **SAN Soak** | — |
 
 ### Text
-Ephraim Archer deck only.
++1 <com> while The Red Blade is in play.
 
-You get +1 COM while The Red Blade is in play.
-
-[action] Exhaust The Red Blade: Fight. This attack deals +1 damage. If you succeed by 2 or more: Deal 1 additional damage from the spirit within.
+[act] Exhaust: Fight. This attack deals +1 damage. If you succeed by 2 or more: Deal 1 additional damage from the spirit within.
 
 ### Flavor
-*"It came from something that shouldn't have existed. It still glows."*
+*"It was still warm when I found it. Whatever was inside wasn't finished."*
 
 ---
 
-## Signature Asset — The Black Cloak
+## Signature Asset — 003 The Black Cloak
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Body |
+| **Subtitle** | Older Than Cloth |
+| **Type** | Asset |
 | **Slot** | Body |
-| **Traits** | Item. Armor. |
-| **Sanity Soak** | 2 |
-| **Unique** | Yes |
+| **Traits** | Item. Clothing. Relic. |
+| **Cost** | 2 |
+| **SAN Soak** | 2 |
 
 ### Text
-Ephraim Archer deck only.
-
-[action] Evade. This evasion attempt does not provoke attacks of opportunity. You may evade up to 2 enemies engaged with you simultaneously with this action.
+[act] Exhaust: Evade up to 2 enemies at your location without engaging them first.
 
 ### Flavor
-*"It has stopped things that should have killed him. He won't say how many times."*
+*"The shadows like it. They move toward it."*
 
 ---
 
-## Signature Weakness — The Dunwich Hounds
+## Signature Weakness — 004-005 The Dunwich Hounds ×2
 
 | Field | Value |
 |---|---|
-| **Type** | Enemy — Weakness |
-| **Traits** | Monster. Hound. |
-| **Fight** | 3 |
-| **Evade** | 3 |
-| **HP** | 4 |
-| **Damage** | 1 |
-| **Horror** | 2 |
-| **Keywords** | Hunter. |
-| **Quantity** | ×2 |
+| **Traits** | Creature. Elite. |
+| **Keywords** | Bearer only. Hunter. |
 
 ### Text
-Ephraim Archer deck only.
+[pre] Bearer only. Hunter.
 
-Revelation — Spawn The Dunwich Hounds at a revealed location.
-
-While The Dunwich Hounds is at your location: Ephraim Archer's investigator ability is disabled.
+[rev] Spawn The Dunwich Hounds at Ephraim Archer's location. While The Dunwich Hounds is at your location: You cannot spend resources to boost skill tests using your investigator ability.
 
 ### Flavor
-*"They followed him back from Dunwich. They always find him."*
+*"Sent From Dunwich"*
 
 ---
 
-## Deck List (30 Cards, 006-035)
+## Deck (30 Cards — 006-035)
 
-| # | Card | Type | Class | Cost | Icons | Notes |
+| # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 006-007 | Prepare for the Worst ×2 | Event | Guardian | 1r | wld | Search top 9 cards of your deck for any Asset and draw it. |
-| 008-009 | What He's Owed ×2 | Event | Neutral | 0r | wld | Fast. Gain 3 resources. |
-| 010-011 | The Dunwich Relic ×2 | Asset | Neutral | 2r | wld | Uses (3 charges). [action] Spend 1 charge: Heal 1 damage or horror from any investigator at your location. |
-| 012 | Kori Kross ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/2 soak. [reaction] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. |
-| 013 | William Dread ×1 | Asset — Ally | Guardian | 3r | com/wld | +1 COM. 2/2 soak. [reaction] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. |
-| 014 | Sebastian Fenn ×1 | Asset — Ally | Neutral | 3r | int/wld | +2 INT. 2/2 soak. [free] Once per round, after you move to a location with 1 or more clues: Discover 1 clue at that location. |
-| 015 | The Man in Black ×1 | Asset — Ally | Neutral | 3r | wld | 2/2 soak. At the start of your turn: Gain 1 resource. |
-| 016-017 | RagTag ×2 | Asset — No Slot | Guardian | 3r | wld | You have 1 additional ally slot. You may have 2 Ally assets in play simultaneously. |
-| 018-019 | Ancient Fortune ×2 | Asset — Arcane | Guardian | 2r | wld | [free] After you defeat an enemy: Draw 1 card. |
-| 020-021 | Fighter's Fury ×2 | Skill | Guardian | — | com/com | If successful while fighting: Deal +1 damage. |
-| 022-023 | I'll Take You With Me ×2 | Event | Guardian | 1r | com/wld | Fast. Fight. You get +2 COM for this attack. If this attack fails: Take 1 horror. |
-| 024-025 | Brush It Off ×2 | Event | Guardian | 1r | wld | Fast. Cancel the effects of a non-weakness treachery just drawn. Take 1 horror. |
-| 026-027 | Mystic Blast ×2 | Event | Mystic | 3r | wld/wld | [action] Fight. Each enemy at your location takes 2 damage. You take 1 damage. |
-| 028-029 | Old Soldier ×2 | Skill | Guardian | — | wld/wld | No rules text. |
-| 030-031 | Iron Will ×2 | Skill | Guardian | — | wil/wil | If this skill test fails: Draw 2 cards. |
-| 032-033 | Swift Shadows ×2 | Skill | Guardian | — | agi/agi | After you successfully evade an enemy: Move to a connected location. |
-| 034-035 | Hunt Them Down ×2 | Event | Guardian | 1r | com/wld | [action] Search the encounter deck and discard pile for an Enemy. Spawn it at your location. Fight it. You get +2 COM for this attack. Shuffle the encounter deck. |
-
----
-
-## Icon Distribution
-
-| Stat | Count |
-|---|---|
-| wld | 14 |
-| com | 8 |
-| agi | 4 |
-| wil | 4 |
-| int | 2 |
-| **Total** | **32** |
-
----
-
-## Slot Picture
-
-| Slot | Card |
-|---|---|
-| Hand | The Red Blade (takes both hand slots) |
-| Hand | (occupied by Red Blade) |
-| Arcane | Ancient Fortune |
-| Arcane | Open |
-| Accessory | Open |
-| Body | The Black Cloak |
-| Ally | Kori Kross / William Dread / Sebastian Fenn |
-| Ally | (second slot via RagTag) |
+| 006-007 | Prepare for the Worst ×2 | Event | 1 | Tactic. | Search the top 9 cards of your deck for any Asset card and draw it. Shuffle your deck. | "Dunwich taught him one thing. Always prepare." |
+| 008-009 | What He's Owed ×2 | Event | 0 | Supply. | Fast. Gain 3 resources. | "Every job pays. Not always in money." |
+| 010-011 | The Dunwich Relic ×2 | Asset | 2 | Item. Relic. | Uses (3 charges). [act] Spend 1 charge: Heal 1 damage or 1 horror from any investigator at your location. | "A light, when all goes dark." |
+| 012 | Kori Kross ×1 | Asset — Ally | 3 | Ally. Criminal. Contact. | +1 <com> while Kori Kross is in play. [rea] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. 2/2 soak. | "She doesn't ask questions." |
+| 013 | William Dread ×1 | Asset — Ally | 3 | Ally. Criminal. Contact. | +1 <com> while William Dread is in play. [rea] After an enemy engages Ephraim Archer: Deal 1 damage to that enemy. 2/2 soak. | "Ephraim called. Dread answered." |
+| 014 | Sebastian Fenn ×1 | Asset — Ally | 3 | Ally. Scientist. Inventor. | +2 <int> while Sebastian Fenn is in play. [fre] Once per round: After you move to a location with 1 or more clues, discover 1 clue at that location. 2/2 soak. | "Nobody knows how they work. Sebastian says that's the point." |
+| 015 | The Man in Black ×1 | Asset — Ally | 3 | Ally. Criminal. Contact. | At the start of your turn: Gain 1 resource. 2/2 soak. | "Cash in the bag. But you owe him. That's the deal." |
+| 016-017 | RagTag ×2 | Asset | 3 | Talent. Innate. | You have 1 additional ally slot. You may have 2 Ally assets in play simultaneously. | "One call. That's all it takes." |
+| 018-019 | Ancient Fortune ×2 | Asset — Arcane | 2 | Spell. Relic. | [fre] After you defeat an enemy: Draw 1 card. | "He never walks away empty handed." |
+| 020-021 | Fighter's Fury ×2 | Skill | — | Practiced. | If this skill test is successful while fighting: Deal +1 damage. | "Not rage. Something colder." |
+| 022-023 | I'll Take You With Me ×2 | Event | 1 | Tactic. | Fast. Fight. You get +2 <com> for this attack. If this attack fails, take 1 horror. | "Not a threat. Just the facts." |
+| 024-025 | Brush It Off ×2 | Event | 1 | Tactic. | Fast. Cancel the effects of a non-weakness treachery card just drawn. Take 1 horror. | "Not even worth mentioning." |
+| 026-027 | Mystic Blast ×2 | Event | 3 | Spell. | Fight. Each enemy at your location takes 2 damage. You take 1 damage. | "Warnings must be in the back of the book." |
+| 028-029 | Old Soldier ×2 | Skill | — | Innate. | No rules text. | "The last man standing." |
+| 030-031 | Iron Will ×2 | Skill | — | Innate. | If this skill test fails, draw 2 cards. | "Whatever doesn't kill him makes him cold." |
+| 032-033 | Swift Shadows ×2 | Skill | — | Innate. | If this skill test is successful while evading: After evading the enemy, move to a connected location. | "He doesn't run. He relocates." |
+| 034-035 | Hunt Them Down ×2 | Event | 1 | Tactic. | Search the encounter deck and discard pile for an enemy and spawn it at your location. Fight that enemy. You get +2 COM for this attack. | "He has never lost a target." |
 
 ---
 
@@ -176,68 +136,43 @@ While The Dunwich Hounds is at your location: Ephraim Archer's investigator abil
 
 ---
 
-## Design Notes
+## Slot Picture
 
-- **COM 5 base** — strongest fighter in the set. Ability spending 1r gives COM 7. Red Blade gives COM 6 base. Consistently kills in 1-2 actions.
-- **INT 2** — his critical weakness. Sebastian Fenn (+2 INT) partially compensates. Needs a clue-finding partner.
-- **SAN 8** — good buffer. Black Cloak soak 2. Red Blade heals horror on kill. He can sustain surprisingly well.
-- **RagTag** — extra ally slot. Runs 3 allies simultaneously: Kori Kross + William Dread + Sebastian Fenn. Massive stat boost.
-- **Ancient Fortune** — draw engine. After each kill he draws. High kill rate means hand rarely depletes.
-- **Dunwich Hounds weakness** — dual spawn disables his ability. Priority target to kill immediately.
-- **Hunt Them Down** — searches encounter deck for specific enemies. Use to clear dangerous enemies before they activate.
-
-## Best Pairings
-
-| Partner | Rating | Why |
-|---|---|---|
-| Bjorn Blackcast | ⭐⭐⭐⭐⭐ | Chaos bag mastery feeds ability, SAN tank, perfect role split |
-| Nora Warwick | ⭐⭐⭐⭐⭐ | Economy engine feeds ability, AoE + investigation |
-| Alistair Greystoke | ⭐⭐⭐⭐⭐ | Perfect role split, fastest scenario completion |
-| Agnes Crane | ⭐⭐⭐⭐ | Horror tank, encounter control |
-| Abel Redcloud | ⭐⭐⭐ | Double bless helps but slow clue start |
-| Jonathan Ironhide | ⭐ | Both Guardian INT 2 — avoid this pairing |
+| Slot | Card |
+|---|---|
+| Hand 1 | The Red Blade (occupies both hand slots) |
+| Hand 2 | (occupied by Red Blade) |
+| Arcane 1 | Ancient Fortune |
+| Arcane 2 | Open |
+| Accessory | Open |
+| Body | The Black Cloak |
+| Ally 1 | Kori Kross / William Dread / Sebastian Fenn / Man in Black |
+| Ally 2 | (via RagTag — 1 additional slot) |
 
 ---
 
-## Folder Structure
+## Key Design Decisions — LOCKED (EON VERIFIED)
 
-```
-Ephraim Archer/
-├── art/
-├── 001-Ephraim-Archer/
-├── 002-The-Red-Blade/
-├── 003-The-Black-Cloak/
-├── 004-The-Dunwich-Hounds/
-├── 005-The-Dunwich-Hounds/
-├── 006-Prepare-for-the-Worst/
-├── 007-Prepare-for-the-Worst/
-├── 008-What-Hes-Owed/
-├── 009-What-Hes-Owed/
-├── 010-The-Dunwich-Relic/
-├── 011-The-Dunwich-Relic/
-├── 012-Kori-Kross/
-├── 013-William-Dread/
-├── 014-Sebastian-Fenn/
-├── 015-The-Man-in-Black/
-├── 016-RagTag/
-├── 017-RagTag/
-├── 018-Ancient-Fortune/
-├── 019-Ancient-Fortune/
-├── 020-Fighters-Fury/
-├── 021-Fighters-Fury/
-├── 022-Ill-Take-You-With-Me/
-├── 023-Ill-Take-You-With-Me/
-├── 024-Brush-It-Off/
-├── 025-Brush-It-Off/
-├── 026-Mystic-Blast/
-├── 027-Mystic-Blast/
-├── 028-Old-Soldier/
-├── 029-Old-Soldier/
-├── 030-Iron-Will/
-├── 031-Iron-Will/
-├── 032-Swift-Shadows/
-├── 033-Swift-Shadows/
-├── 034-Hunt-Them-Down/
-├── 035-Hunt-Them-Down/
-└── Ephraim-Archer-Card-Data.md
-```
+| Decision | Value |
+|---|---|
+| Stats | WIL 3 / INT 2 / COM 5 / AGI 3 / HP 7 / SAN 8 |
+| Ability | Spend 1r before skill test → +2 to that test (once per round) |
+| Elder Sign | +2. Gain 3 resources. |
+| Red Blade | Cost 2, Hand ×2, +1 COM, exhaust fight +1 dmg, succeed by 2: +1 more dmg |
+| Black Cloak | Cost 2, Body, 2 SAN soak, exhaust evade up to 2 enemies |
+| Dunwich Hounds | ×2 weakness, Hunter, disables ability while at location |
+| Kori Kross | Cost 3, Ally, 2/2 soak, +1 COM, deal 1 dmg when enemy engages Ephraim |
+| William Dread | Cost 3, Ally, 2/2 soak, +1 COM, deal 1 dmg when enemy engages Ephraim |
+| Sebastian Fenn | Cost 3, Ally, 2/2 soak, +2 INT, discover 1 clue on move to clue location |
+| Man in Black | Cost 3, Ally, 2/2 soak, gain 1r per turn |
+| RagTag | Cost 3, no slot, +1 ally slot, max 2 allies simultaneously |
+| Ancient Fortune | Cost 2, Arcane, draw 1 card after defeating enemy |
+| Fighter's Fury | Skill, practiced, +1 dmg on fight success |
+| I'll Take You With Me | Cost 1, fast fight +2 COM, fail: take 1 horror |
+| Brush It Off | Cost 1, fast cancel non-weakness treachery, take 1 horror |
+| Mystic Blast | Cost 3, fight AoE 2 dmg all enemies, take 1 dmg |
+| Old Soldier | Skill, innate, no rules text |
+| Iron Will | Skill, innate, fail: draw 2 cards |
+| Swift Shadows | Skill, innate, evade success: move to connected location |
+| Hunt Them Down | Cost 1, search encounter for enemy, spawn + fight, +2 COM |
+| 035 | Needs Strange Eons build |

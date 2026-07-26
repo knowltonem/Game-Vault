@@ -1,0 +1,289 @@
+{
+  "_comment": "5 example cards demonstrating the card_effect_schema.json system. Card text sourced from vault EON-VERIFIED data.",
+
+  "cards": [
+
+    {
+      "card_id": "RYP-AR-002",
+      "name": "The Sacred Spear",
+      "subtitle": "Blessed By The Ancestors",
+      "type": "asset",
+      "faction": "guardian",
+      "cost": 0,
+      "level": null,
+      "slot": "hand",
+      "health": null,
+      "sanity": null,
+      "traits": "Item. Relic. Blessed. Weapon.",
+      "unique": true,
+      "text": "[act] Fight. You get +2 combat and +2 damage for this attack.\n[rea] If you succeed by 2 or more: This attack deals +3 damage instead.",
+      "flavor": "It has tasted the blood of things older than memory. It remembers them all.",
+      "passive_effects": [],
+      "abilities": [
+        {
+          "name": "fight",
+          "trigger": {
+            "type": "action_fight"
+          },
+          "effects": [
+            {
+              "type": "add_skill_modifier",
+              "target": { "type": "owner" },
+              "skill": "combat",
+              "amount": 2,
+              "duration": "this_attack"
+            },
+            {
+              "type": "deal_damage",
+              "target": { "type": "engaged_enemy" },
+              "amount": 2,
+              "duration": "this_attack"
+            },
+            {
+              "type": "deal_damage",
+              "target": { "type": "engaged_enemy" },
+              "amount": 3,
+              "duration": "this_attack",
+              "condition": {
+                "type": "if_succeed_by_X",
+                "value": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "card_id": "RYP-AR-010",
+      "name": "Spirit Coyote",
+      "subtitle": "He Guides Me",
+      "type": "asset",
+      "faction": "guardian",
+      "cost": 2,
+      "level": null,
+      "slot": "ally",
+      "health": 3,
+      "sanity": 1,
+      "traits": "Ally. Spirit. Creature.",
+      "unique": false,
+      "text": "+1 combat while Spirit Coyote is in play.\n[rea] When an enemy attack deals damage to you: Exhaust Spirit Coyote to deal 1 damage to that enemy.",
+      "flavor": "My Eyes",
+      "passive_effects": [
+        {
+          "type": "skill_modifier",
+          "skill": "combat",
+          "amount": 1
+        }
+      ],
+      "abilities": [
+        {
+          "name": "retaliate",
+          "trigger": {
+            "type": "reaction",
+            "event": "after_enemy_attack_deals_damage"
+          },
+          "cost": {
+            "type": "exhaust"
+          },
+          "effects": [
+            {
+              "type": "deal_damage",
+              "target": { "type": "attacking_enemy" },
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "card_id": "RYP-AR-015",
+      "name": "Noble Sacrifice",
+      "subtitle": "It Is My Time",
+      "type": "event",
+      "faction": "guardian",
+      "cost": 1,
+      "level": null,
+      "slot": null,
+      "health": null,
+      "sanity": null,
+      "traits": "Tactic. Spirit.",
+      "unique": false,
+      "text": "Fast. Play when another investigator at your location would draw an encounter card. That investigator does not draw that card. Instead, you draw it and resolve its effects. You get +2 to each of your skills for any skill tests you make as a result of this card's effects.",
+      "flavor": "This is not your burden to carry. It is mine.",
+      "passive_effects": [],
+      "abilities": [
+        {
+          "name": "take_encounter",
+          "trigger": {
+            "type": "fast",
+            "play_when": "another_investigator_would_draw_encounter"
+          },
+          "target": {
+            "type": "any_investigator_at_location"
+          },
+          "effects": [
+            {
+              "type": "cancel_encounter",
+              "target": { "type": "chosen_investigator" }
+            },
+            {
+              "type": "draw_cards",
+              "target": { "type": "self" },
+              "amount": 1
+            },
+            {
+              "type": "add_skill_modifier",
+              "target": { "type": "owner" },
+              "skill": "willpower",
+              "amount": 2,
+              "duration": "this_test"
+            },
+            {
+              "type": "add_skill_modifier",
+              "target": { "type": "owner" },
+              "skill": "intellect",
+              "amount": 2,
+              "duration": "this_test"
+            },
+            {
+              "type": "add_skill_modifier",
+              "target": { "type": "owner" },
+              "skill": "combat",
+              "amount": 2,
+              "duration": "this_test"
+            },
+            {
+              "type": "add_skill_modifier",
+              "target": { "type": "owner" },
+              "skill": "agility",
+              "amount": 2,
+              "duration": "this_test"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "card_id": "12129",
+      "name": "Fire!",
+      "subtitle": null,
+      "type": "treachery",
+      "faction": null,
+      "cost": null,
+      "level": -1,
+      "slot": null,
+      "health": null,
+      "sanity": null,
+      "traits": "Hazard.",
+      "unique": false,
+      "text": "Revelation - Attach Fire! to the nearest location without Fire! attached.\nForced - When the investigation phase ends: Each non-Elite card with health at this location takes 1 direct damage.\nAction: Test agility (3). If you succeed, discard Fire!",
+      "flavor": null,
+      "passive_effects": [],
+      "abilities": [
+        {
+          "name": "revelation_attach",
+          "trigger": {
+            "type": "revelation"
+          },
+          "effects": [
+            {
+              "type": "attach_to_location",
+              "target": { "type": "nearest_location" },
+              "condition": {
+                "type": "if_no_fire_at_location"
+              }
+            }
+          ]
+        },
+        {
+          "name": "fire_burns",
+          "trigger": {
+            "type": "at_end_of_phase",
+            "phase": "investigation"
+          },
+          "effects": [
+            {
+              "type": "deal_direct_damage",
+              "target": {
+                "type": "each_non_elite_card_with_health_at_location"
+              },
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "name": "extinguish",
+          "trigger": {
+            "type": "action"
+          },
+          "effects": [
+            {
+              "type": "test_skill",
+              "skill": "agility",
+              "difficulty": 3,
+              "on_success": [
+                {
+                  "type": "discard_target",
+                  "target": { "type": "self" }
+                }
+              ],
+              "on_fail": []
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "card_id": "RYP-NW-002",
+      "name": "The Warwick Collection",
+      "subtitle": "Acquired at Considerable Expense",
+      "type": "asset",
+      "faction": "rogue",
+      "cost": 0,
+      "level": null,
+      "slot": "accessory",
+      "health": null,
+      "sanity": null,
+      "traits": "Item. Tome. Relic.",
+      "unique": true,
+      "text": "+1 intellect while The Warwick Collection is in play.\n[act] Exhaust The Warwick Collection and evade an enemy without testing. This action does not provoke an attack of opportunity.",
+      "flavor": "The curator at the British Museum was quite upset, until he saw the cheque.",
+      "passive_effects": [
+        {
+          "type": "skill_modifier",
+          "skill": "intellect",
+          "amount": 1
+        }
+      ],
+      "abilities": [
+        {
+          "name": "free_evade",
+          "trigger": {
+            "type": "action_evade"
+          },
+          "cost": {
+            "type": "exhaust"
+          },
+          "effects": [
+            {
+              "type": "ignore_attack_of_opportunity"
+            },
+            {
+              "type": "discard_target",
+              "target": { "type": "engaged_enemy" },
+              "condition": {
+                "type": "if_succeed_by_X",
+                "value": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
