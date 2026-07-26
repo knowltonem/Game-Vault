@@ -9,8 +9,8 @@
 | Field | Value |
 |---|---|
 | **Name** | Abel Redcloud |
-| **Class** | Guardian |
 | **Subtitle** | The Last Keeper |
+| **Class** | Guardian |
 | **Traits** | Warrior. Mystic. Tribal. |
 | **Willpower** | 4 |
 | **Intellect** | 2 |
@@ -18,20 +18,29 @@
 | **Agility** | 3 |
 | **Health** | 8 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Guardian 0–5, Mystic 0–2, Survivor 0–2 |
+| **Deckbuilding** | Guardian 0-5, Mystic 0-2, Survivor 0-2 |
 
 ### Ability
-Once per round, after you pass a skill test: You may draw 1 card or gain 1 resource.
+At the beginning of the Mythos Phase: Add 1 <bls> token to the chaos bag and heal 1 damage from Abel Redcloud.
 
 ### Elder Sign
-+1. If you succeed, you may heal 1 damage or 1 horror from any investigator at your location.
++1. You may play Sacred Bond.
+
+### Auto-fail
+You may play Sacred Wind.
+
+### Cultist
+You may play Sacred Strength.
 
 ### Flavor
 *"My grandfather fought these things. His grandfather before him. We have always known what lives in the dark."*
 
 ### Requirements
-- The Sacred Spear ×1
-- The Tribal Oath ×1
+- The Sacred Spear x1
+- The Tribal Oath x1
+- Sacred Bond x1 (set aside)
+- Sacred Wind x1 (set aside)
+- Sacred Strength x1 (set aside)
 - 1 random basic weakness
 
 ---
@@ -40,19 +49,22 @@ Once per round, after you pass a skill test: You may draw 1 card or gain 1 resou
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Hand (2 hands) |
-| **Cost** | 0 |
-| **Traits** | Item. Weapon. Relic. Blessed. |
-| **Slot** | Hand ×2 |
+| **Type** | Asset — Hand |
 | **Subtitle** | Blessed by the Ancestors |
+| **Cost** | 0 |
+| **Slot** | Hand |
+| **Traits** | Item. Weapon. Melee. Relic. Blessed. |
+| **Icons** | — |
 | **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only.
+Abel Redcloud deck only. Unique.
 
-`<act>` Fight. You get +2 `<com>` for this attack. This attack deals +1 damage.
+[act] Fight. You get +2 <com> and +2 damage for this attack.
 
-`<fre>` After you defeat an enemy with The Sacred Spear: Add 1 bless token to the chaos bag.
+[rea] If you succeed by 2 or more: This attack deals +3 damage instead.
+
+[fre] After you defeat an enemy with The Sacred Spear: Add 1 <bls> token to the chaos bag. (Limit once per round.)
 
 ### Flavor
 *"It has tasted the blood of things older than memory. It remembers them all."*
@@ -63,172 +75,148 @@ Abel Redcloud deck only.
 
 | Field | Value |
 |---|---|
-| **Type** | Treachery Weakness |
+| **Type** | Treachery — Weakness |
 | **Traits** | Flaw. Burden. Spiritual. |
 | **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only.
+Abel Redcloud deck only. Unique.
 
 Revelation — Attach to Abel Redcloud.
 
-Forced — After you defeat an enemy: Take 1 horror.
+Forced — At the start of the Mythos Phase: Take 1 horror.
 
-`<act>` Spend 3 resources: Discard The Tribal Oath.
+[act] Test <wil> (4): If you succeed, discard The Tribal Oath.
 
 ### Flavor
-*"Every life I take — even theirs — leaves a mark. The ancestors told me it would. They did not say it would hurt this much."*
+*"Every life I take, even the evil ones, takes its toll."*
 
 ---
 
-## Pack Asset — Teeth of the Deep Ones
+## Set-Aside Cards (Not In Deck)
+
+### 004 — Sacred Bond
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Accessory |
+| **Type** | Asset |
+| **Subtitle** | My Ancestors |
 | **Cost** | 0 |
-| **Traits** | Item. Relic. Blessed. Trophy. |
-| **Slot** | Accessory |
-| **Soak** | —/2 |
-| **Subtitle** | Taken in Battle |
-| **Icons** | 1 × `<wil>` |
+| **Slot** | — |
+| **Traits** | Relic. Blessed. Spiritual. |
+| **HP Soak** | 3 |
+| **SAN Soak** | 3 |
+| **Icons** | — |
+| **Trigger** | Elder Sign drawn |
 | **Unique** | Yes |
 
 ### Text
-Abel Redcloud deck only.
+Abel Redcloud deck only. Unique. Set aside at the start of the game.
 
-You get +1 `<wil>` while Teeth of the Deep Ones is in play.
+You get +3 <int> while Sacred Bond is in play.
 
-`<rea>` After you would take horror: Exhaust Teeth of the Deep Ones — reduce that horror by 1.
-
-Forced — After you defeat a Deep One enemy: Add 1 bless token to the chaos bag and ready Teeth of the Deep Ones.
+Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Bond. When Sacred Bond has no remaining soak: Discard it.
 
 ### Flavor
-*"Each tooth is a name. Each name is a victory. My grandfather started this necklace. I will finish it."*
+*"It comes in times of great need."*
 
 ---
 
-## Pack Asset — The Sacred Bow
+### 005 — Sacred Wind
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Hand (2 hands) |
-| **Cost** | 2 |
-| **Traits** | Item. Weapon. Relic. Ranged. |
-| **Slot** | Hand ×2 |
-| **Uses** | 4 arrows |
-| **Subtitle** | Voice of the Ancestors |
-| **Icons** | 1 × `<com>` + 1 × `<agi>` |
+| **Type** | Asset |
+| **Subtitle** | My Ancestors |
+| **Cost** | 0 |
+| **Slot** | — |
+| **Traits** | Relic. Blessed. Spiritual. |
+| **HP Soak** | 3 |
+| **SAN Soak** | 3 |
+| **Icons** | — |
+| **Trigger** | Auto-fail drawn |
 | **Unique** | Yes |
 
 ### Text
-Uses (4 arrows).
+Abel Redcloud deck only. Unique. Set aside at the start of the game.
 
-`<act>` Spend 1 arrow: Fight. You may target an enemy at a connecting location. You get +1 `<com>` for this attack.
+You get +1 <wil>, +1 <int>, +1 <com>, and +1 <agi> while Sacred Wind is in play.
 
-`<fre>` After you defeat an enemy with The Sacred Bow: Draw 1 card.
+Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Wind. When Sacred Wind has no remaining soak: Discard it.
 
 ### Flavor
-*"Distance is an illusion. The arrow knows where it is going."*
+*"It comes in times of great need."*
 
 ---
 
-## Pack Asset — The Ritual Knife
+### 006 — Sacred Strength
 
 | Field | Value |
 |---|---|
-| **Type** | Asset – Hand (1 hand) |
-| **Cost** | 1 |
-| **Traits** | Item. Weapon. Relic. Blessed. |
-| **Slot** | Hand |
-| **Icons** | 1 × `<wil>` + 1 × `<com>` |
-| **Unique** | No |
-
-### Text
-`<act>` Fight. You get +1 `<com>` for this attack.
-
-`<fre>` After you defeat an enemy with The Ritual Knife: Add 1 bless token to the chaos bag and heal 1 horror from Abel Redcloud.
-
-### Flavor
-*"The first cut is a prayer. The last cut is a promise."*
-
----
-
-## Reskin Card Flavor Lines
-
-| Card | Base Card | Flavor |
-|---|---|---|
-| Noble Sacrifice | "Let Me Handle This!" | *"This is not your burden to carry. It is mine."* |
-| Spirit Coyote | Guard Dog | *"It does not guard. It watches. There is a difference."* |
-| Sweat Lodge | Holy Water | *"The steam carries the prayers upward. The visions tell you what is coming."* |
-| Tracker | Evidence! | *"Every creature leaves a trail. Every darkness leaves a shadow. I was taught to read both."* |
-| "Back to the Dark!" | "I'll See You in Hell!" | *"You do not belong in this world. Go back to the dark that made you."* |
-| Rain Dance | Ward of Protection | *"The rain does not ask permission. Neither does the prayer."* |
-| Elder Strength | Overpower | *"Two hundred generations of warriors stand behind this arm."* |
-| Chieftain Wisdom | Guts | *"My grandfather faced things that would drive other men mad. He taught me everything he knew."* |
-| Awaken the Spirits | Rise to the Occasion | *"When everything else has failed — the ancestors have not."* |
-| Unexpected Courage | Unexpected Courage | *"Even I surprise myself sometimes."* |
-
----
-
-## Regular Deck Asset — Sweat Lodge *(Holy Water)*
-| **Unique** | No |
-
-### Text
-Uses (4 charges).
-
-`<act>` Spend 1 charge: Choose an investigator at your location. That investigator heals 1 horror.
-
-`<act>` Spend 2 charges: Add 2 bless tokens to the chaos bag.
-
-### Flavor
-*"The steam carries the prayers upward. The visions tell you what is coming."*
-
----
-
-## Regular Deck Asset — Bear Pelt
-
-| Field | Value |
-|---|---|
-| **Type** | Asset – Body |
-| **Cost** | 1 |
-| **Traits** | Item. Relic. Blessed. |
-| **Slot** | Body |
-| **Subtitle** | The Spirit Remains |
-| **Health soak** | 2 |
-| **Sanity soak** | 1 |
-| **Icons** | 1 × `<wil>` |
+| **Type** | Asset |
+| **Subtitle** | My Ancestors |
+| **Cost** | 0 |
+| **Slot** | — |
+| **Traits** | Relic. Blessed. Spiritual. |
+| **HP Soak** | 3 |
+| **SAN Soak** | 3 |
+| **Icons** | — |
+| **Trigger** | Cultist drawn |
 | **Unique** | Yes |
 
 ### Text
-You get +1 `<wil>` while Bear Pelt is in play.
+Abel Redcloud deck only. Unique. Set aside at the start of the game.
 
-`<rea>` After you take damage from an enemy attack: Exhaust Bear Pelt — reduce that damage by 1.
+You get +2 <com> while Sacred Strength is in play.
+
+After you defeat an enemy: Heal 1 horror from Abel Redcloud.
+
+Forced — At the end of the round: Place 1 damage and 1 horror on Sacred Strength. When Sacred Strength has no remaining soak: Discard it.
 
 ### Flavor
-*"The bear did not give this willingly. Nothing worth having ever does."*
+*"It comes in times of great need."*
 
 ---
 
-## Deck List (30 Cards)
+## Deck List (28 Cards, 007-034)
 
-| # | Card | Type | Class | Level | Qty | Folder |
-|---|---|---|---|---|---|---|
-| 1 | Spirit Coyote *(Guard Dog)* | Asset — Ally | Guardian | 0 | ×2 | 007-008-Spirit-Coyote |
-| 2 | Sweat Lodge *(Holy Water)* | Asset | Guardian | 0 | ×2 | 009-010-Sweat-Lodge |
-| 3 | Bear Pelt | Asset | Guardian | 0 | ×1 | 011-Bear-Pelt |
-| 4 | Noble Sacrifice *("Let Me Handle This!")* | Event | Guardian | 0 | ×2 | 012-013-Noble-Sacrifice |
-| 5 | Tracker *(Evidence!)* | Event | Guardian | 0 | ×2 | 014-015-Tracker |
-| 6 | On the Hunt | Event | Guardian | 0 | ×1 | 016-On-the-Hunt |
-| 7 | Fire Walker | Event | Guardian | 0 | ×1 | 017-Fire-Walker |
-| 8 | "Back to the Dark!" *("I'll See You in Hell!")* | Event | Guardian | 0 | ×2 | 018-019-Back-to-the-Dark |
-| 9 | Rain Dance *(Ward of Protection)* | Event | Mystic | 0 | ×2 | 020-021-Rain-Dance |
-| 10 | Elder Strength *(Overpower)* | Skill | Neutral | 0 | ×2 | 022-023-Elder-Strength |
-| 11 | Chieftain Wisdom *(Guts)* | Skill | Neutral | 0 | ×2 | 024-025-Chieftain-Wisdom |
-| 12 | Vicious Blow | Skill | Guardian | 0 | ×2 | 026-027-Vicious-Blow |
-| 13 | Awaken the Spirits *(Rise to the Occasion)* | Skill | Survivor | 0 | ×2 | 028-029-Awaken-the-Spirits |
-| 14 | Unexpected Courage | Skill | Neutral | 0 | ×2 | 030-031-Unexpected-Courage |
-| | **TOTAL** | | | | **30** | |
+| # | Card | Type | Class | Cost | Slot | Icons | Notes |
+|---|---|---|---|---|---|---|---|
+| 007 | Teeth of the Deep Ones x1 | Asset | Guardian | 1 | Accessory | wil/wil | +1 <wil>. While in play: When you would take damage, reduce by 1 (min 1). |
+| 008 | Sacred Fire x1 | Asset | Guardian | 2 | Arcane | wil/wil | Subtitle: The Flame Knows. Uses (4 charges). [act] Spend 1 charge: Evade. Use <wil> instead of <agi>. If succeed: Deal +1 damage to that enemy. |
+| 009 | The Ritual Knife x1 | Asset | Guardian | 1 | Hand | com/wil | Unique. [act] Fight. +1 <com>. +1 damage. [fre] After defeat: Heal 1 horror from Abel. |
+| 010-011 | Spirit Coyote x2 | Asset | Guardian | 2 | Ally | wil/agi | +1 <com>. 2/2 soak. [rea] When enemy attack deals damage: Exhaust — deal 1 damage to attacking enemy. |
+| 012-013 | Sweat Lodge x2 | Asset | Guardian | 2 | Arcane | wil/wil | Uses (4 charges). [act] Spend 1 charge: Choose investigator at your location. That investigator heals 1 horror or damage. |
+| 014 | Bear Pelt x1 | Asset | Guardian | 1 | Body | wil/wil | HP soak 3. +1 <wil>. [rea] After you take damage from enemy attack: Draw 1 card. |
+| 015-016 | Noble Sacrifice x2 | Event | Guardian | 1 | — | wil/com | Fast. Choose investigator at your location. That investigator heals 2 damage or 2 horror. You take 1 damage and 1 horror. |
+| 017-018 | Tracker x2 | Event | Guardian | 1 | — | int/int | [act] Investigate. Use <com> instead of <int>. If succeed: Discover 1 additional clue. |
+| 019 | On the Hunt x1 | Event | Guardian | 1 | — | com/wil | [act] When another investigator at your location would have an enemy engage them: That enemy engages you instead. Move to your threat area. You get +1 damage on your next attack against that enemy. |
+| 020 | Fire Walker x1 | Event | Guardian | 1 | — | wil/wil | Fast. Move Abel Redcloud to any location on the board. You must move to a location with at least 1 clue or 1 enemy. Enemies do not make attacks of opportunity this round. |
+| 021-022 | Back to the Dark x2 | Event | Guardian | 2 | — | wil/com | Fast. Cancel an encounter card just drawn and discard it. |
+| 023-024 | Rain Dance x2 | Event | Guardian | 0 | — | wil/wil | Fast. When you would discover 1 clue at your location: Discover 2 clues instead. |
+| 025-026 | Elder Strength x2 | Skill | Guardian | — | — | wil/wil/wil | TBD |
+| 027-028 | Chieftain Wisdom x2 | Skill | Guardian | — | — | TBD | TBD |
+| 029-030 | Vicious Blow x2 | Skill | Guardian | — | — | com | If successful while fighting: Deal +1 damage. |
+| 031-032 | Awaken the Spirits x2 | Skill | Survivor | — | — | wil/wil/wil | TBD |
+| 033-034 | Unexpected Courage x2 | Skill | Neutral | — | — | wld/wld | No rules text. |
+
+---
+
+## Slot Picture
+
+| Slot | Card |
+|---|---|
+| Hand | The Sacred Spear (002) |
+| Hand | The Ritual Knife (009) |
+| Arcane | Sacred Fire (008) |
+| Arcane | Sweat Lodge (012) |
+| Accessory | Teeth of the Deep Ones (007) |
+| Body | Bear Pelt (014) |
+| Ally | Spirit Coyote (010) |
+| Ally | Spirit Coyote (011) |
+| Set Aside | Sacred Bond (004) — Elder Sign |
+| Set Aside | Sacred Wind (005) — Auto-fail |
+| Set Aside | Sacred Strength (006) — Cultist |
 
 ---
 
@@ -238,13 +226,41 @@ You get +1 `<wil>` while Bear Pelt is in play.
 |---|---|
 | **Pack Name** | Abel Redcloud Investigator Pack |
 | **Pack Code** | RYP-AR |
-| **Total Cards** | 006 |
+| **Total Cards** | 034 |
 | **Investigator** | 001 Abel Redcloud |
 | **Signature Asset** | 002 The Sacred Spear |
 | **Signature Weakness** | 003 The Tribal Oath |
-| **Pack Asset 1** | 004 Teeth of the Deep Ones |
-| **Pack Asset 2** | 005 The Sacred Bow |
-| **Pack Asset 3** | 006 The Ritual Knife |
+| **Set Aside 1** | 004 Sacred Bond (Elder Sign) |
+| **Set Aside 2** | 005 Sacred Wind (Auto-fail) |
+| **Set Aside 3** | 006 Sacred Strength (Cultist) |
+| **Deck** | 007-034 (28 cards) |
+
+---
+
+## Key Design Decisions — LOCKED
+
+| Decision | Value |
+|---|---|
+| Stats | WIL 4 / INT 2 / COM 4 / AGI 3 / HP 8 / SAN 7 |
+| Ability | Start of Mythos Phase: Add 1 bless token + heal 1 damage |
+| Elder Sign | +1. Play Sacred Bond. |
+| Auto-fail | Play Sacred Wind. |
+| Cultist | Play Sacred Strength. |
+| Sacred Bond | +3 INT, 3/3 soak, fades 1 dmg+1 hor per round |
+| Sacred Wind | +1 all stats, 3/3 soak, fades 1 dmg+1 hor per round |
+| Sacred Strength | +2 COM, heal 1 horror per kill, 3/3 soak, fades 1 dmg+1 hor per round |
+| Sacred Spear | Hand x1, +2 COM, +2 dmg, +3 dmg on succeed by 2, 1 bless per round limit |
+| Tribal Oath | Mythos Phase horror (not per kill), WIL(4) test to discard |
+| Teeth of the Deep Ones | Accessory, +1 WIL, reduce incoming damage by 1 |
+| Sacred Fire | Arcane, 4 charges, evade using WIL, +1 dmg on success |
+| Ritual Knife | Hand, +1 COM, +1 dmg, heal 1 horror per kill |
+| Spirit Coyote | Ally, +1 COM, retaliate 1 dmg when Abel takes damage |
+| Sweat Lodge | Arcane, 4 charges, heal any investigator 1 dmg or horror |
+| Bear Pelt | Body, HP 3 soak, +1 WIL, draw 1 card when taking damage |
+| On the Hunt | Protect ally from engagement, +1 dmg bonus |
+| Fire Walker | Teleport to any location with clue or enemy, no AoO |
+| Back to the Dark | Cancel any encounter card, cost 2 |
+| Rain Dance | Fast event, discover 2 clues instead of 1 |
 
 ---
 
@@ -257,205 +273,36 @@ Abel Redcloud/
 │   └── Abel-mini/
 ├── 002-The-Sacred-Spear/
 ├── 003-The-Tribal-Oath/
-├── 004-Teeth-of-the-Deep-Ones/
-├── 005-The-Sacred-Bow/
-├── 006-The-Ritual-Knife/
-├── 007-008-Spirit-Coyote/
-├── 009-010-Sweat-Lodge/
-├── 011-Bear-Pelt/
-├── 012-013-Noble-Sacrifice/
-├── 014-015-Tracker/
-├── 016-On-the-Hunt/
-├── 017-Fire-Walker/
-├── 018-019-Back-to-the-Dark/
-├── 020-021-Rain-Dance/
-├── 022-023-Elder-Strength/
-├── 024-025-Chieftain-Wisdom/
-├── 026-027-Vicious-Blow/
-├── 028-029-Awaken-the-Spirits/
-├── 030-031-Unexpected-Courage/
+├── 004-Sacred-Bond/
+├── 005-Sacred-Wind/
+├── 006-Sacred-Strength/
+├── 007-Teeth-of-the-Deep-Ones/
+├── 008-Sacred-Fire/
+├── 009-The-Ritual-Knife/
+├── 010-Spirit-Coyote/
+├── 011-Spirit-Coyote/
+├── 012-Sweat-Lodge/
+├── 013-Sweat-Lodge/
+├── 014-Bear-Pelt/
+├── 015-Noble-Sacrifice/
+├── 016-Noble-Sacrifice/
+├── 017-Tracker/
+├── 018-Tracker/
+├── 019-On-the-Hunt/
+├── 020-Fire-Walker/
+├── 021-Back-to-the-Dark/
+├── 022-Back-to-the-Dark/
+├── 023-Rain-Dance/
+├── 024-Rain-Dance/
+├── 025-Elder-Strength/
+├── 026-Elder-Strength/
+├── 027-Chieftain-Wisdom/
+├── 028-Chieftain-Wisdom/
+├── 029-Vicious-Blow/
+├── 030-Vicious-Blow/
+├── 031-Awaken-the-Spirits/
+├── 032-Awaken-the-Spirits/
+├── 033-Unexpected-Courage/
+├── 034-Unexpected-Courage/
 └── Abel-Redcloud-Card-Data.md
 ```
-
----
-
-## Naming Convention
-
-| File Type | Convention | Example |
-|---|---|---|
-| **Folders** | `###-Card-Name` | `002-The-Sacred-Spear` |
-| **Signature .eon** | `Redcloud-Sig-[Type]-[Name].eon` | `Redcloud-Sig-Asset-The-Sacred-Spear.eon` |
-| **Regular deck .eon** | `Redcloud-[Type]-[Name].eon` | `Redcloud-Skill-Chieftain-Wisdom.eon` |
-| **Exported PNGs** | `RYP-AR-###-[Name]-[Front/Back].png` | `RYP-AR-001-Abel-Redcloud-Front.png` |
-
----
-
-## Three Weapon System
-
-| Weapon | Folder | Cost | Slot | COM bonus | Special |
-|---|---|---|---|---|---|
-| Sacred Spear | 002 | 0 | 2 hands | +2, +1 dmg | Bless on kill |
-| Sacred Bow | 005 | 2 | 2 hands | +1 | Ranged, draw on kill |
-| Ritual Knife | 006 | 1 | 1 hand | +1 | Bless + heal horror on kill |
-
----
-
-## Bless Token Generation
-
-| Source | Fires when |
-|---|---|
-| The Sacred Spear | Any enemy killed with spear |
-| The Ritual Knife | Any enemy killed with knife |
-| Teeth of the Deep Ones | Deep One enemy killed (also readies necklace) |
-| Holy Water ×2 | Activated ability |
-
-In a full run Abel can add 15-25 bless tokens to the chaos bag — significantly improving all investigators' tests.
-
----
-
-## Horror Management
-
-| Source | Effect |
-|---|---|
-| The Tribal Oath | +1 horror per kill |
-| Teeth of the Deep Ones | Reduce 1 horror (exhaust) |
-| The Ritual Knife | Heal 1 horror per kill |
-| Guts ×2 | 2×`<wil>` — passes WIL tests, draws cards |
-| Ward of Protection | Cancel treachery (1 horror) — WIL 5 with necklace |
-
----
-
-## Design Notes
-
-- **WIL 4 + Teeth = WIL 5** — passes almost all encounter tests reliably
-- **COM 4 + Spear = COM 6** — kills most standard enemies in 1 action
-- **Ability fires every round** — COM 4 + WIL 4 means he passes tests constantly, generating 1 card or resource each time
-- **Elder Sign heals any investigator** — quiet team support that pairs especially well with Ironhide (damage) and Agnes (horror)
-- **Bless generation is the team contribution** — every kill improves everyone's chaos bag
-- **Different from Ironhide** — Abel uses WIL as much as COM, generates resources from passing tests, no ammo economy, no R'lyeh curse
-
----
-
-## Signature Upgrade Cards
-
-### Spirit Coyote (2)
-**Level:** 2 | **XP:** 4 | **Slot:** Ally
-
-| Field | Lv 0 | Lv 2 |
-|---|---|---|
-| HP soak | 3 | 3 |
-| SAN soak | 1 | **2** |
-| COM bonus | +1 | +1 |
-| Reaction dmg | 1 | **2** |
-
-```
-You get +1 <com> while Spirit Coyote is in play.
-<rea> When an enemy attack deals damage to you: Exhaust Spirit Coyote
-— deal 2 damage to the attacking enemy.
-```
-*Flavor: "It remembered what hurt me. It made sure they felt it too."*
-
----
-
-### Spirit Coyote (3)
-**Level:** 3 | **XP:** +2 from Lv 2 | **Slot:** Ally
-
-| Field | Lv 2 | Lv 3 |
-|---|---|---|
-| HP soak | 3 | **4** |
-| COM bonus | +1 | **+2** |
-| Reaction dmg | 2 | 2 |
-| New | — | **Fires on AoO too** |
-
-```
-You get +2 <com> while Spirit Coyote is in play.
-<rea> When an attack of opportunity or enemy attack deals damage to you:
-Exhaust Spirit Coyote — deal 2 damage to the attacking enemy.
-```
-*Flavor: "It does not wait to be asked anymore. It knows."*
-
----
-
-### Spirit Coyote (5)
-**Level:** 5 | **XP:** +4 from Lv 3 | **Slot:** Ally
-
-| Field | Lv 3 | Lv 5 |
-|---|---|---|
-| HP soak | 4 | **5** |
-| SAN soak | 2 | **3** |
-| COM bonus | +2 | +2 |
-| Reaction dmg | 2 | **3** |
-| New | — | **Bless on reaction + ready on kill** |
-
-```
-You get +2 <com> while Spirit Coyote is in play.
-<rea> When an attack of opportunity or enemy attack deals damage to you:
-Exhaust Spirit Coyote — deal 3 damage to the attacking enemy and add
-1 bless token to the chaos bag.
-<fre> After Spirit Coyote's reaction defeats an enemy: Ready Spirit Coyote.
-```
-*Flavor: "The coyote does not guard. It hunts. There is a difference."*
-
----
-### The Sacred Spear (3)
-**Level:** 3 | **Cost:** 6 XP | **Slot:** Hand ×2
-
-| Field | Lv 0 | Lv 3 |
-|---|---|---|
-| COM bonus | +2, +1 dmg | **+2, +2 dmg** |
-| On kill | Bless token | **2 bless tokens** |
-| Range | Melee only | **Melee OR connecting location** |
-| Icons | — | 1 × `<com>` + 1 × `<wil>` |
-
-```
-Abel Redcloud deck only.
-
-<act> Fight. You may target an enemy at a connecting location.
-You get +2 <com> for this attack. This attack deals +2 damage.
-
-<fre> After you defeat an enemy with The Sacred Spear:
-Add 2 bless tokens to the chaos bag.
-```
-*Flavor: "The ancestors made it for this. For all of it."*
-
----
-
-### Ancient Warrior (4) — New Custom
-**Level:** 4 | **Cost:** 8 XP | **Type:** Event
-
-```
-Abel Redcloud deck only. Fast.
-
-Choose an enemy at your location or a connecting location.
-That enemy gets -2 fight and -2 evade until the end of the round.
-Add 2 bless tokens to the chaos bag.
-Heal 1 damage and 1 horror from Abel Redcloud.
-```
-*Flavor: "Four generations of keepers showed me how to face this. I remember all of them."*
-
----
-
-## Upgrade Path (XP Priorities)
-
-| Priority | Card | XP | Reason |
-|---|---|---|---|
-| 1 | The Sacred Spear (3) | 6 XP | Ranged, +2 dmg, 2 bless per kill |
-| 2 | Spirit Coyote (2) | 4 XP | 2 dmg on AoO, +1 SAN soak |
-| 3 | Multi-Shot (2) | 4 XP | Bow hits up to 3 targets simultaneously |
-| 4 | Spirit Coyote (3) | 2 XP | +2 COM, AoO trigger, +1 HP soak |
-| 5 | Fire Walker (2) | 4 XP | Teleport + free fight on arrival |
-| 6 | Bear Pelt (2) | 4 XP | +1 HP soak (2→3) |
-| 7 | Rain Dance (2) | 4 XP | Protects adjacent investigators |
-| 8 | Sweat Lodge (3) | 6 XP | 6 charges, heals 2 horror, 3 bless |
-| 9 | Spirit Coyote (5) | 4 XP | 3 dmg + bless + ready on kill |
-| 10 | Ancient Warrior (4) | 8 XP | Fast, weaken enemy, 2 bless, heal self |
-
----
-
-## Pairing Notes
-
-| Pairing | Abel's role | Key synergy |
-|---|---|---|
-| + Ironhide | Second fighter, different style | Both generate bless tokens — chaos bag becomes very friendly |
-| + Greystoke | Primary combat, Greystoke free to clue | Elder Sign heals Greystoke's horror from Codex/Fearless |
-| + Agnes | Heavy fighter, Agnes supports | Abel handles fight 4-5, Agnes handles fight 1-3 with her weapons |

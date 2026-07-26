@@ -343,10 +343,12 @@ A quiet, pale, sad-looking man who is unmistakably dangerous. Nobody knows his r
 
 ---
 
-## ABEL REDCLOUD (RYP-AR) — COMPLETE ✅
+## ABEL REDCLOUD (RYP-AR) — IN PROGRESS 🔧
 
 - Guardian, WIL 4 / INT 2 / COM 4 / AGI 3, HP 8 / SAN 7
-- Deck review: PENDING
+- Ability: Start of Mythos Phase: Add 1 bless + heal 1 damage
+- Three set-aside ancestral cards: Sacred Bond (Elder Sign), Sacred Wind (Auto-fail), Sacred Strength (Cultist)
+- Cards 001-024 reviewed and rebuilt. Cards 025-034 still to review.
 
 ---
 
@@ -415,4 +417,5 @@ If you are reading this with no prior context:
 - Current priority: Build Eleanor Heart and Bjorn Blackcast in Strange Eons
 - Read individual investigator sections above for full card details
 - Ask the user what they want to work on — do not assume
+
 
