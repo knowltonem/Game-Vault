@@ -244,7 +244,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | 013-014 | Grave Robber ×2 | Event | 0 | Supply. | Gain 3 resources. | "The museum will pay handsomely." |
 | 015-016 | Anti-Chamber ×2 | Event | 0 | Insight. | Fast. Move to a connecting location. | — |
 | 017-018 | The Pact of Kha ×2 | Event | 0 | Augury. | Gain 4 resources. Add 2 curse tokens to the chaos bag. | — |
-| ~~019-020~~ | ~~Sand Veil ×2~~ | ~~REMOVED~~ | — | — | Replaced by Warwick Collection evade | — |
+| 019-020 | Power of the Ancients ×2 | Skill | — | Innate. Blessed. | Max 1 committed per skill test. If this test is successful: Draw 1 card. | — |
 | 021-022 | Ancient Intuition ×2 | Event | 2 | Insight. | Fast. Discover 1 clue at your location. | — |
 | 023-024 | Oxford Studies ×2 | Skill | — | Practiced. | Succeed while investigating: Discover 1 additional clue. | "She sees what others miss." |
 | 025-026 | Ra's Wrath ×2 | Event | 2 | — | Fight. +1 COM. If succeed: Deal 1 dmg and evade. | "His vengeance runs deep." |
@@ -307,7 +307,8 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | Grave Robber | Cost 0, gain 3r |
 | Anti-Chamber | Cost 0, fast move to connecting location |
 | Pact of Kha | Cost 0, gain 4r, add 2 curse tokens |
-| Sand Veil | Cost 2, fast disengage all + move |
+| Sand Veil | REMOVED — replaced by Power of the Ancients |
+| Power of the Ancients | Skill, WIL/WIL, max 1 per test, draw 1 on success |
 | Ancient Intuition | Cost 2, fast discover 1 clue |
 | Ra's Wrath | Cost 2, fight +1 COM, on success deal 1 dmg and evade |
 | Sobek's Gift | Cost 0, fast each investigator draws 1 card |
