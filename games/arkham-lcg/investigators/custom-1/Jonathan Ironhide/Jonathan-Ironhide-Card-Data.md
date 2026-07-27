@@ -104,7 +104,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 
 [for] After you defeat an enemy: Take 1 horror.
 
-[act] Spend 2 resources: Discard Echoes of R'lyeh.
+[act] Spend 4 resources: Discard Echoes of R'lyeh.
 
 ### Flavor
 *"This madness consumes me."*
@@ -171,7 +171,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | Elder Sign | +1. Draw 1 card and gain 1 resource on success |
 | Hollow Warden | Cost 0, Hand, 3 ammo, +2 COM +1 dmg, draw on kill, reload 2r=2 ammo, free reload 1 ammo on 0 |
 | Hydra Hyde | Cost 2, Body, 3/3 soak, reduce dmg or hor by 1, spend 2r to shuffle back on discard |
-| Echoes of R'lyeh | Weakness, revelation 2 horror, after kill 1 horror, spend 2r to discard |
+| Echoes of R'lyeh | Weakness, revelation 2 horror, after kill 1 horror, spend 4r to discard |
 | King's Talon | Cost 2, Hand, +2 COM +1 dmg, [cur]=+2 dmg, kill=heal 1 hor, +1 COM per dmg on target (max +3) |
 | Hound of the Deep | Cost 3, Ally, 3/1 soak, +1 COM, exhaust deal 1 dmg to attacking enemy |
 | Enchanted Blade | Cost 3, Hand, 3 charges, +1 COM base, spend charge: +2 more COM + 1 dmg on success |
