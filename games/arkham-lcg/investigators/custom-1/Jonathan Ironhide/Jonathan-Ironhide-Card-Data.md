@@ -117,7 +117,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 |---|---|---|---|---|---|---|
 | 005-006 | King's Talon ×2 | Asset — Hand | 2 | Item. Weapon. Relic. Cursed. | [act] [com] Fight. +2 [com] and +1 damage. If [cur] token revealed: deal +2 damage instead. If attack defeats enemy: heal 1 horror. You get +1 additional [com] per damage on attacked enemy (max +3). | "Hastur's servant fell screaming. Ironhide kept the claw." |
 | 007-008 | Hound of the Deep ×2 | Asset — Ally | 3 | Ally. Creature. Cursed. | 3/1 soak. Icons: agi/agi. You get +1 [com]. [rea] After an enemy attacks you: Exhaust — deal 1 damage to that enemy. | "It follows. It always follows." |
-| 009-010 | Luck of the Draw ×2 | Event | 1 | Insight. | Fast. INT/INT/INT icons. When you would discover 1 clue, instead discover 2 clues. | "Some men prepare. I just show up." |
+| 009-010 | Luck of the Draw ×2 | Skill | — | Insight. | INT/INT/INT icons. When you would discover 1 clue at your location during this skill test, instead discover 2 clues. | "Some men prepare. I just show up." |
 | 011-012 | Father Thomas ×2 | Asset — Ally | 3 | Ally. Priest. | 2/2 soak. You get +1 [com]. [act] Exhaust: Deal 1 damage to an enemy at your location, or discover 1 clue at your location. | "In my vision I saw the truth of the old one, but my faith holds strong." |
 | 013-014 | R'lyeh Fury ×2 | Skill | — | Practiced. | If successful during a [com] action: deal +1 damage. | "I don't fight to win. I fight to end it." |
 | 015-016 | I'll See You in Hell ×2 | Event | 1 | Tactic. | Deal 1 damage to an enemy at your location. You take 1 damage. [fre] If this card just defeated an enemy: Draw 2 cards. | "I've stared into the abyss. It blinked first." |
@@ -174,7 +174,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | Echoes of R'lyeh | Weakness, revelation 2 horror, after kill 1 horror, spend 4r to discard |
 | King's Talon | Cost 2, Hand, +2 COM +1 dmg, [cur]=+2 dmg, kill=heal 1 hor, +1 COM per dmg on target (max +3) |
 | Hound of the Deep | Cost 3, Ally, 3/1 soak, +1 COM, exhaust deal 1 dmg to attacking enemy |
-| Luck of the Draw | Cost 1, Event, INT/INT/INT icons, fast, when discover 1 clue instead discover 2 |
+| Luck of the Draw | Skill, INT/INT/INT icons, discover 2 clues instead of 1 during this skill test |
 | Father Thomas | Cost 3, Ally, 2/2 soak, +1 COM, exhaust: 1 dmg OR 1 clue |
 | R'lyeh Fury | Skill, practiced, +1 dmg on successful COM action |
 | I'll See You in Hell | Cost 1, deal 1 dmg take 1 dmg, kill=draw 2 cards |
