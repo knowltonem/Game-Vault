@@ -21,7 +21,7 @@
 | **Deckbuilding** | Guardian, Neutral (level 0-5). Mystic (level 0-2). Survivor (level 0-1). |
 
 ### Ability
-[rea] After you defeat an enemy: Gain 1 resource.
+[rea] After you defeat an enemy: Gain 1 resource and deal 1 damage to each enemy at your location. (Limit once per round.)
 
 ### Elder Sign
 +1. If you succeed, draw 1 card and gain 1 resource.
@@ -29,6 +29,7 @@
 ### Deckbuilding Requirements (do not count toward deck size)
 - The Hollow Warden ×1
 - Hydra Hyde ×1
+- Echoes of R'lyeh ×1
 - 1 random Basic Weakness
 
 ### Deck Size
@@ -168,7 +169,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to prevent it.
 | Decision | Value |
 |---|---|
 | Stats | WIL 3 / INT 2 / COM 5 / AGI 3 / HP 9 / SAN 7 |
-| Ability | [rea] After defeat enemy: Gain 1 resource |
+| Ability | [rea] After defeat enemy: Gain 1r + deal 1 dmg to each enemy at location (once per round) |
 | Elder Sign | +1. Draw 1 card and gain 1 resource on success |
 | Hollow Warden | Cost 0, Hand, 3 ammo, +2 COM +1 dmg, draw on kill, reload 2r=2 ammo, free reload 1 ammo on 0 |
 | Hydra Hyde | Cost 2, Body, 3/3 soak, -1 damage, horror→damage swap, 2r discard prevention |
