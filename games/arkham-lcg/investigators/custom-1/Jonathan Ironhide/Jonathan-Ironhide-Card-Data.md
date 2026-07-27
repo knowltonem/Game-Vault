@@ -83,11 +83,9 @@ Uses (3 ammo).
 | **SAN Soak** | 3 |
 
 ### Text
-Reduce damage dealt to you by 1 (to a minimum of 1).
+Reduce damage or horror dealt to you by 1.
 
-When you would take horror, you may take 1 damage instead.
-
-If Hydra Hyde would be discarded, you may spend 2 resources to prevent it.
+If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into your deck.
 
 ### Flavor
 *"A gift from the Deep."*
@@ -172,7 +170,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to prevent it.
 | Ability | [rea] After defeat enemy: Gain 1r + deal 1 dmg to each enemy at location (once per round) |
 | Elder Sign | +1. Draw 1 card and gain 1 resource on success |
 | Hollow Warden | Cost 0, Hand, 3 ammo, +2 COM +1 dmg, draw on kill, reload 2r=2 ammo, free reload 1 ammo on 0 |
-| Hydra Hyde | Cost 2, Body, 3/3 soak, -1 damage, horror→damage swap, 2r discard prevention |
+| Hydra Hyde | Cost 2, Body, 3/3 soak, reduce dmg or hor by 1, spend 2r to shuffle back on discard |
 | Echoes of R'lyeh | Weakness, revelation 2 horror, after kill 1 horror, spend 2r to discard |
 | King's Talon | Cost 2, Hand, +2 COM +1 dmg, [cur]=+2 dmg, kill=heal 1 hor, +1 COM per dmg on target (max +3) |
 | Hound of the Deep | Cost 3, Ally, 3/1 soak, +1 COM, exhaust deal 1 dmg to attacking enemy |
