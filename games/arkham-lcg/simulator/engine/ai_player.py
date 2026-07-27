@@ -33,6 +33,9 @@ class AIPlayer:
         # Priority 3: Fight engaged enemies (they attack every round!)
         for enemy in investigator.engaged_enemies:
             if not enemy.exhausted:
+                # Abel cannot take actions against the Wendigo
+                if investigator.id == "abel_redcloud" and enemy.name == "Wendigo":
+                    continue
                 weapon = self._find_weapon(investigator)
                 return FightAction(enemy, weapon)
 

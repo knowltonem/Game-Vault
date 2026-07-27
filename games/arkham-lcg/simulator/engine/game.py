@@ -353,6 +353,12 @@ class Game:
                 self._log(f'    [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
             self._log('')
 
+        # Spawn Wendigo if Abel Redcloud is in the game
+        for inv in self.game_state.investigators:
+            if inv.id == "abel_redcloud":
+                self._spawn_wendigo()
+                break
+
     def run(self, max_rounds: int = 50) -> GameResult:
         """Run the full game loop."""
         self.setup()
@@ -480,6 +486,47 @@ class Game:
                         enemy.engaged_with = inv.id
                         inv.engaged_enemies.append(enemy)
                         self.game_state.enemies.append(enemy)
+                break
+
+    def _spawn_wendigo(self):
+        """Spawn the Wendigo for Abel Redcloud's signature weakness."""
+        # Find the Wendigo in Abel's set-aside cards
+        for inv in self.game_state.investigators:
+            if inv.id == "abel_redcloud":
+                for card in inv.set_aside:
+                    if card.name == "Wendigo":
+                        # Find the investigator with the lowest combat (excluding Abel)
+                        target_inv = None
+                        lowest_combat = float('inf')
+                        for other_inv in self.game_state.investigators:
+                            if other_inv.id != "abel_redcloud" and not other_inv.is_defeated():
+                                if other_inv.combat < lowest_combat:
+                                    lowest_combat = other_inv.combat
+                                    target_inv = other_inv
+                        
+                        # If no other investigator, spawn with Abel (but he can't attack it)
+                        if target_inv is None:
+                            target_inv = inv
+                        
+                        # Create the enemy
+                        enemy = Enemy(
+                            id="wendigo",
+                            name="Wendigo",
+                            type=card.type,
+                            fight=card.fight,
+                            evade=card.evade,
+                            health=card.health,
+                            current_health=card.health,
+                            damage=card.damage,
+                            horror=card.horror,
+                            keywords=card.keywords,
+                            traits=card.traits
+                        )
+                        enemy.engaged_with = target_inv.id
+                        target_inv.engaged_enemies.append(enemy)
+                        self.game_state.enemies.append(enemy)
+                        
+                        self._log(f'  Wendigo spawned engaged with {target_inv.name} (lowest combat: {lowest_combat})')
                         break
                 break
 

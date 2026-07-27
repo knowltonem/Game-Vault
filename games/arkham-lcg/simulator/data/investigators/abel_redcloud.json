@@ -73,6 +73,22 @@
       "icons": {},
       "health": 3,
       "keywords": "Spirit. Oath."
+    },
+    {
+      "id": "wendigo",
+      "name": "Wendigo",
+      "type": "enemy",
+      "class": "weakness",
+      "cost": 0,
+      "slot": "",
+      "text": "Revelation — Spawn the Wendigo engaged with the investigator at your location with the lowest Combat value. Abel Redcloud cannot take actions against the Wendigo. Forced — At the end of the enemy phase: The Wendigo attacks the investigator it is engaged with.",
+      "icons": {},
+      "fight": 2,
+      "health": 2,
+      "evade": 4,
+      "damage": 2,
+      "horror": 0,
+      "keywords": "Hunter. Unique."
     }
   ],
   "deck": [
