@@ -155,7 +155,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | Slot | Card |
 |---|---|
 | Hand 1 | The Hollow Warden |
-| Hand 2 | King's Talon / Enchanted Blade / Holy Water |
+| Hand 2 | King's Talon / Luck of the Draw / Holy Water |
 | Body | Hydra Hyde |
 | Ally 1 | Hound of the Deep / Father Thomas / Aquinnah |
 | Ally 2 | (open) |
@@ -174,7 +174,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | Echoes of R'lyeh | Weakness, revelation 2 horror, after kill 1 horror, spend 4r to discard |
 | King's Talon | Cost 2, Hand, +2 COM +1 dmg, [cur]=+2 dmg, kill=heal 1 hor, +1 COM per dmg on target (max +3) |
 | Hound of the Deep | Cost 3, Ally, 3/1 soak, +1 COM, exhaust deal 1 dmg to attacking enemy |
-| Enchanted Blade | Cost 3, Hand, 3 charges, +1 COM base, spend charge: +2 more COM + 1 dmg on success |
+| Luck of the Draw | Cost 1, Event, INT/INT/INT icons, fast, when discover 1 clue instead discover 2 |
 | Father Thomas | Cost 3, Ally, 2/2 soak, +1 COM, exhaust: 1 dmg OR 1 clue |
 | R'lyeh Fury | Skill, practiced, +1 dmg on successful COM action |
 | I'll See You in Hell | Cost 1, deal 1 dmg take 1 dmg, kill=draw 2 cards |
@@ -194,5 +194,4 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 
 | Item | Issue |
 |---|---|
-| 002-006 PNGs | Missing — needs Strange Eons export |
-| 001 | Needs regen (ability/elder sign text may be outdated) |
+| 009-010 | Luck of the Draw — needs Strange Eons build and export |
