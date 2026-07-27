@@ -116,7 +116,7 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
 | 005-006 | King's Talon ×2 | Asset — Hand | 2 | Item. Weapon. Relic. Cursed. | [act] [com] Fight. +2 [com] and +1 damage. If [cur] token revealed: deal +2 damage instead. If attack defeats enemy: heal 1 horror. You get +1 additional [com] per damage on attacked enemy (max +3). | "Hastur's servant fell screaming. Ironhide kept the claw." |
-| 007-008 | Hound of the Deep ×2 | Asset — Ally | 3 | Ally. Creature. Cursed. | 3/1 soak. You get +1 [com]. [rea] After an enemy attacks you: Exhaust — deal 1 damage to that enemy. | "It follows. It always follows." |
+| 007-008 | Hound of the Deep ×2 | Asset — Ally | 3 | Ally. Creature. Cursed. | 3/1 soak. Icons: agi/agi. You get +1 [com]. [rea] After an enemy attacks you: Exhaust — deal 1 damage to that enemy. | "It follows. It always follows." |
 | 009-010 | Enchanted Blade ×2 | Asset — Hand | 3 | Item. Weapon. Melee. Relic. | Uses (3 charges). +1 [com] for this attack. Spend 1 charge: +2 additional [com]. If attack succeeds: deal +1 damage. | "Enchantments of unknown origin, dormant for untold years." |
 | 011-012 | Father Thomas ×2 | Asset — Ally | 3 | Ally. Priest. | 2/2 soak. You get +1 [com]. [act] Exhaust: Deal 1 damage to an enemy at your location, or discover 1 clue at your location. | "In my vision I saw the truth of the old one, but my faith holds strong." |
 | 013-014 | R'lyeh Fury ×2 | Skill | — | Practiced. | If successful during a [com] action: deal +1 damage. | "I don't fight to win. I fight to end it." |
