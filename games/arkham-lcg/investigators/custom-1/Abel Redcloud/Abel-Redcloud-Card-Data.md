@@ -85,6 +85,30 @@ You may play Sacred Strength.
 
 ---
 
+## Signature Weakness — 037 Wendigo
+
+| Field | Value |
+|---|---|
+| **Type** | Enemy — Weakness |
+| **Traits** | Monster. Spirit. Cursed. |
+| **Fight** | 2 |
+| **Health** | 2 |
+| **Evade** | 4 |
+| **Damage** | 2 |
+| **Horror** | 0 |
+| **Keywords** | Hunter |
+| **Unique** | Yes |
+
+### Text
+Revelation — Spawn the Wendigo engaged with the investigator at your location with the lowest Combat value. Abel Redcloud cannot take actions against the Wendigo.
+
+Forced — At the end of the enemy phase: The Wendigo attacks the investigator it is engaged with.
+
+### Flavor
+*"It preys on the weak."*
+
+---
+
 ## Set-Aside Cards
 
 ### 004 Sacred Bond — Elder Sign Trigger
