@@ -21,7 +21,7 @@ def cli():
 @cli.command()
 @click.option('--investigator', '-i', required=True, help='Investigator ID (e.g., abel_redcloud, nora_warwick)')
 @click.option('--scenario', '-s', required=True, help='Scenario ID (e.g., spreading_flames)')
-@click.option('--difficulty', '-d', default='standard', help='Difficulty level (easy, standard)')
+@click.option('--difficulty', '-d', default='standard', help='Difficulty level (easy, standard, hard)')
 @click.option('--rounds', '-r', default=50, help='Maximum number of rounds')
 @click.option('--verbose', '-v', is_flag=True, help='Enable verbose logging')
 @click.option('--games', '-n', default=1, help='Number of games to simulate')

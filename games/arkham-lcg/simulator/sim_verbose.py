@@ -3,7 +3,7 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 from engine.game import Game
 
-game = Game(['abel_redcloud', 'nora_warwick'], 'spreading_flames', 'standard')
+game = Game(['nora_warwick', 'alistair_greystoke'], 'spreading_flames', 'standard')
 result = game.run(max_rounds=30)
 
 print()

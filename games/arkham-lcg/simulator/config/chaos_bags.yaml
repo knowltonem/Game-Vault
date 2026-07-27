@@ -75,3 +75,48 @@ easy:
     - symbol: "auto_fail"
       count: 1
       modifier: auto_fail
+
+hard:
+  tokens:
+    - symbol: "+1"
+      count: 0
+      modifier: 1
+    - symbol: "0"
+      count: 1
+      modifier: 0
+    - symbol: "-1"
+      count: 3
+      modifier: -1
+    - symbol: "-2"
+      count: 3
+      modifier: -2
+    - symbol: "-3"
+      count: 2
+      modifier: -3
+    - symbol: "-4"
+      count: 1
+      modifier: -4
+    - symbol: "-5"
+      count: 1
+      modifier: -5
+    - symbol: "-6"
+      count: 1
+      modifier: -6
+    - symbol: "skull"
+      count: 2
+      modifier: scenario
+    - symbol: "cultist"
+      count: 1
+      modifier: scenario
+    - symbol: "tablet"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_thing"
+      count: 1
+      modifier: scenario
+    - symbol: "elder_sign"
+      count: 1
+      modifier: elder_sign
+    - symbol: "auto_fail"
+      count: 1
+      modifier: auto_fail
