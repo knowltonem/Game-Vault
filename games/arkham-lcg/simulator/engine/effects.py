@@ -75,7 +75,7 @@ class EffectsEngine:
                 # Add 1 bless token
                 game_state.chaos_bag.add_bless(1)
                 # Heal 1 damage
-                investigator.heal_damage(1)
+                investigator.heal_damage(1, healer=investigator)
                 return f"{investigator.name}: Added 1 bless token and healed 1 damage"
 
         elif investigator.id == "nora_warwick":
@@ -108,7 +108,7 @@ class EffectsEngine:
                 return f"Dealt {effect.value} damage to {target.name}"
 
         elif effect.effect_type == "heal":
-            investigator.heal_damage(effect.value)
+            investigator.heal_damage(effect.value, healer=investigator)
             return f"Healed {effect.value} damage"
 
         elif effect.effect_type == "draw":

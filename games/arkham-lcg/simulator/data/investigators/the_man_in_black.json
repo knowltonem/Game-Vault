@@ -1,0 +1,250 @@
+{
+  "id": "the_man_in_black",
+  "name": "The Man in Black",
+  "title": "Arkham Underground",
+  "class": "rogue",
+  "stats": {
+    "willpower": 3,
+    "intellect": 3,
+    "combat": 4,
+    "agility": 4,
+    "health": 7,
+    "sanity": 7
+  },
+  "ability": {
+    "trigger": "start_of_round",
+    "text": "At the start of the round: You may spend any number of resources. Choose 1 skill (WIL, INT, COM, or AGI). For each 2 resources spent, get +1 to that skill until the end of the round."
+  },
+  "elder_sign": {
+    "text": "+1. Gain 3 resources."
+  },
+  "signatures": [
+    {
+      "id": "the_fixer",
+      "name": "The Fixer",
+      "type": "asset",
+      "cost": 0,
+      "slot": "body",
+      "text": "Permanent. The Man in Black deck only. Unique. [action] Exhaust The Fixer: Fight. You get +2 <com> for this attack. This attack deals 3 damage. After you defeat an enemy with The Fixer: Gain 2 resources.",
+      "icons": {},
+      "keywords": "Item. Weapon. Firearm. Unique. Permanent."
+    },
+    {
+      "id": "cash_in_the_bag",
+      "name": "Cash in the Bag",
+      "type": "asset",
+      "cost": 0,
+      "slot": "accessory",
+      "text": "Permanent. The Man in Black deck only. Unique. At the start of your turn: Gain 1 resource.",
+      "icons": {},
+      "keywords": "Item. Supply. Unique. Permanent."
+    },
+    {
+      "id": "sneaky_pete",
+      "name": "Sneaky Pete",
+      "type": "enemy",
+      "cost": 0,
+      "text": "The Man in Black deck only. Revelation — Take 2 horror. Spawn Sneaky Pete at your location. While Sneaky Pete is in play: You cannot gain resources from any source. When Sneaky Pete is defeated: Remove Sneaky Pete from the game.",
+      "icons": {},
+      "fight": 3,
+      "evade": 4,
+      "health": 3,
+      "damage": 1,
+      "horror": 1,
+      "keywords": "Hunter. Retaliate. Unique."
+    }
+  ],
+  "deck": [
+    {
+      "id": "saturday_night_special",
+      "name": "The Saturday Night Special",
+      "type": "asset",
+      "level": 0,
+      "cost": 3,
+      "slot": "hand",
+      "text": "Uses (4 ammo). [action] Spend 1 ammo: Fight. +1 COM. +1 damage.",
+      "icons": {"combat": 2},
+      "keywords": "Item. Weapon. Firearm.",
+      "quantity": 2
+    },
+    {
+      "id": "cash_flow",
+      "name": "Cash Flow",
+      "type": "event",
+      "level": 0,
+      "cost": 0,
+      "text": "Fast. Gain 3 resources.",
+      "icons": {"wild": 1},
+      "quantity": 2
+    },
+    {
+      "id": "the_sure_thing",
+      "name": "The Sure Thing",
+      "type": "skill",
+      "level": 0,
+      "cost": 0,
+      "text": "If successful: Gain 3 resources.",
+      "icons": {"wild": 1, "combat": 1},
+      "quantity": 2
+    },
+    {
+      "id": "old_habit",
+      "name": "Old Habit",
+      "type": "asset",
+      "level": 0,
+      "cost": 1,
+      "text": "[action] Exhaust + take 1 horror: Heal 2 damage from any investigator at your location.",
+      "icons": {"wild": 1, "willpower": 1},
+      "quantity": 2
+    },
+    {
+      "id": "its_time",
+      "name": "It's Time",
+      "type": "asset",
+      "level": 0,
+      "cost": 4,
+      "slot": "",
+      "text": "+1 AGI and +1 INT while in play. [free] End of round: Heal 1 horror from yourself.",
+      "icons": {"intellect": 1, "wild": 1},
+      "quantity": 1
+    },
+    {
+      "id": "big_tommy",
+      "name": "Big Tommy",
+      "type": "asset",
+      "level": 0,
+      "cost": 3,
+      "slot": "ally",
+      "text": "+1 AGI. 3/0 soak. [reaction] When you would take damage from enemy attack: Exhaust Big Tommy — he takes it instead.",
+      "icons": {"combat": 1, "wild": 1},
+      "health": 3,
+      "keywords": "Ally.",
+      "quantity": 1
+    },
+    {
+      "id": "old_man_winters",
+      "name": "Old Man Winters",
+      "type": "asset",
+      "level": 0,
+      "cost": 3,
+      "slot": "ally",
+      "text": "+1 WIL. 2/2 soak. [reaction] When you would take damage or horror: Exhaust Old Man Winters — he takes it instead.",
+      "icons": {"willpower": 1, "wild": 1},
+      "health": 2,
+      "sanity": 2,
+      "keywords": "Ally.",
+      "quantity": 1
+    },
+    {
+      "id": "five_card_stud",
+      "name": "5 Card Stud",
+      "type": "skill",
+      "level": 0,
+      "cost": 0,
+      "text": "No rules text.",
+      "icons": {"wild": 2},
+      "quantity": 2
+    },
+    {
+      "id": "point_blank",
+      "name": "Point Blank",
+      "type": "skill",
+      "level": 0,
+      "cost": 0,
+      "text": "If successful while fighting: Deal +1 damage.",
+      "icons": {"combat": 2},
+      "quantity": 2
+    },
+    {
+      "id": "arkham_underground",
+      "name": "Arkham Underground",
+      "type": "event",
+      "level": 0,
+      "cost": 0,
+      "text": "Fast. Choose asset you control with uses (ammo, secrets, or charges). Fully replenish uses to starting value.",
+      "icons": {"agility": 1, "intellect": 1},
+      "quantity": 3
+    },
+    {
+      "id": "informant",
+      "name": "Informant",
+      "type": "event",
+      "level": 0,
+      "cost": 1,
+      "text": "Fast. Draw 2 cards.",
+      "icons": {"intellect": 2},
+      "quantity": 1
+    },
+    {
+      "id": "lights_out",
+      "name": "Lights Out",
+      "type": "event",
+      "level": 0,
+      "cost": 2,
+      "text": "[action] Fight. +1 COM. Each enemy at your location takes 2 damage. You take 1 horror.",
+      "icons": {"intellect": 1, "willpower": 1},
+      "quantity": 2
+    },
+    {
+      "id": "not_my_problem",
+      "name": "Not My Problem",
+      "type": "event",
+      "level": 0,
+      "cost": 1,
+      "text": "Fast. Cancel effects of a non-weakness treachery just drawn. Take 1 horror.",
+      "icons": {"willpower": 1, "wild": 1},
+      "quantity": 2
+    },
+    {
+      "id": "casing_the_joint",
+      "name": "Casing the Joint",
+      "type": "event",
+      "level": 0,
+      "cost": 1,
+      "text": "[action] Investigate using AGI instead of INT. If succeed: Discover 1 additional clue.",
+      "icons": {"agility": 2},
+      "quantity": 2
+    },
+    {
+      "id": "up_the_sleeve",
+      "name": "Up The Sleeve",
+      "type": "event",
+      "level": 0,
+      "cost": 2,
+      "text": "Fast. Draw 3 cards.",
+      "icons": {"agility": 2},
+      "quantity": 2
+    },
+    {
+      "id": "trap_door",
+      "name": "Trap Door",
+      "type": "event",
+      "level": 0,
+      "cost": 3,
+      "text": "Fast. Automatically evade an enemy engaged with you. That enemy remains exhausted until end of next round. Move to a connected location.",
+      "icons": {"agility": 2},
+      "quantity": 1
+    },
+    {
+      "id": "i_know_a_guy",
+      "name": "I Know A Guy",
+      "type": "event",
+      "level": 0,
+      "cost": 2,
+      "text": "Search your deck for any Asset and play it, reducing cost to 0. Shuffle your deck.",
+      "icons": {"wild": 1},
+      "quantity": 1
+    },
+    {
+      "id": "pray_for_me_father",
+      "name": "Pray for Me Father",
+      "type": "asset",
+      "level": 0,
+      "cost": 3,
+      "text": "Uses (4 supplies). [action] Spend 1 supply: Choose an investigator at your location to heal 1 horror. Then that investigator tests WIL (2). If succeed: Heal 1 additional horror.",
+      "icons": {"willpower": 1, "wild": 1},
+      "keywords": "Supply.",
+      "quantity": 2
+    }
+  ]
+}

@@ -63,9 +63,15 @@ class Card:
     flavor: str = ""
     slot: Optional[Slot] = None
     health: Optional[int] = None
+    current_health: Optional[int] = None
     sanity: Optional[int] = None
+    current_sanity: Optional[int] = None
     uses: Optional[int] = None
+    current_uses: Optional[int] = None
     uses_type: str = ""  # charges, ammo, supplies
+    soak_health: int = 0
+    soak_sanity: int = 0
+    exhausted: bool = False
     keywords: List[str] = field(default_factory=list)
     ability_text: str = ""
 
@@ -120,11 +126,11 @@ class Card:
         return self.type == CardType.SKILL
 
     def has_uses(self) -> bool:
-        return self.uses is not None and self.uses > 0
+        return self.current_uses is not None and self.current_uses > 0
 
     def spend_use(self) -> bool:
         if self.has_uses():
-            self.uses -= 1
+            self.current_uses -= 1
             return True
         return False
 
@@ -281,6 +287,14 @@ class Investigator:
     # Ability tracking
     ability_used_this_round: bool = False
     bless_tokens_added: int = 0
+    _pending_eleanor_heal: Optional[int] = None
+    _pending_bless: int = 0
+
+    # Temporary stat boosts
+    temp_combat: int = 0
+    temp_willpower: int = 0
+    temp_intellect: int = 0
+    temp_agility: int = 0
 
     # Scenario tracking
     servant_of_flame_defeated: bool = False
@@ -308,7 +322,7 @@ class Investigator:
             base = getattr(self, skill, 0)
         # Add bonuses from assets in play
         for card in self.play_area:
-            if card.is_asset():
+            if card.is_asset() and not card.exhausted:
                 if skill == "willpower" and "+1 <wil>" in card.text:
                     base += 1
                 elif skill == "intellect" and "+1 <int>" in card.text:
@@ -317,6 +331,20 @@ class Investigator:
                     base += 1
                 elif skill == "agility" and "+1 <agi>" in card.text:
                     base += 1
+                # Handle "You get +N <skill>" pattern
+                import re
+                m = re.search(r'\+(\d+)\s+<' + skill[:3] + '>', card.text)
+                if m:
+                    base += int(m.group(1))
+        # Add temporary boosts (Man in Black ability)
+        if skill == "combat":
+            base += self.temp_combat
+        elif skill == "willpower":
+            base += self.temp_willpower
+        elif skill == "intellect":
+            base += self.temp_intellect
+        elif skill == "agility":
+            base += self.temp_agility
         return base
 
     def draw_card(self) -> Optional[Card]:
@@ -333,6 +361,10 @@ class Investigator:
             self.draw_card()
 
     def gain_resource(self, amount: int = 1):
+        # Check if Sneaky Pete is in play (cannot gain resources)
+        for enemy in self.engaged_enemies:
+            if enemy.name == "Sneaky Pete":
+                return  # Cannot gain resources while Sneaky Pete is engaged
         self.resources += amount
 
     def spend_resource(self, amount: int) -> bool:
@@ -342,24 +374,93 @@ class Investigator:
         return False
 
     def take_damage(self, amount: int, source: str = "") -> bool:
+        old_health = self.current_health
+
+        # Check for soak assets (Big Tommy, Old Man Winters, etc.)
+        for asset in list(self.play_area):
+            if asset.soak_health > 0 and not asset.exhausted and amount > 0:
+                soaked = min(amount, asset.soak_health)
+                asset.soak_health -= soaked
+                amount -= soaked
+                asset.exhausted = True
+                from .phases import Logger
+                Logger.log(f'    {asset.name} soaks {soaked} damage (remaining soak: {asset.soak_health})')
+                if asset.soak_health <= 0:
+                    self.discard_card(asset)
+                    Logger.log(f'    {asset.name} destroyed!')
+
         self.current_health -= amount
         if self.current_health <= 0:
             self.current_health = 0
             self.defeated = True
+        
+        # Eleanor Heart's ability: after taking damage, heal from any investigator
+        if self.id == "eleanor_heart" and not self.ability_used_this_round:
+            damage_taken = old_health - self.current_health
+            if damage_taken > 0:
+                # Determine heal amount based on damage on Eleanor
+                damage_on_eleanor = self.health - self.current_health
+                if damage_on_eleanor >= 7:
+                    heal_amount = 4
+                elif damage_on_eleanor >= 6:
+                    heal_amount = 3
+                elif damage_on_eleanor >= 3:
+                    heal_amount = 2
+                else:
+                    heal_amount = 1
+                # Store for resolution in phases.py (needs game_state for other investigators)
+                self._pending_eleanor_heal = heal_amount
+                self.ability_used_this_round = True
+        
         return self.defeated
 
     def take_horror(self, amount: int, source: str = "") -> bool:
+        # Check for soak assets (Old Man Winters, etc.)
+        for asset in list(self.play_area):
+            if asset.soak_sanity > 0 and not asset.exhausted and amount > 0:
+                soaked = min(amount, asset.soak_sanity)
+                asset.soak_sanity -= soaked
+                amount -= soaked
+                asset.exhausted = True
+                from .phases import Logger
+                Logger.log(f'    {asset.name} soaks {soaked} horror (remaining soak: {asset.soak_sanity})')
+                if asset.soak_sanity <= 0:
+                    self.discard_card(asset)
+                    Logger.log(f'    {asset.name} destroyed!')
+
         self.current_sanity -= amount
         if self.current_sanity <= 0:
             self.current_sanity = 0
             self.defeated = True
         return self.defeated
 
-    def heal_damage(self, amount: int):
+    def heal_damage(self, amount: int, healer=None):
+        old_health = self.current_health
         self.current_health = min(self.current_health + amount, self.health)
+        actual_healed = self.current_health - old_health
+        if actual_healed > 0:
+            self._check_heal_triggers(actual_healed, healer)
 
-    def heal_horror(self, amount: int):
+    def heal_horror(self, amount: int, healer=None):
+        old_sanity = self.current_sanity
         self.current_sanity = min(self.current_sanity + amount, self.sanity)
+        actual_healed = self.current_sanity - old_sanity
+        if actual_healed > 0:
+            self._check_heal_triggers(actual_healed, healer)
+
+    def _check_heal_triggers(self, amount: int, healer=None):
+        """Check for heal triggers from assets: Fort Warren Chapel, Private Parker."""
+        trigger_owner = healer if healer else self
+        for asset in list(trigger_owner.play_area):
+            if asset.name == "Fort Warren Chapel":
+                self._pending_bless += 1
+                from .phases import Logger
+                Logger.log(f'    Fort Warren Chapel: +1 bless token ({self._pending_bless} pending)')
+            elif asset.name == "Private Parker":
+                drawn = trigger_owner.draw_card()
+                if drawn:
+                    from .phases import Logger
+                    Logger.log(f'    Private Parker: draws [{drawn.name}]')
 
     def is_defeated(self) -> bool:
         return self.defeated or self.current_health <= 0 or self.current_sanity <= 0
@@ -367,9 +468,18 @@ class Investigator:
     def ready_all(self):
         self.actions = 3
         self.ability_used_this_round = False
+        # Reset temporary stat boosts
+        self.temp_combat = 0
+        self.temp_willpower = 0
+        self.temp_intellect = 0
+        self.temp_agility = 0
         for card in self.play_area:
             if hasattr(card, 'exhausted'):
                 card.exhausted = False
+
+    def get_effective_combat(self):
+        """Get combat value including temporary boosts."""
+        return self.combat + self.temp_combat
 
     def play_card(self, card: Card) -> bool:
         if card.cost > self.resources:
@@ -378,6 +488,8 @@ class Investigator:
         self.hand.remove(card)
         if card.is_asset():
             self.play_area.append(card)
+        else:
+            self.discard.append(card)
         return True
 
     def discard_card(self, card: Card):
@@ -404,23 +516,17 @@ class Deck:
 
     def shuffle(self):
         """Shuffle the deck."""
-        self.cards = list(self.original_cards)
         random.shuffle(self.cards)
 
     def draw(self) -> Optional[Card]:
         """Draw a card from the deck."""
         if not self.cards:
-            if self.original_cards:
-                self.cards = list(self.original_cards)
-                random.shuffle(self.cards)
-            else:
-                return None
+            return None
         return self.cards.pop(0)
 
     def add_card(self, card: Card):
         """Add a card to the deck."""
         self.cards.append(card)
-        self.original_cards.append(card)
 
     def remove_card(self, card: Card):
         """Remove a card from the deck."""

@@ -28,13 +28,14 @@ def display_game_result(result):
 
 def display_investigator(investigator):
     """Display investigator info."""
+    subtitle_text = f" - {investigator.subtitle}" if investigator.subtitle else ""
     panel = Panel(
-        f"[bold]{investigator.name}[/bold] - {investigator.title}\n"
-        f"Class: {investigator.class_name}\n"
+        f"[bold]{investigator.name}[/bold]{subtitle_text}\n"
+        f"Class: {investigator.card_class.capitalize()}\n"
         f"WIL: {investigator.willpower} | INT: {investigator.intellect} | "
         f"COM: {investigator.combat} | AGI: {investigator.agility}\n"
-        f"HP: {investigator.health}/{investigator.health_max} | "
-        f"SAN: {investigator.sanity}/{investigator.sanity_max}",
+        f"HP: {investigator.current_health}/{investigator.health} | "
+        f"SAN: {investigator.current_sanity}/{investigator.sanity}",
         title="Investigator"
     )
     console.print(panel)

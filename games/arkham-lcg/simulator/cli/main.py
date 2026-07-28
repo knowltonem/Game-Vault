@@ -27,10 +27,6 @@ def cli():
 @click.option('--games', '-n', default=1, help='Number of games to simulate')
 def simulate(investigator, scenario, difficulty, rounds, verbose, games):
     """Run game simulation(s)."""
-    import logging
-    if verbose:
-        logging.basicConfig(level=logging.INFO)
-
     inv_ids = [i.strip() for i in investigator.split(',')]
 
     if games == 1:

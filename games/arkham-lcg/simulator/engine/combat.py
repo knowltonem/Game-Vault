@@ -66,13 +66,24 @@ class CombatResolver:
 
         if weapon:
             # Weapon fight bonus
-            if "+1 <com>" in weapon.text or "+2 <com>" in weapon.text:
-                bonuses["combat"] = 2 if "+2 <com>" in weapon.text else 1
+            text_lower = weapon.text.lower()
+            if "+1 <com>" in text_lower or "+2 <com>" in text_lower or "+1 com" in text_lower or "+2 com" in text_lower:
+                bonuses["combat"] = 2 if ("+2 <com>" in text_lower or "+2 com" in text_lower) else 1
             # Weapon damage bonus (check +2 before +1 to avoid double-counting)
             if "+2 damage" in weapon.text or "+2 dmg" in weapon.text:
                 damage_bonus += 2
             elif "+1 damage" in weapon.text or "+1 dmg" in weapon.text:
                 damage_bonus += 1
+            # Check for fixed damage (e.g., "deals 3 damage")
+            import re
+            fixed_damage = re.search(r'deals? (\d+) damage', weapon.text)
+            if fixed_damage:
+                damage_bonus = int(fixed_damage.group(1)) - 1  # Subtract base 1
+            # Spend weapon ammo/charges
+            if weapon.has_uses():
+                weapon.spend_use()
+                from .phases import Logger
+                Logger.log(f'      {weapon.name}: {weapon.current_uses} {weapon.uses_type} remaining')
 
         # Check for succeed-by-2 bonus (Sacred Spear)
         succeed_by_2_bonus = 0

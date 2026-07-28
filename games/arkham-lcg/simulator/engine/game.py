@@ -196,59 +196,71 @@ class Game:
         with open(filepath, 'r') as f:
             data = json.load(f)
 
+        def _parse_uses(text):
+            """Parse 'Uses (4 ammo)' or 'Uses (5 charges)' from card text."""
+            import re
+            m = re.search(r'Uses?\s*\((\d+)\s+(\w+)\)', text)
+            if m:
+                return int(m.group(1)), m.group(2)
+            return None, ""
+
+        def _parse_soak(text):
+            """Parse '3/0 soak' or '2/2 soak' from card text."""
+            import re
+            m = re.search(r'(\d+)/(\d+)\s+soak', text)
+            if m:
+                return int(m.group(1)), int(m.group(2))
+            return 0, 0
+
+        def _make_card(card_data, is_signature=False):
+            text = card_data.get("text", "")
+            uses, uses_type = _parse_uses(text)
+            soak_h, soak_s = _parse_soak(text)
+            health = card_data.get("health", 0)
+            sanity = card_data.get("sanity", 0)
+            return Card(
+                id=card_data.get("id", card_data["name"].lower().replace(" ", "_")),
+                name=card_data["name"],
+                type=Card._type(card_data.get("type", "asset")),
+                card_class=card_data.get("class", "") if is_signature else "",
+                level=card_data.get("level", 0),
+                cost=card_data.get("cost", 0),
+                text=text,
+                traits=card_data.get("traits", ""),
+                slot=card_data.get("slot", ""),
+                willpower=card_data.get("icons", {}).get("willpower", 0),
+                intellect=card_data.get("icons", {}).get("intellect", 0),
+                combat=card_data.get("icons", {}).get("combat", 0),
+                agility=card_data.get("icons", {}).get("agility", 0),
+                wild=card_data.get("icons", {}).get("wild", 0),
+                fight=card_data.get("fight", 0),
+                evade=card_data.get("evade", 0),
+                health=health,
+                current_health=health,
+                sanity=sanity,
+                current_sanity=sanity,
+                damage=card_data.get("damage", 0),
+                horror=card_data.get("horror", 0),
+                uses=uses,
+                current_uses=uses,
+                uses_type=uses_type,
+                soak_health=soak_h,
+                soak_sanity=soak_s,
+                keywords=card_data.get("keywords", ""),
+                ability_text=card_data.get("ability_text", "")
+            )
+
         # Create deck
         deck_cards = []
         for card_data in data.get("deck", []):
-            card = Card(
-                id=card_data.get("id", card_data["name"].lower().replace(" ", "_")),
-                name=card_data["name"],
-                type=Card._type(card_data.get("type", "asset")),
-                level=card_data.get("level", 0),
-                cost=card_data.get("cost", 0),
-                text=card_data.get("text", ""),
-                traits=card_data.get("traits", ""),
-                slot=card_data.get("slot", ""),
-                willpower=card_data.get("icons", {}).get("willpower", 0),
-                intellect=card_data.get("icons", {}).get("intellect", 0),
-                combat=card_data.get("icons", {}).get("combat", 0),
-                agility=card_data.get("icons", {}).get("agility", 0),
-                wild=card_data.get("icons", {}).get("wild", 0),
-                fight=card_data.get("fight", 0),
-                evade=card_data.get("evade", 0),
-                health=card_data.get("health", 0),
-                sanity=card_data.get("sanity", 0),
-                damage=card_data.get("damage", 0),
-                horror=card_data.get("horror", 0),
-                keywords=card_data.get("keywords", ""),
-                ability_text=card_data.get("ability_text", "")
-            )
+            card = _make_card(card_data)
             deck_cards.append(card)
 
-        # Create signature cards (set-aside)
+        # Create signature cards
+        # Both assets and weaknesses go into the deck (shuffled in)
         signature_cards = []
         for card_data in data.get("signatures", []):
-            card = Card(
-                id=card_data.get("id", card_data["name"].lower().replace(" ", "_")),
-                name=card_data["name"],
-                type=Card._type(card_data.get("type", "asset")),
-                cost=card_data.get("cost", 0),
-                text=card_data.get("text", ""),
-                traits=card_data.get("traits", ""),
-                slot=card_data.get("slot", ""),
-                willpower=card_data.get("icons", {}).get("willpower", 0),
-                intellect=card_data.get("icons", {}).get("intellect", 0),
-                combat=card_data.get("icons", {}).get("combat", 0),
-                agility=card_data.get("icons", {}).get("agility", 0),
-                wild=card_data.get("icons", {}).get("wild", 0),
-                fight=card_data.get("fight", 0),
-                evade=card_data.get("evade", 0),
-                health=card_data.get("health", 0),
-                sanity=card_data.get("sanity", 0),
-                damage=card_data.get("damage", 0),
-                horror=card_data.get("horror", 0),
-                keywords=card_data.get("keywords", ""),
-                ability_text=card_data.get("ability_text", "")
-            )
+            card = _make_card(card_data, is_signature=True)
             signature_cards.append(card)
 
         # Create investigator
@@ -277,10 +289,12 @@ class Game:
         )
         investigator.deck.shuffle()
 
-        # Add signature cards to set-aside and hand
+        # Add all signature cards to deck (shuffled in like normal cards)
         for card in signature_cards:
-            investigator.set_aside.append(card)
-            investigator.hand.append(card)
+            investigator.deck.add_card(card)
+            # Track weaknesses in set-aside for spawning later
+            if card.card_class == "weakness":
+                investigator.set_aside.append(card)
 
         self.game_state.add_investigator(investigator)
 
@@ -311,52 +325,62 @@ class Game:
             self._log(f'--- {inv.name} ({inv.card_class}, WIL{inv.willpower} INT{inv.intellect} COM{inv.combat} AGI{inv.agility}) ---')
             self._log(f'  HP: {inv.health}/{inv.health} | SAN: {inv.sanity}/{inv.sanity} | Resources: {inv.resources}')
 
-            # Draw 5 cards
-            drawn = []
-            for _ in range(5):
+            # Draw 5 cards from deck
+            self._log(f'  Draw 5 cards:')
+            for i in range(5):
                 card = inv.deck.draw()
                 if card:
-                    drawn.append(card)
                     inv.hand.append(card)
+                    self._log(f'    {i+1}. [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
 
-            self._log(f'  Opening hand ({len(inv.hand)} cards):')
-            for card in inv.hand:
-                self._log(f'    [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
+            # Remove weaknesses from hand (set aside, draw replacements)
+            weaknesses = [c for c in inv.hand if c.card_class == "weakness"]
+            if weaknesses:
+                self._log(f'  Weaknesses removed:')
+                for card in weaknesses:
+                    self._log(f'    [{card.name}] -> set aside', indent=1)
+                    inv.hand.remove(card)
+                    replacement = inv.deck.draw()
+                    if replacement:
+                        inv.hand.append(replacement)
+                        self._log(f'    Draw replacement: [{replacement.name}]', indent=1)
 
-            # Mulligan: discard and redraw any non-signature, non-asset cards
+            # Mulligan: AI keeps assets and events only
             mulliganed = []
-            keep = []
             for card in inv.hand:
-                if card.name in [s.name for s in inv.set_aside]:
-                    keep.append(card)
-                elif card.type.value == "skill":
+                if card.type.value not in ["asset", "event"]:
                     mulliganed.append(card)
-                else:
-                    keep.append(card)
 
             if mulliganed:
-                self._log(f'  Mulliganing {len(mulliganed)} card(s):')
+                self._log(f'  Mulligan:')
                 for card in mulliganed:
                     self._log(f'    Discard [{card.name}]', indent=1)
                     inv.hand.remove(card)
                     inv.discard.append(card)
-
-                # Draw replacements
                 for _ in range(len(mulliganed)):
                     card = inv.deck.draw()
                     if card:
                         inv.hand.append(card)
                         self._log(f'    Draw [{card.name}]', indent=1)
+                for card in mulliganed:
+                    inv.deck.add_card(card)
+                inv.deck.shuffle()
+                self._log(f'  Deck shuffled')
 
-            self._log(f'  Final hand ({len(inv.hand)} cards):')
-            for card in inv.hand:
-                self._log(f'    [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
+            # Show final hand
+            self._log(f'  Starting hand:')
+            for i, card in enumerate(inv.hand, 1):
+                self._log(f'    {i}. [{card.name}] ({card.type.value}, cost {card.cost}r)', indent=1)
             self._log('')
 
-        # Spawn Wendigo if Abel Redcloud is in the game
+        # Spawn signature weaknesses
         for inv in self.game_state.investigators:
             if inv.id == "abel_redcloud":
                 self._spawn_wendigo()
+                break
+        for inv in self.game_state.investigators:
+            if inv.id == "the_man_in_black":
+                self._spawn_sneaky_pete(inv)
                 break
 
     def run(self, max_rounds: int = 50) -> GameResult:
@@ -378,25 +402,36 @@ class Game:
                 engaged_str = f' vs {", ".join(engaged)}' if engaged else ''
                 self._log(f'  {inv.name}: {status} | {inv.resources}r | {len(inv.hand)} cards{engaged_str}')
 
+            # Man in Black ability: spend resources for stat boost
+            for inv in self.game_state.investigators:
+                if inv.id == "the_man_in_black" and not inv.is_defeated():
+                    self._resolve_mib_ability(inv)
+
             # Upkeep Phase
             self.game_state.phase = "upkeep"
             upkeep = UpkeepPhase()
             upkeep.execute(self.game_state)
 
-            # Mythos Phase
-            self.game_state.phase = "mythos"
-            mythos = MythosPhase()
-            mythos.execute(self.game_state)
+            # Round 1: skip Mythos and Enemy phases
+            if self.round_count == 1:
+                self._log('')
+                self._log('  (Round 1: Mythos and Enemy phases skipped)')
+            else:
+                # Mythos Phase
+                self.game_state.phase = "mythos"
+                mythos = MythosPhase()
+                mythos.execute(self.game_state)
 
             # Investigation Phase
             self.game_state.phase = "investigation"
             investigation = InvestigationPhase()
             investigation.execute(self.game_state)
 
-            # Enemy Phase
-            self.game_state.phase = "enemy"
-            enemy_phase = EnemyPhase()
-            enemy_phase.execute(self.game_state)
+            # Enemy Phase (skip Round 1)
+            if self.round_count > 1:
+                self.game_state.phase = "enemy"
+                enemy_phase = EnemyPhase()
+                enemy_phase.execute(self.game_state)
 
             # Check win/lose conditions
             self._check_conditions()
@@ -530,6 +565,55 @@ class Game:
                         break
                 break
 
+    def _resolve_mib_ability(self, inv):
+        """Resolve The Man in Black's ability: spend resources for stat boost."""
+        # Determine max weapon cost in hand (reserve resources for weapons)
+        weapon_cost = 0
+        for card in inv.hand:
+            if card.type.value == "asset":
+                text_lower = card.text.lower()
+                if card.has_keyword("weapon") or "+1 <com>" in text_lower or "+2 <com>" in text_lower or "+1 com" in text_lower or "+2 com" in text_lower:
+                    weapon_cost = max(weapon_cost, card.cost)
+        # Also check play_area for a weapon with ammo to reload (not applicable yet)
+        available = inv.resources - weapon_cost  # reserve resources for weapon
+        if available < 2:
+            return  # Not enough after reserving for weapon
+        spend = (available // 2) * 2  # round down to nearest 2
+        boost = spend // 2
+        inv.spend_resource(spend)
+        inv.temp_combat = inv.combat + boost
+        self._log(f'  {inv.name} ability: +{spend}r -> +{boost} COM (COM {inv.combat} -> {inv.temp_combat})')
+
+    def _spawn_sneaky_pete(self, inv):
+        """Spawn Sneaky Pete for Man in Black's signature weakness."""
+        # Find Sneaky Pete in set-aside cards
+        for card in inv.set_aside:
+            if card.name == "Sneaky Pete":
+                # Take 2 horror as per revelation
+                inv.take_horror(2, source="Sneaky Pete revelation")
+                self._log(f'  {inv.name} takes 2 horror from Sneaky Pete revelation (SAN {inv.current_sanity}/{inv.sanity})')
+                
+                # Create the enemy
+                enemy = Enemy(
+                    id="sneaky_pete",
+                    name="Sneaky Pete",
+                    type=card.type,
+                    fight=card.fight,
+                    evade=card.evade,
+                    health=card.health,
+                    current_health=card.health,
+                    damage=card.damage,
+                    horror=card.horror,
+                    keywords=card.keywords,
+                    traits=card.traits
+                )
+                enemy.engaged_with = inv.id
+                inv.engaged_enemies.append(enemy)
+                self.game_state.enemies.append(enemy)
+                
+                self._log(f'  Sneaky Pete spawned engaged with {inv.name}')
+                break
+
     def _create_result(self) -> GameResult:
         """Create the final game result."""
         survived = []
@@ -559,4 +643,4 @@ class Game:
 
     def _log(self, message: str, indent: int = 0):
         """Log a message."""
-        print(message)
+        print(message, flush=True)

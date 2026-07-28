@@ -55,7 +55,7 @@ class MythosPhase:
         if inv.id == "abel_redcloud":
             game_state.chaos_bag.add_bless(1)
             inv.bless_tokens_added += 1
-            inv.heal_damage(1)
+            inv.heal_damage(1, healer=inv)
             log(f'  {inv.name} ability: +1 bless token (total {game_state.chaos_bag.get_size()} in bag), heal 1 damage (HP {inv.current_health}/{inv.health})')
 
     def _resolve_encounter_card(self, inv: Investigator, card: Card, game_state):
@@ -177,6 +177,44 @@ class EnemyPhase:
                     log(f'    {inv.name}: HP {inv.current_health}/{inv.health} SAN {inv.current_sanity}/{inv.sanity}')
                     if inv.is_defeated():
                         log(f'    *** {inv.name} DEFEATED ***')
+
+        # Resolve Eleanor Heart's heal ability after damage
+        for inv in game_state.investigators:
+            if inv.id == "eleanor_heart" and hasattr(inv, '_pending_eleanor_heal') and inv._pending_eleanor_heal:
+                heal_amount = inv._pending_eleanor_heal
+                inv._pending_eleanor_heal = None
+                # Find an investigator at same location to heal
+                for target_inv in game_state.investigators:
+                    if not target_inv.is_defeated() and target_inv.id != "eleanor_heart":
+                        if target_inv.current_health < target_inv.health:
+                            old_hp = target_inv.current_health
+                            target_inv.heal_damage(heal_amount, healer=inv)
+                            log(f'  Eleanor Heart ability: heals {heal_amount} damage from {target_inv.name} (HP {old_hp} -> {target_inv.current_health})')
+                            break
+                        elif target_inv.current_sanity < target_inv.sanity:
+                            old_san = target_inv.current_sanity
+                            target_inv.heal_horror(heal_amount, healer=inv)
+                            log(f'  Eleanor Heart ability: heals {heal_amount} horror from {target_inv.name} (SAN {old_san} -> {target_inv.current_sanity})')
+                            break
+
+        # End-of-round effects from assets
+        for inv in game_state.investigators:
+            if inv.is_defeated():
+                continue
+            for asset in list(inv.play_area):
+                if asset.name == "It's Time" and not asset.exhausted:
+                    if inv.current_sanity < inv.sanity:
+                        old_san = inv.current_sanity
+                        inv.heal_horror(1, healer=inv)
+                        log(f'  {asset.name} end-of-round: heals 1 horror from {inv.name} (SAN {old_san} -> {inv.current_sanity})')
+
+        # Resolve pending bless tokens from Fort Warren Chapel
+        for inv in game_state.investigators:
+            if inv._pending_bless > 0:
+                game_state.chaos_bag.add_bless(inv._pending_bless)
+                inv.bless_tokens_added += inv._pending_bless
+                log(f'  Fort Warren Chapel: {inv._pending_bless} bless token(s) added to chaos bag (total: {game_state.chaos_bag.get_size()})')
+                inv._pending_bless = 0
 
         # Ready exhausted enemies
         for enemy in game_state.enemies:
