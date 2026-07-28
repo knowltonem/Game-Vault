@@ -40,9 +40,11 @@ All investigators at your location draw 1 card.
 
 ### Story (back)
 ```
-"She went to Innsmouth. She doesn't remember what happened.
-Her unit of 12 didn't come back. She wanders Arkham now,
-healing others while searching for answers about herself."
+"She was the senior medical officer on the Innsmouth
+mission. Twelve soldiers went in. Two came out.
+She doesn't remember leaving. Something does.
+She's in Arkham now, still healing, still looking
+for answers about what came back with her."
 ```
 
 ### Deckbuilding
@@ -464,9 +466,13 @@ Eleanor Heart/
 ## Design Notes
 
 ### Character Summary
-Former Army nurse, Lieutenant, stationed at Fort Warren. Went to Innsmouth with her unit of 12. She's the only one who came back. She doesn't remember what happened, but something came back with her — something that heals more than it should, something that will not let her die. She wanders Arkham now, healing other investigators while searching for answers about herself. She put her weapons down after Innsmouth and will not pick them up again.
+Lieutenant Eleanor Heart served as senior medical officer at Fort Warren on Georges Island. She knew Father Rodriguez the way everyone at a post knows the chaplain — from services, from the sick ward, from the quiet moments before deployments. When the Army organised a mission to Innsmouth she was assigned as medical lead. Eduardo volunteered to go with them.
 
-At Fort Warren she knew Father Rodriguez — head of the chapel and religious services. He filed reports on her behalf. He demanded the Army explain what happened to her unit. He was reassigned before he got any answers. She always suspected it was because of her. When he found her in Arkham she told him to go home. He didn't.
+Twelve soldiers went into Innsmouth. Eduardo and Eleanor came out. The soldiers did not.
+
+She doesn't remember what happened inside the town. She remembers the water. She remembers shapes. She does not remember leaving. Something came back with her — something that heals more than it should, something that will not let her die. The Army discharged her quietly and told her to rest. She has not rested.
+
+She wanders Arkham now, healing other investigators while searching for answers about what she brought back from Innsmouth. She put her weapons down after that night and will not pick them up again. When Father Rodriguez found her in Arkham she told him to go home. He didn't.
 
 ### Stat Analysis
 

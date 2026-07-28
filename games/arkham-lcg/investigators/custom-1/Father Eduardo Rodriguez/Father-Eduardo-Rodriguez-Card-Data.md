@@ -207,13 +207,13 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | Eduardo + Abel | 67% (2/3) | Abel INT 2 overloads Eduardo on clues |
 
 ## Story
-Father Eduardo Rodriguez was stationed at the Catholic mission on George's Island three years ago. The island sits above a ley line running toward R'lyeh. He documented everything — strange tides, congregation dreams, the lighthouse keeper who walked into the ocean. He wrote to the Vatican. They didn't write back. He wrote to Arkham. Someone did.
+Father Eduardo Rodriguez served as chaplain at Fort Warren on Georges Island — responsible for the chapel, the sacraments, and the spiritual welfare of every soldier on the post. He was there when strange things began happening on the island. Strange tides. Congregation dreams. The lighthouse keeper who walked into the ocean and didn't come back.
 
-Before George's Island he served for five years as the head of religious services at Fort Warren — responsible for the chapel, the sacraments, and the spiritual welfare of every soldier on the island. He administered last rites to men who came back from places they wouldn't speak about. It was there he met Lieutenant Eleanor Heart, the sole survivor of a unit sent to Innsmouth. He filed reports on her behalf. He demanded answers from the Army. He was reassigned to George's Island shortly after. He has always believed the two events were connected.
+When the Army organised a mission to Innsmouth he went with them. A priest accompanying soldiers into a town with no church and no God seemed right to him at the time. Lieutenant Eleanor Heart was the senior medical officer on the same mission. Twelve soldiers went into Innsmouth. Eduardo and Eleanor came out. The soldiers did not.
 
-When he arrived in Arkham and found her still walking — still healing others despite everything she'd lost — he decided that counted as a miracle.
+He documented everything he could remember. He wrote to the Vatican. No reply. The Army reassigned him to administrative duties and told him to stop filing reports. He kept filing them. Eventually he stopped going through the Army and wrote directly to an address in Arkham. Someone wrote back.
 
-Now in the city, he carries his field notes and his faith. He believes what lives beneath the water is evil in the oldest sense. Not alien. Not unknowable. Evil. And evil can be fought.
+He arrived in Arkham carrying his field notes and his faith. He found Eleanor Heart already there. He wasn't surprised. He believes what lives beneath the water is evil in the oldest sense — not alien, not unknowable. Evil. And evil can be fought.
 
 ---
 
