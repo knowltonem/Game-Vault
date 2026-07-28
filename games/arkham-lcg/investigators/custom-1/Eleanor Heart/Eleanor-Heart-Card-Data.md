@@ -386,7 +386,7 @@ You get +1 <wil> while Father Rodriguez is in play.
 [fre] After you add a bless token to the chaos bag:
 Gain 1 resource.
 ```
-*Flavor: "He came to Fort Warren to bless the dead. He stayed because she needed someone to believe she could still be saved."*
+*Flavor: "He ran the Fort Warren chapel for five years. He filed every report. He asked every question. They reassigned him anyway. He's still asking."*
 
 ---
 
@@ -465,6 +465,8 @@ Eleanor Heart/
 
 ### Character Summary
 Former Army nurse, Lieutenant, stationed at Fort Warren. Went to Innsmouth with her unit of 12. She's the only one who came back. She doesn't remember what happened, but something came back with her — something that heals more than it should, something that will not let her die. She wanders Arkham now, healing other investigators while searching for answers about herself. She put her weapons down after Innsmouth and will not pick them up again.
+
+At Fort Warren she knew Father Rodriguez — head of the chapel and religious services. He filed reports on her behalf. He demanded the Army explain what happened to her unit. He was reassigned before he got any answers. She always suspected it was because of her. When he found her in Arkham she told him to go home. He didn't.
 
 ### Stat Analysis
 
