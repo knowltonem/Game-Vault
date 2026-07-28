@@ -3,7 +3,25 @@
 
 ---
 
-## ROUND STRUCTURE
+## ROUND 1 — SPECIAL FIRST ROUND
+
+Round 1 is different from all subsequent rounds. The following DO NOT occur in Round 1:
+
+- **No Mythos Phase** — no doom is placed, no encounter cards are drawn
+- **No Enemy Phase** — no hunter movement, no enemy attacks
+- **No enemies in play** — investigators begin with empty threat areas
+- **No encounter cards** — investigators do not draw from encounter deck
+
+### Round 1 Order:
+1. **Setup** — draw opening hands, place starting assets (Permanent cards enter play)
+2. **Investigation Phase only** — each investigator takes their 3 actions
+3. **Upkeep Phase** — gain 1 resource, draw 1 card, ready all exhausted cards
+
+Round 2 onwards follows the full round structure.
+
+---
+
+## FULL ROUND STRUCTURE (Round 2+)
 
 ### Phase 1 — Investigation
 Each investigator takes a turn. 3 actions each.
@@ -266,3 +284,7 @@ If deck is empty and must draw:
 | Exhausted enemy attacks | WRONG — exhausted enemies never attack |
 | Hunter moves while engaged | WRONG — hunter only moves when unengaged |
 | 1 encounter card total | WRONG — 1 per investigator (2 for 2-player) |
+| Round 1 has Mythos/Enemy phases | WRONG — Round 1 is Investigation + Upkeep only |
+| Round 1 has encounter cards | WRONG — no encounter cards in Round 1 |
+| Round 1 has enemies | WRONG — no enemies in play at start |
+| Doom placed in Round 1 | WRONG — no Mythos Phase in Round 1 |
