@@ -467,15 +467,15 @@ Former Army nurse, Lieutenant, stationed at Fort Warren. Went to Innsmouth with 
 
 | Stat | Value | Notes |
 |---|---|---|
-| WIL | 4 | Strong — drives her spells and healing |
-| INT | 4 | Excellent — clue potential with Codex |
-| COM | 1 | Dump stat — she will not fight physically |
-| AGI | 4 | Fast — can evade when needed |
-| Health | 10 | Massive — powers her healing scale |
-| Sanity | 7 | Above average |
+| WIL | 4 | Strong — treachery defence, healing threshold tests |
+| INT | 4 | Excellent — clue engine with Innsmouth Codex |
+| COM | 1 | Dump stat — she does not fight |
+| AGI | 4 | Fast — reliable evades |
+| Health | 8 | Deliberate — scaling heal needs damage on her |
+| Sanity | 9 | High — survives the horror-heavy encounter deck |
 
 ### Healing Scale Analysis
-The core mechanic. At 0-2 damage: baseline heals. At 3-5: +1 bonus. At 6-8: +2 bonus. At 9: +3 bonus but one hit from defeat. The tension is deliberate — the player must choose between keeping Eleanor safe (weaker heals) or letting her take damage to amplify her healing (risking defeat).
+Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1. At 3-5: heal 2. At 6: heal 3. At 7: heal 4 but one hit from defeat. Tension is intentional — player must decide whether to heal Eleanor or ride the scale for her partner.
 
 ### Slot Picture
 
@@ -487,18 +487,50 @@ The core mechanic. At 0-2 damage: baseline heals. At 3-5: +1 bonus. At 6-8: +2 b
 | Body | Open |
 | Ally | Private Parker OR Chaplain Adama |
 
-### Deck Summary
+### Deck Summary — FINAL LOCKED
 
-| Category | Cards | Slots |
+| # | Card | Category | Count |
+|---|---|---|---|
+| 005-006 | Take What You Need | Search | 2 |
+| 007-008 | Special Allowance | Economy | 2 |
+| 009-010 | Clarity of Mind | Horror heal | 2 |
+| 011-012 | Military Tactics | Draw | 2 |
+| 013-014 | Arcane Practice | Combat | 2 |
+| 015-016 | Triage | Healing asset | 2 |
+| 017-018 | Patch Up | Fast heal | 2 |
+| 019-020 | Fort Warren Chapel | Bless engine | 2 |
+| 021-022 | Army Resupply | Economy | 2 |
+| 023-024 | Do No Harm | Treachery cancel | 2 |
+| 025-026 | The Codex Revealed | Clue | 2 |
+| 027 | Innsmouth Lessons | Clue + economy | 1 |
+| 028 | Private Parker | Ally | 1 |
+| 029 | Chaplain Adama | Ally | 1 |
+| 030-031 | Ward of Protection | Treachery cancel | 2 |
+| 032-033 | Focused Mind | Skill | 2 |
+| 034 | The Undying Will | Skill | 1 |
+| 035 | Medical Bag | Healing asset (sig) | 1 |
+| | **Total** | | **30** |
+
+### Simulation Results — FINAL
+
+| Pairing | Win Rate | Notes |
 |---|---|---|
-| Search | Take What You Need | 2 |
-| Economy | Special Allowance, Army Resupply | 4 |
-| Combat | Last Resort, Arcane Practice | 4 |
-| Healing | Triage, Patch Up | 4 |
-| Cancel | Do No Harm | 2 |
-| Utility | Fort Warren Chapel | 2 |
-| Clue | The Codex Revealed, Innsmouth Lessons | 3 |
-| Allies | Private Parker, Chaplain Adama | 2 |
-| Draw | Military Tactics | 2 |
-| Skills | Dead Calm, Focused Mind, The Undying Will | 5 |
-| **Total** | | **30** |
+| Eleanor + Ironhide | 100% (3/3) | Ironhide fights, Eleanor investigates + heals |
+| Eleanor + Greystoke | 0% | No fighter — enemies pile on Greystoke |
+| Eleanor + Man in Black | 0% | MiB WIL 3 collapses to horror |
+
+**Best partner:** Guardian with COM 4+ who can fight independently.
+**Key insight:** Clarity of Mind was the decisive card — horror panic button that freed Eleanor to investigate rather than react.
+
+### Key Design Decisions — LOCKED
+
+| Decision | Value |
+|---|---|
+| HP / SAN | 8 / 9 |
+| Ability | [rea] Take dmg or hor: heal 1 (2 at 3 dmg, 3 at 6 dmg, 4 at 7 dmg) from any investigator. Once per round. |
+| Elder Sign | +2. Heal 2 dmg or hor from Eleanor. All investigators draw 1. |
+| Fog of Innsmouth | Revelation 2 hor. After each enemy attacks you: 1 dmg. Spend 3r to discard. |
+| Do No Harm | Fast, cancel treachery, no horror cost |
+| Clarity of Mind | Fast, cost 1, heal 2 horror from any investigator |
+| Ward of Protection | Fast, cost 1, cancel non-weakness treachery, take 1 horror |
+| Healing scale | 0-2 dmg = heal 1 | 3-5 = heal 2 | 6 = heal 3 | 7 = heal 4 |
