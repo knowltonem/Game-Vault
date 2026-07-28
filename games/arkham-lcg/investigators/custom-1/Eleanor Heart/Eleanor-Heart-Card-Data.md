@@ -370,18 +370,18 @@ from any investigator: Draw 1 card.
 
 ---
 
-### 029 — Chaplain Adama
+### 029 — Father Rodriguez
 - **Cost:** 3r
 - **Type:** Asset — Ally
 - **Class:** Neutral
-- **Traits:** Ally. Military. Blessed.
+- **Traits:** Ally. Priest. Blessed.
 - **Slot:** Ally
 - **HP soak:** 0
 - **SAN soak:** 3
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-You get +1 <wil> while Chaplain Adama is in play.
+You get +1 <wil> while Father Rodriguez is in play.
 
 <fre> After you add a bless token to the chaos bag:
 Gain 1 resource.
@@ -508,7 +508,7 @@ Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1
 | 025-026 | The Codex Revealed | Clue | 2 |
 | 027 | Innsmouth Lessons | Clue + economy (slotless) | 1 |
 | 028 | Private Parker | Ally | 1 |
-| 029 | Chaplain Adama | Ally | 1 |
+| 029 | Father Rodriguez | Ally | 1 |
 | 030-031 | Ward of Protection | Treachery cancel | 2 |
 | 032-033 | Focused Mind | Skill | 2 |
 | 034 | The Undying Will | Skill | 1 |
