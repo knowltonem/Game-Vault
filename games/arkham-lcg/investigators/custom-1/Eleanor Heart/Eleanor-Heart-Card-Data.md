@@ -16,14 +16,13 @@
 | **Intellect** | 4 |
 | **Combat** | 1 |
 | **Agility** | 4 |
-| **Health** | 10 |
-| **Sanity** | 7 |
+| **Health** | 8 |
+| **Sanity** | 9 |
 
 ### Ability
 ```
-After one of your card effects heals damage or horror from an
-investigator: Heal 1 additional damage or horror for each 3
-damage currently on Eleanor Heart.
+[rea] After Eleanor Heart takes damage: Heal 1 damage or horror
+from any investigator at your location. (Limit once per round.)
 ```
 
 ### Elder Sign
@@ -132,11 +131,11 @@ draw 1 card.
 ```
 Eleanor Heart deck only.
 
-Revelation — The fog rolls in.
-Take 2 horror. Eleanor Heart cannot heal her own
-horror while The Fog of Innsmouth is in your threat area.
+Revelation — Take 2 horror.
 
-<act> Test <wil> (4): Discard The Fog of Innsmouth.
+Forced — After each enemy attacks you: Take 1 damage.
+
+<act> Spend 3 resources: Discard The Fog of Innsmouth.
 ```
 
 ### Flavor
@@ -148,12 +147,12 @@ horror while The Fog of Innsmouth is in your threat area.
 
 ## Healing Scale
 
-| Damage on Eleanor | Bonus Healing |
-|---|---|
-| 0-2 | +0 |
-| 3-5 | +1 |
-| 6-8 | +2 |
-| 9 | +3 |
+| Damage on Eleanor | Bonus | Status |
+|---|---|---|
+| 0-2 | +0 | Safe |
+| 3-5 | +1 | Wounded |
+| 6 | +2 | Hurt |
+| 7 | +3 | Critical — next hit kills |
 
 ---
 
@@ -311,8 +310,7 @@ control.
 
 ```
 Fast. Cancel a treachery card that is about to
-affect any investigator at your location. Eleanor
-Heart takes 1 horror.
+affect any investigator at your location.
 ```
 *Flavor: "The first oath. Still binding."*
 
