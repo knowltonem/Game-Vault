@@ -189,21 +189,17 @@ Fast. Gain 3 resources.
 
 ---
 
-### 009-010 — Last Resort
-- **Cost:** 3r
+### 009-010 — Clarity of Mind
+- **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
-- **Traits:** Spell. Cursed.
-- **Icons:** 1 × `<wil>` + 1 × `<int>`
+- **Traits:** Spell.
+- **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-<act> Fight. You fight using <int> or <wil>
-(your choice) instead of <com>. This attack deals
-+1 damage. After this attack: Deal 1 damage to
-each enemy at your location. Eleanor Heart takes
-1 damage and 1 horror.
+Fast. Heal 2 horror from any investigator at your location.
 ```
-*Flavor: "The last thing she kept from Innsmouth."*
+*Flavor: "She holds the chaos at bay, just long enough."*
 
 ---
 
