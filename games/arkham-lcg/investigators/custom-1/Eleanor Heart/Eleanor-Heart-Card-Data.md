@@ -21,7 +21,7 @@
 
 ### Ability
 ```
-[rea] After Eleanor Heart takes damage: Heal 1 damage or horror
+[rea] After Eleanor Heart takes damage or horror: Heal 1 damage or horror
 from any investigator at your location. (Limit once per round.)
 ```
 
