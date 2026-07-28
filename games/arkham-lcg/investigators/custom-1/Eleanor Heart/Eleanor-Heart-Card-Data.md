@@ -383,10 +383,10 @@ from any investigator: Draw 1 card.
 ```
 You get +1 <wil> while Father Rodriguez is in play.
 
-<fre> After you add a bless token to the chaos bag:
+[fre] After you add a bless token to the chaos bag:
 Gain 1 resource.
 ```
-*Flavor: "He blesses her anyway. Regardless of what she's become."*
+*Flavor: "He came to Fort Warren to bless the dead. He stayed because she needed someone to believe she could still be saved."*
 
 ---
 

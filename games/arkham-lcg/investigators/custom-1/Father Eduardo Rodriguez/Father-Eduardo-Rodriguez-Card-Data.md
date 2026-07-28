@@ -209,6 +209,8 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 ## Story
 Father Eduardo Rodriguez was stationed at the Catholic mission on George's Island three years ago. The island sits above a ley line running toward R'lyeh. He documented everything — strange tides, congregation dreams, the lighthouse keeper who walked into the ocean. He wrote to the Vatican. They didn't write back. He wrote to Arkham. Someone did.
 
+Before George's Island he spent two years as chaplain at Fort Warren, administering last rites to soldiers who came back from places they wouldn't speak about. It was there he met Lieutenant Eleanor Heart, the sole survivor of a unit sent to Innsmouth. He tried to help her then. He isn't sure he succeeded. When he arrived in Arkham and found her still walking — still healing others despite everything she'd lost — he decided that counted as a miracle.
+
 Now in the city, he carries his field notes and his faith. He believes what lives beneath the water is evil in the oldest sense. Not alien. Not unknowable. Evil. And evil can be fought.
 
 ---
