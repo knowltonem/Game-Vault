@@ -21,8 +21,9 @@
 
 ### Ability
 ```
-[rea] After Eleanor Heart takes damage or horror: Heal 1 damage or horror
-from any investigator at your location. (Limit once per round.)
+[rea] After Eleanor Heart takes damage or horror: Heal 1 damage
+or horror from any investigator at your location. Heal 1 additional
+for each 3 damage currently on Eleanor Heart. (Limit once per round.)
 ```
 
 ### Elder Sign
