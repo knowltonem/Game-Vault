@@ -389,16 +389,18 @@ Gain 1 resource.
 
 ---
 
-### 030-031 — Dead Calm
-- **Cost:** —
-- **Type:** Skill
-- **Class:** Neutral
-- **Icons:** 2 × `<wil>`
+### 030-031 — Ward of Protection
+- **Cost:** 1r
+- **Type:** Event
+- **Class:** Mystic
+- **Traits:** Spell.
+- **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-If this test fails: Draw 1 card.
+Fast. Cancel the effects of a non-weakness treachery just
+drawn by any investigator at your location. Take 1 horror.
 ```
-*Flavor: "The calm after Innsmouth is the only calm she knows."*
+*Flavor: "Not today."*
 
 ---
 
