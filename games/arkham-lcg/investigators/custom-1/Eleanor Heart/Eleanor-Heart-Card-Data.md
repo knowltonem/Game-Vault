@@ -77,10 +77,8 @@ The Fog of Innsmouth ×1, 1 random basic weakness.
 ```
 Eleanor Heart deck only. Unique.
 
-Medical Bag enters play with 4 charges.
-
-<act> Spend 1 charge: Heal 1 damage or 1 horror
-from an investigator at your location.
+[act] Heal 1 damage or 1 horror from any investigator
+at your location.
 ```
 
 ### Flavor
@@ -331,15 +329,15 @@ investigating.
 
 ### 027 — Innsmouth Lessons
 - **Cost:** 2r
-- **Type:** Asset — Arcane
+- **Type:** Asset
 - **Class:** Seeker
 - **Traits:** Tome. Cursed. Insight.
-- **Slot:** Arcane
+- **Slot:** None
 - **HP soak:** 1
 - **Icons:** 1 × `<int>` + 1 × `<wld>`
 
 ```
-<fre> After you successfully investigate: You may
+[fre] After you successfully investigate: You may
 discover 1 additional clue at your location and
 gain 1 resource.
 ```
@@ -481,11 +479,12 @@ Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1
 
 | Slot | Card |
 |---|---|
-| Hand | Medical Bag + 1 open |
-| Arcane | Triage + Fort Warren Chapel OR Innsmouth Lessons |
+| Hand | Medical Bag (no charges — free heal action) |
+| Arcane | Triage + Fort Warren Chapel |
 | Accessory | The Innsmouth Codex |
 | Body | Open |
 | Ally | Private Parker OR Chaplain Adama |
+| None | Innsmouth Lessons (slotless passive) |
 
 ### Deck Summary — FINAL LOCKED
 
@@ -496,19 +495,19 @@ Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1
 | 009-010 | Clarity of Mind | Horror heal | 2 |
 | 011-012 | Military Tactics | Draw | 2 |
 | 013-014 | Arcane Practice | Combat | 2 |
-| 015-016 | Triage | Healing asset | 2 |
+| 015-016 | Triage | Healing asset (Arcane) | 2 |
 | 017-018 | Patch Up | Fast heal | 2 |
-| 019-020 | Fort Warren Chapel | Bless engine | 2 |
-| 021-022 | Army Resupply | Economy | 2 |
+| 019-020 | Fort Warren Chapel | Bless engine (Arcane) | 2 |
+| 021-022 | ??? | Open | 2 |
 | 023-024 | Do No Harm | Treachery cancel | 2 |
 | 025-026 | The Codex Revealed | Clue | 2 |
-| 027 | Innsmouth Lessons | Clue + economy | 1 |
+| 027 | Innsmouth Lessons | Clue + economy (slotless) | 1 |
 | 028 | Private Parker | Ally | 1 |
 | 029 | Chaplain Adama | Ally | 1 |
 | 030-031 | Ward of Protection | Treachery cancel | 2 |
 | 032-033 | Focused Mind | Skill | 2 |
 | 034 | The Undying Will | Skill | 1 |
-| 035 | Medical Bag | Healing asset (sig) | 1 |
+| 035 | Medical Bag | Healing asset — Hand (sig) | 1 |
 | | **Total** | | **30** |
 
 ### Simulation Results — FINAL
