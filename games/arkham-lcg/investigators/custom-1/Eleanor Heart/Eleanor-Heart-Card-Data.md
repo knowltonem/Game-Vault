@@ -282,18 +282,23 @@ chaos bag.
 
 ---
 
-### 021-022 — Army Resupply
+### 021-022 — The Shores of Innsmouth
 - **Cost:** 0r
 - **Type:** Event
-- **Class:** Neutral
-- **Traits:** Supply. Tactic.
-- **Icons:** 1 × `<wld>`
+- **Class:** Mystic
+- **Traits:** Insight. Cursed.
+- **Icons:** 1 × `<wil>` + 1 × `<int>`
 
 ```
-Fast. Replenish up to 3 charges on any asset you
-control.
+Eleanor Heart deck only.
+
+Fast. Eleanor Heart takes 1 horror. Discover 2 clues
+at your location.
+
+[fre] If there are 3 or more clues at your location:
+Discover 1 additional clue.
 ```
-*Flavor: "Always arrives when you need it most."*
+*Flavor: "She remembers the tide. She remembers the shapes beneath it. She does not remember leaving."*
 
 ---
 
@@ -498,7 +503,7 @@ Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1
 | 015-016 | Triage | Healing asset (Arcane) | 2 |
 | 017-018 | Patch Up | Fast heal | 2 |
 | 019-020 | Fort Warren Chapel | Bless engine (Arcane) | 2 |
-| 021-022 | ??? | Open | 2 |
+| 021-022 | The Shores of Innsmouth | Clue + self-damage | 2 |
 | 023-024 | Do No Harm | Treachery cancel | 2 |
 | 025-026 | The Codex Revealed | Clue | 2 |
 | 027 | Innsmouth Lessons | Clue + economy (slotless) | 1 |
