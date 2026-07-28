@@ -21,6 +21,34 @@ Round 2 onwards follows the full round structure.
 
 ---
 
+## SETUP — OPENING HAND AND MULLIGANS
+
+### Opening Hand
+- Each investigator draws 5 cards as their opening hand
+- Permanent cards do NOT count toward the opening hand — they enter play automatically at setup
+- Weakness cards shuffled into the deck MAY appear in the opening hand (see exception below)
+
+### No Weakness in Opening Hand
+- If a weakness card is drawn as part of the opening hand, it is set aside and the investigator draws a replacement card
+- After the full opening hand is drawn (5 cards, no weaknesses), all set-aside weaknesses are shuffled back into the deck
+- This applies to ALL weaknesses including signature weaknesses (e.g. Church in Flames, The Fog of Innsmouth, Echoes of R'lyeh)
+- Exception: cards with the **Permanent** keyword that are weaknesses start in play regardless
+
+### Mulligan
+- After drawing the opening hand, each investigator may mulligan any number of cards
+- To mulligan: set aside any cards you wish to replace, draw that many cards from your deck
+- The set-aside cards are then shuffled back into your deck
+- Mulligans happen simultaneously (each investigator mulligans independently)
+- You may only mulligan once per game
+- Weakness cards drawn during the mulligan stay in hand (only the initial opening hand draw is protected)
+
+### Sim Impact
+- Opening hands should never contain weakness cards
+- Investigators start Round 1 with clean 5-card hands
+- Permanent cards (Prayer Beads, etc.) are in play before Round 1 begins
+
+---
+
 ## FULL ROUND STRUCTURE (Round 2+)
 
 ### Phase 1 — Investigation
@@ -288,3 +316,6 @@ If deck is empty and must draw:
 | Round 1 has encounter cards | WRONG — no encounter cards in Round 1 |
 | Round 1 has enemies | WRONG — no enemies in play at start |
 | Doom placed in Round 1 | WRONG — no Mythos Phase in Round 1 |
+| Weakness in opening hand | WRONG — weaknesses set aside, replacement drawn |
+| No mulligan | WRONG — each investigator may mulligan any number of cards once |
+| Permanent in opening hand | WRONG — Permanents enter play at setup, not drawn |
