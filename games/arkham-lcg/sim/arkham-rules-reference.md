@@ -49,6 +49,54 @@ Round 2 onwards follows the full round structure.
 
 ---
 
+## INVESTIGATOR-SPECIFIC SETUP RULES
+
+⚠️ **Always check the back of the investigator card before running a sim.**
+Many investigators have unique setup rules that override or add to the standard setup.
+
+### What to Check On Each Investigator Card Back:
+- **Deckbuilding Requirements** — mandatory cards that must be in deck (e.g. signature cards)
+- **Setup instructions** — cards that start in play, in hand, or set aside
+- **Special abilities that trigger at game start**
+- **Hunch decks, bonded cards, or other secondary decks**
+- **Starting resources (some differ from standard 5)**
+- **Starting hand size (most are 5, some differ)**
+
+### Common Investigator Setup Variations (examples):
+
+| Type | Example | Rule |
+|---|---|---|
+| Permanent in opening hand | Prayer Beads (Eduardo) | Enters play at setup, not drawn |
+| Card starts in hand | Wisdom of the Ancients | Add to opening hand after draw |
+| Secondary deck | Joe Diamond (Hunch deck) | Build separate 11-card hunch deck, draw 1 per round |
+| Bonded cards | Miss Doyle | Set aside bonded cards at start |
+| Extra starting resources | Some investigators | Check card back |
+| Cards set aside | Some signature assets | Set aside until condition met |
+| Reduced hand size | Some investigators | Check card back |
+| Cards start in play | Some investigators | Enter play before Round 1 |
+
+### RYP Expansion — Known Setup Rules:
+
+| Investigator | Setup Rule |
+|---|---|
+| Father Eduardo Rodriguez | Prayer Beads (Permanent) enters play at setup. Holy Cross, Church in Flames, Miracle shuffled into deck. |
+| Eleanor Heart | The Innsmouth Codex enters play at setup. Medical Bag, Fog of Innsmouth shuffled into deck. |
+| Jonathan Ironhide | Hollow Warden + Hydra Hyde start in play. Echoes of R'lyeh shuffled into deck. |
+| All investigators | 1 random Basic Weakness shuffled into deck |
+| All investigators | Signature weakness shuffled into deck (not in opening hand) |
+
+### ⚠️ Sim Checklist Before Each Run:
+1. Check investigator card back for setup instructions
+2. Place Permanent cards in play
+3. Add specified cards to opening hand (if any)
+4. Shuffle signature cards + weaknesses into deck
+5. Draw 5-card opening hand (no weaknesses)
+6. Apply mulligan if simulating optimal play
+7. Verify starting resources (default: 5)
+8. Set aside bonded/hunch cards if applicable
+
+---
+
 ## FULL ROUND STRUCTURE (Round 2+)
 
 ### Phase 1 — Investigation
