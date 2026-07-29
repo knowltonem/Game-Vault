@@ -133,7 +133,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 |---|---|---|---|---|---|---|
 | 006-007 | Holy Water ×2 | Asset — Hand | 2 | Item. Liquid. | Uses (4 charges). <act> Spend 1 charge: Add 1 bless token to the chaos bag. <act> Spend 1 charge: Heal 1 horror from any investigator at your location. | — |
 | 008-009 | All Mighty Wrath ×2 | Asset — Arcane | 3 | Spell. | Uses (4 charges). <act> Spend 1 charge: Fight using your <wil> instead of <com>. You get +1 <wil> for this attack. If this attack deals damage, deal +1 damage. <rea> If a skull, cultist, elder thing, or autofail token is revealed: Take 1 horror. | *"His Wrath Runs Deep."* |
-| 010 | St. Hubert's Key ×1 | Asset — Body | 2 | Item. Relic. | <wld><wld>. You get +1 <wil>. <san> 2 | *"Found in the chapel ruins. Still warm."* |
+| 010 | St. Hubert's Key ×1 | Asset — Body | 2 | Item. Relic. | <wld><wld>. You get +1 <wil>. <san> 3 | *"Found in the chapel ruins. Still warm."* |
 | 011-012 | Holy Word ×2 | Skill | 0 | Blessed. Spirit. | <wil><wil>. Fast. Choose an enemy at your location. Move that enemy to a connecting location of your choice. Exhaust that enemy for this round. | *"Be gone with you."* |
 | 013 | Encyclopedia ×1 | Asset — Hand | 2 | Item. Tome. | <fre> When you would perform a skill test: Exhaust Encyclopedia — you get +2 to that skill for this test. (Limit once per round.) | — |
 | 014-015 | Ward of Protection ×2 | Event | 1 | Spell. | <wil><wld>. Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | — |
