@@ -139,7 +139,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 014-015 | Purge the Heretic ×2 | Event | 1 | Spell. | <wil><wld>. Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | *"Faithless Monsters, Nothing More."* |
 | 016-017 | Light of Faith ×2 | Event | 0 | Blessed. Spirit. | <int><int>. Fast. Heal 1 horror and 1 damage from any investigator at your location. | *"I do not fear you."* |
 | 018-019 | Read the Signs ×2 | Event | 2 | Spell. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | — |
-| 020-021 | Whispers of the Island ×2 | Event | 0 | Blessed. Insight. | <wil><wld>. Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
+| 020-021 | Fort Warren Mission ×2 | Event | 0 | Blessed. Insight. | <wil><wld>. Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
 | 022 | Divine Insight ×1 | Event | 1 | Blessed. Insight. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | *"God shows me what others cannot see."* |
 | 023 | Church Collection ×1 | Event | 0 | Supply. | <wld>. Gain 3 resources. | *"The parish always provides."* |
 | 024 | Answered Prayers ×1 | Event | 0 | Blessed. Supply. | Fast. Play after the last clue is discovered at your location. Each investigator at your location gains 1 resource for each point of that location's shroud value. | *"Your faith has been rewarded."* |
