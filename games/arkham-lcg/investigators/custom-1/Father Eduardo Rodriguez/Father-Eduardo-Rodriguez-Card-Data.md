@@ -142,7 +142,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 020-021 | Fort Warren Mission ×2 | Event | 0 | Blessed. Insight. | <wil><wld>. Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
 | 022 | Divine Insight ×1 | Event | 1 | Blessed. Insight. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | *"God shows me what others cannot see."* |
 | 023 | Church Collection ×1 | Event | 0 | Supply. | <wld>. Gain 3 resources. | *"The parish always provides."* |
-| 024 | Answered Prayers ×1 | Event | 0 | Blessed. Supply. | Fast. Play after the last clue is discovered at your location. Each investigator at your location gains 1 resource for each point of that location's shroud value. | *"Your faith has been rewarded."* |
+| 024 | Answered Prayers ×1 | Event | 0 | Blessed. Supply. | <agi><agi><agi>. Fast. Play after the last clue is discovered at your location. Each investigator at your location gains 1 resource for each point of that location's shroud value. | *"Your faith has been rewarded."* |
 | 025 | Anointing ×1 | Event | 0 | Blessed. Spirit. | <wld>. Fast. Add 2 bless tokens to the chaos bag. If there are 5 or more bless tokens in the chaos bag, also heal 1 horror from any investigator at your location. | *"In nomine Patris."* |
 | 026-027 | Ethereal Form ×2 | Event | 1 | Spell. | <agi><wld>. Fast. Automatically evade each enemy engaged with you. | — |
 | 028-029 | Crack the Case ×2 | Event | 0 | Insight. | <wld>. Fast. Play after the last clue is discovered at a location. Each investigator at that location gains 1 resource for each point of that location's shroud value. | — |
