@@ -99,7 +99,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
 | Eleanor Heart | RYP-EH | Mystic | 🔧 Deck redesigned (HP8/SAN9), needs Strange Eons build |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
-| Father Eduardo Rodriguez | RYP-ER | Mystic | 🔧 001-002 built, 003-035 pending |
+| Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 
 ---
 
@@ -255,7 +255,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ---
 
-## FATHER EDUARDO RODRIGUEZ (RYP-ER) — IN PROGRESS 🔧
+## FATHER EDUARDO RODRIGUEZ (RYP-ER) — ✅ COMPLETE
 
 - Mystic, WIL 4 / INT 4 / COM 1 / AGI 3, HP 7 / SAN 9
 - Subtitle: What Can I Do to Help? Traits: Priest. Scholar.
@@ -263,16 +263,23 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 - Weakness: Church in Flames (Revelation: 1 hor. Upkeep: 1 hor. <act> 3r to discard)
 - **Ability:** <fre> Once per round: Spend 2 resources — Disengage from all enemies engaged with you and move them up to 2 connections away from your location.
 - **Elder Sign:** +2. Choose one investigator at your location. Heal up to 2 horror and 2 damage from that investigator.
-- 35 folders created. Card-Data complete. 001-002 built in Strange Eons. 003-035 pending.
+- 35 folders complete. Card-Data complete. All 35 cards built in Strange Eons. All art done.
 - Story: Chaplain at Fort Warren on Georges Island. Went on Innsmouth mission with Eleanor. Documented everything. Wrote to Vatican — no reply. Wrote to Arkham — someone replied.
 
 ### Build Progress
 | Card | Status |
 |---|---|
-| 001 Father Eduardo Rodriguez | ✅ Built, exported, art done |
-| 002 Prayer Beads | ✅ Built, exported, art done |
-| 003 Holy Cross of St. Thomas | 🔧 In progress |
-| 004-035 | ❌ Pending |
+| 001-035 All cards | ✅ Built, exported, art done |
+
+### Notable Card Changes This Session
+| Change | Detail |
+|---|---|
+| 008-009 | Shrivelling → All Mighty Wrath |
+| 014-015 | Ward of Protection → Purge the Heretic |
+| 020-021 | Whispers of the Island → Fort Warren Mission |
+| 032 | Enraptured → Act of Faith (cancel autofail, treat as elder sign, remove from game) |
+| 033 | Enraptured → Blessed Reward (cancel skull/cultist, treat as +1, remove from game) |
+| 036 | Holy Rosary — CUT from deck |
 
 ### Key Design Decisions
 | Decision | Value |
@@ -301,8 +308,6 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 - [ ] Agnes 020 Drawn to the Flame — rebuild in Strange Eons (wrong rules in EON)
 - [ ] Ephraim Archer 035 — needs Strange Eons build
 - [ ] Build Eleanor Heart in Strange Eons (001-034)
-- [ ] Build Father Eduardo Rodriguez in Strange Eons (003-035)
-- [ ] Eduardo art — most cards still need art
 
 ## Icon Syntax — LOCKED
 

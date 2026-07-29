@@ -150,7 +150,6 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 032 | Act of Faith ×1 | Skill | — | Blessed. Spirit. | <wil><wil>. Fast. When an autofail token is revealed during a skill test performed by any investigator: Cancel that token and treat it as an elder sign token instead. Remove Act of Faith from the game. | *"Do Not Falter."* |
 | 033 | Blessed Reward ×1 | Skill | — | Blessed. Spirit. | <wil><wil>. Fast. When a skull or cultist token is revealed during a skill test performed by any investigator: Cancel that token and treat it as a +1 instead. Remove Blessed Reward from the game. | — |
 | 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | *"If you listen, all is revealed."* |
-| 036 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | <wil>. You get +1 <wil>. <san> 2 | — |
 
 ---
 
@@ -160,7 +159,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 |---|---|
 | **Pack Name** | Father Eduardo Rodriguez Investigator Pack |
 | **Pack Code** | RYP-ER |
-| **Total Cards** | 036 |
+| **Total Cards** | 035 |
 | **Investigator** | 001 Father Eduardo Rodriguez |
 | **Permanent** | 002 Prayer Beads (starts in opening hand) |
 | **Signature Asset** | 003 Holy Cross of St. Thomas (shuffled in) |
