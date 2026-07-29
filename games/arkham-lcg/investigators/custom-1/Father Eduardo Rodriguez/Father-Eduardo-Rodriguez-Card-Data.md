@@ -95,6 +95,7 @@ If a bless token is revealed during this attack: Deal 1 additional damage and he
 |---|---|
 | **Type** | Treachery — Weakness |
 | **Traits** | Flaw. Curse. |
+| **Icons** | <wil><wil> |
 
 ### Text
 Revelation — Take 1 horror.
