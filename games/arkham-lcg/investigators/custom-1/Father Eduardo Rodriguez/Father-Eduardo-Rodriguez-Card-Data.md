@@ -148,7 +148,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 028-029 | Crack the Case ×2 | Event | 2 | Insight. | <wld>. Fast. Play after the last clue is discovered at a location. Each investigator at that location gains 1 resource for each point of that location's shroud value. | *"God hides nothing that faith cannot find."* |
 | 030-031 | Guts ×2 | Skill | — | Practiced. | <wil><wil>. If this test is successful, draw 1 card. | — |
 | 032 | Act of Faith ×1 | Skill — Signature | — | Blessed. Spirit. | <wil><wil>. Fast. When an autofail token is revealed during a skill test performed by any investigator: Cancel that token and treat it as an elder sign token instead. Remove Act of Faith from the game. | *"Not today. Not like this."* |
-| 033 | Enraptured ×1 | Skill | — | Practiced. | <int>. If this test is successful, place 1 charge on an asset you control. | *"Every prayer answered leaves something behind."* |
+| 033 | Blessed Reward ×1 | Skill — Signature | — | Blessed. Spirit. | <wil><wil>. Fast. When a skull or cultist token is revealed during a skill test performed by any investigator: Cancel that token and treat it as a +1 instead. Remove Blessed Reward from the game. | — |
 | 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | — |
 | 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 <wil>. <san> 2 | — |
 
