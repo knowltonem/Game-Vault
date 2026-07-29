@@ -17,10 +17,10 @@
 | **Deckbuilding** | Mystic, Neutral (level 0-5). Seeker (level 0-2). Guardian (level 0-1). |
 
 ### Ability
-[fre] Once per round: Spend 2 resources — Disengage from all enemies engaged with you and move them up to 2 connections away from your location.
+<fre> Once per round: Spend 2 resources — Disengage from all enemies engaged with you and move them up to 2 connections away from your location.
 
 ### Second Ability
-[rea] When a bless token is drawn at your location: Heal 1 horror or damage from any investigator at your location.
+<rea> When a bless token is drawn at your location: Heal 1 horror or damage from any investigator at your location.
 
 ### Elder Sign
 +2. Choose one investigator at your location. Heal up to 2 horror and 2 damage from that investigator.
@@ -80,7 +80,7 @@ At the start of the Mythos phase: Heal 1 Horror or Damage from any investigator 
 | **Unique** | Yes |
 
 ### Text
-[act] [wil] Fight. You get +2 Willpower for this attack and deal +1 damage.
+<act> <wil> Fight. You get +2 Willpower for this attack and deal +1 damage.
 
 If a bless token is revealed during this attack: Deal 1 additional damage and heal 1 horror from yourself.
 
@@ -101,7 +101,7 @@ Revelation — Take 1 horror.
 
 Forced — At the end of the upkeep phase: Take 1 horror.
 
-[act] Spend 3 resources: Discard Church in Flames.
+<act> Spend 3 resources: Discard Church in Flames.
 
 ### Flavor
 *"They burned it all. I seek understanding."*
@@ -130,13 +130,13 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 
 | # | Card | Type | Cost | Traits | Rules | Flavor |
 |---|---|---|---|---|---|---|
-| 006-007 | Holy Water ×2 | Asset — Hand | 2 | Item. Liquid. | Uses (4 charges). [act] Spend 1 charge: Add 1 bless token to the chaos bag. [act] Spend 1 charge: Heal 1 horror from any investigator at your location. | — |
-| 008-009 | Shrivelling ×2 | Asset — Arcane | 3 | Spell. | Uses (4 charges). [act] [wil] Fight. You get +1 WIL. Spend 1 charge: Deal +1 damage. If a skull, cultist, tablet, elder thing, or autofail is revealed: Take 1 horror. | — |
-| 010 | St. Hubert's Key ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 WIL. [san soak 2] | — |
-| 011-012 | Holy Word ×2 | Skill | 0 | Blessed. Spirit. | wil/wil icons. Fast. Choose an enemy at your location. Move that enemy to a connecting location of your choice. Exhaust that enemy for this round. | *"Be gone with you."* |
-| 013 | Encyclopedia ×1 | Asset — Hand | 2 | Item. Tome. | [fre] When you would perform a skill test: Exhaust Encyclopedia — you get +2 to that skill for this test. (Limit once per round.) | — |
+| 006-007 | Holy Water ×2 | Asset — Hand | 2 | Item. Liquid. | Uses (4 charges). <act> Spend 1 charge: Add 1 bless token to the chaos bag. <act> Spend 1 charge: Heal 1 horror from any investigator at your location. | — |
+| 008-009 | Shrivelling ×2 | Asset — Arcane | 3 | Spell. | Uses (4 charges). <act> <wil> Fight. You get +1 WIL. Spend 1 charge: Deal +1 damage. If a skull, cultist, tablet, elder thing, or autofail is revealed: Take 1 horror. | — |
+| 010 | St. Hubert's Key ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 WIL. <san> 2 | — |
+| 011-012 | Holy Word ×2 | Skill | 0 | Blessed. Spirit. | <wil><wil>. Fast. Choose an enemy at your location. Move that enemy to a connecting location of your choice. Exhaust that enemy for this round. | *"Be gone with you."* |
+| 013 | Encyclopedia ×1 | Asset — Hand | 2 | Item. Tome. | <fre> When you would perform a skill test: Exhaust Encyclopedia — you get +2 to that skill for this test. (Limit once per round.) | — |
 | 014-015 | Ward of Protection ×2 | Event | 1 | Spell. | Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | — |
-| 016-017 | Light of Faith ×2 | Event | 0 | Blessed. Spirit. | int/int icons. Fast. Heal 1 horror and 1 damage from any investigator at your location. | *"I do not fear you."* |
+| 016-017 | Light of Faith ×2 | Event | 0 | Blessed. Spirit. | <int><int>. Fast. Heal 1 horror and 1 damage from any investigator at your location. | *"I do not fear you."* |
 | 018-019 | Read the Signs ×2 | Event | 2 | Spell. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | — |
 | 020-021 | Whispers of the Island ×2 | Event | 0 | Blessed. Insight. | Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
 | 022 | Divine Insight ×1 | Event | 1 | Blessed. Insight. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | *"God shows me what others cannot see."* |
@@ -145,10 +145,10 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 025 | Anointing ×1 | Event | 0 | Blessed. Spirit. | Fast. Add 2 bless tokens to the chaos bag. If there are 5 or more bless tokens in the chaos bag, also heal 1 horror from any investigator at your location. | *"In nomine Patris."* |
 | 026-027 | Ethereal Form ×2 | Event | 1 | Spell. | Fast. Automatically evade each enemy engaged with you. | — |
 | 028-029 | Crack the Case ×2 | Event | 0 | Insight. | Fast. Play after the last clue is discovered at a location. Each investigator at that location gains 1 resource for each point of that location's shroud value. | — |
-| 030-031 | Guts ×2 | Skill | — | Practiced. | wil/wil icons. If this test is successful, draw 1 card. | — |
-| 032-033 | Enraptured ×2 | Skill | — | Practiced. | int icons. If this test is successful, place 1 charge on an asset you control. | — |
-| 034-035 | Perception ×2 | Skill | — | Practiced. | int icons. If this test is successful, draw 1 card. | — |
-| 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 WIL. [san soak 2] | — |
+| 030-031 | Guts ×2 | Skill | — | Practiced. | <wil><wil>. If this test is successful, draw 1 card. | — |
+| 032-033 | Enraptured ×2 | Skill | — | Practiced. | <int>. If this test is successful, place 1 charge on an asset you control. | — |
+| 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | — |
+| 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 WIL. <san> 2 | — |
 
 ---
 
@@ -181,7 +181,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 
 | Decision | Value |
 |---|---|
-| Ability | [fre] Spend 2r: Disengage all enemies, move up to 2 connections away (once per round) |
+| Ability | <fre> Spend 2r: Disengage all enemies, move up to 2 connections away (once per round) |
 | Bless reaction | When bless token drawn at your location: Heal 1 hor or dmg from any investigator |
 | Elder Sign | +2. Choose one investigator at your location. Heal up to 2 hor and 2 dmg. |
 | Prayer Beads | Permanent, Accessory, opening hand. +1 WIL aura. Mythos: heal 1 hor or dmg. |
