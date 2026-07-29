@@ -136,7 +136,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 010 | St. Hubert's Key ×1 | Asset — Body | 2 | Item. Relic. | <wld><wld>. You get +1 <wil>. <san> 3 | *"Found in the chapel ruins. Still warm."* |
 | 011-012 | Holy Word ×2 | Skill | 0 | Blessed. Spirit. | <wil><wil>. Fast. Choose an enemy at your location. Move that enemy to a connecting location of your choice. Exhaust that enemy for this round. | *"Be gone with you."* |
 | 013 | Encyclopedia ×1 | Asset — Hand | 2 | Item. Tome. | <fre> When you would perform a skill test: Exhaust Encyclopedia — you get +2 to that skill for this test. (Limit once per round.) | — |
-| 014-015 | Purge the Heretic ×2 | Event | 1 | Spell. | <wil><wld>. Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | *"Not today."* |
+| 014-015 | Purge the Heretic ×2 | Event | 1 | Spell. | <wil><wld>. Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | *"Faithless Monsters, Nothing More."* |
 | 016-017 | Light of Faith ×2 | Event | 0 | Blessed. Spirit. | <int><int>. Fast. Heal 1 horror and 1 damage from any investigator at your location. | *"I do not fear you."* |
 | 018-019 | Read the Signs ×2 | Event | 2 | Spell. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | — |
 | 020-021 | Whispers of the Island ×2 | Event | 0 | Blessed. Insight. | <wil><wld>. Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
