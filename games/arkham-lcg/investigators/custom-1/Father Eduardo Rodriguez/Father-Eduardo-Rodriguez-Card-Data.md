@@ -136,20 +136,20 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 010 | St. Hubert's Key ×1 | Asset — Body | 2 | Item. Relic. | You get +1 <wil>. <san> 2 | *"Found in the chapel ruins. Still warm."* |
 | 011-012 | Holy Word ×2 | Skill | 0 | Blessed. Spirit. | <wil><wil>. Fast. Choose an enemy at your location. Move that enemy to a connecting location of your choice. Exhaust that enemy for this round. | *"Be gone with you."* |
 | 013 | Encyclopedia ×1 | Asset — Hand | 2 | Item. Tome. | <fre> When you would perform a skill test: Exhaust Encyclopedia — you get +2 to that skill for this test. (Limit once per round.) | — |
-| 014-015 | Ward of Protection ×2 | Event | 1 | Spell. | Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | — |
+| 014-015 | Ward of Protection ×2 | Event | 1 | Spell. | <wil><wld>. Fast. Cancel the effects of a non-weakness treachery just drawn by any investigator. Take 1 horror. | — |
 | 016-017 | Light of Faith ×2 | Event | 0 | Blessed. Spirit. | <int><int>. Fast. Heal 1 horror and 1 damage from any investigator at your location. | *"I do not fear you."* |
 | 018-019 | Read the Signs ×2 | Event | 2 | Spell. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | — |
-| 020-021 | Whispers of the Island ×2 | Event | 0 | Blessed. Insight. | Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
+| 020-021 | Whispers of the Island ×2 | Event | 0 | Blessed. Insight. | <wil><wld>. Draw the top card of the encounter deck. Then, discover 2 clues at your location. | *"The island told me where to look."* |
 | 022 | Divine Insight ×1 | Event | 1 | Blessed. Insight. | Fast. Investigate. Use your Willpower instead of Intellect for this investigation. | *"God shows me what others cannot see."* |
-| 023 | Church Collection ×1 | Event | 0 | Supply. | Gain 3 resources. | *"The parish always provides."* |
+| 023 | Church Collection ×1 | Event | 0 | Supply. | <wld>. Gain 3 resources. | *"The parish always provides."* |
 | 024 | Answered Prayers ×1 | Event | 0 | Blessed. Supply. | Fast. Play after the last clue is discovered at your location. Each investigator at your location gains 1 resource for each point of that location's shroud value. | *"Your faith has been rewarded."* |
-| 025 | Anointing ×1 | Event | 0 | Blessed. Spirit. | Fast. Add 2 bless tokens to the chaos bag. If there are 5 or more bless tokens in the chaos bag, also heal 1 horror from any investigator at your location. | *"In nomine Patris."* |
-| 026-027 | Ethereal Form ×2 | Event | 1 | Spell. | Fast. Automatically evade each enemy engaged with you. | — |
-| 028-029 | Crack the Case ×2 | Event | 0 | Insight. | Fast. Play after the last clue is discovered at a location. Each investigator at that location gains 1 resource for each point of that location's shroud value. | — |
+| 025 | Anointing ×1 | Event | 0 | Blessed. Spirit. | <wld>. Fast. Add 2 bless tokens to the chaos bag. If there are 5 or more bless tokens in the chaos bag, also heal 1 horror from any investigator at your location. | *"In nomine Patris."* |
+| 026-027 | Ethereal Form ×2 | Event | 1 | Spell. | <agi><wld>. Fast. Automatically evade each enemy engaged with you. | — |
+| 028-029 | Crack the Case ×2 | Event | 0 | Insight. | <wld>. Fast. Play after the last clue is discovered at a location. Each investigator at that location gains 1 resource for each point of that location's shroud value. | — |
 | 030-031 | Guts ×2 | Skill | — | Practiced. | <wil><wil>. If this test is successful, draw 1 card. | — |
 | 032-033 | Enraptured ×2 | Skill | — | Practiced. | <int>. If this test is successful, place 1 charge on an asset you control. | — |
 | 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | — |
-| 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 WIL. <san> 2 | — |
+| 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 <wil>. <san> 2 | — |
 
 ---
 
