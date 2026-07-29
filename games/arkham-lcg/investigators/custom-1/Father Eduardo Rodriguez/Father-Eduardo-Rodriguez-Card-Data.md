@@ -149,7 +149,7 @@ Fast. Choose any investigator at your location. Heal all damage and horror from 
 | 030-031 | Guts ×2 | Skill | — | Practiced. | <wil><wil>. If this test is successful, draw 1 card. | — |
 | 032 | Act of Faith ×1 | Skill | — | Blessed. Spirit. | <wil><wil>. Fast. When an autofail token is revealed during a skill test performed by any investigator: Cancel that token and treat it as an elder sign token instead. Remove Act of Faith from the game. | *"Do Not Falter."* |
 | 033 | Blessed Reward ×1 | Skill | — | Blessed. Spirit. | <wil><wil>. Fast. When a skull or cultist token is revealed during a skill test performed by any investigator: Cancel that token and treat it as a +1 instead. Remove Blessed Reward from the game. | — |
-| 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | — |
+| 034-035 | Perception ×2 | Skill | — | Practiced. | <int>. If this test is successful, draw 1 card. | *"If you listen, all is revealed."* |
 | 035 | Holy Rosary ×1 | Asset — Accessory | 2 | Item. Relic. | You get +1 <wil>. <san> 2 | — |
 
 ---
