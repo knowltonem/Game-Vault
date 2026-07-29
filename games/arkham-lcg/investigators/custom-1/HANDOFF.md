@@ -14,7 +14,7 @@ Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
 Nine custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
 Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
-Latest commit: `95c2959` → main
+Latest commit: `9f07673` → main
 
 ---
 
@@ -30,8 +30,16 @@ games/arkham-lcg/investigators/custom-1/
 ├── Nora Warwick/                       ← COMPLETE ✅ EON verified
 ├── Bjorn Blackcast/                    ← COMPLETE ✅ all 37 cards built
 ├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
-├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck designed, not yet built
-└── The Man in Black/                   ← COMPLETE ✅ EON verified
+├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck redesigned, needs Strange Eons build
+├── The Man in Black/                   ← COMPLETE ✅ EON verified
+└── Father Eduardo Rodriguez/           ← IN PROGRESS 🔧 001-002 built, 003-035 pending
+
+games/arkham-lcg/sim/
+├── arkham-rules-reference.md           ← Official rules reference, 17 bugs documented
+├── eleanor_ironhide_sim.py             ← Verbose Eleanor+Ironhide corrected sim
+├── all_pairings_sim.py                 ← 9 pairings corrected rules engine
+├── verbose_sim.py                      ← Display sim skeleton
+└── eduardo_mib_sim.py                  ← Eduardo+MiB results and analysis
 ```
 
 ---
@@ -89,8 +97,9 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ Complete |
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
-| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck designed, not yet built |
+| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck redesigned (HP8/SAN9), needs Strange Eons build |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
+| Father Eduardo Rodriguez | RYP-ER | Mystic | 🔧 001-002 built, 003-035 pending |
 
 ---
 
@@ -105,8 +114,9 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Nora Warwick | 3 | 5 | 3 | 2 | 7 | 8 |
 | Bjorn Blackcast | 5 | 3 | 2 | 3 | 6 | 10 |
 | Ephraim Archer | 3 | 2 | 5 | 3 | 7 | 8 |
-| Eleanor Heart | 4 | 4 | 1 | 4 | 10 | 7 |
+| Eleanor Heart | 4 | 4 | 1 | 4 | 8 | 9 |
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
+| Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
 
 ---
 
@@ -222,9 +232,67 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ## ELEANOR HEART (RYP-EH) — IN PROGRESS 🔧
 
-- Mystic, WIL 4 / INT 4 / COM 1 / AGI 4, HP 10 / SAN 7
+- Mystic, WIL 4 / INT 4 / COM 1 / AGI 4, HP 8 / SAN 9
 - Subtitle: The Undying. Traits: Medic. Scholar.
-- Folders 001-034 created. Not yet built in Strange Eons.
+- Permanent: Innsmouth Codex (Accessory, +1 INT, in play at setup)
+- Weakness: Fog of Innsmouth (Revelation: 2 hor. After each enemy attacks: 1 dmg. 3r to discard)
+- **Ability:** <rea> After Eleanor Heart takes damage or horror: Heal 1 damage or horror from any investigator at your location. If she has 3+ damage heal 2, 6+ heal 3, 7+ heal 4. (Limit once per round.)
+- **Elder Sign:** +2. Heal 2 damage or horror from Eleanor. All investigators draw 1 card.
+- Folders 001-034 created. Card-Data complete. Needs Strange Eons build.
+- Story: Senior medical officer at Fort Warren. Went on Innsmouth mission with Eduardo. 12 soldiers went in, she and Eduardo came out. Doesn't remember leaving. Something came back with her.
+
+### Key Design Decisions
+| Decision | Value |
+|---|---|
+| HP / SAN | 8 / 9 |
+| Healing scale | 0-2 dmg = heal 1 \| 3-5 = heal 2 \| 6 = heal 3 \| 7 = heal 4 |
+| Do No Harm | Fast, cancel treachery, NO horror cost |
+| Fog of Innsmouth | 2 hor revelation, +1 dmg per enemy attack, 3r discard |
+| Clarity of Mind | Fast, 1r, heal 2 horror |
+| Shores of Innsmouth | Custom card — fast, 0r, 1 hor, discover 2 clues |
+| Father Rodriguez (ally) | Neutral, 3r, Ally slot, +1 WIL, <fre> after bless: gain 1r |
+| Best partner | Ironhide (COM 5 fighter) — 100% win rate in corrected sims |
+
+---
+
+## FATHER EDUARDO RODRIGUEZ (RYP-ER) — IN PROGRESS 🔧
+
+- Mystic, WIL 4 / INT 4 / COM 1 / AGI 3, HP 7 / SAN 9
+- Subtitle: What Can I Do to Help? Traits: Priest. Scholar.
+- Permanent: Prayer Beads (Accessory, +1 WIL aura, Mythos: heal 1 hor or dmg, in play at setup)
+- Weakness: Church in Flames (Revelation: 1 hor. Upkeep: 1 hor. <act> 3r to discard)
+- **Ability:** <fre> Once per round: Spend 2 resources — Disengage from all enemies engaged with you and move them up to 2 connections away from your location.
+- **Elder Sign:** +2. Choose one investigator at your location. Heal up to 2 horror and 2 damage from that investigator.
+- 35 folders created. Card-Data complete. 001-002 built in Strange Eons. 003-035 pending.
+- Story: Chaplain at Fort Warren on Georges Island. Went on Innsmouth mission with Eleanor. Documented everything. Wrote to Vatican — no reply. Wrote to Arkham — someone replied.
+
+### Build Progress
+| Card | Status |
+|---|---|
+| 001 Father Eduardo Rodriguez | ✅ Built, exported, art done |
+| 002 Prayer Beads | ✅ Built, exported, art done |
+| 003 Holy Cross of St. Thomas | 🔧 In progress |
+| 004-035 | ❌ Pending |
+
+### Key Design Decisions
+| Decision | Value |
+|---|---|
+| Ability | <fre> 2r: disengage all enemies, move 2 connections (once per round) |
+| Elder Sign | +2. Heal up to 2 hor and 2 dmg from one investigator |
+| Prayer Beads | Permanent, Accessory, +1 WIL aura, Mythos: heal 1 hor or dmg |
+| Holy Cross | Cost 1, Hand, <act> fight using <wil>, +1 dmg. Bless: +1 dmg + heal 1 hor from self |
+| Church in Flames | Revelation 1 hor, upkeep 1 hor, spend 3r to discard |
+| Miracle | Cost 0, fast, heal ALL dmg and hor from any investigator, remove from game |
+| Icon syntax | Use <act> <fre> <rea> <wil> <int> <com> <agi> <wld> throughout |
+| Best partner | MiB — 100% win rate. The Fixer + Cash in the Bag + Eduardo healing = S-tier |
+
+### Sim Results
+| Pairing | Win Rate | Notes |
+|---|---|---|
+| Eduardo + Ephraim | 100% | Best early pairing |
+| Eduardo + Ironhide | 89% | Strong — Ironhide cleave + Eduardo healing |
+| Eduardo + MiB | 100% | S-tier — The Fixer + ability engine + cross-healing |
+| Eduardo + Abel | 67% | Abel INT 2 overloads Eduardo on clues |
 
 ---
 
@@ -233,6 +301,37 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 - [ ] Agnes 020 Drawn to the Flame — rebuild in Strange Eons (wrong rules in EON)
 - [ ] Ephraim Archer 035 — needs Strange Eons build
 - [ ] Build Eleanor Heart in Strange Eons (001-034)
+- [ ] Build Father Eduardo Rodriguez in Strange Eons (003-035)
+- [ ] Eduardo art — most cards still need art
+
+## Icon Syntax — LOCKED
+
+All card text uses angle bracket icon syntax. Never use square brackets.
+
+| Icon | Syntax |
+|---|---|
+| Action | `<act>` |
+| Free triggered ability | `<fre>` |
+| Reaction | `<rea>` |
+| Willpower | `<wil>` |
+| Intellect | `<int>` |
+| Combat | `<com>` |
+| Agility | `<agi>` |
+| Wild | `<wld>` |
+
+## Art Style — LOCKED
+
+All card art generated via Midjourney using the cinematic gritty dark fantasy photograph style.
+**Always `--ar 3:2 --style raw --v 6.1`**
+Art files named: `RYP-XX-###-Card-Name-Art.png`
+Art stored in: `investigators/custom-1/[Investigator Name]/art/`
+
+## Sim Engine — LOCKED
+
+Corrected rules sim engine in `games/arkham-lcg/sim/all_pairings_sim.py`
+Rules fixes: Round 1 no Mythos/Enemy, no weakness in opening hand, permanents at setup,
+asset plays cost 1 action, exhausted enemies skip attack, 2 encounters per Mythos, hand size 8.
+Reference: `games/arkham-lcg/sim/arkham-rules-reference.md`
 
 ---
 
