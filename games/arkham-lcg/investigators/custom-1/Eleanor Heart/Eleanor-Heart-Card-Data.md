@@ -1,6 +1,6 @@
-# Eleanor Heart ‚Äî Investigator Pack (RYP-EH)
+# Eleanor Heart ó Investigator Pack (RYP-EH)
 
-‚Üê [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
+? [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
 ---
 
@@ -54,117 +54,231 @@ for answers about what came back with her."
 Deck size: 30.
 All cards (level 0-5).
 No Weapon cards.
-Signature cards: Medical Bag √ó1, The Innsmouth Codex √ó1,
-The Fog of Innsmouth √ó1, 1 random basic weakness.
-```
-
----
-
-## Signature Cards
-
-### 002 ‚Äî Medical Bag
-
-| Field | Value |
-|---|---|
-| **Subtitle** | Issued at Fort Warren |
-| **Type** | Asset ‚Äî Hand |
-| **Cost** | 2r |
-| **Traits** | Item. Medical. |
-| **Slot** | Hand |
-| **Unique** | Yes |
-| **Icons** | 1 √ó `<int>` |
-
-### Rules Text
-```
-Eleanor Heart deck only. Unique.
-
-[act] Heal 1 damage or 1 horror from any investigator
-at your location.
-```
-
-### Flavor
-```
-"Fort Warren issued it. Innsmouth changed it. Now it's different."
-```
-
----
-
-### 003 ‚Äî The Innsmouth Codex
-
-| Field | Value |
-|---|---|
-| **Subtitle** | Knowledge That Should Not Be |
-| **Type** | Asset ‚Äî Accessory |
-| **Cost** | 1r |
-| **Traits** | Item. Tome. Cursed. |
-| **Slot** | Accessory |
-| **Unique** | Yes |
-| **Icons** | 1 √ó `<int>` + 1 √ó `<wil>` |
-
-### Rules Text
-```
-Eleanor Heart deck only. Unique.
-
-You get +1 <int> while The Innsmouth Codex is in play.
-
-<act> Exhaust The Innsmouth Codex: Investigate. You
-investigate using <int> instead of <int>. If you succeed,
-discover 1 additional clue at your location. If you fail,
-draw 1 card.
-```
-
-### Flavor
-```
-"She wasn't supposed to see it. Now she can't unsee it."
-```
-
----
-
-### 004 ‚Äî The Fog of Innsmouth
-
-| Field | Value |
-|---|---|
-| **Type** | Treachery ‚Äî Weakness |
-| **Traits** | Flaw. |
-| **Unique** | Yes |
-
-### Rules Text
-```
-Eleanor Heart deck only.
-
-Revelation ‚Äî Take 2 horror.
-
-Forced ‚Äî After each enemy attacks you: Take 1 damage.
-
-<act> Spend 3 resources: Discard The Fog of Innsmouth.
-```
-
-### Flavor
-```
-"Twelve people went into Innsmouth. The fog claimed them."
+Signature cards: Medical Bag, Innsmouth Codex, Nurse Uniform,
+Fog of Innsmouth, 1 random basic weakness.
 ```
 
 ---
 
 ## Healing Scale
 
-| Damage on Eleanor | Total Heal | Status |
-|---|---|---|
-| 0-2 | 1 | Safe |
-| 3-5 | 2 | Wounded |
-| 6 | 3 | Hurt |
-| 7 | 4 | Critical ‚Äî next hit kills |
+| Damage on Eleanor | Total Heal |
+|---|---|
+| 0-2 | 1 |
+| 3-5 | 2 |
+| 6 | 3 |
+| 7 | 4 |
 
 ---
 
-## Player Cards
+## Signature Cards (outside deck)
 
-### 005-006 ‚Äî Take What You Need
+### 001 ó Eleanor Heart
+*Investigator card ó see above.*
+
+---
+
+### 002 ó Medical Bag
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Issued at Fort Warren |
+| **Type** | Asset ó Hand |
+| **Cost** | 2r |
+| **Class** | Survivor |
+| **Traits** | Item. Medical. |
+| **Slot** | Hand |
+| **Unique** | Yes |
+| **Icons** | 1 ◊ `<int>` |
+
+```
+Eleanor Heart deck only.
+
+<act> Heal 1 damage or 1 horror from any investigator at your location.
+```
+*Flavor: "Fort Warren issued it. Innsmouth changed it. Now it's different."*
+
+---
+
+### 003 ó The Innsmouth Codex
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Knowledge That Should Not Be |
+| **Type** | Asset ó Accessory |
+| **Cost** | 1r |
+| **Class** | Survivor |
+| **Traits** | Item. Tome. Cursed. |
+| **Slot** | Accessory |
+| **Unique** | Yes |
+| **Icons** | 1 ◊ `<int>` + 1 ◊ `<wil>` |
+
+```
+Eleanor Heart deck only. Unique.
+
+You get +1 <int> while The Innsmouth Codex is in play.
+
+<act> Exhaust The Innsmouth Codex: Investigate using <int>.
+If you succeed, discover 1 additional clue at your location.
+If you fail, draw 1 card.
+```
+*Flavor: "She wasn't supposed to see it. Now she can't unsee it."*
+
+---
+
+### 004 ó The Fog of Innsmouth
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery ó Weakness |
+| **Class** | Survivor |
+| **Traits** | Flaw. |
+| **Unique** | Yes |
+
+```
+Eleanor Heart deck only.
+
+Revelation ó Take 2 horror.
+
+Forced ó After each enemy attacks you: Take 1 damage.
+
+<act> Spend 3 resources: Discard The Fog of Innsmouth.
+```
+*Flavor: "Twelve people went into Innsmouth. The fog claimed them."*
+
+---
+
+### 005 ó Nurse Uniform
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Fort Warren Medical Corps |
+| **Type** | Asset ó Body ó Signature |
+| **Cost** | 2r |
+| **Class** | Survivor |
+| **Traits** | Item. Uniform. |
+| **Slot** | Body |
+| **Unique** | Yes |
+| **Icons** | 1 ◊ `<wil>` |
+
+```
+Eleanor Heart deck only.
+
+You may have up to 3 Ally assets in play simultaneously.
+
+<fre> After you heal damage or horror from any investigator:
+Exhaust Nurse Uniform to reduce the cost of the next Ally
+asset you play this round by 2.
+```
+*Flavor: "She never took it off. Even after Innsmouth. Especially after Innsmouth."*
+
+---
+
+## Player Cards (006-035)
+
+### 006 ó Private Parker
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Always Shows Up |
+| **Type** | Asset ó Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 1 |
+| **SAN soak** | 1 |
+| **Icons** | 1 ◊ `<agi>` + 1 ◊ `<wld>` |
+
+```
+<rea> After Eleanor Heart takes damage or horror
+from any source: Deal 1 damage to an enemy at
+your location.
+```
+*Flavor: "He was assigned to her. He doesn't know why. He shows up anyway."*
+
+---
+
+### 007 ó General Marshall
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Fall Back |
+| **Type** | Asset ó Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 3 |
+| **SAN soak** | 3 |
+| **Icons** | 1 ◊ `<wil>` + 1 ◊ `<wld>` |
+
+```
+Exhaust General Marshall: Move all enemies at
+your location up to 3 locations away. Exhaust
+those enemies for this round.
+```
+*Flavor: "He didn't ask what they were. He just pointed and said move."*
+
+---
+
+### 008 ó Corporal Cortez
+
+| Field | Value |
+|---|---|
+| **Subtitle** | He Stayed Behind |
+| **Type** | Asset ó Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 2 |
+| **SAN soak** | 2 |
+| **Icons** | 1 ◊ `<com>` + 1 ◊ `<wld>` |
+
+```
+<rea> After Eleanor Heart takes damage or horror
+from any source: Deal 1 damage to an enemy at
+your location.
+```
+*Flavor: "He stayed behind when the others went in. He's been making up for it ever since."*
+
+---
+
+### 009 ó Private Doss
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Never Missed a Day |
+| **Type** | Asset ó Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 1 |
+| **SAN soak** | 1 |
+| **Icons** | 1 ◊ `<agi>` + 1 ◊ `<wld>` |
+
+```
+<rea> After Eleanor Heart takes damage or horror
+from any source: Deal 1 damage to an enemy at
+your location.
+```
+*Flavor: "He never carried a weapon. He showed up anyway."*
+
+---
+
+### 010-011 ó Take What You Need
+
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Neutral
 - **Traits:** Spirit.
-- **Icons:** 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wld>`
 
 ```
 Search the top 7 cards of your deck for any asset and
@@ -174,12 +288,13 @@ draw it. Shuffle your deck.
 
 ---
 
-### 007-008 ‚Äî Special Allowance
+### 012-013 ó Special Allowance
+
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Neutral
 - **Traits:** Fortune.
-- **Icons:** 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wld>`
 
 ```
 Fast. Gain 3 resources.
@@ -188,59 +303,48 @@ Fast. Gain 3 resources.
 
 ---
 
-### 009-010 ‚Äî Clarity of Mind
-- **Cost:** 1r
-- **Type:** Event
-- **Class:** Mystic
-- **Traits:** Spell.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
+### 014-015 ó Diagnosis Terminal
 
-```
-Fast. Heal 2 horror from any investigator at your location.
-```
-*Flavor: "She holds the chaos at bay, just long enough."*
-
----
-
-### 011-012 ‚Äî Diagnosis Terminal
 - **Cost:** 2r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Medical. Insight.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<wld>`
 
 ```
-Fast. Evade an enemy engaged with any investigator 
-at your location. If you succeed, that enemy is 
+Fast. Evade an enemy engaged with any investigator
+at your location. If you succeed, that enemy is
 removed from the game.
 ```
 *Flavor: "She assessed the situation. The situation did not survive."*
 
 ---
 
-### 013-014 ‚Äî Arcane Practice
+### 016-017 ó Arcane Practice
+
 - **Cost:** 3r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Practiced.
-- **Icons:** 2 √ó `<int>`
+- **Icons:** 2 ◊ `<int>`
 
 ```
-<act> Fight using your <wil> instead of <com>. 
-If this test is successful, defeat all enemies 
+<act> Fight using your <wil> instead of <com>.
+If this test is successful, defeat all enemies
 at your location.
 ```
 *Flavor: "Fort Warren trained her hands. Innsmouth trained the rest."*
 
 ---
 
-### 015-016 ‚Äî Triage
+### 018-019 ó Triage
+
 - **Cost:** 2r
-- **Type:** Asset ‚Äî Arcane
+- **Type:** Asset ó Arcane
 - **Class:** Survivor
 - **Traits:** Spell. Medical.
 - **Slot:** Arcane
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<int>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<int>`
 
 ```
 Triage enters play with 5 charges.
@@ -252,12 +356,13 @@ from an investigator at your location.
 
 ---
 
-### 017-018 ‚Äî Patch Up
+### 020-021 ó Patch Up
+
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Medical. Practiced.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<wld>`
 
 ```
 Fast. Heal 1 damage and 1 horror from an investigator
@@ -267,14 +372,15 @@ at your location.
 
 ---
 
-### 019-020 ‚Äî Fort Warren Chapel
+### 022-023 ó Fort Warren Chapel
+
 - **Cost:** 1r
-- **Type:** Asset ‚Äî Arcane
+- **Type:** Asset ó Arcane
 - **Class:** Survivor
 - **Traits:** Spell. Blessed.
 - **Slot:** Arcane
 - **SAN soak:** 1
-- **Icons:** 1 √ó `<wil>`
+- **Icons:** 1 ◊ `<wil>`
 
 ```
 <fre> After you heal damage or horror from any
@@ -285,12 +391,13 @@ chaos bag.
 
 ---
 
-### 021-022 ‚Äî The Shores of Innsmouth
+### 024-025 ó The Shores of Innsmouth
+
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Insight. Cursed.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<int>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<int>`
 
 ```
 Eleanor Heart deck only.
@@ -298,19 +405,20 @@ Eleanor Heart deck only.
 Fast. Eleanor Heart takes 1 horror. Discover 2 clues
 at your location.
 
-[fre] If there are 3 or more clues at your location:
+<fre> If there are 3 or more clues at your location:
 Discover 1 additional clue.
 ```
 *Flavor: "She remembers the tide. She remembers the shapes beneath it. She does not remember leaving."*
 
 ---
 
-### 023-024 ‚Äî Do No Harm
+### 026-027 ó Do No Harm
+
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Ward.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<wld>`
 
 ```
 Fast. Cancel a treachery card that is about to
@@ -320,12 +428,13 @@ affect any investigator at your location.
 
 ---
 
-### 025-026 ‚Äî The Codex Revealed
+### 028-029 ó The Codex Revealed
+
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Seeker
 - **Traits:** Insight.
-- **Icons:** 2 √ó `<int>`
+- **Icons:** 2 ◊ `<int>`
 
 ```
 Fast. Discover 1 clue at your location without
@@ -335,17 +444,18 @@ investigating.
 
 ---
 
-### 027 ‚Äî Innsmouth Lessons
+### 030 ó Innsmouth Lessons
+
 - **Cost:** 2r
 - **Type:** Asset
 - **Class:** Seeker
 - **Traits:** Tome. Cursed. Insight.
 - **Slot:** None
 - **HP soak:** 1
-- **Icons:** 1 √ó `<int>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<int>` + 1 ◊ `<wld>`
 
 ```
-[fre] After you successfully investigate: You may
+<fre> After you successfully investigate: You may
 discover 1 additional clue at your location and
 gain 1 resource.
 ```
@@ -353,50 +463,13 @@ gain 1 resource.
 
 ---
 
-### 028 ‚Äî Private Parker
-- **Cost:** 3r
-- **Type:** Asset ‚Äî Ally
-- **Class:** Neutral
-- **Traits:** Ally. Military.
-- **Slot:** Ally
-- **HP soak:** 1
-- **SAN soak:** 1
-- **Icons:** 1 √ó `<agi>` + 1 √ó `<wld>`
+### 031-032 ó Ward of Protection
 
-```
-<rea> After Eleanor Heart takes damage or horror 
-from any source: Deal 1 damage to an enemy at 
-your location.
-```
-*Flavor: "He was assigned to her. He doesn't know why. He shows up anyway."*
-
----
-
-### 029 ‚Äî General Marshall
-- **Cost:** 3r
-- **Type:** Asset ‚Äî Ally
-- **Class:** Neutral
-- **Traits:** Ally. Military.
-- **Slot:** Ally
-- **HP soak:** 3
-- **SAN soak:** 3
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
-
-```
-Exhaust General Marshall: Move all enemies at 
-your location up to 3 locations away. Exhaust 
-those enemies for this round.
-```
-*Flavor: "He didn't ask what they were. He just pointed and said move."*
-
----
-
-### 030-031 ‚Äî Ward of Protection
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell.
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<wld>`
 
 ```
 Fast. Cancel the effects of a non-weakness treachery just
@@ -406,11 +479,12 @@ drawn by any investigator at your location. Take 1 horror.
 
 ---
 
-### 032-033 ‚Äî Focused Mind
-- **Cost:** ‚Äî
+### 033-034 ó Focused Mind
+
+- **Cost:** ó
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 2 √ó `<int>`
+- **Icons:** 2 ◊ `<int>`
 
 ```
 If this test succeeds: Draw 1 card.
@@ -419,11 +493,12 @@ If this test succeeds: Draw 1 card.
 
 ---
 
-### 034 ‚Äî The Undying Will
-- **Cost:** ‚Äî
+### 035 ó The Undying Will
+
+- **Cost:** ó
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 1 √ó `<wil>` + 1 √ó `<int>` + 1 √ó `<wld>`
+- **Icons:** 1 ◊ `<wil>` + 1 ◊ `<int>` + 1 ◊ `<wld>`
 
 ```
 No additional rules text.
@@ -432,205 +507,30 @@ No additional rules text.
 
 ---
 
-### 035 ‚Äî Nurse Uniform
+## Pack Information
 
 | Field | Value |
 |---|---|
-| **Subtitle** | Fort Warren Medical Corps |
-| **Type** | Asset ‚Äî Body ‚Äî Signature |
-| **Cost** | 2r |
-| **Class** | Survivor |
-| **Traits** | Item. Uniform. |
-| **Slot** | Body |
-| **Unique** | Yes |
-| **Icons** | 1 √ó `<wil>` |
-
-### Rules Text
-```
-Eleanor Heart deck only.
-
-You may have up to 3 Ally assets in play 
-simultaneously.
-
-<fre> After you heal damage or horror from 
-any investigator: Exhaust Nurse Uniform to 
-reduce the cost of the next Ally asset you 
-play this round by 2.
-```
-
-### Flavor
-```
-"She never took it off. Even after Innsmouth. 
-Especially after Innsmouth."
-```
+| **Pack Name** | Eleanor Heart Investigator Pack |
+| **Pack Code** | RYP-EH |
+| **Total Cards** | 035 |
+| **Investigator** | 001 Eleanor Heart |
+| **Signature Asset** | 002 Medical Bag |
+| **Signature Asset** | 003 The Innsmouth Codex |
+| **Signature Weakness** | 004 The Fog of Innsmouth |
+| **Signature Asset** | 005 Nurse Uniform |
+| **Deck** | 006-035 (30 cards) |
 
 ---
 
-### 036 ‚Äî Corporal Cortez
-
-| Field | Value |
-|---|---|
-| **Subtitle** | He Stayed Behind |
-| **Type** | Asset ‚Äî Ally |
-| **Cost** | 3r |
-| **Class** | Neutral |
-| **Traits** | Ally. Military. |
-| **Slot** | Ally |
-| **Unique** | Yes |
-| **HP soak** | 2 |
-| **SAN soak** | 2 |
-| **Icons** | 1 √ó `<com>` + 1 √ó `<wld>` |
-
-### Rules Text
-```
-<rea> After Eleanor Heart takes damage or horror 
-from any source: Deal 1 damage to an enemy at 
-your location.
-```
-
-### Flavor
-```
-"He stayed behind when the others went in. 
-He's been making up for it ever since."
-```
-
----
-
-### 037 ‚Äî Private Doss
-
-| Field | Value |
-|---|---|
-| **Subtitle** | Never Missed a Day |
-| **Type** | Asset ‚Äî Ally |
-| **Cost** | 3r |
-| **Class** | Neutral |
-| **Traits** | Ally. Military. |
-| **Slot** | Ally |
-| **Unique** | Yes |
-| **HP soak** | 1 |
-| **SAN soak** | 1 |
-| **Icons** | 1 √ó `<agi>` + 1 √ó `<wld>` |
-
-### Rules Text
-```
-<rea> After Eleanor Heart takes damage or horror 
-from any source: Deal 1 damage to an enemy at 
-your location.
-```
-
-### Flavor
-```
-"He never carried a weapon. He showed up anyway."
-```
-
----
-|---|---|---|
-| **Investigator .eon** | `Heart-Sig-Investigator.eon` | `Heart-Sig-Investigator.eon` |
-| **Signature .eon** | `Heart-Sig-[Type]-[Name].eon` | `Heart-Sig-Asset-Medical-Bag.eon` |
-| **Regular deck .eon** | `Heart-[Type]-[Name].eon` | `Heart-Event-Take-What-You-Need.eon` |
-| **Exported PNGs** | `RYP-EH-###-[Name]-[Front/Back].png` | `RYP-EH-001-Eleanor-Heart-Front.png` |
-
----
-
-## Pack Code
-```
-RYP-EH
-```
-
----
-
-## Folder Structure
-```
-Eleanor Heart/
-‚îú‚îÄ‚îÄ art/
-‚îú‚îÄ‚îÄ 001-Eleanor-Heart/
-‚îú‚îÄ‚îÄ 002-Medical-Bag/
-‚îú‚îÄ‚îÄ ...
-‚îî‚îÄ‚îÄ Eleanor-Heart-Card-Data.md
-```
-
----
-
-## Design Notes
-
-### Character Summary
-Lieutenant Eleanor Heart served as senior medical officer at Fort Warren on Georges Island. She knew Father Rodriguez the way everyone at a post knows the chaplain ‚Äî from services, from the sick ward, from the quiet moments before deployments. When the Army organised a mission to Innsmouth she was assigned as medical lead. Eduardo volunteered to go with them.
-
-Twelve soldiers went into Innsmouth. Eduardo and Eleanor came out. The soldiers did not.
-
-She doesn't remember what happened inside the town. She remembers the water. She remembers shapes. She does not remember leaving. Something came back with her ‚Äî something that heals more than it should, something that will not let her die. The Army discharged her quietly and told her to rest. She has not rested.
-
-She wanders Arkham now, healing other investigators while searching for answers about what she brought back from Innsmouth. She put her weapons down after that night and will not pick them up again. When Father Rodriguez found her in Arkham she told him to go home. He didn't.
-
-### Stat Analysis
-
-| Stat | Value | Notes |
-|---|---|---|
-| WIL | 4 | Strong ‚Äî treachery defence, healing threshold tests |
-| INT | 4 | Excellent ‚Äî clue engine with Innsmouth Codex |
-| COM | 1 | Dump stat ‚Äî she does not fight |
-| AGI | 4 | Fast ‚Äî reliable evades |
-| Health | 8 | Deliberate ‚Äî scaling heal needs damage on her |
-| Sanity | 9 | High ‚Äî survives the horror-heavy encounter deck |
-
-### Healing Scale Analysis
-Core mechanic. She takes damage, her reactive heal scales up. At 0-2 dmg: heal 1. At 3-5: heal 2. At 6: heal 3. At 7: heal 4 but one hit from defeat. Tension is intentional ‚Äî player must decide whether to heal Eleanor or ride the scale for her partner.
-
-### Slot Picture
+## Slot Picture
 
 | Slot | Card |
 |---|---|
-| Hand | Medical Bag (no charges ‚Äî free heal action) |
-| Arcane | Triage + Fort Warren Chapel |
+| Hand | Medical Bag |
 | Accessory | The Innsmouth Codex |
-| Body | Open |
-| Ally | Private Parker OR Chaplain Adama |
-| None | Innsmouth Lessons (slotless passive) |
-
-### Deck Summary ‚Äî FINAL LOCKED
-
-| # | Card | Category | Count |
-|---|---|---|---|
-| 005-006 | Take What You Need | Search | 2 |
-| 007-008 | Special Allowance | Economy | 2 |
-| 009-010 | Clarity of Mind | Horror heal | 2 |
-| 011-012 | Military Tactics | Draw | 2 |
-| 013-014 | Arcane Practice | Combat | 2 |
-| 015-016 | Triage | Healing asset (Arcane) | 2 |
-| 017-018 | Patch Up | Fast heal | 2 |
-| 019-020 | Fort Warren Chapel | Bless engine (Arcane) | 2 |
-| 021-022 | The Shores of Innsmouth | Clue + self-damage | 2 |
-| 023-024 | Do No Harm | Treachery cancel | 2 |
-| 025-026 | The Codex Revealed | Clue | 2 |
-| 027 | Innsmouth Lessons | Clue + economy (slotless) | 1 |
-| 028 | Private Parker | Ally | 1 |
-| 029 | Father Rodriguez | Ally | 1 |
-| 030-031 | Ward of Protection | Treachery cancel | 2 |
-| 032-033 | Focused Mind | Skill | 2 |
-| 034 | The Undying Will | Skill | 1 |
-| 035 | Medical Bag | Healing asset ‚Äî Hand (sig) | 1 |
-| | **Total** | | **30** |
-
-### Simulation Results ‚Äî FINAL
-
-| Pairing | Win Rate | Notes |
-|---|---|---|
-| Eleanor + Ironhide | 100% (3/3) | Ironhide fights, Eleanor investigates + heals |
-| Eleanor + Greystoke | 0% | No fighter ‚Äî enemies pile on Greystoke |
-| Eleanor + Man in Black | 0% | MiB WIL 3 collapses to horror |
-
-**Best partner:** Guardian with COM 4+ who can fight independently.
-**Key insight:** Clarity of Mind was the decisive card ‚Äî horror panic button that freed Eleanor to investigate rather than react.
-
-### Key Design Decisions ‚Äî LOCKED
-
-| Decision | Value |
-|---|---|
-| HP / SAN | 8 / 9 |
-| Ability | [rea] Take dmg or hor: heal 1 (2 at 3 dmg, 3 at 6 dmg, 4 at 7 dmg) from any investigator. Once per round. |
-| Elder Sign | +2. Heal 2 dmg or hor from Eleanor. All investigators draw 1. |
-| Fog of Innsmouth | Revelation 2 hor. After each enemy attacks you: 1 dmg. Spend 3r to discard. |
-| Do No Harm | Fast, cancel treachery, no horror cost |
-| Clarity of Mind | Fast, cost 1, heal 2 horror from any investigator |
-| Ward of Protection | Fast, cost 1, cancel non-weakness treachery, take 1 horror |
-| Healing scale | 0-2 dmg = heal 1 | 3-5 = heal 2 | 6 = heal 3 | 7 = heal 4 |
+| Body | Nurse Uniform |
+| Arcane | Triage or Fort Warren Chapel |
+| Ally 1 | Private Parker / Corporal Cortez / Private Doss |
+| Ally 2 | General Marshall |
+| Ally 3 | (third ally ó Nurse Uniform enables) |
