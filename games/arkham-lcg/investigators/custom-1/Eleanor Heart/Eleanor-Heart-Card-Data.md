@@ -219,7 +219,7 @@ removed from the game.
 ---
 
 ### 013-014 — Arcane Practice
-- **Cost:** 2r
+- **Cost:** 3r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Practiced.
