@@ -234,7 +234,7 @@ those enemies for this round.
 | **Unique** | Yes |
 | **HP soak** | 2 |
 | **SAN soak** | 2 |
-| **Icons** | 1 × `<com>` + 1 × `<wld>` |
+| **Icons** | 1 × `<agi>` + 1 × `<wld>` |
 
 ```
 <rea> After Eleanor Heart takes damage or horror
