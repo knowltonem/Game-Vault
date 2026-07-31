@@ -349,7 +349,7 @@ Triage enters play with 5 charges.
 <act> Spend 1 charge: Heal 1 damage or 1 horror
 from an investigator at your location.
 ```
-*Flavor: "Some wounds are not physical. She treats them the same."*
+*Flavor: "Some wounds are not physical."*
 
 ---
 
