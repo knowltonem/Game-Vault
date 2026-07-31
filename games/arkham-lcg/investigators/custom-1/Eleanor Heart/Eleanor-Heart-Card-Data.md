@@ -193,7 +193,7 @@ You may have up to 3 Ally assets in play simultaneously.
 from any source: Deal 1 damage to an enemy at
 your location.
 ```
-*Flavor: "He was assigned to her. He doesn't know why. He shows up anyway."*
+*Flavor: "He was assigned to her. He doesn't know why."*
 
 ---
 
