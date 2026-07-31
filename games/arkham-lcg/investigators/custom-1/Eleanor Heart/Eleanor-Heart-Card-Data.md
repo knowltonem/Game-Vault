@@ -219,7 +219,7 @@ Fast. Draw 3 cards.
 ### 013-014 — Arcane Practice
 - **Cost:** 2r
 - **Type:** Event
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Spell. Practiced.
 - **Icons:** 2 × `<int>`
 
@@ -235,7 +235,7 @@ attack succeeds by 2 or more, deal +1 damage.
 ### 015-016 — Triage
 - **Cost:** 2r
 - **Type:** Asset — Arcane
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Spell. Medical.
 - **Slot:** Arcane
 - **Icons:** 1 × `<wil>` + 1 × `<int>`
@@ -253,7 +253,7 @@ from an investigator at your location.
 ### 017-018 — Patch Up
 - **Cost:** 1r
 - **Type:** Event
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Medical. Practiced.
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
@@ -268,7 +268,7 @@ at your location.
 ### 019-020 — Fort Warren Chapel
 - **Cost:** 1r
 - **Type:** Asset — Arcane
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Spell. Blessed.
 - **Slot:** Arcane
 - **SAN soak:** 1
@@ -286,7 +286,7 @@ chaos bag.
 ### 021-022 — The Shores of Innsmouth
 - **Cost:** 0r
 - **Type:** Event
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Insight. Cursed.
 - **Icons:** 1 × `<wil>` + 1 × `<int>`
 
@@ -306,7 +306,7 @@ Discover 1 additional clue.
 ### 023-024 — Do No Harm
 - **Cost:** 0r
 - **Type:** Event
-- **Class:** Mystic
+- **Class:** Survivor
 - **Traits:** Spell. Ward.
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
