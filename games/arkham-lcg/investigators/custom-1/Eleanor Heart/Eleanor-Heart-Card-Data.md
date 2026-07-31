@@ -362,7 +362,7 @@ from an investigator at your location.
 - **Icons:** 1 � `<wil>` + 1 � `<wld>`
 
 ```
-Fast. Heal 1 damage and 1 horror from an investigator
+Fast. Heal 1 damage or 1 horror from an investigator
 at your location.
 ```
 *Flavor: "There's always time for this."*
