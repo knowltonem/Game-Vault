@@ -97,7 +97,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ Complete |
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
-| Eleanor Heart | RYP-EH | Mystic | 🔧 Deck redesigned (HP8/SAN9), needs Strange Eons build |
+| Eleanor Heart | RYP-EH | Mystic | ✅ Complete — all 35 cards built, art done |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 
@@ -230,17 +230,28 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ---
 
-## ELEANOR HEART (RYP-EH) — IN PROGRESS 🔧
+## ELEANOR HEART (RYP-EH) — ✅ COMPLETE
 
-- Mystic, WIL 4 / INT 4 / COM 0 / AGI 4, HP 8 / SAN 9
+- Survivor, WIL 4 / INT 4 / COM 0 / AGI 4, HP 8 / SAN 9
 - Subtitle: The Undying. Traits: Medic. Scholar.
 - Permanent: Innsmouth Codex (Accessory, +1 INT, in play at setup)
 - Weakness: Fog of Innsmouth (Revelation: 2 hor. After each enemy attacks: 1 dmg. 3r to discard)
-- **Ability:** <rea> After Eleanor Heart takes damage or horror: Heal 1 damage or horror from any investigator. If she has 3+ damage heal 2, 6+ heal 3, 7+ heal 4. (Must all go to one investigator. Limit once per round.)
-- **Elder Sign:** <eld> +2. You may heal 2 damage or horror from any investigator.
+- **Ability:** <rea> After Eleanor Heart takes damage or horror: Heal 1-4 dmg or hor from any investigator (scales with her damage). Must all go to one investigator. Limit once per round.
+- **Elder Sign:** <eld> +2. Heal 2 dmg or hor from any investigator.
 - **Deckbuilding:** All cards (level 0-5). No Weapon cards. Deck size 30.
-- 001 card design locked. Needs Strange Eons build for all cards.
-- Story: Senior medical officer at Fort Warren. Went on Innsmouth mission with Eduardo. 12 soldiers went in, she and Eduardo came out. Doesn't remember leaving. Something came back with her.
+- 35 cards built. All art done. Full audit passed.
+
+### Key Cards
+| Card | Role |
+|---|---|
+| 005 Nurse Uniform | Signature — Body, 3 ally slots |
+| 006 Private Parker | Ally 1/1, retaliate 1 dmg |
+| 007 General Marshall | Ally 3/3, push all enemies 3 locations |
+| 008 Corporal Cortez | Ally 2/2, retaliate 1 dmg ALL enemies |
+| 009 Private Doss | Ally 1/1, retaliate 1 dmg |
+| 014 Diagnosis, Terminal | Fast evade → enemy killed |
+| 016 Arcane Practice | WIL fight → defeat ALL enemies (3r) |
+| 031 Prognosis Negative | Cancel treachery, take 1 horror |
 
 ### Key Design Decisions
 | Decision | Value |
@@ -308,7 +319,6 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 - [ ] Agnes 020 Drawn to the Flame — rebuild in Strange Eons (wrong rules in EON)
 - [ ] Ephraim Archer 035 — needs Strange Eons build
-- [ ] Build Eleanor Heart in Strange Eons (001-034)
 
 ## Icon Syntax — LOCKED
 
