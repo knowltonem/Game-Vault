@@ -310,8 +310,8 @@ Fast. Gain 3 resources.
 
 ```
 Fast. Evade an enemy engaged with any investigator
-at your location. If you succeed, that enemy is
-removed from the game.
+at your location. If you succeed, that enemy is killed.
+
 ```
 *Flavor: "He's gone."*
 
