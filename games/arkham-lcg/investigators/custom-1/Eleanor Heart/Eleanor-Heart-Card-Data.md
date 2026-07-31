@@ -364,8 +364,6 @@ gain 1 resource.
 - **Icons:** 1 × `<agi>` + 1 × `<wld>`
 
 ```
-You get +1 <agi> while Private Parker is in play.
-
 <rea> After Eleanor Heart takes damage or horror 
 from any source: Deal 1 damage to an enemy at 
 your location.
