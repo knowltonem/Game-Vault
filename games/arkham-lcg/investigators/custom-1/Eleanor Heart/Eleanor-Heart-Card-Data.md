@@ -381,9 +381,9 @@ at your location.
 - **Icons:** 1 � `<wil>`
 
 ```
-<fre> After you heal damage or horror from any
-investigator: You may add 1 bless token to the
-chaos bag.
+<act> Exhaust Fort Warren Chapel: After you heal 
+damage or horror from any investigator: You may 
+add 1 bless token to the chaos bag.
 ```
 *Flavor: "She lights a candle every morning. She doesn't know why."*
 
