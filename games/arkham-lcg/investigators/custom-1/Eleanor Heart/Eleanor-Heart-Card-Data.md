@@ -496,7 +496,34 @@ He's been making up for it ever since."
 
 ---
 
-| File Type | Convention | Example |
+### 037 — Private Doss
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Never Missed a Day |
+| **Type** | Asset — Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 1 |
+| **SAN soak** | 1 |
+| **Icons** | 1 × `<agi>` + 1 × `<wld>` |
+
+### Rules Text
+```
+<rea> After Eleanor Heart takes damage or horror 
+from any source: Deal 1 damage to an enemy at 
+your location.
+```
+
+### Flavor
+```
+"He never carried a weapon. He showed up anyway."
+```
+
+---
 |---|---|---|
 | **Investigator .eon** | `Heart-Sig-Investigator.eon` | `Heart-Sig-Investigator.eon` |
 | **Signature .eon** | `Heart-Sig-[Type]-[Name].eon` | `Heart-Sig-Asset-Medical-Bag.eon` |
