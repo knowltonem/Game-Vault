@@ -14,7 +14,7 @@
 | **Traits** | Medic. Scholar. |
 | **Willpower** | 4 |
 | **Intellect** | 4 |
-| **Combat** | 1 |
+| **Combat** | 0 |
 | **Agility** | 4 |
 | **Health** | 8 |
 | **Sanity** | 9 |
