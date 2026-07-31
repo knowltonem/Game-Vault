@@ -178,8 +178,8 @@ You may have up to 3 Ally assets in play simultaneously.
 | Field | Value |
 |---|---|
 | **Subtitle** | Always Shows Up |
-| **Type** | Asset � Ally |
-| **Cost** | 3r |
+| **Type** | Asset — Ally |
+| **Cost** | 2r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
 | **Slot** | Ally |
@@ -250,8 +250,8 @@ your location.
 | Field | Value |
 |---|---|
 | **Subtitle** | Never Missed a Day |
-| **Type** | Asset � Ally |
-| **Cost** | 3r |
+| **Type** | Asset — Ally |
+| **Cost** | 2r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
 | **Slot** | Ally |
