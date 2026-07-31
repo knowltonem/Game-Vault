@@ -359,15 +359,16 @@ gain 1 resource.
 - **Class:** Neutral
 - **Traits:** Ally. Military.
 - **Slot:** Ally
-- **HP soak:** 0
-- **SAN soak:** 3
+- **HP soak:** 2
+- **SAN soak:** 2
 - **Icons:** 1 × `<agi>` + 1 × `<wld>`
 
 ```
 You get +1 <agi> while Private Parker is in play.
 
-<fre> After Eleanor Heart heals damage or horror
-from any investigator: Draw 1 card.
+<rea> After Eleanor Heart takes damage or horror 
+from any source: Deal 1 damage to an enemy at 
+your location.
 ```
 *Flavor: "He was assigned to her. He doesn't know why. He shows up anyway."*
 
