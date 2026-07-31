@@ -1,4 +1,4 @@
-# Eleanor Heart — Investigator Pack (RYP-EH)
+# Eleanor Heart ï¿½ Investigator Pack (RYP-EH)
 
 ? [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
@@ -73,23 +73,23 @@ Fog of Innsmouth, 1 random basic weakness.
 
 ## Signature Cards (outside deck)
 
-### 001 — Eleanor Heart
-*Investigator card — see above.*
+### 001 ï¿½ Eleanor Heart
+*Investigator card ï¿½ see above.*
 
 ---
 
-### 002 — Medical Bag
+### 002 ï¿½ Medical Bag
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Issued at Fort Warren |
-| **Type** | Asset — Hand |
+| **Type** | Asset ï¿½ Hand |
 | **Cost** | 2r |
 | **Class** | Survivor |
 | **Traits** | Item. Medical. |
 | **Slot** | Hand |
 | **Unique** | Yes |
-| **Icons** | 1 × `<int>` |
+| **Icons** | 1 ï¿½ `<int>` |
 
 ```
 Eleanor Heart deck only.
@@ -100,18 +100,18 @@ Eleanor Heart deck only.
 
 ---
 
-### 003 — The Innsmouth Codex
+### 003 ï¿½ The Innsmouth Codex
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Knowledge That Should Not Be |
-| **Type** | Asset — Accessory |
+| **Type** | Asset ï¿½ Accessory |
 | **Cost** | 1r |
 | **Class** | Survivor |
 | **Traits** | Item. Tome. Cursed. |
 | **Slot** | Accessory |
 | **Unique** | Yes |
-| **Icons** | 1 × `<int>` + 1 × `<wil>` |
+| **Icons** | 1 ï¿½ `<int>` + 1 ï¿½ `<wil>` |
 
 ```
 Eleanor Heart deck only. Unique.
@@ -126,11 +126,11 @@ If you fail, draw 1 card.
 
 ---
 
-### 004 — The Fog of Innsmouth
+### 004 ï¿½ The Fog of Innsmouth
 
 | Field | Value |
 |---|---|
-| **Type** | Treachery — Weakness |
+| **Type** | Treachery ï¿½ Weakness |
 | **Class** | Survivor |
 | **Traits** | Flaw. |
 | **Unique** | Yes |
@@ -138,9 +138,9 @@ If you fail, draw 1 card.
 ```
 Eleanor Heart deck only.
 
-Revelation — Take 2 horror.
+Revelation ï¿½ Take 2 horror.
 
-Forced — After each enemy attacks you: Take 1 damage.
+Forced ï¿½ After each enemy attacks you: Take 1 damage.
 
 <act> Spend 3 resources: Discard The Fog of Innsmouth.
 ```
@@ -148,18 +148,18 @@ Forced — After each enemy attacks you: Take 1 damage.
 
 ---
 
-### 005 — Nurse Uniform
+### 005 ï¿½ Nurse Uniform
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Fort Warren Medical Corps |
-| **Type** | Asset — Body — Signature |
+| **Type** | Asset ï¿½ Body ï¿½ Signature |
 | **Cost** | 2r |
 | **Class** | Survivor |
 | **Traits** | Item. Uniform. |
 | **Slot** | Body |
 | **Unique** | Yes |
-| **Icons** | 1 × `<wil>` |
+| **Icons** | 1 ï¿½ `<wil>` |
 
 ```
 Eleanor Heart deck only.
@@ -176,12 +176,12 @@ asset you play this round by 2.
 
 ## Player Cards (006-035)
 
-### 006 — Private Parker
+### 006 ï¿½ Private Parker
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Always Shows Up |
-| **Type** | Asset — Ally |
+| **Type** | Asset ï¿½ Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
@@ -189,7 +189,7 @@ asset you play this round by 2.
 | **Unique** | Yes |
 | **HP soak** | 1 |
 | **SAN soak** | 1 |
-| **Icons** | 1 × `<agi>` + 1 × `<wld>` |
+| **Icons** | 1 ï¿½ `<agi>` + 1 ï¿½ `<wld>` |
 
 ```
 <rea> After Eleanor Heart takes damage or horror
@@ -200,12 +200,12 @@ your location.
 
 ---
 
-### 007 — General Marshall
+### 007 ï¿½ General Marshall
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Fall Back |
-| **Type** | Asset — Ally |
+| **Type** | Asset ï¿½ Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
@@ -213,7 +213,7 @@ your location.
 | **Unique** | Yes |
 | **HP soak** | 3 |
 | **SAN soak** | 3 |
-| **Icons** | 1 × `<wil>` + 1 × `<wld>` |
+| **Icons** | 1 ï¿½ `<wil>` + 1 ï¿½ `<wld>` |
 
 ```
 Exhaust General Marshall: Move all enemies at
@@ -224,12 +224,12 @@ those enemies for this round.
 
 ---
 
-### 008 — Corporal Cortez
+### 008 ï¿½ Corporal Cortez
 
 | Field | Value |
 |---|---|
 | **Subtitle** | He Stayed Behind |
-| **Type** | Asset — Ally |
+| **Type** | Asset ï¿½ Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
@@ -237,7 +237,7 @@ those enemies for this round.
 | **Unique** | Yes |
 | **HP soak** | 2 |
 | **SAN soak** | 2 |
-| **Icons** | 1 × `<com>` + 1 × `<wld>` |
+| **Icons** | 1 ï¿½ `<com>` + 1 ï¿½ `<wld>` |
 
 ```
 <rea> After Eleanor Heart takes damage or horror
@@ -248,12 +248,12 @@ your location.
 
 ---
 
-### 009 — Private Doss
+### 009 ï¿½ Private Doss
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Never Missed a Day |
-| **Type** | Asset — Ally |
+| **Type** | Asset ï¿½ Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
@@ -261,7 +261,7 @@ your location.
 | **Unique** | Yes |
 | **HP soak** | 1 |
 | **SAN soak** | 1 |
-| **Icons** | 1 × `<agi>` + 1 × `<wld>` |
+| **Icons** | 1 ï¿½ `<agi>` + 1 ï¿½ `<wld>` |
 
 ```
 <rea> After Eleanor Heart takes damage or horror
@@ -272,13 +272,13 @@ your location.
 
 ---
 
-### 010-011 — Take What You Need
+### 010-011 ï¿½ Take What You Need
 
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Neutral
 - **Traits:** Spirit.
-- **Icons:** 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wld>`
 
 ```
 Search the top 7 cards of your deck for any asset and
@@ -288,13 +288,13 @@ draw it. Shuffle your deck.
 
 ---
 
-### 012-013 — Special Allowance
+### 012-013 ï¿½ Special Allowance
 
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Neutral
 - **Traits:** Fortune.
-- **Icons:** 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wld>`
 
 ```
 Fast. Gain 3 resources.
@@ -303,30 +303,30 @@ Fast. Gain 3 resources.
 
 ---
 
-### 014-015 — Diagnosis Terminal
+### 014-015 ï¿½ Diagnosis Terminal
 
 - **Cost:** 2r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Medical. Insight.
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<wld>`
 
 ```
 Fast. Evade an enemy engaged with any investigator
 at your location. If you succeed, that enemy is
 removed from the game.
 ```
-*Flavor: "She assessed the situation. The situation did not survive."*
+*Flavor: "He's gone."*
 
 ---
 
-### 016-017 — Arcane Practice
+### 016-017 ï¿½ Arcane Practice
 
 - **Cost:** 3r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Practiced.
-- **Icons:** 2 × `<int>`
+- **Icons:** 2 ï¿½ `<int>`
 
 ```
 <act> Fight using your <wil> instead of <com>.
@@ -337,14 +337,14 @@ at your location.
 
 ---
 
-### 018-019 — Triage
+### 018-019 ï¿½ Triage
 
 - **Cost:** 2r
-- **Type:** Asset — Arcane
+- **Type:** Asset ï¿½ Arcane
 - **Class:** Survivor
 - **Traits:** Spell. Medical.
 - **Slot:** Arcane
-- **Icons:** 1 × `<wil>` + 1 × `<int>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<int>`
 
 ```
 Triage enters play with 5 charges.
@@ -356,13 +356,13 @@ from an investigator at your location.
 
 ---
 
-### 020-021 — Patch Up
+### 020-021 ï¿½ Patch Up
 
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Medical. Practiced.
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<wld>`
 
 ```
 Fast. Heal 1 damage and 1 horror from an investigator
@@ -372,15 +372,15 @@ at your location.
 
 ---
 
-### 022-023 — Fort Warren Chapel
+### 022-023 ï¿½ Fort Warren Chapel
 
 - **Cost:** 1r
-- **Type:** Asset — Arcane
+- **Type:** Asset ï¿½ Arcane
 - **Class:** Survivor
 - **Traits:** Spell. Blessed.
 - **Slot:** Arcane
 - **SAN soak:** 1
-- **Icons:** 1 × `<wil>`
+- **Icons:** 1 ï¿½ `<wil>`
 
 ```
 <fre> After you heal damage or horror from any
@@ -391,13 +391,13 @@ chaos bag.
 
 ---
 
-### 024-025 — The Shores of Innsmouth
+### 024-025 ï¿½ The Shores of Innsmouth
 
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Insight. Cursed.
-- **Icons:** 1 × `<wil>` + 1 × `<int>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<int>`
 
 ```
 Eleanor Heart deck only.
@@ -412,13 +412,13 @@ Discover 1 additional clue.
 
 ---
 
-### 026-027 — Do No Harm
+### 026-027 ï¿½ Do No Harm
 
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Ward.
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<wld>`
 
 ```
 Fast. Cancel a treachery card that is about to
@@ -428,13 +428,13 @@ affect any investigator at your location.
 
 ---
 
-### 028-029 — The Codex Revealed
+### 028-029 ï¿½ The Codex Revealed
 
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Seeker
 - **Traits:** Insight.
-- **Icons:** 2 × `<int>`
+- **Icons:** 2 ï¿½ `<int>`
 
 ```
 Fast. Discover 1 clue at your location without
@@ -444,7 +444,7 @@ investigating.
 
 ---
 
-### 030 — Innsmouth Lessons
+### 030 ï¿½ Innsmouth Lessons
 
 - **Cost:** 2r
 - **Type:** Asset
@@ -452,7 +452,7 @@ investigating.
 - **Traits:** Tome. Cursed. Insight.
 - **Slot:** None
 - **HP soak:** 1
-- **Icons:** 1 × `<int>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<int>` + 1 ï¿½ `<wld>`
 
 ```
 <fre> After you successfully investigate: You may
@@ -463,13 +463,13 @@ gain 1 resource.
 
 ---
 
-### 031-032 — Ward of Protection
+### 031-032 ï¿½ Ward of Protection
 
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell.
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<wld>`
 
 ```
 Fast. Cancel the effects of a non-weakness treachery just
@@ -479,12 +479,12 @@ drawn by any investigator at your location. Take 1 horror.
 
 ---
 
-### 033-034 — Focused Mind
+### 033-034 ï¿½ Focused Mind
 
-- **Cost:** —
+- **Cost:** ï¿½
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 2 × `<int>`
+- **Icons:** 2 ï¿½ `<int>`
 
 ```
 If this test succeeds: Draw 1 card.
@@ -493,12 +493,12 @@ If this test succeeds: Draw 1 card.
 
 ---
 
-### 035 — The Undying Will
+### 035 ï¿½ The Undying Will
 
-- **Cost:** —
+- **Cost:** ï¿½
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 1 × `<wil>` + 1 × `<int>` + 1 × `<wld>`
+- **Icons:** 1 ï¿½ `<wil>` + 1 ï¿½ `<int>` + 1 ï¿½ `<wld>`
 
 ```
 No additional rules text.
@@ -533,4 +533,4 @@ No additional rules text.
 | Arcane | Triage or Fort Warren Chapel |
 | Ally 1 | Private Parker / Corporal Cortez / Private Doss |
 | Ally 2 | General Marshall |
-| Ally 3 | (third ally — Nurse Uniform enables) |
+| Ally 3 | (third ally ï¿½ Nurse Uniform enables) |
