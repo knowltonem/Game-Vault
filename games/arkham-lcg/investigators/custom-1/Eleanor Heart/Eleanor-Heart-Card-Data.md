@@ -278,8 +278,8 @@ your location.
 - **Icons:** 1 × `<wld>`
 
 ```
-Search the top 7 cards of your deck for any asset and
-draw it. Shuffle your deck.
+Search the top 7 cards of your deck for any asset
+or ally and draw it. Shuffle your deck.
 ```
 *Flavor: "She knows exactly what she needs."*
 
