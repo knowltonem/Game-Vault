@@ -201,7 +201,7 @@ your location.
 
 | Field | Value |
 |---|---|
-| **Subtitle** | Fall Back |
+| **Subtitle** | Fort Warren Command |
 | **Type** | Asset � Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
