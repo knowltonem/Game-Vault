@@ -460,12 +460,12 @@ successfully investigate: You may gain 1 resource.
 
 ---
 
-### 031-032 � Ward of Protection
+### 031-032 � Prognosis Negative
 
 - **Cost:** 1r
 - **Type:** Event
-- **Class:** Mystic
-- **Traits:** Spell.
+- **Class:** Survivor
+- **Traits:** Medical. Ward.
 - **Icons:** 1 � `<wil>` + 1 � `<wld>`
 
 ```
