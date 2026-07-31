@@ -317,8 +317,8 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ## Pending Items
 
-- [ ] Agnes 020 Drawn to the Flame — rebuild in Strange Eons (wrong rules in EON)
-- [ ] Ephraim Archer 035 — needs Strange Eons build
+- [ ] 
+- [ ] 
 
 ## Icon Syntax — LOCKED
 
