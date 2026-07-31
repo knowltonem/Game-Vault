@@ -225,8 +225,8 @@ those enemies for this round.
 
 | Field | Value |
 |---|---|
-| **Subtitle** | He Stayed Behind |
-| **Type** | Asset � Ally |
+| **Subtitle** | Assigned |
+| **Type** | Asset — Ally |
 | **Cost** | 3r |
 | **Class** | Neutral |
 | **Traits** | Ally. Military. |
@@ -234,7 +234,7 @@ those enemies for this round.
 | **Unique** | Yes |
 | **HP soak** | 2 |
 | **SAN soak** | 2 |
-| **Icons** | 1 � `<com>` + 1 � `<wld>` |
+| **Icons** | 1 × `<com>` + 1 × `<wld>` |
 
 ```
 <rea> After Eleanor Heart takes damage or horror
