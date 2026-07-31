@@ -374,23 +374,22 @@ your location.
 
 ---
 
-### 029 — Father Rodriguez
+### 029 — General Marshall
 - **Cost:** 3r
 - **Type:** Asset — Ally
 - **Class:** Neutral
-- **Traits:** Ally. Priest. Blessed.
+- **Traits:** Ally. Military.
 - **Slot:** Ally
 - **HP soak:** 0
 - **SAN soak:** 3
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-You get +1 <wil> while Father Rodriguez is in play.
-
-[fre] After you add a bless token to the chaos bag:
-Gain 1 resource.
+Exhaust General Marshall: Move all enemies at 
+your location up to 3 locations away. Exhaust 
+those enemies for this round.
 ```
-*Flavor: "He ran the Fort Warren chapel for five years. He filed every report. He asked every question. They reassigned him anyway. He's still asking."*
+*Flavor: "He didn't ask what they were. He just pointed and said move."*
 
 ---
 
