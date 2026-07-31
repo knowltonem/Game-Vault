@@ -265,7 +265,7 @@ your location.
 from any source: Deal 1 damage to an enemy at
 your location.
 ```
-*Flavor: "He never carried a weapon. He showed up anyway."*
+*Flavor: "I wanted to see the world."*
 
 ---
 
