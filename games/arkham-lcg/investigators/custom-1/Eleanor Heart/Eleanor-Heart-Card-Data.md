@@ -370,6 +370,7 @@ at your location.
 ---
 
 ### 022-023 � Fort Warren Chapel
+- **Subtitle:** My Refuge
 
 - **Cost:** 1r
 - **Type:** Asset � Arcane
