@@ -410,9 +410,9 @@ Discover 1 additional clue.
 
 ---
 
-### 026-027 � Do No Harm
+### 026-027 — Do No Harm
 
-- **Cost:** 0r
+- **Cost:** 1r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spell. Ward.
