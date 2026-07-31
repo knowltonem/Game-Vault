@@ -145,7 +145,7 @@ Forced � After each enemy attacks you: Take 1 damage.
 
 <act> Spend 3 resources: Discard The Fog of Innsmouth.
 ```
-*Flavor: "Twelve people went into Innsmouth. The fog claimed them."*
+*Flavor: "I can't remember."*
 
 ---
 
