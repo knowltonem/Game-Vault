@@ -217,7 +217,7 @@ Exhaust General Marshall: Move all enemies at
 your location up to 3 locations away. Exhaust
 those enemies for this round.
 ```
-*Flavor: "He didn't ask what they were. He just pointed and said move."*
+*Flavor: "Push Them Back!"*
 
 ---
 
