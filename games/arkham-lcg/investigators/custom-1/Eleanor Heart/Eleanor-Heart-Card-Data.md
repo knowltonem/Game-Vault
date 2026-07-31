@@ -202,17 +202,19 @@ Fast. Heal 2 horror from any investigator at your location.
 
 ---
 
-### 011-012 — Military Tactics
-- **Cost:** 1r
+### 011-012 — Diagnosis Terminal
+- **Cost:** 2r
 - **Type:** Event
-- **Class:** Neutral
-- **Traits:** Tactic.
-- **Icons:** 1 × `<wld>`
+- **Class:** Survivor
+- **Traits:** Medical. Insight.
+- **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-Fast. Draw 3 cards.
+Fast. Evade an enemy engaged with any investigator 
+at your location. If you succeed, that enemy is 
+removed from the game.
 ```
-*Flavor: "Always have a plan."*
+*Flavor: "She assessed the situation. The situation did not survive."*
 
 ---
 
