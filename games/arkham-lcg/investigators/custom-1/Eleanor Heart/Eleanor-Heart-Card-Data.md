@@ -453,9 +453,8 @@ investigating.
 - **Icons:** 1 � `<int>` + 1 � `<wld>`
 
 ```
-<fre> After you successfully investigate: You may
-discover 1 additional clue at your location and
-gain 1 resource.
+<rea> Exhaust Innsmouth Lessons: After you 
+successfully investigate: You may gain 1 resource.
 ```
 *Flavor: "It keeps teaching her."*
 
