@@ -114,7 +114,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Nora Warwick | 3 | 5 | 3 | 2 | 7 | 8 |
 | Bjorn Blackcast | 5 | 3 | 2 | 3 | 6 | 10 |
 | Ephraim Archer | 3 | 2 | 5 | 3 | 7 | 8 |
-| Eleanor Heart | 4 | 4 | 1 | 4 | 8 | 9 |
+| Eleanor Heart | 4 | 4 | 0 | 4 | 8 | 9 |
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
 | Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
 
@@ -232,13 +232,14 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ## ELEANOR HEART (RYP-EH) — IN PROGRESS 🔧
 
-- Mystic, WIL 4 / INT 4 / COM 1 / AGI 4, HP 8 / SAN 9
+- Mystic, WIL 4 / INT 4 / COM 0 / AGI 4, HP 8 / SAN 9
 - Subtitle: The Undying. Traits: Medic. Scholar.
 - Permanent: Innsmouth Codex (Accessory, +1 INT, in play at setup)
 - Weakness: Fog of Innsmouth (Revelation: 2 hor. After each enemy attacks: 1 dmg. 3r to discard)
-- **Ability:** <rea> After Eleanor Heart takes damage or horror: Heal 1 damage or horror from any investigator at your location. If she has 3+ damage heal 2, 6+ heal 3, 7+ heal 4. (Limit once per round.)
-- **Elder Sign:** +2. Heal 2 damage or horror from Eleanor. All investigators draw 1 card.
-- Folders 001-034 created. Card-Data complete. Needs Strange Eons build.
+- **Ability:** <rea> After Eleanor Heart takes damage or horror: Heal 1 damage or horror from any investigator. If she has 3+ damage heal 2, 6+ heal 3, 7+ heal 4. (Must all go to one investigator. Limit once per round.)
+- **Elder Sign:** <eld> +2. You may heal 2 damage or horror from any investigator.
+- **Deckbuilding:** All cards (level 0-5). No Weapon cards. Deck size 30.
+- 001 card design locked. Needs Strange Eons build for all cards.
 - Story: Senior medical officer at Fort Warren. Went on Innsmouth mission with Eduardo. 12 soldiers went in, she and Eduardo came out. Doesn't remember leaving. Something came back with her.
 
 ### Key Design Decisions
