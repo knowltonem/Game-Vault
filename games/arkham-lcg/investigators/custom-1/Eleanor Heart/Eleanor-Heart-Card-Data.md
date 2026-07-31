@@ -26,6 +26,7 @@ If Eleanor Heart has:
 3+ damage: heal 2 instead.
 6+ damage: heal 3 instead.
 7+ damage: heal 4 instead.
+(Must all go to one investigator)
 (Limit once per round.)
 ```
 
