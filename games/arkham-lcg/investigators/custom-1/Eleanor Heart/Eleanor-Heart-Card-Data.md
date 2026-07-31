@@ -468,6 +468,36 @@ Especially after Innsmouth."
 
 ---
 
+### 036 — Corporal Cortez
+
+| Field | Value |
+|---|---|
+| **Subtitle** | He Stayed Behind |
+| **Type** | Asset — Ally |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Ally. Military. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 3 |
+| **SAN soak** | 3 |
+| **Icons** | 1 × `<com>` + 1 × `<wld>` |
+
+### Rules Text
+```
+<rea> After Eleanor Heart takes damage or horror 
+from any source: Deal 1 damage to an enemy at 
+your location.
+```
+
+### Flavor
+```
+"He stayed behind when the others went in. 
+He's been making up for it ever since."
+```
+
+---
+
 | File Type | Convention | Example |
 |---|---|---|
 | **Investigator .eon** | `Heart-Sig-Investigator.eon` | `Heart-Sig-Investigator.eon` |
