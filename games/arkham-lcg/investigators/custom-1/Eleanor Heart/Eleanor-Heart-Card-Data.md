@@ -330,7 +330,7 @@ at your location. If you succeed, that enemy is killed.
 If this test is successful, defeat all enemies
 at your location.
 ```
-*Flavor: "Fort Warren trained her hands. Innsmouth trained the rest."*
+*Flavor: "Fort Warren trained her. Innsmouth taught her so much more."*
 
 ---
 
