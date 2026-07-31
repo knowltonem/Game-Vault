@@ -434,7 +434,39 @@ No additional rules text.
 
 ---
 
-## Naming Convention
+### 035 — Nurse Uniform
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Fort Warren Medical Corps |
+| **Type** | Asset — Body — Signature |
+| **Cost** | 2r |
+| **Class** | Survivor |
+| **Traits** | Item. Uniform. |
+| **Slot** | Body |
+| **Unique** | Yes |
+| **Icons** | 1 × `<wil>` |
+
+### Rules Text
+```
+Eleanor Heart deck only.
+
+You may have up to 3 Ally assets in play 
+simultaneously.
+
+<fre> After you heal damage or horror from 
+any investigator: Exhaust Nurse Uniform to 
+reduce the cost of the next Ally asset you 
+play this round by 2.
+```
+
+### Flavor
+```
+"She never took it off. Even after Innsmouth. 
+Especially after Innsmouth."
+```
+
+---
 
 | File Type | Convention | Example |
 |---|---|---|
