@@ -118,9 +118,10 @@ Eleanor Heart deck only. Unique.
 
 You get +1 <int> while The Innsmouth Codex is in play.
 
-<act> Exhaust The Innsmouth Codex: Investigate using <int>.
-If you succeed, discover 1 additional clue at your location.
-If you fail, draw 1 card.
+<act> Exhaust The Innsmouth Codex: Investigate 
+at your location. If you succeed, discover 1 
+additional clue at your location. If this 
+investigation fails, draw 1 card.
 ```
 *Flavor: "She wasn't supposed to see it. Now she can't unsee it."*
 
