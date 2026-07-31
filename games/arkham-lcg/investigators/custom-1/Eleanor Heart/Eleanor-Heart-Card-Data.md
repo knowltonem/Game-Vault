@@ -391,11 +391,11 @@ add 1 bless token to the chaos bag.
 
 ### 024-025 � The Shores of Innsmouth
 
-- **Cost:** 0r
+- **Cost:** 1r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Insight. Cursed.
-- **Icons:** 1 � `<wil>` + 1 � `<int>`
+- **Icons:** 1 × `<wil>` + 1 × `<int>`
 
 ```
 Eleanor Heart deck only.
