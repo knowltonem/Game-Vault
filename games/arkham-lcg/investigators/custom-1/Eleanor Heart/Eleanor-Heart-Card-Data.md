@@ -55,7 +55,7 @@ Deck size: 30.
 Mystic cards (0-3).
 Neutral cards (0-5).
 Cards that "heal damage or horror" (0-5).
-Seeker and/or Guardian cards (0-1), up to 15 total.
+Seeker and/or Guardian cards (0-5), up to 15 total.
 No Weapon cards level 1-5.
 Signature cards: Medical Bag ×1, The Innsmouth Codex ×1,
 The Fog of Innsmouth ×1, 1 random basic weakness.
