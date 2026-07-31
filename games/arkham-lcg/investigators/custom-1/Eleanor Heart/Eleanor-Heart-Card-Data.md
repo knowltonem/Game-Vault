@@ -10,7 +10,7 @@
 |---|---|
 | **Name** | Eleanor Heart |
 | **Subtitle** | The Undying |
-| **Class** | Mystic |
+| **Class** | Survivor |
 | **Traits** | Medic. Scholar. |
 | **Willpower** | 4 |
 | **Intellect** | 4 |
