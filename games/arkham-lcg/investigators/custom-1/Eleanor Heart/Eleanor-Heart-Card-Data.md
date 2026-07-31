@@ -166,10 +166,6 @@ Forced � After each enemy attacks you: Take 1 damage.
 Eleanor Heart deck only.
 
 You may have up to 3 Ally assets in play simultaneously.
-
-<fre> After you heal damage or horror from any investigator:
-Exhaust Nurse Uniform to reduce the cost of the next Ally
-asset you play this round by 2.
 ```
 *Flavor: "She never took it off. Even after Innsmouth. Especially after Innsmouth."*
 
