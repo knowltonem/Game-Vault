@@ -269,13 +269,13 @@ your location.
 
 ---
 
-### 010-011 � Take What You Need
+### 010-011 — Take What You Need
 
 - **Cost:** 1r
 - **Type:** Event
-- **Class:** Neutral
+- **Class:** Survivor
 - **Traits:** Spirit.
-- **Icons:** 1 � `<wld>`
+- **Icons:** 1 × `<wld>`
 
 ```
 Search the top 7 cards of your deck for any asset and
@@ -285,13 +285,13 @@ draw it. Shuffle your deck.
 
 ---
 
-### 012-013 � Special Allowance
+### 012-013 — Special Allowance
 
 - **Cost:** 0r
 - **Type:** Event
-- **Class:** Neutral
+- **Class:** Survivor
 - **Traits:** Fortune.
-- **Icons:** 1 � `<wld>`
+- **Icons:** 1 × `<wld>`
 
 ```
 Fast. Gain 3 resources.
