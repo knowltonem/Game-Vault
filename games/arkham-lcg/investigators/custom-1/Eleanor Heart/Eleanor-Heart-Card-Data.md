@@ -52,11 +52,8 @@ for answers about what came back with her."
 ### Deckbuilding
 ```
 Deck size: 30.
-Mystic cards (0-3).
-Neutral cards (0-5).
-Cards that "heal damage or horror" (0-5).
-Seeker and/or Guardian cards (0-5), up to 15 total.
-No Weapon cards level 1-5.
+All cards (level 0-5).
+No Weapon cards.
 Signature cards: Medical Bag ×1, The Innsmouth Codex ×1,
 The Fog of Innsmouth ×1, 1 random basic weakness.
 ```
