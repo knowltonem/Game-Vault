@@ -226,9 +226,9 @@ removed from the game.
 - **Icons:** 2 × `<int>`
 
 ```
-<act> Fight. You fight using <wil> instead of
-<com>. You get +1 <wil> for this attack. If this
-attack succeeds by 2 or more, deal +1 damage.
+<act> Fight using your <wil> instead of <com>. 
+If this test is successful, defeat all enemies 
+at your location.
 ```
 *Flavor: "Fort Warren trained her hands. Innsmouth trained the rest."*
 
