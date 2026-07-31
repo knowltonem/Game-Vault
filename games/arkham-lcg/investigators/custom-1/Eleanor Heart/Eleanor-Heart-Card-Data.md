@@ -238,7 +238,7 @@ those enemies for this round.
 
 ```
 <rea> After Eleanor Heart takes damage or horror
-from any source: Deal 1 damage to an enemy at
+from any source: Deal 1 damage to all enemies at
 your location.
 ```
 *Flavor: "He stayed behind when the others went in. He's been making up for it ever since."*
