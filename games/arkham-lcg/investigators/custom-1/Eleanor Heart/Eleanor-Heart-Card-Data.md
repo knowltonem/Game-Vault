@@ -29,7 +29,7 @@ If she has 7 or more, heal 4. (Limit once per round.)
 
 ### Elder Sign
 ```
-+2. You may heal 2 damage or horror from Eleanor Heart.
++2. You may heal 2 damage or horror from any investigator at your location.
 All investigators at your location draw 1 card.
 ```
 
