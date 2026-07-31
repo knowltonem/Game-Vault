@@ -31,8 +31,7 @@ If Eleanor Heart has:
 
 ### Elder Sign
 ```
-+2. You may heal 2 damage or horror from any investigator.
-All investigators at your location draw 1 card.
+<eld> +2. You may heal 2 damage or horror from any investigator.
 ```
 
 ### Flavor (front)
