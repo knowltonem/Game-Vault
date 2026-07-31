@@ -359,8 +359,8 @@ gain 1 resource.
 - **Class:** Neutral
 - **Traits:** Ally. Military.
 - **Slot:** Ally
-- **HP soak:** 2
-- **SAN soak:** 2
+- **HP soak:** 1
+- **SAN soak:** 1
 - **Icons:** 1 × `<agi>` + 1 × `<wld>`
 
 ```
@@ -380,7 +380,7 @@ your location.
 - **Class:** Neutral
 - **Traits:** Ally. Military.
 - **Slot:** Ally
-- **HP soak:** 0
+- **HP soak:** 3
 - **SAN soak:** 3
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
@@ -479,8 +479,8 @@ Especially after Innsmouth."
 | **Traits** | Ally. Military. |
 | **Slot** | Ally |
 | **Unique** | Yes |
-| **HP soak** | 3 |
-| **SAN soak** | 3 |
+| **HP soak** | 2 |
+| **SAN soak** | 2 |
 | **Icons** | 1 × `<com>` + 1 × `<wld>` |
 
 ### Rules Text
