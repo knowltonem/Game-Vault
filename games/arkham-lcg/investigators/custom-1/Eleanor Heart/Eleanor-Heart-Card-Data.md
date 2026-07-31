@@ -241,7 +241,7 @@ those enemies for this round.
 from any source: Deal 1 damage to all enemies at
 your location.
 ```
-*Flavor: "He stayed behind when the others went in. He's been making up for it ever since."*
+*Flavor: "He's been here before."*
 
 ---
 
