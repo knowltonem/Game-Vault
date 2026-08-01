@@ -1,4 +1,4 @@
-# The Toymaker — Investigator Pack (RYP-TM)
+# The Tinker — Investigator Pack (RYP-TK)
 
 ← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
@@ -12,7 +12,7 @@
 
 | Field | Value |
 |---|---|
-| **Name** | The Toymaker |
+| **Name** | The Tinker |
 | **Subtitle** | He Makes Things |
 | **Class** | Guardian |
 | **Traits** | Tinkerer. Eccentric. |
@@ -42,7 +42,7 @@ discard pile to your hand.
 
 ### Story (back)
 ```
-Nobody remembers when The Toymaker first came to Arkham.
+Nobody remembers when The Tinker first came to Arkham.
 He owns a shop, he's a tinkerer, he makes things.
 Now he's putting them to use.
 ```
@@ -59,7 +59,7 @@ Signature cards: Med Mek, Deadly Deep One, Self-Destructive.
 
 ## Signature Cards (outside deck)
 
-### 001 — The Toymaker
+### 001 — The Tinker
 *Investigator card — see above.*
 
 ---
@@ -79,7 +79,7 @@ Signature cards: Med Mek, Deadly Deep One, Self-Destructive.
 | **Icons** | 1 × `<wil>` + 1 × `<int>` + 1 × `<wld>` |
 
 ```
-The Toymaker deck only.
+The Tinker deck only.
 
 <rea> After Med Mek enters play: Heal 3 damage.
 
@@ -103,7 +103,7 @@ The Toymaker deck only.
 | **Keywords** | Hunter. |
 
 ```
-Prey — The Toymaker only. Hunter.
+Prey — The Tinker only. Hunter.
 Forced — When Deadly Deep One would take any amount of damage: Reduce that amount to 1.
 ```
 
@@ -395,10 +395,10 @@ If this skill test is successful during an attack, that attack deals +1 damage.
 
 | Field | Value |
 |---|---|
-| **Pack Name** | The Toymaker Investigator Pack |
-| **Pack Code** | RYP-TM |
+| **Pack Name** | The Tinker Investigator Pack |
+| **Pack Code** | RYP-TK |
 | **Total Cards** | 034 |
-| **Investigator** | 001 The Toymaker |
+| **Investigator** | 001 The Tinker |
 | **Signature Asset** | 002 Med Mek |
 | **Signature Weakness** | 003 Deadly Deep One |
 | **Basic Weakness** | 004 Self-Destructive |
@@ -419,5 +419,5 @@ If this skill test is successful during an attack, that attack deals +1 damage.
 
 ## Notes
 
-- Mechanical mirror of Nathaniel Cho (AHC09). All text identical to the official card except investigator name references (changed from "Nathaniel Cho" to "The Toymaker") and the [[Weapon]]/[[Spirit]]/[[Elite]] references flattened to plain text.
+- Mechanical mirror of Nathaniel Cho (AHC09). All text identical to the official card except investigator name references (changed from "Nathaniel Cho" to "The Tinker") and the [[Weapon]]/[[Spirit]]/[[Elite]] references flattened to plain text.
 - Class symbols: use `<guardian>` `<seeker>` `<rogue>` `<mystic>` `<survivor>` `<neutral>` as needed.

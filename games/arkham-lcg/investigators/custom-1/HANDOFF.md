@@ -31,7 +31,7 @@ games/arkham-lcg/investigators/custom-1/
 ├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
 ├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck redesigned, needs Strange Eons build
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
-├── The Toymaker/                    ← NEW 🆕 skeleton + Card-Data done, needs Strange Eons build
+├── The Tinker/                    ← NEW 🆕 skeleton + Card-Data done, needs Strange Eons build
 └── Father Eduardo Rodriguez/           ← IN PROGRESS 🔧 001-002 built, 003-035 pending
 
 games/arkham-lcg/sim/
@@ -99,7 +99,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
 | Eleanor Heart | RYP-EH | Mystic | ✅ Complete — all 35 cards built, art done |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
-| The Toymaker | RYP-TM | Guardian | 🔧 In Progress — skeleton + Card-Data done |
+| The Tinker | RYP-TK | Guardian | 🔧 In Progress — skeleton + Card-Data done |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 
 ---
@@ -118,7 +118,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Eleanor Heart | 4 | 4 | 0 | 4 | 8 | 9 |
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
 | Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
-| The Toymaker | 3 | 3 | 5 | 2 | 8 | 6 |
+| The Tinker | 3 | 3 | 5 | 2 | 8 | 6 |
 
 ---
 
@@ -317,7 +317,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ---
 
-## The Toymaker (RYP-TM) — 🔧 IN PROGRESS
+## The Tinker (RYP-TK) — 🔧 IN PROGRESS
 
 - Guardian, WIL 3 / INT 2 / COM 5 / AGI 2, HP 9 / SAN 6
 - Subtitle: I'm Still Here. Traits: Criminal. Warden.
@@ -327,7 +327,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 - **Requirements:** Med Mek ×1, Deadly Deep One ×1, Self-Destructive ×1.
 - 34 total folders. 30 deck cards (005-034), 15 unique × 2.
 - Deck mirrors official AHC09 cards: Boxing Gloves, Flesh Ward, Grete Wagner, Physical Training, Relentless, Safeguard, Clean Them Out, Counterpunch, Dodge, "Get over here!", Glory, Monster Slayer, One-Two Punch, Stand Together, Vicious Blow.
-- Card-Data: `The Toymaker/Old-Man-Winters-Card-Data.md`. Folder skeleton complete; EON files + art pending.
+- Card-Data: `The Tinker/Old-Man-Winters-Card-Data.md`. Folder skeleton complete; EON files + art pending.
 
 ### Key Design Decisions
 | Decision | Value |
@@ -335,14 +335,14 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Faithfulness | Pure reskin — no mechanical changes |
 | Deck | Official AHC09 starter deck (60105-60119) × 2 |
 | Signature names | 002 renamed to Med Mek, 003 renamed to Deadly Deep One (traits → Monster. Deep One.); Self-Destructive kept |
-| Name references | "Nathaniel Cho" → "The Toymaker" in card text |
+| Name references | "Nathaniel Cho" → "The Tinker" in card text |
 | [[Weapon]]/[[Spirit]]/[[Elite]] | Flattened to plain text in Card-Data |
 
 ---
 
 ## Pending Items
 
-- [ ] The Toymaker (RYP-TM) — build all 34 cards in Strange Eons, generate art
+- [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art
 
 ## Icon Syntax — LOCKED
 
