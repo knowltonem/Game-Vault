@@ -20,7 +20,7 @@
 | **Intellect** | 2 |
 | **Combat** | 5 |
 | **Agility** | 2 |
-| **Health** | 9 |
+| **Health** | 8 |
 | **Sanity** | 6 |
 
 ### Ability

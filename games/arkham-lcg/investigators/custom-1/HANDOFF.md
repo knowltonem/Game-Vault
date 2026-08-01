@@ -118,7 +118,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Eleanor Heart | 4 | 4 | 0 | 4 | 8 | 9 |
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
 | Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
-| Old Man Winters | 3 | 2 | 5 | 2 | 9 | 6 |
+| Old Man Winters | 3 | 2 | 5 | 2 | 8 | 6 |
 
 ---
 
