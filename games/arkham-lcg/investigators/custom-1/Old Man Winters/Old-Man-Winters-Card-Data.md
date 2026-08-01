@@ -17,7 +17,7 @@
 | **Class** | Guardian |
 | **Traits** | Criminal. Warden. |
 | **Willpower** | 3 |
-| **Intellect** | 2 |
+| **Intellect** | 3 |
 | **Combat** | 5 |
 | **Agility** | 2 |
 | **Health** | 8 |
