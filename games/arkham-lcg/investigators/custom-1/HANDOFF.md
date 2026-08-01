@@ -14,7 +14,6 @@ Custom Arkham Horror LCG expansion called **The R'lyeh Expansion**.
 Nine custom investigator packs plus one shared upgrade pack.
 Physical cards printed via Strange Eons software.
 Repository: `C:\Users\edwar\Documents\games\board-game-vault` → GitHub: `knowltonem/Game-Vault`
-Latest commit: `9f07673` → main
 
 ---
 
@@ -32,6 +31,7 @@ games/arkham-lcg/investigators/custom-1/
 ├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
 ├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck redesigned, needs Strange Eons build
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
+├── Old Man Winters/                    ← NEW 🆕 skeleton + Card-Data done, needs Strange Eons build
 └── Father Eduardo Rodriguez/           ← IN PROGRESS 🔧 001-002 built, 003-035 pending
 
 games/arkham-lcg/sim/
@@ -99,6 +99,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
 | Eleanor Heart | RYP-EH | Mystic | ✅ Complete — all 35 cards built, art done |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
+| Old Man Winters | RYP-OW | Guardian | 🔧 In Progress — skeleton + Card-Data done |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 
 ---
@@ -117,6 +118,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Eleanor Heart | 4 | 4 | 0 | 4 | 8 | 9 |
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
 | Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
+| Old Man Winters | 3 | 2 | 5 | 2 | 9 | 6 |
 
 ---
 
@@ -315,10 +317,32 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ---
 
+## OLD MAN WINTERS (RYP-OW) — 🔧 IN PROGRESS
+
+- Guardian, WIL 3 / INT 2 / COM 5 / AGI 2, HP 9 / SAN 6
+- Subtitle: I'm Still Here. Traits: Criminal. Warden.
+- **Pure reskin of Nathaniel Cho (AHC09)** — stats, ability, elder sign, and deck are mechanically identical to the official Nathaniel Cho starter deck. Only identity, flavor, and art change.
+- **Ability:** <rea> When you deal damage to an enemy by an event or a fight ability on an event: Deal 1 additional damage. (Limit once per phase.)
+- **Elder Sign:** <eld> +1. If this skill test is successful during an attack, return an event from your discard pile to your hand.
+- **Requirements:** Med Mek ×1, Deadly Deep One ×1, Self-Destructive ×1.
+- 34 total folders. 30 deck cards (005-034), 15 unique × 2.
+- Deck mirrors official AHC09 cards: Boxing Gloves, Flesh Ward, Grete Wagner, Physical Training, Relentless, Safeguard, Clean Them Out, Counterpunch, Dodge, "Get over here!", Glory, Monster Slayer, One-Two Punch, Stand Together, Vicious Blow.
+- Card-Data: `Old Man Winters/Old-Man-Winters-Card-Data.md`. Folder skeleton complete; EON files + art pending.
+
+### Key Design Decisions
+| Decision | Value |
+|---|---|
+| Faithfulness | Pure reskin — no mechanical changes |
+| Deck | Official AHC09 starter deck (60105-60119) × 2 |
+| Signature names | 002 renamed to Med Mek, 003 renamed to Deadly Deep One (traits → Monster. Deep One.); Self-Destructive kept |
+| Name references | "Nathaniel Cho" → "Old Man Winters" in card text |
+| [[Weapon]]/[[Spirit]]/[[Elite]] | Flattened to plain text in Card-Data |
+
+---
+
 ## Pending Items
 
-- [ ] 
-- [ ] 
+- [ ] Old Man Winters (RYP-OW) — build all 34 cards in Strange Eons, generate art
 
 ## Icon Syntax — LOCKED
 

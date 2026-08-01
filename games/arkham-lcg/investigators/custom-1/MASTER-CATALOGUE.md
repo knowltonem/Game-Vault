@@ -31,6 +31,8 @@ This file links to each catalogue and tracks overall build status.
 
 | RYP-EH | Eleanor Heart | Mystic | 34 | [RYP-EH-Master-Catalogue.md](Eleanor%20Heart/RYP-EH-Master-Catalogue.md) | 🔧 In Progress |
 
+| RYP-OW | Old Man Winters | Guardian | 34 | TBD | 🔧 In Progress — skeleton + Card-Data done, catalogue TBD |
+
 ---
 
 ## Shared Packs

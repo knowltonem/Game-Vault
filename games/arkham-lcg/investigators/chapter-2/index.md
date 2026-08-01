@@ -21,10 +21,10 @@
 | # | Investigator | Class | SKU |
 |---|---|---|---|
 | 6 | Tommy Muldoon | Guardian | AHC101 |
-| 7 | Carolyn Fern | Survivor | AHC102 |
-| 8 | André Patel | Seeker | AHC103 |
+| 7 | Carolyn Fern | Seeker | AHC102 |
+| 8 | André Patel | Rogue | AHC103 |
 | 9 | Marie Lambeau | Mystic | AHC104 |
-| 10 | Miguel de la Cruz | Rogue | AHC105 |
+| 10 | Miguel de la Cruz | Survivor | AHC105 |
 
 ---
 
