@@ -119,10 +119,7 @@ Dick Hallorann deck only.
 ```
 Dick Hallorann deck only.
 
-Revelation — Take 1 horror. Discard His Box
-from play if it is in play. Spawn 1 of The Dead
-at your location. That enemy cannot be evaded
-this round.
+Revelation — Take 1 horror.
 
 Forced — At the end of each round: Take 1 horror.
 This card cannot be discarded until Dick Hallorann
