@@ -84,7 +84,26 @@ If this attack defeats an enemy, gain 1 resource.
 
 ---
 
-### 003 — TBD Signature Asset 2
+### 003 — His Box
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Don't Open It |
+| **Type** | Asset — Accessory |
+| **Cost** | 2r |
+| **Class** | Mystic |
+| **Traits** | Item. Relic. |
+| **Slot** | Accessory |
+| **Unique** | Yes |
+| **Icons** | 1 × `<wil>` |
+
+```
+Dick Hallorann deck only.
+
+<rea> Exhaust His Box: Cancel 1 damage or
+1 horror you would take.
+```
+*Flavor: "He keeps them in there."*
 
 ---
 
