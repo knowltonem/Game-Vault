@@ -27,7 +27,7 @@ Place them back in any order, or place one on top and one on the bottom.
 
 ### Elder Sign
 ```
-<eld> +2. Look at the top 3 cards of the encounter deck and arrange them in any order.
+<eld> +2. Gain 2 resources and draw 2 cards.
 ```
 
 ### Flavor (front)
