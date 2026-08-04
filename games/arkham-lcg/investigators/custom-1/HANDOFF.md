@@ -119,6 +119,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | The Man in Black | 3 | 3 | 4 | 4 | 7 | 7 |
 | Father Eduardo Rodriguez | 4 | 4 | 1 | 3 | 7 | 9 |
 | The Tinker | 3 | 3 | 5 | 2 | 8 | 6 |
+| Dick Hallorann | 4 | 3 | 3 | 3 | 7 | 8 |
 
 ---
 
@@ -343,6 +344,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 ## Pending Items
 
 - [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art
+- [ ] Dick Hallorann (RYP-DH) — design deck, build all cards in Strange Eons, generate art
 
 ## Icon Syntax — LOCKED
 
