@@ -60,7 +60,32 @@ Neutral cards (level 0-5).
 
 ---
 
-### 002 — The Blade
+### 002 — His Box
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Don't Open It |
+| **Type** | Asset — Accessory — Permanent |
+| **Cost** | — |
+| **Class** | Mystic |
+| **Traits** | Item. Relic. |
+| **Slot** | Accessory |
+| **Unique** | Yes |
+| **Icons** | 1 × `<wil>` |
+
+```
+Dick Hallorann deck only. Permanent.
+
+His Box begins play in your opening hand.
+
+<rea> Exhaust His Box: Cancel 1 damage or
+1 horror you would take.
+```
+*Flavor: "He keeps them in there."*
+
+---
+
+### 003 — The Blade
 
 | Field | Value |
 |---|---|
@@ -80,29 +105,6 @@ Dick Hallorann deck only.
 If this attack defeats an enemy, gain 1 resource.
 ```
 *Flavor: "The writing on the blade was not in any language he knew. He could read it anyway."*
-
----
-
-### 003 — His Box
-
-| Field | Value |
-|---|---|
-| **Subtitle** | Don't Open It |
-| **Type** | Asset — Accessory |
-| **Cost** | 2r |
-| **Class** | Mystic |
-| **Traits** | Item. Relic. |
-| **Slot** | Accessory |
-| **Unique** | Yes |
-| **Icons** | 1 × `<wil>` |
-
-```
-Dick Hallorann deck only.
-
-<rea> Exhaust His Box: Cancel 1 damage or
-1 horror you would take.
-```
-*Flavor: "He keeps them in there."*
 
 ---
 
