@@ -107,7 +107,28 @@ Dick Hallorann deck only.
 
 ---
 
-### 004 — TBD Signature Weakness
+### 004 — The Box Undone
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery — Weakness |
+| **Class** | Mystic |
+| **Traits** | Curse. |
+| **Unique** | Yes |
+
+```
+Dick Hallorann deck only.
+
+Revelation — Take 1 horror. Discard His Box
+from play if it is in play. Spawn 1 of The Dead
+at your location. That enemy cannot be evaded
+this round.
+
+Forced — At the end of each round: Take 1 horror.
+This card cannot be discarded until Dick Hallorann
+has defeated at least 2 of The Dead this game.
+```
+*Flavor: "He knew what was inside. He always knew. He just couldn't stop it."*
 
 ---
 
