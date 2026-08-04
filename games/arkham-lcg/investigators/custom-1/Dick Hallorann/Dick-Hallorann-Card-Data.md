@@ -187,7 +187,7 @@ Dick Hallorann deck only.
 |---|---|
 | **Pack Name** | Dick Hallorann Investigator Pack |
 | **Pack Code** | RYP-DH |
-| **Total Cards** | 034 |
+| **Total Cards** | 037 |
 | **Investigator** | 001 Dick Hallorann |
-| **Signature Cards** | 002-004 (outside deck) |
-| **Deck** | 005-034 (30 cards) |
+| **Signature Cards** | 002-007 (outside deck) |
+| **Deck** | 008-037 (30 cards) |
