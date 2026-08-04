@@ -78,8 +78,11 @@ Dick Hallorann deck only. Permanent.
 
 His Box begins play in your opening hand.
 
-<rea> Exhaust His Box: Cancel 1 damage or
-1 horror you would take.
+<rea> Exhaust His Box: Place a just-revealed
+treachery, weakness, or enemy card face down
+under His Box instead of resolving it. During
+your turn, you may take 1 card from under His
+Box and resolve it.
 ```
 *Flavor: "He keeps them in there."*
 
