@@ -61,7 +61,26 @@ No Weapon cards.
 
 ---
 
-### 002 — TBD Signature Asset
+### 002 — The Blade
+
+| Field | Value |
+|---|---|
+| **Subtitle** | Older Than Arkham |
+| **Type** | Asset — Hand |
+| **Cost** | 2r |
+| **Class** | Mystic |
+| **Traits** | Item. Relic. Weapon. Bladed. |
+| **Slot** | Hand |
+| **Unique** | Yes |
+| **Icons** | 2 × `<wil>` |
+
+```
+Dick Hallorann deck only.
+
+<act> Fight using your <wil> instead of <com>.
+If this attack defeats an enemy, gain 1 resource.
+```
+*Flavor: "The writing on the blade was not in any language he knew. He could read it anyway."*
 
 ---
 
