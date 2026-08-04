@@ -85,7 +85,7 @@ your turn, you may take 1 card from under His
 Box and resolve it.
 
 Forced — At the beginning of the Mythos phase:
-Take 1 damage for each card under His Box.
+Take 1 damage for every 3 cards under His Box.
 ```
 *Flavor: "He keeps them in there."*
 
