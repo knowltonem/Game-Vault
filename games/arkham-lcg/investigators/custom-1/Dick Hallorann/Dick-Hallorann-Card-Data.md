@@ -37,10 +37,10 @@ Place them back in any order, or place one on top and one on the bottom.
 
 ### Story (back)
 ```
-"Dick Hallorann has worked kitchens his whole life.
-He's also seen things his whole life — things other
-people can't see. He calls it the Shine. It brought
-him to Arkham. He doesn't know why yet. He will."
+"Dick Hallorann has had a hard life. Darey,
+the overwatch, now Arkham. He calls it the
+Shine. It brought him to Arkham. He doesn't
+know why yet."
 ```
 
 ### Deckbuilding
