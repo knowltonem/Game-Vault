@@ -83,6 +83,9 @@ treachery, weakness, or enemy card face down
 under His Box instead of resolving it. During
 your turn, you may take 1 card from under His
 Box and resolve it.
+
+Forced — At the beginning of the Mythos phase:
+Take 1 damage for each card under His Box.
 ```
 *Flavor: "He keeps them in there."*
 
