@@ -131,9 +131,26 @@ has defeated at least 2 of The Dead this game.
 
 ## Player Cards (005-034)
 
-### 005 — TBD
-### 006 — TBD
-### 007 — TBD
+### 005 — The Dead (1)
+### 006 — The Dead (2)
+### 007 — The Dead (3)
+
+| Field | Value |
+|---|---|
+| **Type** | Enemy |
+| **Class** | Neutral |
+| **Traits** | Spectral. |
+| **HP** | 1 |
+| **Fight** | 2 |
+| **Evade** | 4 |
+| **Damage** | 0 |
+| **Horror** | 2 |
+| **Keywords** | Hunter. |
+
+```
+Dick Hallorann deck only.
+```
+*Flavor: "Only he sees them."*
 ### 008 — TBD
 ### 009 — TBD
 ### 010 — TBD
