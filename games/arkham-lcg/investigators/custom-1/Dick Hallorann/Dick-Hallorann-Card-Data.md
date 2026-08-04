@@ -49,7 +49,6 @@ Deck size: 30.
 Mystic cards (level 0-5).
 Survivor cards (level 0-5).
 Neutral cards (level 0-5).
-No Weapon cards.
 ```
 
 ---
