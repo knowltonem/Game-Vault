@@ -69,7 +69,7 @@ Neutral cards (level 0-5).
 | **Cost** | — |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. |
-| **Slot** | Accessory |
+| **Slot** | Body |
 | **Unique** | Yes |
 | **Icons** | 1 × `<wil>` |
 
