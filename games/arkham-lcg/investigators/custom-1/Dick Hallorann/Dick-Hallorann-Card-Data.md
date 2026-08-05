@@ -185,7 +185,7 @@ If this action succeeds: Deal 2 damage to
 - **Class:** Mystic
 - **Traits:** Item. Relic.
 - **Slot:** —
-- **Icons:** 2 × `<wil>`
+- **Icons:** 2 × `<wld>`
 
 ```
 <act> Exhaust The Shine: Fight using your
