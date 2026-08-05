@@ -121,25 +121,26 @@ If this attack defeats an enemy, gain 2 resources.
 
 ---
 
-### 004 — The Box Undone
+### 004 — The Dead (1 of 3)
+### 005 — The Dead (2 of 3)
+### 006 — The Dead (3 of 3)
 
 | Field | Value |
 |---|---|
-| **Type** | Treachery — Weakness |
-| **Class** | Mystic |
-| **Traits** | Curse. |
-| **Unique** | Yes |
+| **Type** | Enemy — Weakness |
+| **Class** | Neutral |
+| **Traits** | Spectral. |
+| **HP** | 1 |
+| **Fight** | 2 |
+| **Evade** | 4 |
+| **Damage** | 0 |
+| **Horror** | 2 |
+| **Keywords** | Hunter. |
 
 ```
 Dick Hallorann deck only.
-
-Revelation — Take 1 horror.
-
-Forced — At the end of each round: Take 1 horror.
-This card cannot be discarded until Dick Hallorann
-has defeated at least 2 of The Dead this game.
 ```
-*Flavor: "He knew what was inside. He always knew. He just couldn't stop it."*
+*Flavor: "Only he sees them."*
 
 ---
 
