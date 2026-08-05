@@ -143,22 +143,60 @@ has defeated at least 2 of The Dead this game.
 
 ## Player Cards (008-037)
 
-### 008-009 — Spectral Razor ×2
-- **Cost:** 1r
-- **Type:** Event
+### 008-009 — The Lantern ×2
+- **Cost:** 2r
+- **Type:** Asset — Hand
 - **Class:** Mystic
-- **Traits:** Spell.
+- **Traits:** Item. Relic. Weapon.
+- **Slot:** Hand
 - **Icons:** 1 × `<wil>` + 1 × `<wld>`
 
 ```
-Fast. Fight using your <wil> instead of <com>.
-This attack deals 2 damage.
+<act> Exhaust The Lantern: Deal 1 damage to
+all enemies at your location. Each enemy
+defeated this way: gain 2 resources.
 ```
-*Flavor: "It cuts what other things cannot."*
+*Flavor: "He built it in an afternoon. He won't say what it runs on."*
 
 ---
 
-### 010-011 — Read the Signs ×2
+### 010-011 — The Old Coin ×2
+- **Cost:** 2r
+- **Type:** Asset — Arcane
+- **Class:** Mystic
+- **Traits:** Item. Relic.
+- **Slot:** Arcane
+- **Icons:** 1 × `<wil>`
+
+```
+<act> Exhaust The Old Coin: Draw 1 chaos token.
+Autofail, skull, or cultist: this action fails.
+All other tokens: this action succeeds.
+If this action succeeds: Deal 2 damage to
+1 enemy at your location.
+```
+*Flavor: "He found it in a sewer. He hates the circus."*
+
+---
+
+### 012-013 — The Shine ×2
+- **Cost:** 2r
+- **Type:** Asset
+- **Class:** Mystic
+- **Traits:** Item. Relic.
+- **Slot:** —
+- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+
+```
+<act> Exhaust The Shine: Fight using your
+<wil> instead of <com>. This attack deals
+2 damage to 1 enemy at your location.
+```
+*Flavor: "He just calls it the Shine."*
+
+---
+
+### 014-015 — Read the Signs ×2
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
@@ -172,7 +210,7 @@ Fast. Investigate using your <wil> instead of <int>.
 
 ---
 
-### 012-013 — Ward of Protection ×2
+### 016-017 — Ward of Protection ×2
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
@@ -188,7 +226,7 @@ Take 1 horror.
 
 ---
 
-### 014-015 — Clarity of Mind ×2
+### 018-019 — Clarity of Mind ×2
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
@@ -202,7 +240,7 @@ Fast. Heal 2 horror from an investigator at your location.
 
 ---
 
-### 016-017 — Drawn to the Flame ×2
+### 020-021 — Drawn to the Flame ×2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Mystic
@@ -217,28 +255,7 @@ and resolve it.
 
 ---
 
-### 018 — Arcane Initiate ×1
-- **Cost:** 2r
-- **Type:** Asset — Ally
-- **Class:** Mystic
-- **Traits:** Ally. Sorcerer.
-- **Slot:** Ally
-- **HP soak:** 1
-- **SAN soak:** 1
-- **Icons:** 1 × `<wil>`
-
-```
-Doom. (This card enters play with 1 doom on it.)
-
-<fre> Exhaust Arcane Initiate: Search the top 3
-cards of your deck for a Spell card and draw it.
-Shuffle your deck.
-```
-*Flavor: "She sensed something in him the moment he walked in."*
-
----
-
-### 019 — Forbidden Knowledge ×1
+### 022 — Forbidden Knowledge ×1
 - **Cost:** 0r
 - **Type:** Asset — Arcane
 - **Class:** Mystic
@@ -254,7 +271,7 @@ take 1 horror to gain 2 resources.
 
 ---
 
-### 020-021 — Lucky! ×2
+### 023-024 — Lucky! ×2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
@@ -269,7 +286,7 @@ test: Cancel that token and reveal a new one.
 
 ---
 
-### 022-023 — Perseverance ×2
+### 025-026 — Perseverance ×2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
@@ -284,7 +301,7 @@ failed skill test: Cancel that damage or horror.
 
 ---
 
-### 024-025 — Resourceful ×2
+### 027-028 — Resourceful ×2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
@@ -299,22 +316,7 @@ to your hand.
 
 ---
 
-### 026-027 — Take Heart ×2
-- **Cost:** 0r
-- **Type:** Event
-- **Class:** Survivor
-- **Traits:** Spirit.
-- **Icons:** 1 × `<wld>`
-
-```
-Fast. When you fail a skill test by 2 or more:
-Draw 1 card and gain 1 resource.
-```
-*Flavor: "Failing isn't the end. He's known that longer than most."*
-
----
-
-### 028-029 — Guts ×2
+### 029-030 — Guts ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -327,20 +329,7 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 030-031 — Overpower ×2
-- **Cost:** —
-- **Type:** Skill
-- **Class:** Neutral
-- **Icons:** 2 × `<com>`
-
-```
-If this test is successful, draw 1 card.
-```
-*Flavor: "Sometimes the old ways work just fine."*
-
----
-
-### 032-033 — Perception ×2
+### 031-032 — Perception ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -353,7 +342,7 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 034-035 — Unexpected Courage ×2
+### 033-034 — Unexpected Courage ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -366,7 +355,7 @@ No additional effect.
 
 ---
 
-### 036-037 — Defiance ×2
+### 035-036 — Defiance ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -377,6 +366,21 @@ When you reveal a skull or cultist chaos token
 during this test: Cancel that token's effect.
 ```
 *Flavor: "He's seen real darkness. A skull doesn't impress him."*
+
+---
+
+### 037 — Take Heart ×1
+- **Cost:** 0r
+- **Type:** Event
+- **Class:** Survivor
+- **Traits:** Spirit.
+- **Icons:** 1 × `<wld>`
+
+```
+Fast. When you fail a skill test by 2 or more:
+Draw 1 card and gain 1 resource.
+```
+*Flavor: "Failing isn't the end. He's known that longer than most."*
 
 ---
 
