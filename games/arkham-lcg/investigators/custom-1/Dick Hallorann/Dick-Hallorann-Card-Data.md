@@ -223,8 +223,9 @@ Forced — At the end of your turn: Heal
 
 ```
 Fast. Investigate using your <wil> instead of <int>.
+If you fail this test, gain 2 resources.
 ```
-*Flavor: "He doesn't read the room. He reads what the room remembers."*
+*Flavor: "He doesn't read the room. He reads everything."*
 
 ---
 
