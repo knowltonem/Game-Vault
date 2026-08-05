@@ -14,7 +14,7 @@
 | **Traits** | Psychic. Wayfarer. |
 | **Willpower** | 4 |
 | **Intellect** | 3 |
-| **Combat** | 3 |
+| **Combat** | 2 |
 | **Agility** | 3 |
 | **Health** | 7 |
 | **Sanity** | 8 |
