@@ -277,15 +277,14 @@ failed skill test: Cancel that damage or horror.
 
 ---
 
-### 026-027 — Resourceful x2
-- **Cost:** 0r | **Type:** Event | **Class:** Survivor
-- **Traits:** Spirit. | **Icons:** 1 x wil + 1 x wld
+### 026-027 — Emergency Cache x2
+- **Cost:** 0r | **Type:** Event | **Class:** Neutral
+- **Traits:** Supply. | **Icons:** 1 x wld
 
 ```
-Fast. Return an event card from your discard pile
-to your hand.
+Fast. Gain 3 resources.
 ```
-*Flavor: "He keeps things. He knows you might need them again."*
+*Flavor: "He keeps something in reserve. Always."*
 
 ---
 
