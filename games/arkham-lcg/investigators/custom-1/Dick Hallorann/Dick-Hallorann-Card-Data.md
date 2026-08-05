@@ -225,7 +225,7 @@ Take 1 horror.
 
 ---
 
-### 018-019 — Clarity of Mind ×2
+### 018 — Clarity of Mind ×1
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
@@ -239,34 +239,91 @@ Fast. Heal 2 horror from an investigator at your location.
 
 ---
 
-### 020-021 — Drawn to the Flame ×2
-- **Cost:** 0r
-- **Type:** Event
-- **Class:** Mystic
-- **Traits:** Spell.
-- **Icons:** 1 × `<wil>`
+### 019 — Grandpa Joe ×1
+- **Cost:** 3r
+- **Type:** Asset — Ally
+- **Class:** Survivor
+- **Traits:** Ally. Wayfarer.
+- **Slot:** Ally
+- **HP soak:** 0
+- **SAN soak:** 3
+- **Icons:** 2 × `<agi>`
 
 ```
-Discover 2 clues at your location. Draw 1 encounter card
-and resolve it.
+Dick Hallorann deck only.
+
+You get +1 <wil>.
+
+<rea> After you fail a skill test: Cancel
+1 damage or 1 horror from that failure.
 ```
-*Flavor: "The Shine shows him where to look. It doesn't promise he'll like what he finds."*
+*Flavor: "I'm here when you need me."*
 
 ---
 
-### 022 — Forbidden Knowledge ×1
-- **Cost:** 0r
-- **Type:** Asset — Arcane
-- **Class:** Mystic
-- **Traits:** Tome.
-- **Slot:** Arcane
-- **Icons:** 1 × `<int>`
+### 020 — Grandpa Joe ×2
+- **Cost:** 3r
+- **Type:** Asset — Ally
+- **Class:** Survivor
+- **Traits:** Ally. Wayfarer.
+- **Slot:** Ally
+- **HP soak:** 0
+- **SAN soak:** 3
+- **Icons:** 2 × `<agi>`
 
 ```
-<fre> After you successfully investigate: You may
-take 1 horror to gain 2 resources.
+Dick Hallorann deck only.
+
+You get +1 <wil>.
+
+<rea> After you fail a skill test: Cancel
+1 damage or 1 horror from that failure.
 ```
-*Flavor: "The price is always the same."*
+*Flavor: "I'm here when you need me."*
+
+---
+
+### 021 — The Outsider ×1
+- **Cost:** 3r
+- **Type:** Asset — Ally
+- **Class:** Survivor
+- **Traits:** Ally. Mysterious.
+- **Slot:** Ally
+- **HP soak:** 3
+- **SAN soak:** 3
+- **Icons:** 2 × `<agi>`
+
+```
+Dick Hallorann deck only.
+
+You get +1 <agi>.
+
+Forced — At the end of your turn: Heal
+1 horror from yourself.
+```
+*Flavor: "Nobody knows where he came from. Dick doesn't ask."*
+
+---
+
+### 022 — The Outsider ×2
+- **Cost:** 3r
+- **Type:** Asset — Ally
+- **Class:** Survivor
+- **Traits:** Ally. Mysterious.
+- **Slot:** Ally
+- **HP soak:** 3
+- **SAN soak:** 3
+- **Icons:** 2 × `<agi>`
+
+```
+Dick Hallorann deck only.
+
+You get +1 <agi>.
+
+Forced — At the end of your turn: Heal
+1 horror from yourself.
+```
+*Flavor: "Nobody knows where he came from. Dick doesn't ask."*
 
 ---
 
@@ -315,7 +372,39 @@ to your hand.
 
 ---
 
-### 029-030 — Guts ×2
+### 029 — Shine Too Bright ×1
+- **Cost:** 2r
+- **Type:** Event
+- **Class:** Mystic
+- **Traits:** Spell. Psionic.
+- **Icons:** 1 × `<int>`
+
+```
+Choose any number of enemies at your location.
+Move each chosen enemy up to 2 locations away
+from your location.
+```
+*Flavor: "Sometimes the Shine is too much. Even for them."*
+
+---
+
+### 030 — Shine Too Bright ×2
+- **Cost:** 2r
+- **Type:** Event
+- **Class:** Mystic
+- **Traits:** Spell. Psionic.
+- **Icons:** 1 × `<int>`
+
+```
+Choose any number of enemies at your location.
+Move each chosen enemy up to 2 locations away
+from your location.
+```
+*Flavor: "Sometimes the Shine is too much. Even for them."*
+
+---
+
+### 031-032 — Guts ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -328,7 +417,7 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 031-032 — Perception ×2
+### 033-034 — Perception ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -341,7 +430,7 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 033-034 — Unexpected Courage ×2
+### 035-036 — Unexpected Courage ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -354,7 +443,7 @@ No additional effect.
 
 ---
 
-### 035-036 — Defiance ×2
+### 037 — Defiance ×2
 - **Cost:** —
 - **Type:** Skill
 - **Class:** Neutral
@@ -365,26 +454,6 @@ When you reveal a skull or cultist chaos token
 during this test: Cancel that token's effect.
 ```
 *Flavor: "He's seen real darkness. A skull doesn't impress him."*
-
----
-
-### 037 — The Blade ×1 (second copy)
-- **Cost:** 1r
-- **Type:** Asset — Hand
-- **Class:** Mystic
-- **Traits:** Item. Relic. Weapon. Bladed.
-- **Slot:** Hand
-- **Unique:** Yes
-- **Icons:** 2 × `<wil>`
-
-```
-Dick Hallorann deck only.
-
-<act> Fight using your <wil> instead of <com>.
-This attack deals +1 damage.
-If this attack defeats an enemy, gain 2 resources.
-```
-*Flavor: "The writing on the blade was not in any language he knew. He could read it anyway."*
 
 ---
 
