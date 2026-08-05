@@ -1,6 +1,6 @@
-# Dick Hallorann â€” Investigator Pack (RYP-DH)
+# Dick Hallorann Ã¢â‚¬â€ Investigator Pack (RYP-DH)
 
-â† [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
+Ã¢â€ Â [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
 ---
 
@@ -60,23 +60,23 @@ Neutral cards (level 0-5).
 
 ## Signature Cards (outside deck)
 
-### 001 â€” Dick Hallorann
-*Investigator card â€” see above.*
+### 001 Ã¢â‚¬â€ Dick Hallorann
+*Investigator card Ã¢â‚¬â€ see above.*
 
 ---
 
-### 002 â€” The Box
+### 002 Ã¢â‚¬â€ The Box
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Don't Open It |
-| **Type** | Asset â€” Body â€” Permanent |
-| **Cost** | â€” |
+| **Type** | Asset Ã¢â‚¬â€ Body Ã¢â‚¬â€ Permanent |
+| **Cost** | Ã¢â‚¬â€ |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. |
 | **Slot** | Body |
 | **Unique** | Yes |
-| **Icons** | 1 Ã— `<wil>` |
+| **Icons** | 1 Ãƒâ€” `<wil>` |
 
 ```
 Dick Hallorann deck only. Permanent.
@@ -95,18 +95,18 @@ Take 1 damage for every 3 cards under The Box.
 
 ---
 
-### 003 â€” The Blade
+### 003 Ã¢â‚¬â€ The Blade
 
 | Field | Value |
 |---|---|
 | **Subtitle** | Older Than Arkham |
-| **Type** | Asset â€” Hand â€” Permanent |
-| **Cost** | â€” |
+| **Type** | Asset Ã¢â‚¬â€ Hand Ã¢â‚¬â€ Permanent |
+| **Cost** | Ã¢â‚¬â€ |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. Weapon. Bladed. |
 | **Slot** | Hand |
 | **Unique** | Yes |
-| **Icons** | 2 Ã— `<wil>` |
+| **Icons** | 2 Ãƒâ€” `<wil>` |
 
 ```
 Dick Hallorann deck only. Permanent.
@@ -121,13 +121,13 @@ If this attack defeats an enemy, gain 2 resources.
 
 ---
 
-### 004 â€” The Dead (1 of 3)
-### 005 â€” The Dead (2 of 3)
-### 006 â€” The Dead (3 of 3)
+### 004 Ã¢â‚¬â€ The Dead (1 of 3)
+### 005 Ã¢â‚¬â€ The Dead (2 of 3)
+### 006 Ã¢â‚¬â€ The Dead (3 of 3)
 
 | Field | Value |
 |---|---|
-| **Type** | Enemy â€” Weakness |
+| **Type** | Enemy Ã¢â‚¬â€ Weakness |
 | **Class** | Neutral |
 | **Traits** | Spectral. |
 | **HP** | 1 |
@@ -146,13 +146,13 @@ Dick Hallorann deck only.
 
 ## Player Cards (007-036)
 
-### 008-009 â€” The Lantern Ã—2
+### 008-009 Ã¢â‚¬â€ The Lantern Ãƒâ€”2
 - **Cost:** 2r
-- **Type:** Asset â€” Hand
+- **Type:** Asset Ã¢â‚¬â€ Hand
 - **Class:** Mystic
 - **Traits:** Item. Relic. Weapon.
 - **Slot:** Hand
-- **Icons:** 2 Ã— `<wil>`
+- **Icons:** 2 Ãƒâ€” `<wil>`
 
 ```
 <act> Exhaust The Lantern: Deal 1 damage to
@@ -163,13 +163,13 @@ defeated this way: gain 2 resources.
 
 ---
 
-### 010-011 â€” The Old Coin Ã—2
+### 010-011 Ã¢â‚¬â€ The Old Coin Ãƒâ€”2
 - **Cost:** 2r
-- **Type:** Asset â€” Arcane
+- **Type:** Asset Ã¢â‚¬â€ Arcane
 - **Class:** Mystic
 - **Traits:** Item. Relic.
 - **Slot:** Arcane
-- **Icons:** 2 Ã— `<int>`
+- **Icons:** 2 Ãƒâ€” `<int>`
 
 ```
 <act> Exhaust The Old Coin: Draw 1 chaos token.
@@ -182,13 +182,13 @@ If this action succeeds: Deal 2 damage to
 
 ---
 
-### 012-013 â€” The Shine Ã—2
+### 012-013 Ã¢â‚¬â€ The Shine Ãƒâ€”2
 - **Cost:** 2r
 - **Type:** Asset
 - **Class:** Mystic
 - **Traits:** Item. Relic.
-- **Slot:** â€”
-- **Icons:** 2 Ã— `<wld>`
+- **Slot:** Ã¢â‚¬â€
+- **Icons:** 2 Ãƒâ€” `<wld>`
 
 ```
 <act> Exhaust The Shine: Fight using your
@@ -199,12 +199,12 @@ If this action succeeds: Deal 2 damage to
 
 ---
 
-### 014-015 â€” Read the Signs Ã—2
+### 014-015 Ã¢â‚¬â€ Read the Signs Ãƒâ€”2
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell. Insight.
-- **Icons:** 1 Ã— `<wil>` + 1 Ã— `<int>`
+- **Icons:** 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<int>`
 
 ```
 Fast. Investigate using your <wil> instead of <int>.
@@ -213,12 +213,12 @@ Fast. Investigate using your <wil> instead of <int>.
 
 ---
 
-### 016-017 â€” Ward of Protection Ã—2
+### 016-017 Ã¢â‚¬â€ Ward of Protection Ãƒâ€”2
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell.
-- **Icons:** 1 Ã— `<wil>` + 1 Ã— `<wld>`
+- **Icons:** 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<wld>`
 
 ```
 Fast. Cancel the effects of a non-weakness treachery
@@ -229,12 +229,12 @@ Take 1 horror.
 
 ---
 
-### 018 â€” Clarity of Mind Ã—1
+### 018 Ã¢â‚¬â€ Clarity of Mind Ãƒâ€”1
 - **Cost:** 1r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell.
-- **Icons:** 1 Ã— `<wil>`
+- **Icons:** 1 Ãƒâ€” `<wil>`
 
 ```
 Fast. Heal 2 horror from an investigator at your location.
@@ -243,15 +243,15 @@ Fast. Heal 2 horror from an investigator at your location.
 
 ---
 
-### 019 â€” Grandpa Joe Ã—1
+### 019 Ã¢â‚¬â€ Grandpa Joe Ãƒâ€”1
 - **Cost:** 3r
-- **Type:** Asset â€” Ally
+- **Type:** Asset Ã¢â‚¬â€ Ally
 - **Class:** Survivor
 - **Traits:** Ally. Wayfarer.
 - **Slot:** Ally
 - **HP soak:** 0
 - **SAN soak:** 3
-- **Icons:** 2 Ã— `<agi>`
+- **Icons:** 2 Ãƒâ€” `<agi>`
 
 ```
 Dick Hallorann deck only.
@@ -265,15 +265,15 @@ You get +1 <wil>.
 
 ---
 
-### 020 â€” Grandpa Joe Ã—2
+### 020 Ã¢â‚¬â€ Grandpa Joe Ãƒâ€”2
 - **Cost:** 3r
-- **Type:** Asset â€” Ally
+- **Type:** Asset Ã¢â‚¬â€ Ally
 - **Class:** Survivor
 - **Traits:** Ally. Wayfarer.
 - **Slot:** Ally
 - **HP soak:** 0
 - **SAN soak:** 3
-- **Icons:** 2 Ã— `<agi>`
+- **Icons:** 2 Ãƒâ€” `<agi>`
 
 ```
 Dick Hallorann deck only.
@@ -287,56 +287,56 @@ You get +1 <wil>.
 
 ---
 
-### 021 â€” The Outsider Ã—1
+### 021 Ã¢â‚¬â€ The Outsider Ãƒâ€”1
 - **Cost:** 3r
-- **Type:** Asset â€” Ally
+- **Type:** Asset Ã¢â‚¬â€ Ally
 - **Class:** Survivor
 - **Traits:** Ally. Mysterious.
 - **Slot:** Ally
 - **HP soak:** 3
 - **SAN soak:** 3
-- **Icons:** 2 Ã— `<agi>`
+- **Icons:** 2 Ãƒâ€” `<agi>`
 
 ```
 Dick Hallorann deck only.
 
 You get +1 <agi>.
 
-Forced â€” At the end of your turn: Heal
+Forced Ã¢â‚¬â€ At the end of your turn: Heal
 1 horror from yourself.
 ```
 *Flavor: "Nobody knows where he came from. Dick doesn't ask."*
 
 ---
 
-### 022 â€” The Outsider Ã—2
+### 022 Ã¢â‚¬â€ The Outsider Ãƒâ€”2
 - **Cost:** 3r
-- **Type:** Asset â€” Ally
+- **Type:** Asset Ã¢â‚¬â€ Ally
 - **Class:** Survivor
 - **Traits:** Ally. Mysterious.
 - **Slot:** Ally
 - **HP soak:** 3
 - **SAN soak:** 3
-- **Icons:** 2 Ã— `<agi>`
+- **Icons:** 2 Ãƒâ€” `<agi>`
 
 ```
 Dick Hallorann deck only.
 
 You get +1 <agi>.
 
-Forced â€” At the end of your turn: Heal
+Forced Ã¢â‚¬â€ At the end of your turn: Heal
 1 horror from yourself.
 ```
 *Flavor: "Nobody knows where he came from. Dick doesn't ask."*
 
 ---
 
-### 023-024 â€” Lucky! Ã—2
+### 023-024 Ã¢â‚¬â€ Lucky! Ãƒâ€”2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Fortune.
-- **Icons:** 1 Ã— `<wld>`
+- **Icons:** 1 Ãƒâ€” `<wld>`
 
 ```
 Fast. When a chaos token is revealed during a skill
@@ -346,12 +346,12 @@ test: Cancel that token and reveal a new one.
 
 ---
 
-### 025-026 â€” Perseverance Ã—2
+### 025-026 Ã¢â‚¬â€ Perseverance Ãƒâ€”2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spirit.
-- **Icons:** 1 Ã— `<wil>` + 1 Ã— `<wld>`
+- **Icons:** 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<wld>`
 
 ```
 Fast. When you would take damage or horror from a
@@ -361,12 +361,12 @@ failed skill test: Cancel that damage or horror.
 
 ---
 
-### 027-028 â€” Resourceful Ã—2
+### 027-028 Ã¢â‚¬â€ Resourceful Ãƒâ€”2
 - **Cost:** 0r
 - **Type:** Event
 - **Class:** Survivor
 - **Traits:** Spirit.
-- **Icons:** 1 Ã— `<wil>` + 1 Ã— `<wld>`
+- **Icons:** 1 Ãƒâ€” `<wil>` + 1 Ãƒâ€” `<wld>`
 
 ```
 Fast. Return an event card from your discard pile
@@ -376,12 +376,12 @@ to your hand.
 
 ---
 
-### 029 â€” Shine Too Bright Ã—1
+### 029 Ã¢â‚¬â€ Shine Too Bright Ãƒâ€”1
 - **Cost:** 2r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell. Psionic.
-- **Icons:** 1 Ã— `<int>`
+- **Icons:** 1 Ãƒâ€” `<int>`
 
 ```
 Choose any number of enemies at your location.
@@ -392,12 +392,12 @@ from your location.
 
 ---
 
-### 030 â€” Shine Too Bright Ã—2
+### 030 Ã¢â‚¬â€ Shine Too Bright Ãƒâ€”2
 - **Cost:** 2r
 - **Type:** Event
 - **Class:** Mystic
 - **Traits:** Spell. Psionic.
-- **Icons:** 1 Ã— `<int>`
+- **Icons:** 1 Ãƒâ€” `<int>`
 
 ```
 Choose any number of enemies at your location.
@@ -408,11 +408,11 @@ from your location.
 
 ---
 
-### 031-032 â€” Guts Ã—2
-- **Cost:** â€”
+### 031-032 Ã¢â‚¬â€ Guts Ãƒâ€”2
+- **Cost:** Ã¢â‚¬â€
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 2 Ã— `<wil>`
+- **Icons:** 2 Ãƒâ€” `<wil>`
 
 ```
 If this test is successful, draw 1 card.
@@ -421,11 +421,11 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 033-034 â€” Perception Ã—2
-- **Cost:** â€”
+### 033-034 Ã¢â‚¬â€ Perception Ãƒâ€”2
+- **Cost:** Ã¢â‚¬â€
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 2 Ã— `<int>`
+- **Icons:** 2 Ãƒâ€” `<int>`
 
 ```
 If this test is successful, draw 1 card.
@@ -434,11 +434,11 @@ If this test is successful, draw 1 card.
 
 ---
 
-### 035-036 â€” Unexpected Courage Ã—2
-- **Cost:** â€”
+### 035-036 Ã¢â‚¬â€ Unexpected Courage Ãƒâ€”2
+- **Cost:** Ã¢â‚¬â€
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 2 Ã— `<wld>`
+- **Icons:** 2 Ãƒâ€” `<wld>`
 
 ```
 No additional effect.
@@ -447,11 +447,11 @@ No additional effect.
 
 ---
 
-### 037 â€” Defiance Ã—2
-- **Cost:** â€”
+### 037 Ã¢â‚¬â€ Defiance Ãƒâ€”2
+- **Cost:** Ã¢â‚¬â€
 - **Type:** Skill
 - **Class:** Neutral
-- **Icons:** 1 Ã— `<wld>`
+- **Icons:** 1 Ãƒâ€” `<wld>`
 
 ```
 When you reveal a skull or cultist chaos token
