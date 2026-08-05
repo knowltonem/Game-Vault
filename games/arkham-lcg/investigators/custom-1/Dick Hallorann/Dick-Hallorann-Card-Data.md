@@ -101,11 +101,10 @@ Take 1 damage for every 3 cards under The Box.
 |---|---|
 | **Subtitle** | Older Than Arkham |
 | **Type** | Asset — Hand |
-| **Cost** | 2r |
+| **Cost** | 1r |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. Weapon. Bladed. |
 | **Slot** | Hand |
-| **Unique** | Yes |
 | **Icons** | 2 × `<wil>` |
 
 ```
@@ -369,18 +368,23 @@ during this test: Cancel that token's effect.
 
 ---
 
-### 037 — Take Heart ×1
-- **Cost:** 0r
-- **Type:** Event
-- **Class:** Survivor
-- **Traits:** Spirit.
-- **Icons:** 1 × `<wld>`
+### 037 — The Blade ×1 (second copy)
+- **Cost:** 1r
+- **Type:** Asset — Hand
+- **Class:** Mystic
+- **Traits:** Item. Relic. Weapon. Bladed.
+- **Slot:** Hand
+- **Unique:** Yes
+- **Icons:** 2 × `<wil>`
 
 ```
-Fast. When you fail a skill test by 2 or more:
-Draw 1 card and gain 1 resource.
+Dick Hallorann deck only.
+
+<act> Fight using your <wil> instead of <com>.
+This attack deals +1 damage.
+If this attack defeats an enemy, gain 2 resources.
 ```
-*Flavor: "Failing isn't the end. He's known that longer than most."*
+*Flavor: "The writing on the blade was not in any language he knew. He could read it anyway."*
 
 ---
 
