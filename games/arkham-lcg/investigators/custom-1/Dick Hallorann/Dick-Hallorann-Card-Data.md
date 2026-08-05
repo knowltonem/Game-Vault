@@ -100,15 +100,18 @@ Take 1 damage for every 3 cards under The Box.
 | Field | Value |
 |---|---|
 | **Subtitle** | Older Than Arkham |
-| **Type** | Asset — Hand |
-| **Cost** | 1r |
+| **Type** | Asset — Hand — Permanent |
+| **Cost** | — |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. Weapon. Bladed. |
 | **Slot** | Hand |
+| **Unique** | Yes |
 | **Icons** | 2 × `<wil>` |
 
 ```
-Dick Hallorann deck only.
+Dick Hallorann deck only. Permanent.
+
+The Blade begins play in your opening hand.
 
 <act> Fight using your <wil> instead of <com>.
 This attack deals +1 damage.
@@ -454,10 +457,6 @@ When you reveal a skull or cultist chaos token
 during this test: Cancel that token's effect.
 ```
 *Flavor: "He's seen real darkness. A skull doesn't impress him."*
-
----
-
-## Pack Information
 
 | Field | Value |
 |---|---|
