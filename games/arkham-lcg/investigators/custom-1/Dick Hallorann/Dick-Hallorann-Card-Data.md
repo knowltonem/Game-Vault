@@ -187,7 +187,7 @@ If this action succeeds: Deal 2 damage to
 
 ### 013-014 — Grandpa Joe x2
 - **Cost:** 3r | **Type:** Asset — Ally | **Class:** Survivor
-- **Traits:** Ally. Wayfarer. | **Slot:** Ally | **HP soak:** 0 | **SAN soak:** 3 | **Icons:** 2 x wld
+- **Traits:** Ally. Wayfarer. | **Slot:** Ally | **HP soak:** 0 | **SAN soak:** 3 | **Icons:** 2 x agi
 
 ```
 Dick Hallorann deck only.
@@ -203,7 +203,7 @@ You get +1 <int>.
 
 ### 015-016 — The Outsider x2
 - **Cost:** 3r | **Type:** Asset — Ally | **Class:** Survivor
-- **Traits:** Ally. Mysterious. | **Slot:** Ally | **HP soak:** 3 | **SAN soak:** 3 | **Icons:** 2 x agi
+- **Traits:** Ally. Mysterious. | **Slot:** Ally | **HP soak:** 3 | **SAN soak:** 3 | **Icons:** 2 x wld
 
 ```
 Dick Hallorann deck only.
