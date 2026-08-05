@@ -149,7 +149,7 @@ has defeated at least 2 of The Dead this game.
 - **Class:** Mystic
 - **Traits:** Item. Relic. Weapon.
 - **Slot:** Hand
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 2 × `<wil>`
 
 ```
 <act> Exhaust The Lantern: Deal 1 damage to
@@ -166,7 +166,7 @@ defeated this way: gain 2 resources.
 - **Class:** Mystic
 - **Traits:** Item. Relic.
 - **Slot:** Arcane
-- **Icons:** 1 × `<wil>`
+- **Icons:** 2 × `<int>`
 
 ```
 <act> Exhaust The Old Coin: Draw 1 chaos token.
@@ -185,7 +185,7 @@ If this action succeeds: Deal 2 damage to
 - **Class:** Mystic
 - **Traits:** Item. Relic.
 - **Slot:** —
-- **Icons:** 1 × `<wil>` + 1 × `<wld>`
+- **Icons:** 2 × `<wil>`
 
 ```
 <act> Exhaust The Shine: Fight using your
