@@ -153,7 +153,7 @@ Dick Hallorann deck only.
 all enemies at your location. Each enemy
 defeated this way: gain 2 resources.
 ```
-*Flavor: "He built it in an afternoon. He won't say what it runs on."*
+*Flavor: "A Spectral Glow."*
 
 ---
 
