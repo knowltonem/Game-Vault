@@ -60,7 +60,7 @@ Neutral cards (level 0-5).
 
 ---
 
-### 002 — His Box
+### 002 — The Box
 
 | Field | Value |
 |---|---|
@@ -76,10 +76,10 @@ Neutral cards (level 0-5).
 ```
 Dick Hallorann deck only. Permanent.
 
-His Box begins play in your opening hand.
+The Box begins play in your opening hand.
 
 <rea> Exhaust The Box: Place a revealed treachery,
-weakness, or enemy card under His Box instead of
+weakness, or enemy card under The Box instead of
 resolving it. During your turn, you may take any
 card from under The Box and resolve it.
 
