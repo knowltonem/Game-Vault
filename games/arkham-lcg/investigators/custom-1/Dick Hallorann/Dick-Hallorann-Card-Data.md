@@ -192,7 +192,7 @@ If this action succeeds: Deal 2 damage to
 ```
 Dick Hallorann deck only.
 
-You get +1 <wil>.
+You get +1 <int>.
 
 <rea> After you fail a skill test: Cancel
 1 damage or 1 horror from that failure.
