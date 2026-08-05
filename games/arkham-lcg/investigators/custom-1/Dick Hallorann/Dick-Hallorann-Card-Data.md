@@ -107,7 +107,8 @@ Take 1 damage for every 3 cards under The Box.
 Dick Hallorann deck only.
 
 <act> Fight using your <wil> instead of <com>.
-If this attack defeats an enemy, gain 1 resource.
+This attack deals +1 damage.
+If this attack defeats an enemy, gain 2 resources.
 ```
 *Flavor: "The writing on the blade was not in any language he knew. He could read it anyway."*
 
