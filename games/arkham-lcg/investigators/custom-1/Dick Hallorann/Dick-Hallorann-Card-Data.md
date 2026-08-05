@@ -277,7 +277,7 @@ failed skill test: Cancel that damage or horror.
 
 ---
 
-### 026-027 — Emergency Cache x2
+### 026-027 — Work for a Living x2
 - **Cost:** 0r | **Type:** Event | **Class:** Neutral
 - **Traits:** Supply. | **Icons:** 1 x wld
 
