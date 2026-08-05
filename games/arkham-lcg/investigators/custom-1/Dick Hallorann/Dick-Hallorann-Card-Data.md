@@ -30,6 +30,11 @@ Place them back in any order, or place one on top and one on the bottom.
 <eld> +2. Gain 2 resources and draw 2 cards.
 ```
 
+### Cultist Token
+```
+<cul> +0. Add 1 bless token to the chaos bag.
+```
+
 ### Flavor (front)
 ```
 "He knows things. He's always known things."
