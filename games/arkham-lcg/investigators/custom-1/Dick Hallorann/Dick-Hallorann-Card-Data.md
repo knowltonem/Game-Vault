@@ -65,7 +65,7 @@ Neutral cards (level 0-5).
 | Field | Value |
 |---|---|
 | **Subtitle** | Don't Open It |
-| **Type** | Asset — Accessory — Permanent |
+| **Type** | Asset — Body — Permanent |
 | **Cost** | — |
 | **Class** | Mystic |
 | **Traits** | Item. Relic. |
@@ -78,14 +78,13 @@ Dick Hallorann deck only. Permanent.
 
 His Box begins play in your opening hand.
 
-<rea> Exhaust His Box: Place a just-revealed
-treachery, weakness, or enemy card face down
-under His Box instead of resolving it. During
-your turn, you may take 1 card from under His
-Box and resolve it.
+<rea> Exhaust The Box: Place a revealed treachery,
+weakness, or enemy card under His Box instead of
+resolving it. During your turn, you may take any
+card from under The Box and resolve it.
 
-Forced — At the beginning of the Mythos phase:
-Take 1 damage for every 3 cards under His Box.
+<for> At the beginning of the Mythos phase:
+Take 1 damage for every 3 cards under The Box.
 ```
 *Flavor: "He keeps them in there."*
 
