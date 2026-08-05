@@ -213,7 +213,7 @@ You get +1 <agi>.
 Forced — At the end of your turn: Heal
 1 horror from yourself.
 ```
-*Flavor: "Nobody knows where he came from. Dick doesn't ask."*
+*Flavor: "You don't need to know who I am."*
 
 ---
 
