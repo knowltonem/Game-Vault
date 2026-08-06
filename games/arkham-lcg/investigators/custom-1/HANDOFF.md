@@ -24,11 +24,11 @@ games/arkham-lcg/investigators/custom-1/
 ├── HANDOFF.md                          ← YOU ARE HERE
 ├── Jonathan Ironhide/                  ← COMPLETE ✅ fully built, EON verified
 ├── Alistair Greystoke/                 ← COMPLETE ✅ fully built, EON verified
-├── Agnes Crane/                        ← COMPLETE ✅ 020 needs rebuild (wrong rules in EON)
+├── Agnes Crane/                        ← COMPLETE ✅ all 35 cards built, verified
 ├── Abel Redcloud/                      ← COMPLETE ✅ EON verified, Wendigo added (037)
 ├── Nora Warwick/                       ← COMPLETE ✅ EON verified
 ├── Bjorn Blackcast/                    ← COMPLETE ✅ all 37 cards built
-├── Ephraim Archer/                     ← COMPLETE ✅ 001 rebuilt, 035 needs Strange Eons build
+├── Ephraim Archer/                     ← COMPLETE ✅ all 35 cards built, verified
 ├── Eleanor Heart/                      ← COMPLETE ✅ all 35 cards built, art done
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
 ├── Father Eduardo Rodriguez/           ← COMPLETE ✅ all 35 cards built, art done
@@ -93,11 +93,11 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 |---|---|---|---|
 | Jonathan Ironhide | RYP-JI | Guardian | ✅ Complete — fully built and verified |
 | Alistair Greystoke | RYP-AG | Seeker | ✅ Complete — fully built and verified |
-| Agnes Crane | RYP-AC | Survivor | ✅ Complete — 020 needs EON rebuild |
+| Agnes Crane | RYP-AC | Survivor | ✅ Complete — all 35 cards built, verified |
 | Abel Redcloud | RYP-AR | Guardian | ✅ Complete — Wendigo (037) added |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ Complete |
-| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 001 rebuilt, 035 needs build |
+| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — all 35 cards built, verified |
 | Eleanor Heart | RYP-EH | Survivor | ✅ Complete — all 35 cards built, art done |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
@@ -346,8 +346,6 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 ## Pending Items
 
 - [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art (folder still named Old Man Winters — rename when free)
-- [ ] Ephraim Archer (RYP-EA) — 035 needs Strange Eons build
-- [ ] Agnes Crane (RYP-AC) — 020 needs EON rebuild (wrong rules in EON)
 
 ## Icon Syntax — LOCKED
 
