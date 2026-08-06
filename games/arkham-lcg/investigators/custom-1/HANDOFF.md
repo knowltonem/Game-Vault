@@ -28,11 +28,12 @@ games/arkham-lcg/investigators/custom-1/
 ├── Abel Redcloud/                      ← COMPLETE ✅ EON verified, Wendigo added (037)
 ├── Nora Warwick/                       ← COMPLETE ✅ EON verified
 ├── Bjorn Blackcast/                    ← COMPLETE ✅ all 37 cards built
-├── Ephraim Archer/                     ← COMPLETE ✅ 035 needs Strange Eons build
-├── Eleanor Heart/                      ← IN PROGRESS 🔧 deck redesigned, needs Strange Eons build
+├── Ephraim Archer/                     ← COMPLETE ✅ 001 rebuilt, 035 needs Strange Eons build
+├── Eleanor Heart/                      ← COMPLETE ✅ all 35 cards built, art done
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
-├── The Tinker/                    ← NEW 🆕 skeleton + Card-Data done, needs Strange Eons build
-└── Father Eduardo Rodriguez/           ← IN PROGRESS 🔧 001-002 built, 003-035 pending
+├── Father Eduardo Rodriguez/           ← COMPLETE ✅ all 35 cards built, art done
+├── Dick Hallorann/                     ← COMPLETE ✅ all 36 cards built, art done
+└── Old Man Winters/                    ← IN PROGRESS 🔧 The Tinker — skeleton + Card-Data done, needs Strange Eons build
 
 games/arkham-lcg/sim/
 ├── arkham-rules-reference.md           ← Official rules reference, 17 bugs documented
@@ -96,11 +97,12 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | Abel Redcloud | RYP-AR | Guardian | ✅ Complete — Wendigo (037) added |
 | Nora Warwick | RYP-NW | Rogue | ✅ Complete |
 | Bjorn Blackcast | RYP-BB | Mystic | ✅ Complete |
-| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 035 needs build |
-| Eleanor Heart | RYP-EH | Mystic | ✅ Complete — all 35 cards built, art done |
+| Ephraim Archer | RYP-EA | Guardian | ✅ Complete — 001 rebuilt, 035 needs build |
+| Eleanor Heart | RYP-EH | Survivor | ✅ Complete — all 35 cards built, art done |
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
-| The Tinker | RYP-TK | Guardian | 🔧 In Progress — skeleton + Card-Data done |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
+| Dick Hallorann | RYP-DH | Mystic | ✅ Complete — all 36 cards built, art done |
+| The Tinker | RYP-TK | Guardian | 🔧 In Progress — skeleton + Card-Data done, needs Strange Eons build |
 
 ---
 
@@ -343,8 +345,9 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ## Pending Items
 
-- [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art
-- [ ] Dick Hallorann (RYP-DH) — design deck, build all cards in Strange Eons, generate art
+- [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art (folder still named Old Man Winters — rename when free)
+- [ ] Ephraim Archer (RYP-EA) — 035 needs Strange Eons build
+- [ ] Agnes Crane (RYP-AC) — 020 needs EON rebuild (wrong rules in EON)
 
 ## Icon Syntax — LOCKED
 
