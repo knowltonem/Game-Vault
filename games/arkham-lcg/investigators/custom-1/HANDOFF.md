@@ -33,7 +33,7 @@ games/arkham-lcg/investigators/custom-1/
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
 ├── Father Eduardo Rodriguez/           ← COMPLETE ✅ all 35 cards built, art done
 ├── Dick Hallorann/                     ← COMPLETE ✅ all 36 cards built, art done
-└── Old Man Winters/                    ← IN PROGRESS 🔧 The Tinker — skeleton + Card-Data done, needs Strange Eons build
+└── The Tinker/                         ← IN PROGRESS 🔧 The Tinker — skeleton + Card-Data done, needs Strange Eons build
 
 games/arkham-lcg/sim/
 ├── arkham-rules-reference.md           ← Official rules reference, 17 bugs documented
