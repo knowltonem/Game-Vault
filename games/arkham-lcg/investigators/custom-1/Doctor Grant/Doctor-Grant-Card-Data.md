@@ -141,6 +141,7 @@ horror on The Dark Finding.
 Forced — When The Dark Finding has 3 or more
 horror on it: Discard it.
 ```
+*Flavor: "It's one grave I should not have dug up."*
 
 ---
 
