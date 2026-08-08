@@ -175,3 +175,31 @@ damage to an enemy at your location.
 | **Pack Name** | Doctor Allen Grant Investigator Pack |
 | **Pack Code** | RYP-DG |
 | **Investigator** | 001 Doctor Allen Grant |
+
+---
+
+### 005-006 — Tool Kit x2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Body |
+| **Cost** | 2r |
+| **Class** | Guardian |
+| **Traits** | Item. Tool. Clothing. |
+| **Slot** | Body |
+| **Icons** | 2 x wld |
+
+```
+You get +1 hand slot.
+```
+*Flavor: "Everything he needs. Nothing he doesn't."*
+
+---
+
+## Pack Information
+
+| Field | Value |
+|---|---|
+| **Pack Name** | Doctor Allen Grant Investigator Pack |
+| **Pack Code** | RYP-DG |
+| **Investigator** | 001 Doctor Allen Grant |
