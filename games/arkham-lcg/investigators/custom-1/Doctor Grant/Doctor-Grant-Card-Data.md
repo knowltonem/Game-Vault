@@ -241,6 +241,8 @@ enemy that dealt the damage.
 | **Icons** | 1 x int |
 
 ```
+You get +1 <agi>.
+
 <fre> You may move to a connecting
 location. (Limit once per round.)
 ```
