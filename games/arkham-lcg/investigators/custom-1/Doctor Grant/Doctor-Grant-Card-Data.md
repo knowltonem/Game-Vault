@@ -99,12 +99,14 @@ for this investigation.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Hand |
+| **Subtitle** | Everything He Knows |
+| **Type** | Asset |
 | **Cost** | 2r |
 | **Class** | Seeker |
 | **Traits** | Item. Tome. Relic. |
-| **Slot** | Hand |
+| **Slot** | — |
 | **Unique** | Yes |
+| **Icons** | 2 x int |
 
 ```
 Doctor Allen Grant deck only.
@@ -114,6 +116,7 @@ Your maximum hand size is increased by 2.
 <fre> After you successfully investigate:
 Draw 1 card.
 ```
+*Flavor: "Every site. Every find. Every mistake."*
 
 ---
 
