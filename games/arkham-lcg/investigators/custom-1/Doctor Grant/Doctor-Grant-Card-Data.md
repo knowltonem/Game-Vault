@@ -223,6 +223,6 @@ You get +1 Hand slot.
 ```
 <rea> When you are dealt damage: Exhaust
 Golden Labrador and deal 1 damage to the
-enemy that dealt the damage (if any).
+enemy that dealt the damage.
 ```
 *Flavor: "The only friend I need."*
