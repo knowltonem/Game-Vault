@@ -74,11 +74,11 @@ Neutral cards (level 0-5).
 | Field | Value |
 |---|---|
 | **Subtitle** | He Keeps It Close |
-| **Type** | Asset — Hand |
+| **Type** | Asset |
 | **Cost** | 2r |
 | **Class** | Guardian |
 | **Traits** | Item. Tool. Weapon. Bladed. |
-| **Slot** | Hand |
+| **Slot** | — |
 | **Unique** | Yes |
 | **Icons** | 1 x com + 1 x int |
 
