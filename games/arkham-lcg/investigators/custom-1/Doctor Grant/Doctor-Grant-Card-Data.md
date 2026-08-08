@@ -205,3 +205,25 @@ You get +1 Hand slot.
 | **Pack Name** | Doctor Allen Grant Investigator Pack |
 | **Pack Code** | RYP-DG |
 | **Investigator** | 001 Doctor Allen Grant |
+
+---
+
+### 008-009 — Golden Labrador x2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Cost** | 3r |
+| **Class** | Guardian |
+| **Traits** | Ally. Creature. |
+| **Slot** | Ally |
+| **HP soak** | 3 |
+| **SAN soak** | 3 |
+| **Icons** | 1 x com |
+
+```
+<rea> When you are dealt damage: Exhaust
+Golden Labrador and deal 1 damage to the
+enemy that dealt the damage (if any).
+```
+*Flavor: "The only friend I need."*
