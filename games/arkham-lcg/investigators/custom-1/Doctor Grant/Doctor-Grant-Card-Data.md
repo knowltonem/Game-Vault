@@ -229,7 +229,7 @@ enemy that dealt the damage.
 
 ---
 
-### 010-011 — Pathfinder x2
+### 010-011 — Arcane Tracker x2
 
 | Field | Value |
 |---|---|
