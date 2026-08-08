@@ -73,22 +73,25 @@ Neutral cards (level 0-5).
 
 | Field | Value |
 |---|---|
+| **Subtitle** | He Keeps It Close |
 | **Type** | Asset — Hand |
 | **Cost** | 2r |
 | **Class** | Guardian |
 | **Traits** | Item. Tool. Weapon. Bladed. |
 | **Slot** | Hand |
 | **Unique** | Yes |
+| **Icons** | 1 x com + 1 x int |
 
 ```
 Doctor Allen Grant deck only.
 
-<act> Fight. You get +1 <com> for this attack.
-This attack deals +1 damage.
+<act> Fight. You get +1 <com> for this
+attack. This attack deals +1 damage.
 
-<act> Investigate. You get +1 <int> for
-this investigation.
+<act> Investigate. You get +1 <int>
+for this investigation.
 ```
+*Flavor: "He found it in the dark. He kept it."*
 
 ---
 
