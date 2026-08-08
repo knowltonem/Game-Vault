@@ -187,6 +187,7 @@ damage to an enemy at your location.
 | **Class** | Guardian |
 | **Traits** | Item. Tool. Clothing. |
 | **Slot** | Body |
+| **Unique** | Yes |
 | **Icons** | 2 x wld |
 
 ```
