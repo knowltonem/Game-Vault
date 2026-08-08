@@ -190,7 +190,8 @@ damage to an enemy at your location.
 | **Icons** | 2 x wld |
 
 ```
-You get +1 hand slot.
+You get +1 Accessory slot.
+You get +1 Hand slot.
 ```
 *Flavor: "Everything he needs. Nothing he doesn't."*
 
