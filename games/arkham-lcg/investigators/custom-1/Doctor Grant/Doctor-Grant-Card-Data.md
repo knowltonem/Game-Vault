@@ -43,13 +43,12 @@ he found something older."
 
 ### Story (back)
 ```
-"Allen Grant spent twenty years digging up
+Allen Grant spent twenty years digging up
 the ancient dead. He was good at it. Then,
 in a dig site outside Dunwich, he found
-something that predated everything he knew.
-Now he's in Arkham, and the things he used
-to dig up are the least frightening things
-he has ever seen."
+something older and far darker. Now he's
+in Arkham, digging up clues to these
+ancient beings.
 ```
 
 ### Deckbuilding
