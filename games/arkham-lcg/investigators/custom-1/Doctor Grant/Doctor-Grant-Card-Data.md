@@ -138,7 +138,30 @@ horror on it: Discard it.
 
 ---
 
-## Pack Information
+### 012 — The Hunter
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Cost** | 3r |
+| **Class** | Guardian |
+| **Traits** | Ally. Hunter. |
+| **Slot** | Ally |
+| **HP soak** | 3 |
+| **SAN soak** | 0 |
+| **Icons** | 1 x com |
+
+```
+Doctor Allen Grant deck only.
+
+Exhaust The Hunter: Cancel 1 damage
+that would be dealt to an investigator
+at your location.
+
+When The Hunter is defeated: Deal 2
+damage to an enemy at your location.
+```
+*Flavor: "They're intelligent."*
 
 | Field | Value |
 |---|---|
