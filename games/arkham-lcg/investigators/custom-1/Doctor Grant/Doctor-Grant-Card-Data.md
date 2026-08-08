@@ -69,6 +69,75 @@ Neutral cards (level 0-5).
 
 ---
 
+### 002 — The Entrenching Shovel
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Cost** | 2r |
+| **Class** | Guardian |
+| **Traits** | Item. Tool. Weapon. Bladed. |
+| **Slot** | Hand |
+| **Unique** | Yes |
+
+```
+Doctor Allen Grant deck only.
+
+<act> Fight. You get +1 <com> for this attack.
+This attack deals +1 damage.
+
+<act> Investigate. You get +1 <int> for
+this investigation.
+```
+
+---
+
+### 003 — The Field Journal
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Cost** | 2r |
+| **Class** | Seeker |
+| **Traits** | Item. Tome. Relic. |
+| **Slot** | Hand |
+| **Unique** | Yes |
+
+```
+Doctor Allen Grant deck only.
+
+Your maximum hand size is increased by 2.
+
+<fre> After you successfully investigate:
+Draw 1 card.
+```
+
+---
+
+### 004 — The Dark Finding
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery — Weakness |
+| **Class** | Neutral |
+| **Traits** | Curse. Mystery. |
+| **Unique** | Yes |
+
+```
+Doctor Allen Grant deck only.
+
+Revelation — Put The Dark Finding into play
+in your threat area.
+
+Forced — At the end of each round: Place 1
+horror on The Dark Finding.
+
+Forced — When The Dark Finding has 3 or more
+horror on it: Discard it.
+```
+
+---
+
 ## Pack Information
 
 | Field | Value |
