@@ -226,3 +226,22 @@ Golden Labrador and deal 1 damage to the
 enemy that dealt the damage.
 ```
 *Flavor: "The only friend I need."*
+
+---
+
+### 010-011 — Pathfinder x2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Cost** | 3r |
+| **Class** | Seeker |
+| **Traits** | Ritual. |
+| **Slot** | Arcane |
+| **Icons** | 1 x int |
+
+```
+<fre> You may move to a connecting
+location. (Limit once per round.)
+```
+*Flavor: "He knows the way. He always has."*
