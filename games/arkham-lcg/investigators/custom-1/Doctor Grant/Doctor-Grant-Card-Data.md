@@ -282,3 +282,22 @@ Your maximum hand size is increased by 2.
 You get +1 <int>.
 ```
 *Flavor: "The more he reads, the more he understands. The more he understands, the worse it gets."*
+
+---
+
+### 031-032 — Field Plans x2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Cost** | 1r |
+| **Class** | Seeker |
+| **Traits** | Tactic. Supply. |
+| **Icons** | 1 x com |
+
+```
+Search the top 8 cards of your deck
+for an asset and draw it. Draw 1
+additional card. Shuffle your deck.
+```
+*Flavor: "He always knows what he needs before he needs it."*
