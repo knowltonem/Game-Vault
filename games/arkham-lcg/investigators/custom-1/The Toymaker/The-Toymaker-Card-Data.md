@@ -1,4 +1,4 @@
-# The Tinker — Investigator Pack (RYP-TK)
+# The Toymaker — Investigator Pack (RYP-TK)
 
 ← [[games/arkham-lcg/investigators/custom-1/index|Back to Custom Investigators]]
 
@@ -12,14 +12,14 @@
 
 | Field | Value |
 |---|---|
-| **Name** | The Tinker |
+| **Name** | The Toymaker |
 | **Subtitle** | He Makes Things |
 | **Class** | Guardian |
 | **Traits** | Tinkerer. Eccentric. |
-| **Willpower** | 3 |
-| **Intellect** | 3 |
-| **Combat** | 5 |
-| **Agility** | 2 |
+| **Willpower** | 4 |
+| **Intellect** | 4 |
+| **Combat** | 2 |
+| **Agility** | 3 |
 | **Health** | 8 |
 | **Sanity** | 6 |
 
