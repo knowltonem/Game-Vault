@@ -174,5 +174,5 @@ He found too many dark things in Dunwich. He fought his way back to Arkham, but 
 | Old Soldier | Skill, innate, no rules text |
 | Iron Will | Skill, innate, fail: draw 2 cards |
 | Swift Shadows | Skill, innate, if successful while evading: after evading the enemy, move to any location |
-| Hunt Them Down | Cost 1, search encounter for enemy, spawn + fight +2 COM, shuffle own deck+discard |
+| Hunt Them Down | Cost 1, Search the encounter deck top 4 cards. Put two on top and two on the bottom. Shuffle the encounter deck. |
 | 035 | Needs Strange Eons build |
