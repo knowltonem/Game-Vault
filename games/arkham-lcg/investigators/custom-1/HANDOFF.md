@@ -33,7 +33,8 @@ games/arkham-lcg/investigators/custom-1/
 ├── The Man in Black/                   ← COMPLETE ✅ EON verified
 ├── Father Eduardo Rodriguez/           ← COMPLETE ✅ all 35 cards built, art done
 ├── Dick Hallorann/                     ← COMPLETE ✅ all 36 cards built, art done
-└── The Tinker/                         ← IN PROGRESS 🔧 The Tinker — skeleton + Card-Data done, needs Strange Eons build
+├── The Tinker/                         ← IN PROGRESS 🔧 needs Strange Eons build
+└── Doctor Grant/                       ← COMPLETE ✅ all 36 cards built, art done
 
 games/arkham-lcg/sim/
 ├── arkham-rules-reference.md           ← Official rules reference, 17 bugs documented
@@ -102,7 +103,8 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 | Dick Hallorann | RYP-DH | Mystic | ✅ Complete — all 36 cards built, art done |
-| The Tinker | RYP-TK | Guardian | 🔧 In Progress — skeleton + Card-Data done, needs Strange Eons build |
+| The Tinker | RYP-TK | Guardian | 🔧 In Progress — needs Strange Eons build |
+| Doctor Allen Grant | RYP-DG | Guardian | ✅ Complete — all 36 cards built, art done |
 
 ---
 
@@ -345,7 +347,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 
 ## Pending Items
 
-- [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art (folder still named Old Man Winters — rename when free)
+- [ ] The Tinker (RYP-TK) — build all 34 cards in Strange Eons, generate art
 
 ## Icon Syntax — LOCKED
 
