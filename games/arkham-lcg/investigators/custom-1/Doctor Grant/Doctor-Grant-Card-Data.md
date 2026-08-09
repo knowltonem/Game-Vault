@@ -234,7 +234,7 @@ enemy that dealt the damage.
 | Field | Value |
 |---|---|
 | **Type** | Asset — Arcane |
-| **Cost** | 3r |
+| **Cost** | 2r |
 | **Class** | Seeker |
 | **Traits** | Ritual. |
 | **Slot** | Arcane |
@@ -263,3 +263,22 @@ location. (Limit once per round.)
 If this test is successful: Gain 2 resources.
 ```
 *Flavor: "Time to get to work."*
+
+---
+
+### 015 — Arcane Enlightenment x1
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Cost** | 2r |
+| **Class** | Seeker |
+| **Traits** | Ritual. Spell. |
+| **Slot** | Arcane |
+| **Icons** | 1 x wil + 1 x int |
+
+```
+Your maximum hand size is increased by 2.
+You get +1 <int>.
+```
+*Flavor: "The more he reads, the more he understands. The more he understands, the worse it gets."*
