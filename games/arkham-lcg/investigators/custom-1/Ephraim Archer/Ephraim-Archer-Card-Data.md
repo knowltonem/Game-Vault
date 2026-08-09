@@ -173,6 +173,6 @@ He found too many dark things in Dunwich. He fought his way back to Arkham, but 
 | Mystic Blast | Cost 3, fight AoE 2 dmg all enemies, take 1 dmg |
 | Old Soldier | Skill, innate, no rules text |
 | Iron Will | Skill, innate, fail: draw 2 cards |
-| Swift Shadows | Skill, innate, evade success: move to connected location |
+| Swift Shadows | Skill, innate, if successful while evading: after evading the enemy, move to any location |
 | Hunt Them Down | Cost 1, search encounter for enemy, spawn + fight +2 COM, shuffle own deck+discard |
 | 035 | Needs Strange Eons build |
