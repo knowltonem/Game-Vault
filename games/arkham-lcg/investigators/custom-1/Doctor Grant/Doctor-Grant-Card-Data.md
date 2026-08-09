@@ -247,3 +247,19 @@ You get +1 <agi>.
 location. (Limit once per round.)
 ```
 *Flavor: "He knows the way. He always has."*
+
+---
+
+### 035-036 — Let's Dig x2
+
+| Field | Value |
+|---|---|
+| **Type** | Skill |
+| **Class** | Neutral |
+| **Traits** | Innate. |
+| **Icons** | 2 x com |
+
+```
+If this test is successful: Gain 2 resources.
+```
+*Flavor: "Time to get to work."*
