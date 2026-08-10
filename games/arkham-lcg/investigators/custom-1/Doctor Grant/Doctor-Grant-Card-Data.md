@@ -301,3 +301,53 @@ for an asset and draw it. Draw 1
 additional card. Shuffle your deck.
 ```
 *Flavor: "He always knows what he needs before he needs it."*
+
+---
+
+## Deck (005-036)
+
+| # | Card | × | Cost | Slot | Class |
+|---|---|---|---|---|---|
+| 005-006 | Tool Kit | 2 | 2r | Body | Guardian (custom) |
+| 007 | The Right Tool for the Job | 1 | 1r | — | Guardian (lvl 0) |
+| 008-009 | Golden Labrador | 2 | 3r | Ally | Guardian (custom) |
+| 010-011 | Arcane Tracker | 2 | 2r | Arcane | Seeker (custom) |
+| 012 | The Hunter | 1 | 3r | Ally | Guardian (custom) |
+| 013 | Encyclopedia | 1 | 2r | Hand | Seeker (lvl 0) |
+| 014 | Celaeno Fragments | 1 | 2r | Hand | Seeker (lvl 0) |
+| 015 | Arcane Enlightenment | 1 | 2r | Arcane | Seeker (lvl 0) |
+| 016 | Ancient Amulet | 1 | 0r | Accessory | Seeker (custom) |
+| 017-018 | Deep Ones Hoard | 2 | 0r | — | Neutral (custom) |
+| 019-020 | "I've Got a Plan!" | 2 | 2r | — | Seeker (lvl 0) |
+| 021-022 | Deduction | 2 | 0r | — | Seeker (lvl 0) |
+| 023-024 | Evidence! | 2 | 1r | — | Guardian (lvl 0) |
+| 025-026 | Webley Mk VI | 2 | 3r | Hand | Guardian (custom) |
+| 027-028 | Guts | 2 | — | — | Neutral (lvl 0) |
+| 029-030 | Perception | 2 | — | — | Neutral (lvl 0) |
+| 031-032 | Field Plans | 2 | 1r | — | Seeker (custom) |
+| 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
+| 035-036 | Let's Dig | 2 | — | — | Neutral (custom) |
+
+### Custom Cards in Deck
+
+| Card | Effect |
+|---|---|
+| Tool Kit | Asset, body slot, cost 2r, +1 Accessory slot +1 Hand slot. Unique. Icons `<wld><wld>` |
+| Golden Labrador | Asset, ally slot, cost 3r, 3/3 soak. `<rea>` when dealt damage: exhaust, deal 1 dmg to attacker. Icons `<com>` |
+| Arcane Tracker | Asset, arcane slot, cost 2r, +1 AGI. `<fre>` move to connecting location once/round. Icons `<int>` |
+| The Hunter | Asset, ally slot, cost 3r, 3/0 soak. Exhaust: cancel 1 dmg to investigator at location. On defeat: deal 2 dmg. Icons `<com>` |
+| Ancient Amulet | Asset, accessory slot, cost 0r, unique. Exhaust: gain 1r and draw 1 card (once/round). Icons `<int>` |
+| Deep Ones Hoard | Event, cost 0r, fast, gain 3r. Icons `<wld>` |
+| Webley Mk VI | Asset, hand slot, cost 3r, uses 4 ammo. Fight +1 COM +1 dmg; spend 1 ammo: +2 dmg instead. Icons `<com><com>` |
+| Field Plans | Event, cost 1r. Search top 8 for asset, draw 2, shuffle deck. Icons `<com>` |
+| Let's Dig | Skill, `<com><com>`, if successful: gain 2 resources |
+
+---
+
+## Pack Information (End)
+
+| Field | Value |
+|---|---|
+| **Pack Name** | Doctor Allen Grant Investigator Pack |
+| **Pack Code** | RYP-DG |
+| **Investigator** | 001 Doctor Allen Grant |

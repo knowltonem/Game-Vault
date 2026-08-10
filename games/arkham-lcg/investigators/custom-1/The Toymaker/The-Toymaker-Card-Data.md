@@ -180,10 +180,10 @@ damage on it: Discard it.
 | 019-020 | Crack the Case | 2 | 0r | — | Seeker (lvl 0) |
 | 021-022 | No Stone Unturned | 2 | 2r | — | Seeker (lvl 0) |
 | 023-024 | Elusive | 2 | 2r | — | Rogue (lvl 0) |
-| 025-026 | Backstab | 2 | 3r | — | Rogue (lvl 0) |
+| 025-026 | Cunning Intellect | 2 | 3r | — | Rogue (custom) |
 | 027-028 | Guts | 2 | — | — | Neutral (lvl 0) |
 | 029-030 | Perception | 2 | — | — | Neutral (lvl 0) |
-| 031-032 | Reckless | 2 | — | — | Neutral (custom) |
+| 031-032 | Reckless Mechanisms | 2 | — | — | Neutral (custom) |
 | 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
 
 ### Custom Cards in Deck
@@ -192,8 +192,10 @@ damage on it: Discard it.
 |---|---|
 | Clank Clank It's A Tank | Skill, `<agi><agi><agi>`, draw on success |
 | Tinker The Future | Event, cost 1r, fast, add 1 bless token to chaos bag. Icons `<wil><int>` |
-| Mechanical Contraption | Asset, hand slot, cost 3r, exhaust: deal 2 dmg to all enemies at location. Icons `<com><com>` |
-| Reckless | Skill, `<wld><wld><wld>`, take 1 dmg on success |
+| Mechanical Contraption | Asset, cost 3r, exhaust + spend 1 charge: deal 2 dmg to all enemies at location. Uses 3 charges. Icons `<com><com>` |
+| MedBot | Event, cost 0r, fast, cancel up to 5 dmg/hor, gain that many resources. Icons `<wld>` |
+| Cunning Intellect | Event, cost 3r, fight using AGI instead of COM, +2 AGI, +2 dmg. Icons `<agi><agi>` |
+| Reckless Mechanisms | Skill, `<wld><wld><wld>`, take 1 dmg on success |
 
 ---
 
