@@ -126,7 +126,7 @@ The Deep Rock. At the start of your
 turn, you may spend 2 resources to
 return it to play.
 ```
-*Flavor: "It doesn't sleep. Neither does he."*
+*Flavor: "My greatest creation."*
 
 ---
 
