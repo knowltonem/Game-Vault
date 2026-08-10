@@ -21,37 +21,52 @@
 | **Combat** | 2 |
 | **Agility** | 3 |
 | **Health** | 8 |
-| **Sanity** | 6 |
+| **Sanity** | 8 |
 
 ### Ability
 ```
-<rea> +1 damage when any event deals damage to an enemy
-(once per phase)
+<fre> Once per round: Exhaust an
+Asset you control to gain 1 clue
+at your location or deal 1 damage
+to an enemy at your location.
 ```
 
 ### Elder Sign
 ```
-<eld> +1. If this skill test is successful during an attack, return an event from your
-discard pile to your hand.
+<eld> +1. Gain 2 resources. You may
+disengage from each enemy engaged
+with you and move to a connecting
+location.
 ```
 
 ### Flavor (front)
 ```
-"He's still here. He's always still here."
+"I can fix anything."
 ```
 
 ### Story (back)
 ```
-Nobody remembers when The Tinker first came to Arkham.
-He owns a shop, he's a tinkerer, he makes things.
-Now he's putting them to use.
+He has been building things since he
+was a child. Clockwork birds. Steam
+engines small enough to fit in a
+pocket. Things that moved and clicked
+and whirred and made people uneasy
+in ways they could not explain. Then
+he found the Deep Rock — pulled from
+around the neck of something that
+came out of the harbour one night
+and did not go back. Now everything
+he builds works better than it
+should. Now everything he builds
+feels like it is waiting for something.
 ```
 
 ### Deckbuilding
 ```
 Deck size: 30.
-Guardian cards level 0-5.
-Neutral cards level 0-5.
+Seeker cards (level 0-5).
+Rogue cards (level 0-3).
+Neutral cards (level 0-5).
 Signature cards: Med Mek, Deadly Deep One, Self-Destructive.
 ```
 
