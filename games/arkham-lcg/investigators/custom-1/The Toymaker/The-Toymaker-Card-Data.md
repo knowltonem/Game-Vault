@@ -203,3 +203,28 @@ damage on it: Discard it.
 | **Pack Name** | The Toymaker Investigator Pack |
 | **Pack Code** | RYP-TK |
 | **Investigator** | 001 The Toymaker |
+
+---
+
+### 005-006 — The Arcane Timepiece x2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Cost** | 1r |
+| **Class** | Seeker |
+| **Traits** | Item. Relic. Mechanical. |
+| **Slot** | Arcane |
+| **Unique** | No |
+| **Icons** | 1 x int |
+
+```
+Fast. You get +1 <int> while investigating.
+
+If you are successful: You may turn back
+time — draw a second chaos token. If you
+are still successful: Discover all clues
+at your location, then exhaust The Arcane
+Timepiece.
+```
+*Flavor: "Time is just another mechanism."*
