@@ -128,6 +128,37 @@ return it to play.
 ```
 *Flavor: "It doesn't sleep. Neither does he."*
 
+### 004 — The Deep One
+
+| Field | Value |
+|---|---|
+| **Type** | Enemy — Weakness |
+| **Class** | Neutral |
+| **Traits** | Deep One. Elite. |
+| **Fight** | 3 |
+| **Evade** | 3 |
+| **HP** | 3 |
+| **Damage** | 0 |
+| **Horror** | 1 |
+| **Unique** | Yes |
+
+```
+The Toymaker deck only.
+
+This enemy exists only in your mind.
+It cannot be fought or evaded.
+
+Forced — At the end of the enemy phase:
+Deal 1 horror to you.
+
+Forced — At the end of the upkeep phase:
+Place 1 damage on The Deep One.
+
+Forced — When The Deep One has 3 or more
+damage on it: Discard it.
+```
+*Flavor: "It wants the stone back."*
+
 ---
 
 ## Deck (005-034)
