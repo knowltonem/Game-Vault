@@ -95,7 +95,7 @@ Your Allies get +1 health soak.
 <fre> Once per round: Exhaust The Deep
 Rock to ready one Asset you control.
 ```
-*Flavor: "He doesn't know what it is. He knows what it does."*
+*Flavor: "Power of the Old Ones."*
 
 ---
 
