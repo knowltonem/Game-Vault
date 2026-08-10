@@ -74,12 +74,63 @@ Signature cards: Med Mek, Deadly Deep One, Self-Destructive.
 
 ## Signature Cards (outside deck)
 
-### 001 — The Tinker
-*Investigator card — see above.*
+### 002 — The Deep Rock
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Cost** | 0r |
+| **Class** | Guardian |
+| **Traits** | Item. Relic. Cursed. |
+| **Slot** | Accessory |
+| **Unique** | Yes |
+| **Icons** | 1 x wil + 1 x int |
+
+```
+The Toymaker deck only.
+Permanent. Cannot be discarded.
+
+Your Assets get +1 health soak.
+
+<fre> Once per round: Exhaust The Deep
+Rock to ready one Asset you control.
+```
+*Flavor: "He doesn't know what it is. He knows what it does."*
 
 ---
 
-### 002 — Med Mek
+### 003 — The Clockwork Companion
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Cost** | 3r |
+| **Class** | Guardian |
+| **Traits** | Ally. Construct. Mechanical. |
+| **Slot** | Ally |
+| **Unique** | Yes |
+| **HP soak** | 3 |
+| **SAN soak** | 0 |
+| **Icons** | 1 x com |
+
+```
+The Toymaker deck only.
+
+<fre> Exhaust The Clockwork Companion:
+Deal 1 damage to an enemy at your
+location.
+
+When The Clockwork Companion is
+defeated: Place it facedown under
+The Deep Rock. At the start of your
+turn, you may spend 2 resources to
+return it to play.
+```
+*Flavor: "It doesn't sleep. Neither does he."*
+
+---
+
+## Deck (005-034)
 
 | Field | Value |
 |---|---|
