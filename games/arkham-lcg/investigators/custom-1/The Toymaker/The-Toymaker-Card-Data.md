@@ -10,7 +10,7 @@
 |---|---|
 | **Name** | The Toymaker |
 | **Subtitle** | He Makes Things |
-| **Class** | Guardian |
+| **Class** | Seeker |
 | **Traits** | Tinkerer. Eccentric. |
 | **Willpower** | 4 |
 | **Intellect** | 4 |
