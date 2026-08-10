@@ -168,7 +168,7 @@ damage on it: Discard it.
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
 | 005 | The Arcane Timepiece | 1 | 1r | Arcane | Seeker (lvl 0 reskin) |
-| 006 | "I've Had Worse…" | 1 | 0r | — | Neutral (lvl 0) |
+| 006 | MedBot | 1 | 0r | — | Neutral (custom) |
 | 007-008 | Clank Clank It's A Tank | 2 | — | — | Neutral (custom) |
 | 009-010 | Lockpicks | 2 | 3r | Hand | Rogue (lvl 0) |
 | 011 | Decorated Skull | 1 | 0r | Arcane | Rogue (lvl 0) |
