@@ -167,12 +167,13 @@ damage on it: Discard it.
 
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
-| 005-006 | Magnifying Glass | 2 | 1r | Hand | Seeker (lvl 0) |
+| 005-006 | Magnifying Glass | 2 | 1r | Arcane | Seeker (lvl 0) |
 | 007-008 | Clank Clank It's A Tank | 2 | — | — | Neutral (custom) |
 | 009-010 | Lockpicks | 2 | 3r | Hand | Rogue (lvl 0) |
 | 011 | Decorated Skull | 1 | 0r | Accessory | Rogue (lvl 0) |
 | 012-013 | Tinker The Future | 2 | 1r | — | Neutral (custom) |
-| 014-015 | Mechanical Contraption | 2 | 3r | Hand | Neutral (custom) |
+| 014 | Mechanical Contraption | 1 | 3r | Arcane | Neutral (custom) |
+| 015 | Mechanical Contraption | 1 | 3r | — | Neutral (custom) |
 | 016-017 | Emergency Cache | 2 | 0r | — | Neutral (lvl 0) |
 | 018 | Old Book of Lore | 1 | 2r | Hand | Seeker (lvl 0) |
 | 019-020 | Crack the Case | 2 | 0r | — | Seeker (lvl 0) |
