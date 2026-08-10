@@ -103,7 +103,7 @@ $text = [System.Text.Encoding]::UTF8.GetString($bytes)
 | The Man in Black | RYP-MB | Rogue | ✅ Complete — EON verified |
 | Father Eduardo Rodriguez | RYP-ER | Mystic | ✅ Complete — all 35 cards built, art done |
 | Dick Hallorann | RYP-DH | Mystic | ✅ Complete — all 36 cards built, art done |
-| The Tinker | RYP-TK | Guardian | 🔧 In Progress — needs Strange Eons build |
+| The Toymaker | RYP-TK | Seeker | ✅ Complete — all 34 cards built, all art done |
 | Doctor Allen Grant | RYP-DG | Guardian | ✅ Complete — all 36 cards built, art done |
 
 ---
