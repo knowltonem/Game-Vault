@@ -137,9 +137,9 @@ return it to play.
 | **Type** | Enemy — Weakness |
 | **Class** | Neutral |
 | **Traits** | Deep One. Elite. |
-| **Fight** | 3 |
-| **Evade** | 3 |
-| **HP** | 3 |
+| **Fight** | 10 |
+| **Evade** | 10 |
+| **HP** | 10 |
 | **Damage** | 0 |
 | **Horror** | 1 |
 | **Unique** | Yes |
