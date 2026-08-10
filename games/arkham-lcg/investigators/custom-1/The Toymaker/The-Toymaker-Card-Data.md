@@ -163,29 +163,45 @@ damage on it: Discard it.
 
 ## Deck (005-034)
 
-| Field | Value |
+| # | Card | × | Cost | Slot | Class |
+|---|---|---|---|---|---|
+| 005-006 | Magnifying Glass | 2 | 1r | Hand | Seeker (lvl 0) |
+| 007-008 | Clank Clank It's A Tank | 2 | — | — | Neutral (custom) |
+| 009-010 | Lockpicks | 2 | 3r | Hand | Rogue (lvl 0) |
+| 011 | Decorated Skull | 1 | 0r | Accessory | Rogue (lvl 0) |
+| 012-013 | Tinker The Future | 2 | 1r | — | Neutral (custom) |
+| 014-015 | Mechanical Contraption | 2 | 3r | Hand | Neutral (custom) |
+| 016-017 | Emergency Cache | 2 | 0r | — | Neutral (lvl 0) |
+| 018 | Old Book of Lore | 1 | 2r | Hand | Seeker (lvl 0) |
+| 019-020 | Crack the Case | 2 | 0r | — | Seeker (lvl 0) |
+| 021-022 | No Stone Unturned | 2 | 2r | — | Seeker (lvl 0) |
+| 023-024 | Elusive | 2 | 2r | — | Rogue (lvl 0) |
+| 025-026 | Backstab | 2 | 3r | — | Rogue (lvl 0) |
+| 027-028 | Guts | 2 | — | — | Neutral (lvl 0) |
+| 029-030 | Perception | 2 | — | — | Neutral (lvl 0) |
+| 031-032 | Reckless | 2 | — | — | Neutral (custom) |
+| 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
+
+### Custom Cards in Deck
+| Card | Effect |
 |---|---|
-| **Type** | Asset — Ally |
-| **Cost** | 2r |
-| **Class** | Guardian |
-| **Traits** | Ally. Medic. |
-| **Slot** | Ally |
-| **Unique** | Yes |
-| **HP soak** | 1 |
+| Clank Clank It's A Tank | Skill, `<agi><agi><agi>`, draw on success |
+| Tinker The Future | Event, cost 1r, fast, add 1 bless token to chaos bag |
+| Mechanical Contraption | Asset, hand slot, cost 3r, exhaust: deal 2 dmg to all enemies at location. Icons `<com><com>` |
+| Reckless | Skill, `<wld><wld><wld>`, take 1 dmg on success |
 | **SAN soak** | 3 |
 | **Icons** | 1 × `<wil>` + 1 × `<int>` + 1 × `<wld>` |
 
 ```
-The Tinker deck only.
-
-<rea> After Med Mek enters play: Heal 3 damage.
-
-<act> Exhaust Med Mek: Heal 1 health or horror from an investigator at your location.
-```
-
 ---
 
-### 003 — Deadly Deep One
+## Pack Information
+
+| Field | Value |
+|---|---|
+| **Pack Name** | The Toymaker Investigator Pack |
+| **Pack Code** | RYP-TK |
+| **Investigator** | 001 The Toymaker |
 
 | Field | Value |
 |---|---|
