@@ -167,7 +167,7 @@ damage on it: Discard it.
 
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
-| 005-006 | Magnifying Glass | 2 | 1r | Arcane | Seeker (lvl 0) |
+| 005-006 | The Arcane Timepiece | 2 | 1r | Arcane | Seeker (lvl 0 reskin) |
 | 007-008 | Clank Clank It's A Tank | 2 | — | — | Neutral (custom) |
 | 009-010 | Lockpicks | 2 | 3r | Hand | Rogue (lvl 0) |
 | 011 | Decorated Skull | 1 | 0r | Arcane | Rogue (lvl 0) |
