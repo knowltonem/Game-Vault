@@ -90,7 +90,7 @@ Signature cards: Med Mek, Deadly Deep One, Self-Destructive.
 The Toymaker deck only.
 Permanent. Cannot be discarded.
 
-Your Assets get +1 health soak.
+Your Allies get +1 health soak.
 
 <fre> Once per round: Exhaust The Deep
 Rock to ready one Asset you control.
