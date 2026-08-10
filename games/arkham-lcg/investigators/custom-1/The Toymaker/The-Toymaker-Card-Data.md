@@ -170,7 +170,7 @@ damage on it: Discard it.
 | 005-006 | Magnifying Glass | 2 | 1r | Arcane | Seeker (lvl 0) |
 | 007-008 | Clank Clank It's A Tank | 2 | — | — | Neutral (custom) |
 | 009-010 | Lockpicks | 2 | 3r | Hand | Rogue (lvl 0) |
-| 011 | Decorated Skull | 1 | 0r | Accessory | Rogue (lvl 0) |
+| 011 | Decorated Skull | 1 | 0r | Arcane | Rogue (lvl 0) |
 | 012-013 | Tinker The Future | 2 | 1r | — | Neutral (custom) |
 | 014 | Mechanical Contraption | 1 | 3r | Arcane | Neutral (custom) |
 | 015 | Mechanical Contraption | 1 | 3r | — | Neutral (custom) |
