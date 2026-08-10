@@ -229,3 +229,25 @@ at your location, then exhaust The Arcane
 Timepiece.
 ```
 *Flavor: "Time is just another mechanism."*
+
+---
+
+### 014-015 — Mechanical Contraption x2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — see deck table for slots |
+| **Cost** | 3r |
+| **Class** | Neutral |
+| **Traits** | Item. Construct. Mechanical. |
+| **Unique** | No |
+| **Icons** | 2 x com |
+
+```
+Uses (3 charges).
+
+Exhaust Mechanical Contraption and
+spend 1 charge: Deal 2 damage to
+each enemy at your location.
+```
+*Flavor: "He calls it a solution. Everyone else calls it terrifying."*
