@@ -166,7 +166,7 @@ Hunter.
 | 005-006 | Storm Coat | 2 | 0r | Body | Survivor (custom) |
 | 007-008 | Captain's Hat | 2 | 0r | — | Survivor (custom) |
 | 009-010 | Flashlight | 2 | 2r | Hand | Neutral (lvl 0) |
-| 011-012 | Gravedigger's Shovel | 2 | 2r | Hand | Survivor (lvl 0) |
+| 011-012 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
 | 013-014 | Stroke of Luck | 2 | 2r | — | Survivor (lvl 0) |
 | 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
 | 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
@@ -185,6 +185,7 @@ Hunter.
 |---|---|
 | Storm Coat | Asset, body slot, HP soak 3, cost 0r. Icons `<wld>` |
 | Captain's Hat | Asset, no slot, SAN +2, cost 0r. Icons `<wld><wld>` |
+| Blunderbuss | Asset, hand slot, cost 3r, uses 3 ammo. Fight +3 COM +2 dmg. Succeed by 2+: deal 1 dmg to each other enemy at location. Icons `<com><com>` |
 
 ---
 
