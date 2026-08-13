@@ -94,16 +94,16 @@ Rogue and/or Mystic).
 Captain Cyrus Harding deck only.
 Permanent.
 
-You get +1 <int> while The Parrot
+You get +1 <int> while Snipps
 is in play.
 
-Exhaust The Parrot: Investigate.
+<act> Exhaust Snipps: Investigate.
 You investigate with a base skill
 of 4. You may move to a connecting
 location immediately before
 investigating with this effect.
 
-Exhaust The Parrot: Fight. You
+<act> Exhaust Snipps: Fight. You
 attack with a base skill of 4.
 This attack deals +1 damage.
 ```
