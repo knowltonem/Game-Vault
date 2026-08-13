@@ -163,7 +163,7 @@ Hunter.
 
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
-| 005 | Leather Coat | 1 | 0r | Body | Survivor (lvl 0) |
+| 005 | Storm Coat | 1 | 0r | Body | Survivor (custom) |
 | 006 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
 | 007-008 | Flashlight | 2 | 2r | Hand | Neutral (lvl 0) |
 | 009-010 | Gravedigger's Shovel | 2 | 2r | Hand | Survivor (lvl 0) |
