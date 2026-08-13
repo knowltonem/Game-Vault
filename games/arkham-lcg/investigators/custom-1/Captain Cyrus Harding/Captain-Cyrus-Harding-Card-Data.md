@@ -135,8 +135,27 @@ card and gain 1 resource.
 
 ---
 
-### 004 — TBD
-*Signature weakness — to be designed.*
+### 004 — Old Friends
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery — Weakness |
+| **Class** | Neutral |
+| **Traits** | Curse. Pact. |
+| **Unique** | Yes |
+
+```
+Captain Cyrus Harding deck only.
+
+Revelation: Spawn Old Friends at
+your location as an enemy.
+
+Old Friends — Enemy
+HP: 2 | Fight: 3 | Evade: 2
+Damage: 1 | Horror: 0
+Hunter.
+```
+*Flavor: "They followed him ashore."*
 
 ---
 
