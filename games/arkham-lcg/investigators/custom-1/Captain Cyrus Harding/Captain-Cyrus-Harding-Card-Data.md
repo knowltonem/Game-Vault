@@ -163,22 +163,28 @@ Hunter.
 
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
-| 005 | Storm Coat | 1 | 0r | Body | Survivor (custom) |
-| 006 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
-| 007-008 | Flashlight | 2 | 2r | Hand | Neutral (lvl 0) |
-| 009-010 | Gravedigger's Shovel | 2 | 2r | Hand | Survivor (lvl 0) |
-| 011-012 | Stroke of Luck | 2 | 2r | — | Survivor (lvl 0) |
-| 013-014 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
-| 015-016 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
-| 017-018 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
-| 019-020 | Oops! | 2 | 2r | — | Survivor (lvl 0) |
-| 021-022 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
-| 023-024 | Dark Horse | 2 | 3r | — | Survivor (lvl 0) |
-| 025-026 | Fire Axe | 2 | 1r | Hand | Survivor (lvl 0) |
-| 027-028 | Guts | 2 | — | — | Neutral (lvl 0) |
-| 029-030 | Perception | 2 | — | — | Neutral (lvl 0) |
-| 031-032 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
-| 033-034 | Resourceful | 2 | — | — | Survivor (lvl 0) |
+| 005-006 | Storm Coat | 2 | 0r | Body | Survivor (custom) |
+| 007-008 | Captain's Hat | 2 | 0r | — | Survivor (custom) |
+| 009-010 | Flashlight | 2 | 2r | Hand | Neutral (lvl 0) |
+| 011-012 | Gravedigger's Shovel | 2 | 2r | Hand | Survivor (lvl 0) |
+| 013-014 | Stroke of Luck | 2 | 2r | — | Survivor (lvl 0) |
+| 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
+| 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
+| 019-020 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
+| 021-022 | Oops! | 2 | 2r | — | Survivor (lvl 0) |
+| 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
+| 025-026 | Dark Horse | 2 | 3r | — | Survivor (lvl 0) |
+| 027-028 | Fire Axe | 2 | 1r | Hand | Survivor (lvl 0) |
+| 029-030 | Guts | 2 | — | — | Neutral (lvl 0) |
+| 031-032 | Perception | 2 | — | — | Neutral (lvl 0) |
+| 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
+
+### Custom Cards in Deck
+
+| Card | Effect |
+|---|---|
+| Storm Coat | Asset, body slot, HP soak 3, cost 0r. Icons `<wld>` |
+| Captain's Hat | Asset, no slot, SAN +2, cost 0r. Icons `<wld><wld>` |
 
 ---
 
