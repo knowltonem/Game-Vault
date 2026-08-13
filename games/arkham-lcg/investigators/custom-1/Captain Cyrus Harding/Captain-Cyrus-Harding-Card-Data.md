@@ -32,7 +32,8 @@ is exhausted: Ready it.
 
 ### Elder Sign
 ```
-<eld> +1. Ready The Parrot.
+<eld> +1. Ready Snips. (This does not
+count toward the once per round limit.)
 ```
 
 ### Flavor (front)
