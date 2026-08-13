@@ -111,8 +111,27 @@ This attack deals +1 damage.
 
 ---
 
-### 003 — TBD
-*Signature asset — to be designed.*
+### 003 — Spyglass
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Cost** | 2r |
+| **Class** | Survivor |
+| **Traits** | Item. Relic. Nautical. |
+| **Slot** | Accessory |
+| **Unique** | Yes |
+| **Icons** | 1 x agi |
+
+```
+Captain Cyrus Harding deck only.
+
+<act> Exhaust Spyglass: Investigate.
+Use <agi> instead of <int> for this
+investigation. If successful: Draw 1
+card and gain 1 resource.
+```
+*Flavor: "He sees things coming. He always has."*
 
 ---
 
