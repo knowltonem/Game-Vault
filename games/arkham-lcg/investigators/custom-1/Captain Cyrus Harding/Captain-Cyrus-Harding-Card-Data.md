@@ -37,12 +37,27 @@ is exhausted: Ready it.
 
 ### Flavor (front)
 ```
-TBD
+"The Storm Witch is gone.
+Snips is still here.
+That'll have to be enough."
 ```
 
 ### Story (back)
 ```
-TBD
+Cyrus Harding has sailed the North
+Atlantic for thirty years. He knows
+every current, every weather sign,
+every trick the sea plays on men who
+think they know her. He did not know
+what pulled the Storm Witch off course
+that night. He did not know what the
+storm was hiding. He washed up on the
+Arkham shoreline with nothing but the
+clothes on his back and Snips on his
+shoulder. He needs to fix his rig and
+get back out there. But Arkham has
+other ideas. And whatever came out of
+that storm followed him ashore.
 ```
 
 ### Deckbuilding
@@ -64,7 +79,7 @@ Rogue and/or Mystic).
 
 ---
 
-### 002 — The Parrot
+### 002 — Snips (The Parrot)
 
 | Field | Value |
 |---|---|
