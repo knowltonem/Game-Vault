@@ -80,7 +80,7 @@ Rogue and/or Mystic).
 
 ---
 
-### 002 — Snips (The Parrot)
+### 002 — Snipps
 
 | Field | Value |
 |---|---|
