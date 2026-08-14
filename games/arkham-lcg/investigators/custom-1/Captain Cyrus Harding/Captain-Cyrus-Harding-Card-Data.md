@@ -166,7 +166,7 @@ Hunter.
 | 005 | Storm Coat | 1 | 0r | Body | Survivor (custom) |
 | 006 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
 | 007-008 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
-| 009-010 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
+| 009-010 | All Hands on Deck | 2 | 2r | — | Survivor (custom) |
 | 011-012 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
 | 013-014 | Boarding Party | 2 | 2r | — | Survivor (custom) |
 | 015-016 | Sail Away | 2 | 2r | — | Survivor (custom) |
