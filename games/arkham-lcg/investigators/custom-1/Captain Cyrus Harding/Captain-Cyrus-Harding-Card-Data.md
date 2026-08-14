@@ -164,23 +164,21 @@ Hunter.
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
 | 005 | Storm Coat | 1 | 0r | Body | Survivor (custom) |
-| 006 | Sail Away | 1 | 2r | — | Survivor (custom) |
-| 007 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
-| 008 | Sail Away | 1 | 2r | — | Survivor (custom) |
-| 009-010 | Captain's Stash | 2 | 0r | — | Neutral (custom) |
-| 011-012 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
-| 013-014 | Sea Bounty | 2 | 2r | — | Survivor (custom) |
-| 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
-| 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
-| 019-020 | Swab the Deck | 2 | 2r | — | Survivor (custom) |
-| 021-022 | The Perfect Storm | 2 | — | — | Survivor (custom) |
-| 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
-| 025-026 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
-| 027-028 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
-| 029 | Guts | 1 | — | — | Neutral (lvl 0) |
-| 030 | Boarding Party | 1 | 2r | — | Survivor (custom) |
-| 031 | Perception | 1 | — | — | Neutral (lvl 0) |
-| 032 | Boarding Party | 1 | 2r | — | Survivor (custom) |
+| 006 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
+| 007-008 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
+| 009-010 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
+| 011-012 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
+| 013-014 | Boarding Party | 2 | 2r | — | Survivor (custom) |
+| 015-016 | Sail Away | 2 | 2r | — | Survivor (custom) |
+| 017-018 | Captain's Stash | 2 | 0r | — | Neutral (custom) |
+| 019-020 | Sea Bounty | 2 | 2r | — | Survivor (custom) |
+| 021-022 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
+| 023-024 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
+| 025-026 | Swab the Deck | 2 | 2r | — | Survivor (custom) |
+| 027-028 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
+| 029-030 | The Perfect Storm | 2 | — | — | Survivor (custom) |
+| 031 | Guts | 1 | — | — | Neutral (lvl 0) |
+| 032 | Perception | 1 | — | — | Neutral (lvl 0) |
 | 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
 
 ### Custom Cards in Deck
