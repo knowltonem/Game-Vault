@@ -177,8 +177,10 @@ Hunter.
 | 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
 | 025-026 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
 | 027-028 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
-| 029-030 | Guts | 2 | — | — | Neutral (lvl 0) |
-| 031-032 | Perception | 2 | — | — | Neutral (lvl 0) |
+| 029 | Guts | 1 | — | — | Neutral (lvl 0) |
+| 030 | Boarding Party | 1 | 2r | — | Survivor (custom) |
+| 031 | Perception | 1 | — | — | Neutral (lvl 0) |
+| 032 | Boarding Party | 1 | 2r | — | Survivor (custom) |
 | 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
 
 ### Custom Cards in Deck
@@ -194,6 +196,7 @@ Hunter.
 | All Hands on Deck | Asset, no slot, cost 3r. +1 to all skills while you have 0 resources. Icons `<wld>` |
 | Sail Away | Event, cost 2r, fast. Disengage from each enemy. Move up to 2 locations. No attacks of opportunity. Icons `<agi><agi>` |
 | Swab the Deck | Event, cost 2r, fast. Play when you fail investigation by 1-2: discover 2 clues at your location. Icons `<int><int>` |
+| Boarding Party | Asset, no slot, cost 2r. `<act>` Exhaust: draw 1 chaos token. On skull/cultist/tablet/elder thing/auto-fail: nothing. Otherwise: deal 2 dmg to each enemy at location. You may push your luck to deal 3 dmg instead. Icons `<com><com>` |
 
 ---
 
