@@ -171,7 +171,7 @@ Hunter.
 | 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
 | 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
 | 019-020 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
-| 021-022 | Oops! | 2 | 2r | — | Survivor (lvl 0) |
+| 021-022 | The Perfect Storm | 2 | — | — | Survivor (custom) |
 | 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
 | 025-026 | Dark Horse | 2 | 3r | — | Survivor (lvl 0) |
 | 027-028 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
@@ -187,6 +187,7 @@ Hunter.
 | Captain's Hat | Asset, no slot, SAN +2, cost 0r. Icons `<wld><wld>` |
 | Blunderbuss | Asset, hand slot, cost 3r, uses 3 ammo. Fight +3 COM +2 dmg. Succeed by 2+: deal 1 dmg to each other enemy at location. Icons `<com><com>` |
 | Harpoon | Asset, hand slot, cost 1r. Fight +X COM where X = cards in hand. After attack: discard 1 random card from hand. Icons `<com>` |
+| The Perfect Storm | Skill, `<wld><wld><wld>`, if successful: draw 1 card and take 1 damage |
 
 ---
 
