@@ -165,7 +165,7 @@ Hunter.
 |---|---|---|---|---|---|
 | 005-006 | Storm Coat | 2 | 0r | Body | Survivor (custom) |
 | 007-008 | Captain's Hat | 2 | 0r | — | Survivor (custom) |
-| 009-010 | Emergency Cache | 2 | 0r | — | Neutral (lvl 0) |
+| 009-010 | Captain's Stash | 2 | 0r | — | Neutral (custom) |
 | 011-012 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
 | 013-014 | Stroke of Luck | 2 | 2r | — | Survivor (lvl 0) |
 | 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
