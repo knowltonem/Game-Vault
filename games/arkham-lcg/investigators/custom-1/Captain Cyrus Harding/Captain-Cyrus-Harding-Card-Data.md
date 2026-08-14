@@ -163,11 +163,13 @@ Hunter.
 
 | # | Card | × | Cost | Slot | Class |
 |---|---|---|---|---|---|
-| 005-006 | Storm Coat | 2 | 0r | Body | Survivor (custom) |
-| 007-008 | Captain's Hat | 2 | 0r | — | Survivor (custom) |
+| 005 | Storm Coat | 1 | 0r | Body | Survivor (custom) |
+| 006 | Sail Away | 1 | 2r | — | Survivor (custom) |
+| 007 | Captain's Hat | 1 | 0r | — | Survivor (custom) |
+| 008 | Sail Away | 1 | 2r | — | Survivor (custom) |
 | 009-010 | Captain's Stash | 2 | 0r | — | Neutral (custom) |
 | 011-012 | Blunderbuss | 2 | 3r | Hand | Survivor (custom) |
-| 013-014 | Stroke of Luck | 2 | 2r | — | Survivor (lvl 0) |
+| 013-014 | Sea Bounty | 2 | 2r | — | Survivor (custom) |
 | 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
 | 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
 | 019-020 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
@@ -188,6 +190,10 @@ Hunter.
 | Blunderbuss | Asset, hand slot, cost 3r, uses 3 ammo. Fight +3 COM +2 dmg. Succeed by 2+: deal 1 dmg to each other enemy at location. Icons `<com><com>` |
 | Harpoon | Asset, hand slot, cost 1r. Fight +X COM where X = cards in hand. After attack: discard 1 random card from hand. Icons `<com>` |
 | The Perfect Storm | Skill, `<wld><wld><wld>`, if successful: draw 1 card and take 1 damage |
+| Captain's Stash | Event, cost 0r, fast. Gain 3 resources. Icons `<wld>` |
+| All Hands on Deck | Asset, no slot, cost 3r. +1 to all skills while you have 0 resources. Icons `<wld>` |
+| Sail Away | Event, cost 2r, fast. Disengage from each enemy. Move up to 2 locations. No attacks of opportunity. Icons `<agi><agi>` |
+| Sea Bounty | Event, cost 2r, fast. Play when you would fail a skill test. Automatically succeed instead. Icons `<wld>` |
 
 ---
 
