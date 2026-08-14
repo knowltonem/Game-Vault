@@ -172,7 +172,7 @@ Hunter.
 | 013-014 | Sea Bounty | 2 | 2r | — | Survivor (custom) |
 | 015-016 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
 | 017-018 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
-| 019-020 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
+| 019-020 | Swab the Deck | 2 | 2r | — | Survivor (custom) |
 | 021-022 | The Perfect Storm | 2 | — | — | Survivor (custom) |
 | 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
 | 025-026 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
@@ -193,7 +193,7 @@ Hunter.
 | Captain's Stash | Event, cost 0r, fast. Gain 3 resources. Icons `<wld>` |
 | All Hands on Deck | Asset, no slot, cost 3r. +1 to all skills while you have 0 resources. Icons `<wld>` |
 | Sail Away | Event, cost 2r, fast. Disengage from each enemy. Move up to 2 locations. No attacks of opportunity. Icons `<agi><agi>` |
-| Sea Bounty | Event, cost 2r, fast. Play when you would fail a skill test. Automatically succeed instead. Icons `<wld>` |
+| Swab the Deck | Event, cost 2r, fast. Play when you fail investigation by 1-2: discover 2 clues at your location. Icons `<int><int>` |
 
 ---
 
