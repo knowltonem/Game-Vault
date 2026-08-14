@@ -173,7 +173,7 @@ Hunter.
 | 019-020 | Look What I Found! | 2 | 2r | — | Survivor (lvl 0) |
 | 021-022 | The Perfect Storm | 2 | — | — | Survivor (custom) |
 | 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
-| 025-026 | Dark Horse | 2 | 3r | — | Survivor (lvl 0) |
+| 025-026 | All Hands on Deck | 2 | 3r | — | Survivor (custom) |
 | 027-028 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
 | 029-030 | Guts | 2 | — | — | Neutral (lvl 0) |
 | 031-032 | Perception | 2 | — | — | Neutral (lvl 0) |
