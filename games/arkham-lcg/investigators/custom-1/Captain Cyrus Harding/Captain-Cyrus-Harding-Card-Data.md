@@ -174,7 +174,7 @@ Hunter.
 | 021-022 | Oops! | 2 | 2r | — | Survivor (lvl 0) |
 | 023-024 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
 | 025-026 | Dark Horse | 2 | 3r | — | Survivor (lvl 0) |
-| 027-028 | Fire Axe | 2 | 1r | Hand | Survivor (lvl 0) |
+| 027-028 | Harpoon | 2 | 1r | Hand | Survivor (custom) |
 | 029-030 | Guts | 2 | — | — | Neutral (lvl 0) |
 | 031-032 | Perception | 2 | — | — | Neutral (lvl 0) |
 | 033-034 | Unexpected Courage | 2 | — | — | Neutral (lvl 0) |
@@ -186,6 +186,7 @@ Hunter.
 | Storm Coat | Asset, body slot, HP soak 3, cost 0r. Icons `<wld>` |
 | Captain's Hat | Asset, no slot, SAN +2, cost 0r. Icons `<wld><wld>` |
 | Blunderbuss | Asset, hand slot, cost 3r, uses 3 ammo. Fight +3 COM +2 dmg. Succeed by 2+: deal 1 dmg to each other enemy at location. Icons `<com><com>` |
+| Harpoon | Asset, hand slot, cost 1r. Fight +X COM where X = cards in hand. After attack: discard 1 random card from hand. Icons `<com>` |
 
 ---
 
