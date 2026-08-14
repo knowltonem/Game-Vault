@@ -4,7 +4,7 @@
 
 ---
 
-> **RESKIN of "Ashcan" Pete.** Mechanically based on Pete. Identity, flavor, companion and art are all original.
+> **DECK LOCKED** — Do not change card order or names without updating all folders and Card-Data simultaneously.
 
 ---
 
