@@ -172,7 +172,7 @@ Hunter.
 | 015-016 | Sail Away | 2 | 2r | — | Survivor (custom) |
 | 017-018 | Captain's Stash | 2 | 0r | — | Neutral (custom) |
 | 019-020 | Sea Bounty | 2 | 2r | — | Survivor (custom) |
-| 021-022 | Scavenging | 2 | 1r | — | Survivor (lvl 0) |
+| 021-022 | Scavenging | 2 | 1r | — | Survivor (lvl 0) Asset |
 | 023-024 | Lucky! | 2 | 0r | — | Neutral (lvl 0) |
 | 025-026 | Swab the Deck | 2 | 2r | — | Survivor (custom) |
 | 027-028 | Take Heart | 2 | 0r | — | Survivor (lvl 0) |
