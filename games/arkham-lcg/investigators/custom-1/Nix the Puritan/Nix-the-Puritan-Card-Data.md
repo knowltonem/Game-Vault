@@ -239,9 +239,9 @@ His Followers allow for a second
 Ally slot.
 
 <rea> Exhaust His Followers: When
-you are dealt damage, deal that
-damage to an enemy at your location
-instead.
+you are dealt damage: Also deal
+that much damage to an enemy at
+your location.
 ```
 *Flavor: "They will die for him. And they do."*
 
