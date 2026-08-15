@@ -107,7 +107,7 @@ Draw 1 card.
 | **Class** | Mystic |
 | **Traits** | Pact. Cursed. |
 | **Slot** | — (no slot) |
-| **Cost** | 0r |
+| **Cost** | 2r |
 | **Unique** | No |
 | **Icons** | `<wld><wld>` |
 
