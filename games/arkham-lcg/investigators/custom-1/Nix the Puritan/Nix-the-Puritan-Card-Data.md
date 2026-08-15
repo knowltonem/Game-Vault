@@ -39,7 +39,37 @@ the Dark answered me."
 
 ### Story (back)
 ```
-TBD
+He was nothing before the Dark found
+him. A man like any other — hungry,
+searching, certain there was something
+more and unable to name it. Then the
+fire spoke. Not the fire of the world.
+The fire beneath it.
+
+It called him Puritan. It told him
+he was its instrument. It showed him
+what reality actually is — a thin
+skin stretched over something vast
+and sleeping and indifferent, and
+that skin tears if you know where
+to push.
+
+He pushed.
+
+Now he walks Arkham's streets and
+sees what others cannot. The cultists
+with their pathetic rituals, begging
+for scraps from a god that does not
+know they exist. The creatures that
+serve it — mindless, expendable,
+crowding his city like vermin. They
+think they own the Dark. They think
+they have a claim.
+
+He was there when it spoke. He heard
+its voice. He is its instrument.
+
+There is only room for one.
 ```
 
 ### Deckbuilding
