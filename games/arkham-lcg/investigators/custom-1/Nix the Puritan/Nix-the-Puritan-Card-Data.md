@@ -122,8 +122,25 @@ agenda: Gain 1 resource.
 
 ---
 
-### 004 — TBD
-*Signature weakness — to be designed.*
+### 005 — The Binding
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery — Weakness |
+| **Class** | Neutral |
+| **Traits** | Curse. Pact. |
+| **Unique** | Yes |
+
+```
+Nix the Puritan deck only.
+Cannot be cancelled.
+
+Revelation: Exhaust Fire and Voice
+of the Sleeping God. They cannot
+be readied until the end of the
+round. Take 2 horror.
+```
+*Flavor: "Even the Dark has limits for those who serve it."*
 
 ---
 
