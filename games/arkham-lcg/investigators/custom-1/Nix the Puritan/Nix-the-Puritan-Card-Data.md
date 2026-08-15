@@ -144,8 +144,6 @@ round. Take 2 horror.
 
 ---
 
-## Deck (006-035)
-
 ### 006-007 — My Pet ×2
 
 | Field | Value |
@@ -165,6 +163,89 @@ You get +1 <agi> while My Pet
 is in play.
 ```
 *Flavor: "He serves me."*
+
+---
+
+### 008-009 — Murder The World ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Class** | Mystic |
+| **Traits** | Spell. |
+| **Slot** | Arcane |
+| **Cost** | 3r |
+| **Uses** | 4 charges |
+| **Unique** | No |
+| **Icons** | `<wil><wil>` |
+
+```
+Uses (4 charges).
+
+<act> Spend 1 charge. Fight using
+<wil> instead of <com>. You get
++1 <wil> for this attack. This
+attack deals +1 damage. If this
+attack succeeds by 2 or more:
+This attack deals +2 damage instead.
+```
+*Flavor: "It's why I'm here."*
+
+---
+
+### 010-011 — Here Is My Wisdom ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Arcane |
+| **Class** | Mystic |
+| **Traits** | Spell. |
+| **Slot** | Arcane |
+| **Cost** | 3r |
+| **Uses** | 4 charges |
+| **Unique** | No |
+| **Icons** | `<wil><wil>` |
+
+```
+Uses (4 charges).
+
+<act> Spend 1 charge. Investigate
+using <wil> instead of <int>. You
+get +2 <wil> for this investigation.
+If this investigation succeeds by
+2 or more: Discover 1 additional
+clue at your location.
+```
+*Flavor: "I escaped from the grave."*
+
+---
+
+### 012 — His Followers
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Class** | Mystic |
+| **Traits** | Ally. Cultist. |
+| **Slot** | Ally |
+| **Cost** | 3r |
+| **HP soak** | 2 |
+| **SAN soak** | 2 |
+| **Unique** | No |
+| **Icons** | `<wld><wld>` |
+
+```
+<rea> Exhaust His Followers: When
+you are dealt damage, deal that
+damage to an enemy at your location
+instead.
+```
+*Flavor: TBD*
+
+---
+
+### 013 — TBD
+*Second ally slot card — to be designed.*
 
 ---
 
