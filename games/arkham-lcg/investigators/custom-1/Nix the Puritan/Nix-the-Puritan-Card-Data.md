@@ -76,13 +76,13 @@ other class.
 
 ---
 
-### 002 — The Dark's Favour
+### 002 — Fire
 
 | Field | Value |
 |---|---|
 | **Type** | Asset — Permanent |
 | **Class** | Mystic |
-| **Traits** | Pact. Cursed. |
+| **Traits** | Pact. Cursed. Spell. |
 | **Slot** | — (no slot) |
 | **Unique** | Yes |
 
@@ -95,7 +95,7 @@ weakness is defeated or discarded at
 your location: Draw 1 card.
 (Limit once per round.)
 ```
-*Flavor: "He collects what the darkness leaves behind."*
+*Flavor: "And the fire said to me..."*
 
 ---
 
