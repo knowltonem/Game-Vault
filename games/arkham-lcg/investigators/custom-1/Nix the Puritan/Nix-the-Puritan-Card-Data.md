@@ -99,25 +99,26 @@ Draw 1 card.
 
 ---
 
-### 003 — Voice of the Sleeping God
+### 003 — Voice of the Sleeping God ×2
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Permanent |
+| **Type** | Asset |
 | **Class** | Mystic |
 | **Traits** | Pact. Cursed. |
 | **Slot** | — (no slot) |
-| **Unique** | Yes |
+| **Cost** | 0r |
+| **Unique** | No |
+| **Icons** | `<wld><wld>` |
 
 ```
 Nix the Puritan deck only.
-Permanent.
 
-<rea> When doom is added to the agenda:
-Gain 1 resource.
+<rea> When doom is added to the
+agenda: Gain 1 resource.
 (Limit once per round.)
 ```
-*Flavor: "Every step toward the end fills his pockets."*
+*Flavor: "It does not speak often. When it does, he listens."*
 
 ---
 
