@@ -144,8 +144,27 @@ round. Take 2 horror.
 
 ---
 
-## Deck (005-034)
-*To be designed.*
+## Deck (006-035)
+
+### 006-007 — My Pet ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Class** | Mystic |
+| **Traits** | Ally. Creature. |
+| **Slot** | Ally |
+| **Cost** | 2r |
+| **HP soak** | 3 |
+| **SAN soak** | 3 |
+| **Unique** | No |
+| **Icons** | `<agi><agi>` |
+
+```
+You get +1 <agi> while My Pet
+is in play.
+```
+*Flavor: "He serves me."*
 
 ---
 
