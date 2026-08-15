@@ -114,9 +114,9 @@ Draw 1 card.
 ```
 Nix the Puritan deck only.
 
-<rea> When doom is added to the
+<rea> Exhaust Voice of the Sleeping
+God: When doom is added to the
 agenda: Gain 1 resource.
-(Limit once per round.)
 ```
 *Flavor: "It does not speak often. When it does, he listens."*
 
