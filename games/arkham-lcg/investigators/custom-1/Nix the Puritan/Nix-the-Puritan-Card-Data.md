@@ -90,10 +90,10 @@ other class.
 Nix the Puritan deck only.
 Permanent.
 
-<rea> After an enemy, treachery, or
-weakness is defeated or discarded at
-your location: Draw 1 card.
-(Limit once per round.)
+<rea> Exhaust Fire: After an enemy,
+treachery, or weakness is defeated
+or discarded at your location:
+Draw 1 card.
 ```
 *Flavor: "And the fire said to me..."*
 
