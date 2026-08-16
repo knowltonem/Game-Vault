@@ -85,10 +85,10 @@ asset.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Accessory — Permanent |
+| **Type** | Asset — Arcane — Permanent |
 | **Class** | Mystic |
 | **Traits** | Pact. Cursed. Spell. |
-| **Slot** | Accessory |
+| **Slot** | Arcane |
 | **Unique** | Yes |
 
 ```
