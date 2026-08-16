@@ -290,59 +290,7 @@ top of its deck.
 
 ---
 
-### 019-020 — Premonition ×2
-
-- **Type:** Event | **Class:** Mystic | **Cost:** 0r
-- **Traits:** Spell. | **Icons:** `<wil>`
-
----
-
-### 021-022 — Drawn to the Flame ×2
-
-- **Type:** Event | **Class:** Mystic | **Cost:** 0r
-- **Traits:** Spell. | **Icons:** `<wil>`
-
----
-
-### 023-024 — Hypnotic Gaze ×2
-
-- **Type:** Event | **Class:** Mystic | **Cost:** 2r
-- **Traits:** Spell. | **Icons:** `<wil><wil>`
-
----
-
-### 025-026 — Read the Signs ×2
-
-- **Type:** Event | **Class:** Mystic | **Cost:** 1r
-- **Traits:** Spell. | **Icons:** `<wil><wil>`
-
----
-
-### 027-028 — Pay My Tithes ×2
-
-- **Type:** Event | **Class:** Neutral | **Cost:** 0r
-- **Traits:** Supply. | **Icons:** `<wld>`
-
-```
-Fast. Gain 3 resources.
-```
-*Flavor: "The Dark accepts payment in many forms."*
-
----
-
-### 029-030 — Fearless ×2
-
-- **Type:** Skill | **Class:** Mystic | **Icons:** `<wil><wil>`
-
----
-
-### 031-032 — Guts ×2
-
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
-
----
-
-### 033-034 — Bearer of the Word ×2
+### 019-020 — Bearer of the Word ×2
 
 | Field | Value |
 |---|---|
@@ -361,6 +309,58 @@ If this attack defeats an enemy,
 gain 2 resources.
 ```
 *Flavor: TBD*
+
+---
+
+### 021-022 — Premonition ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 0r
+- **Traits:** Spell. | **Icons:** `<wil>`
+
+---
+
+### 023-024 — Drawn to the Flame ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 0r
+- **Traits:** Spell. | **Icons:** `<wil>`
+
+---
+
+### 025-026 — Hypnotic Gaze ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 2r
+- **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+---
+
+### 027-028 — Read the Signs ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 1r
+- **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+---
+
+### 029-030 — Pay My Tithes ×2
+
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Supply. | **Icons:** `<wld>`
+
+```
+Fast. Gain 3 resources.
+```
+*Flavor: "The Dark accepts payment in many forms."*
+
+---
+
+### 031-032 — Fearless ×2
+
+- **Type:** Skill | **Class:** Mystic | **Icons:** `<wil><wil>`
+
+---
+
+### 033-034 — Guts ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
 
 ---
 
