@@ -276,7 +276,7 @@ top of its deck.
 
 ---
 
-### 015 — The Old One's Eye ×1
+### 015 — The Old One's Blessing ×1
 
 | Field | Value |
 |---|---|
