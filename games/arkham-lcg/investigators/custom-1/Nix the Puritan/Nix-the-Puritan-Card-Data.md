@@ -342,15 +342,25 @@ Fast. Gain 3 resources.
 
 ---
 
-### 033-034 — Defiance ×2
+### 033-034 — Bearer of the Word ×2
 
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld>`
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Class** | Mystic |
+| **Traits** | Item. Tome. Relic. |
+| **Slot** | Hand |
+| **Cost** | 2r |
+| **Unique** | Yes |
+| **Icons** | `<wil><wil>` |
 
 ```
-When you reveal a skull or cultist
-chaos token during this test: Cancel
-that token's effect.
+<act> Fight using <wil> instead of
+<com>. This attack deals +1 damage.
+If this attack defeats an enemy,
+gain 2 resources.
 ```
+*Flavor: TBD*
 
 ---
 
