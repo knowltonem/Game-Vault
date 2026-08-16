@@ -80,10 +80,10 @@ other class.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Permanent |
+| **Type** | Asset — Accessory — Permanent |
 | **Class** | Mystic |
 | **Traits** | Pact. Cursed. Spell. |
-| **Slot** | — (no slot) |
+| **Slot** | Accessory |
 | **Unique** | Yes |
 
 ```
