@@ -276,7 +276,7 @@ top of its deck.
 
 ---
 
-### 015 — Clarity of Mind ×1
+### 015 — The Old One's Eye ×1
 
 | Field | Value |
 |---|---|
@@ -295,7 +295,7 @@ Uses (3 charges).
 from yourself or an investigator at
 your location.
 ```
-*Flavor: "He does not need it. He keeps it anyway."*
+*Flavor: "It watches. It heals what it wills."*
 
 ---
 
