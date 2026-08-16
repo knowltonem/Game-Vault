@@ -247,8 +247,116 @@ your location.
 
 ---
 
-### 013 — TBD
-*Second ally slot card — to be designed.*
+### 013-014 — Scroll of Secrets ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Class** | Mystic |
+| **Traits** | Item. Tome. |
+| **Slot** | Hand |
+| **Cost** | 1r |
+| **Uses** | 4 secrets |
+| **Unique** | No |
+| **Icons** | `<int>` |
+
+```
+Uses (4 secrets).
+
+<act> Exhaust Scroll of Secrets and
+spend 1 secret: Look at the top or
+bottom card of any investigator's
+deck or the encounter deck. Then
+either discard that card, add it to
+its owner's hand, place it on the
+bottom of its deck, or place it on
+top of its deck.
+```
+*Flavor: "He already knows what it says."*
+
+---
+
+### 015-016 — Clarity of Mind ×2
+
+- **Type:** Asset | **Class:** Mystic | **Cost:** 1r
+- **Traits:** Spell. | **Slot:** — (no slot) | **Icons:** `<wil>`
+
+---
+
+### 017-018 — Scrying ×2
+
+- **Type:** Asset — Arcane | **Class:** Mystic | **Cost:** 1r
+- **Traits:** Spell. | **Slot:** Arcane | **Icons:** `<int>`
+
+---
+
+### 019-020 — Premonition ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 0r
+- **Traits:** Spell. | **Icons:** `<wil>`
+
+---
+
+### 021-022 — Drawn to the Flame ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 0r
+- **Traits:** Spell. | **Icons:** `<wil>`
+
+---
+
+### 023-024 — Hypnotic Gaze ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 2r
+- **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+---
+
+### 025-026 — Read the Signs ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 1r
+- **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+---
+
+### 027-028 — Pay My Tithes ×2
+
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Supply. | **Icons:** `<wld>`
+
+```
+Fast. Gain 3 resources.
+```
+*Flavor: "The Dark accepts payment in many forms."*
+
+---
+
+### 029-030 — Fearless ×2
+
+- **Type:** Skill | **Class:** Mystic | **Icons:** `<wil><wil>`
+
+---
+
+### 031-032 — Guts ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
+
+---
+
+### 033-034 — Defiance ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld>`
+
+```
+When you reveal a skull or cultist
+chaos token during this test: Cancel
+that token's effect.
+```
+
+---
+
+### 035 — Unexpected Courage ×1
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
 
 ---
 
