@@ -65,6 +65,11 @@ Mystic cards (level 0-5).
 Neutral cards (level 0-5).
 Up to 5 level 0 cards from any
 other class.
+
+Book of Nix: Nix the Puritan has
+4 arcane slots instead of 2. Each
+arcane slot may only hold a Spell
+asset.
 ```
 
 ---
