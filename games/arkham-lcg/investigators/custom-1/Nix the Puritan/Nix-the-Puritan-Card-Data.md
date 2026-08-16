@@ -276,21 +276,21 @@ top of its deck.
 
 ---
 
-### 015-016 — Clarity of Mind ×2
+### 015 — Clarity of Mind ×1
 
 - **Type:** Asset | **Class:** Mystic | **Cost:** 1r
 - **Traits:** Spell. | **Slot:** — (no slot) | **Icons:** `<wil>`
 
 ---
 
-### 017-018 — Scrying ×2
+### 016 — Scrying ×1
 
 - **Type:** Asset — Arcane | **Class:** Mystic | **Cost:** 1r
 - **Traits:** Spell. | **Slot:** Arcane | **Icons:** `<int>`
 
 ---
 
-### 019-020 — Bearer of the Word ×2
+### 017-018 — Bearer of the Word ×2
 
 | Field | Value |
 |---|---|
@@ -312,35 +312,35 @@ gain 2 resources.
 
 ---
 
-### 021-022 — Premonition ×2
+### 019-020 — Premonition ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 0r
 - **Traits:** Spell. | **Icons:** `<wil>`
 
 ---
 
-### 023-024 — Drawn to the Flame ×2
+### 021-022 — Drawn to the Flame ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 0r
 - **Traits:** Spell. | **Icons:** `<wil>`
 
 ---
 
-### 025-026 — Hypnotic Gaze ×2
+### 023-024 — Hypnotic Gaze ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 2r
 - **Traits:** Spell. | **Icons:** `<wil><wil>`
 
 ---
 
-### 027-028 — Read the Signs ×2
+### 025-026 — Read the Signs ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 1r
 - **Traits:** Spell. | **Icons:** `<wil><wil>`
 
 ---
 
-### 029-030 — Pay My Tithes ×2
+### 027-028 — Pay My Tithes ×2
 
 - **Type:** Event | **Class:** Neutral | **Cost:** 0r
 - **Traits:** Supply. | **Icons:** `<wld>`
@@ -352,21 +352,34 @@ Fast. Gain 3 resources.
 
 ---
 
-### 031-032 — Fearless ×2
+### 029-030 — Fearless ×2
 
 - **Type:** Skill | **Class:** Mystic | **Icons:** `<wil><wil>`
 
 ---
 
-### 033-034 — Guts ×2
+### 031-032 — Guts ×2
 
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
 
 ---
 
-### 035 — Unexpected Courage ×1
+### 033 — Unexpected Courage ×1
 
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
+
+---
+
+### 034-035 — Shine Too Bright ×2
+
+- **Type:** Event | **Class:** Mystic | **Cost:** 2r
+- **Traits:** Spell. Psionic. | **Icons:** `<int>`
+
+```
+Choose any number of enemies at your
+location. Move each chosen enemy up
+to 2 locations away from your location.
+```
 
 ---
 
