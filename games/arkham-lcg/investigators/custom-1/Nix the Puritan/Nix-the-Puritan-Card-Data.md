@@ -326,8 +326,10 @@ your location.
 ```
 <act> Fight using <wil> instead of
 <com>. This attack deals +1 damage.
-If this attack defeats an enemy,
-gain 2 resources.
+If this attack succeeds by 2 or more:
+Gain 1 resource.
+If this attack defeats an enemy:
+Gain 2 resources.
 ```
 *Flavor: TBD*
 
