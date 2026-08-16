@@ -278,8 +278,24 @@ top of its deck.
 
 ### 015 — Clarity of Mind ×1
 
-- **Type:** Asset | **Class:** Mystic | **Cost:** 1r
-- **Traits:** Spell. | **Slot:** Body | **Icons:** `<wil>`
+| Field | Value |
+|---|---|
+| **Type** | Asset — Body |
+| **Class** | Mystic |
+| **Traits** | Spell. |
+| **Slot** | Body |
+| **Cost** | 1r |
+| **Uses** | 3 charges |
+| **Icons** | `<wil>` |
+
+```
+Uses (3 charges).
+
+<act> Spend 1 charge: Heal 1 horror
+from yourself or an investigator at
+your location.
+```
+*Flavor: "He does not need it. He keeps it anyway."*
 
 ---
 
