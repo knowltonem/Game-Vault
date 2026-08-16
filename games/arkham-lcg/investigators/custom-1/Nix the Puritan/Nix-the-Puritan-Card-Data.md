@@ -279,7 +279,7 @@ top of its deck.
 ### 015 — Clarity of Mind ×1
 
 - **Type:** Asset | **Class:** Mystic | **Cost:** 1r
-- **Traits:** Spell. | **Slot:** — (no slot) | **Icons:** `<wil>`
+- **Traits:** Spell. | **Slot:** Body | **Icons:** `<wil>`
 
 ---
 
