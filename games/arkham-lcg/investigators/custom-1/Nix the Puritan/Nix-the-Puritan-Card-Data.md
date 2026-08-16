@@ -328,8 +328,6 @@ your location.
 <com>. This attack deals +1 damage.
 If this attack succeeds by 2 or more:
 Gain 1 resource.
-If this attack defeats an enemy:
-Gain 2 resources.
 ```
 *Flavor: TBD*
 
