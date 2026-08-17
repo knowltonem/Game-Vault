@@ -342,3 +342,41 @@ take 1 damage.
 | **Pack Name** | Hana Ramanda Investigator Pack |
 | **Pack Code** | RYP-HR |
 | **Investigator** | 001 Hana Ramanda |
+
+---
+
+### 013-014 — Rabbit's Foot ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Class** | Survivor |
+| **Traits** | Item. Charm. |
+| **Slot** | Accessory |
+| **Cost** | 1r |
+| **Unique** | No |
+| **Icons** | `<wld>` |
+
+```
+<rea> After you fail a skill test:
+Exhaust Rabbit's Foot and draw
+1 card.
+```
+*Flavor: "She doesn't believe in luck. She keeps it anyway."*
+
+---
+
+### 015-016 — Inheritance ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Neutral |
+| **Traits** | Supply. |
+| **Cost** | 0r |
+| **Icons** | `<wld>` |
+
+```
+Gain 3 resources.
+```
+*Flavor: "From before. She doesn't talk about before."*
