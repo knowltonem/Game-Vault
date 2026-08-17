@@ -335,8 +335,26 @@ Gain 1 resource.
 
 ### 019-020 — Premonition ×2
 
-- **Type:** Event | **Class:** Mystic | **Cost:** 0r
-- **Traits:** Spell. | **Icons:** `<wil>`
+| Field | Value |
+|---|---|
+| **Type** | Asset |
+| **Class** | Mystic |
+| **Traits** | Spell. Augury. |
+| **Slot** | — (no slot) |
+| **Cost** | 0r |
+| **Icons** | `<wil>` |
+
+```
+Put Premonition into play. Reveal
+a random chaos token from the chaos
+bag and seal it on Premonition.
+
+<fre> When anyone reveals a chaos
+token: Resolve the token sealed here
+as if it were just revealed from the
+chaos bag instead. Discard Premonition.
+```
+*Flavor: "He already knew."*
 
 ---
 
