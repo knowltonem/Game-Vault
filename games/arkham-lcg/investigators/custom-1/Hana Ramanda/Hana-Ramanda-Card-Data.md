@@ -214,10 +214,10 @@ for this attack.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Accessory |
+| **Type** | Asset — Hand |
 | **Class** | Survivor |
 | **Traits** | Item. Charm. |
-| **Slot** | Accessory |
+| **Slot** | Hand |
 | **Cost** | 2r |
 | **Uses** | 3 supplies |
 | **Unique** | No |
