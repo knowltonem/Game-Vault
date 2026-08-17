@@ -432,9 +432,11 @@ If this test is successful, draw
 
 ---
 
-### 033 — Unexpected Courage ×1
+### 033 — Old One's Gifts ×1
 
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
+
+*Flavor: "My power grows, like a shadow over fields."*
 
 ---
 
