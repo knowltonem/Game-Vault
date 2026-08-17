@@ -411,6 +411,12 @@ Fast. Gain 3 resources.
 
 - **Type:** Skill | **Class:** Mystic | **Icons:** `<wil><wil>`
 
+```
+If this test is successful, heal
+2 horror from any investigator.
+```
+*Flavor: "He has seen the face of the Dark. There is nothing left to fear."*
+
 ---
 
 ### 031-032 — Guts ×2
