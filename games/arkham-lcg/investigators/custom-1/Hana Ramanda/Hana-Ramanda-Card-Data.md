@@ -96,7 +96,7 @@ other class.
 |---|---|
 | **Type** | Asset — Permanent |
 | **Class** | Survivor |
-| **Traits** | Condition. |
+| **Traits** | Condition. Intuition. |
 | **Slot** | — (no slot) |
 | **Cost** | 0r |
 | **Unique** | Yes |
