@@ -164,10 +164,28 @@ after.
 
 ---
 
-## Pack Information
+### 007-008 — Young Blair ×2
 
 | Field | Value |
 |---|---|
-| **Pack Name** | Hana Ramanda Investigator Pack |
-| **Pack Code** | RYP-HR |
-| **Investigator** | 001 Hana Ramanda |
+| **Type** | Asset — Ally |
+| **Class** | Survivor |
+| **Traits** | Ally. Drifter. |
+| **Slot** | Ally |
+| **Cost** | 2r |
+| **HP soak** | 3 |
+| **SAN soak** | 0 |
+| **Unique** | Yes |
+| **Icons** | `<com>` |
+
+```
+<act> Exhaust Young Blair: Fight.
+You fight with a base skill of 4.
+If you succeed, you may move to a
+connecting location immediately after.
+```
+*Flavor: "She found him sleeping in a doorway. He found her being followed. They called it even."*
+
+---
+
+## Pack Information
