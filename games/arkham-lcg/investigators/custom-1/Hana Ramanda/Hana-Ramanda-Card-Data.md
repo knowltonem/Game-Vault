@@ -94,7 +94,7 @@ other class.
 
 | Field | Value |
 |---|---|
-| **Type** | Asset — Permanent |
+| **Type** | Asset |
 | **Class** | Survivor |
 | **Traits** | Condition. Intuition. |
 | **Slot** | — (no slot) |
@@ -104,7 +104,6 @@ other class.
 
 ```
 Hana Ramanda deck only.
-Permanent.
 
 <rea> Exhaust Keep Moving: When you
 move to a location: Heal 1 damage
