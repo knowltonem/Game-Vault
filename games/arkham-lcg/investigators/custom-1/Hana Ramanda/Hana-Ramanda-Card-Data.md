@@ -139,7 +139,7 @@ feel it.
 
 ## Deck (005-034)
 
-### 005 — Old Walt ×1
+### 005-006 — Old Walt ×2
 
 | Field | Value |
 |---|---|
