@@ -90,7 +90,7 @@ other class.
 
 ---
 
-### 002 — Keep Moving
+### 002-003 — Keep Moving ×2
 
 | Field | Value |
 |---|---|
@@ -100,6 +100,7 @@ other class.
 | **Slot** | — (no slot) |
 | **Cost** | 0r |
 | **Unique** | Yes |
+| **Icons** | `<agi><agi>` |
 
 ```
 Hana Ramanda deck only.
@@ -110,11 +111,6 @@ move to a location: Heal 1 damage
 or 1 horror from yourself.
 ```
 *Flavor: "One more step. Always one more step."*
-
----
-
-### 003 — TBD
-*Signature asset — to be designed.*
 
 ---
 
