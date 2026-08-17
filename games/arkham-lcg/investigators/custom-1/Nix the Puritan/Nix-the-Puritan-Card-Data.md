@@ -375,7 +375,7 @@ Cancel an enemy attack against any
 investigator. That enemy loses 2
 fight until the end of the round.
 ```
-*Flavor: "Look at me. Only at me."*
+*Flavor: "I will protect my children."*
 
 ---
 
