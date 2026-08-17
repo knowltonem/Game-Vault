@@ -232,3 +232,14 @@ card, draw it, and shuffle your
 deck. Spend 1 supply.
 ```
 *Flavor: "Everything she needs. Nothing she doesn't."*
+
+
+---
+
+## Pack Information
+
+| Field | Value |
+|---|---|
+| **Pack Name** | Hana Ramanda Investigator Pack |
+| **Pack Code** | RYP-HR |
+| **Investigator** | 001 Hana Ramanda |
