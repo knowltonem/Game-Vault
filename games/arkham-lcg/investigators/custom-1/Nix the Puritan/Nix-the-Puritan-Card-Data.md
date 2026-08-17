@@ -444,7 +444,7 @@ Draw 1 card and gain 1 resource.
 
 ---
 
-### 034-035 — Shine Too Bright ×2
+### 034-035 — Some Call It Magic, Some Call It Shine ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 2r
 - **Traits:** Spell. Psionic. | **Icons:** `<int>`
@@ -454,6 +454,7 @@ Choose any number of enemies at your
 location. Move each chosen enemy up
 to 2 locations away from your location.
 ```
+*Flavor: "They cannot stand to look at him. Good."*
 
 ---
 
