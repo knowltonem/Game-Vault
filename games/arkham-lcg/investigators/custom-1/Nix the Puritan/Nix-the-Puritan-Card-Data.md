@@ -379,10 +379,19 @@ fight until the end of the round.
 
 ---
 
-### 025-026 — Read the Signs ×2
+### 025-026 — Consult the Bones ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 1r
 - **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+```
+Investigate using <wil> instead of
+<int>. You get +2 <wil> for this
+investigation. If this investigation
+succeeds by 2 or more: Discover 1
+additional clue at your location.
+```
+*Flavor: "The dead know more than the living dare ask."*
 
 ---
 
