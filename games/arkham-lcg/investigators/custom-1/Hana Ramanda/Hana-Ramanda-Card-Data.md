@@ -187,4 +187,27 @@ This attack deals +1 damage.
 
 ---
 
+### 009-010 — Old Faithful ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Class** | Survivor |
+| **Traits** | Item. Weapon. Melee. |
+| **Slot** | Hand |
+| **Cost** | 1r |
+| **Unique** | No |
+| **Icons** | `<int>` |
+
+```
+<act> Fight using <int> instead of
+<com>. This attack deals +1 damage.
+If you are at a location you moved
+to this round: You get +2 <int>
+for this attack.
+```
+*Flavor: "She's had it since Chicago. It's gotten her out of worse than this."*
+
+---
+
 ## Pack Information
