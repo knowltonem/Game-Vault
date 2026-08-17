@@ -329,7 +329,7 @@ your location.
 If this attack succeeds by 2 or more:
 Gain 1 resource.
 ```
-*Flavor: TBD*
+*Flavor: "The most powerful weapon is the Mind."*
 
 ---
 
