@@ -365,10 +365,17 @@ chaos bag instead. Discard Premonition.
 
 ---
 
-### 023-024 — Hypnotic Gaze ×2
+### 023-024 — Dragon Eyes ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 2r
 - **Traits:** Spell. | **Icons:** `<wil><wil>`
+
+```
+Cancel an enemy attack against you.
+That enemy loses 2 fight until the
+end of the round.
+```
+*Flavor: "Look at me. Only at me."*
 
 ---
 
