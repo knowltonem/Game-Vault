@@ -368,7 +368,7 @@ chaos bag instead. Discard Premonition.
 ### 023-024 — Dragon Eyes ×2
 
 - **Type:** Event | **Class:** Mystic | **Cost:** 2r
-- **Traits:** Spell. | **Icons:** `<wil><wil>`
+- **Traits:** Spell. | **Icons:** `<agi><agi>`
 
 ```
 Cancel an enemy attack against you.
