@@ -113,8 +113,27 @@ or 1 horror from yourself.
 
 ---
 
-### 004 — TBD
-*Signature weakness — to be designed.*
+### 004 — The Visitor
+
+| Field | Value |
+|---|---|
+| **Type** | Treachery — Weakness |
+| **Class** | Neutral |
+| **Traits** | Curse. Terror. Vampiric. |
+| **Unique** | Yes |
+
+```
+Hana Ramanda deck only.
+Cannot be cancelled.
+
+Revelation: Take 2 horror. Until
+the end of your next turn you cannot
+move to a location that is not
+adjacent to your current location.
+You are being watched. You can
+feel it.
+```
+*Flavor: "It followed her from Salem's Lot. She always knew it would."*
 
 ---
 
