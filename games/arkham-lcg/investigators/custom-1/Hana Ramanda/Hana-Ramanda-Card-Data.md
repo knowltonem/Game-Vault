@@ -12,9 +12,9 @@
 | **Subtitle** | She's Seen Too Much |
 | **Class** | Survivor |
 | **Traits** | Drifter. Addict. Witness. |
-| **Willpower** | 4 |
+| **Willpower** | 3 |
 | **Intellect** | 4 |
-| **Combat** | 2 |
+| **Combat** | 3 |
 | **Agility** | 3 |
 | **Health** | 7 |
 | **Sanity** | 7 |
