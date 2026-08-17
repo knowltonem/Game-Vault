@@ -41,7 +41,35 @@ hand at no cost.
 
 ### Story (back)
 ```
-TBD
+She was clean for eight months when
+she saw it. Not a hallucination —
+she knew the difference by then.
+Something moved through Salem's Lot
+that night that had no business
+being anywhere. She tried to forget
+it. She tried very hard.
+
+The trail led to Arkham. It always
+leads somewhere, and this time it
+led here. She follows it because
+not following it is worse. The not-
+knowing is worse. The lying awake
+at 3am wondering what she saw is
+worse than whatever Arkham has for
+her.
+
+She moves constantly. Stays nowhere
+long. Old habit from the bad years,
+new purpose now. If you keep moving
+they can't get a fix on you. She
+learned that from the drugs and it
+turns out it applies to other things.
+
+She wonders sometimes, late and
+quiet: if she'd been born in another
+century, would they have burned her
+at the stake? Probably. She keeps
+moving anyway.
 ```
 
 ### Deckbuilding
