@@ -419,9 +419,15 @@ If this test is successful, heal
 
 ---
 
-### 031-032 — Guts ×2
+### 031-032 — I Know Fire, I Know the Dark ×2
 
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
+
+```
+If this test is successful, draw
+1 card.
+```
+*Flavor: "He does not hesitate. He never has."*
 
 ---
 
