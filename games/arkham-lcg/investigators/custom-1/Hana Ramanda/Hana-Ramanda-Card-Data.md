@@ -90,8 +90,26 @@ other class.
 
 ---
 
-### 002 — TBD
-*Signature asset — to be designed.*
+### 002 — Keep Moving
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Permanent |
+| **Class** | Survivor |
+| **Traits** | Condition. |
+| **Slot** | — (no slot) |
+| **Cost** | 0r |
+| **Unique** | Yes |
+
+```
+Hana Ramanda deck only.
+Permanent.
+
+<rea> Exhaust Keep Moving: When you
+move to a location: Heal 1 damage
+or 1 horror from yourself.
+```
+*Flavor: "One more step. Always one more step."*
 
 ---
 
