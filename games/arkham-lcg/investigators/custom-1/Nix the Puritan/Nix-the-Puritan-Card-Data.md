@@ -300,7 +300,7 @@ Uses (3 charges).
 from yourself or an investigator at
 your location.
 ```
-*Flavor: "It watches. It heals what it wills."*
+*Flavor: "Its blessings are a curse."*
 
 ---
 
