@@ -206,7 +206,7 @@ If you are at a location you moved
 to this round: You get +2 <int>
 for this attack.
 ```
-*Flavor: "She's had it since Chicago. It's gotten her out of worse than this."*
+*Flavor: "For close encounters."*
 
 ---
 
