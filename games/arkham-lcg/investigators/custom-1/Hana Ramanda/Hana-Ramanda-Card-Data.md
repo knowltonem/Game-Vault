@@ -234,9 +234,108 @@ deck. Spend 1 supply.
 *Flavor: "Everything she needs. Nothing she doesn't."*
 
 
+### 013-014 — Rabbit's Foot ×2
+
+- **Type:** Asset — Accessory | **Class:** Survivor | **Cost:** 1r
+- **Traits:** Item. Charm. | **Slot:** Accessory | **Icons:** `<wld>`
+
 ---
 
-## Pack Information
+### 015-016 — Emergency Cache ×2
+
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Supply. | **Icons:** `<wld>`
+
+```
+Gain 3 resources.
+```
+
+---
+
+### 017-018 — Shortcut ×2
+
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Tactic. | **Icons:** `<agi>`
+
+```
+Fast. Move to a connecting location.
+Draw 1 card.
+```
+
+---
+
+### 019-020 — Lucky! ×2
+
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Fortune. | **Icons:** `<wld>`
+
+---
+
+### 021-022 — Crowd Control ×2
+
+- **Type:** Event | **Class:** Survivor | **Cost:** 2r
+- **Traits:** Tactic. | **Icons:** `<com><com>`
+
+```
+Deal 1 damage to each enemy at your
+location. You may move to a
+connecting location after.
+```
+
+---
+
+### 023-024 — Scatter ×2
+
+- **Type:** Event | **Class:** Survivor | **Cost:** 1r
+- **Traits:** Tactic. | **Icons:** `<agi><agi>`
+
+```
+Choose up to 3 enemies at your
+location. Move each chosen enemy
+to a connecting location of your
+choice.
+```
+
+---
+
+### 025-026 — Resourceful ×2
+
+- **Type:** Skill | **Class:** Survivor | **Icons:** `<wil>`
+
+---
+
+### 027-028 — Survival Instinct ×2
+
+- **Type:** Skill | **Class:** Survivor | **Icons:** `<agi><agi>`
+
+---
+
+### 029-030 — Gut Feeling ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
+
+```
+If this test is successful, draw
+1 card.
+```
+
+---
+
+### 031-032 — Unexpected Courage ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
+
+---
+
+### 033-034 — Self-Inflicted ×2
+
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld><wld>`
+
+```
+If this test is successful,
+take 1 damage.
+```
+*Flavor: "She knows the cost. She pays it anyway."*
 
 | Field | Value |
 |---|---|
