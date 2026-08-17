@@ -428,7 +428,7 @@ If this test is successful, draw
 1 card. If this test succeeds by
 2 or more, draw 2 cards instead.
 ```
-*Flavor: "He does not hesitate. He never has."*
+*Flavor: "I do not lose."*
 
 ---
 
