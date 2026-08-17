@@ -138,7 +138,29 @@ feel it.
 ---
 
 ## Deck (005-034)
-*To be designed — movement reward theme.*
+
+### 005 — Old Walt ×1
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Class** | Survivor |
+| **Traits** | Ally. Bartender. |
+| **Slot** | Ally |
+| **Cost** | 2r |
+| **HP soak** | 0 |
+| **SAN soak** | 3 |
+| **Unique** | Yes |
+| **Icons** | `<int>` |
+
+```
+<act> Exhaust Old Walt: Investigate.
+You investigate with a base skill
+of 4. If you succeed, you may move
+to a connecting location immediately
+after.
+```
+*Flavor: "He's seen stranger things than her. He pours her a drink and tells her what he knows."*
 
 ---
 
