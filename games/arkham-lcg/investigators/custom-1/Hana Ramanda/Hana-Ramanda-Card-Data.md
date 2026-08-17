@@ -181,8 +181,7 @@ after.
 ```
 <act> Exhaust Young Blair: Fight.
 You fight with a base skill of 4.
-If you succeed, you may move to a
-connecting location immediately after.
+This attack deals +1 damage.
 ```
 *Flavor: "She found him sleeping in a doorway. He found her being followed. They called it even."*
 
