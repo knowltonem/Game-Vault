@@ -241,7 +241,7 @@ deck. Spend 1 supply.
 
 ---
 
-### 015-016 — Emergency Cache ×2
+### 015-016 — I've Saved ×2
 
 - **Type:** Event | **Class:** Neutral | **Cost:** 0r
 - **Traits:** Supply. | **Icons:** `<wld>`
