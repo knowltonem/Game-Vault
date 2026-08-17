@@ -371,9 +371,9 @@ chaos bag instead. Discard Premonition.
 - **Traits:** Spell. | **Icons:** `<agi><agi>`
 
 ```
-Cancel an enemy attack against you.
-That enemy loses 2 fight until the
-end of the round.
+Cancel an enemy attack against any
+investigator. That enemy loses 2
+fight until the end of the round.
 ```
 *Flavor: "Look at me. Only at me."*
 
