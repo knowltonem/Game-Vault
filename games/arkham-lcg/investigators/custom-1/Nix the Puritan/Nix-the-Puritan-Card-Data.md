@@ -415,7 +415,7 @@ Fast. Gain 3 resources.
 If this test is successful, heal
 2 horror from any investigator.
 ```
-*Flavor: "He has seen the face of the Dark. There is nothing left to fear."*
+*Flavor: "I have no fear. I have seen death."*
 
 ---
 
