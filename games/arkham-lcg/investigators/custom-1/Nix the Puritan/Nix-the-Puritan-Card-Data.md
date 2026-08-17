@@ -454,7 +454,7 @@ Choose any number of enemies at your
 location. Move each chosen enemy up
 to 2 locations away from your location.
 ```
-*Flavor: "They cannot stand to look at him. Good."*
+*Flavor: "I can see what you really are."*
 
 ---
 
