@@ -210,4 +210,25 @@ for this attack.
 
 ---
 
-## Pack Information
+### 011-012 — Lucky Purse ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Class** | Survivor |
+| **Traits** | Item. Charm. |
+| **Slot** | Accessory |
+| **Cost** | 2r |
+| **Uses** | 3 supplies |
+| **Unique** | No |
+| **Icons** | `<com><com>` |
+
+```
+Uses (3 supplies).
+
+<rea> After you move: Search the
+top 6 cards of your deck for a
+card, draw it, and shuffle your
+deck. Spend 1 supply.
+```
+*Flavor: "Everything she needs. Nothing she doesn't."*
