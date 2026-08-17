@@ -437,8 +437,8 @@ If this test is successful, draw
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
 
 ```
-If this test is successful, draw
-1 card and gain 1 resource.
+If this test succeeds by 2 or more:
+Draw 1 card and gain 1 resource.
 ```
 *Flavor: "My power grows, like a shadow over fields."*
 
