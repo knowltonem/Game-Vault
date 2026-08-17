@@ -317,7 +317,7 @@ your location.
 |---|---|
 | **Type** | Asset — Hand |
 | **Class** | Mystic |
-| **Traits** | Item. Tome. Relic. |
+| **Traits** | Item. Tome. Relic. Spell. |
 | **Slot** | Hand |
 | **Cost** | 2r |
 | **Unique** | Yes |
