@@ -433,9 +433,10 @@ instead succeed by 0.
 | **Icons** | `<agi><agi>` |
 
 ```
+<fre> When you draw Survival Instinct
+from your deck: Play it immediately
+at no cost without using an action.
+
 Draw 1 card. Gain 1 resource.
-When you draw Survival Instinct:
-You may immediately play it for
-free.
 ```
 *Flavor: TBD*
