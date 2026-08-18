@@ -380,3 +380,23 @@ Exhaust Rabbit's Foot and draw
 Gain 3 resources.
 ```
 *Flavor: "From before. She doesn't talk about before."*
+
+---
+
+### 017-018 — Shortcut ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Neutral |
+| **Traits** | Insight. |
+| **Cost** | 0r |
+| **Icons** | `<int>` |
+
+```
+Fast. You or an investigator at
+your location may immediately move
+to a connecting location. This move
+does not provoke attacks of opportunity.
+```
+*Flavor: "She knows every alley in Arkham. Every one."*
