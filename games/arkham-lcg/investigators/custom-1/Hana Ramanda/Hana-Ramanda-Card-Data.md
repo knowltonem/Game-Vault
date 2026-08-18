@@ -327,7 +327,7 @@ If this test is successful, draw
 
 ---
 
-### 033-034 — Self-Inflicted ×2
+### 033-034 — Cornered ×2
 
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld><wld>`
 
