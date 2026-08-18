@@ -400,3 +400,22 @@ to a connecting location. This move
 does not provoke attacks of opportunity.
 ```
 *Flavor: "She knows every alley in Arkham. Every one."*
+
+---
+
+### 019-020 — Lucky! ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Survivor |
+| **Traits** | Fortune. |
+| **Cost** | 0r |
+| **Icons** | `<wld>` |
+
+```
+When you fail a skill test by 1
+or 2: Cancel that failure. You
+instead succeed by 0.
+```
+*Flavor: "She makes her own luck."*
