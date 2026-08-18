@@ -419,3 +419,23 @@ or 2: Cancel that failure. You
 instead succeed by 0.
 ```
 *Flavor: "She makes her own luck."*
+
+---
+
+### 027-028 — Survival Instinct ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Survivor |
+| **Traits** | Fortune. Innate. |
+| **Cost** | 0r |
+| **Icons** | `<agi><agi>` |
+
+```
+Draw 1 card. Gain 1 resource.
+When you draw Survival Instinct:
+You may immediately play it for
+free.
+```
+*Flavor: TBD*
