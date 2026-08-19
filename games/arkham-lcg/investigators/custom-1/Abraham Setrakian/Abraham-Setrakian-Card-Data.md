@@ -95,8 +95,28 @@ health remaining: This attack deals
 
 ---
 
-### 003 — TBD
-*Signature asset — to be designed.*
+### 003 — Occido Lumen
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand |
+| **Class** | Seeker |
+| **Traits** | Item. Tome. Relic. |
+| **Slot** | Hand |
+| **Cost** | 2r |
+| **Unique** | Yes |
+
+```
+Abraham Setrakian deck only.
+
+<act> Exhaust Occido Lumen:
+Investigate. If this investigation
+is successful: Discover 1 clue at
+your location. If this investigation
+succeeds by 2 or more: Discover 2
+clues instead.
+```
+*Flavor: "Every answer is in here. Every one."*
 
 ---
 
