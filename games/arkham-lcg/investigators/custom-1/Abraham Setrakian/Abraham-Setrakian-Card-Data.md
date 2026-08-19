@@ -220,8 +220,7 @@ If you fail, take 1 additional damage.
 ```
 Uses (3 supplies).
 
-<act> Exhaust They Keep Me Alive
-and spend 1 supply: Heal 1 damage
+<act> Spend 1 supply: Heal 1 damage
 or 1 horror from yourself or an
 investigator at your location.
 ```
