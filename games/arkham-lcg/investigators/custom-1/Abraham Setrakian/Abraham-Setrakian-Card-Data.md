@@ -140,7 +140,7 @@ Forced: When Thomas Eichhorst
 is defeated: Deal 1 additional
 damage to Abraham Setrakian.
 ```
-*Flavor: "He has not forgotten. Neither has Eichhorst."*
+*Flavor: "Hell? Why yes. But you are already there."*
 
 ---
 
