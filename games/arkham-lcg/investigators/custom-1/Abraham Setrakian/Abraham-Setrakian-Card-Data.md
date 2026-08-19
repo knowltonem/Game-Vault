@@ -144,8 +144,30 @@ damage to Abraham Setrakian.
 
 ---
 
-## Deck (005-034)
-*To be designed.*
+## Deck (006-034)
+
+### 006-007 — Vasiliy Fet ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Ally |
+| **Class** | Neutral |
+| **Traits** | Ally. Hunter. |
+| **Slot** | Ally |
+| **Cost** | 3r |
+| **HP soak** | 3 |
+| **SAN soak** | 3 |
+| **Unique** | Yes |
+| **Icons** | `<wld><wld>` |
+
+```
+<rea> Exhaust Vasiliy Fet: When
+Abraham Setrakian is dealt damage
+or horror: Deal that much damage
+to each enemy at Abraham Setrakian's
+location.
+```
+*Flavor: "He doesn't ask questions. He just handles it."*
 
 ---
 
