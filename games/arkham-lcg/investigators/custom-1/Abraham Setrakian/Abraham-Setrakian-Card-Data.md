@@ -134,7 +134,7 @@ Cannot be cancelled.
 Hunter. Prey: Abraham Setrakian only.
 
 Fight: 3. Evade: 3.
-Health: 3. Damage: 1. Horror: 1.
+Health: 3. Damage: 1. Horror: 0.
 
 Forced: When Thomas Eichhorst
 is defeated: Deal 1 additional
