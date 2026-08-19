@@ -1,0 +1,232 @@
+{
+  "id": "abraham_setrakian",
+  "name": "Abraham Setrakian",
+  "title": "Hunter of the Night",
+  "class": "seeker",
+  "stats": {
+    "willpower": 4,
+    "intellect": 4,
+    "combat": 2,
+    "agility": 3,
+    "health": 7,
+    "sanity": 8
+  },
+  "ability": {
+    "trigger": "reaction",
+    "text": "Once per round: You may evade an enemy at your location. This does not provoke attacks of opportunity."
+  },
+  "elder_sign": {
+    "text": "+1. Heal 1 damage and 1 horror from yourself."
+  },
+  "signatures": [
+    {
+      "id": "caput_lupinum",
+      "name": "Caput Lupinum",
+      "type": "asset",
+      "class": "seeker",
+      "cost": 0,
+      "slot": "hand",
+      "text": "Permanent. Fight using <int> instead of <com>. This attack deals +1 damage. If Abraham Setrakian has 3 or fewer health remaining: This attack deals +2 damage instead.",
+      "keywords": "Item. Weapon. Relic. Melee.",
+      "unique": true
+    },
+    {
+      "id": "occido_lumen",
+      "name": "Occido Lumen",
+      "type": "asset",
+      "class": "seeker",
+      "cost": 2,
+      "slot": "hand",
+      "text": "Exhaust: Investigate. You get +1 <int>. If successful, discover 1 clue at your location. If you succeed by 2 or more, discover 1 additional clue instead.",
+      "icons": {"intellect": 2},
+      "keywords": "Item. Tome. Relic.",
+      "unique": true,
+      "quantity": 2
+    },
+    {
+      "id": "thomas_eichhorst",
+      "name": "Thomas Eichhorst",
+      "type": "enemy",
+      "class": "weakness",
+      "fight": 3,
+      "evade": 3,
+      "health": 3,
+      "damage": 1,
+      "horror": 0,
+      "keywords": "Humanoid. Strigoi. Elite. Hunter.",
+      "text": "Cannot be cancelled. Hunter. Prey: Abraham Setrakian only. Forced: When Thomas Eichhorst is defeated: Deal 1 additional damage to Abraham Setrakian."
+    }
+  ],
+  "deck": [
+    {
+      "id": "vasiliy_fet",
+      "name": "Vasiliy Fet",
+      "type": "asset",
+      "class": "neutral",
+      "cost": 3,
+      "slot": "ally",
+      "health": 3,
+      "sanity": 3,
+      "text": "When Abraham Setrakian is dealt damage or horror: Exhaust Vasiliy Fet — deal that much damage to each enemy at Abraham Setrakian's location.",
+      "icons": {"wild": 2},
+      "quantity": 2,
+      "keywords": "Ally. Hunter."
+    },
+    {
+      "id": "calculated_risk",
+      "name": "Calculated Risk",
+      "type": "asset",
+      "class": "neutral",
+      "cost": 2,
+      "text": "When you fail a skill test: Reveal another chaos token. If successful, pass the test and draw 1 card. If you fail, take 1 additional damage.",
+      "icons": {"agility": 2},
+      "quantity": 2,
+      "keywords": "Talent."
+    },
+    {
+      "id": "they_keep_me_alive",
+      "name": "They Keep Me Alive",
+      "type": "asset",
+      "class": "guardian",
+      "cost": 2,
+      "uses": {"type": "supply", "count": 3},
+      "text": "Spend 1 supply: Heal 1 damage or 1 horror from yourself or an investigator at your location.",
+      "icons": {"intellect": 1},
+      "quantity": 2,
+      "keywords": "Item. Medical."
+    },
+    {
+      "id": "crowd_control",
+      "name": "Crowd Control",
+      "type": "event",
+      "class": "survivor",
+      "cost": 2,
+      "text": "Deal 1 damage to each enemy at your location. You may move to a connecting location after.",
+      "icons": {"combat": 2},
+      "quantity": 2,
+      "keywords": "Tactic."
+    },
+    {
+      "id": "scatter",
+      "name": "Scatter",
+      "type": "event",
+      "class": "survivor",
+      "cost": 1,
+      "text": "Choose up to 3 enemies at your location. Move each chosen enemy to a connecting location of your choice.",
+      "icons": {"agility": 2},
+      "quantity": 2,
+      "keywords": "Tactic."
+    },
+    {
+      "id": "inheritance",
+      "name": "Inheritance",
+      "type": "event",
+      "class": "neutral",
+      "cost": 0,
+      "text": "Gain 3 resources.",
+      "icons": {"wild": 1},
+      "quantity": 2,
+      "keywords": "Supply."
+    },
+    {
+      "id": "ancient_rites",
+      "name": "Ancient Rites",
+      "type": "event",
+      "class": "seeker",
+      "cost": 0,
+      "text": "Search the top 8 cards of your deck. Draw up to 3 of them. Shuffle the rest back.",
+      "icons": {"intellect": 1},
+      "quantity": 2,
+      "keywords": "Research. Ritual."
+    },
+    {
+      "id": "preposterous_sketches",
+      "name": "Preposterous Sketches",
+      "type": "event",
+      "class": "seeker",
+      "cost": 0,
+      "text": "Investigate. If successful, draw 3 cards.",
+      "icons": {"intellect": 1},
+      "quantity": 2,
+      "keywords": "Research."
+    },
+    {
+      "id": "arcane_encyclopaedia",
+      "name": "Arcane Encyclopaedia",
+      "type": "asset",
+      "class": "seeker",
+      "cost": 2,
+      "slot": "hand",
+      "text": "Exhaust: You get +2 to any one skill for this test.",
+      "icons": {"intellect": 1},
+      "quantity": 2,
+      "keywords": "Item. Tome."
+    },
+    {
+      "id": "the_cleansing",
+      "name": "The Cleansing",
+      "type": "event",
+      "class": "guardian",
+      "cost": 2,
+      "text": "Deal 1 damage to each enemy in play.",
+      "icons": {"willpower": 2},
+      "quantity": 1,
+      "keywords": "Spell. Blessed."
+    },
+    {
+      "id": "gut_feeling",
+      "name": "Gut Feeling",
+      "type": "skill",
+      "class": "neutral",
+      "cost": 0,
+      "text": "If this test is successful, draw 1 card.",
+      "icons": {"willpower": 2},
+      "quantity": 2,
+      "keywords": "Innate."
+    },
+    {
+      "id": "unexpected_courage",
+      "name": "Unexpected Courage",
+      "type": "skill",
+      "class": "neutral",
+      "cost": 0,
+      "text": "No additional effect.",
+      "icons": {"wild": 2},
+      "quantity": 2,
+      "keywords": "Innate."
+    },
+    {
+      "id": "cornered",
+      "name": "Cornered",
+      "type": "skill",
+      "class": "neutral",
+      "cost": 0,
+      "text": "If this test is successful, take 1 damage.",
+      "icons": {"wild": 3},
+      "quantity": 2,
+      "keywords": "Innate."
+    },
+    {
+      "id": "pick_pocket",
+      "name": "Pick Pocket",
+      "type": "skill",
+      "class": "survivor",
+      "cost": 0,
+      "text": "If this test is successful: Return a card from your discard pile to your hand.",
+      "icons": {"wild": 1},
+      "quantity": 2,
+      "keywords": "Innate. Developed."
+    },
+    {
+      "id": "survival_instinct",
+      "name": "Survival Instinct",
+      "type": "event",
+      "class": "survivor",
+      "cost": 0,
+      "text": "When you draw Survival Instinct from your deck: Play it immediately at no cost without using an action. Draw 1 card. Gain 1 resource.",
+      "icons": {"agility": 2},
+      "quantity": 2,
+      "keywords": "Fortune. Innate."
+    }
+  ]
+}

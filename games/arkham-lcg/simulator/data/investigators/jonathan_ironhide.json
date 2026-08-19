@@ -1,0 +1,27 @@
+{
+  "id": "jonathan_ironhide",
+  "name": "Jonathan Ironhide",
+  "class": "guardian",
+  "stats": {
+    "willpower": 3,
+    "intellect": 2,
+    "combat": 5,
+    "agility": 3,
+    "health": 9,
+    "sanity": 7
+  },
+  "ability": {
+    "trigger": "reaction",
+    "text": "After you defeat an enemy: Heal 1 damage from yourself."
+  },
+  "deck": [
+    {"id": "guts", "name": "Guts", "type": "skill", "icons": {"willpower": 2}, "quantity": 2},
+    {"id": "overpower", "name": "Overpower", "type": "skill", "icons": {"combat": 2}, "quantity": 2},
+    {"id": "machete", "name": "Machete", "type": "asset", "cost": 3, "slot": "hand", "text": "Fight. +1 <com>. +1 damage. While engaged with exactly 1 enemy: +1 combat.", "quantity": 2},
+    {"id": "beat_cop", "name": "Beat Cop", "type": "asset", "cost": 4, "slot": "ally", "health": 2, "sanity": 2, "text": "Exhaust: Deal 1 damage to an enemy at your location.", "quantity": 2},
+    {"id": "evidence", "name": "Evidence", "type": "event", "cost": 1, "text": "After enemy defeated: Discover 1 clue.", "quantity": 2},
+    {"id": "dodge", "name": "Dodge", "type": "event", "cost": 1, "text": "Cancel an attack against you.", "quantity": 2},
+    {"id": "emergency_aid", "name": "Emergency Aid", "type": "event", "cost": 2, "text": "Heal 2 damage from any investigator.", "quantity": 2},
+    {"id": "unexpected_courage", "name": "Unexpected Courage", "type": "skill", "icons": {"wild": 2}, "quantity": 2}
+  ]
+}

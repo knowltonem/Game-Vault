@@ -1,0 +1,27 @@
+{
+  "id": "hana_ramanda",
+  "name": "Hana Ramanda",
+  "class": "survivor",
+  "stats": {
+    "willpower": 3,
+    "intellect": 4,
+    "combat": 3,
+    "agility": 3,
+    "health": 7,
+    "sanity": 7
+  },
+  "ability": {
+    "trigger": "free",
+    "text": "Once per round: Disengage from each enemy engaged with you and move to a connecting location. This does not provoke attacks of opportunity."
+  },
+  "deck": [
+    {"id": "old_faithful", "name": "Old Faithful", "type": "asset", "cost": 1, "slot": "hand", "text": "Fight using <int>. +1 damage. If moved this round: +2 <int>.", "quantity": 2},
+    {"id": "lucky_purse", "name": "Lucky Purse", "type": "asset", "cost": 2, "slot": "hand", "text": "After you move: Search top 6, draw 1.", "quantity": 2},
+    {"id": "lucky", "name": "Lucky!", "type": "event", "cost": 0, "text": "Fail by 1 or 2: Succeed instead.", "quantity": 2},
+    {"id": "shortcut", "name": "Shortcut", "type": "event", "cost": 0, "text": "Fast. Move any investigator without AoO.", "quantity": 2},
+    {"id": "survival_instinct", "name": "Survival Instinct", "type": "event", "cost": 0, "text": "Draw 1, gain 1 resource. Play free when drawn.", "icons": {"agility": 2}, "quantity": 2},
+    {"id": "gut_feeling", "name": "Gut Feeling", "type": "skill", "icons": {"willpower": 2}, "text": "Draw 1 on success.", "quantity": 2},
+    {"id": "unexpected_courage", "name": "Unexpected Courage", "type": "skill", "icons": {"wild": 2}, "quantity": 2},
+    {"id": "cornered", "name": "Cornered", "type": "skill", "icons": {"wild": 3}, "text": "Take 1 damage on success.", "quantity": 2}
+  ]
+}
