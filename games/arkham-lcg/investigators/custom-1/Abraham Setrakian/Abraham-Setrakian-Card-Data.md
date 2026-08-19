@@ -95,7 +95,7 @@ health remaining: This attack deals
 
 ---
 
-### 003 — Occido Lumen
+### 003-004 — Occido Lumen ×2
 
 | Field | Value |
 |---|---|
