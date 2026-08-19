@@ -201,3 +201,28 @@ pass the test and draw 1 card.
 If you fail, take 1 additional damage.
 ```
 *Flavor: "He has made worse bets. He has survived them all."*
+
+---
+
+### 010-011 — They Keep Me Alive ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset |
+| **Class** | Guardian |
+| **Traits** | Item. Medical. |
+| **Slot** | — (no slot) |
+| **Cost** | 2r |
+| **Uses** | 3 supplies |
+| **Unique** | No |
+| **Icons** | `<int>` |
+
+```
+Uses (3 supplies).
+
+<act> Exhaust They Keep Me Alive
+and spend 1 supply: Heal 1 damage
+or 1 horror from yourself or an
+investigator at your location.
+```
+*Flavor: "He has stitched himself closed in worse places than this."*
