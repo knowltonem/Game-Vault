@@ -225,3 +225,122 @@ or 1 horror from yourself or an
 investigator at your location.
 ```
 *Flavor: "He has stitched himself closed in worse places than this."*
+
+---
+
+### 012-013 — Crowd Control ×2
+- **Type:** Event | **Class:** Survivor | **Cost:** 2r
+- **Traits:** Tactic. | **Icons:** `<com><com>`
+
+---
+
+### 014-015 — Scatter ×2
+- **Type:** Event | **Class:** Survivor | **Cost:** 1r
+- **Traits:** Tactic. | **Icons:** `<agi><agi>`
+
+---
+
+### 016-017 — Inheritance ×2
+- **Type:** Event | **Class:** Neutral | **Cost:** 0r
+- **Traits:** Supply. | **Icons:** `<wld>`
+
+```
+Gain 3 resources.
+```
+
+---
+
+### 018-019 — Ancient Rites ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Seeker |
+| **Traits** | Research. Ritual. |
+| **Cost** | 0r |
+| **Icons** | `<int>` |
+
+```
+Search the top 8 cards of your
+deck. Draw up to 3 of them.
+Shuffle the rest back.
+```
+*Flavor: "He knows where to look. He always has."*
+
+---
+
+### 020-021 — Preposterous Sketches ×2
+- **Type:** Event | **Class:** Seeker | **Cost:** 0r
+- **Traits:** Research. | **Icons:** `<int>`
+
+---
+
+### 022-023 — Arcane Encyclopaedia ×2
+- **Type:** Asset — Hand | **Class:** Seeker | **Cost:** 2r
+- **Traits:** Item. Tome. | **Slot:** Hand | **Icons:** `<int>`
+
+---
+
+### 024 — The Cleansing ×1
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Guardian |
+| **Traits** | Spell. Blessed. |
+| **Cost** | 2r |
+| **Icons** | `<wil><wil>` |
+
+```
+Deal 1 damage to each enemy in play.
+```
+*Flavor: "He has done this before. He will do it again."*
+
+---
+
+### 025-026 — Gut Feeling ×2
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
+
+---
+
+### 027-028 — Unexpected Courage ×2
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
+
+---
+
+### 029-030 — Cornered ×2
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld><wld>`
+
+```
+If this test is successful, take 1 damage.
+```
+
+---
+
+### 031-032 — Pick Pocket ×2
+- **Type:** Skill | **Class:** Survivor | **Icons:** `<wld>`
+
+```
+If this test is successful: Return a card
+from your discard pile to your hand.
+```
+
+---
+
+### 033-034 — Survival Instinct ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Event |
+| **Class** | Survivor |
+| **Traits** | Fortune. Innate. |
+| **Cost** | 0r |
+| **Icons** | `<agi><agi>` |
+
+```
+<fre> When you draw Survival Instinct
+from your deck: Play it immediately
+at no cost without using an action.
+
+Draw 1 card. Gain 1 resource.
+```
