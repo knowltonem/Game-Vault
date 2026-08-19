@@ -70,8 +70,28 @@ Neutral cards (level 0-5).
 
 ---
 
-### 002 — TBD
-*Signature asset — to be designed.*
+### 002 — Caput Lupinum
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Hand — Permanent |
+| **Class** | Seeker |
+| **Traits** | Item. Weapon. Relic. Melee. |
+| **Slot** | Hand |
+| **Cost** | 0r |
+| **Unique** | Yes |
+
+```
+Abraham Setrakian deck only.
+Permanent.
+
+<act> Fight using <int> instead of
+<com>. This attack deals +1 damage.
+If Abraham Setrakian has 3 or fewer
+health remaining: This attack deals
++2 damage instead.
+```
+*Flavor: "The blade is silver. Everything I own is silver."*
 
 ---
 
