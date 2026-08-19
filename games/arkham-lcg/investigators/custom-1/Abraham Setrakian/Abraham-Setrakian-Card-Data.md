@@ -178,3 +178,26 @@ location.
 | **Pack Name** | Abraham Setrakian Investigator Pack |
 | **Pack Code** | RYP-AS |
 | **Investigator** | 001 Abraham Setrakian |
+
+---
+
+### 008-009 — Calculated Risk ×2
+
+| Field | Value |
+|---|---|
+| **Type** | Asset |
+| **Class** | Neutral |
+| **Traits** | Talent. |
+| **Slot** | — (no slot) |
+| **Cost** | 2r |
+| **Unique** | No |
+| **Icons** | `<agi><agi>` |
+
+```
+<rea> Exhaust Calculated Risk:
+When you fail a skill test: Reveal
+another chaos token. If successful,
+pass the test and draw 1 card.
+If you fail, take 1 additional damage.
+```
+*Flavor: "He has made worse bets. He has survived them all."*
