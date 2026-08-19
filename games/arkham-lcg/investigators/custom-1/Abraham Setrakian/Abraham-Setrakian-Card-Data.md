@@ -110,11 +110,11 @@ health remaining: This attack deals
 Abraham Setrakian deck only.
 
 <act> Exhaust Occido Lumen:
-Investigate. If this investigation
-is successful: Discover 1 clue at
-your location. If this investigation
-succeeds by 2 or more: Discover 2
-clues instead.
+Investigate using <int>. If
+successful, discover 1 clue at
+your location. If you succeed
+by 2 or more, discover 1
+additional clue instead.
 ```
 *Flavor: "Every answer is in here. Every one."*
 
