@@ -120,8 +120,27 @@ additional clue instead.
 
 ---
 
-### 004 — TBD
-*Signature weakness — to be designed.*
+### 005 — Thomas Eichhorst
+
+| Field | Value |
+|---|---|
+| **Type** | Enemy — Weakness |
+| **Class** | Neutral |
+| **Traits** | Humanoid. Strigoi. Elite. |
+| **Unique** | Yes |
+
+```
+Cannot be cancelled.
+Hunter. Prey: Abraham Setrakian only.
+
+Fight: 3. Evade: 3.
+Health: 3. Damage: 1. Horror: 1.
+
+Forced: When Thomas Eichhorst
+is defeated: Deal 1 additional
+damage to Abraham Setrakian.
+```
+*Flavor: "He has not forgotten. Neither has Eichhorst."*
 
 ---
 
