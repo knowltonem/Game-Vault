@@ -41,7 +41,16 @@ So am I."
 
 ### Story (back)
 ```
-TBD
+I am old. Once I was young and these
+things destroyed my village near the
+mountains. I fought them then. I
+fight them now.
+
+I use them to stave off death — but
+at a price. I just hope it is not
+my soul.
+
+For now, I hunt them.
 ```
 
 ### Deckbuilding
