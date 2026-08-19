@@ -29,7 +29,8 @@ opportunity.
 
 ### Elder Sign
 ```
-<eld> +1. Heal 2 horror from yourself.
+<eld> +1. Heal 1 damage and 1 horror
+from yourself.
 ```
 
 ### Flavor (front)
