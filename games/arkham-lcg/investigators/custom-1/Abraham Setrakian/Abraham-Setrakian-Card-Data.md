@@ -21,9 +21,10 @@
 
 ### Ability
 ```
-<rea> When you fight: You may use
-<int> instead of <com> for this
-attack.
+<rea> Once per round: You may evade
+an enemy at your location. This
+does not provoke attacks of
+opportunity.
 ```
 
 ### Elder Sign
