@@ -13,9 +13,9 @@
 | **Class** | Seeker |
 | **Traits** | Scholar. Hunter. Veteran. |
 | **Willpower** | 4 |
-| **Intellect** | 5 |
+| **Intellect** | 4 |
 | **Combat** | 2 |
-| **Agility** | 2 |
+| **Agility** | 3 |
 | **Health** | 7 |
 | **Sanity** | 8 |
 
