@@ -10,7 +10,7 @@
 |---|---|
 | **Name** | Abraham Setrakian |
 | **Subtitle** | Hunter of the Night |
-| **Class** | Guardian/Seeker |
+| **Class** | Seeker |
 | **Traits** | Scholar. Hunter. Veteran. |
 | **Willpower** | 4 |
 | **Intellect** | 5 |
@@ -45,8 +45,8 @@ TBD
 ### Deckbuilding
 ```
 Deck size: 30.
+Seeker cards (level 0-5).
 Guardian cards (level 0-5).
-Seeker cards (level 0-3).
 Neutral cards (level 0-5).
 ```
 
