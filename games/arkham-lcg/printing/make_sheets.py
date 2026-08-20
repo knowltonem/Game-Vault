@@ -138,29 +138,28 @@ def main():
     parser = argparse.ArgumentParser(description="Arkham LCG Print Sheet Generator")
     parser.add_argument("--pack", help="Pack folder name (e.g. 'Nix the Puritan')")
     parser.add_argument("--all", action="store_true", help="Process all investigator packs")
-    parser.add_argument("--test", help="Generate a 9-up test sheet from a pack's 001 card (e.g. 'Nix the Puritan')")
+    parser.add_argument("--test", action="store_true", help="Generate a sampler sheet with 9 different investigator 001 cards")
     parser.add_argument("--output", default="./print_output", help="Output directory")
     args = parser.parse_args()
 
     output_dir = Path(args.output)
 
     if args.test:
-        pack_dir = INVESTIGATORS_DIR / args.test
-        if not pack_dir.exists():
-            print(f"Pack not found: {pack_dir}")
-            return
-        # Find the 001 front card
-        card_001 = sorted(pack_dir.rglob("*001*-Front.png"))
-        if not card_001:
-            print(f"No 001 Front card found in: {pack_dir}")
-            return
-        front_path = card_001[0]
-        back_path = Path(str(front_path).replace("-Front.png", "-Back.png"))
-        print(f"\nTest sheet: {front_path.name} x9")
-        # Build 9 identical pairs
-        pairs = [(front_path, back_path if back_path.exists() else None)] * 9
-        prefix = re.sub(r'[^\w]', '_', args.test) + "_TEST"
-        make_sheets(pairs, output_dir, prefix)
+        # Find one 001 Front card from each pack — up to 9 different investigators
+        packs = sorted([p for p in INVESTIGATORS_DIR.iterdir() 
+                       if p.is_dir() and "Quick Look" not in p.name])
+        pairs = []
+        for pack in packs:
+            card_001 = sorted(pack.rglob("*001*-Front.png"))
+            if card_001:
+                front_path = card_001[0]
+                back_path = Path(str(front_path).replace("-Front.png", "-Back.png"))
+                pairs.append((front_path, back_path if back_path.exists() else None))
+                print(f"  + {pack.name}: {front_path.name}")
+            if len(pairs) == 9:
+                break
+        print(f"\nTest sheet: {len(pairs)} investigators")
+        make_sheets(pairs, output_dir, "SAMPLER_TEST")
 
     elif args.all:
         packs = [p for p in INVESTIGATORS_DIR.iterdir() if p.is_dir() and p.name != "Quick Look - Investigators"]
