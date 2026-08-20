@@ -67,11 +67,21 @@ def make_blank(width, height, color=(255, 255, 255)):
     return Image.new("RGB", (width, height), color)
 
 def place_card(sheet, card_img, col, row):
-    """Place a card image at grid position (col, row)."""
+    """Place a card image at grid position (col, row) — preserve aspect ratio."""
     x = MARGIN_X + col * CELL_W
     y = MARGIN_Y + row * CELL_H
-    card_resized = card_img.resize((CELL_W, CELL_H), Image.LANCZOS)
-    sheet.paste(card_resized, (x, y))
+
+    # Resize preserving aspect ratio, fit within cell
+    img_w, img_h = card_img.size
+    scale = min(CELL_W / img_w, CELL_H / img_h)
+    new_w = int(img_w * scale)
+    new_h = int(img_h * scale)
+    card_resized = card_img.resize((new_w, new_h), Image.LANCZOS)
+
+    # Centre within cell
+    offset_x = x + (CELL_W - new_w) // 2
+    offset_y = y + (CELL_H - new_h) // 2
+    sheet.paste(card_resized, (offset_x, offset_y))
 
 def place_card_back(sheet, card_img, col, row):
     """Place a back card — mirrored horizontally for duplex long-edge."""
