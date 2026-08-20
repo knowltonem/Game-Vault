@@ -95,8 +95,10 @@ def place_card(sheet, card_img, col, row):
 def place_card_back(sheet, card_img, col, row):
     """Place a back card for duplex long-edge flip.
     Flip on long edge: columns mirror left-right, rows stay the same.
+    Back card rotated 180 degrees so it reads correctly when flipped.
     """
     mirrored_col = (COLS - 1) - col
+    card_img = card_img.rotate(180)
     place_card(sheet, card_img, mirrored_col, row)
 
 def draw_cut_lines(sheet):
