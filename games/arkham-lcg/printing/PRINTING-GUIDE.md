@@ -31,40 +31,81 @@ matte paper handles saturated game card art very well without one.
 
 ---
 
-## Paper Settings — Epson ET-8550 (Windows 11)
+## Epson ET-8550 — Driver Settings (Windows 11)
 
-| Setting | Tab | Value |
-|---|---|---|
-| **Media Type** | Main | Ultra Premium Photo Paper Matte |
-| **Print Quality** | Main | Best |
-| **Color** | Main | Color |
-| **Black Ink** | Main | Matte Black Ink |
-| **Paper Source** | Main | Rear Paper Feed |
-| **Paper Size** | Main | A4 |
-| **Duplex** | Page Layout | Long-edge binding |
-| **Borderless** | Main | Off |
-| **Thick Paper** | Maintenance → Extended Settings | Check this box for 250gsm |
+### How to get to the driver
 
-**Where to find these settings on Windows 11:**
-1. Open any image → File → Print
-2. Select **Epson ET-8550** as printer
+**Every time you print:**
+1. Open your sheet PNG → Ctrl+P
+2. Select Epson ET-8550
 3. Click **Printer Properties** or **Preferences**
-4. You will see the **Main tab** — set Media Type, Quality, Black Ink here
-5. Click **Page Layout tab** for duplex settings
+4. The Epson driver window opens with 3 tabs: **Main / More Options / Maintenance**
 
-**Important — Matte Black Ink:**
-For matte paper the driver must switch to Matte Black Ink.
-Selecting "Ultra Premium Photo Paper Matte" as Media Type does this automatically.
-If you see "Photo Black Ink" selected — change Media Type first, it will switch.
+**To set as default (once):**
+Windows Settings → Bluetooth & devices → Printers & scanners
+→ Epson ET-8550 → Printing preferences → same tabs appear
 
-**Important — Thick Paper setting:**
-250gsm is thick. In the driver go to:
-Maintenance tab → Extended Settings → check **Thick Paper and Envelopes**
-This slows the feed slightly and prevents smearing on heavy stock.
+---
 
-**Always print at Actual Size:**
-In the print dialog set fit to **Actual Size** — never "Fit to Page".
-Fit to Page resizes the cards and throws off the cut lines.
+### MAIN TAB — set these every print
+
+**Paper Source**
+- Select: **Rear Paper Feeder**
+- The rear top tray handles photo and heavy stock like your 250gsm
+- Do NOT leave on Auto — it defaults to the front cassette and the job will fail
+
+**Document Size**
+- Select: **A4**
+- This is what Epson calls the paper size selector (confusingly named)
+
+**Paper Type**
+- Select: **Ultra Premium Photo Paper Matte**
+- If not listed, use: **Premium Photo Paper Matte** or **Matte Paper — Heavyweight**
+- This setting controls ink amount AND automatically switches to Matte Black Ink
+- You do not need to set black ink separately — Paper Type handles it
+
+**Color**
+- Select: **Color**
+
+**Quality**
+- Select: **High**
+- Best quality is available but is slower and uses more ink with minimal visible difference
+- High is the recommended setting for card printing
+
+**Borderless**
+- Leave: **Off** (unchecked)
+
+---
+
+### MORE OPTIONS TAB
+
+**Color Correction**
+- Select: **Color Controls** (let Epson manage colour)
+- Do NOT select ICM or No Color Adjustment unless you have installed a custom ICC profile
+- Leave all sliders at default
+
+---
+
+### MAINTENANCE TAB → Extended Settings
+
+**Thick Paper and Envelopes**
+- Check this box: **ON**
+- Your U-DM250-480 at 250gsm is thick — this slows the feed slightly to prevent smearing
+- Must be set once — it stays checked until you uncheck it
+
+---
+
+### When printing the PNG sheets
+
+1. Open `SAMPLER_TEST_sheet01_front.png` in **Windows Photos**
+2. Ctrl+P → select Epson ET-8550
+3. Click **More Settings**
+4. Set paper size: **A4**
+5. Set fit: **Actual Size** — NEVER Fit to Page (resizes cards)
+6. Click **Printer Properties** → verify Main tab settings above
+7. Print front sheet
+8. Reload paper flipped on long edge
+9. Print back sheet
 
 ---
 
