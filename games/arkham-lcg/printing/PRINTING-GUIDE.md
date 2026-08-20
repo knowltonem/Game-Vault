@@ -33,14 +33,29 @@ matte paper handles saturated game card art very well without one.
 
 ## Paper Settings — Epson ET-8550
 
-| Setting | Value |
-|---|---|
-| **Paper Type** | Ultra Premium Photo Paper Matte |
-| **Paper Size** | A4 (210mm × 297mm) |
-| **Print Quality** | Best Photo |
-| **Colour** | Colour |
-| **Duplex** | Long-edge binding (flip on long edge) |
-| **Borderless** | Off |
+| Setting | Where | Value |
+|---|---|---|
+| **Media Type** | Driver → Main tab | Ultra Premium Photo Paper Matte |
+| **Print Quality** | Driver → Main tab | Best Photo |
+| **Color** | Driver → Main tab | Color |
+| **Paper Source** | Driver → Page Layout tab | Rear Paper Feed |
+| **Paper Size** | Driver → Main tab | A4 |
+| **Fit** | Print dialog | Actual Size — NOT fit to page |
+| **Duplex** | Driver → Page Layout tab | Long-edge binding |
+| **Borderless** | Driver → Main tab | Off |
+
+**Where to set Media Type on Windows:**
+Start → Settings → Bluetooth & devices → Printers & scanners
+→ Epson ET-8550 → Printing Preferences → Main tab → Media Type
+
+**If "Ultra Premium Photo Paper Matte" is not listed, use:**
+- Premium Photo Paper Matte
+- Matte Paper — Heavyweight
+- Ultra Premium Presentation Paper Matte
+
+**Critical — always print at Actual Size:**
+Open PNG in Windows Photos → Print → More Settings → set size to A4
+and fit to "Actual Size". Never use "Fit to Page" — it resizes the cards.
 
 ---
 
