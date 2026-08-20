@@ -12,7 +12,7 @@ import argparse
 import os
 import re
 from pathlib import Path
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 # === CONFIG ===
 REPO_ROOT = Path(r"C:\Users\edwar\Documents\games\board-game-vault")
@@ -114,8 +114,37 @@ def draw_cut_lines(sheet):
         y = MARGIN_Y + r * CELL_H
         draw.line([(0, y), (A4_W, y)], fill=color, width=lw)
 
+def draw_instructions(sheet, sheet_num, total_sheets, side, pack_name):
+    """Draw small print instructions in the bottom margin."""
+    draw = ImageDraw.Draw(sheet)
+
+    # Try to load a font, fall back to default
+    try:
+        font = ImageFont.truetype("arial.ttf", 28)
+        font_small = ImageFont.truetype("arial.ttf", 22)
+    except:
+        font = ImageFont.load_default()
+        font_small = font
+
+    color = (80, 80, 80)
+    margin_left = mm_to_px(3)
+    y_bottom = A4_H - mm_to_px(5)
+
+    if side == "front":
+        line1 = f"{pack_name}  |  Sheet {sheet_num} of {total_sheets}  |  FRONT"
+        line2 = "Print FRONT first. Then flip paper on LONG edge and print BACK."
+    else:
+        line1 = f"{pack_name}  |  Sheet {sheet_num} of {total_sheets}  |  BACK"
+        line2 = "Flip on LONG edge (left side goes up). Load face-down into rear tray."
+
+    draw.text((margin_left, y_bottom - mm_to_px(7)), line1, fill=color, font=font)
+    draw.text((margin_left, y_bottom - mm_to_px(3)), line2, fill=color, font=font_small)
+
+    # Sheet number top-right corner
+    draw.text((A4_W - mm_to_px(20), mm_to_px(2)), f"S{sheet_num}/{total_sheets} {side.upper()}", fill=color, font=font_small)
+
+
 def make_sheets(pairs, output_dir: Path, prefix: str):
-    """Generate front and back sheet PNGs from card pairs."""
     output_dir.mkdir(parents=True, exist_ok=True)
     per_sheet = COLS * ROWS
     sheet_num = 0
@@ -145,8 +174,12 @@ def make_sheets(pairs, output_dir: Path, prefix: str):
                 img = make_blank(CELL_W, CELL_H, (30, 30, 80))
                 place_card_back(back_sheet, img, col, row)
 
+        total_sheets = (len(pairs) + per_sheet - 1) // per_sheet
+
         draw_cut_lines(front_sheet)
         draw_cut_lines(back_sheet)
+        draw_instructions(front_sheet, sheet_num, total_sheets, "front", prefix)
+        draw_instructions(back_sheet, sheet_num, total_sheets, "back", prefix)
 
         front_out = output_dir / f"{prefix}_sheet{sheet_num:02d}_front.png"
         back_out = output_dir / f"{prefix}_sheet{sheet_num:02d}_back.png"
