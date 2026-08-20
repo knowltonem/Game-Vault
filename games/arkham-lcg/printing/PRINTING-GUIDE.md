@@ -31,31 +31,40 @@ matte paper handles saturated game card art very well without one.
 
 ---
 
-## Paper Settings — Epson ET-8550
+## Paper Settings — Epson ET-8550 (Windows 11)
 
-| Setting | Where | Value |
+| Setting | Tab | Value |
 |---|---|---|
-| **Media Type** | Driver → Main tab | Ultra Premium Photo Paper Matte |
-| **Print Quality** | Driver → Main tab | Best Photo |
-| **Color** | Driver → Main tab | Color |
-| **Paper Source** | Driver → Page Layout tab | Rear Paper Feed |
-| **Paper Size** | Driver → Main tab | A4 |
-| **Fit** | Print dialog | Actual Size — NOT fit to page |
-| **Duplex** | Driver → Page Layout tab | Long-edge binding |
-| **Borderless** | Driver → Main tab | Off |
+| **Media Type** | Main | Ultra Premium Photo Paper Matte |
+| **Print Quality** | Main | Best |
+| **Color** | Main | Color |
+| **Black Ink** | Main | Matte Black Ink |
+| **Paper Source** | Main | Rear Paper Feed |
+| **Paper Size** | Main | A4 |
+| **Duplex** | Page Layout | Long-edge binding |
+| **Borderless** | Main | Off |
+| **Thick Paper** | Maintenance → Extended Settings | Check this box for 250gsm |
 
-**Where to set Media Type on Windows:**
-Start → Settings → Bluetooth & devices → Printers & scanners
-→ Epson ET-8550 → Printing Preferences → Main tab → Media Type
+**Where to find these settings on Windows 11:**
+1. Open any image → File → Print
+2. Select **Epson ET-8550** as printer
+3. Click **Printer Properties** or **Preferences**
+4. You will see the **Main tab** — set Media Type, Quality, Black Ink here
+5. Click **Page Layout tab** for duplex settings
 
-**If "Ultra Premium Photo Paper Matte" is not listed, use:**
-- Premium Photo Paper Matte
-- Matte Paper — Heavyweight
-- Ultra Premium Presentation Paper Matte
+**Important — Matte Black Ink:**
+For matte paper the driver must switch to Matte Black Ink.
+Selecting "Ultra Premium Photo Paper Matte" as Media Type does this automatically.
+If you see "Photo Black Ink" selected — change Media Type first, it will switch.
 
-**Critical — always print at Actual Size:**
-Open PNG in Windows Photos → Print → More Settings → set size to A4
-and fit to "Actual Size". Never use "Fit to Page" — it resizes the cards.
+**Important — Thick Paper setting:**
+250gsm is thick. In the driver go to:
+Maintenance tab → Extended Settings → check **Thick Paper and Envelopes**
+This slows the feed slightly and prevents smearing on heavy stock.
+
+**Always print at Actual Size:**
+In the print dialog set fit to **Actual Size** — never "Fit to Page".
+Fit to Page resizes the cards and throws off the cut lines.
 
 ---
 
