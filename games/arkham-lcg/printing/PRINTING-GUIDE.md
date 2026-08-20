@@ -109,7 +109,39 @@ Windows Settings → Bluetooth & devices → Printers & scanners
 
 ---
 
-## Card Dimensions
+## Print Sheet Specification — Locked Settings
+
+These are the confirmed settings used by `make_sheets.py`.
+Do not change unless Strange Eons export format changes.
+
+| Setting | Value | Reason |
+|---|---|---|
+| **Card cell size** | 70mm × 95mm | Actual Strange Eons export size after rotation |
+| **Bleed** | 0mm added | Bleed already baked into PNG by Strange Eons |
+| **Card orientation** | Auto-rotate landscape → portrait | Strange Eons exports landscape (1126×826px) |
+| **Grid** | 3×3 = 9 cards per A4 sheet | 3×70mm = 210mm = exact A4 width |
+| **Back sheet — columns** | Mirrored left-right | Long-edge flip swaps left/right |
+| **Back sheet — rows** | Same as front | Long-edge flip does not invert rows |
+| **Back card rotation** | 180° | Corrects orientation after long-edge flip |
+| **DPI** | 300 | Strange Eons exports at 300 DPI |
+| **Sheet format** | PNG at 300 DPI | Direct print from Epson Photo+ |
+
+---
+
+## Script Commands
+
+```
+# Sampler test sheet — 9 different investigator 001 cards
+python make_sheets.py --test --output ./print_output/test
+
+# Full pack
+python make_sheets.py --pack "Nix the Puritan" --output ./print_output
+
+# All packs
+python make_sheets.py --all --output ./print_output
+```
+
+---
 
 | | Metric | Imperial |
 |---|---|---|
