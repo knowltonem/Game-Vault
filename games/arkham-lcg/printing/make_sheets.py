@@ -115,33 +115,47 @@ def draw_cut_lines(sheet):
         draw.line([(0, y), (A4_W, y)], fill=color, width=lw)
 
 def draw_instructions(sheet, sheet_num, total_sheets, side, pack_name):
-    """Draw small print instructions in the bottom margin."""
+    """Draw print instructions in the bottom margin."""
     draw = ImageDraw.Draw(sheet)
 
-    # Try to load a font, fall back to default
-    try:
-        font = ImageFont.truetype("arial.ttf", 28)
-        font_small = ImageFont.truetype("arial.ttf", 22)
-    except:
-        font = ImageFont.load_default()
-        font_small = font
+    # Try system fonts at large size — fall back to default
+    font_large = None
+    font_small = None
+    for font_name in ["arialbd.ttf", "arial.ttf", "DejaVuSans-Bold.ttf", "DejaVuSans.ttf"]:
+        try:
+            font_large = ImageFont.truetype(font_name, 52)
+            font_small = ImageFont.truetype(font_name, 38)
+            break
+        except:
+            continue
+    if font_large is None:
+        font_large = ImageFont.load_default()
+        font_small = font_large
 
-    color = (80, 80, 80)
-    margin_left = mm_to_px(3)
-    y_bottom = A4_H - mm_to_px(5)
+    color = (60, 60, 60)
+    margin_left = mm_to_px(4)
+
+    # Bottom margin area — cards end at MARGIN_Y + ROWS*CELL_H
+    cards_bottom = MARGIN_Y + ROWS * CELL_H
+    available = A4_H - cards_bottom  # space below cards
+
+    # Place text centred in the bottom margin
+    y1 = cards_bottom + int(available * 0.15)
+    y2 = cards_bottom + int(available * 0.55)
 
     if side == "front":
-        line1 = f"{pack_name}  |  Sheet {sheet_num} of {total_sheets}  |  FRONT"
-        line2 = "Print FRONT first. Then flip paper on LONG edge and print BACK."
+        line1 = f"FRONT  |  {pack_name}  |  Sheet {sheet_num} of {total_sheets}"
+        line2 = "Step 1: Print this sheet.  Step 2: Flip paper on LONG edge.  Step 3: Print BACK sheet."
     else:
-        line1 = f"{pack_name}  |  Sheet {sheet_num} of {total_sheets}  |  BACK"
-        line2 = "Flip on LONG edge (left side goes up). Load face-down into rear tray."
+        line1 = f"BACK   |  {pack_name}  |  Sheet {sheet_num} of {total_sheets}"
+        line2 = "Flip on LONG edge (left side goes up). Reload face-down into rear tray."
 
-    draw.text((margin_left, y_bottom - mm_to_px(7)), line1, fill=color, font=font)
-    draw.text((margin_left, y_bottom - mm_to_px(3)), line2, fill=color, font=font_small)
+    draw.text((margin_left, y1), line1, fill=color, font=font_large)
+    draw.text((margin_left, y2), line2, fill=color, font=font_small)
 
-    # Sheet number top-right corner
-    draw.text((A4_W - mm_to_px(20), mm_to_px(2)), f"S{sheet_num}/{total_sheets} {side.upper()}", fill=color, font=font_small)
+    # Top-right corner label
+    draw.text((A4_W - mm_to_px(28), mm_to_px(2)),
+              f"S{sheet_num}/{total_sheets} {side.upper()}", fill=color, font=font_small)
 
 
 def make_sheets(pairs, output_dir: Path, prefix: str):
