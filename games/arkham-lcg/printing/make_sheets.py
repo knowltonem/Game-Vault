@@ -23,18 +23,22 @@ DPI = 300
 A4_W_MM = 210
 A4_H_MM = 297
 
-# Card dimensions (mm)
-CARD_W_MM = 63
-CARD_H_MM = 88
-BLEED_MM = 2
-CELL_W_MM = CARD_W_MM + BLEED_MM * 2  # 67mm
-CELL_H_MM = CARD_H_MM + BLEED_MM * 2  # 92mm
+# Actual Strange Eons export dimensions (bleed already included in PNG)
+# Measured from exports: 1126x826px at 300dpi = 95.3x69.9mm (landscape)
+# After auto-rotate to portrait: 69.9mm wide x 95.3mm tall
+CARD_W_MM = 70   # after rotation (was height)
+CARD_H_MM = 95   # after rotation (was width)
+BLEED_MM = 0     # bleed already baked into PNG by Strange Eons
+CELL_W_MM = CARD_W_MM  # 70mm
+CELL_H_MM = CARD_H_MM  # 95mm
 
-# Grid: 3x4 per sheet (12 cards)
+# Grid: 3x3 per sheet (9 cards) — fits perfectly on A4 with margins
+# 3 x 70mm = 210mm = exact A4 width (no side margins needed)
+# 3 x 95mm = 285mm, leaving 12mm top/bottom margin
 COLS = 3
-ROWS = 4
-MARGIN_X_MM = (A4_W_MM - COLS * CELL_W_MM) / 2  # 4.5mm
-MARGIN_Y_MM = (A4_H_MM - ROWS * CELL_H_MM) / 2  # 4.5mm
+ROWS = 3
+MARGIN_X_MM = (A4_W_MM - COLS * CELL_W_MM) / 2  # ~0mm
+MARGIN_Y_MM = (A4_H_MM - ROWS * CELL_H_MM) / 2  # ~6mm
 
 def mm_to_px(mm):
     return int(round(mm * DPI / 25.4))
