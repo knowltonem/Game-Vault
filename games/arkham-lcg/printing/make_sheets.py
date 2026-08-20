@@ -128,11 +128,11 @@ def make_sheets(pairs, output_dir: Path, prefix: str):
         back_out = output_dir / f"{prefix}_sheet{sheet_num:02d}_back.png"
         front_sheet.save(front_out, dpi=(DPI, DPI))
         back_sheet.save(back_out, dpi=(DPI, DPI))
-        print(f"✅ Sheet {sheet_num}: {front_out.name} + {back_out.name} ({len(batch)} cards)")
+        print(f"Sheet {sheet_num}: {front_out.name} + {back_out.name} ({len(batch)} cards)")
 
-    print(f"\n✅ {sheet_num} sheet(s) generated in {output_dir}")
-    print(f"   Print front sheets first, then reload paper and print back sheets.")
-    print(f"   Duplex setting: Long-edge flip.")
+    print(f"\nDone: {sheet_num} sheet(s) generated in {output_dir}")
+    print(f"Print front sheets first, then reload paper and print back sheets.")
+    print(f"Duplex setting: Long-edge flip.")
 
 def main():
     parser = argparse.ArgumentParser(description="Arkham LCG Print Sheet Generator")
@@ -149,16 +149,16 @@ def main():
             pairs = get_card_pairs(pack)
             if pairs:
                 prefix = re.sub(r'[^\w]', '_', pack.name)
-                print(f"\n📦 Processing: {pack.name} ({len(pairs)} cards)")
+                print(f"\nProcessing: {pack.name} ({len(pairs)} cards)")
                 make_sheets(pairs, output_dir / pack.name, prefix)
     elif args.pack:
         pack_dir = INVESTIGATORS_DIR / args.pack
         if not pack_dir.exists():
-            print(f"❌ Pack not found: {pack_dir}")
+            print(f"Pack not found: {pack_dir}")
             return
         pairs = get_card_pairs(pack_dir)
         prefix = re.sub(r'[^\w]', '_', args.pack)
-        print(f"\n📦 Processing: {args.pack} ({len(pairs)} cards)")
+        print(f"\nProcessing: {args.pack} ({len(pairs)} cards)")
         make_sheets(pairs, output_dir, prefix)
     else:
         parser.print_help()
