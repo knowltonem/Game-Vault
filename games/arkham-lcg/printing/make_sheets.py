@@ -94,13 +94,10 @@ def place_card(sheet, card_img, col, row):
 
 def place_card_back(sheet, card_img, col, row):
     """Place a back card for duplex long-edge flip.
-    ET-8550 outputs face-down. When paper is flipped on long edge:
-    - Columns mirror left-right
-    - Rows mirror top-bottom
+    Flip on long edge: columns mirror left-right, rows stay the same.
     """
     mirrored_col = (COLS - 1) - col
-    mirrored_row = (ROWS - 1) - row
-    place_card(sheet, card_img, mirrored_col, mirrored_row)
+    place_card(sheet, card_img, mirrored_col, row)
 
 def draw_cut_lines(sheet):
     """Draw faint grey cut lines between cells."""
