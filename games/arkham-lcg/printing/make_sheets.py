@@ -30,9 +30,9 @@ BLEED_MM = 2
 CELL_W_MM = CARD_W_MM + BLEED_MM * 2  # 67mm
 CELL_H_MM = CARD_H_MM + BLEED_MM * 2  # 92mm
 
-# Grid: 3x3 per sheet
+# Grid: 3x4 per sheet (12 cards)
 COLS = 3
-ROWS = 3
+ROWS = 4
 MARGIN_X_MM = (A4_W_MM - COLS * CELL_W_MM) / 2  # 4.5mm
 MARGIN_Y_MM = (A4_H_MM - ROWS * CELL_H_MM) / 2  # 4.5mm
 
@@ -67,12 +67,17 @@ def make_blank(width, height, color=(255, 255, 255)):
     return Image.new("RGB", (width, height), color)
 
 def place_card(sheet, card_img, col, row):
-    """Place a card image at grid position (col, row) — preserve aspect ratio."""
+    """Place a card image at grid position (col, row) — auto-rotate if landscape, preserve aspect ratio."""
     x = MARGIN_X + col * CELL_W
     y = MARGIN_Y + row * CELL_H
 
-    # Resize preserving aspect ratio, fit within cell
+    # Auto-rotate landscape cards to portrait
     img_w, img_h = card_img.size
+    if img_w > img_h:
+        card_img = card_img.rotate(90, expand=True)
+        img_w, img_h = card_img.size
+
+    # Resize preserving aspect ratio, fit within cell
     scale = min(CELL_W / img_w, CELL_H / img_h)
     new_w = int(img_w * scale)
     new_h = int(img_h * scale)
