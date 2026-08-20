@@ -150,12 +150,15 @@ def main():
                        if p.is_dir() and "Quick Look" not in p.name])
         pairs = []
         for pack in packs:
-            card_001 = sorted(pack.rglob("*001*-Front.png"))
-            if card_001:
-                front_path = card_001[0]
-                back_path = Path(str(front_path).replace("-Front.png", "-Back.png"))
-                pairs.append((front_path, back_path if back_path.exists() else None))
-                print(f"  + {pack.name}: {front_path.name}")
+            # Only look in the 001 folder directly — not subfolders like mini
+            folder_001 = sorted([f for f in pack.iterdir() if f.is_dir() and f.name.startswith("001")])
+            if folder_001:
+                front_path = sorted(folder_001[0].glob("*001*-Front.png"))
+                if front_path:
+                    front = front_path[0]
+                    back = Path(str(front).replace("-Front.png", "-Back.png"))
+                    pairs.append((front, back if back.exists() else None))
+                    print(f"  + {pack.name}: {front.name}")
             if len(pairs) == 9:
                 break
         print(f"\nTest sheet: {len(pairs)} investigators")
