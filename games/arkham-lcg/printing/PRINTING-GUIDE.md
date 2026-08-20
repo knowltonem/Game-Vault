@@ -3,6 +3,34 @@
 
 ---
 
+## ICC Colour Profile — Do You Need One?
+
+No dedicated ICC profile exists for U-DM250-480 + ET-8550. This is normal
+for lesser-known paper brands. The good news: the ET-8550's pigment ink on
+matte paper handles saturated game card art very well without one.
+
+**Recommended approach — start simple:**
+1. Use driver setting: **Ultra Premium Photo Paper Matte**
+2. Let **Epson manage colour** (turn off colour management in the app)
+3. Print one test sheet and assess
+4. If colours look off, try one of the free profiles below
+
+**Free ICC profiles if needed:**
+
+| Source | Profile | Driver Setting |
+|---|---|---|
+| Qimage Ultimate | Non-Epson matte profiles for ET-8550 | ddisoftware.com/qimage-u/dl-8550.htm |
+| Red River Paper | Premium Matte — closest match | redrivercatalog.com |
+| Jimmy Nordström | Scandinavian Photo Matte Pro | Velvet Fine Art Paper / Standard |
+
+**How to install a profile on Windows:**
+1. Download the `.icm` file
+2. Right-click it → Install Profile
+3. In your print app: select **Application Manages Colour** → choose the profile
+4. In Epson driver: set colour management to **Off (No Color Adjustment)**
+
+---
+
 ## Paper Settings — Epson ET-8550
 
 | Setting | Value |
