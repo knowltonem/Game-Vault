@@ -138,12 +138,31 @@ def main():
     parser = argparse.ArgumentParser(description="Arkham LCG Print Sheet Generator")
     parser.add_argument("--pack", help="Pack folder name (e.g. 'Nix the Puritan')")
     parser.add_argument("--all", action="store_true", help="Process all investigator packs")
+    parser.add_argument("--test", help="Generate a 9-up test sheet from a pack's 001 card (e.g. 'Nix the Puritan')")
     parser.add_argument("--output", default="./print_output", help="Output directory")
     args = parser.parse_args()
 
     output_dir = Path(args.output)
 
-    if args.all:
+    if args.test:
+        pack_dir = INVESTIGATORS_DIR / args.test
+        if not pack_dir.exists():
+            print(f"Pack not found: {pack_dir}")
+            return
+        # Find the 001 front card
+        card_001 = sorted(pack_dir.rglob("*001*-Front.png"))
+        if not card_001:
+            print(f"No 001 Front card found in: {pack_dir}")
+            return
+        front_path = card_001[0]
+        back_path = Path(str(front_path).replace("-Front.png", "-Back.png"))
+        print(f"\nTest sheet: {front_path.name} x9")
+        # Build 9 identical pairs
+        pairs = [(front_path, back_path if back_path.exists() else None)] * 9
+        prefix = re.sub(r'[^\w]', '_', args.test) + "_TEST"
+        make_sheets(pairs, output_dir, prefix)
+
+    elif args.all:
         packs = [p for p in INVESTIGATORS_DIR.iterdir() if p.is_dir() and p.name != "Quick Look - Investigators"]
         for pack in sorted(packs):
             pairs = get_card_pairs(pack)
