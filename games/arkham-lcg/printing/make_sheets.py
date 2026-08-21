@@ -96,10 +96,9 @@ def place_card_back(sheet, card_img, col, row):
     """Place a back card for duplex long-edge flip.
     ET-8550 rear feeder prints bottom surface.
     Load back sheet art-side-up after flipping on long edge.
-    Columns mirror left-right only — no rotation needed.
+    Long-edge flip already mirrors columns — no additional mirroring needed.
     """
-    mirrored_col = (COLS - 1) - col
-    place_card(sheet, card_img, mirrored_col, row)
+    place_card(sheet, card_img, col, row)
 
 def draw_cut_lines(sheet):
     """Draw faint grey cut lines between cells."""
