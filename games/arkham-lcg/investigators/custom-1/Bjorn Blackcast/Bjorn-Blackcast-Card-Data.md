@@ -18,7 +18,7 @@
 | **Agility** | 3 |
 | **Health** | 6 |
 | **Sanity** | 10 |
-| **Deckbuilding** | Mystic 0-5, Survivor 0-2, Seeker 0-1, Neutral 0-5 |
+| **Deckbuilding** | Deck size: 30. Mystic cards (level 0-5). Neutral cards (level 0-5). |
 
 ### Ability
 Once per round: Before revealing a chaos token, you may exhaust a Rune asset you control to reveal 2 tokens and choose which one applies. Return the other to the bag.
@@ -31,6 +31,20 @@ The mist took him in 914. He walked into that cave, a mistake he understood too 
 
 ### Flavor
 *"A Thousand years in the dark. He learned patience. He learned other things."*
+
+### Deckbuilding Options
+```
+Deck size: 30.
+Mystic cards (level 0-5).
+Neutral cards (level 0-5).
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Runic Staff, The Runic Helm,
+The Ragnarök, 1 random Basic Weakness.
+```
 
 ---
 
