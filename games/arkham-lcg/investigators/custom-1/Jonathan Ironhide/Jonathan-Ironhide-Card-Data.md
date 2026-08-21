@@ -18,7 +18,7 @@
 | **Agility** | 3 |
 | **Health** | 9 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Guardian, Neutral (level 0-5). Mystic (level 0-2). Survivor (level 0-1). |
+| **Deckbuilding** | Deck size: 30. Guardian cards (level 0-5). Neutral cards (level 0-5). |
 
 ### Ability
 [rea] After you defeat an enemy: Gain 1 resource and deal 1 damage to each enemy at your location. (Limit once per round.)
@@ -26,14 +26,20 @@
 ### Elder Sign
 +1. If you succeed, draw 1 card and gain 1 resource.
 
-### Deckbuilding Requirements (do not count toward deck size)
-- The Hollow Warden ×1
-- Hydra Hyde ×1
-- Echoes of R'lyeh ×1
-- 1 random Basic Weakness
+### Deckbuilding Options
+```
+Deck size: 30.
+Guardian cards (level 0-5).
+Neutral cards (level 0-5).
+```
 
-### Deck Size
-30.
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Hollow Warden, Hydra Hyde,
+Echoes of R'lyeh,
+1 random Basic Weakness.
+```
 
 ### Back Flavor
 *"I've seen the sunken city, I can't get it off me."*
