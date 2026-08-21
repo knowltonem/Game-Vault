@@ -59,6 +59,14 @@ Seeker cards (level 0-3).
 Neutral cards (level 0-5).
 ```
 
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Entrenching Shovel, The Field
+Journal, The Dark Finding,
+1 random Basic Weakness.
+```
+
 ---
 
 ## Signature Cards (outside deck)
