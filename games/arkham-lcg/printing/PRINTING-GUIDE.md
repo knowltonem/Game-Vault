@@ -122,10 +122,11 @@ Windows Settings → Bluetooth & devices → Printers & scanners
 
 1. Take the printed front sheet
 2. Flip it on the **LONG edge** (left side comes up and over to the right)
-3. Reload into the rear paper feeder — **face down**
-4. Open the BACK sheet PNG in Epson Photo+
-5. Same settings as above
-6. Print the BACK sheet
+3. Reload into the rear paper feeder — **art side facing UP** (blank side down)
+4. ET-8550 rear feeder prints on the bottom surface — blank side gets printed
+5. Open the BACK sheet PNG in Epson Photo+
+6. Same settings as above
+7. Print the BACK sheet
 
 ### DO NOT use:
 - **Fill Page** — stretches and crops cards
