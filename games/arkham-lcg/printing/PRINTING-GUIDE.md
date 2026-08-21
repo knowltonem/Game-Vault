@@ -147,9 +147,10 @@ Do not change unless Strange Eons export format changes.
 | **Bleed** | 0mm added | Bleed already baked into PNG by Strange Eons |
 | **Card orientation** | Auto-rotate landscape → portrait | Strange Eons exports landscape (1126×826px) |
 | **Grid** | 3×3 = 9 cards per A4 sheet | 3×70mm = 210mm = exact A4 width |
-| **Back sheet — columns** | Mirrored left-right | Long-edge flip swaps left/right |
-| **Back sheet — rows** | Same as front | Long-edge flip does not invert rows |
-| **Back card rotation** | 180° | Corrects orientation after long-edge flip |
+| **Back sheet — columns** | Mirrored left-right | Compensates for long-edge flip |
+| **Back sheet — rows** | Same as front | Rows do not invert on long-edge flip |
+| **Back card rotation** | 180° | Compensates for art-side-up inversion |
+| **Load orientation** | Art side UP into rear feeder | ET-8550 prints on bottom surface |
 | **DPI** | 300 | Strange Eons exports at 300 DPI |
 | **Sheet format** | PNG at 300 DPI | Direct print from Epson Photo+ |
 
