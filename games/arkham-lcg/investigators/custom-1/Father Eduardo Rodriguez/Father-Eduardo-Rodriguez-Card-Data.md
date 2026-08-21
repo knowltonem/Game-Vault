@@ -14,7 +14,7 @@
 | **Agility** | 3 |
 | **Health** | 7 |
 | **Sanity** | 9 |
-| **Deckbuilding** | Mystic, Neutral (level 0-5). Seeker (level 0-2). Guardian (level 0-1). |
+| **Deckbuilding** | Deck size: 30. Mystic cards (level 0-5). Neutral cards (level 0-5). |
 
 ### Ability
 <fre> Once per round: Spend 2 resources — Disengage from all enemies engaged with you and move them up to 2 connections away from your location.
@@ -25,15 +25,26 @@
 ### Elder Sign
 +2. Choose one investigator at your location. Heal up to 2 horror and 2 damage from that investigator.
 
-### Deckbuilding Requirements (do not count toward deck size)
-- Prayer Beads ×1 (Permanent)
-- Holy Cross of St. Thomas ×1
-- Church in Flames ×1
-- Miracle ×1
-- 1 random Basic Weakness
+### Deckbuilding Options
+```
+Deck size: 30.
+Mystic cards (level 0-5).
+Neutral cards (level 0-5).
+```
 
-### Deck Size
-30.
+### Deckbuilding Restrictions
+```
+Prayer Beads begins the game in
+your opening hand. It is permanent.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Holy Cross of St. Thomas, Church
+in Flames, Miracle,
+1 random Basic Weakness.
+```
 
 ### Back Flavor
 *"Stationed on George's Island, he came to Arkham carrying his faith and his field notes. What lives beneath the water is evil in the oldest sense. And evil can be fought."*
