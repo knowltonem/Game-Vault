@@ -36,12 +36,9 @@ You may play Sacred Strength.
 *"I Do Not Fear The Dark"*
 
 ### Requirements
-- The Sacred Spear x1
-- The Tribal Oath x1
-- Sacred Bond x1 (set aside)
-- Sacred Wind x1 (set aside)
-- Sacred Strength x1 (set aside)
-- 1 random basic weakness
+- The Sacred Spear ×1
+- The Tribal Oath ×1
+- 1 random Basic Weakness
 
 ---
 
