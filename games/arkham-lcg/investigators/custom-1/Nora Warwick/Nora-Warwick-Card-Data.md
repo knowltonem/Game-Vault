@@ -28,6 +28,21 @@ Once per round: Spend 1 resource to add 1 bless token to the chaos bag.
 ### Flavor
 *"These Pyramids Hold More Questions than Answers"*
 
+### Deckbuilding Options
+```
+Deck size: 30.
+Rogue cards (level 0-5).
+Neutral cards (level 0-5).
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Warwick Collection,
+The Family Debt,
+1 random Basic Weakness.
+```
+
 ---
 
 ## Signature Asset — 002 The Warwick Collection
