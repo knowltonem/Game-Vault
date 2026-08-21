@@ -136,23 +136,27 @@ Windows Settings → Bluetooth & devices → Printers & scanners
 
 ---
 
-## Print Sheet Specification — Locked Settings
+## Print Sheet Specification — LOCKED AND CONFIRMED
 
-These are the confirmed settings used by `make_sheets.py`.
-Do not change unless Strange Eons export format changes.
+These settings are confirmed working on ET-8550 + U-DM250-480.
+DO NOT CHANGE without reprinting and verifying.
 
 | Setting | Value | Reason |
 |---|---|---|
-| **Card cell size** | 70mm × 95mm | Actual Strange Eons export size after rotation |
-| **Bleed** | 0mm added | Bleed already baked into PNG by Strange Eons |
-| **Card orientation** | Auto-rotate landscape → portrait | Strange Eons exports landscape (1126×826px) |
-| **Grid** | 3×3 = 9 cards per A4 sheet | 3×70mm = 210mm = exact A4 width |
+| **Print size** | 70×96mm per card | Full Strange Eons export including bleed |
+| **Final card size after cutting** | 63×88mm | Official Arkham LCG size |
+| **Bleed** | ~3.5mm each side | Baked into Strange Eons PNG — do not add more |
+| **Card orientation** | Portrait | Auto-rotated from landscape export |
+| **Grid** | 3×3 = 9 cards per A4 | 3×70mm = 210mm = exact A4 width |
+| **Gaps between cards** | 0mm | Bleed acts as gap |
+| **Top/bottom margin** | 4.5mm each | (297 - 3×96) / 2 |
 | **Back sheet — columns** | Mirrored left-right | Compensates for long-edge flip |
-| **Back sheet — rows** | Same as front | Rows do not invert on long-edge flip |
+| **Back sheet — rows** | Same as front | Rows do not invert |
 | **Back card rotation** | 180° | Compensates for art-side-up inversion |
 | **Load orientation** | Art side UP into rear feeder | ET-8550 prints on bottom surface |
 | **DPI** | 300 | Strange Eons exports at 300 DPI |
-| **Sheet format** | PNG at 300 DPI | Direct print from Epson Photo+ |
+| **Sheet format** | PNG | Print from Epson Photo+ |
+| **Fit setting** | Shrink to Fit | Never Fill Page |
 
 ---
 
