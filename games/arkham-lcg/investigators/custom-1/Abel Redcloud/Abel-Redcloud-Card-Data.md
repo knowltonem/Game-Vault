@@ -32,8 +32,8 @@ You may play Sacred Wind.
 ### Cultist
 You may play Sacred Strength.
 
-### Flavor
-*"I Do Not Fear The Dark"*
+### Story
+*"My grandfather fought these things. His grandfather before him. We have always known what lives in the dark."*
 
 ### Deckbuilding Restrictions
 The Sacred Spear begins the game in play. It is permanent.
