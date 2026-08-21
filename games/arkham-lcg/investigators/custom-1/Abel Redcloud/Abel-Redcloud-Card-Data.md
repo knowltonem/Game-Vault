@@ -43,6 +43,11 @@ The Sacred Spear begins the game in play. It is permanent.
 - The Tribal Oath ×1
 - 1 random Basic Weakness
 
+### Additional Requirements
+Sacred Bond ×1, Sacred Wind ×1, and Sacred Strength ×1 are set aside
+at the start of the game. Each may only be played when the corresponding
+chaos token is revealed.
+
 ---
 
 ## Signature Asset — 002 The Sacred Spear
