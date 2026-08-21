@@ -72,13 +72,18 @@ at the stake? Probably. She keeps
 moving anyway.
 ```
 
-### Deckbuilding
+### Deckbuilding Options
 ```
 Deck size: 30.
 Survivor cards (level 0-5).
 Neutral cards (level 0-5).
-Up to 5 level 0 cards from any
-other class.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Keep Moving (2), The Visitor,
+1 random Basic Weakness.
 ```
 
 ---
