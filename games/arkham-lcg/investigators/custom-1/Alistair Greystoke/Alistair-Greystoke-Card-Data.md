@@ -18,7 +18,7 @@
 | **Agility** | 2 |
 | **Health** | 7 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Seeker, Neutral (level 0-5). Guardian, Mystic (level 0-2). |
+| **Deckbuilding** | Deck size: 30. Seeker cards (level 0-5). Neutral cards (level 0-5). |
 
 ### Ability
 [rea] After you successfully investigate: Draw 1 card and gain 1 resource. (Limit once per round.)
