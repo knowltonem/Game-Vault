@@ -39,8 +39,8 @@ You may play Sacred Strength.
 The Sacred Spear begins the game in play. It is permanent.
 
 ### Requirements
-- The Sacred Spear ×1
-- The Tribal Oath ×1
+- The Sacred Spear
+- The Tribal Oath
 - 1 random Basic Weakness
 
 ### Additional Requirements

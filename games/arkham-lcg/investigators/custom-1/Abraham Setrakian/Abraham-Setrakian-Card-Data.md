@@ -70,7 +70,7 @@ in play. It is permanent.
 ### Deckbuilding Requirements
 ```
 (do not count toward deck size)
-Occido Lumen ×2, Thomas Eichhorst,
+Occido Lumen (2), Thomas Eichhorst,
 1 random Basic Weakness.
 ```
 
