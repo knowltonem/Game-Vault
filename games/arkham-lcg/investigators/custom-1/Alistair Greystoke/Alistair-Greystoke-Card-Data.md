@@ -32,6 +32,21 @@ Alistair Greystoke has walked the earth for two hundred years. His life is tethe
 ### Flavor
 *"I cannot die until the Great Old One is slain."*
 
+### Deckbuilding Options
+```
+Deck size: 30.
+Seeker cards (level 0-5).
+Neutral cards (level 0-5).
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Wisdom of Antiquity ×1,
+My Glass is Nearly Run ×1,
+1 random Basic Weakness.
+```
+
 ---
 
 ## Signature Cards (shuffled in, don't count toward deck)
