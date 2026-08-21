@@ -23,23 +23,27 @@ DPI = 300
 A4_W_MM = 210
 A4_H_MM = 297
 
-# Real Arkham LCG card dimensions (printed size)
-# Strange Eons exports at 95.3x69.9mm (landscape) with bleed baked in
-# Real card is 88x63mm — scale down to match
-# After auto-rotate to portrait: 63mm wide x 88mm tall
-CARD_W_MM = 63   # real card width (portrait)
-CARD_H_MM = 88   # real card height (portrait)
-GAP_MM = 2       # small gap between cards for cutting
-CELL_W_MM = CARD_W_MM + GAP_MM   # 65mm
-CELL_H_MM = CARD_H_MM + GAP_MM   # 90mm
+# Strange Eons exports with bleed baked in
+# Full export: 1126x826px at 300dpi = 95.3x69.9mm (landscape)
+# After auto-rotate to portrait: 69.9mm wide x 95.3mm tall
+# Cut the bleed (~3.5mm each side) to get official 63x88mm card
+# Print at FULL export size — cut line sits inside the bleed
+CARD_W_MM = 70   # full export width after rotation (portrait)
+CARD_H_MM = 96   # full export height after rotation (portrait)
+GAP_MM = 1       # 1mm gap between cards
+CELL_W_MM = CARD_W_MM + GAP_MM   # 71mm
+CELL_H_MM = CARD_H_MM + GAP_MM   # 97mm
 
 # Grid on A4 (210 x 297mm)
-# 3 x 65mm = 195mm wide, leaving 15mm (7.5mm each side)
-# 3 x 90mm = 270mm tall, leaving 27mm (13.5mm each side)
+# 3 x 71mm = 213mm — slightly over, reduce gap to 0
+# 3 x 70mm = 210mm = exact A4 width
+# 3 x 96mm = 288mm, leaving 9mm (4.5mm each side top/bottom)
 COLS = 3
 ROWS = 3
-MARGIN_X_MM = (A4_W_MM - COLS * CELL_W_MM) / 2  # 7.5mm
-MARGIN_Y_MM = (A4_H_MM - ROWS * CELL_H_MM) / 2  # 13.5mm
+CELL_W_MM = CARD_W_MM        # 70mm — no gap, bleed acts as gap
+CELL_H_MM = CARD_H_MM        # 96mm
+MARGIN_X_MM = (A4_W_MM - COLS * CELL_W_MM) / 2  # 0mm — edge to edge
+MARGIN_Y_MM = (A4_H_MM - ROWS * CELL_H_MM) / 2  # 4.5mm
 
 def mm_to_px(mm):
     return int(round(mm * DPI / 25.4))
