@@ -57,12 +57,27 @@ should. Now everything he builds
 feels like it is waiting for something.
 ```
 
-### Deckbuilding
+### Deckbuilding Options
 ```
 Deck size: 30.
 Seeker cards (level 0-5).
-Rogue cards (level 0-3).
+Guardian cards (level 0-3).
 Neutral cards (level 0-5).
+```
+
+### Deckbuilding Restrictions
+```
+The Deep Rock begins the game in
+play. It is permanent and cannot
+be discarded.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Clockwork Companion, The Deep One,
+The Arcane Timepiece (2),
+1 random Basic Weakness.
 ```
 
 ---
