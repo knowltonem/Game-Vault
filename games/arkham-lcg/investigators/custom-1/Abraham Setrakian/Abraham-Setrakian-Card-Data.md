@@ -61,6 +61,19 @@ Guardian cards (level 0-5).
 Neutral cards (level 0-5).
 ```
 
+### Deckbuilding Restrictions
+```
+Caput Lupinum begins the game
+in play. It is permanent.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Occido Lumen ×2, Thomas Eichhorst,
+1 random Basic Weakness.
+```
+
 ---
 
 ## Signature Cards (outside deck)
