@@ -54,6 +54,20 @@ Survivor cards (level 0-5).
 Neutral cards (level 0-5).
 ```
 
+### Deckbuilding Restrictions
+```
+The Box begins the game in your
+opening hand. It is permanent.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Box, The Blade, The Dead (1 of 3),
+The Dead (2 of 3), The Dead (3 of 3),
+1 random Basic Weakness.
+```
+
 ---
 
 ## Signature Cards (outside deck)
