@@ -18,7 +18,7 @@
 | **Agility** | 3 |
 | **Health** | 7 |
 | **Sanity** | 8 |
-| **Deckbuilding** | Guardian 0-5, Mystic 0-2, Neutral 0-5 |
+| **Deckbuilding** | Deck size: 30. Guardian cards (level 0-5). Mystic cards (level 0-2). Neutral cards (level 0-5). |
 
 ### Ability
 Once per round: Before making a skill test, you may spend 1 resource to get +2 to that test.
@@ -32,11 +32,21 @@ He found too many dark things in Dunwich. He fought his way back to Arkham, but 
 ### Flavor
 *"I've seen things you people wouldn't believe."*
 
-### Requirements
-- The Red Blade ×1
-- The Black Cloak ×1
-- The Dunwich Hounds ×2 (Weakness)
-- 1 random basic weakness
+### Deckbuilding Options
+```
+Deck size: 30.
+Guardian cards (level 0-5).
+Mystic cards (level 0-2).
+Neutral cards (level 0-5).
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Red Blade, The Black Cloak,
+The Dunwich Hounds (2),
+1 random Basic Weakness.
+```
 
 ---
 
