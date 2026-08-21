@@ -53,9 +53,19 @@ for answers about what came back with her."
 ```
 Deck size: 30.
 All cards (level 0-5).
-No Weapon cards.
-Signature cards: Medical Bag, Innsmouth Codex, Nurse Uniform,
-Fog of Innsmouth, 1 random basic weakness.
+```
+
+### Deckbuilding Restrictions
+```
+Cannot include Weapon cards.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Medical Bag, Innsmouth Codex,
+Nurse Uniform, Fog of Innsmouth,
+1 random Basic Weakness.
 ```
 
 ---
