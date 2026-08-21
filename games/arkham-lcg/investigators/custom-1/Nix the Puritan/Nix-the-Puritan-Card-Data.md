@@ -58,18 +58,27 @@ He was there when it spoke.
 There is only room for one.
 ```
 
-### Deckbuilding
+### Deckbuilding Options
 ```
 Deck size: 30.
 Mystic cards (level 0-5).
 Neutral cards (level 0-5).
-Up to 5 level 0 cards from any
-other class.
+```
 
-Book of Nix: Nix the Puritan has
-4 arcane slots instead of 2. Each
-arcane slot may only hold a Spell
-asset.
+### Deckbuilding Restrictions
+```
+Fire begins the game in play.
+It is permanent.
+Nix the Puritan has 4 arcane slots
+instead of 2. Each arcane slot may
+only hold a Spell asset.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Voice of the Sleeping God (2),
+The Binding, 1 random Basic Weakness.
 ```
 
 ---
