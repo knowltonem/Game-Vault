@@ -35,6 +35,9 @@ You may play Sacred Strength.
 ### Flavor
 *"I Do Not Fear The Dark"*
 
+### Deckbuilding Restrictions
+The Sacred Spear begins the game in play. It is permanent.
+
 ### Requirements
 - The Sacred Spear ×1
 - The Tribal Oath ×1
