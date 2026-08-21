@@ -66,9 +66,19 @@ that storm followed him ashore.
 Deck size: 30.
 Survivor cards (level 0-5).
 Neutral cards (level 0-5).
-Up to 5 level 0 cards from any 
-other class (Guardian, Seeker, 
-Rogue and/or Mystic).
+```
+
+### Deckbuilding Restrictions
+```
+Snipps begins the game in play.
+It is permanent.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+Spyglass, Old Friends,
+Storm Wraith, 1 random Basic Weakness.
 ```
 
 ---
