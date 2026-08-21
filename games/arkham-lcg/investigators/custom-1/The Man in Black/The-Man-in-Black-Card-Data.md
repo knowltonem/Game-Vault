@@ -18,7 +18,7 @@
 | **Agility** | 4 |
 | **Health** | 7 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Rogue cards level 0-5, Neutral cards level 0-5, up to 15 Guardian cards level 0-1. No Spell cards of any level. No Arcane assets. You have 2 Ally slots instead of 1. |
+| **Deckbuilding** | Deck size: 30. Rogue cards (level 0-5). Neutral cards (level 0-5). |
 
 ### Ability
 At the start of the round: You may spend any number of resources. Choose 1 skill (WIL, INT, COM, or AGI). For each 2 resources spent, get +1 to that skill until the end of the round.
@@ -42,11 +42,28 @@ Not on his watch.
 ### Flavor
 *"Cash in the bag. No questions. That's the deal."*
 
-### Requirements
-- The Fixer ×1 (Permanent)
-- Cash in the Bag ×1 (Permanent)
-- Sneaky Pete ×1 (Weakness)
-- 1 random basic weakness
+### Deckbuilding Options
+```
+Deck size: 30.
+Rogue cards (level 0-5).
+Neutral cards (level 0-5).
+```
+
+### Deckbuilding Restrictions
+```
+The Fixer and Cash in the Bag begin
+the game in play. Both are permanent.
+Cannot include Spell cards of any level.
+Cannot include Arcane assets.
+You have 2 Ally slots instead of 1.
+```
+
+### Deckbuilding Requirements
+```
+(do not count toward deck size)
+The Fixer, Cash in the Bag,
+Sneaky Pete, 1 random Basic Weakness.
+```
 
 ---
 
