@@ -95,17 +95,43 @@ Windows Settings → Bluetooth & devices → Printers & scanners
 
 ---
 
-### When printing the PNG sheets
+## Printing from Epson Photo+ (Windows 11) — Step by Step
 
-1. Open `SAMPLER_TEST_sheet01_front.png` in **Windows Photos**
-2. Ctrl+P → select Epson ET-8550
-3. Click **More Settings**
-4. Set paper size: **A4**
-5. Set fit: **Actual Size** — NEVER Fit to Page (resizes cards)
-6. Click **Printer Properties** → verify Main tab settings above
-7. Print front sheet
-8. Reload paper flipped on long edge
-9. Print back sheet
+### Every print job — front sheet first:
+
+1. Open **Epson Photo+**
+2. Confirm **ET-8550 Series (Network)** selected at top
+3. Click **Photo**
+4. **Paper Settings** dialog:
+   - Select **A4** → OK
+5. Add your sheet PNG file
+6. In print settings:
+   - **Fit:** Shrink to Fit ← CRITICAL — NOT Fill Page
+   - **Orientation:** Portrait
+   - **Copies:** 1
+7. Click **Print Settings** or **Printer Properties** (Epson driver):
+   - **Main tab → Media Type:** Ultra Premium Photo Paper Matte
+   - **Main tab → Quality:** High
+   - **Main tab → Color:** Color
+   - **Main tab → Paper Source:** Rear Paper Feeder
+   - **Maintenance → Extended Settings → Thick Paper and Envelopes:** ON
+8. Print the FRONT sheet
+9. Let sit 2 minutes before handling
+
+### Flipping for the back sheet:
+
+1. Take the printed front sheet
+2. Flip it on the **LONG edge** (left side comes up and over to the right)
+3. Reload into the rear paper feeder — **face down**
+4. Open the BACK sheet PNG in Epson Photo+
+5. Same settings as above
+6. Print the BACK sheet
+
+### DO NOT use:
+- **Fill Page** — stretches and crops cards
+- **Fit to Page** (if different from Shrink to Fit) — may resize
+- **Landscape** orientation
+- Any rotation option in Epson Photo+
 
 ---
 
