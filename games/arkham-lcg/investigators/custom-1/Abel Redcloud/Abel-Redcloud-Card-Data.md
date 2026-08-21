@@ -18,7 +18,7 @@
 | **Agility** | 3 |
 | **Health** | 8 |
 | **Sanity** | 7 |
-| **Deckbuilding** | Guardian 0-5, Mystic 0-2, Survivor 0-2. Deck size: 30. |
+| **Deckbuilding** | Deck size: 30. Guardian cards (level 0-5). Mystic cards (level 0-2). Survivor cards (level 0-2). |
 
 ### Ability
 At the Beginning of the Mythos phase, add 1 bless token to the chaos bag and heal one damage.
