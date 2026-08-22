@@ -1,0 +1,32 @@
+{
+  "id": "dick_hallorann",
+  "name": "Dick Hallorann",
+  "class": "mystic",
+  "stats": {
+    "willpower": 4,
+    "intellect": 3,
+    "combat": 2,
+    "agility": 3,
+    "health": 7,
+    "sanity": 8
+  },
+  "ability": {
+    "trigger": "reaction",
+    "text": "Once per round: You may look at the top 2 cards of the encounter deck. Return them in any order or place one on top and one on the bottom."
+  },
+  "elder_sign": {
+    "text": "+2. Gain 2 resources and draw 2 cards."
+  },
+  "deck": [
+    {"id": "the_box", "name": "The Box", "type": "asset", "cost": 0, "text": "Permanent. Starts in opening hand.", "quantity": 1},
+    {"id": "the_blade", "name": "The Blade", "type": "asset", "cost": 2, "slot": "hand", "text": "Fight using <wil>. +1 damage.", "quantity": 1},
+    {"id": "shrivelling", "name": "Shrivelling", "type": "asset", "cost": 3, "slot": "arcane", "text": "Fight using <wil>. +1 damage. On a skull/tentacle: take 1 horror.", "quantity": 2},
+    {"id": "ward_of_protection", "name": "Ward of Protection", "type": "event", "cost": 1, "text": "Cancel encounter card. Take 1 horror.", "quantity": 2},
+    {"id": "rite_of_seeking", "name": "Rite of Seeking", "type": "asset", "cost": 4, "slot": "arcane", "text": "Investigate using <wil>. Discover 1 extra clue on success.", "quantity": 2},
+    {"id": "lantern", "name": "The Lantern", "type": "asset", "cost": 1, "slot": "hand", "text": "+1 INT for investigate.", "quantity": 2},
+    {"id": "old_coin", "name": "The Old Coin", "type": "asset", "cost": 0, "text": "Exhaust: gain 2 resources.", "quantity": 2},
+    {"id": "fearless", "name": "Fearless", "type": "skill", "icons": {"willpower": 2}, "text": "Heal 1 horror on success.", "quantity": 2},
+    {"id": "unexpected_courage", "name": "Unexpected Courage", "type": "skill", "icons": {"wild": 2}, "quantity": 2},
+    {"id": "guts", "name": "Guts", "type": "skill", "icons": {"willpower": 2}, "text": "Draw 1 card on success.", "quantity": 2}
+  ]
+}
