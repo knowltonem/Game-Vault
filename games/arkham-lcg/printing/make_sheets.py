@@ -124,7 +124,7 @@ def draw_instructions(sheet, sheet_num, total_sheets, side, pack_name):
     # Try system fonts at large size — fall back to default
     font_large = None
     font_small = None
-    for font_name in ["arialbd.ttf", "arial.ttf", "DejaVuSans-Bold.ttf", "DejaVuSans.ttf"]:
+    for font_name in [r"C:\Windows\Fonts\arialbd.ttf", r"C:\Windows\Fonts\arial.ttf"]:
         try:
             font_large = ImageFont.truetype(font_name, 52)
             font_small = ImageFont.truetype(font_name, 38)
@@ -165,13 +165,7 @@ def make_template_sheet(output_dir: Path, total_cards=9):
     """Generate a minimal ink test template -- white cards with number and outline only."""
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    try:
-        font = ImageFont.truetype("arialbd.ttf", 400)
-    except:
-        try:
-            font = ImageFont.truetype("arial.ttf", 400)
-        except:
-            font = ImageFont.load_default()
+    font = ImageFont.truetype(r"C:\Windows\Fonts\arialbd.ttf", 400)
 
     for side in ["front", "back"]:
         sheet = make_blank(A4_W, A4_H, (255, 255, 255))
