@@ -162,10 +162,11 @@ def draw_instructions(sheet, sheet_num, total_sheets, side, pack_name):
 
 
 def make_template_sheet(output_dir: Path, total_cards=9):
-    """Generate a minimal ink test template -- white cards with number and outline only."""
+    """Generate a minimal ink test template -- white cards with number and orientation labels."""
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    font = ImageFont.truetype(r"C:\Windows\Fonts\arial.ttf", 180)
+    font_num = ImageFont.truetype(r"C:\Windows\Fonts\arial.ttf", 180)
+    font_edge = ImageFont.truetype(r"C:\Windows\Fonts\arial.ttf", 60)
 
     for side in ["front", "back"]:
         sheet = make_blank(A4_W, A4_H, (255, 255, 255))
@@ -182,22 +183,48 @@ def make_template_sheet(output_dir: Path, total_cards=9):
             x = MARGIN_X + col * CELL_W
             y = MARGIN_Y + row * CELL_H
 
-            # Draw card outline
+            # Card outline
             draw.rectangle([x+2, y+2, x+CELL_W-2, y+CELL_H-2], outline=(0,0,0), width=3)
 
-            # Draw card number in centre
+            # Centre number
             num = str(idx + 1)
-            bbox = draw.textbbox((0,0), num, font=font)
+            bbox = draw.textbbox((0,0), num, font=font_num)
             tw = bbox[2] - bbox[0]
             th = bbox[3] - bbox[1]
             tx = x + (CELL_W - tw) // 2
             ty = y + (CELL_H - th) // 2
-            draw.text((tx, ty), num, fill=(0,0,0), font=font)
+            draw.text((tx, ty), num, fill=(0,0,0), font=font_num)
 
-        # Cut lines
+            pad = mm_to_px(3)
+
+            # TOP label — centred top edge
+            top_text = "TOP"
+            tb = draw.textbbox((0,0), top_text, font=font_edge)
+            tw2 = tb[2] - tb[0]
+            draw.text((x + (CELL_W - tw2)//2, y + pad), top_text, fill=(80,80,80), font=font_edge)
+
+            # BOTTOM label — centred bottom edge
+            bot_text = "BOTTOM"
+            bb = draw.textbbox((0,0), bot_text, font=font_edge)
+            bw = bb[2] - bb[0]
+            bh = bb[3] - bb[1]
+            draw.text((x + (CELL_W - bw)//2, y + CELL_H - bh - pad), bot_text, fill=(80,80,80), font=font_edge)
+
+            # LEFT label — rotated 90, left edge
+            left_img = Image.new("RGBA", (200, 80), (255,255,255,0))
+            left_draw = ImageDraw.Draw(left_img)
+            left_draw.text((0,0), "LEFT", fill=(80,80,80), font=font_edge)
+            left_rot = left_img.rotate(90, expand=True)
+            sheet.paste(left_rot, (x + pad, y + (CELL_H - left_rot.height)//2), left_rot)
+
+            # RIGHT label — rotated 270, right edge
+            right_img = Image.new("RGBA", (200, 80), (255,255,255,0))
+            right_draw = ImageDraw.Draw(right_img)
+            right_draw.text((0,0), "RIGHT", fill=(80,80,80), font=font_edge)
+            right_rot = right_img.rotate(270, expand=True)
+            sheet.paste(right_rot, (x + CELL_W - right_rot.width - pad, y + (CELL_H - right_rot.height)//2), right_rot)
+
         draw_cut_lines(sheet)
-
-        # Instructions
         draw_instructions(sheet, 1, 1, side, "TEMPLATE TEST")
 
         out = output_dir / f"TEMPLATE_{side}.png"
