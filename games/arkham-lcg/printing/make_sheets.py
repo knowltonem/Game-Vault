@@ -161,7 +161,60 @@ def draw_instructions(sheet, sheet_num, total_sheets, side, pack_name):
               f"S{sheet_num}/{total_sheets} {side.upper()}", fill=color, font=font_small)
 
 
+def make_template_sheet(output_dir: Path, total_cards=9):
+    """Generate a minimal ink test template -- white cards with number and outline only."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        font = ImageFont.truetype("arialbd.ttf", 120)
+    except:
+        try:
+            font = ImageFont.truetype("arial.ttf", 120)
+        except:
+            font = ImageFont.load_default()
+
+    for side in ["front", "back"]:
+        sheet = make_blank(A4_W, A4_H, (255, 255, 255))
+        draw = ImageDraw.Draw(sheet)
+
+        per_sheet = COLS * ROWS
+        for idx in range(min(total_cards, per_sheet)):
+            col = idx % COLS
+            row = idx // COLS
+
+            if side == "back":
+                col = (COLS - 1) - col
+
+            x = MARGIN_X + col * CELL_W
+            y = MARGIN_Y + row * CELL_H
+
+            # Draw card outline
+            draw.rectangle([x+2, y+2, x+CELL_W-2, y+CELL_H-2], outline=(0,0,0), width=3)
+
+            # Draw card number in centre
+            num = str(idx + 1)
+            bbox = draw.textbbox((0,0), num, font=font)
+            tw = bbox[2] - bbox[0]
+            th = bbox[3] - bbox[1]
+            tx = x + (CELL_W - tw) // 2
+            ty = y + (CELL_H - th) // 2
+            draw.text((tx, ty), num, fill=(0,0,0), font=font)
+
+        # Cut lines
+        draw_cut_lines(sheet)
+
+        # Instructions
+        draw_instructions(sheet, 1, 1, side, "TEMPLATE TEST")
+
+        out = output_dir / f"TEMPLATE_{side}.png"
+        sheet.save(out, dpi=(DPI, DPI))
+        print(f"Template {side}: {out.name}")
+
+    print(f"\nDone: template sheets saved to {output_dir}")
+
+
 def make_sheets(pairs, output_dir: Path, prefix: str):
+    """Generate front and back sheet PNGs from card pairs."""
     output_dir.mkdir(parents=True, exist_ok=True)
     per_sheet = COLS * ROWS
     sheet_num = 0
@@ -212,13 +265,17 @@ def main():
     parser = argparse.ArgumentParser(description="Arkham LCG Print Sheet Generator")
     parser.add_argument("--pack", help="Pack folder name (e.g. 'Nix the Puritan')")
     parser.add_argument("--all", action="store_true", help="Process all investigator packs")
-    parser.add_argument("--test", action="store_true", help="Generate a sampler sheet with 9 different investigator 001 cards")
+    parser.add_argument("--template", action="store_true", help="Generate minimal ink test template with card outlines and numbers only")
     parser.add_argument("--output", default="./print_output", help="Output directory")
     args = parser.parse_args()
 
     output_dir = Path(args.output)
 
-    if args.test:
+    if args.template:
+        print("Generating minimal ink template sheet...")
+        make_template_sheet(output_dir / "template")
+
+    elif args.test:
         # Find one 001 Front card from each pack — up to 9 different investigators
         packs = sorted([p for p in INVESTIGATORS_DIR.iterdir() 
                        if p.is_dir() and "Quick Look" not in p.name])
