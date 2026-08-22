@@ -166,10 +166,10 @@ def make_template_sheet(output_dir: Path, total_cards=9):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     try:
-        font = ImageFont.truetype("arialbd.ttf", 120)
+        font = ImageFont.truetype("arialbd.ttf", 400)
     except:
         try:
-            font = ImageFont.truetype("arial.ttf", 120)
+            font = ImageFont.truetype("arial.ttf", 400)
         except:
             font = ImageFont.load_default()
 
