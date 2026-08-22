@@ -165,7 +165,7 @@ def make_template_sheet(output_dir: Path, total_cards=9):
     """Generate a minimal ink test template -- white cards with number and outline only."""
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    font = ImageFont.truetype(r"C:\Windows\Fonts\arialbd.ttf", 400)
+    font = ImageFont.truetype(r"C:\Windows\Fonts\arial.ttf", 180)
 
     for side in ["front", "back"]:
         sheet = make_blank(A4_W, A4_H, (255, 255, 255))
