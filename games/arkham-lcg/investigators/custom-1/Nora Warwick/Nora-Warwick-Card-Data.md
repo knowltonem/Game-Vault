@@ -258,7 +258,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | 012 | Isfet's Fury | Event | 3 | Improvised. Relic. Cursed. | Choose a location. Deal 2 dmg to each enemy there. Each investigator there takes 1 dmg. Add 1 bless token. | — |
 | 013-014 | Grave Robber ×2 | Event | 0 | Supply. | Gain 3 resources. | "The museum will pay handsomely." |
 | 015-016 | Anti-Chamber ×2 | Event | 0 | Insight. | Fast. Move to a connecting location. | — |
-| 017-018 | The Pact of Kha ×2 | Event | 0 | Augury. | Gain 4 resources. Add 2 curse tokens to the chaos bag. | — |
+| 017-018 | The Pact of Kha ×2 | Event | 0 | Augury. | Gain 4 resources. Add 1 curse token to the chaos bag. | — |
 | 019-020 | Power of the Ancients ×2 | Skill | — | Innate. Blessed. | Max 1 committed per skill test. If this test is successful: Draw 1 card. | — |
 | 021-022 | Ancient Intuition ×2 | Event | 2 | Insight. | Fast. Discover 1 clue at your location. | — |
 | 023-024 | Oxford Studies ×2 | Skill | — | Practiced. | Succeed while investigating: Discover 1 additional clue. | "She sees what others miss." |
@@ -267,7 +267,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | 029-030 | Pharaoh's Chariot ×2 | Skill | — | — | AGI icons. No rules text. | "Speed can often make up the difference." |
 | 031-032 | The Oxford Gambit ×2 | Skill | — | — | Commit to evasion only. +2 AGI. Succeed: Move to connecting location. | "A gambit is not a retreat. It is a better position." |
 | 033-034 | Power of Thebes ×2 | Skill | — | Innate. | Commit to fight or evasion only. | "Oxford taught her to think. Thebes taught her to move." |
-| 035-036 | Nile's Blessing ×2 | Event | 1 | Insight. | Choose investigator at your location: Heal 2 horror, may discard Terror card. | "Let the Water of the Nile Heal You" |
+| 035-036 | Nile's Blessing ×2 | Event | 1 | Insight. | Choose an investigator at your location. That investigator heals 2 horror. | "Let the Water of the Nile Heal You" |
 
 ---
 
@@ -321,7 +321,7 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | Isfet's Fury | Cost 3, AoE 2 dmg all enemies at location, all investigators take 1 dmg, +1 bless |
 | Grave Robber | Cost 0, gain 3r |
 | Anti-Chamber | Cost 0, fast move to connecting location |
-| Pact of Kha | Cost 0, gain 4r, add 2 curse tokens |
+| Pact of Kha | Cost 0, gain 4r, add 1 curse token |
 | Sand Veil | REMOVED — replaced by Power of the Ancients |
 | Power of the Ancients | Skill, WIL/WIL, max 1 per test, draw 1 on success |
 | Ancient Intuition | Cost 2, fast discover 1 clue |
@@ -329,7 +329,59 @@ After this attack resolves: Cancel the next horror Nora Warwick would be dealt t
 | Sobek's Gift | Cost 0, fast each investigator draws 1 card |
 | Oxford Gambit | Skill, commit to evasion only, +2 AGI, move on success |
 | Power of Thebes | Skill, commit to fight or evasion only |
-| Nile's Blessing | Cost 1, heal 2 horror + may discard Terror card |
+| Nile's Blessing | Cost 1, choose investigator at your location, that investigator heals 2 horror |
 | Canopic Wrappings | Cost 0, attach to ally: +2 HP |
 | Scarab Amulet | Attach to ally: +2 SAN |
 | Eye Amulet | Attach to ally: +2 HP or +2 SAN (choice) |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 37 |
+| No icon | 7 |
+| Single icon | 12 |
+| Double icons | 8 |
+| Triple icons | 0 |
+| 4+ icons | 0 |
+| Total icons | 38 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 14 |
+| Willpower (WIL) | 7 |
+| Intellect (INT) | 6 |
+| Combat (COM) | 4 |
+| Agility (AGI) | 10 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | The Warwick Collection | — (no icons) |
+| 004 | Ra-Night-Gaunt | — (no icons) |
+| 005 | Call of Anubis | — (no icons) |
+| 006 | The Horus Heresy | — (no icons) |
+| 007 | The Kopis | COM |
+| 008 | The Khopesh | COM |
+| 009 | The Sekhem Sceptre | WIL |
+| 010 | The Book of the Dead | INT |
+| 011 | The Collar of Sekhmet | WIL |
+| 012 | Isfet's Fury | WIL |
+| 017-018 | The Pact of Kha ×2 | WLD |
+| 015-016 | Anti-Chamber ×2 | AGI |
+| 019-020 | Power of the Ancients ×2 | WIL/WIL |
+| 021-022 | Ancient Intuition ×2 | INT |
+| 023-024 | Oxford Studies ×2 | INT |
+| 025-026 | Ra's Wrath ×2 | COM |
+| 029-030 | Pharaoh's Chariot ×2 | AGI/AGI |
+| 031-032 | The Oxford Gambit ×2 | AGI/AGI |
+| 033-034 | Power of Thebes ×2 | WLD/WLD |
+| 035-036 | Nile's Blessing ×2 | WLD |
+| 037 | The Canopic Wrappings | — (no icons) |
+| 038 | The Scarab Amulet | — (no icons) |
+| 039 | The Eye Amulet | — (no icons) |
