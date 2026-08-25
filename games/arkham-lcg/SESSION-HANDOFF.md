@@ -30,11 +30,11 @@ _Generated from active session — drop into new chat to resume_
 | 018-019 | Ancient Rites ×2 | INT |
 | 020-021 | Preposterous Sketches ×2 | — (no icons) |
 | 022-023 | Arcane Encyclopaedia ×2 | INT |
+| 024-025 | The Cleansing ×2 | WIL |
 
-### Still to build in Strange Eons (024–035):
+### Still to build in Strange Eons (026–035):
 | # | Card | Icons |
 |---|---|---|
-| 024-025 | The Cleansing ×2 | WIL |
 | 026-027 | Gut Feeling ×2 | WIL |
 | 028-029 | Unexpected Courage ×2 | WLD/WLD |
 | 030 | Cornered ×1 | WLD/WLD/WLD |
