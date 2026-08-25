@@ -347,6 +347,10 @@ Deal 1 damage to each enemy in play.
 ### 026-027 — Gut Feeling ×2
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wil>`
 
+```
+If this test is successful, draw 1 card.
+```
+
 ---
 
 ### 028-029 — Unexpected Courage ×2
