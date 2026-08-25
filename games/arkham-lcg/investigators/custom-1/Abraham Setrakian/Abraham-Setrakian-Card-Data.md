@@ -368,7 +368,7 @@ If this test fails, draw 2 cards.
 ---
 
 ### 030 — Cornered ×1
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld><wld>`
+- **Type:** Skill | **Class:** Neutral | **Traits:** Practiced. | **Icons:** `<wld><wld><wld>`
 
 ```
 If this test is successful, take 1 damage.
