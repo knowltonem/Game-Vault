@@ -36,11 +36,9 @@ _Generated from active session — drop into new chat to resume_
 | 030 | Cornered ×1 | WLD/WLD/WLD |
 | 031-032 | Pick Pocket ×2 | WIL |
 | 033-034 | Survival Instinct ×2 | AGI/AGI |
-
-### Still to build in Strange Eons (035):
-| # | Card | Icons |
-|---|---|---|
 | 035 | Speculum Veritatis ×1 | INT |
+
+### ALL 35 CARDS BUILT AND EXPORTED — DECK COMPLETE
 
 ### RESOLVED
 - Deck is now 30 cards (006-035). Speculum Veritatis (Seeker asset, 2r, non-unique) added as card 035 to fill the slot Cornered's cut left open.
