@@ -361,8 +361,9 @@ If this test is successful, draw 1 card.
 ```
 Max 1 committed per skill test.
 If this test is successful, gain 1 resource.
+If this test fails, draw 2 cards.
 ```
-*Custom variant — official card (ArkhamDB #01093) has no resource-gain clause.*
+*Custom variant — official card (ArkhamDB #01093) has no bonus effects; risk/reward balance added.*
 
 ---
 
