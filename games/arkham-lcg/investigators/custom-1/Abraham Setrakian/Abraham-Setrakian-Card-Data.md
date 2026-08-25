@@ -305,6 +305,8 @@ Shuffle the rest back.
 Play only if there is a clue on
 your location. Draw 3 cards.
 ```
+*Flavor: "All these things I've seen before."*
+*Source: ArkhamDB #60218 (official card, flavor is custom).*
 
 ---
 
