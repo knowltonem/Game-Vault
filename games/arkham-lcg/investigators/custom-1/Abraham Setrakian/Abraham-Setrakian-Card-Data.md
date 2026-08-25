@@ -382,9 +382,11 @@ If this test is successful, take 1 damage.
 
 ```
 Max 1 committed per skill test.
-If this test is successful, draw 1 card.
+If this test is successful, gain 1 resource.
+If you succeed by 2 or more, gain 2
+resources instead.
 ```
-*Modeled after Overpower (Core Set #01091).*
+*Modeled after Overpower (Core Set #01091), reworked for resource gain.*
 
 ---
 
