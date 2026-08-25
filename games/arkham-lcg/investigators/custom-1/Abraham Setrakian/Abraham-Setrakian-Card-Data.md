@@ -340,7 +340,7 @@ cards back into their deck.
 ```
 Deal 1 damage to each enemy in play.
 ```
-*Flavor: "He has done this before. He will do it again."*
+*Flavor: "I may be old, but I am still dangerous."*
 
 ---
 
