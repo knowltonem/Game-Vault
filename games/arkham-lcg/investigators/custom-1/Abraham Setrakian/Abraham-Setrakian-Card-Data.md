@@ -395,19 +395,20 @@ resources instead.
 
 | Field | Value |
 |---|---|
-| **Type** | Event |
+| **Type** | Skill |
 | **Class** | Survivor |
-| **Traits** | Fortune. Innate. |
-| **Cost** | 0r |
-| **Icons** | — (no icons) |
+| **Traits** | Innate. |
+| **Icons** | `<agi>` |
 
 ```
-<fre> When you draw Survival Instinct
-from your deck: Play it immediately
-at no cost without using an action.
-
-Draw 1 card. Gain 1 resource.
+If this skill test is successful during
+an evasion attempt, the evading
+investigator may immediately disengage
+from each other enemy engaged with
+him or her, and may move to a
+connecting location.
 ```
+*Matches official card (ArkhamDB #01081).*
 
 ---
 
