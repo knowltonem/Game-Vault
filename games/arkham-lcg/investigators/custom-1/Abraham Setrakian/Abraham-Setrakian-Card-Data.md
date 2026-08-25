@@ -285,7 +285,7 @@ Gain 3 resources.
 | **Type** | Event |
 | **Class** | Seeker |
 | **Traits** | Research. Ritual. |
-| **Cost** | 0r |
+| **Cost** | 1r |
 | **Icons** | `<int>` |
 
 ```
