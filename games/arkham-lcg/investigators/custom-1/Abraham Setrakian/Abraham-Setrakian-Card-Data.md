@@ -373,6 +373,7 @@ If this test fails, draw 2 cards.
 ```
 If this test is successful, take 1 damage.
 ```
+*Flavor: "I stand against the dark."*
 
 ---
 
