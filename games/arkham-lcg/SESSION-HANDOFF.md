@@ -32,11 +32,11 @@ _Generated from active session — drop into new chat to resume_
 | 022-023 | Arcane Encyclopaedia ×2 | INT |
 | 024-025 | The Cleansing ×2 | WIL |
 | 026-027 | Gut Feeling ×2 | WIL |
+| 028-029 | Unexpected Courage ×2 | WLD |
 
-### Still to build in Strange Eons (028–035):
+### Still to build in Strange Eons (030–035):
 | # | Card | Icons |
 |---|---|---|
-| 028-029 | Unexpected Courage ×2 | WLD |
 | 030 | Cornered ×1 | WLD/WLD/WLD |
 | 031-032 | Pick Pocket ×2 | WIL |
 | 033-034 | Survival Instinct ×2 | — (no icons) |
