@@ -366,3 +366,42 @@ during this test: Cancel that token's effect.
 | **Investigator** | 001 Dick Hallorann |
 | **Signature Cards** | 002-006 (outside deck) |
 | **Deck** | 007-036 (30 cards) |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 1 |
+| Single icon | 8 |
+| Double icons | 23 |
+| Triple icons | 0 |
+| Total icons | 54 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 21 |
+| Willpower (WIL) | 17 |
+| Intellect (INT) | 12 |
+| Agility (AGI) | 4 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 003 | The Blade | WIL/WIL |
+| 007-008 | The Lantern ×2 | WIL/WIL |
+| 009-010 | The Old Coin ×2 | INT/INT |
+| 011-012 | The Shine ×2 | WILD/WILD |
+| 013-014 | Grandpa Joe ×2 | AGI/AGI |
+| 015-016 | The Outsider ×2 | WILD/WILD |
+| 017-018 | Read the Signs ×2 | WIL/INT |
+| 019-020 | Ward of Protection ×2 | WIL/WILD |
+| 024-025 | Perseverance ×2 | WIL/WILD |
+| 030-031 | Guts ×2 | WIL/WIL |
+| 032-033 | Perception ×2 | INT/INT |
+| 034-035 | Unexpected Courage ×2 | WILD/WILD |

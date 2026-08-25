@@ -315,3 +315,44 @@ Abel Redcloud/
 ├── 036-River-of-Gold/
 └── Abel-Redcloud-Card-Data.md
 ```
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 34 |
+| No icon | 4 |
+| Single icon | 7 |
+| Double icons | 21 |
+| Triple icons | 2 |
+| Total icons | 55 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 14 |
+| Willpower (WIL) | 24 |
+| Combat (COM) | 14 |
+| Agility (AGI) | 3 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 007 | Teeth of the Deep Ones | WIL/WIL |
+| 008 | Sacred Fire | AGI/AGI |
+| 009 | The Ritual Knife | WIL/COM |
+| 010-011 | Spirit Coyote ×2 | WIL/COM |
+| 012-013 | Sweat Lodge ×2 | WIL/WILD |
+| 015-016 | Noble Sacrifice ×2 | WIL/WIL |
+| 019 | On the Hunt | COM/WIL |
+| 020 | Fire Walker | WIL/AGI |
+| 021-022 | "Back to the Dark! ×2 | COM/WIL |
+| 025-026 | Elder Strength ×2 | COM/COM |
+| 027-028 | Chieftain Wisdom ×2 | WIL/WIL |
+| 031-032 | Awaken the Spirits ×2 | WILD/WILD/WILD |
+| 033-034 | Unexpected Courage ×2 | WILD/WILD |
+| 035-036 | River of Gold ×2 | WIL/WILD |

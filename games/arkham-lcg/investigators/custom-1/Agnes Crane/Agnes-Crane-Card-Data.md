@@ -253,3 +253,47 @@ Agnes Crane/
 ├── 035-Salems-Lot/
 └── Agnes-Crane-Card-Data.md
 ```
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 33 |
+| No icon | 1 |
+| Single icon | 6 |
+| Double icons | 21 |
+| Triple icons | 5 |
+| Total icons | 63 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 24 |
+| Willpower (WIL) | 15 |
+| Intellect (INT) | 20 |
+| Agility (AGI) | 4 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | The Night-Gaunt | WIL/WILD |
+| 003 | The Haunted Veil | WILD/WILD |
+| 005 | The Pale Child | INT/INT |
+| 008-009 | Grotesque Statue ×2 | INT/AGI |
+| 010-011 | Working a Hunch ×2 | INT/INT |
+| 014-015 | Look What I Found! ×2 | INT/INT |
+| 016 | Narrow Escape | AGI/AGI/WILD |
+| 017 | Arcane Athame | WIL/WIL |
+| 020-021 | Drawn to the Flame ×2 | WILD/WILD |
+| 022-023 | Crack the Case ×2 | INT/INT |
+| 024-025 | Guts ×2 | WIL/WIL |
+| 026-027 | Perception ×2 | INT/INT |
+| 028 | Unexpected Courage | WILD/WILD |
+| 029 | The Pale Knife | WIL/WIL |
+| 030-031 | Rise to the Occasion ×2 | WILD/WILD/WILD |
+| 032-033 | Inquiring Mind ×2 | WILD/WILD/WILD |
+| 035 | Salem's Lot | WIL/WIL |

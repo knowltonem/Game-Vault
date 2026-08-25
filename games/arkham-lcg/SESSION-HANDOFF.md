@@ -24,12 +24,12 @@ _Generated from active session — drop into new chat to resume_
 | 006-007 | Vasiliy Fet ×2 | WLD |
 | 008-009 | Calculated Risk ×2 | AGI |
 | 010-011 | They Keep Me Alive ×2 | — (no icons) |
-
-### Still to build in Strange Eons (012–035):
-| # | Card | Icons |
-|---|---|---|
 | 012-013 | Crowd Control ×2 | COM/COM |
 | 014-015 | Scatter ×2 | — (no icons) |
+
+### Still to build in Strange Eons (016–035):
+| # | Card | Icons |
+|---|---|---|
 | 016-017 | Inheritance ×2 | — (no icons) |
 | 018-019 | Ancient Rites ×2 | INT |
 | 020-021 | Preposterous Sketches ×2 | — (no icons) |

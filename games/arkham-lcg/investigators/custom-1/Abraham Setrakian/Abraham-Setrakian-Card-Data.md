@@ -21,10 +21,10 @@
 
 ### Ability
 ```
-<rea> Once per round: You may evade
-an enemy at your location. This
-does not provoke attacks of
-opportunity.
+<fre> Once per round: You may evade
+an enemy at your location, then move
+to a connecting location. This does
+not provoke attacks of opportunity.
 ```
 
 ### Elder Sign
@@ -58,6 +58,7 @@ For now, I hunt them.
 Deck size: 30.
 Seeker cards (level 0-5).
 Guardian cards (level 0-5).
+Survivor cards (level 0-5).
 Neutral cards (level 0-5).
 ```
 
@@ -157,7 +158,7 @@ damage to Abraham Setrakian.
 
 ---
 
-## Deck (006-034)
+## Deck (006-035)
 
 ### 006-007 — Vasiliy Fet ×2
 
@@ -171,7 +172,7 @@ damage to Abraham Setrakian.
 | **HP soak** | 3 |
 | **SAN soak** | 3 |
 | **Unique** | Yes |
-| **Icons** | `<wld><wld>` |
+| **Icons** | `<wld>` |
 
 ```
 <rea> Exhaust Vasiliy Fet: When
@@ -204,7 +205,7 @@ location.
 | **Slot** | — (no slot) |
 | **Cost** | 2r |
 | **Unique** | No |
-| **Icons** | `<agi><agi>` |
+| **Icons** | `<agi>` |
 
 ```
 <rea> Exhaust Calculated Risk:
@@ -225,10 +226,10 @@ If you fail, take 1 additional damage.
 | **Class** | Guardian |
 | **Traits** | Item. Medical. |
 | **Slot** | — (no slot) |
-| **Cost** | 2r |
+| **Cost** | 1r |
 | **Uses** | 3 supplies |
 | **Unique** | No |
-| **Icons** | `<int>` |
+| **Icons** | — (no icons) |
 
 ```
 Uses (3 supplies).
@@ -245,17 +246,31 @@ investigator at your location.
 - **Type:** Event | **Class:** Survivor | **Cost:** 2r
 - **Traits:** Tactic. | **Icons:** `<com><com>`
 
+```
+Deal 1 damage to each enemy at your
+location. You may move to a
+connecting location after.
+```
+*Flavor: "Don't Let Them Touch You."*
+
 ---
 
 ### 014-015 — Scatter ×2
 - **Type:** Event | **Class:** Survivor | **Cost:** 1r
-- **Traits:** Tactic. | **Icons:** `<agi><agi>`
+- **Traits:** Tactic. | **Icons:** —
+
+```
+Choose up to 3 enemies at your
+location. Move each chosen enemy
+to a connecting location of your
+choice.
+```
 
 ---
 
 ### 016-017 — Inheritance ×2
 - **Type:** Event | **Class:** Neutral | **Cost:** 0r
-- **Traits:** Supply. | **Icons:** `<wld>`
+- **Traits:** Supply. | **Icons:** —
 
 ```
 Gain 3 resources.
@@ -283,18 +298,34 @@ Shuffle the rest back.
 ---
 
 ### 020-021 — Preposterous Sketches ×2
-- **Type:** Event | **Class:** Seeker | **Cost:** 0r
-- **Traits:** Research. | **Icons:** `<int>`
+- **Type:** Event | **Class:** Seeker | **Cost:** 2r
+- **Traits:** Insight. | **Icons:** — (no icons)
+
+```
+Play only if there is a clue on
+your location. Draw 3 cards.
+```
 
 ---
 
 ### 022-023 — Arcane Encyclopaedia ×2
-- **Type:** Asset — Hand | **Class:** Seeker | **Cost:** 2r
-- **Traits:** Item. Tome. | **Slot:** Hand | **Icons:** `<int>`
+*Ability adapted from Old Book of Lore (Core Set #31).*
+
+- **Type:** Asset — Arcane | **Class:** Seeker | **Cost:** 3r
+- **Traits:** Item. Tome. | **Slot:** Arcane | **Icons:** `<int>`
+
+```
+Exhaust Arcane Encyclopaedia: Choose
+an investigator at your location.
+That investigator searches the top
+3 cards of their deck for a card,
+draws it, and shuffles the remaining
+cards back into their deck.
+```
 
 ---
 
-### 024 — The Cleansing ×1
+### 024-025 — The Cleansing ×2
 
 | Field | Value |
 |---|---|
@@ -302,7 +333,7 @@ Shuffle the rest back.
 | **Class** | Guardian |
 | **Traits** | Spell. Blessed. |
 | **Cost** | 2r |
-| **Icons** | `<wil><wil>` |
+| **Icons** | `<wil>` |
 
 ```
 Deal 1 damage to each enemy in play.
@@ -311,17 +342,17 @@ Deal 1 damage to each enemy in play.
 
 ---
 
-### 025-026 — Gut Feeling ×2
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil><wil>`
+### 026-027 — Gut Feeling ×2
+- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil>`
 
 ---
 
-### 027-028 — Unexpected Courage ×2
+### 028-029 — Unexpected Courage ×2
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
 
 ---
 
-### 029-030 — Cornered ×2
+### 030 — Cornered ×1
 - **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld><wld>`
 
 ```
@@ -331,7 +362,7 @@ If this test is successful, take 1 damage.
 ---
 
 ### 031-032 — Pick Pocket ×2
-- **Type:** Skill | **Class:** Survivor | **Icons:** `<wld>`
+- **Type:** Skill | **Class:** Survivor | **Icons:** `<wil>`
 
 ```
 If this test is successful: Return a card
@@ -348,7 +379,7 @@ from your discard pile to your hand.
 | **Class** | Survivor |
 | **Traits** | Fortune. Innate. |
 | **Cost** | 0r |
-| **Icons** | `<agi><agi>` |
+| **Icons** | — (no icons) |
 
 ```
 <fre> When you draw Survival Instinct
@@ -357,3 +388,52 @@ at no cost without using an action.
 
 Draw 1 card. Gain 1 resource.
 ```
+
+---
+
+### 035 — Speculum Veritatis ×1
+
+| Field | Value |
+|---|---|
+| **Type** | Asset — Accessory |
+| **Class** | Seeker |
+| **Traits** | Item. Relic. |
+| **Slot** | Accessory |
+| **Cost** | 1r |
+| **Unique** | No |
+| **Icons** | `<int>` |
+
+```
+<act> Exhaust Speculum Veritatis: Choose an
+unrevealed location connected to your location.
+Reveal it.
+```
+*Flavor: "The glass does not lie. It shows what waits ahead."*
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 9 |
+| No icon | 5 |
+| Single icon | 4 |
+| Double icons | 0 |
+| Triple icons | 0 |
+| Total icons | 4 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 2 |
+| Intellect (INT) | 0 |
+| Agility (AGI) | 2 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 006-007 | Vasiliy Fet ×2 | WLD |
+| 008-009 | Calculated Risk ×2 | AGI |

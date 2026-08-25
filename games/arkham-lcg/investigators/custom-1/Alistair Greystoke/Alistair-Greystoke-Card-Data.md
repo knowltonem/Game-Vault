@@ -258,3 +258,44 @@ At the start of your turn: Draw 1 card.
 | Deck size | ✅ 30 cards (006-035) |
 | Art 004 | My Glass is Nearly Run — art not yet generated |
 | 035 | Needs Strange Eons build |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 35 |
+| No icon | 9 |
+| Single icon | 5 |
+| Double icons | 16 |
+| Triple icons | 5 |
+| Total icons | 52 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 9 |
+| Willpower (WIL) | 10 |
+| Intellect (INT) | 30 |
+| Agility (AGI) | 3 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | Wisdom of Antiquity | INT/INT |
+| 004 | The Collector's Ledger | INT/INT |
+| 006 | The Greystoke Tomb | AGI/AGI/AGI |
+| 007 | Arkham Scrolls | INT/INT |
+| 013 | Whispers from the Archive | INT/INT |
+| 014-015 | Deduction ×2 | INT/INT |
+| 016-017 | Perception ×2 | INT/INT |
+| 020-021 | Working a Hunch ×2 | INT/INT |
+| 022-023 | Drawn to the Flame ×2 | WIL/INT/WILD |
+| 028-029 | Ward of Protection ×2 | WIL/INT |
+| 032 | Evidence! | INT/INT |
+| 033-034 | Guts ×2 | WIL/WIL |
+| 035-036 | Inquiring Mind ×2 | WILD/WILD/WILD |
+| 037 | Whispers from the Archive | INT/INT |

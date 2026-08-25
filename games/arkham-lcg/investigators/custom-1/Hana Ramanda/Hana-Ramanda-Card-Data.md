@@ -445,3 +445,38 @@ at no cost without using an action.
 Draw 1 card. Gain 1 resource.
 ```
 *Flavor: TBD*
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 2 |
+| Single icon | 16 |
+| Double icons | 12 |
+| Triple icons | 2 |
+| Total icons | 46 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 18 |
+| Willpower (WIL) | 6 |
+| Intellect (INT) | 4 |
+| Combat (COM) | 8 |
+| Agility (AGI) | 10 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002-003 | Keep Moving ×2 | AGI/AGI |
+| 011-012 | Lucky Purse ×2 | COM/COM |
+| 021-022 | Crowd Control ×2 | COM/COM |
+| 023-024 | Scatter ×2 | AGI/AGI |
+| 029-030 | Gut Feeling ×2 | WIL/WIL |
+| 031-032 | Unexpected Courage ×2 | WILD/WILD |
+| 033-034 | Cornered ×2 | WILD/WILD/WILD |

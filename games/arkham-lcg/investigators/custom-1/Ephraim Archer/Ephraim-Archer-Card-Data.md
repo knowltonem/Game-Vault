@@ -186,3 +186,50 @@ The Dunwich Hounds (2),
 | Swift Shadows | Skill, innate, if successful while evading: after evading the enemy, move to any location |
 | Hunt Them Down | Cost 1, Search the encounter deck top 4 cards. Put two on top and two on the bottom. Shuffle the encounter deck. |
 | 035 | Needs Strange Eons build |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 0 |
+| Single icon | 0 |
+| Double icons | 32 |
+| Triple icons | 0 |
+| Total icons | 64 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 27 |
+| Willpower (WIL) | 12 |
+| Intellect (INT) | 2 |
+| Combat (COM) | 14 |
+| Agility (AGI) | 9 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | The Red Blade | COM/COM |
+| 003 | The Black Cloak | AGI/WILD |
+| 006-007 | Prepare for the Worst ×2 | COM/WILD |
+| 008-009 | What He's Owed ×2 | WILD/WILD |
+| 010-011 | The Dunwich Relic ×2 | WIL/WIL |
+| 012 | Kori Kross | COM/AGI |
+| 013 | William Dread | COM/AGI |
+| 014 | Sebastian Fenn | WILD/WILD |
+| 015 | The Man in Black | WILD/WILD |
+| 016-017 | RagTag ×2 | WILD/WILD |
+| 018-019 | Ancient Fortune ×2 | WIL/INT |
+| 020-021 | Fighter's Fury ×2 | COM/COM |
+| 022-023 | "I'll Take You With Me" ×2 | COM/WILD |
+| 024-025 | Brush It Off ×2 | WIL/WILD |
+| 026-027 | Mystic Blast ×2 | WILD/WILD |
+| 028-029 | Old Soldier ×2 | WILD/WILD |
+| 030-031 | Iron Will ×2 | WIL/WIL |
+| 032-033 | Swift Shadows ×2 | AGI/AGI |
+| 034-035 | Hunt Them Down ×2 | COM/AGI |

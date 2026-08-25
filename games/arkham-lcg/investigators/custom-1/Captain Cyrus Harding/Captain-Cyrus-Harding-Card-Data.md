@@ -215,3 +215,41 @@ Hunter.
 | **Pack Name** | Captain Cyrus Harding Investigator Pack |
 | **Pack Code** | RYP-CH |
 | **Investigator** | 001 Captain Cyrus Harding |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 5 |
+| Single icon | 11 |
+| Double icons | 14 |
+| Triple icons | 2 |
+| Total icons | 45 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 19 |
+| Willpower (WIL) | 8 |
+| Intellect (INT) | 8 |
+| Combat (COM) | 6 |
+| Agility (AGI) | 4 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 003 | Spyglass | WIL/WIL |
+| 006 | Captain's Hat | WILD/WILD |
+| 009-010 | All Hands on Deck ×2 | WIL/WIL |
+| 013-014 | Boarding Party ×2 | COM/COM |
+| 015-016 | Sail Away ×2 | AGI/AGI |
+| 025-026 | Swab the Deck ×2 | INT/INT |
+| 029-030 | The Perfect Storm ×2 | WILD/WILD/WILD |
+| 031 | Guts | WIL/WIL |
+| 032 | Perception | INT/INT |
+| 033-034 | Unexpected Courage ×2 | WILD/WILD |

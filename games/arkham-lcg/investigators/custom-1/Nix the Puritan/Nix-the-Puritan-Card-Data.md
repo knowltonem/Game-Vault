@@ -474,3 +474,41 @@ to 2 locations away from your location.
 | **Pack Name** | Nix the Puritan Investigator Pack |
 | **Pack Code** | RYP-NX |
 | **Investigator** | 001 Nix the Puritan |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 33 |
+| No icon | 1 |
+| Single icon | 12 |
+| Double icons | 20 |
+| Triple icons | 0 |
+| Total icons | 52 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 16 |
+| Willpower (WIL) | 19 |
+| Intellect (INT) | 7 |
+| Agility (AGI) | 10 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 003-004 | Voice of the Sleeping God ×2 | WILD/WILD |
+| 006-007 | My Pet ×2 | AGI/AGI |
+| 008-009 | Murder The World ×2 | WIL/WIL |
+| 010-011 | Here Is My Wisdom ×2 | INT/INT |
+| 012 | His Followers | WILD/WILD |
+| 013-014 | Scroll of Secrets ×2 | AGI/WIL |
+| 017-018 | Bearer of the Word ×2 | WIL/WIL |
+| 023-024 | Dragon Eyes ×2 | AGI/AGI |
+| 029-030 | Fearless ×2 | WILD/WILD |
+| 031-032 | I Know Fire, I Know the Dark ×2 | WIL/WIL |
+| 033 | Old One's Gifts | WILD/WILD |

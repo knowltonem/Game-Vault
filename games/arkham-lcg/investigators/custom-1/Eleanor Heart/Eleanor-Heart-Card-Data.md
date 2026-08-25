@@ -541,3 +541,46 @@ No additional rules text.
 | Ally 1 | Private Parker / Corporal Cortez / Private Doss |
 | Ally 2 | General Marshall |
 | Ally 3 | (third ally � Nurse Uniform enables) |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 33 |
+| No icon | 1 |
+| Single icon | 6 |
+| Double icons | 25 |
+| Triple icons | 1 |
+| Total icons | 59 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 17 |
+| Willpower (WIL) | 18 |
+| Intellect (INT) | 19 |
+| Agility (AGI) | 5 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 003 | The Innsmouth Codex | INT/WIL |
+| 006 | Private Parker | AGI/WILD |
+| 007 | General Marshall | WIL/WILD |
+| 008 | Corporal Cortez | AGI/WILD |
+| 009 | Private Doss | AGI/WILD |
+| 014-015 | Diagnosis, Terminal ×2 | WIL/WILD |
+| 016-017 | Arcane Practice ×2 | INT/INT |
+| 018-019 | Triage ×2 | WIL/INT |
+| 020-021 | Patch Up ×2 | WIL/WILD |
+| 022-023 | Fort Warren Chapel ×2 | WIL/WIL |
+| 024-025 | The Shores of Innsmouth ×2 | INT/AGI |
+| 026-027 | Do No Harm ×2 | WIL/WILD |
+| 028-029 | The Codex Revealed ×2 | INT/INT |
+| 031-032 | Prognosis Negative ×2 | WIL/WILD |
+| 033-034 | Focused Mind ×2 | INT/INT |
+| 035 | The Undying Will | WIL/INT/WILD |

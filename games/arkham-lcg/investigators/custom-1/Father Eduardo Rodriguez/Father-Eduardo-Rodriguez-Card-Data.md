@@ -236,3 +236,44 @@ He arrived in Arkham carrying his field notes and his faith. He found Eleanor He
 | 001-035 | Needs Strange Eons build and export |
 | Art | Most cards need art |
 | Mini marker | Eduardo-mini folder created, needs EON build |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 33 |
+| No icon | 3 |
+| Single icon | 9 |
+| Double icons | 19 |
+| Triple icons | 2 |
+| Total icons | 53 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 10 |
+| Willpower (WIL) | 18 |
+| Intellect (INT) | 15 |
+| Agility (AGI) | 10 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 005 | Miracle | WIL/WIL |
+| 008-009 | All Mighty Wrath ×2 | INT/INT |
+| 010 | 010-St-Huberts-Key | WILD/WILD |
+| 013 | Encyclopedia | INT/INT |
+| 014-015 | Purge the Heretic ×2 | WIL/WILD |
+| 016-017 | Light of Faith ×2 | INT/INT |
+| 018-019 | Read the Signs ×2 | WIL/WIL |
+| 020-021 | Fort Warren Mission ×2 | AGI/AGI |
+| 022 | Divine Insight | WIL/INT/AGI |
+| 024 | Answered Prayers | AGI/AGI/AGI |
+| 026-027 | Ethereal Form ×2 | AGI/WILD |
+| 030-031 | Guts ×2 | WIL/WIL |
+| 032 | Act of Faith | WIL/WIL |
+| 033 | Blessed Reward | INT/INT |

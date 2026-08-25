@@ -211,3 +211,48 @@ The Ragnarök, 1 random Basic Weakness.
 | Deck | 007-036 (30 cards). 037 Leif's Leap folder retained but not in deck. |
 
 
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 35 |
+| No icon | 0 |
+| Single icon | 6 |
+| Double icons | 29 |
+| Triple icons | 0 |
+| Total icons | 64 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 15 |
+| Willpower (WIL) | 30 |
+| Intellect (INT) | 12 |
+| Agility (AGI) | 7 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | The Runic Staff | WIL/WIL |
+| 003 | The Runic Helm | WIL/WIL |
+| 005 | Loki's Spirit | WIL/INT |
+| 006 | Thor's Honor | WIL/WIL |
+| 007-008 | Rune of Lightning ×2 | WIL/WIL |
+| 009-010 | The Allfather's Eye ×2 | WIL/INT |
+| 011-012 | Sif's Blessing ×2 | WIL/AGI |
+| 013 | Norns' Sight | WIL/INT |
+| 014 | Mjolnir's Might | WILD/WILD |
+| 019-020 | Eir's Touch ×2 | WIL/WIL |
+| 021-022 | The Valkyrie's Embrace ×2 | WIL/AGI |
+| 023-024 | The Bifrost Path ×2 | AGI/WILD |
+| 025-026 | Sigurd's Fury ×2 | WIL/WIL |
+| 027-028 | Vegtam "The Wanderer" ×2 | WILD/WILD |
+| 029-030 | Rune Sight ×2 | INT/INT |
+| 031-032 | Odin's Library ×2 | INT/INT |
+| 033-034 | Njord's Calm ×2 | WIL/WILD |
+| 037 | Leif's Leap | AGI/WILD |

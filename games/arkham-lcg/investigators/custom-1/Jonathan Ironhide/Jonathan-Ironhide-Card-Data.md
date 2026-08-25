@@ -201,3 +201,36 @@ If Hydra Hyde would be discarded, you may spend 2 resources to shuffle it into y
 | Item | Issue |
 |---|---|
 | 009-010 | Luck of the Draw — needs Strange Eons build and export |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 9 |
+| Single icon | 11 |
+| Double icons | 10 |
+| Triple icons | 2 |
+| Total icons | 37 |
+
+| Icon type | Uses |
+|---|---|
+| Willpower (WIL) | 11 |
+| Intellect (INT) | 6 |
+| Combat (COM) | 12 |
+| Agility (AGI) | 8 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 005-006 | King's Talon ×2 | COM/COM |
+| 007-008 | Hound of the Deep ×2 | AGI/AGI |
+| 009-010 | Luck of the Draw ×2 | INT/INT/INT |
+| 021-022 | Premonitions ×2 | AGI/AGI |
+| 031-032 | Overpower ×2 | COM/COM |
+| 033-034 | Guts ×2 | WIL/WIL |

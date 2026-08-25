@@ -273,3 +273,48 @@ The Man in Black/
 ├── 034-Arkham-Underground/
 └── The-Man-in-Black-Card-Data.md
 ```
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 2 |
+| Single icon | 3 |
+| Double icons | 27 |
+| Triple icons | 0 |
+| Total icons | 57 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 17 |
+| Willpower (WIL) | 9 |
+| Intellect (INT) | 7 |
+| Combat (COM) | 11 |
+| Agility (AGI) | 13 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 005-006 | The Saturday Night Special ×2 | COM/COM |
+| 009-010 | The Sure Thing ×2 | COM/WILD |
+| 011-012 | Old Habit ×2 | WIL/WILD |
+| 013 | It's Time | AGI/INT |
+| 014 | Big Tommy | COM/WILD |
+| 015 | Old Man Winters | WIL/WILD |
+| 016-017 | 5 Card Stud ×2 | WILD/WILD |
+| 018-019 | Point Blank ×2 | COM/COM |
+| 020 | Arkham Underground | AGI/INT |
+| 021 | Informant | INT/INT |
+| 022-023 | Lights Out ×2 | WIL/INT |
+| 024-025 | Not My Problem ×2 | WIL/WILD |
+| 026-027 | Casing the Joint ×2 | AGI/AGI |
+| 028-029 | Up The Sleeve ×2 | AGI/AGI |
+| 030 | Trap Door | AGI/AGI |
+| 032-033 | Pray for Me Father ×2 | WIL/WILD |
+| 034 | Arkham Underground | AGI/INT |

@@ -268,3 +268,40 @@ spend 1 charge: Deal 2 damage to
 each enemy at your location.
 ```
 *Flavor: "He calls it a solution. Everyone else calls it terrifying."*
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 32 |
+| No icon | 1 |
+| Single icon | 13 |
+| Double icons | 14 |
+| Triple icons | 4 |
+| Total icons | 53 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 13 |
+| Willpower (WIL) | 6 |
+| Intellect (INT) | 15 |
+| Combat (COM) | 5 |
+| Agility (AGI) | 14 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 007-008 | Clank Clank It's A Tank ×2 | AGI/AGI/AGI |
+| 012-013 | Tinker The Future ×2 | WIL/INT |
+| 014-015 | Mechanical Contraption ×2 | COM/COM |
+| 021-022 | No Stone Unturned ×2 | INT/INT |
+| 025-026 | Cunning Intellect ×2 | AGI/AGI |
+| 027-028 | Guts ×2 | WIL/WIL |
+| 029-030 | Perception ×2 | INT/INT |
+| 031-032 | Reckless Mechanisms ×2 | WILD/WILD/WILD |
+| 033-034 | Unexpected Courage ×2 | WILD/WILD |

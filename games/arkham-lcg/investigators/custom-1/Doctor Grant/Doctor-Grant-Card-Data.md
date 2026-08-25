@@ -359,3 +359,41 @@ additional card. Shuffle your deck.
 | **Pack Name** | Doctor Allen Grant Investigator Pack |
 | **Pack Code** | RYP-DG |
 | **Investigator** | 001 Doctor Allen Grant |
+
+---
+
+## Skill Icon Audit (EON-verified 2026-08-23)
+
+Extracted programmatically from the `Skill1`–`Skill6` properties stored inside each card's `.eon` file.
+
+| Metric | Value |
+|---|---|
+| Deck cards scanned | 34 |
+| No icon | 1 |
+| Single icon | 15 |
+| Double icons | 18 |
+| Triple icons | 0 |
+| Total icons | 51 |
+
+| Icon type | Uses |
+|---|---|
+| Wild (WILD) | 10 |
+| Willpower (WIL) | 5 |
+| Intellect (INT) | 22 |
+| Combat (COM) | 14 |
+
+**Multi-icon cards**
+
+| # | Card | Icons |
+|---|---|---|
+| 002 | The Entrenching Shovel | COM/INT |
+| 003 | The Field Journal | INT/INT |
+| 005-006 | Tool Kit ×2 | WILD/WILD |
+| 014 | Celaeno Fragments | INT/INT |
+| 015 | Arcane Enlightenment | WIL/INT |
+| 019-020 | "I've Got a Plan!" ×2 | INT/INT |
+| 025-026 | Webley Mk VI ×2 | COM/COM |
+| 027-028 | Guts ×2 | WIL/WIL |
+| 029-030 | Perception ×2 | INT/INT |
+| 033-034 | Unexpected Courage ×2 | WILD/WILD |
+| 035-036 | Let's Dig ×2 | COM/COM |
