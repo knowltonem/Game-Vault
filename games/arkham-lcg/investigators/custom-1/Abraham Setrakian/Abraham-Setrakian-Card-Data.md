@@ -407,8 +407,10 @@ investigator may immediately disengage
 from each other enemy engaged with
 him or her, and may move to a
 connecting location.
+If there are no enemies at your
+location, draw 2 cards.
 ```
-*Matches official card (ArkhamDB #01081).*
+*Base rules match official card (ArkhamDB #01081); final clause is a custom addition.*
 
 ---
 
