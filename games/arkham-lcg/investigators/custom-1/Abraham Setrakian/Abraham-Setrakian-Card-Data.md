@@ -398,7 +398,7 @@ resources instead.
 | **Type** | Skill |
 | **Class** | Survivor |
 | **Traits** | Innate. |
-| **Icons** | `<agi>` |
+| **Icons** | `<agi><agi>` |
 
 ```
 If this skill test is successful during

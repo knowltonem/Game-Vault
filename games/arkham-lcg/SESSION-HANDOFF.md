@@ -39,7 +39,7 @@ _Generated from active session — drop into new chat to resume_
 ### Still to build in Strange Eons (033–035):
 | # | Card | Icons |
 |---|---|---|
-| 033-034 | Survival Instinct ×2 | AGI |
+| 033-034 | Survival Instinct ×2 | AGI/AGI |
 | 035 | Speculum Veritatis ×1 | INT |
 
 ### RESOLVED
