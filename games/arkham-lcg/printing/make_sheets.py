@@ -286,6 +286,7 @@ def main():
     parser = argparse.ArgumentParser(description="Arkham LCG Print Sheet Generator")
     parser.add_argument("--pack", help="Pack folder name (e.g. 'Nix the Puritan')")
     parser.add_argument("--all", action="store_true", help="Process all investigator packs")
+    parser.add_argument("--test", action="store_true", help="Generate sampler test sheet with one 001 card per pack")
     parser.add_argument("--template", action="store_true", help="Generate minimal ink test template with card outlines and numbers only")
     parser.add_argument("--output", default="./print_output", help="Output directory")
     args = parser.parse_args()
