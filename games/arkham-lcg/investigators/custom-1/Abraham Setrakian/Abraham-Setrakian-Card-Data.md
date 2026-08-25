@@ -377,12 +377,13 @@ If this test is successful, take 1 damage.
 ---
 
 ### 031-032 — Pick Pocket ×2
-- **Type:** Skill | **Class:** Survivor | **Icons:** `<wil>`
+- **Type:** Skill | **Class:** Survivor | **Traits:** Practiced. | **Icons:** `<wil>`
 
 ```
-If this test is successful: Return a card
-from your discard pile to your hand.
+Max 1 committed per skill test.
+If this test is successful, draw 1 card.
 ```
+*Modeled after Overpower (Core Set #01091).*
 
 ---
 
