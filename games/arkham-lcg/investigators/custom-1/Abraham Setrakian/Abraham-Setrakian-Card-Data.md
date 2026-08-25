@@ -386,6 +386,7 @@ If this test is successful, gain 1 resource.
 If you succeed by 2 or more, gain 2
 resources instead.
 ```
+*Flavor: "I'll do what I must."*
 *Modeled after Overpower (Core Set #01091), reworked for resource gain.*
 
 ---
