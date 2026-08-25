@@ -36,7 +36,7 @@ _Generated from active session — drop into new chat to resume_
 | # | Card | Icons |
 |---|---|---|
 | 026-027 | Gut Feeling ×2 | WIL |
-| 028-029 | Unexpected Courage ×2 | WLD/WLD |
+| 028-029 | Unexpected Courage ×2 | WLD |
 | 030 | Cornered ×1 | WLD/WLD/WLD |
 | 031-032 | Pick Pocket ×2 | WIL |
 | 033-034 | Survival Instinct ×2 | — (no icons) |

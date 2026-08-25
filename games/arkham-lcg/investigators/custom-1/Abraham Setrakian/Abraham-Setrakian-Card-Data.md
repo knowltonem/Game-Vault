@@ -345,16 +345,23 @@ Deal 1 damage to each enemy in play.
 ---
 
 ### 026-027 — Gut Feeling ×2
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wil>`
+- **Type:** Skill | **Class:** Neutral | **Traits:** Innate. | **Icons:** `<wil>`
 
 ```
+Max 1 committed per skill test.
 If this test is successful, draw 1 card.
 ```
+*Modeled after Guts (Core Set #01089).*
 
 ---
 
 ### 028-029 — Unexpected Courage ×2
-- **Type:** Skill | **Class:** Neutral | **Icons:** `<wld><wld>`
+- **Type:** Skill | **Class:** Neutral | **Traits:** Innate. | **Icons:** `<wld>`
+
+```
+Max 1 committed per skill test.
+```
+*Matches official card (ArkhamDB #01093).*
 
 ---
 
