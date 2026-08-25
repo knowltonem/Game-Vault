@@ -79,6 +79,10 @@ When the user says "print card", "print [card name]", or "reprint [card]", they 
 copy-paste each field's value straight into Strange Eons without retyping. Output format:
 
 - One field per block.
+- Always print a `Type` field FIRST, ahead of `CardClass` — value is the card type
+  template used in Strange Eons (Asset, Event, Skill, Enemy, Investigator, Treachery,
+  etc.), pulled from the `**Type**` row in Card-Data.md. This was missed on early prints
+  (Crowd Control, Scatter) and the user explicitly asked for it to always be included.
 - The field's real Strange Eons name as a plain-text label line (use the actual field
   name from the lists above — `CardClass` not `Class`, `ResourceCost` not `Cost`,
   `Skill1`/`Skill2` not a combined `Icons` line, `Rules` not `Text`).
